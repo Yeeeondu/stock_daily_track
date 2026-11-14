@@ -1,0 +1,58 @@
+name: Daily update
+
+on:
+  schedule:
+    - cron: "10 7 * * 1-5"   # 일본: 16:10 JST (장 마감 후)
+    - cron: "0 22 * * 1-5"   # 미국: 22:00 UTC = 한국 07:00 (장 마감 후)
+  workflow_dispatch:
+    inputs:
+      market:
+        description: "jp / us / all"
+        required: true
+        default: "all"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 어느 시장을 돌릴지 결정
+        id: m
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "market=${{ inputs.market }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "10 7 * * 1-5" ]; then
+            echo "market=jp" >> "$GITHUB_OUTPUT"
+          else
+            echo "market=us" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 데이터 집계
+        run: python scripts/update.py --market ${{ steps.m.outputs.market }}
+
+      - name: 결과 커밋
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data cache
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "data: ${{ steps.m.outputs.market }} $(date -u +%F)"
+          git pull --rebase
+          git push

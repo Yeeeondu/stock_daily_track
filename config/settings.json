@@ -1,0 +1,14 @@
+{
+  "lookback_days": 252,
+  "min_history_days": 240,
+  "rules": {
+    "high_require_up": true,
+    "high_require_bullish": true,
+    "low_require_down": true,
+    "low_require_bearish": true
+  },
+  "chart_days": 365,
+  "chunk_size": 150,
+  "sleep_sec": 2,
+  "jp_english_names": true
+}
