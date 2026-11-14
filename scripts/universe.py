@@ -12,7 +12,8 @@ import requests
 from industry_map import jp_category, us_category
 
 UA = {"User-Agent": "Mozilla/5.0 (sector-board; GitHub Actions)"}
-JPX_URL = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
+JPX_PAGE = "https://www.jpx.co.jp/markets/statistics-equities/misc/01.html"
+JPX_FALLBACK = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
 SP_PAGES = [
     ("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies", "S&P500"),
     ("https://en.wikipedia.org/wiki/List_of_S%26P_400_companies", "S&P400"),
@@ -20,8 +21,25 @@ SP_PAGES = [
 ]
 
 
+def _jpx_excel_url():
+    """안내 페이지에서 최신 엑셀 링크를 찾는다 (파일 주소가 자주 바뀜)."""
+    import re
+    from urllib.parse import urljoin
+    try:
+        html = requests.get(JPX_PAGE, headers=UA, timeout=60).text
+        links = re.findall(r'href="([^"]+\.xlsx?)"', html)
+        if links:
+            pref = [l for l in links if "data_j" in l] or links
+            return urljoin(JPX_PAGE, pref[0])
+    except Exception as e:  # noqa: BLE001
+        print("JPX 페이지 확인 실패:", e, flush=True)
+    return JPX_FALLBACK
+
+
 def _jp():
-    r = requests.get(JPX_URL, headers=UA, timeout=60)
+    url = _jpx_excel_url()
+    print("JPX 종목목록:", url, flush=True)
+    r = requests.get(url, headers=UA, timeout=60)
     r.raise_for_status()
     df = pd.read_excel(io.BytesIO(r.content), dtype=str)
     df = df[df["市場・商品区分"].fillna("").str.contains("内国株式")]
