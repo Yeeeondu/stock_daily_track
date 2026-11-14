@@ -11,6 +11,26 @@ let INDEX = null;
 let state = { market: 'jp', view: 'newhigh', date: null };
 let current = { day: null, items: new Map() };
 let chart = null;
+const LWC_SRC = [
+  'vendor/lightweight-charts.standalone.production.js',
+  'https://cdn.jsdelivr.net/npm/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js',
+  'https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js',
+];
+let lwcPromise = null;
+function loadLWC() {
+  if (window.LightweightCharts) return Promise.resolve(true);
+  if (lwcPromise) return lwcPromise;
+  lwcPromise = (async () => {
+    for (const src of LWC_SRC) {
+      const ok = await new Promise((res) => { const s = document.createElement('script'); s.src = src; s.onload = () => res(!!window.LightweightCharts); s.onerror = () => { s.remove(); res(false); }; document.head.appendChild(s); });
+      if (ok) return true;
+    }
+    lwcPromise = null;
+    return false;
+  })();
+  return lwcPromise;
+}
+const rgba = (hex, a) => { const h = hex.replace('#', ''); const f = h.length === 3 ? h.split('').map((c) => c + c).join('') : h; const n = parseInt(f.slice(0, 6), 16); return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`; };
 const jcache = new Map();
 
 async function getJSON(path, fresh = false) {
@@ -162,8 +182,14 @@ async function openChart(t) {
   let data;
   try { data = await getJSON(`data/charts/${state.market}/${safe(t)}.json`); }
   catch { box.innerHTML = '<p class="muted">차트 데이터가 없습니다.</p>'; return; }
-  if (!window.LightweightCharts) { box.innerHTML = '<p class="muted">차트 라이브러리를 불러오지 못했습니다.</p>'; return; }
+  if (!(await loadLWC())) { box.innerHTML = '<p class="muted">차트 라이브러리를 불러오지 못했습니다. 네트워크/광고차단 설정을 확인해 주세요.</p>'; return; }
   box.innerHTML = '';
+  try { drawChart(box, data, it); }
+  catch (e) { console.error(e); if (chart) { chart.remove(); chart = null; } box.innerHTML = `<p class="muted">차트 오류: ${esc(e.message || e)}</p>`; }
+}
+
+function drawChart(box, data, it) {
+  const refLabel = it.kind === 'low' ? '직전 52주 저가' : '직전 52주 고가';
 
   const css = getComputedStyle(document.documentElement);
   const up = css.getPropertyValue('--up').trim(), down = css.getPropertyValue('--down').trim();
@@ -180,7 +206,7 @@ async function openChart(t) {
   cs.setData(data.bars.map((b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] })));
   const vs = chart.addHistogramSeries({ priceScaleId: 'vol', priceFormat: { type: 'volume' }, lastValueVisible: false, priceLineVisible: false });
   chart.priceScale('vol').applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
-  vs.setData(data.bars.map((b) => ({ time: b[0], value: b[5], color: (b[4] >= b[1] ? up : down) + '66' })));
+  vs.setData(data.bars.map((b) => ({ time: b[0], value: b[5], color: rgba(b[4] >= b[1] ? up : down, 0.4) })));
   if (it.ref != null && it.kind !== 'etf') cs.createPriceLine({ price: it.ref, color: fg, lineWidth: 1, lineStyle: 2, axisLabelVisible: true, title: refLabel });
   const day = current.day?.date;
   if (day && it.kind !== 'etf' && data.bars.some((b) => b[0] === day)) {

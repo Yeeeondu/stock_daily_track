@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       market:
-        description: "jp / us / all"
+        description: "jp / us / all / none(사이트 파일만 갱신)"
         required: true
         default: "all"
 
@@ -43,7 +43,18 @@ jobs:
             echo "market=us" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: 차트 라이브러리 내려받기 (없을 때만)
+        run: |
+          f=docs/vendor/lightweight-charts.standalone.production.js
+          if [ ! -s "$f" ]; then
+            mkdir -p docs/vendor
+            curl -fsSL -o "$f" https://cdn.jsdelivr.net/npm/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js \
+              || curl -fsSL -o "$f" https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js
+            ls -l "$f"
+          fi
+
       - name: 데이터 집계
+        if: steps.m.outputs.market != 'none'
         run: python scripts/update.py --market ${{ steps.m.outputs.market }}
 
       - name: 결과 커밋
@@ -51,7 +62,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data cache
+          git add docs/data docs/vendor cache
           if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
           git commit -m "data: ${{ steps.m.outputs.market }} $(date -u +%F)"
           git pull --rebase
