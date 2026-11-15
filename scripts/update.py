@@ -92,7 +92,7 @@ def _pick(raw, t):
     return _clean(sub)
 
 
-def download(tickers, period):
+def download(tickers, period, interval="1d"):
     """yfinance 일괄 다운로드 (묶음 단위, 빠진 종목 최대 2회 재시도). {ticker: DataFrame}"""
     import yfinance as yf
 
@@ -103,7 +103,7 @@ def download(tickers, period):
         for i in range(0, len(todo), size):
             part = todo[i:i + size]
             try:
-                raw = yf.download(part, period=period, interval="1d", group_by="ticker",
+                raw = yf.download(part, period=period, interval=interval, group_by="ticker",
                                   auto_adjust=False, actions=False, threads=True, progress=False)
             except Exception as e:  # noqa: BLE001
                 log("  다운로드 오류:", e)
@@ -191,11 +191,61 @@ def bars_of(df, since=None):
             if not any(pd.isna(v) for v in (r.Open, r.High, r.Low, r.Close))]
 
 
-def write_chart(market, t, name, df):
+def write_chart(market, t, name, df, wk=None):
     cut = df.index[-1] - pd.DateOffset(days=SETTINGS["chart_days"])
-    write_json(DATA / "charts" / market / f"{safe(t)}.json",
-               {"ticker": t, "name": name, "updated": df.index[-1].strftime("%Y-%m-%d"), "bars": bars_of(df, cut)},
-               compact=True)
+    obj = {"ticker": t, "name": name, "updated": df.index[-1].strftime("%Y-%m-%d"), "bars": bars_of(df, cut)}
+    if wk is not None and len(wk):
+        obj["weekly"] = bars_of(wk)
+    write_json(DATA / "charts" / market / f"{safe(t)}.json", obj, compact=True)
+
+
+def weekly(tickers):
+    return download(sorted(tickers), f"{SETTINGS['weekly_years']}y", "1wk") if tickers else {}
+
+
+def rs_ratings(hist, trade_date):
+    """IBD 방식 RS: 최근 3·6·9·12개월 수익률 가중합(최근 3개월 2배)의 백분위 1~99."""
+    sc = {}
+    for t, df in hist.items():
+        c = df["Close"].dropna()
+        if df.index[-1] != trade_date or len(c) < 253:
+            continue
+        r = lambda n: c.iloc[-1] / c.iloc[-1 - n] - 1  # noqa: E731
+        sc[t] = 0.4 * r(63) + 0.2 * r(126) + 0.2 * r(189) + 0.2 * r(252)
+    if not sc:
+        return {}
+    s = pd.Series(sc).rank(pct=True)
+    return {t: int(max(1, min(99, round(v * 99)))) for t, v in s.items()}
+
+
+def fundamentals(tickers, closes):
+    """시가총액·PER·PSR. 주식 수·EPS·매출은 7일간 캐시, 가격은 당일 종가로 계산."""
+    import yfinance as yf
+    cpath = CACHE / "fundamentals.json"
+    cache = read_json(cpath, {})
+    today = dt.date.today()
+    fresh = lambda t: t in cache and (today - dt.date.fromisoformat(cache[t]["at"])).days < 7  # noqa: E731
+    for t in [t for t in tickers if not fresh(t)]:
+        for attempt in range(2):
+            try:
+                i = yf.Ticker(t).info
+                cache[t] = {"at": today.isoformat(), "shares": i.get("sharesOutstanding") or i.get("impliedSharesOutstanding"),
+                            "eps": i.get("trailingEps"), "rev": i.get("totalRevenue"), "mcap": i.get("marketCap")}
+                break
+            except Exception:  # noqa: BLE001
+                time.sleep(15 * (attempt + 1))
+        time.sleep(0.35)
+    write_json(cpath, cache)
+    out = {}
+    for t in tickers:
+        f, px = cache.get(t), closes.get(t)
+        if not f or px is None:
+            continue
+        mcap = f["shares"] * px if f.get("shares") else f.get("mcap")
+        out[t] = {"mcap": mcap,
+                  "per": round(px / f["eps"], 1) if f.get("eps") and f["eps"] > 0 else None,
+                  "psr": round(mcap / f["rev"], 2) if mcap and f.get("rev") and f["rev"] > 0 else None}
+    return out
 
 
 def trade_date_of(hist):
@@ -218,7 +268,7 @@ def top_n(rows, key, n):
 # ---------------------------------------------------------------- 주식 (미국/한국/일본)
 def run_stocks(market):
     log(f"===== {market.upper()} 주식 =====")
-    uni = load_universe(market, CACHE)
+    uni = load_universe(market, CACHE, SETTINGS.get("us_min_mcap", 3e8))
     hist = download(list(uni), "13mo")
     if not hist:
         raise RuntimeError("시세를 하나도 받지 못했습니다")
@@ -249,12 +299,22 @@ def run_stocks(market):
     log(f"신고가 {len(highs)} (역대 {sum(h['ath'] for h in highs)})")
 
     shown = {r["ticker"] for r in highs + top_d1 + top_w1}
+    every = highs + top_d1 + top_w1
     if market == "jp" and SETTINGS.get("jp_english_names"):
         names = english_names(sorted(shown))
-        for r in highs + top_d1 + top_w1:
+        for r in every:
             r["name"] = names.get(r["ticker"], r["name"])
+    if market == "us":
+        rs = rs_ratings(hist, trade_date)
+        fu = fundamentals(sorted(shown), {r["ticker"]: r["close"] for r in every})
+        for r in every:
+            r["rs"] = rs.get(r["ticker"])
+            f = fu.get(r["ticker"], {})
+            r["mcap"] = f.get("mcap") or uni[r["ticker"]].get("mcap")
+            r["per"], r["psr"] = f.get("per"), f.get("psr")
+    wk = weekly(shown)
     for t in shown:
-        write_chart(market, t, uni[t]["name"], hist[t])
+        write_chart(market, t, uni[t]["name"], hist[t], wk.get(t))
 
     write_json(DATA / market / f"{ds}.json", {
         "market": market, "date": ds, "generated_at": now_iso(),
@@ -321,7 +381,7 @@ def run_etf():
         t = e["ticker"]
         h = etf_holdings(t)
         if h:
-            meta.setdefault(t, {})["holdings"] = h
+            meta[t] = {"holdings": h, "at": dt.date.today().isoformat()}
         snaps[t] = etf_shares_snapshot(t)
         time.sleep(0.5)
     write_json(mpath, meta)
@@ -329,27 +389,49 @@ def run_etf():
     uni = load_universe("etf", CACHE)
     for e in watch:
         uni.setdefault(e["ticker"], {"name": e["label"], "sector": "ETF", "industry": "ETF"})
-    hist = download(list(uni), "1mo")
-    trade_date = trade_date_of(hist)
+    full = download(list(uni), "13mo")
+    trade_date = trade_date_of(full)
     ds = trade_date.strftime("%Y-%m-%d")
-    log(f"기준일 {ds} / 시세 {len(hist)}개")
+    log(f"기준일 {ds} / 시세 {len(full)}개")
 
-    rows = []
-    for t, df in hist.items():
-        if df.index[-1] != trade_date or len(df) < 7 or df["Volume"].iloc[-1] == 0:
+    rows, skipped = [], {"lev": 0, "young": 0}
+    for t, df in full.items():
+        if df.index[-1] != trade_date or df["Volume"].iloc[-1] == 0:
             continue
         name = uni.get(t, {}).get("name", t)
-        rows.append({"ticker": t, "name": name, "industry": "레버리지·인버스" if LEVERAGED.search(name) else "",
-                     "lev": bool(LEVERAGED.search(name)), **returns(df)})
+        if LEVERAGED.search(name):
+            skipped["lev"] += 1
+            continue
+        if len(df) < SETTINGS["etf_min_days"]:  # 상장 1년 미만 제외
+            skipped["young"] += 1
+            continue
+        rows.append({"ticker": t, "name": name, **returns(df)})
     n = SETTINGS["top_n"]
-    unlev = [r for r in rows if not r["lev"]]
-    tops = {"top_d1": {"all": top_n(rows, "d1", n), "unlev": top_n(unlev, "d1", n)},
-            "top_w1": {"all": top_n(rows, "w1", n), "unlev": top_n(unlev, "w1", n)}}
+    tops = {"top_d1": top_n(rows, "d1", n), "top_w1": top_n(rows, "w1", n)}
+    log(f"집계 {len(rows)}개 (레버리지·인버스 제외 {skipped['lev']}, 상장 1년 미만 제외 {skipped['young']})")
 
-    shown = {r["ticker"] for v in tops.values() for lst in v.values() for r in lst} | {e["ticker"] for e in watch}
-    full = download(sorted(shown), "13mo")
-    for t, df in full.items():
-        write_chart("etf", t, uni.get(t, {}).get("name", t), df)
+    top_set = {r["ticker"] for v in tops.values() for r in v}
+    shown = top_set | {e["ticker"] for e in watch}
+    wk = weekly(shown)
+    for t in shown:
+        if t in full:
+            write_chart("etf", t, uni.get(t, {}).get("name", t), full[t], wk.get(t))
+
+    # 상승률 상위 ETF 구성종목 (7일 캐시, 요청 제한 대비 잠깐 쉬고 시작)
+    time.sleep(60)
+    today = dt.date.today().isoformat()
+    for t in sorted(top_set):
+        m = meta.get(t, {})
+        if m.get("holdings") and m.get("at", "") >= (dt.date.today() - dt.timedelta(days=7)).isoformat():
+            continue
+        h = etf_holdings(t)
+        if h:
+            meta[t] = {"holdings": h, "at": today}
+        time.sleep(0.6)
+    write_json(mpath, meta)
+    for v in tops.values():
+        for r in v:
+            r["holdings"] = meta.get(r["ticker"], {}).get("holdings", [])
 
     spath = DATA / "etf_shares.json"
     shares = read_json(spath, {})
@@ -370,7 +452,8 @@ def run_etf():
     write_json(spath, shares)
 
     write_json(DATA / "etf" / f"{ds}.json", {"market": "etf", "date": ds, "generated_at": now_iso(),
-                                             "universe": len(uni), "priced": len(rows), **tops, "groups": groups})
+                                             "universe": len(uni), "priced": len(rows), "skipped": skipped,
+                                             **tops, "groups": groups})
     add_index("etf", ds)
     log(f"저장 완료: docs/data/etf/{ds}.json")
 
@@ -386,7 +469,7 @@ def run_macro_us():
     log("===== 미국 거시 지표 =====")
     out = read_json(DATA / "macro" / "us.json", {"series": {}})
     S = out.setdefault("series", {})
-    idx = download(["^DJI", "^IXIC", "^GSPC"], "3y")
+    idx = download(["^DJI", "^IXIC", "^GSPC"], "6y")
     for key, t, label in (("dji", "^DJI", "다우"), ("ixic", "^IXIC", "나스닥"), ("spx", "^GSPC", "S&P 500")):
         if t in idx:
             S[key] = {"label": label, "type": "ohlc", "data": bars_of(idx[t])}
@@ -412,6 +495,16 @@ def run_macro_us():
                     d = dt.datetime.fromtimestamp(p["x"] / 1000, dt.timezone.utc).strftime("%Y-%m-%d")
                     old[d] = round(float(p["y"]), 3 if key == "pc" else 1)
                 S[key] = {"label": label, "type": "line", "data": sorted([[d, v] for d, v in old.items()])}
+            try:  # 2011년부터의 과거 기록 (whit3rabbit/fear-greed-data, MIT)
+                import io
+                hcsv = requests.get("https://raw.githubusercontent.com/whit3rabbit/fear-greed-data/main/fear-greed.csv", timeout=60).text
+                hdf = pd.read_csv(io.StringIO(hcsv))
+                old = {d: v for d, v in S["fg"]["data"]}
+                for _, r in hdf.iterrows():
+                    old.setdefault(str(r["Date"])[:10], round(float(r["Fear Greed"]), 1))
+                S["fg"]["data"] = sorted([[d, v] for d, v in old.items()])
+            except Exception as e:  # noqa: BLE001
+                log("공포탐욕 과거 기록 실패:", e)
             fg = j.get("fear_and_greed", {})
             S["fg"]["now"] = {"score": round(fg.get("score", 0), 1), "rating": fg.get("rating", "")}
     except Exception as e:  # noqa: BLE001
@@ -432,7 +525,8 @@ def run_macro_us():
         tr = pd.concat(frames)
         tr["Date"] = pd.to_datetime(tr["Date"], format="%m/%d/%Y")
         tr = tr.sort_values("Date").drop_duplicates("Date")
-        for key, col, label in (("ust2", "2 Yr", "미국 국채 2년"), ("ust10", "10 Yr", "미국 국채 10년"), ("ust30", "30 Yr", "미국 국채 30년")):
+        for key, col, label in (("ust2", "2 Yr", "미국 국채 2년"), ("ust5", "5 Yr", "미국 국채 5년"), ("ust10", "10 Yr", "미국 국채 10년"),
+                                ("ust20", "20 Yr", "미국 국채 20년"), ("ust30", "30 Yr", "미국 국채 30년")):
             d = tr[["Date", col]].dropna()
             S[key] = {"label": label, "type": "line", "unit": "%",
                       "data": [[r.Date.strftime("%Y-%m-%d"), float(r[col])] for _, r in d.iterrows()]}

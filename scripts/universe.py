@@ -174,10 +174,10 @@ def _etf():
     return out
 
 
-def load_universe(market: str, cache_dir: Path):
+def load_universe(market: str, cache_dir: Path, us_min_mcap=3e8):
     path = cache_dir / f"universe_{market}.json"
     try:
-        uni = {"jp": _jp, "us": _us, "kr": _kr, "etf": _etf}[market]()
+        uni = _us(us_min_mcap) if market == "us" else {"jp": _jp, "kr": _kr, "etf": _etf}[market]()
         if len(uni) < 300:
             raise RuntimeError(f"종목 수가 너무 적음: {len(uni)}")
         path.write_text(json.dumps(uni, ensure_ascii=False, indent=0), "utf-8")

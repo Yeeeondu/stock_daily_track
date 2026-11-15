@@ -27,6 +27,7 @@ const fmtDate = (d) => { const [y, m, dd] = d.split('-'); return `${y}.${m}.${dd
 const fp = (v, d = 2) => (v == null ? '–' : `${v > 0 ? '+' : ''}${v.toFixed(d)}%`);
 const cls = (v) => (v == null ? '' : v > 0 ? 'up' : v < 0 ? 'down' : '');
 const fnum = (v, d) => (v == null ? '–' : v.toLocaleString('ko-KR', { minimumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2), maximumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2) }));
+const fcap = (v) => (v >= 1e12 ? `$${(v / 1e12).toFixed(2)}T` : v >= 1e9 ? `$${(v / 1e9).toFixed(1)}B` : `$${Math.round(v / 1e6)}M`);
 const code = (t) => t.replace(/\.(T|KS|KQ)$/, '');
 const rgba = (hex, a) => { const h = hex.replace('#', ''); const f = h.length === 3 ? h.split('').map((c) => c + c).join('') : h; const n = parseInt(f.slice(0, 6), 16); return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`; };
 function theme() {
@@ -144,7 +145,7 @@ function rsi(v, n = 14) {
   return out;
 }
 
-function kospiCard(id, s) {
+function maRsiCard(id, s, MA = [[5, '#e5489b'], [20, '#f0a020'], [60, '#2fa84f'], [120, '#8a8a95']], ranges = ['3M', '6M', '1Y', '3Y'], def = '1Y') {
   const card = document.getElementById(id); if (!card || !s) return;
   cardHeader(card, s.data);
   const th = theme();
@@ -152,7 +153,6 @@ function kospiCard(id, s) {
   const cs = main.addCandlestickSeries({ upColor: th.up, downColor: th.down, wickUpColor: th.up, wickDownColor: th.down, borderVisible: false, priceLineVisible: false });
   const d = s.data, closes = d.map((b) => b[4]);
   cs.setData(d.map((b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] })));
-  const MA = [[5, '#e5489b'], [20, '#f0a020'], [60, '#2fa84f'], [120, '#8a8a95']];
   MA.forEach(([n, color]) => {
     const m = sma(closes, n);
     main.addLineSeries({ color, lineWidth: 1, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false })
@@ -172,7 +172,7 @@ function kospiCard(id, s) {
   let busy = false;
   const link = (a, b) => a.timeScale().subscribeVisibleLogicalRangeChange((lr) => { if (busy || !lr) return; busy = true; b.timeScale().setVisibleLogicalRange(lr); busy = false; });
   link(main, rc); link(rc, main);
-  bindRanges($('.ranges', card), main, d, ['3M', '6M', '1Y', '3Y'], '3Y');
+  bindRanges($('.ranges', card), main, d, ranges, def);
   const lastR = r.at(-1);
   $('.legend', card).innerHTML = MA.map(([n, c]) => `<span><i style="background:${c}"></i>${n}일선</span>`).join('') +
     `<span><i style="background:#f07f20"></i>RSI(14) ${lastR != null ? lastR.toFixed(1) : '–'}</span>`;
@@ -201,10 +201,12 @@ function fundsCard(id, dep, cre) {
 function rowHTML(it, i, metric, extra = '') {
   const ind = it.industry ? `<span class="ind">(${esc(it.industry)})</span>` : '';
   const tags = (it.ath ? '<span class="tag ath">역대</span>' : '') + (it.small ? '<span class="tag">소형</span>' : '');
+  const meta = [it.rs != null ? `RS ${it.rs}` : '', it.mcap ? `시총 ${fcap(it.mcap)}` : '', it.per != null ? `PER ${it.per}` : '', it.psr != null ? `PSR ${it.psr}` : ''].filter(Boolean).join(' · ');
+  const hold = it.holdings !== undefined;
   return `<button class="lrow" data-i="${i}" title="${esc(it.name)} ${esc(it.industry || '')}">
-    <span class="rk">${extra || `${i + 1}위`}</span>
-    <span class="nm"><b>${esc(it.name)}</b>${tags}${ind}</span>
-    <span class="pc ${cls(it[metric])}">${fp(it[metric])}</span></button>`;
+    <span class="rk">${hold ? '<span class="caret">▶</span>' : ''}${extra || `${i + 1}위`}</span>
+    <span class="nm"><b>${esc(it.name)}</b>${hold ? `<span class="ind">${esc(it.ticker)}</span>` : ''}${tags}${ind}${meta ? `<span class="meta">${meta}</span>` : ''}</span>
+    <span class="pc ${cls(it[metric])}">${fp(it[metric])}</span></button>${hold ? `<div class="hwrap" data-h="${i}" hidden>${holdsHTML(it)}</div>` : ''}`;
 }
 const detailHTML = () => `<div class="detail"><div class="dhead"><div><div class="dname"></div><div class="dsub"></div></div><div class="dprice"><div class="v"></div><div class="c"></div></div></div>
   <div class="ranges" style="justify-content:flex-start;margin-top:8px"></div><div class="dbox"></div><div class="dextra"></div><div class="dlinks"></div></div>`;
@@ -220,7 +222,12 @@ function bindPanel(id, items, opts) {
   const el = document.getElementById(id); if (!el) return;
   const p = { items, opts, chart: null, seq: 0 };
   panels.set(id, p);
-  $('.list', el).onclick = (e) => { const r = e.target.closest('.lrow'); if (r) selectItem(id, Number(r.dataset.i)); };
+  $('.list', el).onclick = (e) => {
+    const r = e.target.closest('.lrow'); if (!r) return;
+    const i = Number(r.dataset.i); const h = el.querySelector(`[data-h="${i}"]`);
+    if (h) { h.hidden = !h.hidden; const c = $('.caret', r); if (c) c.textContent = h.hidden ? '▶' : '▼'; }
+    selectItem(id, i);
+  };
   if (items.length) selectItem(id, 0);
 }
 
@@ -255,8 +262,21 @@ async function selectItem(id, i) {
     ch.priceScale('vol').applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
     vs.setData(data.bars.map((b) => ({ time: b[0], value: b[5], color: rgba(b[4] >= b[1] ? th.up : th.down, 0.35) })));
     if (it.ref != null) cs.createPriceLine({ price: it.ref, color: th.muted, lineWidth: 1, lineStyle: 2, axisLabelVisible: true, title: '직전 52주 고가' });
-    const bars = data.bars.map((b) => [b[0]]);
-    bindRanges($('.ranges', det), ch, bars, ['1M', '3M', '6M', '1Y'], p.opts.defRange || '6M');
+    const wk = data.weekly || [];
+    const keys = ['1M', '3M', '6M', '1Y', ...(wk.length > 60 ? ['3Y'] : []), ...(wk.length > 160 ? ['5Y'] : [])];
+    let mode = 'd';
+    const toC = (b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] });
+    const toV = (b) => ({ time: b[0], value: b[5], color: rgba(b[4] >= b[1] ? th.up : th.down, 0.35) });
+    const apply = (k) => {
+      const w = k === '3Y' || k === '5Y';
+      if (w && mode !== 'w') { cs.setData(wk.map(toC)); vs.setData(wk.map(toV)); mode = 'w'; }
+      if (!w && mode !== 'd') { cs.setData(data.bars.map(toC)); vs.setData(data.bars.map(toV)); mode = 'd'; }
+      setRange(ch, (w ? wk : data.bars).map((b) => [b[0]]), RANGES[k]);
+    };
+    const rb = $('.ranges', det); const def = p.opts.defRange || '6M';
+    rb.innerHTML = keys.map((k) => `<button data-k="${k}" class="${k === def ? 'on' : ''}">${k}${k === '3Y' || k === '5Y' ? '<span class="small"> 주봉</span>' : ''}</button>`).join('');
+    rb.onclick = (e) => { const b = e.target.closest('button'); if (!b) return; rb.querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b)); apply(b.dataset.k); };
+    apply(def);
   } catch (e) { console.error(e); box.innerHTML = `<p class="muted small">차트 오류: ${esc(e.message || e)}</p>`; }
 }
 RANGES['1M'] = 1;
@@ -300,19 +320,20 @@ async function pageUS(day) {
   const mac = await getJSON('data/macro/us.json').catch(() => null);
   const S = mac?.series || {};
   const fgNow = S.fg?.now ? `<span class="badge">${esc(FG_KO[S.fg.now.rating] || S.fg.now.rating)}</span>` : '';
-  let html = `<h2 class="sec">지수</h2><div class="grid">${cardHTML('c-dji', '다우존스')}${cardHTML('c-ixic', '나스닥 종합')}${cardHTML('c-spx', 'S&P 500')}</div>
+  const RSI_BOX = '<div class="rsibox"></div><div class="legend"></div>';
+  let html = `<h2 class="sec">지수</h2><div class="grid">${cardHTML('c-dji', '다우존스 (일봉 · 이동평균 · RSI)', true, RSI_BOX)}${cardHTML('c-ixic', '나스닥 종합 (일봉 · 이동평균 · RSI)', true, RSI_BOX)}${cardHTML('c-spx', 'S&P 500 (일봉 · 이동평균 · RSI)', true, RSI_BOX)}</div>
     <h2 class="sec">심리 · 변동성</h2><div class="grid">${cardHTML('c-vix', 'VIX (변동성지수)')}${cardHTML('c-fg', '공포탐욕지수 <span class="small muted">CNN</span>')}${cardHTML('c-pc', 'Put/Call 비율 <span class="small muted">5일 평균</span>')}</div>
-    <h2 class="sec">미국 국채 금리</h2><div class="grid">${cardHTML('c-u2', '2년물')}${cardHTML('c-u10', '10년물')}${cardHTML('c-u30', '30년물')}</div>`;
+    <h2 class="sec">미국 국채 금리</h2><div class="grid">${cardHTML('c-u2', '2년물')}${cardHTML('c-u5', '5년물')}${cardHTML('c-u10', '10년물')}${cardHTML('c-u20', '20년물')}${cardHTML('c-u30', '30년물')}</div>`;
   html += stockSections(day, 'us');
   $('#main').innerHTML = html;
   const th = theme();
-  ohlcCard('c-dji', S.dji); ohlcCard('c-ixic', S.ixic); ohlcCard('c-spx', S.spx);
-  lineCard('c-vix', S.vix, { color: th.up, def: '3Y', bands: [20, 30] });
-  lineCard('c-fg', S.fg, { color: th.accent, dec: 1, def: '3Y', ranges: ['3M', '6M', '1Y', '3Y', '전체'], bands: [25, 50, 75], badge: fgNow });
-  lineCard('c-pc', S.pc, { color: '#8a5cf6', dec: 3, def: '1Y', ranges: ['3M', '6M', '1Y', '3Y', '전체'], bands: [1] });
-  lineCard('c-u2', S.ust2, { color: '#2fa84f', unit: '%', bp: true, def: '3Y' });
-  lineCard('c-u10', S.ust10, { color: '#2fa84f', unit: '%', bp: true, def: '3Y' });
-  lineCard('c-u30', S.ust30, { color: '#2fa84f', unit: '%', bp: true, def: '3Y' });
+  const IMA = [[5, '#e5489b'], [20, '#f0a020'], [50, '#2fa84f'], [120, '#8a5cf6'], [200, '#8a8a95']];
+  const IR = ['3M', '6M', '1Y', '3Y', '5Y'];
+  maRsiCard('c-dji', S.dji, IMA, IR, '1Y'); maRsiCard('c-ixic', S.ixic, IMA, IR, '1Y'); maRsiCard('c-spx', S.spx, IMA, IR, '1Y');
+  lineCard('c-vix', S.vix, { color: th.up, def: '1Y', bands: [20, 30] });
+  lineCard('c-fg', S.fg, { color: th.accent, dec: 1, def: '1Y', bands: [25, 50, 75], badge: fgNow });
+  lineCard('c-pc', S.pc, { color: '#8a5cf6', dec: 3, def: '1Y', bands: [1] });
+  [['c-u2', 'ust2'], ['c-u5', 'ust5'], ['c-u10', 'ust10'], ['c-u20', 'ust20'], ['c-u30', 'ust30']].forEach(([id, k]) => lineCard(id, S[k], { color: '#2fa84f', unit: '%', bp: true, def: '1Y' }));
   bindStocks(day, 'us');
 }
 
@@ -323,7 +344,7 @@ async function pageKR(day) {
     <h2 class="sec">증시 자금</h2><div class="grid">${cardHTML('c-funds', '투자자 예탁금 · 신용잔고', true, '<div class="legend"></div>')}</div>`;
   html += stockSections(day, 'kr');
   $('#main').innerHTML = html;
-  kospiCard('c-kospi', S.kospi);
+  maRsiCard('c-kospi', S.kospi, undefined, ['3M', '6M', '1Y', '3Y'], '3Y');
   fundsCard('c-funds', S.deposit, S.credit);
   bindStocks(day, 'kr');
 }
@@ -349,25 +370,25 @@ function holdsHTML(it) {
 
 async function pageETF(day) {
   if (!day) { $('#main').innerHTML = '<div class="empty">아직 ETF 데이터가 없습니다.</div>'; return; }
-  const key = state.lev ? 'all' : 'unlev';
-  const tool = `<div class="toolrow"><label class="toggle"><input type="checkbox" id="unlev" ${state.lev ? '' : 'checked'}> 레버리지·인버스 제외</label>
-    <span class="muted small">미국 상장 ETF ${day.priced?.toLocaleString()}개 중 · ${fmtDate(day.date)} 기준</span></div>`;
+  const sk = day.skipped || {};
+  const tool = `<p class="muted small" style="margin:-4px 0 8px">미국 상장 ETF ${day.priced?.toLocaleString()}개 기준 (레버리지·인버스 ${sk.lev ?? '–'}개, 상장 1년 미만 ${sk.young ?? '–'}개 제외) · ${fmtDate(day.date)} · 이름을 누르면 상위 구성종목 10개</p>`;
+  const tops = (v) => (Array.isArray(v) ? v : v?.unlev || []).map((x) => ({ ...x, holdings: x.holdings || [] }));
+  const d1 = tops(day.top_d1), w1 = tops(day.top_w1);
   const watch = day.groups.flatMap((g) => g.items.map((it) => ({ ...it, group: g.name })));
   let rows = ''; let gi = -1;
   watch.forEach((it, i) => {
     if (it.group !== watch[i - 1]?.group) { gi++; rows += `<div class="lgroup">${esc(it.group)}</div>`; }
     rows += `<button class="lrow" data-i="${i}"><span class="rk"><span class="caret">▶</span></span><span class="nm"><b>${esc(it.label)}</b><span class="ind">${esc(it.ticker)}</span></span><span class="pc ${cls(it.d1)}">${fp(it.d1)}</span></button><div class="hwrap" data-h="${i}" hidden>${holdsHTML(it)}</div>`;
   });
-  $('#main').innerHTML = panelHTML('etf-d1', '일간 상승률 상위', day.top_d1[key], { metric: 'd1', tools: tool })
-    + panelHTML('etf-w1', '주간 상승률 상위', day.top_w1[key], { metric: 'w1' })
+  $('#main').innerHTML = panelHTML('etf-d1', '일간 상승률 상위', d1, { metric: 'd1', tools: tool })
+    + panelHTML('etf-w1', '주간 상승률 상위', w1, { metric: 'w1' })
     + `<h2 class="sec">관심 ETF <span class="n">${watch.length}</span></h2><p class="muted small" style="margin:-4px 0 8px">ETF 이름을 누르면 상위 구성종목 10개가 펼쳐지고, 오른쪽에 차트와 좌수 변동이 나옵니다.</p>
        <div class="panel" id="etf-watch"><div class="list">${rows}</div>${detailHTML()}</div>`;
-  $('#unlev').onchange = (e) => { state.lev = !e.target.checked; render(); };
-  bindPanel('etf-d1', day.top_d1[key], { metric: 'd1', chartMarket: 'etf', defRange: '3M' });
-  bindPanel('etf-w1', day.top_w1[key], { metric: 'w1', chartMarket: 'etf', defRange: '3M' });
+  bindPanel('etf-d1', d1, { metric: 'd1', chartMarket: 'etf', defRange: '1Y' });
+  bindPanel('etf-w1', w1, { metric: 'w1', chartMarket: 'etf', defRange: '1Y' });
   // 관심 ETF: 이름 클릭 → 구성종목 펼침/접기 + 차트
   const el = document.getElementById('etf-watch');
-  panels.set('etf-watch', { items: watch, opts: { metric: 'd1', chartMarket: 'etf', defRange: '6M', extra: etfExtra }, chart: null, seq: 0 });
+  panels.set('etf-watch', { items: watch, opts: { metric: 'd1', chartMarket: 'etf', defRange: '1Y', extra: etfExtra }, chart: null, seq: 0 });
   $('.list', el).onclick = (e) => {
     const r = e.target.closest('.lrow'); if (!r) return;
     const i = Number(r.dataset.i); const h = el.querySelector(`[data-h="${i}"]`);

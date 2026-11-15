@@ -11,5 +11,8 @@
   "chunk_size": 200,
   "sleep_sec": 2,
   "jp_english_names": true,
-  "top_n": 20
+  "top_n": 50,
+  "us_min_mcap": 100000000.0,
+  "etf_min_days": 250,
+  "weekly_years": 5
 }
