@@ -40,7 +40,7 @@ jobs:
           elif [ "${{ github.event.schedule }}" = "10 7 * * 1-5" ]; then
             echo "market=jp,kr,macro_kr" >> "$GITHUB_OUTPUT"
           else
-            echo "market=us,etf,macro_us" >> "$GITHUB_OUTPUT"
+            echo "market=etf,macro_us,us" >> "$GITHUB_OUTPUT"
           fi
 
       - name: 차트 라이브러리 내려받기 (없을 때만)

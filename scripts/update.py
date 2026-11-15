@@ -23,7 +23,7 @@ CACHE = ROOT / "cache"
 SETTINGS = json.loads((ROOT / "config" / "settings.json").read_text("utf-8"))
 ETFS = json.loads((ROOT / "config" / "etfs.json").read_text("utf-8"))
 COLS = ["Open", "High", "Low", "Close", "Volume"]
-LEVERAGED = re.compile(r"\b(\d(\.\d+)?x|ultra|ultrapro|leveraged|inverse|bear|daily|bull)\b|\bshort\b(?![ -](term|duration|maturity))", re.I)
+LEVERAGED = re.compile(r"\b(\d(\.\d+)?x|ultra|ultrapro|ultrashort|leveraged|inverse|bear|daily|bull|2x|3x|-1x|-2x|-3x)\b|\bshort\b(?![ -](term|duration|maturity))", re.I)
 
 
 def log(*a):
@@ -274,22 +274,32 @@ def criteria_text():
 # ---------------------------------------------------------------- ETF
 def etf_holdings(t):
     import yfinance as yf
-    try:
-        th = yf.Ticker(t).funds_data.top_holdings
-        if th is None or th.empty:
+    for attempt in range(3):
+        try:
+            th = yf.Ticker(t).funds_data.top_holdings
+            if th is None or th.empty:
+                return []
+            return [{"symbol": str(s), "name": str(r.get("Name", s)), "pct": round(float(r.get("Holding Percent", 0)) * 100, 2)}
+                    for s, r in th.head(10).iterrows()]
+        except Exception as e:  # noqa: BLE001
+            if "Too Many" in str(e) or "Rate" in str(e):
+                time.sleep(20 * (attempt + 1))
+                continue
             return []
-        return [{"symbol": str(s), "name": str(r.get("Name", s)), "pct": round(float(r.get("Holding Percent", 0)) * 100, 2)}
-                for s, r in th.head(10).iterrows()]
-    except Exception:  # noqa: BLE001
-        return []
+    return []
 
 
 def etf_shares_snapshot(t):
     """좌수 추정: sharesOutstanding 이 있으면 그 값, 없으면 순자산 ÷ NAV."""
     import yfinance as yf
-    try:
-        i = yf.Ticker(t).info
-    except Exception:  # noqa: BLE001
+    i = None
+    for attempt in range(3):
+        try:
+            i = yf.Ticker(t).info
+            break
+        except Exception:  # noqa: BLE001
+            time.sleep(20 * (attempt + 1))
+    if not i:
         return None
     so = i.get("sharesOutstanding")
     if so:
@@ -302,8 +312,21 @@ def etf_shares_snapshot(t):
 
 def run_etf():
     log("===== ETF =====")
-    uni = load_universe("etf", CACHE)
     watch = [e for g in ETFS["groups"] for e in g["items"]]
+    # 구성종목·좌수는 대량 다운로드 전에 먼저 받는다 (Yahoo 요청 제한 회피). 실패하면 직전 값 사용.
+    mpath = CACHE / "etf_meta.json"
+    meta = read_json(mpath, {})
+    snaps = {}
+    for e in watch:
+        t = e["ticker"]
+        h = etf_holdings(t)
+        if h:
+            meta.setdefault(t, {})["holdings"] = h
+        snaps[t] = etf_shares_snapshot(t)
+        time.sleep(0.5)
+    write_json(mpath, meta)
+    log(f"구성종목 {sum(bool(meta.get(e['ticker'], {}).get('holdings')) for e in watch)}/{len(watch)}, 좌수 {sum(bool(v) for v in snaps.values())}/{len(watch)}")
+    uni = load_universe("etf", CACHE)
     for e in watch:
         uni.setdefault(e["ticker"], {"name": e["label"], "sector": "ETF", "industry": "ETF"})
     hist = download(list(uni), "1mo")
@@ -336,14 +359,13 @@ def run_etf():
         for e in g["items"]:
             t = e["ticker"]
             df = full.get(t)
-            snap = etf_shares_snapshot(t)
+            snap = snaps.get(t)
             if snap:
                 shares.setdefault(t, {})[ds] = snap
             hs = sorted(shares.get(t, {}).items())[-15:]
             items.append({**e, **(returns(df) if df is not None else {"close": None, "d1": None, "w1": None}),
-                          "name": e["label"], "holdings": etf_holdings(t),
+                          "name": e["label"], "holdings": meta.get(t, {}).get("holdings", []),
                           "shares": [[d, v] for d, v in hs]})
-            time.sleep(0.3)
         groups.append({"name": g["name"], "items": items})
     write_json(spath, shares)
 
@@ -460,8 +482,8 @@ def run_macro_kr():
 
 
 # ---------------------------------------------------------------- 실행
-JOBS = {"us": lambda: run_stocks("us"), "kr": lambda: run_stocks("kr"), "jp": lambda: run_stocks("jp"),
-        "etf": run_etf, "macro_us": run_macro_us, "macro_kr": run_macro_kr}
+JOBS = {"etf": run_etf, "macro_us": run_macro_us, "macro_kr": run_macro_kr,
+        "us": lambda: run_stocks("us"), "kr": lambda: run_stocks("kr"), "jp": lambda: run_stocks("jp")}
 
 
 def main():
