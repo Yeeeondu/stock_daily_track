@@ -1,0 +1,1181 @@
+{
+ "market": "etf",
+ "date": "2026-11-13",
+ "generated_at": "2026-11-15T14:15:18+00:00",
+ "universe": 5804,
+ "priced": 5779,
+ "top_d1": {
+  "all": [
+   {
+    "ticker": "CBRG",
+    "name": "Leverage Shares 2X Long CBRS Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 0.85,
+    "d1": 21.43,
+    "w1": 44.07
+   },
+   {
+    "ticker": "CBRX",
+    "name": "Tradr 2X Long CBRS Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 2.55,
+    "d1": 20.85,
+    "w1": 42.46
+   },
+   {
+    "ticker": "NBIZ",
+    "name": "Tradr 2X Short NBIS Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 47.31,
+    "d1": 20.08,
+    "w1": -0.04
+   },
+   {
+    "ticker": "DAMD",
+    "name": "Defiance Daily Target 2X Short AMD ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 8.18,
+    "d1": 18.21,
+    "w1": -36.59
+   },
+   {
+    "ticker": "IREZ",
+    "name": "Tradr 2X Short IREN Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 27.26,
+    "d1": 13.87,
+    "w1": 35.49
+   },
+   {
+    "ticker": "RGTZ",
+    "name": "Defiance Daily Target 2x Short RGTI ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 25.68,
+    "d1": 13.38,
+    "w1": 33.89
+   },
+   {
+    "ticker": "CORD",
+    "name": "T-REX 2X Inverse CRWV Daily Target ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 4.14,
+    "d1": 12.81,
+    "w1": -42.18
+   },
+   {
+    "ticker": "IONZ",
+    "name": "Defiance Daily Target 2x Short IONQ ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 27.93,
+    "d1": 12.76,
+    "w1": 17.21
+   },
+   {
+    "ticker": "ASTN",
+    "name": "Defiance Daily Target 2X Short ASTS ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 38.35,
+    "d1": 12.46,
+    "w1": -13.57
+   },
+   {
+    "ticker": "COHQ",
+    "name": "Tradr 2X Short COHR Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 30.96,
+    "d1": 12.17,
+    "w1": -32.21
+   },
+   {
+    "ticker": "MWHS",
+    "name": "Skylar Electricity Futures ETF",
+    "industry": "",
+    "lev": false,
+    "close": 23.0,
+    "d1": 11.87,
+    "w1": 11.87
+   },
+   {
+    "ticker": "EO",
+    "name": "Corgi EOSE 2x Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 1.36,
+    "d1": 11.48,
+    "w1": 13.33
+   },
+   {
+    "ticker": "APLZ",
+    "name": "Tradr 2X Short APLD Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 35.2,
+    "d1": 11.39,
+    "w1": -11.56
+   },
+   {
+    "ticker": "SOXS",
+    "name": "Direxion Daily Semiconductor Bear 3X ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 50.78,
+    "d1": 11.07,
+    "w1": -28.43
+   },
+   {
+    "ticker": "AAOZ",
+    "name": "Tradr 2X Short AAOI Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 29.1,
+    "d1": 11.03,
+    "w1": -10.85
+   },
+   {
+    "ticker": "SNDQ",
+    "name": "Tradr 2X Short SNDK Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 26.88,
+    "d1": 11.03,
+    "w1": -18.67
+   },
+   {
+    "ticker": "INJC",
+    "name": "Canary Staked INJ ETF",
+    "industry": "",
+    "lev": false,
+    "close": 26.03,
+    "d1": 10.2,
+    "w1": -3.23
+   },
+   {
+    "ticker": "UNX",
+    "name": "Tradr 2X Long U Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 33.87,
+    "d1": 10.12,
+    "w1": 4.26
+   },
+   {
+    "ticker": "EOSU",
+    "name": "T-REX 2X Long EOSE Daily Target ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 1.31,
+    "d1": 10.08,
+    "w1": 12.93
+   },
+   {
+    "ticker": "BEZ",
+    "name": "Tradr 2X Short BE Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 6.69,
+    "d1": 10.03,
+    "w1": -27.75
+   }
+  ],
+  "unlev": [
+   {
+    "ticker": "MWHS",
+    "name": "Skylar Electricity Futures ETF",
+    "industry": "",
+    "lev": false,
+    "close": 23.0,
+    "d1": 11.87,
+    "w1": 11.87
+   },
+   {
+    "ticker": "INJC",
+    "name": "Canary Staked INJ ETF",
+    "industry": "",
+    "lev": false,
+    "close": 26.03,
+    "d1": 10.2,
+    "w1": -3.23
+   },
+   {
+    "ticker": "SBIT",
+    "name": "ProShares UltraShort Bitcoin ETF",
+    "industry": "",
+    "lev": false,
+    "close": 43.5,
+    "d1": 7.17,
+    "w1": 20.37
+   },
+   {
+    "ticker": "SSG",
+    "name": "ProShares UltraShort Semiconductors",
+    "industry": "",
+    "lev": false,
+    "close": 15.98,
+    "d1": 6.89,
+    "w1": -3.33
+   },
+   {
+    "ticker": "BTCK",
+    "name": "7RCC Spot Bitcoin and Carbon Credit Futures ETF",
+    "industry": "",
+    "lev": false,
+    "close": 28.0,
+    "d1": 6.87,
+    "w1": 1.52
+   },
+   {
+    "ticker": "ETHD",
+    "name": "ProShares UltraShort Ether ETF",
+    "industry": "",
+    "lev": false,
+    "close": 42.08,
+    "d1": 6.72,
+    "w1": 28.84
+   },
+   {
+    "ticker": "BWET",
+    "name": "Breakwave Tanker Shipping ETF",
+    "industry": "",
+    "lev": false,
+    "close": 618.68,
+    "d1": 6.29,
+    "w1": -8.55
+   },
+   {
+    "ticker": "KOLD",
+    "name": "ProShares UltraShort Bloomberg Natural Gas",
+    "industry": "",
+    "lev": false,
+    "close": 28.63,
+    "d1": 6.15,
+    "w1": -11.22
+   },
+   {
+    "ticker": "ZSL",
+    "name": "ProShares UltraShort Silver",
+    "industry": "",
+    "lev": false,
+    "close": 40.34,
+    "d1": 4.48,
+    "w1": 12.52
+   },
+   {
+    "ticker": "REW",
+    "name": "ProShares UltraShort Technology",
+    "industry": "",
+    "lev": false,
+    "close": 13.13,
+    "d1": 4.04,
+    "w1": -6.81
+   },
+   {
+    "ticker": "METW",
+    "name": "Roundhill META WeeklyPay ETF",
+    "industry": "",
+    "lev": false,
+    "close": 24.04,
+    "d1": 3.59,
+    "w1": 5.26
+   },
+   {
+    "ticker": "PFIX",
+    "name": "Simplify Interest Rate Hedge ETF",
+    "industry": "",
+    "lev": false,
+    "close": 59.27,
+    "d1": 3.11,
+    "w1": 8.85
+   },
+   {
+    "ticker": "NRR",
+    "name": "Common Shares of Beneficial Interest of Bitwise NEAR ETF",
+    "industry": "",
+    "lev": false,
+    "close": 18.48,
+    "d1": 2.78,
+    "w1": -4.55
+   },
+   {
+    "ticker": "XVMT",
+    "name": "FT Vest META & Target Income ETF",
+    "industry": "",
+    "lev": false,
+    "close": 26.07,
+    "d1": 2.76,
+    "w1": 4.61
+   },
+   {
+    "ticker": "BHDG",
+    "name": "Nicholas Bitcoin Tail ETF",
+    "industry": "",
+    "lev": false,
+    "close": 24.71,
+    "d1": 2.74,
+    "w1": 9.92
+   },
+   {
+    "ticker": "UX",
+    "name": "Roundhill Uranium ETF",
+    "industry": "",
+    "lev": false,
+    "close": 26.98,
+    "d1": 2.72,
+    "w1": -0.74
+   },
+   {
+    "ticker": "NVOH",
+    "name": "Novo Nordisk A/S B Shares ADRhedged",
+    "industry": "",
+    "lev": false,
+    "close": 23.8,
+    "d1": 2.67,
+    "w1": 3.93
+   },
+   {
+    "ticker": "QID",
+    "name": "ProShares UltraShort QQQ",
+    "industry": "",
+    "lev": false,
+    "close": 15.33,
+    "d1": 2.61,
+    "w1": -7.15
+   },
+   {
+    "ticker": "XYZY",
+    "name": "YieldMax XYZ Option Income Strategy ETF",
+    "industry": "",
+    "lev": false,
+    "close": 24.42,
+    "d1": 2.54,
+    "w1": -1.99
+   },
+   {
+    "ticker": "FBY",
+    "name": "YieldMax META Option Income Strategy ETF",
+    "industry": "",
+    "lev": false,
+    "close": 8.2,
+    "d1": 2.5,
+    "w1": 4.19
+   }
+  ]
+ },
+ "top_w1": {
+  "all": [
+   {
+    "ticker": "LUNL",
+    "name": "Defiance Daily Target 2X Long LUNR ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 2.25,
+    "d1": -1.32,
+    "w1": 50.0
+   },
+   {
+    "ticker": "COZX",
+    "name": "Tradr 2X Long CORZ Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 4.89,
+    "d1": 2.52,
+    "w1": 49.54
+   },
+   {
+    "ticker": "CBRG",
+    "name": "Leverage Shares 2X Long CBRS Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 0.85,
+    "d1": 21.43,
+    "w1": 44.07
+   },
+   {
+    "ticker": "TTDU",
+    "name": "T-REX 2X Long TTD Daily Target ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 15.51,
+    "d1": 2.58,
+    "w1": 43.48
+   },
+   {
+    "ticker": "CBRX",
+    "name": "Tradr 2X Long CBRS Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 2.55,
+    "d1": 20.85,
+    "w1": 42.46
+   },
+   {
+    "ticker": "FLYT",
+    "name": "Tradr 2X Long FLY Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 5.23,
+    "d1": -1.51,
+    "w1": 40.97
+   },
+   {
+    "ticker": "OCNL",
+    "name": "T-REX 2X Long DOCN Daily Target ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 8.97,
+    "d1": -8.93,
+    "w1": 39.29
+   },
+   {
+    "ticker": "AMDC",
+    "name": "Corgi AMD 2x Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 18.79,
+    "d1": -16.93,
+    "w1": 37.96
+   },
+   {
+    "ticker": "AVGX",
+    "name": "Defiance Daily Target 2X Long AVGO ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 34.52,
+    "d1": -9.7,
+    "w1": 37.8
+   },
+   {
+    "ticker": "AMUU",
+    "name": "Direxion Daily AMD Bull 2X ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 183.87,
+    "d1": -17.24,
+    "w1": 37.77
+   },
+   {
+    "ticker": "AVGC",
+    "name": "Corgi AVGO 2x Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 18.98,
+    "d1": -9.62,
+    "w1": 37.64
+   },
+   {
+    "ticker": "AVL",
+    "name": "Direxion Daily AVGO Bull 2X ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 32.71,
+    "d1": -9.74,
+    "w1": 37.55
+   },
+   {
+    "ticker": "AVGU",
+    "name": "GraniteShares 2x Long AVGO Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 25.58,
+    "d1": -9.96,
+    "w1": 37.45
+   },
+   {
+    "ticker": "AMDL",
+    "name": "GraniteShares 2x Long AMD Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 51.66,
+    "d1": -17.57,
+    "w1": 37.21
+   },
+   {
+    "ticker": "AVGG",
+    "name": "Leverage Shares 2X Long AVGO Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 20.06,
+    "d1": -9.74,
+    "w1": 37.08
+   },
+   {
+    "ticker": "AMDG",
+    "name": "Leverage Shares 2X Long AMD Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 87.13,
+    "d1": -17.47,
+    "w1": 36.33
+   },
+   {
+    "ticker": "IREZ",
+    "name": "Tradr 2X Short IREN Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 27.26,
+    "d1": 13.87,
+    "w1": 35.49
+   },
+   {
+    "ticker": "ONTX",
+    "name": "Corgi ONTO 2x Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 6.89,
+    "d1": -5.87,
+    "w1": 34.57
+   },
+   {
+    "ticker": "RGTZ",
+    "name": "Defiance Daily Target 2x Short RGTI ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 25.68,
+    "d1": 13.38,
+    "w1": 33.89
+   },
+   {
+    "ticker": "ALA",
+    "name": "Corgi ALAB 2x Daily ETF",
+    "industry": "레버리지·인버스",
+    "lev": true,
+    "close": 4.68,
+    "d1": -4.49,
+    "w1": 33.71
+   }
+  ],
+  "unlev": [
+   {
+    "ticker": "ETHD",
+    "name": "ProShares UltraShort Ether ETF",
+    "industry": "",
+    "lev": false,
+    "close": 42.08,
+    "d1": 6.72,
+    "w1": 28.84
+   },
+   {
+    "ticker": "AMDW",
+    "name": "Roundhill AMD WeeklyPay ETF",
+    "industry": "",
+    "lev": false,
+    "close": 80.74,
+    "d1": -9.82,
+    "w1": 22.0
+   },
+   {
+    "ticker": "AVGW",
+    "name": "Roundhill AVGO WeeklyPay ETF",
+    "industry": "",
+    "lev": false,
+    "close": 29.87,
+    "d1": -5.53,
+    "w1": 20.64
+   },
+   {
+    "ticker": "SBIT",
+    "name": "ProShares UltraShort Bitcoin ETF",
+    "industry": "",
+    "lev": false,
+    "close": 43.5,
+    "d1": 7.17,
+    "w1": 20.37
+   },
+   {
+    "ticker": "XX",
+    "name": "Roundhill S&P 500 Target 10,000 2030 ETF",
+    "industry": "",
+    "lev": false,
+    "close": 19.94,
+    "d1": -3.16,
+    "w1": 19.98
+   },
+   {
+    "ticker": "XVAD",
+    "name": "FT Vest AMD & Target Income ETF",
+    "industry": "",
+    "lev": false,
+    "close": 25.62,
+    "d1": -8.01,
+    "w1": 18.17
+   },
+   {
+    "ticker": "AMDY",
+    "name": "Yieldmax AMD Option Income Strategy ETF",
+    "industry": "",
+    "lev": false,
+    "close": 42.28,
+    "d1": -8.56,
+    "w1": 17.15
+   },
+   {
+    "ticker": "KCHP",
+    "name": "KICK Korea Semiconductor Index ETF",
+    "industry": "",
+    "lev": false,
+    "close": 19.05,
+    "d1": -1.6,
+    "w1": 15.66
+   },
+   {
+    "ticker": "KSMH",
+    "name": "xETFs Korea AI Semiconductor",
+    "industry": "",
+    "lev": false,
+    "close": 20.72,
+    "d1": -1.38,
+    "w1": 13.22
+   },
+   {
+    "ticker": "STHH",
+    "name": "STMicroelectronics NV ADRhedged",
+    "industry": "",
+    "lev": false,
+    "close": 9.9,
+    "d1": 1.24,
+    "w1": 12.9
+   },
+   {
+    "ticker": "CGPT",
+    "name": "VegaShares AI Inference ETF",
+    "industry": "",
+    "lev": false,
+    "close": 14.88,
+    "d1": -1.46,
+    "w1": 12.73
+   },
+   {
+    "ticker": "AIQU",
+    "name": "MicroSectors 3? Long Artificial Intelligence (AI) ETNs",
+    "industry": "",
+    "lev": false,
+    "close": 10.39,
+    "d1": -6.4,
+    "w1": 12.69
+   },
+   {
+    "ticker": "ZSL",
+    "name": "ProShares UltraShort Silver",
+    "industry": "",
+    "lev": false,
+    "close": 40.34,
+    "d1": 4.48,
+    "w1": 12.52
+   },
+   {
+    "ticker": "MRA",
+    "name": "GraniteShares Autocallable MARA ETF",
+    "industry": "",
+    "lev": false,
+    "close": 14.46,
+    "d1": -1.36,
+    "w1": 12.27
+   },
+   {
+    "ticker": "CPU",
+    "name": "Amplify Top 10 Semiconductors ETF",
+    "industry": "",
+    "lev": false,
+    "close": 16.24,
+    "d1": -2.93,
+    "w1": 12.08
+   },
+   {
+    "ticker": "MUIB",
+    "name": "Direxion MU Defined Income Boost ETF",
+    "industry": "",
+    "lev": false,
+    "close": 22.34,
+    "d1": -2.95,
+    "w1": 11.92
+   },
+   {
+    "ticker": "MWHS",
+    "name": "Skylar Electricity Futures ETF",
+    "industry": "",
+    "lev": false,
+    "close": 23.0,
+    "d1": 11.87,
+    "w1": 11.87
+   },
+   {
+    "ticker": "PSI",
+    "name": "Invesco Semiconductors ETF",
+    "industry": "",
+    "lev": false,
+    "close": 114.2,
+    "d1": -4.1,
+    "w1": 10.8
+   },
+   {
+    "ticker": "SPRX",
+    "name": "Spear Alpha ETF",
+    "industry": "",
+    "lev": false,
+    "close": 33.77,
+    "d1": -4.19,
+    "w1": 10.69
+   },
+   {
+    "ticker": "ARMH",
+    "name": "Arm Holdings PLC ADRhedged",
+    "industry": "",
+    "lev": false,
+    "close": 8.27,
+    "d1": -4.07,
+    "w1": 10.29
+   }
+  ]
+ },
+ "groups": [
+  {
+   "name": "지수",
+   "items": [
+    {
+     "ticker": "SPY",
+     "label": "S&P 500",
+     "close": 754.37,
+     "d1": -0.36,
+     "w1": 2.59,
+     "name": "S&P 500",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "QQQ",
+     "label": "나스닥 100",
+     "close": 679.89,
+     "d1": -1.2,
+     "w1": 3.63,
+     "name": "나스닥 100",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "DIA",
+     "label": "다우",
+     "close": 523.15,
+     "d1": 0.13,
+     "w1": 2.13,
+     "name": "다우",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "IWM",
+     "label": "러셀 2000",
+     "close": 277.54,
+     "d1": -0.32,
+     "w1": 1.41,
+     "name": "러셀 2000",
+     "holdings": [],
+     "shares": []
+    }
+   ]
+  },
+  {
+   "name": "미국 섹터",
+   "items": [
+    {
+     "ticker": "XLK",
+     "label": "IT",
+     "close": 170.28,
+     "d1": -2.01,
+     "w1": 3.36,
+     "name": "IT",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "XLY",
+     "label": "경기소비재",
+     "close": 119.98,
+     "d1": -0.4,
+     "w1": 2.04,
+     "name": "경기소비재",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "XLP",
+     "label": "필수소비재",
+     "close": 92.35,
+     "d1": 1.42,
+     "w1": 2.52,
+     "name": "필수소비재",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "XLE",
+     "label": "에너지",
+     "close": 64.96,
+     "d1": 0.98,
+     "w1": 5.42,
+     "name": "에너지",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "XLF",
+     "label": "금융",
+     "close": 58.68,
+     "d1": 0.81,
+     "w1": 2.66,
+     "name": "금융",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "XLV",
+     "label": "헬스케어",
+     "close": 188.85,
+     "d1": 0.54,
+     "w1": 2.19,
+     "name": "헬스케어",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "XLI",
+     "label": "산업재",
+     "close": 168.78,
+     "d1": -0.39,
+     "w1": 3.76,
+     "name": "산업재",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "XLB",
+     "label": "소재",
+     "close": 52.23,
+     "d1": -0.21,
+     "w1": 0.54,
+     "name": "소재",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "XLU",
+     "label": "유틸리티",
+     "close": 44.04,
+     "d1": 0.52,
+     "w1": 2.11,
+     "name": "유틸리티",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "XLRE",
+     "label": "부동산",
+     "close": 44.37,
+     "d1": 0.02,
+     "w1": 0.84,
+     "name": "부동산",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "XLC",
+     "label": "커뮤니케이션",
+     "close": 108.69,
+     "d1": 1.05,
+     "w1": 3.72,
+     "name": "커뮤니케이션",
+     "holdings": [],
+     "shares": []
+    }
+   ]
+  },
+  {
+   "name": "테마",
+   "items": [
+    {
+     "ticker": "SOXX",
+     "label": "반도체",
+     "close": 149.3,
+     "d1": -3.67,
+     "w1": 9.35,
+     "name": "반도체",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "IGV",
+     "label": "소프트웨어",
+     "close": 101.19,
+     "d1": -0.26,
+     "w1": 2.34,
+     "name": "소프트웨어",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "CIBR",
+     "label": "사이버보안 (대형)",
+     "close": 95.04,
+     "d1": -1.47,
+     "w1": 4.39,
+     "name": "사이버보안 (대형)",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "WCBR",
+     "label": "사이버보안 (순수)",
+     "close": 42.94,
+     "d1": -0.91,
+     "w1": 2.83,
+     "name": "사이버보안 (순수)",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "ARKG",
+     "label": "AI 신약·유전체",
+     "close": 43.2,
+     "d1": -2.53,
+     "w1": -4.95,
+     "name": "AI 신약·유전체",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "PPH",
+     "label": "빅파마",
+     "close": 122.65,
+     "d1": 1.11,
+     "w1": 3.21,
+     "name": "빅파마",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "LNGX",
+     "label": "LNG·천연가스",
+     "close": 44.81,
+     "d1": 0.43,
+     "w1": 6.7,
+     "name": "LNG·천연가스",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "JETS",
+     "label": "항공",
+     "close": 28.84,
+     "d1": -0.69,
+     "w1": 0.42,
+     "name": "항공",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "ITA",
+     "label": "방산",
+     "close": 71.51,
+     "d1": -0.31,
+     "w1": 3.67,
+     "name": "방산",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "UFO",
+     "label": "우주",
+     "close": 40.69,
+     "d1": -1.05,
+     "w1": 4.31,
+     "name": "우주",
+     "holdings": [],
+     "shares": []
+    }
+   ]
+  },
+  {
+   "name": "일본 업종 (TOPIX-17)",
+   "items": [
+    {
+     "ticker": "1617.T",
+     "label": "식품",
+     "close": 47270.0,
+     "d1": 1.29,
+     "w1": 1.98,
+     "name": "식품",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1618.T",
+     "label": "에너지자원",
+     "close": 32850.0,
+     "d1": 0.12,
+     "w1": 5.66,
+     "name": "에너지자원",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1619.T",
+     "label": "건설·자재",
+     "close": 43920.0,
+     "d1": 0.99,
+     "w1": 9.96,
+     "name": "건설·자재",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1620.T",
+     "label": "소재·화학",
+     "close": 37310.0,
+     "d1": -0.29,
+     "w1": 8.11,
+     "name": "소재·화학",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1621.T",
+     "label": "의약품",
+     "close": 33600.0,
+     "d1": 0.12,
+     "w1": 5.49,
+     "name": "의약품",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1622.T",
+     "label": "자동차·수송기",
+     "close": 37460.0,
+     "d1": -0.08,
+     "w1": 2.13,
+     "name": "자동차·수송기",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1623.T",
+     "label": "철강·비철",
+     "close": 47150.0,
+     "d1": -2.38,
+     "w1": 3.97,
+     "name": "철강·비철",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1624.T",
+     "label": "기계",
+     "close": 72960.0,
+     "d1": -1.96,
+     "w1": 6.87,
+     "name": "기계",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1625.T",
+     "label": "전기·정밀",
+     "close": 56620.0,
+     "d1": -0.18,
+     "w1": 7.05,
+     "name": "전기·정밀",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1626.T",
+     "label": "정보통신·서비스",
+     "close": 48070.0,
+     "d1": 1.09,
+     "w1": 3.94,
+     "name": "정보통신·서비스",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1627.T",
+     "label": "전력·가스",
+     "close": 12420.0,
+     "d1": 1.02,
+     "w1": 7.91,
+     "name": "전력·가스",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1628.T",
+     "label": "운수·물류",
+     "close": 23570.0,
+     "d1": 1.14,
+     "w1": 5.04,
+     "name": "운수·물류",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1629.T",
+     "label": "상사·도매",
+     "close": 288.0,
+     "d1": 0.14,
+     "w1": 8.43,
+     "name": "상사·도매",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1630.T",
+     "label": "소매",
+     "close": 40790.0,
+     "d1": 1.77,
+     "w1": 5.59,
+     "name": "소매",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1631.T",
+     "label": "은행",
+     "close": 39510.0,
+     "d1": -0.3,
+     "w1": 9.51,
+     "name": "은행",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1632.T",
+     "label": "금융(은행 제외)",
+     "close": 44470.0,
+     "d1": 0.36,
+     "w1": 5.08,
+     "name": "금융(은행 제외)",
+     "holdings": [],
+     "shares": []
+    },
+    {
+     "ticker": "1633.T",
+     "label": "부동산",
+     "close": 52520.0,
+     "d1": 0.81,
+     "w1": 3.88,
+     "name": "부동산",
+     "holdings": [],
+     "shares": []
+    }
+   ]
+  }
+ ]
+}
