@@ -228,9 +228,11 @@ def fundamentals(tickers, closes):
     for t in [t for t in tickers if not fresh(t)]:
         for attempt in range(2):
             try:
-                i = yf.Ticker(t).info
-                cache[t] = {"at": today.isoformat(), "shares": i.get("sharesOutstanding") or i.get("impliedSharesOutstanding"),
-                            "eps": i.get("trailingEps"), "rev": i.get("totalRevenue"), "mcap": i.get("marketCap")}
+                i = yf.Ticker(t).info or {}
+                rec = {"at": today.isoformat(), "shares": i.get("sharesOutstanding") or i.get("impliedSharesOutstanding"),
+                       "eps": i.get("trailingEps"), "rev": i.get("totalRevenue"), "mcap": i.get("marketCap")}
+                if any(rec[k] for k in ("shares", "eps", "rev", "mcap")):  # 빈 응답은 저장하지 않음
+                    cache[t] = rec
                 break
             except Exception:  # noqa: BLE001
                 time.sleep(15 * (attempt + 1))
@@ -306,12 +308,9 @@ def run_stocks(market):
             r["name"] = names.get(r["ticker"], r["name"])
     if market == "us":
         rs = rs_ratings(hist, trade_date)
-        fu = fundamentals(sorted(shown), {r["ticker"]: r["close"] for r in every})
         for r in every:
             r["rs"] = rs.get(r["ticker"])
-            f = fu.get(r["ticker"], {})
-            r["mcap"] = f.get("mcap") or uni[r["ticker"]].get("mcap")
-            r["per"], r["psr"] = f.get("per"), f.get("psr")
+            r["mcap"] = uni[r["ticker"]].get("mcap")
     wk = weekly(shown)
     for t in shown:
         write_chart(market, t, uni[t]["name"], hist[t], wk.get(t))
@@ -417,18 +416,7 @@ def run_etf():
         if t in full:
             write_chart("etf", t, uni.get(t, {}).get("name", t), full[t], wk.get(t))
 
-    # 상승률 상위 ETF 구성종목 (7일 캐시, 요청 제한 대비 잠깐 쉬고 시작)
-    time.sleep(60)
-    today = dt.date.today().isoformat()
-    for t in sorted(top_set):
-        m = meta.get(t, {})
-        if m.get("holdings") and m.get("at", "") >= (dt.date.today() - dt.timedelta(days=7)).isoformat():
-            continue
-        h = etf_holdings(t)
-        if h:
-            meta[t] = {"holdings": h, "at": today}
-        time.sleep(0.6)
-    write_json(mpath, meta)
+    # 상승률 상위 ETF 구성종목은 별도 단계(meta)에서 채움. 여기서는 캐시만 반영.
     for v in tops.values():
         for r in v:
             r["holdings"] = meta.get(r["ticker"], {}).get("holdings", [])
@@ -590,9 +578,52 @@ def run_macro_kr():
     log("저장 완료: docs/data/macro/kr.json")
 
 
+# ---------------------------------------------------------------- 보조 정보 (별도 프로세스에서 실행)
+def run_meta():
+    """대량 다운로드 후에는 Yahoo가 종목 정보 요청을 막는 경우가 있어, 새 프로세스에서 따로 받는다.
+    미국: 시가총액·PER·PSR / ETF: 상승률 상위 ETF 구성종목. 최신 날짜 파일을 보완한다."""
+    log("===== 보조 정보 =====")
+    idx = read_json(DATA / "index.json", {})
+    if idx.get("us"):
+        p = DATA / "us" / f"{idx['us'][0]}.json"
+        day = read_json(p, None)
+        if day:
+            every = day["newhigh"] + day["top_d1"] + day["top_w1"]
+            fu = fundamentals(sorted({r["ticker"] for r in every}), {r["ticker"]: r["close"] for r in every})
+            for r in every:
+                f = fu.get(r["ticker"], {})
+                if f.get("mcap"):
+                    r["mcap"] = f["mcap"]
+                r["per"], r["psr"] = f.get("per"), f.get("psr")
+            write_json(p, day)
+            log(f"미국 재무 정보 {sum(1 for t in fu.values() if t.get('per') or t.get('psr'))}/{len({r['ticker'] for r in every})}")
+    if idx.get("etf"):
+        p = DATA / "etf" / f"{idx['etf'][0]}.json"
+        day = read_json(p, None)
+        if day:
+            mpath = CACHE / "etf_meta.json"
+            meta = read_json(mpath, {})
+            week_ago = (dt.date.today() - dt.timedelta(days=7)).isoformat()
+            tops = [r for k in ("top_d1", "top_w1") for r in day[k]]
+            for t in sorted({r["ticker"] for r in tops}):
+                m = meta.get(t, {})
+                if m.get("holdings") and m.get("at", "") >= week_ago:
+                    continue
+                h = etf_holdings(t)
+                if h:
+                    meta[t] = {"holdings": h, "at": dt.date.today().isoformat()}
+                time.sleep(0.6)
+            write_json(mpath, meta)
+            for r in tops:
+                r["holdings"] = meta.get(r["ticker"], {}).get("holdings", [])
+            write_json(p, day)
+            log(f"ETF 구성종목 {sum(1 for r in tops if r['holdings'])}/{len(tops)}")
+
+
 # ---------------------------------------------------------------- 실행
 JOBS = {"etf": run_etf, "macro_us": run_macro_us, "macro_kr": run_macro_kr,
-        "us": lambda: run_stocks("us"), "kr": lambda: run_stocks("kr"), "jp": lambda: run_stocks("jp")}
+        "us": lambda: run_stocks("us"), "kr": lambda: run_stocks("kr"), "jp": lambda: run_stocks("jp"),
+        "meta": run_meta}
 
 
 def main():
@@ -600,7 +631,7 @@ def main():
     ap.add_argument("--market", default="all")
     a = ap.parse_args()
     CACHE.mkdir(exist_ok=True)
-    targets = list(JOBS) if a.market == "all" else [m.strip() for m in a.market.split(",") if m.strip()]
+    targets = [k for k in JOBS if k != "meta"] if a.market == "all" else [m.strip() for m in a.market.split(",") if m.strip()]
     failed = []
     for m in targets:
         try:

@@ -57,6 +57,11 @@ jobs:
         if: steps.m.outputs.market != 'none'
         run: python scripts/update.py --market "${{ steps.m.outputs.market }}"
 
+      - name: 보조 정보 (미국 PER·PSR, ETF 구성종목)
+        if: steps.m.outputs.market != 'none'
+        continue-on-error: true
+        run: python scripts/update.py --market meta
+
       - name: 결과 커밋
         if: always()
         run: |
