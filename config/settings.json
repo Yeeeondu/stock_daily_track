@@ -8,7 +8,8 @@
     "low_require_bearish": true
   },
   "chart_days": 365,
-  "chunk_size": 150,
+  "chunk_size": 200,
   "sleep_sec": 2,
-  "jp_english_names": true
+  "jp_english_names": true,
+  "top_n": 20
 }

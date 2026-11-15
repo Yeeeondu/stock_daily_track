@@ -154,3 +154,13 @@ def jp_category(s33: str):
 def us_category(sector: str, sub: str):
     sec = GICS_SECTOR.get((sector or "").strip(), (sector or "기타").strip())
     return sec, GICS_SUB.get((sub or "").strip(), (sub or "").strip() or sec)
+
+
+# 나스닥 스크리너 섹터명 → 공통 대분류
+NASDAQ_SECTOR = {
+    "Technology": "IT", "Health Care": "헬스케어", "Finance": "금융",
+    "Consumer Discretionary": "경기소비재", "Consumer Staples": "필수소비재",
+    "Industrials": "산업재", "Energy": "에너지", "Real Estate": "부동산",
+    "Utilities": "유틸리티", "Basic Materials": "소재", "Telecommunications": "커뮤니케이션",
+    "Miscellaneous": "기타",
+}

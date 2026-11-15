@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""매일 실행: 52주/역대 신고가·신저가 + ETF 등락 집계 → docs/data/ 에 JSON 저장.
+"""매일 실행: 시장별 신고가 · 일간/주간 상승률 상위, ETF, 거시 지표 → docs/data/ 에 JSON 저장.
 
-사용법:  python scripts/update.py --market jp|us|all
+사용법:  python scripts/update.py --market us,etf,macro_us   (쉼표로 여러 개)
+대상: us, kr, jp, etf, macro_us, macro_kr, all
 """
 import argparse
 import datetime as dt
@@ -22,6 +23,7 @@ CACHE = ROOT / "cache"
 SETTINGS = json.loads((ROOT / "config" / "settings.json").read_text("utf-8"))
 ETFS = json.loads((ROOT / "config" / "etfs.json").read_text("utf-8"))
 COLS = ["Open", "High", "Low", "Close", "Volume"]
+LEVERAGED = re.compile(r"\b(\d(\.\d+)?x|ultra|ultrapro|leveraged|inverse|bear|daily|bull)\b|\bshort\b(?![ -](term|duration|maturity))", re.I)
 
 
 def log(*a):
@@ -45,13 +47,29 @@ def num(x):
     return round(x, 2) if abs(x) >= 1 else round(x, 4)
 
 
+def now_iso():
+    return dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+
+
+def write_json(path: Path, obj, compact=False):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(obj, ensure_ascii=False, **({"separators": (",", ":")} if compact else {"indent": 1})), "utf-8")
+
+
+def read_json(path: Path, default):
+    try:
+        return json.loads(path.read_text("utf-8"))
+    except Exception:  # noqa: BLE001
+        return default
+
+
 # ---------------------------------------------------------------- 시세 받기
 def _clean(df):
     df = df[[c for c in COLS if c in df.columns]].copy()
     df = df.dropna(subset=["Close"])
     idx = pd.to_datetime(df.index)
     if idx.tz is not None:
-        idx = idx.tz_localize(None)  # 현지 날짜 유지
+        idx = idx.tz_localize(None)
     df.index = idx.normalize()
     return df[~df.index.duplicated(keep="last")].sort_index()
 
@@ -75,12 +93,12 @@ def _pick(raw, t):
 
 
 def download(tickers, period):
-    """yfinance 일괄 다운로드 (묶음 단위, 실패분 1회 재시도). {ticker: DataFrame}"""
+    """yfinance 일괄 다운로드 (묶음 단위, 빠진 종목 최대 2회 재시도). {ticker: DataFrame}"""
     import yfinance as yf
 
     out, todo = {}, list(dict.fromkeys(tickers))
     size = SETTINGS["chunk_size"]
-    for rnd in range(2):
+    for rnd in range(3):
         missing = []
         for i in range(0, len(todo), size):
             part = todo[i:i + size]
@@ -90,7 +108,7 @@ def download(tickers, period):
             except Exception as e:  # noqa: BLE001
                 log("  다운로드 오류:", e)
                 missing += part
-                time.sleep(15)
+                time.sleep(20)
                 continue
             for t in part:
                 sub = _pick(raw, t)
@@ -98,75 +116,58 @@ def download(tickers, period):
                     missing.append(t)
                 else:
                     out[t] = sub
-            log(f"  {period}: {min(i + size, len(todo))}/{len(todo)}")
             time.sleep(SETTINGS["sleep_sec"])
-        if not missing or rnd == 1:
+        log(f"  [{period}] {len(out)}/{len(set(tickers))} (라운드 {rnd + 1})")
+        if not missing or rnd == 2 or len(missing) == len(todo) and rnd > 0:
             break
-        log(f"  재시도 {len(missing)}종목")
         todo = missing
-        time.sleep(20)
+        time.sleep(45)
     return out
 
 
 # ---------------------------------------------------------------- 계산
 def returns(df):
     c = df["Close"].dropna()
-    last, d = c.iloc[-1], c.index[-1]
-    base_m = c[c.index <= d - pd.DateOffset(months=1)]
+    last = c.iloc[-1]
     return {
         "close": num(last),
         "d1": pct(last, c.iloc[-2]) if len(c) > 1 else None,
-        "d5": pct(last, c.iloc[-6]) if len(c) > 5 else None,
-        "m1": pct(last, base_m.iloc[-1]) if len(base_m) else None,
+        "w1": pct(last, c.iloc[-6]) if len(c) > 5 else None,
     }
 
 
-def analyze(df, trade_date):
-    """당일 신고가/신저가 여부 판정. 반환: (kind, ref) 또는 None"""
-    if df.index[-1] != trade_date:
-        return None
+def is_new_high(df):
+    """당일 52주 신고가 여부. 반환: 직전 52주 고가 또는 None"""
     df = df.dropna(subset=["Open", "High", "Low", "Close"])
     if len(df) < SETTINGS["min_history_days"] + 1:
-        return None  # 상장 1년 미만 등 이력 부족
+        return None
     lb, r = SETTINGS["lookback_days"], SETTINGS["rules"]
     t, p = df.iloc[-1], df.iloc[-2]
-    win = df.iloc[-(lb + 1):-1]
-    hi, lo = win["High"].max(), win["Low"].min()
+    hi = df.iloc[-(lb + 1):-1]["High"].max()
     if (t.High > hi and (not r["high_require_up"] or t.Close > p.Close)
             and (not r["high_require_bullish"] or t.Close > t.Open)):
-        return "high", hi
-    if (t.Low < lo and (not r["low_require_down"] or t.Close < p.Close)
-            and (not r["low_require_bearish"] or t.Close < t.Open)):
-        return "low", lo
+        return hi
     return None
 
 
-def all_time_flags(hits, hist, trade_date):
-    """신고가/신저가 종목만 전체 기간 시세를 받아 역대 기록 여부 판정."""
-    if not hits:
+def ath_flags(tickers, hist, trade_date):
+    if not tickers:
         return {}
-    full = download([h["ticker"] for h in hits], "max")
-    flags = {}
-    for h in hits:
-        t = h["ticker"]
+    full = download(tickers, "max")
+    out = {}
+    for t in tickers:
         f = full.get(t)
-        today = hist[t].iloc[-1]
         if f is None or f.empty:
             continue
         prior = f[f.index < trade_date]
-        if prior.empty:
-            continue
-        since = prior.index[0].strftime("%Y-%m-%d")
-        if h["kind"] == "high":
-            flags[t] = (bool(today.High > prior["High"].max()), since)
-        else:
-            flags[t] = (bool(today.Low < prior["Low"].min()), since)
-    return flags
+        if len(prior):
+            out[t] = (bool(hist[t].iloc[-1].High > prior["High"].max()), prior.index[0].strftime("%Y-%m-%d"))
+    return out
 
 
 def english_names(tickers):
     cpath = CACHE / "names.json"
-    cache = json.loads(cpath.read_text("utf-8")) if cpath.exists() else {}
+    cache = read_json(cpath, {})
     need = [t for t in tickers if t not in cache]
     if need:
         import yfinance as yf
@@ -179,111 +180,303 @@ def english_names(tickers):
             except Exception:  # noqa: BLE001
                 pass
             time.sleep(0.4)
-        cpath.write_text(json.dumps(cache, ensure_ascii=False, indent=0, sort_keys=True), "utf-8")
+        write_json(cpath, dict(sorted(cache.items())))
     return cache
 
 
-def write_chart(market, t, name, df, trade_date):
-    cut = trade_date - pd.DateOffset(days=SETTINGS["chart_days"])
-    d = df[df.index >= cut]
-    bars = [[i.strftime("%Y-%m-%d"), num(r.Open), num(r.High), num(r.Low), num(r.Close),
-             0 if pd.isna(r.Volume) else int(r.Volume)] for i, r in d.iterrows()]
-    out = DATA / "charts" / market
-    out.mkdir(parents=True, exist_ok=True)
-    (out / f"{safe(t)}.json").write_text(json.dumps(
-        {"ticker": t, "name": name, "updated": trade_date.strftime("%Y-%m-%d"), "bars": bars},
-        ensure_ascii=False, separators=(",", ":")), "utf-8")
+def bars_of(df, since=None):
+    d = df if since is None else df[df.index >= since]
+    return [[i.strftime("%Y-%m-%d"), num(r.Open), num(r.High), num(r.Low), num(r.Close),
+             0 if pd.isna(r.Volume) else int(r.Volume)] for i, r in d.iterrows()
+            if not any(pd.isna(v) for v in (r.Open, r.High, r.Low, r.Close))]
+
+
+def write_chart(market, t, name, df):
+    cut = df.index[-1] - pd.DateOffset(days=SETTINGS["chart_days"])
+    write_json(DATA / "charts" / market / f"{safe(t)}.json",
+               {"ticker": t, "name": name, "updated": df.index[-1].strftime("%Y-%m-%d"), "bars": bars_of(df, cut)},
+               compact=True)
+
+
+def trade_date_of(hist):
+    return pd.Series([df.index[-1] for df in hist.values()]).mode().max()
+
+
+def add_index(market, ds):
+    ipath = DATA / "index.json"
+    idx = read_json(ipath, {})
+    idx[market] = sorted(set(idx.get(market, [])) | {ds}, reverse=True)
+    idx["updated"] = now_iso()
+    write_json(ipath, idx)
+
+
+def top_n(rows, key, n):
+    rows = [r for r in rows if r.get(key) is not None]
+    return sorted(rows, key=lambda r: -r[key])[:n]
+
+
+# ---------------------------------------------------------------- 주식 (미국/한국/일본)
+def run_stocks(market):
+    log(f"===== {market.upper()} 주식 =====")
+    uni = load_universe(market, CACHE)
+    hist = download(list(uni), "13mo")
+    if not hist:
+        raise RuntimeError("시세를 하나도 받지 못했습니다")
+    trade_date = trade_date_of(hist)
+    ds = trade_date.strftime("%Y-%m-%d")
+    log(f"기준일 {ds} / 시세 {len(hist)}종목")
+
+    rows, highs = [], []
+    for t, df in hist.items():
+        if df.index[-1] != trade_date or len(df) < 7:
+            continue
+        if df["Volume"].iloc[-1] == 0:
+            continue
+        m = uni[t]
+        row = {"ticker": t, "name": m["name"], "name_local": m.get("name_local", ""),
+               "sector": m["sector"], "industry": m["industry"], "small": bool(m.get("small")), **returns(df)}
+        rows.append(row)
+        ref = is_new_high(df)
+        if ref is not None:
+            highs.append({**row, "ref": num(ref)})
+
+    n = SETTINGS["top_n"]
+    top_d1, top_w1 = top_n(rows, "d1", n), top_n(rows, "w1", n)
+    flags = ath_flags([h["ticker"] for h in highs], hist, trade_date)
+    for h in highs:
+        h["ath"], h["since"] = flags.get(h["ticker"], (False, None))
+    highs.sort(key=lambda r: -(r["d1"] or 0))
+    log(f"신고가 {len(highs)} (역대 {sum(h['ath'] for h in highs)})")
+
+    shown = {r["ticker"] for r in highs + top_d1 + top_w1}
+    if market == "jp" and SETTINGS.get("jp_english_names"):
+        names = english_names(sorted(shown))
+        for r in highs + top_d1 + top_w1:
+            r["name"] = names.get(r["ticker"], r["name"])
+    for t in shown:
+        write_chart(market, t, uni[t]["name"], hist[t])
+
+    write_json(DATA / market / f"{ds}.json", {
+        "market": market, "date": ds, "generated_at": now_iso(),
+        "universe": len(uni), "priced": len(rows), "criteria": criteria_text(),
+        "newhigh": highs, "top_d1": top_d1, "top_w1": top_w1,
+    })
+    add_index(market, ds)
+    log(f"저장 완료: docs/data/{market}/{ds}.json")
 
 
 def criteria_text():
     r = SETTINGS["rules"]
     hi = "·".join([x for x, on in (("상승", r["high_require_up"]), ("양봉", r["high_require_bullish"])) if on])
-    lo = "·".join([x for x, on in (("하락", r["low_require_down"]), ("음봉", r["low_require_bearish"])) if on])
-    return {
-        "high": f"{hi + ' 마감 · ' if hi else ''}장중 52주({SETTINGS['lookback_days']}거래일) 고가 돌파",
-        "low": f"{lo + ' 마감 · ' if lo else ''}장중 52주({SETTINGS['lookback_days']}거래일) 저가 이탈",
-    }
+    return f"{hi + ' 마감 · ' if hi else ''}장중 52주({SETTINGS['lookback_days']}거래일) 고가 돌파"
+
+
+# ---------------------------------------------------------------- ETF
+def etf_holdings(t):
+    import yfinance as yf
+    try:
+        th = yf.Ticker(t).funds_data.top_holdings
+        if th is None or th.empty:
+            return []
+        return [{"symbol": str(s), "name": str(r.get("Name", s)), "pct": round(float(r.get("Holding Percent", 0)) * 100, 2)}
+                for s, r in th.head(10).iterrows()]
+    except Exception:  # noqa: BLE001
+        return []
+
+
+def etf_shares_snapshot(t):
+    """좌수 추정: sharesOutstanding 이 있으면 그 값, 없으면 순자산 ÷ NAV."""
+    import yfinance as yf
+    try:
+        i = yf.Ticker(t).info
+    except Exception:  # noqa: BLE001
+        return None
+    so = i.get("sharesOutstanding")
+    if so:
+        return int(so)
+    ta, nav = i.get("totalAssets"), i.get("navPrice")
+    if ta and nav:
+        return int(round(ta / nav, -3))
+    return None
+
+
+def run_etf():
+    log("===== ETF =====")
+    uni = load_universe("etf", CACHE)
+    watch = [e for g in ETFS["groups"] for e in g["items"]]
+    for e in watch:
+        uni.setdefault(e["ticker"], {"name": e["label"], "sector": "ETF", "industry": "ETF"})
+    hist = download(list(uni), "1mo")
+    trade_date = trade_date_of(hist)
+    ds = trade_date.strftime("%Y-%m-%d")
+    log(f"기준일 {ds} / 시세 {len(hist)}개")
+
+    rows = []
+    for t, df in hist.items():
+        if df.index[-1] != trade_date or len(df) < 7 or df["Volume"].iloc[-1] == 0:
+            continue
+        name = uni.get(t, {}).get("name", t)
+        rows.append({"ticker": t, "name": name, "industry": "레버리지·인버스" if LEVERAGED.search(name) else "",
+                     "lev": bool(LEVERAGED.search(name)), **returns(df)})
+    n = SETTINGS["top_n"]
+    unlev = [r for r in rows if not r["lev"]]
+    tops = {"top_d1": {"all": top_n(rows, "d1", n), "unlev": top_n(unlev, "d1", n)},
+            "top_w1": {"all": top_n(rows, "w1", n), "unlev": top_n(unlev, "w1", n)}}
+
+    shown = {r["ticker"] for v in tops.values() for lst in v.values() for r in lst} | {e["ticker"] for e in watch}
+    full = download(sorted(shown), "13mo")
+    for t, df in full.items():
+        write_chart("etf", t, uni.get(t, {}).get("name", t), df)
+
+    spath = DATA / "etf_shares.json"
+    shares = read_json(spath, {})
+    groups = []
+    for g in ETFS["groups"]:
+        items = []
+        for e in g["items"]:
+            t = e["ticker"]
+            df = full.get(t)
+            snap = etf_shares_snapshot(t)
+            if snap:
+                shares.setdefault(t, {})[ds] = snap
+            hs = sorted(shares.get(t, {}).items())[-15:]
+            items.append({**e, **(returns(df) if df is not None else {"close": None, "d1": None, "w1": None}),
+                          "name": e["label"], "holdings": etf_holdings(t),
+                          "shares": [[d, v] for d, v in hs]})
+            time.sleep(0.3)
+        groups.append({"name": g["name"], "items": items})
+    write_json(spath, shares)
+
+    write_json(DATA / "etf" / f"{ds}.json", {"market": "etf", "date": ds, "generated_at": now_iso(),
+                                             "universe": len(uni), "priced": len(rows), **tops, "groups": groups})
+    add_index("etf", ds)
+    log(f"저장 완료: docs/data/etf/{ds}.json")
+
+
+# ---------------------------------------------------------------- 거시 지표
+def series_close(df, since=None):
+    d = df if since is None else df[df.index >= since]
+    return [[i.strftime("%Y-%m-%d"), num(v)] for i, v in d["Close"].items() if not pd.isna(v)]
+
+
+def run_macro_us():
+    import requests
+    log("===== 미국 거시 지표 =====")
+    out = read_json(DATA / "macro" / "us.json", {"series": {}})
+    S = out.setdefault("series", {})
+    idx = download(["^DJI", "^IXIC", "^GSPC"], "3y")
+    for key, t, label in (("dji", "^DJI", "다우"), ("ixic", "^IXIC", "나스닥"), ("spx", "^GSPC", "S&P 500")):
+        if t in idx:
+            S[key] = {"label": label, "type": "ohlc", "data": bars_of(idx[t])}
+    vix = download(["^VIX"], "10y").get("^VIX")
+    if vix is not None:
+        S["vix"] = {"label": "VIX (변동성지수)", "type": "line", "data": series_close(vix)}
+
+    # CNN 공포탐욕지수 · Put/Call (기존 기록과 합쳐서 계속 쌓음)
+    hdr = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
+           "Referer": "https://edition.cnn.com/", "Origin": "https://edition.cnn.com"}
+    try:
+        j = None
+        for start in ("2020-07-01", "2023-01-01"):
+            r = requests.get(f"https://production.dataviz.cnn.io/index/fearandgreed/graphdata/{start}", headers=hdr, timeout=60)
+            if r.ok:
+                j = r.json()
+                break
+        if j:
+            for key, src, label in (("fg", "fear_and_greed_historical", "공포탐욕지수 (CNN)"),
+                                    ("pc", "put_call_options", "Put/Call 비율 (5일 평균, CNN)")):
+                old = {d: v for d, v in S.get(key, {}).get("data", [])}
+                for p in j[src]["data"]:
+                    d = dt.datetime.fromtimestamp(p["x"] / 1000, dt.timezone.utc).strftime("%Y-%m-%d")
+                    old[d] = round(float(p["y"]), 3 if key == "pc" else 1)
+                S[key] = {"label": label, "type": "line", "data": sorted([[d, v] for d, v in old.items()])}
+            fg = j.get("fear_and_greed", {})
+            S["fg"]["now"] = {"score": round(fg.get("score", 0), 1), "rating": fg.get("rating", "")}
+    except Exception as e:  # noqa: BLE001
+        log("CNN 실패:", e)
+
+    # 미국 재무부 국채 금리 (10년치)
+    try:
+        frames = []
+        y0 = dt.date.today().year
+        for y in range(y0 - 9, y0 + 1):
+            u = (f"https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/{y}/all"
+                 f"?type=daily_treasury_yield_curve&field_tdr_date_value={y}&page&_format=csv")
+            try:
+                import io
+                frames.append(pd.read_csv(io.StringIO(requests.get(u, headers=hdr, timeout=60).text)))
+            except Exception as e:  # noqa: BLE001
+                log(f"  국채 {y} 실패:", e)
+        tr = pd.concat(frames)
+        tr["Date"] = pd.to_datetime(tr["Date"], format="%m/%d/%Y")
+        tr = tr.sort_values("Date").drop_duplicates("Date")
+        for key, col, label in (("ust2", "2 Yr", "미국 국채 2년"), ("ust10", "10 Yr", "미국 국채 10년"), ("ust30", "30 Yr", "미국 국채 30년")):
+            d = tr[["Date", col]].dropna()
+            S[key] = {"label": label, "type": "line", "unit": "%",
+                      "data": [[r.Date.strftime("%Y-%m-%d"), float(r[col])] for _, r in d.iterrows()]}
+    except Exception as e:  # noqa: BLE001
+        log("국채 금리 실패:", e)
+
+    out["updated"] = now_iso()
+    write_json(DATA / "macro" / "us.json", out, compact=True)
+    log("저장 완료: docs/data/macro/us.json")
+
+
+def kofia(obj, start, end):
+    import requests
+    body = {"dmSearch": {"tmpV40": "1000000", "tmpV41": "1", "tmpV1": "D", "tmpV45": start, "tmpV46": end, "OBJ_NM": obj}}
+    r = requests.post("https://freesis.kofia.or.kr/meta/getMetaDataList.do", json=body,
+                      headers={"User-Agent": "Mozilla/5.0", "Content-Type": "application/json"}, timeout=90)
+    r.raise_for_status()
+    return r.json().get("ds1") or []
+
+
+def run_macro_kr():
+    log("===== 한국 거시 지표 =====")
+    out = read_json(DATA / "macro" / "kr.json", {"series": {}})
+    S = out.setdefault("series", {})
+    k = download(["^KS11"], "4y").get("^KS11")
+    if k is not None:
+        S["kospi"] = {"label": "코스피", "type": "ohlc", "data": bars_of(k)}
+    end = dt.date.today()
+    start = (end - dt.timedelta(days=365 * 3 + 10)).strftime("%Y%m%d")
+    end = end.strftime("%Y%m%d")
+    fmt = lambda s: f"{s[:4]}-{s[4:6]}-{s[6:]}"  # noqa: E731
+    try:  # 증시자금추이: TMPV2 = 투자자예탁금 (백만원)
+        rows = kofia("STATSCU0100000060BO", start, end)
+        S["deposit"] = {"label": "투자자 예탁금", "type": "line", "unit": "조원",
+                        "data": sorted([[fmt(r["TMPV1"]), round(r["TMPV2"] / 1e6, 2)] for r in rows if r.get("TMPV2")])}
+    except Exception as e:  # noqa: BLE001
+        log("예탁금 실패:", e)
+    try:  # 신용공여 잔고: TMPV2 = 신용거래융자 전체, TMPV3 = 유가증권, TMPV4 = 코스닥 (백만원)
+        rows = kofia("STATSCU0100000070BO", start, end)
+        S["credit"] = {"label": "신용잔고 (신용거래융자)", "type": "line", "unit": "조원",
+                       "data": sorted([[fmt(r["TMPV1"]), round(r["TMPV2"] / 1e6, 2)] for r in rows if r.get("TMPV2")])}
+    except Exception as e:  # noqa: BLE001
+        log("신용잔고 실패:", e)
+    out["updated"] = now_iso()
+    write_json(DATA / "macro" / "kr.json", out, compact=True)
+    log("저장 완료: docs/data/macro/kr.json")
 
 
 # ---------------------------------------------------------------- 실행
-def run(market):
-    log(f"===== {market.upper()} =====")
-    uni = load_universe(market, CACHE)
-    hist = download(list(uni), "13mo")
-    if not hist:
-        raise RuntimeError("시세를 하나도 받지 못했습니다")
-    trade_date = pd.Series([df.index[-1] for df in hist.values()]).mode().max()
-    ds = trade_date.strftime("%Y-%m-%d")
-    log(f"기준일 {ds} / 시세 {len(hist)}종목")
-
-    hits = []
-    for t, df in hist.items():
-        res = analyze(df, trade_date)
-        if not res:
-            continue
-        kind, ref = res
-        m = uni[t]
-        hits.append({"ticker": t, "kind": kind, "ref": num(ref), "name": m["name"],
-                     "name_local": m.get("name_local", ""), "sector": m["sector"],
-                     "industry": m["industry"], "small": bool(m.get("small")), **returns(df)})
-    log(f"신고가 {sum(h['kind'] == 'high' for h in hits)} / 신저가 {sum(h['kind'] == 'low' for h in hits)}")
-
-    flags = all_time_flags(hits, hist, trade_date)
-    if market == "jp" and SETTINGS.get("jp_english_names"):
-        names = english_names([h["ticker"] for h in hits])
-        for h in hits:
-            h["name"] = names.get(h["ticker"], h["name"])
-    for h in hits:
-        h["ath"], h["since"] = flags.get(h["ticker"], (False, None))
-        write_chart(market, h["ticker"], h["name"], hist[h["ticker"]], trade_date)
-
-    # ETF
-    etf_list = ETFS.get(market, [])
-    etf_hist = download([e["ticker"] for e in etf_list], "13mo") if etf_list else {}
-    etfs = []
-    for e in etf_list:
-        df = etf_hist.get(e["ticker"])
-        if df is None or df.empty:
-            etfs.append({**e, "close": None, "d1": None, "d5": None, "m1": None})
-            continue
-        hi52 = df[df.index > df.index[-1] - pd.DateOffset(weeks=52)]["High"].max()
-        etfs.append({**e, **returns(df), "asof": df.index[-1].strftime("%Y-%m-%d"),
-                     "from_high": pct(df["Close"].iloc[-1], hi52)})
-        write_chart(market, e["ticker"], e["label"], df, df.index[-1])
-
-    def pick(kind, ath):
-        rows = [{k: v for k, v in h.items() if k != "kind"} for h in hits if h["kind"] == kind and h["ath"] == ath]
-        return sorted(rows, key=lambda x: (x["d1"] is None, -(x["d1"] or 0) if kind == "high" else (x["d1"] or 0)))
-
-    day = {
-        "market": market, "date": ds,
-        "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "universe": len(uni), "priced": len(hist), "criteria": criteria_text(),
-        "newhigh": {"ath": pick("high", True), "w52": pick("high", False)},
-        "newlow": {"atl": pick("low", True), "w52": pick("low", False)},
-        "etfs": etfs,
-    }
-    (DATA / market).mkdir(parents=True, exist_ok=True)
-    (DATA / market / f"{ds}.json").write_text(json.dumps(day, ensure_ascii=False, indent=1), "utf-8")
-
-    ipath = DATA / "index.json"
-    idx = json.loads(ipath.read_text("utf-8")) if ipath.exists() else {}
-    idx[market] = sorted(set(idx.get(market, [])) | {ds}, reverse=True)
-    idx["updated"] = day["generated_at"]
-    ipath.write_text(json.dumps(idx, ensure_ascii=False, indent=1), "utf-8")
-    log(f"저장 완료: docs/data/{market}/{ds}.json")
+JOBS = {"us": lambda: run_stocks("us"), "kr": lambda: run_stocks("kr"), "jp": lambda: run_stocks("jp"),
+        "etf": run_etf, "macro_us": run_macro_us, "macro_kr": run_macro_kr}
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--market", default="all", choices=["jp", "us", "all"])
+    ap.add_argument("--market", default="all")
     a = ap.parse_args()
     CACHE.mkdir(exist_ok=True)
+    targets = list(JOBS) if a.market == "all" else [m.strip() for m in a.market.split(",") if m.strip()]
     failed = []
-    for m in (["jp", "us"] if a.market == "all" else [a.market]):
+    for m in targets:
         try:
-            run(m)
+            JOBS[m]()
         except Exception as e:  # noqa: BLE001
+            import traceback
+            traceback.print_exc()
             log(f"[{m}] 실패: {e}")
             failed.append(m)
     if failed:

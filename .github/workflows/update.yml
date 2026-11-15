@@ -2,12 +2,12 @@ name: Daily update
 
 on:
   schedule:
-    - cron: "10 7 * * 1-5"   # 일본: 16:10 JST (장 마감 후)
-    - cron: "0 22 * * 1-5"   # 미국: 22:00 UTC = 한국 07:00 (장 마감 후)
+    - cron: "10 7 * * 1-5"   # 한국·일본: 16:10 (장 마감 후)
+    - cron: "0 22 * * 1-5"   # 미국·ETF: 22:00 UTC = 한국 07:00 (장 마감 후)
   workflow_dispatch:
     inputs:
       market:
-        description: "jp / us / all / none(사이트 파일만 갱신)"
+        description: "all 또는 쉼표로: us,kr,jp,etf,macro_us,macro_kr / none(사이트 파일만 갱신)"
         required: true
         default: "all"
 
@@ -21,7 +21,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
 
@@ -38,9 +38,9 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "market=${{ inputs.market }}" >> "$GITHUB_OUTPUT"
           elif [ "${{ github.event.schedule }}" = "10 7 * * 1-5" ]; then
-            echo "market=jp" >> "$GITHUB_OUTPUT"
+            echo "market=jp,kr,macro_kr" >> "$GITHUB_OUTPUT"
           else
-            echo "market=us" >> "$GITHUB_OUTPUT"
+            echo "market=us,etf,macro_us" >> "$GITHUB_OUTPUT"
           fi
 
       - name: 차트 라이브러리 내려받기 (없을 때만)
@@ -55,7 +55,7 @@ jobs:
 
       - name: 데이터 집계
         if: steps.m.outputs.market != 'none'
-        run: python scripts/update.py --market ${{ steps.m.outputs.market }}
+        run: python scripts/update.py --market "${{ steps.m.outputs.market }}"
 
       - name: 결과 커밋
         if: always()
@@ -65,5 +65,4 @@ jobs:
           git add docs/data docs/vendor cache
           if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
           git commit -m "data: ${{ steps.m.outputs.market }} $(date -u +%F)"
-          git pull --rebase
-          git push
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done

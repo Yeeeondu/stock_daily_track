@@ -1,16 +1,41 @@
-// 신고가·신저가 보드 — 정적 사이트 (GitHub Pages)
-// 주소 형식: #<market>/<view>/<date>   예) #jp/newhigh/2026-11-12
-const MARKETS = { jp: { flag: '🇯🇵', name: '일본' }, us: { flag: '🇺🇸', name: '미국' } };
-const VIEWS = { newhigh: '신고가', newlow: '신저가', etf: 'ETF' };
+// 마켓 보드 — 정적 사이트 (GitHub Pages)
+// 주소 형식: #<tab>/<date>   예) #us/2026-11-13, #kr, #etf
+const TABS = { us: { flag: '🇺🇸', name: '미국' }, kr: { flag: '🇰🇷', name: '한국' }, jp: { flag: '🇯🇵', name: '일본' }, etf: { flag: '📊', name: 'ETF' } };
 const WD = ['일', '월', '화', '수', '목', '금', '토'];
-const $ = (s) => document.querySelector(s);
+const FG_KO = { 'extreme fear': '극단적 공포', fear: '공포', neutral: '중립', greed: '탐욕', 'extreme greed': '극단적 탐욕' };
+const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const safe = (t) => t.replace(/[^A-Za-z0-9]/g, '_');
 
 let INDEX = null;
-let state = { market: 'jp', view: 'newhigh', date: null };
-let current = { day: null, items: new Map() };
-let chart = null;
+const state = { tab: 'us', date: null, lev: true };
+let renderSeq = 0;
+const jcache = new Map();
+const panels = new Map(); // 패널 id → { items, opts, chart }
+let pageCharts = [];
+
+// ------------------------------------------------------------ 공통 유틸
+async function getJSON(path) {
+  if (jcache.has(path)) return jcache.get(path);
+  const r = await fetch(`${path}?v=${encodeURIComponent(INDEX?.updated || Date.now())}`, { cache: 'no-cache' });
+  if (!r.ok) throw new Error(`${path} ${r.status}`);
+  const j = await r.json();
+  jcache.set(path, j);
+  return j;
+}
+const fmtDate = (d) => { const [y, m, dd] = d.split('-'); return `${y}.${m}.${dd}(${WD[new Date(d + 'T00:00:00').getDay()]})`; };
+const fp = (v, d = 2) => (v == null ? '–' : `${v > 0 ? '+' : ''}${v.toFixed(d)}%`);
+const cls = (v) => (v == null ? '' : v > 0 ? 'up' : v < 0 ? 'down' : '');
+const fnum = (v, d) => (v == null ? '–' : v.toLocaleString('ko-KR', { minimumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2), maximumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2) }));
+const code = (t) => t.replace(/\.(T|KS|KQ)$/, '');
+const rgba = (hex, a) => { const h = hex.replace('#', ''); const f = h.length === 3 ? h.split('').map((c) => c + c).join('') : h; const n = parseInt(f.slice(0, 6), 16); return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`; };
+function theme() {
+  const c = getComputedStyle(document.documentElement);
+  const g = (k) => c.getPropertyValue(k).trim();
+  return { up: g('--up'), down: g('--down'), muted: g('--muted'), line: g('--line'), accent: g('--accent'), fg: g('--fg') };
+}
+
+// ------------------------------------------------------------ 차트 라이브러리
 const LWC_SRC = [
   'vendor/lightweight-charts.standalone.production.js',
   'https://cdn.jsdelivr.net/npm/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js',
@@ -30,219 +55,367 @@ function loadLWC() {
   })();
   return lwcPromise;
 }
-const rgba = (hex, a) => { const h = hex.replace('#', ''); const f = h.length === 3 ? h.split('').map((c) => c + c).join('') : h; const n = parseInt(f.slice(0, 6), 16); return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`; };
-const jcache = new Map();
-
-async function getJSON(path, fresh = false) {
-  if (!fresh && jcache.has(path)) return jcache.get(path);
-  const r = await fetch(`${path}?v=${encodeURIComponent(INDEX?.updated || Date.now())}`, { cache: 'no-cache' });
-  if (!r.ok) throw new Error(`${path} ${r.status}`);
-  const j = await r.json();
-  jcache.set(path, j);
-  return j;
+function makeChart(el, extra = {}) {
+  const th = theme();
+  const c = LightweightCharts.createChart(el, {
+    autoSize: true,
+    layout: { background: { color: 'transparent' }, textColor: th.muted, fontSize: 11 },
+    grid: { vertLines: { visible: false }, horzLines: { color: th.line } },
+    rightPriceScale: { borderVisible: false },
+    leftPriceScale: { borderVisible: false },
+    timeScale: { borderVisible: false },
+    localization: { locale: 'ko-KR' },
+    crosshair: { mode: 0 },
+    ...extra,
+  });
+  pageCharts.push(c);
+  return c;
 }
+function dropChart(c) { if (!c) return; try { c.remove(); } catch {} pageCharts = pageCharts.filter((x) => x !== c); }
+function destroyAll() { pageCharts.forEach((c) => { try { c.remove(); } catch {} }); pageCharts = []; panels.clear(); }
 
-const fmtDate = (d) => { const [y, m, dd] = d.split('-'); return `${y}.${m}.${dd}(${WD[new Date(d + 'T00:00:00').getDay()]})`; };
-const fp = (v, d = 1) => (v == null ? '–' : `${v > 0 ? '+' : ''}${v.toFixed(d)}%`);
-const cls = (v) => (v == null ? '' : v > 0 ? 'up' : v < 0 ? 'down' : '');
-const fnum = (v) => (v == null ? '–' : v.toLocaleString('ko-KR', { maximumFractionDigits: v >= 1000 ? 0 : 2 }));
-const cat = (it) => (it.industry && it.industry !== it.sector ? `${it.sector} › ${it.industry}` : it.sector);
-const code = (t) => t.replace(/\.T$/, '');
-
-function parseHash() {
-  const [m, v, d] = location.hash.replace(/^#/, '').split('/');
-  if (MARKETS[m]) state.market = m;
-  if (VIEWS[v]) state.view = v;
-  state.date = /^\d{4}-\d{2}-\d{2}$/.test(d || '') ? d : null;
+function setRange(chart, data, months) {
+  if (!data.length) return;
+  const last = data[data.length - 1][0];
+  if (!months) return chart.timeScale().fitContent();
+  const from = new Date(last + 'T00:00:00'); from.setMonth(from.getMonth() - months);
+  const f = from.toISOString().slice(0, 10);
+  if (f <= data[0][0]) return chart.timeScale().fitContent();
+  chart.timeScale().setVisibleRange({ from: f, to: last });
 }
-const go = (p) => { location.hash = `${p.market ?? state.market}/${p.view ?? state.view}/${p.date ?? state.date ?? ''}`; };
-
-// 업종별 그룹 묶기 (그룹 순서 = 그룹 내 최고 등락률 순)
-function groups(items, desc) {
-  const sorter = (a, b) => (desc ? (b.d1 ?? -1e9) - (a.d1 ?? -1e9) : (a.d1 ?? 1e9) - (b.d1 ?? 1e9));
-  const m = new Map();
-  for (const it of items) { const k = cat(it); if (!m.has(k)) m.set(k, []); m.get(k).push(it); }
-  return [...m.entries()].map(([k, arr]) => ({ k, arr: arr.sort(sorter) })).sort((a, b) => sorter(a.arr[0], b.arr[0]));
-}
-
-const colsHTML = () => '<div class="cols"><span>종목</span><span>금일</span><span>5일</span><span>1달</span></div>';
-function rowHTML(it, label) {
-  const sub = state.market === 'jp' ? `${code(it.ticker)} ${it.name_local || ''}` : it.ticker;
-  return `<button class="row" data-t="${esc(it.ticker)}">
-    <span class="nm"><b>${esc(label ?? it.name)}${it.small ? '<span class="tag">소형주</span>' : ''}</b><small>${esc(label ? it.ticker : sub)}</small></span>
-    <span class="p ${cls(it.d1)}">${fp(it.d1)}</span>
-    <span class="p sm ${cls(it.d5)}">${fp(it.d5)}</span>
-    <span class="p sm ${cls(it.m1)}">${fp(it.m1)}</span></button>`;
-}
-function sectionHTML(title, items, desc) {
-  const body = items.length
-    ? colsHTML() + groups(items, desc).map((g) => `<div class="group"><div class="ghead"><span>(${esc(g.k)})</span><span>${g.arr.length}</span></div>${g.arr.map((i) => rowHTML(i)).join('')}</div>`).join('')
-    : '<div class="empty">해당 종목 없음</div>';
-  return `<section><h2>${title} <span class="n">${items.length}</span></h2>${body}</section>`;
-}
-
-function summaryText(day) {
-  const mk = MARKETS[state.market];
-  const L = [`${mk.flag} ${mk.name} ${VIEWS[state.view]} · ${fmtDate(day.date)}`];
-  const block = (title, items, desc) => {
-    L.push('', `${title} ${items.length}`);
-    for (const g of groups(items, desc)) L.push(`(${g.k}) ` + g.arr.map((i) => `${i.name}${i.small ? ' [소형주]' : ''} ${fp(i.d1)}`).join(', '));
+const RANGES = { '3M': 3, '6M': 6, '1Y': 12, '3Y': 36, '5Y': 60, '10Y': 120, '전체': 0 };
+function bindRanges(box, chart, data, list, def) {
+  const span = data.length ? (new Date(data.at(-1)[0]) - new Date(data[0][0])) / 2.6e9 : 0; // 개월 수
+  const keys = list.filter((k) => RANGES[k] === 0 || RANGES[k] <= span * 1.05 + 1);
+  box.innerHTML = keys.map((k) => `<button data-k="${k}" class="${k === def ? 'on' : ''}">${k}</button>`).join('');
+  box.onclick = (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    box.querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b));
+    setRange(chart, data, RANGES[b.dataset.k]);
   };
-  if (state.view === 'newhigh') {
-    L.push(day.criteria.high);
-    block('🏆 역대 신고가', day.newhigh.ath, true);
-    block('📈 52주 신고가 (역대 제외)', day.newhigh.w52, true);
-  } else if (state.view === 'newlow') {
-    L.push(day.criteria.low);
-    block('🧊 역대 신저가', day.newlow.atl, false);
-    block('📉 52주 신저가 (역대 제외)', day.newlow.w52, false);
-  } else {
-    L.push('');
-    for (const e of day.etfs) L.push(`${e.ticker} (${e.label}) 금일 ${fp(e.d1)}, 최근 5일 ${fp(e.d5)}, 최근 1달 ${fp(e.m1)}`);
+  setRange(chart, data, RANGES[keys.includes(def) ? def : keys.at(-1)]);
+}
+
+// ------------------------------------------------------------ 지표 카드
+const cardHTML = (id, title, wide = false, extra = '') => `<div class="card ${wide ? 'wide' : ''}" id="${id}">
+  <div class="chead"><div><div class="ctitle">${title}</div><div class="cval"></div><div class="cchg"></div></div><div class="ranges"></div></div>
+  <div class="cbox"></div>${extra}</div>`;
+
+function cardHeader(card, data, { dec = 2, unit = '', bp = false, badge = '' } = {}) {
+  if (!data?.length) { $('.cval', card).textContent = '–'; $('.cchg', card).innerHTML = '<span class="muted">데이터 없음</span>'; return; }
+  const last = data.at(-1), prev = data.at(-2);
+  const v = last[last.length === 2 ? 1 : 4], p = prev ? prev[prev.length === 2 ? 1 : 4] : null;
+  $('.cval', card).innerHTML = `${fnum(v, dec)}${unit ? `<span class="small muted"> ${unit}</span>` : ''}${badge}`;
+  if (p == null) return;
+  const diff = v - p;
+  const chg = bp ? `${diff > 0 ? '+' : ''}${(diff * 100).toFixed(0)}bp` : `${diff > 0 ? '+' : ''}${fnum(diff, dec)} (${fp((v / p - 1) * 100)})`;
+  $('.cchg', card).innerHTML = `<span class="${cls(diff)}">${chg}</span> <span class="cdate">${fmtDate(last[0])}</span>`;
+}
+
+function ohlcCard(id, s, def = '1Y') {
+  const card = document.getElementById(id); if (!card || !s) return;
+  cardHeader(card, s.data);
+  const th = theme();
+  const ch = makeChart($('.cbox', card));
+  const cs = ch.addCandlestickSeries({ upColor: th.up, downColor: th.down, wickUpColor: th.up, wickDownColor: th.down, borderVisible: false, priceLineVisible: false });
+  cs.setData(s.data.map((b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] })));
+  bindRanges($('.ranges', card), ch, s.data, ['3M', '6M', '1Y', '3Y'], def);
+}
+
+function lineCard(id, s, { color, dec = 2, unit = '', bp = false, def = '3Y', ranges = ['3M', '6M', '1Y', '3Y', '5Y', '10Y'], bands = [], badge = '' } = {}) {
+  const card = document.getElementById(id); if (!card || !s) return;
+  cardHeader(card, s.data, { dec, unit, bp, badge });
+  const ch = makeChart($('.cbox', card));
+  const ser = ch.addAreaSeries({ lineColor: color, topColor: rgba(color, 0.22), bottomColor: rgba(color, 0.02), lineWidth: 2, priceLineVisible: false, priceFormat: { type: 'price', precision: dec, minMove: 1 / 10 ** dec } });
+  ser.setData(s.data.map((p) => ({ time: p[0], value: p[1] })));
+  const th = theme();
+  bands.forEach((b) => ser.createPriceLine({ price: b, color: th.muted, lineWidth: 1, lineStyle: 2, axisLabelVisible: false }));
+  bindRanges($('.ranges', card), ch, s.data, ranges, def);
+}
+
+function sma(v, n) { const out = []; let s = 0; for (let i = 0; i < v.length; i++) { s += v[i]; if (i >= n) s -= v[i - n]; out.push(i >= n - 1 ? s / n : null); } return out; }
+function rsi(v, n = 14) {
+  const out = Array(v.length).fill(null); let g = 0, l = 0;
+  for (let i = 1; i < v.length; i++) {
+    const d = v[i] - v[i - 1], up = Math.max(d, 0), dn = Math.max(-d, 0);
+    if (i <= n) { g += up; l += dn; if (i === n) { g /= n; l /= n; out[i] = l === 0 ? 100 : 100 - 100 / (1 + g / l); } }
+    else { g = (g * (n - 1) + up) / n; l = (l * (n - 1) + dn) / n; out[i] = l === 0 ? 100 : 100 - 100 / (1 + g / l); }
   }
+  return out;
+}
+
+function kospiCard(id, s) {
+  const card = document.getElementById(id); if (!card || !s) return;
+  cardHeader(card, s.data);
+  const th = theme();
+  const main = makeChart($('.cbox', card), { timeScale: { visible: false, borderVisible: false } });
+  const cs = main.addCandlestickSeries({ upColor: th.up, downColor: th.down, wickUpColor: th.up, wickDownColor: th.down, borderVisible: false, priceLineVisible: false });
+  const d = s.data, closes = d.map((b) => b[4]);
+  cs.setData(d.map((b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] })));
+  const MA = [[5, '#e5489b'], [20, '#f0a020'], [60, '#2fa84f'], [120, '#8a8a95']];
+  MA.forEach(([n, color]) => {
+    const m = sma(closes, n);
+    main.addLineSeries({ color, lineWidth: 1, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false })
+      .setData(d.map((b, i) => (m[i] == null ? { time: b[0] } : { time: b[0], value: m[i] })));
+  });
+  const vs = main.addHistogramSeries({ priceScaleId: 'vol', priceFormat: { type: 'volume' }, lastValueVisible: false, priceLineVisible: false });
+  main.priceScale('vol').applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
+  vs.setData(d.map((b) => ({ time: b[0], value: b[5], color: rgba(b[4] >= b[1] ? th.up : th.down, 0.35) })));
+
+  const rbox = $('.rsibox', card);
+  const rc = makeChart(rbox, { rightPriceScale: { borderVisible: false, scaleMargins: { top: 0.1, bottom: 0.1 } } });
+  const r = rsi(closes, 14);
+  const rs = rc.addLineSeries({ color: '#f07f20', lineWidth: 1.5, priceLineVisible: false, priceFormat: { type: 'price', precision: 1, minMove: 0.1 } });
+  rs.setData(d.map((b, i) => (r[i] == null ? { time: b[0] } : { time: b[0], value: r[i] })));
+  [70, 30].forEach((p) => rs.createPriceLine({ price: p, color: th.muted, lineWidth: 1, lineStyle: 2, axisLabelVisible: true }));
+  // 두 차트 시간축 동기화
+  let busy = false;
+  const link = (a, b) => a.timeScale().subscribeVisibleLogicalRangeChange((lr) => { if (busy || !lr) return; busy = true; b.timeScale().setVisibleLogicalRange(lr); busy = false; });
+  link(main, rc); link(rc, main);
+  bindRanges($('.ranges', card), main, d, ['3M', '6M', '1Y', '3Y'], '3Y');
+  const lastR = r.at(-1);
+  $('.legend', card).innerHTML = MA.map(([n, c]) => `<span><i style="background:${c}"></i>${n}일선</span>`).join('') +
+    `<span><i style="background:#f07f20"></i>RSI(14) ${lastR != null ? lastR.toFixed(1) : '–'}</span>`;
+}
+
+function fundsCard(id, dep, cre) {
+  const card = document.getElementById(id); if (!card) return;
+  const th = theme();
+  const ch = makeChart($('.cbox', card), { leftPriceScale: { visible: true, borderVisible: false } });
+  const series = [[dep, th.accent, 'right'], [cre, '#f07f20', 'left']];
+  series.forEach(([s, color, side]) => {
+    if (!s?.data?.length) return;
+    ch.addLineSeries({ color, lineWidth: 2, priceScaleId: side, priceLineVisible: false, priceFormat: { type: 'price', precision: 1, minMove: 0.1 } })
+      .setData(s.data.map((p) => ({ time: p[0], value: p[1] })));
+  });
+  const ref = dep?.data?.length ? dep.data : cre?.data || [];
+  bindRanges($('.ranges', card), ch, ref, ['3M', '6M', '1Y', '3Y'], '3Y');
+  const tail = (s) => { if (!s?.data?.length) return '–'; const a = s.data.at(-1), b = s.data.at(-2); const df = b ? a[1] - b[1] : null; return `<b>${fnum(a[1], 1)}조</b> <span class="${cls(df)} small">${df == null ? '' : (df > 0 ? '+' : '') + fnum(df, 2)}</span>`; };
+  $('.cval', card).innerHTML = `<span style="font-size:15px">예탁금 ${tail(dep)} · 신용 ${tail(cre)}</span>`;
+  const ld = (dep?.data || cre?.data || []).at(-1);
+  $('.cchg', card).innerHTML = ld ? `<span class="cdate">${fmtDate(ld[0])} 기준 · 금융투자협회</span>` : '';
+  $('.legend', card).innerHTML = `<span><i style="background:${th.accent}"></i>투자자 예탁금 (오른쪽 축, 조원)</span><span><i style="background:#f07f20"></i>신용잔고 (왼쪽 축, 조원)</span>`;
+}
+
+// ------------------------------------------------------------ 리스트 + 차트 패널
+function rowHTML(it, i, metric, extra = '') {
+  const ind = it.industry ? `<span class="ind">(${esc(it.industry)})</span>` : '';
+  const tags = (it.ath ? '<span class="tag ath">역대</span>' : '') + (it.small ? '<span class="tag">소형</span>' : '');
+  return `<button class="lrow" data-i="${i}" title="${esc(it.name)} ${esc(it.industry || '')}">
+    <span class="rk">${extra || `${i + 1}위`}</span>
+    <span class="nm"><b>${esc(it.name)}</b>${tags}${ind}</span>
+    <span class="pc ${cls(it[metric])}">${fp(it[metric])}</span></button>`;
+}
+const detailHTML = () => `<div class="detail"><div class="dhead"><div><div class="dname"></div><div class="dsub"></div></div><div class="dprice"><div class="v"></div><div class="c"></div></div></div>
+  <div class="ranges" style="justify-content:flex-start;margin-top:8px"></div><div class="dbox"></div><div class="dextra"></div><div class="dlinks"></div></div>`;
+
+function panelHTML(id, title, items, opts) {
+  const head = `<h2 class="sec">${title} <span class="n">${items.length}</span>${opts.copy ? '<button class="copy" data-copy="' + id + '">텍스트 복사</button>' : ''}</h2>${opts.tools || ''}`;
+  if (!items.length) return head + '<div class="empty">해당 종목 없음</div>';
+  const rows = items.map((it, i) => rowHTML(it, i, opts.metric)).join('');
+  return `${head}<div class="panel" id="${id}"><div class="list">${rows}</div>${detailHTML()}</div>`;
+}
+
+function bindPanel(id, items, opts) {
+  const el = document.getElementById(id); if (!el) return;
+  const p = { items, opts, chart: null, seq: 0 };
+  panels.set(id, p);
+  $('.list', el).onclick = (e) => { const r = e.target.closest('.lrow'); if (r) selectItem(id, Number(r.dataset.i)); };
+  if (items.length) selectItem(id, 0);
+}
+
+async function selectItem(id, i) {
+  const p = panels.get(id); const el = document.getElementById(id); if (!p || !el) return;
+  const it = p.items[i]; const seq = ++p.seq;
+  el.querySelectorAll('.lrow').forEach((r) => r.classList.toggle('on', Number(r.dataset.i) === i));
+  const det = $('.detail', el), box = $('.dbox', det);
+  $('.dname', det).textContent = it.name;
+  const mk = p.opts.chartMarket;
+  const sub = [mk === 'etf' ? it.ticker : (mk === 'us' ? it.ticker : code(it.ticker)), it.name_local, it.industry].filter(Boolean).join(' · ');
+  $('.dsub', det).textContent = sub;
+  const m = p.opts.metric;
+  $('.v', det).textContent = fnum(it.close);
+  $('.c', det).innerHTML = `<span class="${cls(it[m])}">${m === 'w1' ? '주간 ' : '일간 '}${fp(it[m])}</span>`;
+  $('.dlinks', det).innerHTML = links(it.ticker, mk);
+  $('.dextra', det).innerHTML = p.opts.extra ? p.opts.extra(it) : '';
+  dropChart(p.chart); p.chart = null;
+  box.innerHTML = '<p class="muted small">차트 불러오는 중…</p>';
+  let data;
+  try { data = await getJSON(`data/charts/${mk}/${safe(it.ticker)}.json`); }
+  catch { if (seq === p.seq) box.innerHTML = '<p class="muted small">차트 데이터가 없습니다.</p>'; return; }
+  if (seq !== p.seq) return;
+  if (!(await loadLWC())) { box.innerHTML = '<p class="muted small">차트 라이브러리를 불러오지 못했습니다.</p>'; return; }
+  box.innerHTML = '';
+  try {
+    const th = theme();
+    const ch = makeChart(box); p.chart = ch;
+    const cs = ch.addCandlestickSeries({ upColor: th.up, downColor: th.down, wickUpColor: th.up, wickDownColor: th.down, borderVisible: false });
+    cs.setData(data.bars.map((b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] })));
+    const vs = ch.addHistogramSeries({ priceScaleId: 'vol', priceFormat: { type: 'volume' }, lastValueVisible: false, priceLineVisible: false });
+    ch.priceScale('vol').applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
+    vs.setData(data.bars.map((b) => ({ time: b[0], value: b[5], color: rgba(b[4] >= b[1] ? th.up : th.down, 0.35) })));
+    if (it.ref != null) cs.createPriceLine({ price: it.ref, color: th.muted, lineWidth: 1, lineStyle: 2, axisLabelVisible: true, title: '직전 52주 고가' });
+    const bars = data.bars.map((b) => [b[0]]);
+    bindRanges($('.ranges', det), ch, bars, ['1M', '3M', '6M', '1Y'], p.opts.defRange || '6M');
+  } catch (e) { console.error(e); box.innerHTML = `<p class="muted small">차트 오류: ${esc(e.message || e)}</p>`; }
+}
+RANGES['1M'] = 1;
+
+function links(t, mk) {
+  const y = `<a href="https://finance.yahoo.com/quote/${encodeURIComponent(t)}" target="_blank" rel="noopener">Yahoo Finance ↗</a>`;
+  if (mk === 'jp') return y + `<a href="https://kabutan.jp/stock/?code=${encodeURIComponent(code(t))}" target="_blank" rel="noopener">株探 ↗</a>`;
+  if (mk === 'kr') return `<a href="https://finance.naver.com/item/main.naver?code=${encodeURIComponent(code(t))}" target="_blank" rel="noopener">네이버 금융 ↗</a>` + y;
+  if (mk === 'etf') return y + `<a href="https://stockanalysis.com/etf/${encodeURIComponent(t.toLowerCase())}/holdings/" target="_blank" rel="noopener">전체 구성종목 ↗</a>`;
+  return y + `<a href="https://finviz.com/quote.ashx?t=${encodeURIComponent(t)}" target="_blank" rel="noopener">Finviz ↗</a>`;
+}
+
+function highsText(day) {
+  const t = TABS[day.market];
+  const m = new Map();
+  day.newhigh.forEach((i) => { const k = i.industry || '기타'; if (!m.has(k)) m.set(k, []); m.get(k).push(i); });
+  const L = [`${t.flag} ${t.name} 신고가 · ${fmtDate(day.date)}`, day.criteria, ''];
+  [...m.entries()].sort((a, b) => (b[1][0].d1 ?? 0) - (a[1][0].d1 ?? 0)).forEach(([k, arr]) => L.push(`(${k}) ` + arr.map((i) => `${i.name}${i.ath ? ' 🏆' : ''} ${fp(i.d1, 1)}`).join(', ')));
   L.push('', `🔗 ${location.href}`);
   return L.join('\n');
 }
 
-async function render() {
-  parseHash();
-  document.querySelectorAll('#markets button').forEach((b) => b.classList.toggle('on', b.dataset.m === state.market));
-  document.querySelectorAll('#views button').forEach((b) => b.classList.toggle('on', b.dataset.v === state.view));
-  const main = $('#main');
-  const dates = INDEX?.[state.market] || [];
-  const sel = $('#date');
-  if (!dates.length) {
-    sel.innerHTML = ''; $('#prev').disabled = $('#next').disabled = true;
-    main.innerHTML = '<div class="empty">아직 데이터가 없습니다. GitHub Actions에서 <b>Daily update</b> 워크플로를 한 번 실행해 주세요.</div>';
-    return;
-  }
-  const date = dates.includes(state.date) ? state.date : dates[0];
-  sel.innerHTML = dates.map((d) => `<option value="${d}" ${d === date ? 'selected' : ''}>${fmtDate(d)}</option>`).join('');
-  const i = dates.indexOf(date);
-  $('#prev').disabled = i >= dates.length - 1;
-  $('#next').disabled = i <= 0;
+// ------------------------------------------------------------ 페이지
+function stockSections(day, mk) {
+  if (!day) return '<div class="empty">아직 종목 데이터가 없습니다.</div>';
+  return `<p class="muted small" style="margin:18px 0 -14px">${fmtDate(day.date)} 기준 · 집계 ${day.priced?.toLocaleString()}종목 · 신고가: ${esc(day.criteria)} · 오른쪽 차트는 왼쪽에서 종목을 누르면 바뀝니다</p>`
+    + panelHTML(`${mk}-high`, '신고가', day.newhigh, { metric: 'd1', copy: true })
+    + panelHTML(`${mk}-d1`, '일간 상승률 상위', day.top_d1, { metric: 'd1' })
+    + panelHTML(`${mk}-w1`, '주간 상승률 상위', day.top_w1, { metric: 'w1' });
+}
+function bindStocks(day, mk) {
+  if (!day) return;
+  bindPanel(`${mk}-high`, day.newhigh, { metric: 'd1', chartMarket: mk, defRange: '1Y' });
+  bindPanel(`${mk}-d1`, day.top_d1, { metric: 'd1', chartMarket: mk, defRange: '3M' });
+  bindPanel(`${mk}-w1`, day.top_w1, { metric: 'w1', chartMarket: mk, defRange: '3M' });
+  const btn = document.querySelector(`[data-copy="${mk}-high"]`);
+  if (btn) btn.onclick = async () => { try { await navigator.clipboard.writeText(highsText(day)); btn.textContent = '복사됨 ✓'; } catch { btn.textContent = '복사 실패'; } setTimeout(() => (btn.textContent = '텍스트 복사'), 1500); };
+}
 
-  let day;
-  try { day = await getJSON(`data/${state.market}/${date}.json`); }
-  catch (e) { main.innerHTML = `<div class="empty">데이터를 불러오지 못했습니다 (${esc(e.message)})</div>`; return; }
-  current.day = day; current.items = new Map();
+async function pageUS(day) {
+  const mac = await getJSON('data/macro/us.json').catch(() => null);
+  const S = mac?.series || {};
+  const fgNow = S.fg?.now ? `<span class="badge">${esc(FG_KO[S.fg.now.rating] || S.fg.now.rating)}</span>` : '';
+  let html = `<h2 class="sec">지수</h2><div class="grid">${cardHTML('c-dji', '다우존스')}${cardHTML('c-ixic', '나스닥 종합')}${cardHTML('c-spx', 'S&P 500')}</div>
+    <h2 class="sec">심리 · 변동성</h2><div class="grid">${cardHTML('c-vix', 'VIX (변동성지수)')}${cardHTML('c-fg', '공포탐욕지수 <span class="small muted">CNN</span>')}${cardHTML('c-pc', 'Put/Call 비율 <span class="small muted">5일 평균</span>')}</div>
+    <h2 class="sec">미국 국채 금리</h2><div class="grid">${cardHTML('c-u2', '2년물')}${cardHTML('c-u10', '10년물')}${cardHTML('c-u30', '30년물')}</div>`;
+  html += stockSections(day, 'us');
+  $('#main').innerHTML = html;
+  const th = theme();
+  ohlcCard('c-dji', S.dji); ohlcCard('c-ixic', S.ixic); ohlcCard('c-spx', S.spx);
+  lineCard('c-vix', S.vix, { color: th.up, def: '3Y', bands: [20, 30] });
+  lineCard('c-fg', S.fg, { color: th.accent, dec: 1, def: '3Y', ranges: ['3M', '6M', '1Y', '3Y', '전체'], bands: [25, 50, 75], badge: fgNow });
+  lineCard('c-pc', S.pc, { color: '#8a5cf6', dec: 3, def: '1Y', ranges: ['3M', '6M', '1Y', '3Y', '전체'], bands: [1] });
+  lineCard('c-u2', S.ust2, { color: '#2fa84f', unit: '%', bp: true, def: '3Y' });
+  lineCard('c-u10', S.ust10, { color: '#2fa84f', unit: '%', bp: true, def: '3Y' });
+  lineCard('c-u30', S.ust30, { color: '#2fa84f', unit: '%', bp: true, def: '3Y' });
+  bindStocks(day, 'us');
+}
 
-  const mk = MARKETS[state.market];
-  let html = `<div class="title"><h1>${mk.flag} ${mk.name} ${VIEWS[state.view]} · ${fmtDate(day.date)}</h1><button class="copy" id="copy">텍스트 복사</button></div>`;
-  if (state.view === 'newhigh') {
-    [...day.newhigh.ath, ...day.newhigh.w52].forEach((it) => current.items.set(it.ticker, { ...it, kind: 'high' }));
-    html += `<p class="sub muted small">${esc(day.criteria.high)} · 공통 대분류 › 세부 업종 · 종목을 누르면 1년 차트</p>`;
-    html += sectionHTML('🏆 역대 신고가', day.newhigh.ath, true);
-    html += sectionHTML('📈 52주 신고가 <span class="muted small">(역대 제외)</span>', day.newhigh.w52, true);
-  } else if (state.view === 'newlow') {
-    [...day.newlow.atl, ...day.newlow.w52].forEach((it) => current.items.set(it.ticker, { ...it, kind: 'low' }));
-    html += `<p class="sub muted small">${esc(day.criteria.low)} · 공통 대분류 › 세부 업종 · 종목을 누르면 1년 차트</p>`;
-    html += sectionHTML('🧊 역대 신저가', day.newlow.atl, false);
-    html += sectionHTML('📉 52주 신저가 <span class="muted small">(역대 제외)</span>', day.newlow.w52, false);
-  } else {
-    day.etfs.forEach((e) => current.items.set(e.ticker, { ...e, name: e.label, kind: 'etf' }));
-    html += '<p class="sub muted small">config/etfs.json 에서 종목을 바꿀 수 있습니다 · 누르면 1년 차트</p>';
-    html += `<section>${colsHTML()}<div class="group">${day.etfs.map((e) => rowHTML(e, e.label)).join('')}</div></section>`;
-  }
-  html += `<p class="muted small">집계 대상 ${day.priced?.toLocaleString()} / ${day.universe?.toLocaleString()}종목 · 생성 ${new Date(day.generated_at).toLocaleString('ko-KR')}</p>`;
-  main.innerHTML = html;
+async function pageKR(day) {
+  const mac = await getJSON('data/macro/kr.json').catch(() => null);
+  const S = mac?.series || {};
+  let html = `<h2 class="sec">코스피</h2><div class="grid">${cardHTML('c-kospi', '코스피 (일봉 · 이동평균 · RSI)', true, '<div class="rsibox"></div><div class="legend"></div>')}</div>
+    <h2 class="sec">증시 자금</h2><div class="grid">${cardHTML('c-funds', '투자자 예탁금 · 신용잔고', true, '<div class="legend"></div>')}</div>`;
+  html += stockSections(day, 'kr');
+  $('#main').innerHTML = html;
+  kospiCard('c-kospi', S.kospi);
+  fundsCard('c-funds', S.deposit, S.credit);
+  bindStocks(day, 'kr');
+}
 
-  $('#copy').onclick = async () => {
-    try { await navigator.clipboard.writeText(summaryText(day)); $('#copy').textContent = '복사됨 ✓'; }
-    catch { $('#copy').textContent = '복사 실패'; }
-    setTimeout(() => { const b = $('#copy'); if (b) b.textContent = '텍스트 복사'; }, 1500);
+async function pageJP(day) {
+  $('#main').innerHTML = stockSections(day, 'jp');
+  bindStocks(day, 'jp');
+}
+
+function etfExtra(it) {
+  const hs = it.shares || [];
+  if (!hs.length) return '<div class="shares"><h4>좌수 변동</h4><p class="muted small">아직 기록이 없습니다. 매일 쌓입니다.</p></div>';
+  const rows = hs.slice().reverse().slice(0, 10).map((r, i, a) => {
+    const prev = a[i + 1]?.[1]; const df = prev != null ? r[1] - prev : null;
+    return `<tr><td>${r[0]}</td><td>${r[1].toLocaleString()}</td><td class="${cls(df)}">${df == null ? '–' : (df > 0 ? '+' : '') + df.toLocaleString()}</td></tr>`;
+  }).join('');
+  return `<div class="shares"><h4>좌수 변동 <span class="small muted">(추정: 순자산÷NAV, 매일 기록)</span></h4><table><tr><th>날짜</th><th>좌수</th><th>전일 대비</th></tr>${rows}</table></div>`;
+}
+function holdsHTML(it) {
+  if (!it.holdings?.length) return '<div class="holds muted">구성종목 정보 없음</div>';
+  return `<div class="holds"><table>${it.holdings.map((h) => `<tr><td class="sym">${esc(h.symbol)}</td><td>${esc(h.name)}</td><td>${h.pct.toFixed(2)}%</td></tr>`).join('')}</table></div>`;
+}
+
+async function pageETF(day) {
+  if (!day) { $('#main').innerHTML = '<div class="empty">아직 ETF 데이터가 없습니다.</div>'; return; }
+  const key = state.lev ? 'all' : 'unlev';
+  const tool = `<div class="toolrow"><label class="toggle"><input type="checkbox" id="unlev" ${state.lev ? '' : 'checked'}> 레버리지·인버스 제외</label>
+    <span class="muted small">미국 상장 ETF ${day.priced?.toLocaleString()}개 중 · ${fmtDate(day.date)} 기준</span></div>`;
+  const watch = day.groups.flatMap((g) => g.items.map((it) => ({ ...it, group: g.name })));
+  let rows = ''; let gi = -1;
+  watch.forEach((it, i) => {
+    if (it.group !== watch[i - 1]?.group) { gi++; rows += `<div class="lgroup">${esc(it.group)}</div>`; }
+    rows += `<button class="lrow" data-i="${i}"><span class="rk"><span class="caret">▶</span></span><span class="nm"><b>${esc(it.label)}</b><span class="ind">${esc(it.ticker)}</span></span><span class="pc ${cls(it.d1)}">${fp(it.d1)}</span></button><div class="hwrap" data-h="${i}" hidden>${holdsHTML(it)}</div>`;
+  });
+  $('#main').innerHTML = panelHTML('etf-d1', '일간 상승률 상위', day.top_d1[key], { metric: 'd1', tools: tool })
+    + panelHTML('etf-w1', '주간 상승률 상위', day.top_w1[key], { metric: 'w1' })
+    + `<h2 class="sec">관심 ETF <span class="n">${watch.length}</span></h2><p class="muted small" style="margin:-4px 0 8px">ETF 이름을 누르면 상위 구성종목 10개가 펼쳐지고, 오른쪽에 차트와 좌수 변동이 나옵니다.</p>
+       <div class="panel" id="etf-watch"><div class="list">${rows}</div>${detailHTML()}</div>`;
+  $('#unlev').onchange = (e) => { state.lev = !e.target.checked; render(); };
+  bindPanel('etf-d1', day.top_d1[key], { metric: 'd1', chartMarket: 'etf', defRange: '3M' });
+  bindPanel('etf-w1', day.top_w1[key], { metric: 'w1', chartMarket: 'etf', defRange: '3M' });
+  // 관심 ETF: 이름 클릭 → 구성종목 펼침/접기 + 차트
+  const el = document.getElementById('etf-watch');
+  panels.set('etf-watch', { items: watch, opts: { metric: 'd1', chartMarket: 'etf', defRange: '6M', extra: etfExtra }, chart: null, seq: 0 });
+  $('.list', el).onclick = (e) => {
+    const r = e.target.closest('.lrow'); if (!r) return;
+    const i = Number(r.dataset.i); const h = el.querySelector(`[data-h="${i}"]`);
+    h.hidden = !h.hidden; $('.caret', r).textContent = h.hidden ? '▶' : '▼';
+    selectItem('etf-watch', i);
   };
+  selectItem('etf-watch', 0);
 }
 
-// ------------------------------------------------------------ 차트 모달
-async function openChart(t) {
-  const it = current.items.get(t);
-  if (!it) return;
-  const modal = $('#modal');
-  $('#mtitle').innerHTML = `${esc(it.name)}${it.small ? '<span class="tag">소형주</span>' : ''}`;
-  $('#msub').textContent = [state.market === 'jp' ? code(t) : t, it.name_local, it.sector ? cat(it) : ''].filter(Boolean).join(' · ');
-  const refLabel = it.kind === 'low' ? '직전 52주 저가' : '직전 52주 고가';
-  $('#mstats').innerHTML = [
-    `<span>종가 <b>${fnum(it.close)}</b></span>`,
-    `<span>금일 <b class="${cls(it.d1)}">${fp(it.d1, 2)}</b></span>`,
-    `<span>5일 <b class="${cls(it.d5)}">${fp(it.d5, 2)}</b></span>`,
-    `<span>1달 <b class="${cls(it.m1)}">${fp(it.m1, 2)}</b></span>`,
-    it.ref != null ? `<span class="muted">${refLabel} ${fnum(it.ref)}</span>` : '',
-    it.ath ? `<span class="muted">${it.kind === 'low' ? '역대 신저가' : '역대 신고가'}${it.since ? ` (${it.since.slice(0, 4)}년 이후 데이터 기준)` : ''}</span>` : '',
-    it.from_high != null ? `<span class="muted">52주 고점 대비 ${fp(it.from_high)}</span>` : '',
-  ].join('');
-  const yq = `https://finance.yahoo.com/quote/${encodeURIComponent(t)}`;
-  $('#mlinks').innerHTML = `<a href="${yq}" target="_blank" rel="noopener">Yahoo Finance ↗</a>` +
-    (state.market === 'jp' ? `<a href="https://kabutan.jp/stock/?code=${encodeURIComponent(code(t))}" target="_blank" rel="noopener">株探 ↗</a>` : `<a href="https://finviz.com/quote.ashx?t=${encodeURIComponent(t)}" target="_blank" rel="noopener">Finviz ↗</a>`);
-  if (!modal.open) modal.showModal();
-  const box = $('#chart');
-  if (chart) { chart.remove(); chart = null; }
-  box.innerHTML = '<p class="muted">차트 불러오는 중…</p>';
+// ------------------------------------------------------------ 라우팅
+function parseHash() {
+  const [t, d] = location.hash.replace(/^#/, '').split('/');
+  if (TABS[t]) state.tab = t;
+  state.date = /^\d{4}-\d{2}-\d{2}$/.test(d || '') ? d : null;
+}
+const go = (p) => { location.hash = `${p.tab ?? state.tab}/${p.date ?? state.date ?? ''}`; };
 
-  let data;
-  try { data = await getJSON(`data/charts/${state.market}/${safe(t)}.json`); }
-  catch { box.innerHTML = '<p class="muted">차트 데이터가 없습니다.</p>'; return; }
-  if (!(await loadLWC())) { box.innerHTML = '<p class="muted">차트 라이브러리를 불러오지 못했습니다. 네트워크/광고차단 설정을 확인해 주세요.</p>'; return; }
-  box.innerHTML = '';
-  try { drawChart(box, data, it); }
-  catch (e) { console.error(e); if (chart) { chart.remove(); chart = null; } box.innerHTML = `<p class="muted">차트 오류: ${esc(e.message || e)}</p>`; }
+async function render() {
+  const seq = ++renderSeq;
+  parseHash();
+  destroyAll();
+  document.querySelectorAll('#tabs button').forEach((b) => b.classList.toggle('on', b.dataset.t === state.tab));
+  const dates = INDEX?.[state.tab] || [];
+  const date = dates.includes(state.date) ? state.date : dates[0];
+  const sel = $('#date');
+  sel.innerHTML = dates.map((d) => `<option value="${d}" ${d === date ? 'selected' : ''}>${fmtDate(d)}</option>`).join('') || '<option>데이터 없음</option>';
+  const i = dates.indexOf(date);
+  $('#prev').disabled = !date || i >= dates.length - 1;
+  $('#next').disabled = !date || i <= 0;
+  $('#main').innerHTML = '<p class="muted">불러오는 중…</p>';
+  const okLib = await loadLWC();
+  let day = null;
+  if (date) day = await getJSON(`data/${state.tab}/${date}.json`).catch(() => null);
+  if (seq !== renderSeq) return;
+  if (!okLib) { $('#main').innerHTML = '<div class="empty">차트 라이브러리를 불러오지 못했습니다. 새로고침해 주세요.</div>'; return; }
+  try {
+    await ({ us: pageUS, kr: pageKR, jp: pageJP, etf: pageETF }[state.tab])(day);
+  } catch (e) { console.error(e); $('#main').innerHTML = `<div class="empty">화면을 그리다 오류가 났습니다: ${esc(e.message || e)}</div>`; }
 }
 
-function drawChart(box, data, it) {
-  const refLabel = it.kind === 'low' ? '직전 52주 저가' : '직전 52주 고가';
-
-  const css = getComputedStyle(document.documentElement);
-  const up = css.getPropertyValue('--up').trim(), down = css.getPropertyValue('--down').trim();
-  const fg = css.getPropertyValue('--muted').trim(), line = css.getPropertyValue('--line').trim();
-  chart = LightweightCharts.createChart(box, {
-    autoSize: true,
-    layout: { background: { color: 'transparent' }, textColor: fg },
-    grid: { vertLines: { color: line }, horzLines: { color: line } },
-    rightPriceScale: { borderVisible: false },
-    timeScale: { borderVisible: false },
-    localization: { locale: 'ko-KR' },
-  });
-  const cs = chart.addCandlestickSeries({ upColor: up, downColor: down, wickUpColor: up, wickDownColor: down, borderVisible: false });
-  cs.setData(data.bars.map((b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] })));
-  const vs = chart.addHistogramSeries({ priceScaleId: 'vol', priceFormat: { type: 'volume' }, lastValueVisible: false, priceLineVisible: false });
-  chart.priceScale('vol').applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
-  vs.setData(data.bars.map((b) => ({ time: b[0], value: b[5], color: rgba(b[4] >= b[1] ? up : down, 0.4) })));
-  if (it.ref != null && it.kind !== 'etf') cs.createPriceLine({ price: it.ref, color: fg, lineWidth: 1, lineStyle: 2, axisLabelVisible: true, title: refLabel });
-  const day = current.day?.date;
-  if (day && it.kind !== 'etf' && data.bars.some((b) => b[0] === day)) {
-    cs.setMarkers([{ time: day, position: it.kind === 'low' ? 'belowBar' : 'aboveBar', color: it.kind === 'low' ? down : up,
-      shape: it.kind === 'low' ? 'arrowUp' : 'arrowDown', text: it.kind === 'low' ? '신저가' : '신고가' }]);
-  }
-  chart.timeScale().fitContent();
-  const last = data.bars.at(-1)?.[0];
-  document.querySelectorAll('#ranges button').forEach((b) => {
-    b.classList.toggle('on', b.dataset.r === '12');
-    b.onclick = () => {
-      document.querySelectorAll('#ranges button').forEach((x) => x.classList.toggle('on', x === b));
-      if (b.dataset.r === '12') return chart.timeScale().fitContent();
-      const from = new Date(last + 'T00:00:00'); from.setMonth(from.getMonth() - Number(b.dataset.r));
-      chart.timeScale().setVisibleRange({ from: from.toISOString().slice(0, 10), to: last });
-    };
-  });
-}
-
-function closeChart() { const m = $('#modal'); if (m.open) m.close(); }
-
-// ------------------------------------------------------------ 시작
 async function init() {
-  $('#markets').onclick = (e) => { const m = e.target.closest('button')?.dataset.m; if (m) go({ market: m, date: '' }); };
-  $('#views').onclick = (e) => { const v = e.target.closest('button')?.dataset.v; if (v) go({ view: v }); };
+  $('#tabs').onclick = (e) => { const t = e.target.closest('button')?.dataset.t; if (t) go({ tab: t, date: '' }); };
   $('#date').onchange = (e) => go({ date: e.target.value });
-  const step = (k) => { const ds = INDEX?.[state.market] || []; const i = ds.indexOf($('#date').value); const d = ds[i + k]; if (d) go({ date: d }); };
+  const step = (k) => { const ds = INDEX?.[state.tab] || []; const i = ds.indexOf($('#date').value); const d = ds[i + k]; if (d) go({ date: d }); };
   $('#prev').onclick = () => step(1);
   $('#next').onclick = () => step(-1);
-  $('#main').onclick = (e) => { const r = e.target.closest('.row'); if (r) openChart(r.dataset.t); };
-  $('#mclose').onclick = closeChart;
-  $('#modal').addEventListener('click', (e) => { if (e.target.id === 'modal') closeChart(); });
-  $('#modal').addEventListener('close', () => { if (chart) { chart.remove(); chart = null; } });
   window.addEventListener('hashchange', render);
-  try { INDEX = await (await fetch(`data/index.json?t=${Date.now()}`, { cache: 'no-cache' })).json(); }
-  catch { INDEX = { jp: [], us: [] }; }
+  try { INDEX = await (await fetch(`data/index.json?t=${Date.now()}`, { cache: 'no-cache' })).json(); } catch { INDEX = {}; }
   render();
 }
 init();

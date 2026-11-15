@@ -1,40 +1,192 @@
 {
-  "us": [
-    {"ticker": "SPY",  "label": "S&P 500"},
-    {"ticker": "QQQ",  "label": "나스닥 100"},
-    {"ticker": "IWM",  "label": "러셀 2000"},
-    {"ticker": "XLK",  "label": "IT"},
-    {"ticker": "XLY",  "label": "경기소비재"},
-    {"ticker": "XLP",  "label": "필수소비재"},
-    {"ticker": "XLE",  "label": "에너지"},
-    {"ticker": "XLF",  "label": "금융"},
-    {"ticker": "XLV",  "label": "헬스케어"},
-    {"ticker": "XLI",  "label": "산업재"},
-    {"ticker": "XLB",  "label": "소재"},
-    {"ticker": "XLU",  "label": "유틸리티"},
-    {"ticker": "XLRE", "label": "부동산"},
-    {"ticker": "XLC",  "label": "커뮤니케이션"},
-    {"ticker": "SMH",  "label": "반도체"}
-  ],
-  "jp": [
-    {"ticker": "1306.T", "label": "TOPIX"},
-    {"ticker": "1321.T", "label": "닛케이225"},
-    {"ticker": "1617.T", "label": "TOPIX-17 식품"},
-    {"ticker": "1618.T", "label": "TOPIX-17 에너지자원"},
-    {"ticker": "1619.T", "label": "TOPIX-17 건설·자재"},
-    {"ticker": "1620.T", "label": "TOPIX-17 소재·화학"},
-    {"ticker": "1621.T", "label": "TOPIX-17 의약품"},
-    {"ticker": "1622.T", "label": "TOPIX-17 자동차·수송기"},
-    {"ticker": "1623.T", "label": "TOPIX-17 철강·비철"},
-    {"ticker": "1624.T", "label": "TOPIX-17 기계"},
-    {"ticker": "1625.T", "label": "TOPIX-17 전기·정밀"},
-    {"ticker": "1626.T", "label": "TOPIX-17 정보통신·서비스"},
-    {"ticker": "1627.T", "label": "TOPIX-17 전력·가스"},
-    {"ticker": "1628.T", "label": "TOPIX-17 운수·물류"},
-    {"ticker": "1629.T", "label": "TOPIX-17 상사·도매"},
-    {"ticker": "1630.T", "label": "TOPIX-17 소매"},
-    {"ticker": "1631.T", "label": "TOPIX-17 은행"},
-    {"ticker": "1632.T", "label": "TOPIX-17 금융(은행 제외)"},
-    {"ticker": "1633.T", "label": "TOPIX-17 부동산"}
-  ]
+ "groups": [
+  {
+   "name": "지수",
+   "items": [
+    {
+     "ticker": "SPY",
+     "label": "S&P 500"
+    },
+    {
+     "ticker": "QQQ",
+     "label": "나스닥 100"
+    },
+    {
+     "ticker": "DIA",
+     "label": "다우"
+    },
+    {
+     "ticker": "IWM",
+     "label": "러셀 2000"
+    }
+   ]
+  },
+  {
+   "name": "미국 섹터",
+   "items": [
+    {
+     "ticker": "XLK",
+     "label": "IT"
+    },
+    {
+     "ticker": "XLY",
+     "label": "경기소비재"
+    },
+    {
+     "ticker": "XLP",
+     "label": "필수소비재"
+    },
+    {
+     "ticker": "XLE",
+     "label": "에너지"
+    },
+    {
+     "ticker": "XLF",
+     "label": "금융"
+    },
+    {
+     "ticker": "XLV",
+     "label": "헬스케어"
+    },
+    {
+     "ticker": "XLI",
+     "label": "산업재"
+    },
+    {
+     "ticker": "XLB",
+     "label": "소재"
+    },
+    {
+     "ticker": "XLU",
+     "label": "유틸리티"
+    },
+    {
+     "ticker": "XLRE",
+     "label": "부동산"
+    },
+    {
+     "ticker": "XLC",
+     "label": "커뮤니케이션"
+    }
+   ]
+  },
+  {
+   "name": "테마",
+   "items": [
+    {
+     "ticker": "SOXX",
+     "label": "반도체"
+    },
+    {
+     "ticker": "IGV",
+     "label": "소프트웨어"
+    },
+    {
+     "ticker": "CIBR",
+     "label": "사이버보안 (대형)"
+    },
+    {
+     "ticker": "WCBR",
+     "label": "사이버보안 (순수)"
+    },
+    {
+     "ticker": "ARKG",
+     "label": "AI 신약·유전체"
+    },
+    {
+     "ticker": "PPH",
+     "label": "빅파마"
+    },
+    {
+     "ticker": "LNGX",
+     "label": "LNG·천연가스"
+    },
+    {
+     "ticker": "JETS",
+     "label": "항공"
+    },
+    {
+     "ticker": "ITA",
+     "label": "방산"
+    },
+    {
+     "ticker": "UFO",
+     "label": "우주"
+    }
+   ]
+  },
+  {
+   "name": "일본 업종 (TOPIX-17)",
+   "items": [
+    {
+     "ticker": "1617.T",
+     "label": "식품"
+    },
+    {
+     "ticker": "1618.T",
+     "label": "에너지자원"
+    },
+    {
+     "ticker": "1619.T",
+     "label": "건설·자재"
+    },
+    {
+     "ticker": "1620.T",
+     "label": "소재·화학"
+    },
+    {
+     "ticker": "1621.T",
+     "label": "의약품"
+    },
+    {
+     "ticker": "1622.T",
+     "label": "자동차·수송기"
+    },
+    {
+     "ticker": "1623.T",
+     "label": "철강·비철"
+    },
+    {
+     "ticker": "1624.T",
+     "label": "기계"
+    },
+    {
+     "ticker": "1625.T",
+     "label": "전기·정밀"
+    },
+    {
+     "ticker": "1626.T",
+     "label": "정보통신·서비스"
+    },
+    {
+     "ticker": "1627.T",
+     "label": "전력·가스"
+    },
+    {
+     "ticker": "1628.T",
+     "label": "운수·물류"
+    },
+    {
+     "ticker": "1629.T",
+     "label": "상사·도매"
+    },
+    {
+     "ticker": "1630.T",
+     "label": "소매"
+    },
+    {
+     "ticker": "1631.T",
+     "label": "은행"
+    },
+    {
+     "ticker": "1632.T",
+     "label": "금융(은행 제외)"
+    },
+    {
+     "ticker": "1633.T",
+     "label": "부동산"
+    }
+   ]
+  }
+ ]
 }

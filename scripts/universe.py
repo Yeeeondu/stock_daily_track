@@ -1,6 +1,8 @@
 """종목 유니버스(전체 종목 목록 + 업종) 불러오기.
 - 일본: JPX(일본거래소) 상장종목 일람 엑셀 (프라임/스탠다드/그로스 내국주식 전체)
-- 미국: 위키백과 S&P 500 / 400 / 600 구성종목 (= S&P 1500, GICS 업종 포함)
+- 미국: 나스닥 스크리너(미국 상장 전 종목, 시가총액 하한 적용) + 위키백과 S&P 1500의 GICS 업종
+- 한국: 한국거래소 KIND 상장법인 목록 (코스피·코스닥)
+- ETF: 나스닥트레이더 상장 종목 목록에서 ETF 표시된 것 전부
 가져오기에 실패하면 cache/ 에 저장된 직전 목록을 사용한다."""
 import io
 import json
@@ -9,9 +11,12 @@ from pathlib import Path
 import pandas as pd
 import requests
 
-from industry_map import jp_category, us_category
+from industry_map import NASDAQ_SECTOR, jp_category, us_category
 
-UA = {"User-Agent": "Mozilla/5.0 (sector-board; GitHub Actions)"}
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"}
+NASDAQ_SCREENER = "https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25000&download=true"
+KIND_URL = "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13"
+NASDAQ_SYMDIR = "https://www.nasdaqtrader.com/dynamic/SymDir/{}.txt"
 JPX_PAGE = "https://www.jpx.co.jp/markets/statistics-equities/misc/01.html"
 JPX_FALLBACK = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
 SP_PAGES = [
@@ -67,7 +72,7 @@ def _find_col(cols, *keys):
     return None
 
 
-def _us():
+def _sp1500():
     out = {}
     for url, idx in SP_PAGES:
         html = requests.get(url, headers=UA, timeout=60).text
@@ -100,10 +105,79 @@ def _us():
     return out
 
 
+def _us(min_mcap=3e8):
+    """미국 상장 전 종목 중 시가총액 min_mcap 이상. S&P 1500 종목은 GICS 업종으로 덮어씀."""
+    try:
+        sp = _sp1500()
+    except Exception as e:  # noqa: BLE001
+        print("S&P1500 목록 실패:", e, flush=True)
+        sp = {}
+    out = {}
+    try:
+        j = requests.get(NASDAQ_SCREENER, headers=UA, timeout=90).json()
+        for r in j["data"]["rows"]:
+            sym = str(r.get("symbol", "")).strip().replace("/", "-")
+            if not sym or "^" in sym or " " in sym:
+                continue
+            try:
+                mcap = float(r.get("marketCap") or 0)
+            except ValueError:
+                mcap = 0
+            if mcap < min_mcap:
+                continue
+            name = str(r.get("name", sym))
+            for suf in (" Common Stock", " Class A Common Stock", " Ordinary Shares", " American Depositary Shares"):
+                name = name.split(suf)[0]
+            sec = NASDAQ_SECTOR.get(r.get("sector") or "", "기타")
+            ind = (r.get("industry") or "").strip() or sec
+            out[sym] = {"name": name.strip(), "name_local": "", "sector": sec, "industry": ind,
+                        "small": mcap < 2e9, "market": "US", "mcap": mcap}
+    except Exception as e:  # noqa: BLE001
+        print("나스닥 스크리너 실패:", e, flush=True)
+    for t, m in sp.items():
+        base = out.get(t, {})
+        out[t] = {**base, **m, "small": base.get("small", m["small"]), "mcap": base.get("mcap")}
+    return out
+
+
+def _kr():
+    r = requests.get(KIND_URL, headers=UA, timeout=90)
+    r.encoding = "euc-kr"
+    df = pd.read_html(io.StringIO(r.text), converters={"종목코드": str})[0]
+    out = {}
+    for _, x in df.iterrows():
+        mk = str(x["시장구분"])
+        suf = ".KQ" if "코스닥" in mk else ".KS" if ("유가" in mk or "코스피" in mk) else None
+        if not suf:
+            continue
+        code = str(x["종목코드"]).strip().zfill(6)
+        ind = str(x.get("업종", "") or "").strip()
+        out[code + suf] = {"name": str(x["회사명"]).strip(), "name_local": "", "sector": ind,
+                           "industry": ind, "small": False, "market": "코스닥" if suf == ".KQ" else "코스피"}
+    return out
+
+
+def _etf():
+    out = {}
+    for f in ("nasdaqlisted", "otherlisted"):
+        df = pd.read_csv(io.StringIO(requests.get(NASDAQ_SYMDIR.format(f), headers=UA, timeout=60).text), sep="|")
+        df = df[df["ETF"] == "Y"]
+        sym_col = "Symbol" if "Symbol" in df.columns else "ACT Symbol"
+        if "Test Issue" in df.columns:
+            df = df[df["Test Issue"] != "Y"]
+        for _, x in df.iterrows():
+            sym = str(x[sym_col]).strip().replace(".", "-")
+            if not sym or sym == "nan" or "$" in sym:
+                continue
+            out[sym] = {"name": str(x["Security Name"]).strip(), "name_local": "", "sector": "ETF",
+                        "industry": "ETF", "small": False, "market": "ETF"}
+    return out
+
+
 def load_universe(market: str, cache_dir: Path):
     path = cache_dir / f"universe_{market}.json"
     try:
-        uni = _jp() if market == "jp" else _us()
+        uni = {"jp": _jp, "us": _us, "kr": _kr, "etf": _etf}[market]()
         if len(uni) < 300:
             raise RuntimeError(f"종목 수가 너무 적음: {len(uni)}")
         path.write_text(json.dumps(uni, ensure_ascii=False, indent=0), "utf-8")
