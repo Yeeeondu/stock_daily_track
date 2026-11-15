@@ -113,15 +113,18 @@ function cardHeader(card, data, { dec = 2, unit = '', bp = false, badge = '' } =
   $('.cchg', card).innerHTML = `<span class="${cls(diff)}">${chg}</span> <span class="cdate">${fmtDate(last[0])}</span>`;
 }
 
-function ohlcCard(id, s, def = '1Y') {
+function ohlcCard(id, s, { def = '1Y', ranges = ['3M', '6M', '1Y', '3Y'], dec = 2, unit = '', bp = false, bands = [] } = {}) {
   const card = document.getElementById(id); if (!card || !s) return;
-  cardHeader(card, s.data);
+  cardHeader(card, s.data, { dec, unit, bp });
   const th = theme();
   const ch = makeChart($('.cbox', card));
   const cs = ch.addCandlestickSeries({ upColor: th.up, downColor: th.down, wickUpColor: th.up, wickDownColor: th.down, borderVisible: false, priceLineVisible: false });
   cs.setData(s.data.map((b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] })));
-  bindRanges($('.ranges', card), ch, s.data, ['3M', '6M', '1Y', '3Y'], def);
+  bands.forEach((b) => cs.createPriceLine({ price: b, color: th.muted, lineWidth: 1, lineStyle: 2, axisLabelVisible: false }));
+  bindRanges($('.ranges', card), ch, s.data, ranges, def);
 }
+const ALL_R = ['3M', '6M', '1Y', '3Y', '5Y', '10Y'];
+function anyCard(id, s, o) { if (s?.type === 'ohlc') ohlcCard(id, s, { ranges: ALL_R, ...o }); else lineCard(id, s, o); }
 
 function lineCard(id, s, { color, dec = 2, unit = '', bp = false, def = '3Y', ranges = ['3M', '6M', '1Y', '3Y', '5Y', '10Y'], bands = [], badge = '' } = {}) {
   const card = document.getElementById(id); if (!card || !s) return;
@@ -330,21 +333,23 @@ async function pageUS(day) {
   const IMA = [[5, '#e5489b'], [20, '#f0a020'], [50, '#2fa84f'], [120, '#8a5cf6'], [200, '#8a8a95']];
   const IR = ['3M', '6M', '1Y', '3Y', '5Y'];
   maRsiCard('c-dji', S.dji, IMA, IR, '1Y'); maRsiCard('c-ixic', S.ixic, IMA, IR, '1Y'); maRsiCard('c-spx', S.spx, IMA, IR, '1Y');
-  lineCard('c-vix', S.vix, { color: th.up, def: '1Y', bands: [20, 30] });
+  anyCard('c-vix', S.vix, { color: th.up, def: '1Y', bands: [20, 30] });
   lineCard('c-fg', S.fg, { color: th.accent, dec: 1, def: '1Y', bands: [25, 50, 75], badge: fgNow });
   lineCard('c-pc', S.pc, { color: '#8a5cf6', dec: 3, def: '1Y', bands: [1] });
-  [['c-u2', 'ust2'], ['c-u5', 'ust5'], ['c-u10', 'ust10'], ['c-u20', 'ust20'], ['c-u30', 'ust30']].forEach(([id, k]) => lineCard(id, S[k], { color: '#2fa84f', unit: '%', bp: true, def: '1Y' }));
+  [['c-u2', 'ust2'], ['c-u5', 'ust5'], ['c-u10', 'ust10'], ['c-u20', 'ust20'], ['c-u30', 'ust30']].forEach(([id, k]) => anyCard(id, S[k], { color: '#2fa84f', unit: '%', bp: true, def: '1Y', dec: 3 }));
   bindStocks(day, 'us');
 }
 
 async function pageKR(day) {
   const mac = await getJSON('data/macro/kr.json').catch(() => null);
   const S = mac?.series || {};
-  let html = `<h2 class="sec">코스피</h2><div class="grid">${cardHTML('c-kospi', '코스피 (일봉 · 이동평균 · RSI)', true, '<div class="rsibox"></div><div class="legend"></div>')}</div>
+  const RB = '<div class="rsibox"></div><div class="legend"></div>';
+  let html = `<h2 class="sec">지수</h2><div class="grid">${cardHTML('c-kospi', '코스피 (일봉 · 이동평균 · RSI)', true, RB)}${cardHTML('c-kosdaq', '코스닥 (일봉 · 이동평균 · RSI)', true, RB)}</div>
     <h2 class="sec">증시 자금</h2><div class="grid">${cardHTML('c-funds', '투자자 예탁금 · 신용잔고', true, '<div class="legend"></div>')}</div>`;
   html += stockSections(day, 'kr');
   $('#main').innerHTML = html;
-  maRsiCard('c-kospi', S.kospi, undefined, ['3M', '6M', '1Y', '3Y'], '3Y');
+  maRsiCard('c-kospi', S.kospi, undefined, ['3M', '6M', '1Y', '3Y'], '1Y');
+  maRsiCard('c-kosdaq', S.kosdaq, undefined, ['3M', '6M', '1Y', '3Y'], '1Y');
   fundsCard('c-funds', S.deposit, S.credit);
   bindStocks(day, 'kr');
 }

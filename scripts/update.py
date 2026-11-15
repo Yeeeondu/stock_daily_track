@@ -475,7 +475,17 @@ def run_macro_us():
             S[key] = {"label": label, "type": "ohlc", "data": bars_of(idx[t])}
     vix = download(["^VIX"], "10y").get("^VIX")
     if vix is not None:
-        S["vix"] = {"label": "VIX (변동성지수)", "type": "line", "data": series_close(vix)}
+        S["vix"] = {"label": "VIX (변동성지수)", "type": "ohlc", "data": bars_of(vix)}
+    # 국채 금리 일봉 (Yahoo: 5년 ^FVX · 10년 ^TNX · 30년 ^TYX, 2년은 국채 2년 선물 수익률 2YY=F)
+    ylds = download(["2YY=F", "^FVX", "^TNX", "^TYX"], "10y")
+    yahoo_yields = {}
+    for key, t in (("ust2", "2YY=F"), ("ust5", "^FVX"), ("ust10", "^TNX"), ("ust30", "^TYX")):
+        df = ylds.get(t)
+        if df is None or len(df) < 100:
+            continue
+        df = df.dropna(subset=["Open", "High", "Low", "Close"])
+        if (df["High"] > df["Low"]).mean() > 0.5:  # 고가·저가가 실제로 있는 경우만 일봉
+            yahoo_yields[key] = bars_of(df)
 
     # CNN 공포탐욕지수 · Put/Call (기존 기록과 합쳐서 계속 쌓음)
     hdr = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
@@ -527,6 +537,9 @@ def run_macro_us():
         tr = tr.sort_values("Date").drop_duplicates("Date")
         for key, col, label in (("ust2", "2 Yr", "미국 국채 2년"), ("ust5", "5 Yr", "미국 국채 5년"), ("ust10", "10 Yr", "미국 국채 10년"),
                                 ("ust20", "20 Yr", "미국 국채 20년"), ("ust30", "30 Yr", "미국 국채 30년")):
+            if key in yahoo_yields:
+                S[key] = {"label": label, "type": "ohlc", "unit": "%", "data": yahoo_yields[key]}
+                continue
             d = tr[["Date", col]].dropna()
             S[key] = {"label": label, "type": "line", "unit": "%",
                       "data": [[r.Date.strftime("%Y-%m-%d"), float(r[col])] for _, r in d.iterrows()]}
@@ -551,9 +564,11 @@ def run_macro_kr():
     log("===== 한국 거시 지표 =====")
     out = read_json(DATA / "macro" / "kr.json", {"series": {}})
     S = out.setdefault("series", {})
-    k = download(["^KS11"], "4y").get("^KS11")
-    if k is not None:
-        S["kospi"] = {"label": "코스피", "type": "ohlc", "data": bars_of(k)}
+    kk = download(["^KS11", "^KQ11"], "4y")
+    if kk.get("^KS11") is not None:
+        S["kospi"] = {"label": "코스피", "type": "ohlc", "data": bars_of(kk["^KS11"])}
+    if kk.get("^KQ11") is not None:
+        S["kosdaq"] = {"label": "코스닥", "type": "ohlc", "data": bars_of(kk["^KQ11"])}
     end = dt.date.today()
     start = (end - dt.timedelta(days=365 * 3 + 10)).strftime("%Y%m%d")
     end = end.strftime("%Y%m%d")
