@@ -1,772 +1,751 @@
 {
  "AAON": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 82462535,
+  "eps": 2.44,
+  "rev": 2266298880,
+  "mcap": 6617618432
  },
  "AGBK": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 58350085,
+  "eps": 1.03,
+  "rev": 3494710016,
+  "mcap": 1632663168
  },
  "ALM": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 285670318,
+  "eps": 0.17,
+  "rev": 118997000,
+  "mcap": 2348209920
  },
  "AMBR": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 87028604,
+  "eps": 0.02,
+  "rev": 56583000,
+  "mcap": 184779488
  },
  "ANGX": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 140162784,
+  "eps": -0.73,
+  "rev": 495760320,
+  "mcap": 901964416
  },
  "AP": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 20658703,
+  "eps": -2.81,
+  "rev": 431732000,
+  "mcap": 151841472
  },
  "AQST": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 125687705,
+  "eps": -0.65,
+  "rev": 48837000,
+  "mcap": 491438944
  },
  "ARAI": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 1432782,
+  "eps": -31.68,
+  "rev": 84400,
+  "mcap": 3223759
  },
  "ARQ": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 44189360,
+  "eps": -1.2,
+  "rev": 126576000,
+  "mcap": 140522160
  },
  "AUC": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 22128378,
+  "eps": -2.19,
+  "rev": 2600000,
+  "mcap": 156447632
  },
  "BDX": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 272386800,
+  "eps": 5.06,
+  "rev": 19456999424,
+  "mcap": 59388497920
  },
  "BGIN": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 90581566,
+  "eps": -1.34,
+  "rev": 27108060,
+  "mcap": 438967488
  },
  "BGS": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 81140774,
+  "eps": -1.04,
+  "rev": 1791549056,
+  "mcap": 283992704
  },
  "BRCB": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 22994301,
+  "eps": 0.2,
+  "rev": 238847008,
+  "mcap": 248108496
  },
  "BUUU": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 148780000,
+  "eps": -0.0,
+  "rev": 6651132,
+  "mcap": 1057509632
  },
  "BW": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 145446002,
+  "eps": -0.1,
+  "rev": 985921024,
+  "mcap": 663233728
  },
  "CATX": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 120758815,
+  "eps": -1.25,
+  "rev": 220000,
+  "mcap": 113887640
  },
  "CBRS": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 160084168,
+  "eps": -5.14,
+  "rev": 755766976,
+  "mcap": 26419324928
  },
  "CDNL": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 21373255,
+  "eps": 0.96,
+  "rev": 742180352,
+  "mcap": 138071232
  },
  "CDXS": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 109597529,
+  "eps": -0.18,
+  "rev": 88341000,
+  "mcap": 127133128
  },
  "CMTV": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 5610551,
+  "eps": 3.36,
+  "rev": 51054856,
+  "mcap": 278339424
  },
  "COLM": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 50368480,
+  "eps": 4.53,
+  "rev": 3426184960,
+  "mcap": 3700572160
  },
  "COST": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 443129349,
+  "eps": 20.76,
+  "rev": 303154003968,
+  "mcap": 490194108416
  },
  "CRESY": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 70925196,
+  "eps": 1.55,
+  "rev": 1368137007104,
+  "mcap": 690811456
  },
  "CROX": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 45725039,
+  "eps": 13.2,
+  "rev": 4101147904,
+  "mcap": 7486103552
  },
  "CURI": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 59338028,
+  "eps": 0.15,
+  "rev": 78326000,
+  "mcap": 185728032
  },
  "DCTH": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 34788068,
+  "eps": 0.16,
+  "rev": 109957000,
+  "mcap": 714894784
  },
  "DDI": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 49553440,
+  "eps": 2.52,
+  "rev": 378467008,
+  "mcap": 781457792
  },
  "ECC": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
- },
- "ECCV": {
-  "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 133010748,
+  "eps": -1.3,
+  "rev": 183471760,
+  "mcap": 309915040
  },
  "ENGN": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
+  "shares": 67016316,
+  "eps": -2.07,
   "rev": null,
-  "mcap": null
+  "mcap": 161509328
  },
  "EW": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 575000000,
+  "eps": 1.72,
+  "rev": 6674699776,
+  "mcap": 61611249664
  },
  "FBYDP": {
   "at": "2026-11-15",
   "shares": null,
   "eps": null,
-  "rev": null,
+  "rev": 24868000,
   "mcap": null
  },
  "FCN": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 27254187,
+  "eps": 8.03,
+  "rev": 3980118016,
+  "mcap": 5527421952
  },
  "FOUR": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 74943944,
+  "eps": 0.83,
+  "rev": 4924000256,
+  "mcap": 3355989760
  },
  "FRMI": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
+  "shares": 646953440,
+  "eps": -1.27,
   "rev": null,
-  "mcap": null
+  "mcap": 1688548480
  },
  "FROG": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 124622515,
+  "eps": -0.18,
+  "rev": 642225024,
+  "mcap": 14157117440
  },
  "FRVO": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 287225439,
+  "eps": -0.82,
+  "rev": 373000,
+  "mcap": 3395690240
  },
  "GCT": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 29167292,
+  "eps": 4.63,
+  "rev": 1557442048,
+  "mcap": 2373628672
  },
  "GEVO": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 247376240,
+  "eps": -0.76,
+  "rev": 217750000,
+  "mcap": 452698528
  },
  "GFR": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 240413692,
+  "eps": -0.25,
+  "rev": 714923008,
+  "mcap": 1860801920
  },
  "HAWK": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 99317330,
+  "eps": -0.49,
+  "rev": 194780000,
+  "mcap": 1803602688
  },
  "HCAT": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 76155467,
+  "eps": -2.8,
+  "rev": 272204992,
+  "mcap": 114994752
  },
  "HUMA": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 277798105,
+  "eps": -0.45,
+  "rev": 2396000,
+  "mcap": 155122464
  },
  "IAM": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 47400796,
+  "eps": -2.69,
+  "rev": 18251000,
+  "mcap": 620950464
  },
  "IBEX": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 13333839,
+  "eps": 3.3,
+  "rev": 668121984,
+  "mcap": 758962112
  },
  "IRLA": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
+  "shares": 10841470,
+  "eps": -214.01,
   "rev": null,
-  "mcap": null
+  "mcap": 431490496
  },
  "JNJ": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 2407310266,
+  "eps": 6.59,
+  "rev": 99334995968,
+  "mcap": 687888924672
  },
  "JXG": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 16859877,
+  "eps": -17.71,
+  "rev": 82936768,
+  "mcap": 212097232
  },
  "KLAR": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 379160066,
+  "eps": -0.37,
+  "rev": 4039000064,
+  "mcap": 5232409088
  },
  "KLXE": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 105717389,
+  "eps": -3.05,
+  "rev": 654499968,
+  "mcap": 135318256
  },
  "KO": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 4301902335,
+  "eps": 3.39,
+  "rev": 51053998080,
+  "mcap": 426963795968
  },
  "KOD": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
+  "shares": 65395553,
+  "eps": -4.08,
   "rev": null,
-  "mcap": null
+  "mcap": 7271331840
  },
  "KOF": {
   "at": "2026-11-15",
   "shares": null,
-  "eps": null,
-  "rev": null,
+  "eps": 6.55,
+  "rev": 304951689216,
   "mcap": null
  },
  "KPLT": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 84849055,
+  "eps": 4.49,
+  "rev": 1734242048,
+  "mcap": 749217152
  },
  "LAB": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 394790441,
+  "eps": -0.09,
+  "rev": 84430000,
+  "mcap": 279274752
  },
  "LFTO": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 169444265,
+  "eps": 0.25,
+  "rev": 856827008,
+  "mcap": 4141218048
  },
  "LGN": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 77292198,
+  "eps": 0.39,
+  "rev": 4348329984,
+  "mcap": 5430043136
  },
  "LINC": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 30781545,
+  "eps": 0.76,
+  "rev": 588566976,
+  "mcap": 702126976
  },
  "LQDA": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 90106442,
+  "eps": -1.05,
+  "rev": 621865024,
+  "mcap": 5173010944
  },
  "LRMR": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
+  "shares": 103882937,
+  "eps": -1.99,
   "rev": null,
-  "mcap": null
+  "mcap": 313726464
  },
  "LU": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 86668889,
+  "eps": -5.57,
+  "rev": 28099766272,
+  "mcap": 624882688
  },
  "LUCK": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 80807758,
+  "eps": -0.43,
+  "rev": 1255683968,
+  "mcap": 470328832
  },
  "MF": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 6061683,
+  "eps": -29.31,
+  "rev": 14856829,
+  "mcap": 273538176
  },
  "MFI": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 49045623,
+  "eps": 2.1,
+  "rev": 30753308,
+  "mcap": 380588640
  },
  "MOD": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 53196918,
+  "eps": 2.39,
+  "rev": 3627899904,
+  "mcap": 7216694272
  },
  "NCMI": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 94387494,
+  "eps": -0.29,
+  "rev": 247000000,
+  "mcap": 176504624
  },
  "NGEN": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
+  "shares": 107522633,
+  "eps": -0.57,
   "rev": null,
-  "mcap": null
+  "mcap": 202142544
  },
  "NMAX": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 89961222,
+  "eps": 0.16,
+  "rev": 227047504,
+  "mcap": 1237740928
  },
  "NTHI": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 28850588,
+  "eps": -1.95,
+  "rev": 39990,
+  "mcap": 141656384
  },
  "NU": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 3815933617,
+  "eps": 0.8,
+  "rev": 9102826496,
+  "mcap": 63965421568
  },
  "NUAI": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 140569465,
+  "eps": -0.96,
+  "rev": 889178,
+  "mcap": 449822304
  },
  "OBIO": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 78704957,
+  "eps": -0.75,
+  "rev": 31206000,
+  "mcap": 570610944
  },
  "OGE": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 206725975,
+  "eps": 2.65,
+  "rev": 3373100032,
+  "mcap": 10658791424
  },
  "OPTX": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
- },
- "OXLCZ": {
-  "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 40279878,
+  "eps": -0.07,
+  "rev": 30835046,
+  "mcap": 285181536
  },
  "PEPG": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
+  "shares": 94261282,
+  "eps": -0.77,
   "rev": null,
-  "mcap": null
+  "mcap": 410979200
  },
  "PG": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 2317783143,
+  "eps": 6.64,
+  "rev": 87921999872,
+  "mcap": 393559572480
  },
  "PLBL": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 319108190,
+  "eps": -0.01,
+  "rev": 20700438,
+  "mcap": 2652645120
  },
  "PMA": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 156975000,
+  "eps": -0.44,
+  "rev": 14628290,
+  "mcap": 221646016
  },
  "PRME": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 222448284,
+  "eps": -0.97,
+  "rev": 7061000,
+  "mcap": 949854208
  },
  "PUBM": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 37630887,
+  "eps": -0.04,
+  "rev": 300783008,
+  "mcap": 944736704
  },
  "RVSB": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 19738266,
+  "eps": -0.14,
+  "rev": 45406000,
+  "mcap": 131851616
  },
  "RYDE": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 150049131,
+  "eps": -0.71,
+  "rev": 13493000,
+  "mcap": 194644416
  },
  "SBC": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 102576943,
+  "eps": 0.47,
+  "rev": 190396864,
+  "mcap": 753940544
  },
  "SHIM": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 42761763,
+  "eps": -0.31,
+  "rev": 430859008,
+  "mcap": 138975728
  },
  "SND": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 43510220,
+  "eps": 0.39,
+  "rev": 406503008,
+  "mcap": 207543744
  },
  "SOC": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 207980283,
+  "eps": -3.61,
+  "rev": 292766016,
+  "mcap": 151804816
  },
  "SPRY": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 100528400,
+  "eps": -2.01,
+  "rev": 122136000,
+  "mcap": 391055488
  },
  "SSII": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 200488427,
+  "eps": -0.06,
+  "rev": 52404908,
+  "mcap": 332810784
  },
  "STN": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 110676474,
+  "eps": 3.39,
+  "rev": 6979500032,
+  "mcap": 9483867136
  },
  "STVN": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 49834691,
+  "eps": 0.59,
+  "rev": 1248121984,
+  "mcap": 4315432960
  },
  "SWMR": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 14294121,
+  "eps": -1.56,
+  "rev": 297748,
+  "mcap": 126360032
  },
  "SWVL": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 17934390,
+  "eps": 0.03,
+  "rev": 30201984,
+  "mcap": 86802448
  },
  "TBBB": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 77938244,
+  "eps": -0.95,
+  "rev": 99315572736,
+  "mcap": 8441805312
  },
  "TEVA": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 1166826784,
+  "eps": 0.43,
+  "rev": 17230000128,
+  "mcap": 51923791872
  },
  "TLS": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 73532971,
+  "eps": -0.13,
+  "rev": 197462000,
+  "mcap": 540467328
  },
  "TMCI": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 65559597,
+  "eps": -0.85,
+  "rev": 203346000,
+  "mcap": 345499072
  },
  "TNDM": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 69793846,
+  "eps": -0.7,
+  "rev": 1075853952,
+  "mcap": 1400762496
  },
  "TOP": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 121706506,
+  "eps": -0.2,
+  "rev": 5141496,
+  "mcap": 2103010560
  },
  "TTEC": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 49383048,
+  "eps": -4.14,
+  "rev": 2013872000,
+  "mcap": 145680000
  },
  "TW": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 112144146,
+  "eps": 4.26,
+  "rev": 2280384000,
+  "mcap": 28424175616
  },
  "UNIT": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
- },
- "VFSWW": {
-  "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 242826817,
+  "eps": -4.73,
+  "rev": 3662500096,
+  "mcap": 1184994944
  },
  "WSBK": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 8960743,
+  "eps": 0.53,
+  "rev": 26630000,
+  "mcap": 124460240
  },
  "WWW": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 82086831,
+  "eps": 1.78,
+  "rev": 1986899968,
+  "mcap": 2043141248
  },
  "XHR": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 92245835,
+  "eps": 0.04,
+  "rev": 1120312064,
+  "mcap": 2160536320
  },
  "XLAB": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 33689050,
+  "eps": -0.19,
+  "rev": 14822799,
+  "mcap": 137676448
  },
  "XTND": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 249131959,
+  "eps": -0.11,
+  "rev": 23746000,
+  "mcap": 346293408
  },
  "ZIP": {
   "at": "2026-11-15",
-  "shares": null,
-  "eps": null,
-  "rev": null,
-  "mcap": null
+  "shares": 68830871,
+  "eps": 0.51,
+  "rev": 461724992,
+  "mcap": 449998272
  }
 }
