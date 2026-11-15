@@ -224,6 +224,7 @@ def fundamentals(tickers, closes):
     cpath = CACHE / "fundamentals.json"
     cache = read_json(cpath, {})
     today = dt.date.today()
+    cache = {t: v for t, v in cache.items() if any(v.get(k) for k in ("shares", "eps", "rev", "mcap"))}  # 빈 기록 제거
     fresh = lambda t: t in cache and (today - dt.date.fromisoformat(cache[t]["at"])).days < 7  # noqa: E731
     for t in [t for t in tickers if not fresh(t)]:
         for attempt in range(2):
