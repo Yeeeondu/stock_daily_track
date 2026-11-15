@@ -1,9 +1,9 @@
 {
  "market": "us",
  "date": "2026-11-13",
- "generated_at": "2026-11-15T14:10:25+00:00",
- "universe": 3637,
- "priced": 3591,
+ "generated_at": "2026-11-15T15:11:01+00:00",
+ "universe": 4270,
+ "priced": 4204,
  "criteria": "상승·양봉 마감 · 장중 52주(252거래일) 고가 돌파",
  "newhigh": [
   {
@@ -18,7 +18,11 @@
    "w1": 45.83,
    "ref": 5.79,
    "ath": false,
-   "since": "2022-09-26"
+   "since": "2022-09-26",
+   "rs": 98,
+   "mcap": 549202676.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "OBIO",
@@ -32,7 +36,11 @@
    "w1": 27.64,
    "ref": 6.5,
    "ath": false,
-   "since": "2020-08-04"
+   "since": "2020-08-04",
+   "rs": 96,
+   "mcap": 484035486.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "WWW",
@@ -46,7 +54,11 @@
    "w1": 16.69,
    "ref": 23.84,
    "ath": false,
-   "since": "1980-03-17"
+   "since": "1980-03-17",
+   "rs": 92,
+   "mcap": 1878967562.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "PUBM",
@@ -60,7 +72,11 @@
    "w1": 15.72,
    "ref": 19.48,
    "ath": false,
-   "since": "2020-12-09"
+   "since": "2020-12-09",
+   "rs": 98,
+   "mcap": 871853044.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "CROX",
@@ -74,7 +90,11 @@
    "w1": 7.81,
    "ref": 161.88,
    "ath": false,
-   "since": "2006-02-08"
+   "since": "2006-02-08",
+   "rs": 95,
+   "mcap": 7173344118.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "IBEX",
@@ -88,7 +108,29 @@
    "w1": 14.94,
    "ref": 55.77,
    "ath": true,
-   "since": "2020-08-07"
+   "since": "2020-08-07",
+   "rs": 96,
+   "mcap": 731627746.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "RVSB",
+   "name": "Riverview Bancorp Inc",
+   "name_local": "",
+   "sector": "금융",
+   "industry": "Savings Institutions",
+   "small": true,
+   "close": 6.68,
+   "d1": 3.25,
+   "w1": 9.15,
+   "ref": 6.5,
+   "ath": false,
+   "since": "1993-10-25",
+   "rs": 85,
+   "mcap": 130439166.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TBBB",
@@ -102,7 +144,11 @@
    "w1": 6.71,
    "ref": 68.39,
    "ath": true,
-   "since": "2024-02-09"
+   "since": "2024-02-09",
+   "rs": 97,
+   "mcap": 8013107561.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "GCT",
@@ -116,7 +162,11 @@
    "w1": 14.15,
    "ref": 67.18,
    "ath": true,
-   "since": "2022-08-18"
+   "since": "2022-08-18",
+   "rs": 96,
+   "mcap": 2308080515.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "KOD",
@@ -130,7 +180,11 @@
    "w1": 11.97,
    "ref": 112.31,
    "ath": false,
-   "since": "2018-10-04"
+   "since": "2018-10-04",
+   "rs": 99,
+   "mcap": 7079068612.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "FROG",
@@ -144,7 +198,11 @@
    "w1": 12.5,
    "ref": 113.23,
    "ath": true,
-   "since": "2020-09-16"
+   "since": "2020-09-16",
+   "rs": 95,
+   "mcap": 13783250159.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "COLM",
@@ -158,7 +216,11 @@
    "w1": 4.32,
    "ref": 73.09,
    "ath": false,
-   "since": "1998-03-27"
+   "since": "1998-03-27",
+   "rs": 87,
+   "mcap": 3608397907.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "FCN",
@@ -172,7 +234,11 @@
    "w1": 3.63,
    "ref": 202.3,
    "ath": false,
-   "since": "1996-05-09"
+   "since": "1996-05-09",
+   "rs": 89,
+   "mcap": 5412681538.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TEVA",
@@ -186,7 +252,11 @@
    "w1": 4.44,
    "ref": 44.31,
    "ath": false,
-   "since": "1982-02-16"
+   "since": "1982-02-16",
+   "rs": 90,
+   "mcap": 50931989122.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "KOF",
@@ -200,7 +270,11 @@
    "w1": 5.42,
    "ref": 122.14,
    "ath": false,
-   "since": "1993-09-14"
+   "since": "1993-09-14",
+   "rs": 75,
+   "mcap": 199074865195.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "KO",
@@ -214,7 +288,29 @@
    "w1": 3.74,
    "ref": 98.38,
    "ath": true,
-   "since": "1962-01-02"
+   "since": "1962-01-02",
+   "rs": 83,
+   "mcap": 419091325476.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "CMTV",
+   "name": "Community Bancorp.",
+   "name_local": "",
+   "sector": "금융",
+   "industry": "Major Banks",
+   "small": true,
+   "close": 49.61,
+   "d1": 1.35,
+   "w1": 5.55,
+   "ref": 49.11,
+   "ath": true,
+   "since": "1999-02-02",
+   "rs": 93,
+   "mcap": 274164153.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "COST",
@@ -228,7 +324,11 @@
    "w1": 5.0,
    "ref": 1102.84,
    "ath": true,
-   "since": "1986-07-09"
+   "since": "1986-07-09",
+   "rs": 73,
+   "mcap": 483990306271.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "EW",
@@ -242,7 +342,11 @@
    "w1": 4.91,
    "ref": 106.8,
    "ath": false,
-   "since": "2000-03-27"
+   "since": "2000-03-27",
+   "rs": 86,
+   "mcap": 60840750000.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "ECCV",
@@ -256,7 +360,11 @@
    "w1": 0.78,
    "ref": 25.0,
    "ath": true,
-   "since": "2022-01-26"
+   "since": "2022-01-26",
+   "rs": 56,
+   "mcap": 1457113826.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "BDX",
@@ -270,7 +378,11 @@
    "w1": 2.9,
    "ref": 216.85,
    "ath": false,
-   "since": "1973-02-21"
+   "since": "1973-02-21",
+   "rs": 89,
+   "mcap": 58762004364.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "PG",
@@ -284,7 +396,11 @@
    "w1": 2.66,
    "ref": 170.52,
    "ath": false,
-   "since": "1962-01-02"
+   "since": "1962-01-02",
+   "rs": 75,
+   "mcap": 389596168507.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TW",
@@ -298,7 +414,11 @@
    "w1": 3.92,
    "ref": 132.46,
    "ath": false,
-   "since": "2019-04-04"
+   "since": "2019-04-04",
+   "rs": 82,
+   "mcap": 30558146878.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "JNJ",
@@ -312,7 +432,11 @@
    "w1": 3.45,
    "ref": 286.08,
    "ath": true,
-   "since": "1962-01-02"
+   "since": "1962-01-02",
+   "rs": 82,
+   "mcap": 682761337643.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "OGE",
@@ -326,7 +450,29 @@
    "w1": 1.82,
    "ref": 51.62,
    "ath": true,
-   "since": "1973-02-21"
+   "since": "1973-02-21",
+   "rs": 68,
+   "mcap": 10593672589.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "WSBK",
+   "name": "Winchester Bancorp Inc.",
+   "name_local": "",
+   "sector": "금융",
+   "industry": "Banks",
+   "small": true,
+   "close": 13.89,
+   "d1": 0.51,
+   "w1": 2.06,
+   "ref": 13.84,
+   "ath": true,
+   "since": "2025-05-02",
+   "rs": 75,
+   "mcap": 128462096.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "DDI",
@@ -340,7 +486,11 @@
    "w1": 16.13,
    "ref": 15.78,
    "ath": false,
-   "since": "2021-08-31"
+   "since": "2021-08-31",
+   "rs": 93,
+   "mcap": 777989008.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "XHR",
@@ -354,7 +504,11 @@
    "w1": 2.06,
    "ref": 22.34,
    "ath": false,
-   "since": "2015-02-04"
+   "since": "2015-02-04",
+   "rs": 89,
+   "mcap": 2009575515.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "OXLCZ",
@@ -368,7 +522,11 @@
    "w1": 0.1,
    "ref": 25.15,
    "ath": false,
-   "since": "2022-01-14"
+   "since": "2022-01-14",
+   "rs": 55,
+   "mcap": 4366040000.0,
+   "per": null,
+   "psr": null
   }
  ],
  "top_d1": [
@@ -381,7 +539,26 @@
    "small": true,
    "close": 3.88,
    "d1": 40.58,
-   "w1": 135.15
+   "w1": 135.15,
+   "rs": 92,
+   "mcap": 312255197.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "SHIM",
+   "name": "Shimmick Corporation",
+   "name_local": "",
+   "sector": "산업재",
+   "industry": "Military/Government/Technical",
+   "small": true,
+   "close": 3.25,
+   "d1": 38.89,
+   "w1": 40.09,
+   "rs": 40,
+   "mcap": 100062525.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "SBC",
@@ -392,7 +569,11 @@
    "small": true,
    "close": 7.35,
    "d1": 37.64,
-   "w1": 45.83
+   "w1": 45.83,
+   "rs": 98,
+   "mcap": 549202676.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "NMAX",
@@ -403,7 +584,11 @@
    "small": true,
    "close": 9.58,
    "d1": 31.41,
-   "w1": 30.52
+   "w1": 30.52,
+   "rs": 81,
+   "mcap": 943163789.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "LFTO",
@@ -414,7 +599,11 @@
    "small": false,
    "close": 24.44,
    "d1": 30.63,
-   "w1": 34.8
+   "w1": 34.8,
+   "rs": null,
+   "mcap": 3168192870.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "MOD",
@@ -425,7 +614,11 @@
    "small": false,
    "close": 135.66,
    "d1": 27.86,
-   "w1": 40.42
+   "w1": 40.42,
+   "rs": 10,
+   "mcap": 5649512692.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "FRMI",
@@ -436,7 +629,26 @@
    "small": true,
    "close": 2.61,
    "d1": 26.7,
-   "w1": 66.24
+   "w1": 66.24,
+   "rs": 1,
+   "mcap": 1332724086.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "SSII",
+   "name": "SS Innovations International Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Medical/Dental Instruments",
+   "small": true,
+   "close": 1.66,
+   "d1": 25.76,
+   "w1": -21.33,
+   "rs": 2,
+   "mcap": 264644724.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "HAWK",
@@ -447,7 +659,26 @@
    "small": true,
    "close": 18.16,
    "d1": 23.79,
-   "w1": 22.79
+   "w1": 22.79,
+   "rs": null,
+   "mcap": 1437154648.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "CDXS",
+   "name": "Codexis Inc.",
+   "name_local": "",
+   "sector": "산업재",
+   "industry": "Major Chemicals",
+   "small": true,
+   "close": 1.16,
+   "d1": 20.83,
+   "w1": 7.41,
+   "rs": 13,
+   "mcap": 105005393.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "OBIO",
@@ -458,7 +689,26 @@
    "small": true,
    "close": 7.25,
    "d1": 17.89,
-   "w1": 27.64
+   "w1": 27.64,
+   "rs": 96,
+   "mcap": 484035486.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "SOC",
+   "name": "Sable Offshore Corp.",
+   "name_local": "",
+   "sector": "에너지",
+   "industry": "Oil & Gas Production",
+   "small": true,
+   "close": 0.73,
+   "d1": 17.74,
+   "w1": -62.18,
+   "rs": 1,
+   "mcap": 128989372.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "NUAI",
@@ -469,7 +719,26 @@
    "small": true,
    "close": 3.2,
    "d1": 17.65,
-   "w1": 54.59
+   "w1": 54.59,
+   "rs": 9,
+   "mcap": 382348945.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "NGEN",
+   "name": "NervGen Pharma Corp. Common stock",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "small": true,
+   "close": 1.88,
+   "d1": 15.34,
+   "w1": 41.35,
+   "rs": 19,
+   "mcap": 175414752.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TNDM",
@@ -480,7 +749,26 @@
    "small": true,
    "close": 20.07,
    "d1": 14.62,
-   "w1": 18.69
+   "w1": 18.69,
+   "rs": 69,
+   "mcap": 1222090243.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "CDNL",
+   "name": "Cardinal Infrastructure Group Inc. Class A",
+   "name_local": "",
+   "sector": "산업재",
+   "industry": "Military/Government/Technical",
+   "small": true,
+   "close": 6.46,
+   "d1": 14.54,
+   "w1": -55.63,
+   "rs": null,
+   "mcap": 268113367.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "STN",
@@ -491,7 +779,11 @@
    "small": false,
    "close": 85.69,
    "d1": 14.06,
-   "w1": 15.27
+   "w1": 15.27,
+   "rs": 58,
+   "mcap": 8449085675.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "UNIT",
@@ -502,7 +794,56 @@
    "small": true,
    "close": 4.88,
    "d1": 13.49,
-   "w1": -6.51
+   "w1": -6.51,
+   "rs": 5,
+   "mcap": 1044155313.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "RYDE",
+   "name": "Ryde Group Ltd. Class A",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Business Services",
+   "small": true,
+   "close": 1.08,
+   "d1": 13.33,
+   "w1": 46.14,
+   "rs": 98,
+   "mcap": 178081613.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "PMA",
+   "name": "PMA Graphene Technology Group Inc. Class A",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Engineering & Construction",
+   "small": true,
+   "close": 1.36,
+   "d1": 12.4,
+   "w1": 8.11,
+   "rs": 29,
+   "mcap": 197199750.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "AMBR",
+   "name": "Amber International Holding Limited",
+   "name_local": "",
+   "sector": "금융",
+   "industry": "Finance: Consumer Services",
+   "small": true,
+   "close": 1.96,
+   "d1": 12.0,
+   "w1": 17.72,
+   "rs": 82,
+   "mcap": 164981689.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "BRCB",
@@ -513,7 +854,41 @@
    "small": true,
    "close": 10.79,
    "d1": 11.93,
-   "w1": 0.47
+   "w1": 0.47,
+   "rs": 67,
+   "mcap": 483438683.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "CATX",
+   "name": "Perspective Therapeutics Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "small": true,
+   "close": 0.94,
+   "d1": 11.9,
+   "w1": 11.9,
+   "rs": 1,
+   "mcap": 102838207.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "LRMR",
+   "name": "Larimar Therapeutics Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "small": true,
+   "close": 3.02,
+   "d1": 11.85,
+   "w1": 26.36,
+   "rs": 22,
+   "mcap": 280483930.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "NU",
@@ -524,7 +899,11 @@
    "small": false,
    "close": 13.22,
    "d1": 11.75,
-   "w1": 9.89
+   "w1": 9.89,
+   "rs": 33,
+   "mcap": 57272670489.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "CBRS",
@@ -535,7 +914,26 @@
    "small": false,
    "close": 108.72,
    "d1": 11.22,
-   "w1": 21.23
+   "w1": 21.23,
+   "rs": null,
+   "mcap": 23753578831.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "HCAT",
+   "name": "Health Catalyst Inc",
+   "name_local": "",
+   "sector": "IT",
+   "industry": "Computer Software: Programming Data Processing",
+   "small": true,
+   "close": 1.51,
+   "d1": 11.03,
+   "w1": 3.42,
+   "rs": 32,
+   "mcap": 103571435.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "LUCK",
@@ -546,7 +944,26 @@
    "small": true,
    "close": 3.45,
    "d1": 10.58,
-   "w1": -9.21
+   "w1": -9.21,
+   "rs": 3,
+   "mcap": 423977576.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "KLXE",
+   "name": "KLX Energy Services Holdings Inc.",
+   "name_local": "",
+   "sector": "에너지",
+   "industry": "Oilfield Services/Equipment",
+   "small": true,
+   "close": 1.28,
+   "d1": 10.34,
+   "w1": 28.0,
+   "rs": 9,
+   "mcap": 122632171.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TOP",
@@ -557,7 +974,11 @@
    "small": true,
    "close": 17.0,
    "d1": 10.17,
-   "w1": 28.3
+   "w1": 28.3,
+   "rs": 99,
+   "mcap": 1908791388.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "VFSWW",
@@ -568,7 +989,11 @@
    "small": true,
    "close": 0.229,
    "d1": 10.1,
-   "w1": -19.08
+   "w1": -19.08,
+   "rs": 66,
+   "mcap": 485453722.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "FBYDP",
@@ -579,7 +1004,11 @@
    "small": true,
    "close": 5.25,
    "d1": 10.06,
-   "w1": -26.68
+   "w1": -26.68,
+   "rs": null,
+   "mcap": 605768500.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "STVN",
@@ -590,7 +1019,266 @@
    "small": false,
    "close": 15.8,
    "d1": 10.03,
-   "w1": 16.43
+   "w1": 16.43,
+   "rs": 21,
+   "mcap": 3906682861.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "NCMI",
+   "name": "National CineMedia Inc.",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Advertising",
+   "small": true,
+   "close": 1.87,
+   "d1": 10.0,
+   "w1": 18.35,
+   "rs": 8,
+   "mcap": 160458740.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "PRME",
+   "name": "Prime Medicine Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+   "small": true,
+   "close": 4.27,
+   "d1": 9.77,
+   "w1": -8.17,
+   "rs": 89,
+   "mcap": 707674265.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "LU",
+   "name": "Lufax Holding Ltd",
+   "name_local": "",
+   "sector": "금융",
+   "industry": "Finance: Consumer Services",
+   "small": true,
+   "close": 7.21,
+   "d1": 9.57,
+   "w1": -22.81,
+   "rs": 2,
+   "mcap": 570281290.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "AQST",
+   "name": "Aquestive Therapeutics Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "small": true,
+   "close": 3.91,
+   "d1": 9.52,
+   "w1": 8.31,
+   "rs": 34,
+   "mcap": 448705107.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "CURI",
+   "name": "CuriosityStream Inc. Class A",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Movies/Entertainment",
+   "small": true,
+   "close": 3.13,
+   "d1": 9.44,
+   "w1": 24.7,
+   "rs": 57,
+   "mcap": 169706760.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "ECC",
+   "name": "Eagle Point Credit Company Common Share of Beneficial Interest",
+   "name_local": "",
+   "sector": "금융",
+   "industry": "Trusts Except Educational Religious and Charitable",
+   "small": true,
+   "close": 2.33,
+   "d1": 9.39,
+   "w1": 0.87,
+   "rs": 5,
+   "mcap": 159542438.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "LAB",
+   "name": "Standard BioTools Inc.",
+   "name_local": "",
+   "sector": "산업재",
+   "industry": "Biotechnology: Laboratory Analytical Instruments",
+   "small": true,
+   "close": 0.71,
+   "d1": 9.23,
+   "w1": 10.94,
+   "rs": 21,
+   "mcap": 257166493.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "ARAI",
+   "name": "Arrive AI Inc.",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Diversified Commercial Services",
+   "small": true,
+   "close": 2.25,
+   "d1": 9.22,
+   "w1": -51.17,
+   "rs": 1,
+   "mcap": 107657297.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "CRESY",
+   "name": "Cresud S.A.C.I.F. y A.",
+   "name_local": "",
+   "sector": "금융",
+   "industry": "Real Estate",
+   "small": true,
+   "close": 9.74,
+   "d1": 8.83,
+   "w1": 6.68,
+   "rs": 31,
+   "mcap": 634830937.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "WWW",
+   "name": "Wolverine World Wide, Inc.",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "신발",
+   "small": true,
+   "close": 24.89,
+   "d1": 8.83,
+   "w1": 16.69,
+   "rs": 92,
+   "mcap": 1878967562.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "AUC",
+   "name": "ATIF Holdings Limited",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Professional Services",
+   "small": true,
+   "close": 7.07,
+   "d1": 8.6,
+   "w1": 7.77,
+   "rs": 45,
+   "mcap": 144055741.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "KLAR",
+   "name": "Klarna Group plc",
+   "name_local": "",
+   "sector": "금융",
+   "industry": "Finance: Consumer Services",
+   "small": false,
+   "close": 13.8,
+   "d1": 8.58,
+   "w1": 1.47,
+   "rs": 12,
+   "mcap": 8965213360.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "PUBM",
+   "name": "PubMatic Inc. Class A",
+   "name_local": "",
+   "sector": "IT",
+   "industry": "Computer Software: Programming Data Processing",
+   "small": true,
+   "close": 20.61,
+   "d1": 8.36,
+   "w1": 15.72,
+   "rs": 98,
+   "mcap": 871853044.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "KPLT",
+   "name": "Katapult Holdings Inc.",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Diversified Commercial Services",
+   "small": true,
+   "close": 8.83,
+   "d1": 8.21,
+   "w1": -20.2,
+   "rs": 89,
+   "mcap": 692368289.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "BUUU",
+   "name": "BUUU Group Limited Class A Ordinary Share",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Services-Misc. Amusement & Recreation",
+   "small": true,
+   "close": 5.32,
+   "d1": 7.91,
+   "w1": 1.14,
+   "rs": 99,
+   "mcap": 979985400.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "FOUR",
+   "name": "Shift4",
+   "name_local": "",
+   "sector": "금융",
+   "industry": "결제 서비스",
+   "small": false,
+   "close": 44.78,
+   "d1": 7.85,
+   "w1": 1.87,
+   "rs": 34,
+   "mcap": 3113546153.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "ALM",
+   "name": "Almonty Industries Inc. Common Shares",
+   "name_local": "",
+   "sector": "소재",
+   "industry": "Other Metals and Minerals",
+   "small": false,
+   "close": 8.22,
+   "d1": 7.73,
+   "w1": 1.23,
+   "rs": 10,
+   "mcap": 2201108123.0,
+   "per": null,
+   "psr": null
   }
  ],
  "top_w1": [
@@ -603,7 +1291,41 @@
    "small": true,
    "close": 3.88,
    "d1": 40.58,
-   "w1": 135.15
+   "w1": 135.15,
+   "rs": 92,
+   "mcap": 312255197.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "TTEC",
+   "name": "TTEC Holdings Inc.",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Professional Services",
+   "small": true,
+   "close": 2.95,
+   "d1": -0.34,
+   "w1": 113.77,
+   "rs": 94,
+   "mcap": 146173822.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "MF",
+   "name": "MindForge Inc. Class A",
+   "name_local": "",
+   "sector": "IT",
+   "industry": "Computer Software: Programming Data Processing",
+   "small": true,
+   "close": 19.5,
+   "d1": 3.17,
+   "w1": 83.27,
+   "rs": 98,
+   "mcap": 120356447.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "PEPG",
@@ -614,7 +1336,11 @@
    "small": true,
    "close": 4.36,
    "d1": -13.49,
-   "w1": 76.52
+   "w1": 76.52,
+   "rs": 92,
+   "mcap": 475075717.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "FRMI",
@@ -625,7 +1351,11 @@
    "small": true,
    "close": 2.61,
    "d1": 26.7,
-   "w1": 66.24
+   "w1": 66.24,
+   "rs": 1,
+   "mcap": 1332724086.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "NUAI",
@@ -636,7 +1366,11 @@
    "small": true,
    "close": 3.2,
    "d1": 17.65,
-   "w1": 54.59
+   "w1": 54.59,
+   "rs": 9,
+   "mcap": 382348945.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TLS",
@@ -647,7 +1381,11 @@
    "small": true,
    "close": 7.35,
    "d1": -4.79,
-   "w1": 52.49
+   "w1": 52.49,
+   "rs": 95,
+   "mcap": 567674536.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "MFI",
@@ -658,7 +1396,11 @@
    "small": true,
    "close": 7.59,
    "d1": 5.35,
-   "w1": 48.73
+   "w1": 48.73,
+   "rs": 13,
+   "mcap": 361270692.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "ZIP",
@@ -669,7 +1411,26 @@
    "small": true,
    "close": 5.51,
    "d1": -2.3,
-   "w1": 46.54
+   "w1": 46.54,
+   "rs": 96,
+   "mcap": 459390263.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "RYDE",
+   "name": "Ryde Group Ltd. Class A",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Business Services",
+   "small": true,
+   "close": 1.08,
+   "d1": 13.33,
+   "w1": 46.14,
+   "rs": 98,
+   "mcap": 178081613.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "SBC",
@@ -680,7 +1441,71 @@
    "small": true,
    "close": 7.35,
    "d1": 37.64,
-   "w1": 45.83
+   "w1": 45.83,
+   "rs": 98,
+   "mcap": 549202676.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "OPTX",
+   "name": "Syntec Optics Holdings Inc. Class A",
+   "name_local": "",
+   "sector": "IT",
+   "industry": "Electronic Components",
+   "small": true,
+   "close": 7.08,
+   "d1": 4.12,
+   "w1": 45.38,
+   "rs": 92,
+   "mcap": 273903170.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "XLAB",
+   "name": "Exascale Labs Holdings Inc. Class A",
+   "name_local": "",
+   "sector": "IT",
+   "industry": "Computer Software: Prepackaged Software",
+   "small": true,
+   "close": 2.14,
+   "d1": -5.73,
+   "w1": 42.67,
+   "rs": 1,
+   "mcap": 146039971.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "NGEN",
+   "name": "NervGen Pharma Corp. Common stock",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "small": true,
+   "close": 1.88,
+   "d1": 15.34,
+   "w1": 41.35,
+   "rs": 19,
+   "mcap": 175414752.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "NTHI",
+   "name": "NeOnc Technologies Holdings Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "small": true,
+   "close": 4.91,
+   "d1": 1.24,
+   "w1": 40.69,
+   "rs": 17,
+   "mcap": 139925352.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "MOD",
@@ -691,7 +1516,11 @@
    "small": false,
    "close": 135.66,
    "d1": 27.86,
-   "w1": 40.42
+   "w1": 40.42,
+   "rs": 10,
+   "mcap": 5649512692.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "AAON",
@@ -702,7 +1531,11 @@
    "small": false,
    "close": 80.25,
    "d1": 1.84,
-   "w1": 40.32
+   "w1": 40.32,
+   "rs": 20,
+   "mcap": 6498047758.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "BW",
@@ -713,7 +1546,41 @@
    "small": true,
    "close": 4.56,
    "d1": -6.17,
-   "w1": 40.31
+   "w1": 40.31,
+   "rs": 3,
+   "mcap": 707594800.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "SHIM",
+   "name": "Shimmick Corporation",
+   "name_local": "",
+   "sector": "산업재",
+   "industry": "Military/Government/Technical",
+   "small": true,
+   "close": 3.25,
+   "d1": 38.89,
+   "w1": 40.09,
+   "rs": 40,
+   "mcap": 100062525.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "BGS",
+   "name": "B&G Foods Inc.",
+   "name_local": "",
+   "sector": "필수소비재",
+   "industry": "Packaged Foods",
+   "small": true,
+   "close": 3.5,
+   "d1": 4.48,
+   "w1": 40.0,
+   "rs": 26,
+   "mcap": 270604481.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "SPRY",
@@ -724,7 +1591,11 @@
    "small": true,
    "close": 3.89,
    "d1": 2.1,
-   "w1": 39.43
+   "w1": 39.43,
+   "rs": 5,
+   "mcap": 383013204.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "XTND",
@@ -735,7 +1606,11 @@
    "small": true,
    "close": 1.39,
    "d1": -3.47,
-   "w1": 39.0
+   "w1": 39.0,
+   "rs": null,
+   "mcap": 410173710.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "GFR",
@@ -746,7 +1621,26 @@
    "small": true,
    "close": 7.74,
    "d1": 0.13,
-   "w1": 38.21
+   "w1": 38.21,
+   "rs": 88,
+   "mcap": 1857213600.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "ENGN",
+   "name": "enGene Therapeutics Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+   "small": true,
+   "close": 2.41,
+   "d1": 5.7,
+   "w1": 37.71,
+   "rs": 42,
+   "mcap": 152797200.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "DCTH",
@@ -757,7 +1651,11 @@
    "small": true,
    "close": 20.55,
    "d1": -3.88,
-   "w1": 37.64
+   "w1": 37.64,
+   "rs": 97,
+   "mcap": 743768894.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "ANGX",
@@ -768,7 +1666,11 @@
    "small": true,
    "close": 4.59,
    "d1": 5.28,
-   "w1": 35.4
+   "w1": 35.4,
+   "rs": 78,
+   "mcap": 858732977.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "PLBL",
@@ -779,7 +1681,11 @@
    "small": false,
    "close": 7.24,
    "d1": -0.41,
-   "w1": 35.33
+   "w1": 35.33,
+   "rs": 48,
+   "mcap": 2663636907.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "LFTO",
@@ -790,7 +1696,41 @@
    "small": false,
    "close": 24.44,
    "d1": 30.63,
-   "w1": 34.8
+   "w1": 34.8,
+   "rs": null,
+   "mcap": 3168192870.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "JXG",
+   "name": "JX Luxventure Group Inc.",
+   "name_local": "",
+   "sector": "산업재",
+   "industry": "Office Equipment/Supplies/Services",
+   "small": true,
+   "close": 12.58,
+   "d1": -3.9,
+   "w1": 33.83,
+   "rs": 98,
+   "mcap": 220695790.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "SND",
+   "name": "Smart Sand Inc.",
+   "name_local": "",
+   "sector": "산업재",
+   "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+   "small": true,
+   "close": 4.77,
+   "d1": 4.15,
+   "w1": 33.24,
+   "rs": 78,
+   "mcap": 199276808.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "GEVO",
@@ -801,7 +1741,11 @@
    "small": true,
    "close": 1.83,
    "d1": -1.61,
-   "w1": 31.65
+   "w1": 31.65,
+   "rs": 59,
+   "mcap": 460119806.0,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TMCI",
@@ -812,7 +1756,281 @@
    "small": true,
    "close": 5.27,
    "d1": -1.31,
-   "w1": 30.77
+   "w1": 30.77,
+   "rs": 97,
+   "mcap": 350088248.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "NMAX",
+   "name": "Newsmax Inc. Class B",
+   "name_local": "",
+   "sector": "산업재",
+   "industry": "Broadcasting",
+   "small": true,
+   "close": 9.58,
+   "d1": 31.41,
+   "w1": 30.52,
+   "rs": 81,
+   "mcap": 943163789.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "LQDA",
+   "name": "Liquidia Corporation",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "제약",
+   "small": false,
+   "close": 57.41,
+   "d1": -1.22,
+   "w1": 29.3,
+   "rs": 80,
+   "mcap": 5236986409.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "LINC",
+   "name": "Lincoln Educational Services Corporation",
+   "name_local": "",
+   "sector": "부동산",
+   "industry": "Other Consumer Services",
+   "small": true,
+   "close": 22.81,
+   "d1": -0.74,
+   "w1": 29.16,
+   "rs": 19,
+   "mcap": 707359904.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "AGBK",
+   "name": "AGI Inc Class A Common Shares",
+   "name_local": "",
+   "sector": "금융",
+   "industry": "Commercial Banks",
+   "small": true,
+   "close": 6.26,
+   "d1": -0.95,
+   "w1": 28.81,
+   "rs": null,
+   "mcap": 1011252980.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "IAM",
+   "name": "Iambic Therapeutics Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+   "small": true,
+   "close": 13.1,
+   "d1": -11.73,
+   "w1": 28.81,
+   "rs": null,
+   "mcap": 703427813.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "IRLA",
+   "name": "IRulya Therapeutics Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+   "small": true,
+   "close": 39.8,
+   "d1": 0.05,
+   "w1": 28.39,
+   "rs": 58,
+   "mcap": 431273677.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "TOP",
+   "name": "TOP Financial Group Limited Class A",
+   "name_local": "",
+   "sector": "금융",
+   "industry": "Investment Bankers/Brokers/Service",
+   "small": true,
+   "close": 17.0,
+   "d1": 10.17,
+   "w1": 28.3,
+   "rs": 99,
+   "mcap": 1908791388.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "KLXE",
+   "name": "KLX Energy Services Holdings Inc.",
+   "name_local": "",
+   "sector": "에너지",
+   "industry": "Oilfield Services/Equipment",
+   "small": true,
+   "close": 1.28,
+   "d1": 10.34,
+   "w1": 28.0,
+   "rs": 9,
+   "mcap": 122632171.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "OBIO",
+   "name": "Orchestra BioMed Holdings Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Medicinal Chemicals and Botanical Products",
+   "small": true,
+   "close": 7.25,
+   "d1": 17.89,
+   "w1": 27.64,
+   "rs": 96,
+   "mcap": 484035486.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "FRVO",
+   "name": "Fervo Energy Company Class A common stock",
+   "name_local": "",
+   "sector": "유틸리티",
+   "industry": "Electric Utilities: Central",
+   "small": false,
+   "close": 11.51,
+   "d1": -1.2,
+   "w1": 27.46,
+   "rs": null,
+   "mcap": 3436992914.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "LRMR",
+   "name": "Larimar Therapeutics Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "small": true,
+   "close": 3.02,
+   "d1": 11.85,
+   "w1": 26.36,
+   "rs": 22,
+   "mcap": 280483930.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "ARQ",
+   "name": "Arq Inc.",
+   "name_local": "",
+   "sector": "산업재",
+   "industry": "Major Chemicals",
+   "small": true,
+   "close": 3.18,
+   "d1": 2.91,
+   "w1": 25.69,
+   "rs": 74,
+   "mcap": 136545122.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "LGN",
+   "name": "Legence Corp. Class A Common stock",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Engineering & Construction",
+   "small": false,
+   "close": 35.0,
+   "d1": -3.5,
+   "w1": 25.4,
+   "rs": 8,
+   "mcap": 3936293042.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "AP",
+   "name": "Ampco-Pittsburgh Corporation",
+   "name_local": "",
+   "sector": "산업재",
+   "industry": "Fluid Controls",
+   "small": true,
+   "close": 7.35,
+   "d1": -4.17,
+   "w1": 24.79,
+   "rs": 92,
+   "mcap": 158865426.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "CURI",
+   "name": "CuriosityStream Inc. Class A",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Movies/Entertainment",
+   "small": true,
+   "close": 3.13,
+   "d1": 9.44,
+   "w1": 24.7,
+   "rs": 57,
+   "mcap": 169706760.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "HUMA",
+   "name": "Humacyte Inc.",
+   "name_local": "",
+   "sector": "헬스케어",
+   "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+   "small": true,
+   "close": 0.558,
+   "d1": -6.22,
+   "w1": 24.55,
+   "rs": 14,
+   "mcap": 165400992.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "SWMR",
+   "name": "Swarmer Inc",
+   "name_local": "",
+   "sector": "IT",
+   "industry": "Computer Software: Prepackaged Software",
+   "small": true,
+   "close": 8.84,
+   "d1": 1.26,
+   "w1": 24.51,
+   "rs": null,
+   "mcap": 149018315.0,
+   "per": null,
+   "psr": null
+  },
+  {
+   "ticker": "SWVL",
+   "name": "Swvl Holdings Corp Class A Common Shares",
+   "name_local": "",
+   "sector": "경기소비재",
+   "industry": "Business Services",
+   "small": true,
+   "close": 4.84,
+   "d1": 2.76,
+   "w1": 24.26,
+   "rs": 99,
+   "mcap": 141298926.0,
+   "per": null,
+   "psr": null
   }
  ]
 }

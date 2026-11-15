@@ -51,7 +51,8 @@
     "name": "Tesla Inc",
     "pct": 1.73
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "QQQ": {
   "holdings": [
@@ -105,7 +106,8 @@
     "name": "Alphabet Inc Class A",
     "pct": 2.66
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "DIA": {
   "holdings": [
@@ -159,7 +161,8 @@
     "name": "Sherwin-Williams Co",
     "pct": 3.82
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "IWM": {
   "holdings": [
@@ -213,7 +216,8 @@
     "name": "Ryman Hospitality Properties Inc",
     "pct": 0.3
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "XLK": {
   "holdings": [
@@ -267,7 +271,8 @@
     "name": "Applied Materials Inc",
     "pct": 1.91
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "XLY": {
   "holdings": [
@@ -321,7 +326,8 @@
     "name": "Hilton Worldwide Holdings Inc",
     "pct": 2.11
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "XLP": {
   "holdings": [
@@ -375,7 +381,8 @@
     "name": "Target Corp",
     "pct": 4.0
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "XLE": {
   "holdings": [
@@ -429,7 +436,8 @@
     "name": "Targa Resources Corp",
     "pct": 3.16
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "XLF": {
   "holdings": [
@@ -483,7 +491,8 @@
     "name": "American Express Co",
     "pct": 2.11
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "XLV": {
   "holdings": [
@@ -537,7 +546,8 @@
     "name": "Pfizer Inc",
     "pct": 2.59
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "XLI": {
   "holdings": [
@@ -591,7 +601,8 @@
     "name": "Lockheed Martin Corp",
     "pct": 2.43
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "XLB": {
   "holdings": [
@@ -645,7 +656,8 @@
     "name": "Sherwin-Williams Co",
     "pct": 4.73
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "XLU": {
   "holdings": [
@@ -699,7 +711,8 @@
     "name": "Exelon Corp",
     "pct": 3.48
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "XLRE": {
   "holdings": [
@@ -753,7 +766,8 @@
     "name": "Realty Income Corp",
     "pct": 4.27
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "XLC": {
   "holdings": [
@@ -807,7 +821,8 @@
     "name": "Netflix Inc",
     "pct": 4.26
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "SOXX": {
   "holdings": [
@@ -861,7 +876,8 @@
     "name": "KLA Corp",
     "pct": 3.88
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "IGV": {
   "holdings": [
@@ -915,7 +931,8 @@
     "name": "Cadence Design Systems Inc",
     "pct": 3.19
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "CIBR": {
   "holdings": [
@@ -969,7 +986,8 @@
     "name": "F5 Inc",
     "pct": 2.89
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "WCBR": {
   "holdings": [
@@ -1023,7 +1041,8 @@
     "name": "Rapid7 Inc",
     "pct": 4.27
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "ARKG": {
   "holdings": [
@@ -1077,7 +1096,8 @@
     "name": "Beam Therapeutics Inc",
     "pct": 3.69
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "PPH": {
   "holdings": [
@@ -1131,7 +1151,8 @@
     "name": "AstraZeneca PLC",
     "pct": 3.8
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "LNGX": {
   "holdings": [
@@ -1185,7 +1206,8 @@
     "name": "Devon Energy Corp",
     "pct": 4.07
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "JETS": {
   "holdings": [
@@ -1239,7 +1261,8 @@
     "name": "JetBlue Airways Corp",
     "pct": 2.35
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "ITA": {
   "holdings": [
@@ -1293,7 +1316,8 @@
     "name": "Honeywell Aerospace Inc",
     "pct": 3.75
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "UFO": {
   "holdings": [
@@ -1347,7 +1371,8 @@
     "name": "Iridium Communications Inc",
     "pct": 3.17
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1617.T": {
   "holdings": [
@@ -1401,7 +1426,8 @@
     "name": "Nissin Foods Holdings Co Ltd",
     "pct": 2.03
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1618.T": {
   "holdings": [
@@ -1455,7 +1481,8 @@
     "name": "Nippon Coke & Engineering Co Ltd",
     "pct": 0.16
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1619.T": {
   "holdings": [
@@ -1509,7 +1536,8 @@
     "name": "SUMCO Corp",
     "pct": 2.53
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1620.T": {
   "holdings": [
@@ -1563,7 +1591,8 @@
     "name": "Nippon Paint Holdings Co Ltd",
     "pct": 2.4
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1621.T": {
   "holdings": [
@@ -1617,7 +1646,8 @@
     "name": "Rohto Pharmaceutical Co Ltd",
     "pct": 1.42
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1622.T": {
   "holdings": [
@@ -1671,7 +1701,8 @@
     "name": "Isuzu Motors Ltd",
     "pct": 1.79
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1623.T": {
   "holdings": [
@@ -1725,7 +1756,8 @@
     "name": "Mitsubishi Materials Corp",
     "pct": 2.17
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1624.T": {
   "holdings": [
@@ -1779,7 +1811,8 @@
     "name": "Makita Corp",
     "pct": 2.2
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1625.T": {
   "holdings": [
@@ -1833,7 +1866,8 @@
     "name": "Panasonic Holdings Corp",
     "pct": 3.66
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1626.T": {
   "holdings": [
@@ -1887,7 +1921,8 @@
     "name": "BANDAI NAMCO Holdings Inc",
     "pct": 2.16
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1627.T": {
   "holdings": [
@@ -1941,7 +1976,8 @@
     "name": "Chugoku Electric Power Co Inc",
     "pct": 2.65
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1628.T": {
   "holdings": [
@@ -1995,7 +2031,8 @@
     "name": "Hankyu Hanshin Holdings Inc",
     "pct": 3.46
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1629.T": {
   "holdings": [
@@ -2049,7 +2086,8 @@
     "name": "Medipal Holdings Corp",
     "pct": 0.74
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1630.T": {
   "holdings": [
@@ -2103,7 +2141,8 @@
     "name": "Skylark Holdings Co Ltd",
     "pct": 2.32
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1631.T": {
   "holdings": [
@@ -2157,7 +2196,8 @@
     "name": "Shizuoka Financial Group Inc",
     "pct": 0.98
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1632.T": {
   "holdings": [
@@ -2211,7 +2251,8 @@
     "name": "SBI Holdings Inc",
     "pct": 2.51
    }
-  ]
+  ],
+  "at": "2026-11-15"
  },
  "1633.T": {
   "holdings": [
@@ -2265,6 +2306,7 @@
     "name": "Japan Airport Terminal Co Ltd",
     "pct": 2.37
    }
-  ]
+  ],
+  "at": "2026-11-15"
  }
 }

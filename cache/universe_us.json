@@ -125,6 +125,15 @@
 "market": "US",
 "mcap": 3090735046.0
 },
+"ABAT": {
+"name": "American Battery Technology Company",
+"name_local": "",
+"sector": "산업재",
+"industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+"small": true,
+"market": "US",
+"mcap": 178101896.0
+},
 "ABBV": {
 "name": "AbbVie",
 "name_local": "",
@@ -152,6 +161,15 @@
 "market": "US",
 "mcap": 3795299952.0
 },
+"ABEO": {
+"name": "Abeona Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 130866264.0
+},
 "ABEV": {
 "name": "Ambev S.A.",
 "name_local": "",
@@ -170,6 +188,15 @@
 "market": "S&P600",
 "mcap": 3584271608.0
 },
+"ABLV": {
+"name": "Able View Global Inc. Class B",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 121485817.0
+},
 "ABM": {
 "name": "ABM Industries, Inc.",
 "name_local": "",
@@ -187,6 +214,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 106421518143.0
+},
+"ABR": {
+"name": "Arbor Realty Trust",
+"name_local": "",
+"sector": "금융",
+"industry": "모기지 리츠",
+"small": true,
+"market": "S&P600",
+"mcap": 238508737.0
 },
 "ABSI": {
 "name": "Absci Corporation",
@@ -368,6 +404,15 @@
 "market": "US",
 "mcap": 488970214.0
 },
+"ACIU": {
+"name": "AC Immune SA",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 217795446.0
+},
 "ACIW": {
 "name": "ACI Worldwide",
 "name_local": "",
@@ -422,6 +467,42 @@
 "market": "US",
 "mcap": 680197097.0
 },
+"ACNT": {
+"name": "Ascent Industries Co.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Major Chemicals",
+"small": true,
+"market": "US",
+"mcap": 120795836.0
+},
+"ACOG": {
+"name": "Alpha Cognition Inc.",
+"name_local": "",
+"sector": "기타",
+"industry": "기타",
+"small": true,
+"market": "US",
+"mcap": 188673845.0
+},
+"ACR": {
+"name": "ACRES Commercial Realty Corp.",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 130623668.0
+},
+"ACRE": {
+"name": "Ares Commercial Real Estate Corporation",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 192829300.0
+},
 "ACRS": {
 "name": "Aclaris Therapeutics Inc.",
 "name_local": "",
@@ -449,6 +530,24 @@
 "market": "US",
 "mcap": 405990067.0
 },
+"ACU": {
+"name": "Acme United Corporation.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 277702473.0
+},
+"ACV": {
+"name": "Virtus Diversified Income & Convertible Fund Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance/Investors Services",
+"small": true,
+"market": "US",
+"mcap": 238347942.0
+},
 "AD": {
 "name": "Array Digital Infrastructure Inc. Common Shares",
 "name_local": "",
@@ -457,6 +556,15 @@
 "small": false,
 "market": "US",
 "mcap": 2366640000.0
+},
+"ADAG": {
+"name": "Adagene Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 132103188.0
 },
 "ADAM": {
 "name": "Adamas Trust, Inc.",
@@ -529,6 +637,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 8991932758.0
+},
+"ADCT": {
+"name": "ADC Therapeutics SA Common Shares",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 179471436.0
 },
 "ADEA": {
 "name": "Adeia, Inc.",
@@ -710,6 +827,15 @@
 "market": "US",
 "mcap": 15468238461.0
 },
+"AEHL": {
+"name": "Antelope Enterprise Holdings Limited Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Telecommunications Equipment",
+"small": true,
+"market": "US",
+"mcap": 191479600.0
+},
 "AEHR": {
 "name": "Aehr Test Systems",
 "name_local": "",
@@ -736,6 +862,15 @@
 "small": false,
 "market": "US",
 "mcap": 90194547675.0
+},
+"AENT": {
+"name": "Alliance Entertainment Holding Corporation Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Durable Goods",
+"small": true,
+"market": "US",
+"mcap": 265094076.0
 },
 "AEO": {
 "name": "American Eagle Outfitters",
@@ -799,6 +934,15 @@
 "small": true,
 "market": "US",
 "mcap": 824776033.0
+},
+"AEYE": {
+"name": "AudioEye Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 181389451.0
 },
 "AFG": {
 "name": "American Financial Group",
@@ -1142,6 +1286,15 @@
 "market": "US",
 "mcap": 1939808963.0
 },
+"AIBZ": {
+"name": "Bitzero Holdings Inc. Common Shares",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Services-Misc. Amusement & Recreation",
+"small": true,
+"market": "US",
+"mcap": 175432177.0
+},
 "AIFU": {
 "name": "AIFU Inc. Class A Ordinary Share",
 "name_local": "",
@@ -1223,6 +1376,24 @@
 "market": "S&P600",
 "mcap": 4349817514.0
 },
+"AIRJ": {
+"name": "AirJoule Technologies Corporation Class A",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 173727934.0
+},
+"AIRO": {
+"name": "AIRO Group Holdings Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Aerospace",
+"small": true,
+"market": "US",
+"mcap": 177764404.0
+},
 "AIT": {
 "name": "Applied Industrial Technologies",
 "name_local": "",
@@ -1231,6 +1402,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 10941714356.0
+},
+"AIV": {
+"name": "Apartment Investment and Management Company",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 211513284.0
 },
 "AIZ": {
 "name": "Assurant",
@@ -1267,6 +1447,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 12484477388.0
+},
+"AKBA": {
+"name": "Akebia Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 138276610.0
 },
 "AKR": {
 "name": "Acadia Realty Trust",
@@ -1312,6 +1501,15 @@
 "small": false,
 "market": "US",
 "mcap": 35893451000.0
+},
+"ALCO": {
+"name": "Alico Inc.",
+"name_local": "",
+"sector": "필수소비재",
+"industry": "Farming/Seeds/Milling",
+"small": true,
+"market": "US",
+"mcap": 275525356.0
 },
 "ALEC": {
 "name": "Alector Inc.",
@@ -1430,6 +1628,15 @@
 "market": "S&P500",
 "mcap": 16027817795.0
 },
+"ALLO": {
+"name": "Allogene Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 286528463.0
+},
 "ALLT": {
 "name": "Allot Ltd.",
 "name_local": "",
@@ -1474,6 +1681,15 @@
 "small": true,
 "market": "US",
 "mcap": 795802546.0
+},
+"ALMU": {
+"name": "Aeluma Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Semiconductors",
+"small": true,
+"market": "US",
+"mcap": 146657021.0
 },
 "ALNT": {
 "name": "Allient Inc.",
@@ -1538,6 +1754,33 @@
 "market": "US",
 "mcap": 313289016.0
 },
+"ALTG": {
+"name": "Alta Equipment Group Inc. Class A",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 185836116.0
+},
+"ALTI": {
+"name": "AlTi Global Inc. Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 261984966.0
+},
+"ALTO": {
+"name": "Alto Ingredients Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Major Chemicals",
+"small": true,
+"market": "US",
+"mcap": 287787412.0
+},
 "ALV": {
 "name": "Autoliv",
 "name_local": "",
@@ -1564,6 +1807,15 @@
 "small": true,
 "market": "US",
 "mcap": 1264616077.0
+},
+"ALXO": {
+"name": "ALX Oncology Holdings Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 134917502.0
 },
 "AM": {
 "name": "Antero Midstream",
@@ -1618,6 +1870,15 @@
 "small": true,
 "market": "US",
 "mcap": 1210205614.0
+},
+"AMBR": {
+"name": "Amber International Holding Limited",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 164981689.0
 },
 "AMC": {
 "name": "AMC Entertainment Holdings Inc. Class A",
@@ -1763,6 +2024,15 @@
 "market": "US",
 "mcap": 313817332.0
 },
+"AMPY": {
+"name": "Amplify Energy Corp.",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 160605966.0
+},
 "AMR": {
 "name": "Alpha Metallurgical Resources, Inc.",
 "name_local": "",
@@ -1780,6 +2050,24 @@
 "small": true,
 "market": "US",
 "mcap": 1374522385.0
+},
+"AMRN": {
+"name": "Amarin Corporation plc",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 240799597.0
+},
+"AMRO": {
+"name": "Amaero Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Specialties",
+"small": true,
+"market": "US",
+"mcap": 184613613.0
 },
 "AMRX": {
 "name": "Amneal Pharmaceuticals",
@@ -1843,6 +2131,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 5415817048.0
+},
+"AMWL": {
+"name": "American Well Corporation Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 208020910.0
 },
 "AMX": {
 "name": "America Movil S.A.B. de C.V.",
@@ -1916,6 +2213,15 @@
 "market": "S&P400",
 "mcap": 6385100707.0
 },
+"ANGI": {
+"name": "Angi Inc. Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Advertising",
+"small": true,
+"market": "US",
+"mcap": 259286732.0
+},
 "ANGO": {
 "name": "AngioDynamics Inc.",
 "name_local": "",
@@ -1933,6 +2239,15 @@
 "small": true,
 "market": "US",
 "mcap": 858732977.0
+},
+"ANIK": {
+"name": "Anika Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 184989273.0
 },
 "ANIP": {
 "name": "ANI Pharmaceuticals, Inc.",
@@ -1952,6 +2267,15 @@
 "market": "US",
 "mcap": 677466308.0
 },
+"ANNA": {
+"name": "AleAnna Inc. Class A",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 153777501.0
+},
 "ANNX": {
 "name": "Annexon Inc.",
 "name_local": "",
@@ -1969,6 +2293,24 @@
 "small": true,
 "market": "US",
 "mcap": 1225379441.0
+},
+"ANTX": {
+"name": "AN2 Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 168469806.0
+},
+"AOMR": {
+"name": "Angel Oak Mortgage REIT Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Real Estate",
+"small": true,
+"market": "US",
+"mcap": 137333780.0
 },
 "AON": {
 "name": "Aon plc",
@@ -2005,6 +2347,24 @@
 "small": true,
 "market": "S&P600",
 "mcap": 925498632.0
+},
+"AOUT": {
+"name": "American Outdoor Brands Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Recreational Games/Products/Toys",
+"small": true,
+"market": "US",
+"mcap": 239550851.0
+},
+"AP": {
+"name": "Ampco-Pittsburgh Corporation",
+"name_local": "",
+"sector": "산업재",
+"industry": "Fluid Controls",
+"small": true,
+"market": "US",
+"mcap": 158865426.0
 },
 "APA": {
 "name": "APA Corporation",
@@ -2186,6 +2546,15 @@
 "market": "US",
 "mcap": 425071770.0
 },
+"APYX": {
+"name": "Apyx Medical Corporation",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 121738426.0
+},
 "AQN": {
 "name": "Algonquin Power & Utilities Corp. Common Shares",
 "name_local": "",
@@ -2222,6 +2591,15 @@
 "market": "S&P400",
 "mcap": 11890770240.0
 },
+"ARAI": {
+"name": "Arrive AI Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Diversified Commercial Services",
+"small": true,
+"market": "US",
+"mcap": 107657297.0
+},
 "ARCB": {
 "name": "ArcBest Corp.",
 "name_local": "",
@@ -2249,6 +2627,24 @@
 "market": "US",
 "mcap": 1474641399.0
 },
+"ARCT": {
+"name": "Arcturus Therapeutics Holdings Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 243262018.0
+},
+"ARDC": {
+"name": "Ares Dynamic Credit Allocation Fund Inc. Common Shares",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 261001155.0
+},
 "ARDT": {
 "name": "Ardent Health Inc.",
 "name_local": "",
@@ -2275,6 +2671,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 7714445770.0
+},
+"AREC": {
+"name": "American Resources Corporation Class A",
+"name_local": "",
+"sector": "에너지",
+"industry": "Coal Mining",
+"small": true,
+"market": "US",
+"mcap": 110180410.0
 },
 "ARES": {
 "name": "Ares Management",
@@ -2366,6 +2771,15 @@
 "market": "S&P400",
 "mcap": 14209389872.0
 },
+"ARMP": {
+"name": "Armata Pharmaceuticals Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 140176061.0
+},
 "AROC": {
 "name": "Archrock, Inc.",
 "name_local": "",
@@ -2383,6 +2797,24 @@
 "small": true,
 "market": "US",
 "mcap": 716937745.0
+},
+"ARQ": {
+"name": "Arq Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Major Chemicals",
+"small": true,
+"market": "US",
+"mcap": 136545122.0
+},
+"ARQQ": {
+"name": "Arqit Quantum Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 258599827.0
 },
 "ARQT": {
 "name": "Arcutis Biotherapeutics Inc.",
@@ -2419,6 +2851,15 @@
 "small": true,
 "market": "US",
 "mcap": 336492329.0
+},
+"ARTV": {
+"name": "Artiva Biotherapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 195752110.0
 },
 "ARVN": {
 "name": "Arvinas Inc.",
@@ -2510,6 +2951,15 @@
 "market": "US",
 "mcap": 3703106000.0
 },
+"ASBH": {
+"name": "American Savings Bank N.A.",
+"name_local": "",
+"sector": "기타",
+"industry": "기타",
+"small": true,
+"market": "US",
+"mcap": 168960323.0
+},
 "ASC": {
 "name": "Ardmore Shipping Corporation",
 "name_local": "",
@@ -2545,6 +2995,15 @@
 "small": true,
 "market": "US",
 "mcap": 424980447.0
+},
+"ASLE": {
+"name": "AerSale Corporation",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Industrial Specialties",
+"small": true,
+"market": "US",
+"mcap": 245333521.0
 },
 "ASM": {
 "name": "Avino Silver & Gold Mines Ltd. Common Shares (Canada)",
@@ -2599,6 +3058,15 @@
 "small": true,
 "market": "US",
 "mcap": 395759746.0
+},
+"ASPI": {
+"name": "ASP Isotopes Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Major Chemicals",
+"small": true,
+"market": "US",
+"mcap": 286688541.0
 },
 "ASPN": {
 "name": "Aspen Aerogels Inc.",
@@ -2681,6 +3149,15 @@
 "market": "US",
 "mcap": 80858695101.0
 },
+"ASYS": {
+"name": "Amtech Systems Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 217625695.0
+},
 "ATAT": {
 "name": "Atour Lifestyle Holdings Limited",
 "name_local": "",
@@ -2708,6 +3185,15 @@
 "market": "S&P600",
 "mcap": 2111830491.0
 },
+"ATER": {
+"name": "Aterian Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Home Furnishings",
+"small": true,
+"market": "US",
+"mcap": 225791297.0
+},
 "ATEX": {
 "name": "Anterix Inc.",
 "name_local": "",
@@ -2716,6 +3202,15 @@
 "small": true,
 "market": "US",
 "mcap": 1626656181.0
+},
+"ATGL": {
+"name": "Alpha Technology Group Limited Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 143553000.0
 },
 "ATHM": {
 "name": "Autohome Inc.",
@@ -2816,6 +3311,15 @@
 "market": "S&P500",
 "mcap": 29730156129.0
 },
+"ATOM": {
+"name": "Atomera Incorporated",
+"name_local": "",
+"sector": "IT",
+"industry": "Semiconductors",
+"small": true,
+"market": "US",
+"mcap": 113341872.0
+},
 "ATR": {
 "name": "AptarGroup",
 "name_local": "",
@@ -2878,6 +3382,24 @@
 "small": false,
 "market": "S&P600",
 "mcap": 5528306754.0
+},
+"AUC": {
+"name": "ATIF Holdings Limited",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Professional Services",
+"small": true,
+"market": "US",
+"mcap": 144055741.0
+},
+"AUDC": {
+"name": "AudioCodes Ltd.",
+"name_local": "",
+"sector": "유틸리티",
+"industry": "Telecommunications Equipment",
+"small": true,
+"market": "US",
+"mcap": 223776726.0
 },
 "AUGO": {
 "name": "Aura Minerals Inc. Common Shares",
@@ -3050,6 +3572,15 @@
 "market": "S&P400",
 "mcap": 4122140411.0
 },
+"AVNW": {
+"name": "Aviat Networks Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Radio And Television Broadcasting And Communications Equipment",
+"small": true,
+"market": "US",
+"mcap": 218243423.0
+},
 "AVO": {
 "name": "Mission Produce Inc.",
 "name_local": "",
@@ -3176,6 +3707,15 @@
 "market": "S&P500",
 "mcap": 213336124527.0
 },
+"AXR": {
+"name": "AMREP Corporation",
+"name_local": "",
+"sector": "부동산",
+"industry": "Homebuilding",
+"small": true,
+"market": "US",
+"mcap": 112088071.0
+},
 "AXS": {
 "name": "Axis Capital Holdings Limited",
 "name_local": "",
@@ -3229,6 +3769,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 9811548616.0
+},
+"AZ": {
+"name": "A2Z Cust2Mate Solutions Corp. Common Shares",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 275439172.0
 },
 "AZN": {
 "name": "AstraZeneca PLC",
@@ -3310,6 +3859,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 348736563163.0
+},
+"BAFN": {
+"name": "BayFirst Financial Corp.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 200081530.0
 },
 "BAH": {
 "name": "Booz Allen Hamilton",
@@ -3400,6 +3958,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 2519604167.0
+},
+"BANX": {
+"name": "ArrowMark Financial Corp.",
+"name_local": "",
+"sector": "금융",
+"industry": "Trusts Except Educational Religious and Charitable",
+"small": true,
+"market": "US",
+"mcap": 139069417.0
 },
 "BAP": {
 "name": "Credicorp Ltd.",
@@ -3518,6 +4085,15 @@
 "market": "US",
 "mcap": 897600276.0
 },
+"BBOT": {
+"name": "BridgeBio Oncology Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 188590477.0
+},
 "BBSI": {
 "name": "Barrett Business Services Inc.",
 "name_local": "",
@@ -3626,6 +4202,15 @@
 "market": "US",
 "mcap": 671174562.0
 },
+"BCBP": {
+"name": "BCB Bancorp Inc. (NJ)",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 281994208.0
+},
 "BCC": {
 "name": "Boise Cascade",
 "name_local": "",
@@ -3716,6 +4301,15 @@
 "market": "US",
 "mcap": 997081618.0
 },
+"BCYC": {
+"name": "Bicycle Therapeutics plc",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 241823475.0
+},
 "BDC": {
 "name": "Belden Inc.",
 "name_local": "",
@@ -3734,6 +4328,15 @@
 "market": "US",
 "mcap": 1715333975.0
 },
+"BDL": {
+"name": "Flanigan's Enterprises Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Restaurants",
+"small": true,
+"market": "US",
+"mcap": 105645495.0
+},
 "BDN": {
 "name": "Brandywine Realty Trust",
 "name_local": "",
@@ -3742,6 +4345,15 @@
 "small": true,
 "market": "US",
 "mcap": 521189715.0
+},
+"BDSX": {
+"name": "Biodesix Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical Specialities",
+"small": true,
+"market": "US",
+"mcap": 108556523.0
 },
 "BDX": {
 "name": "Becton Dickinson",
@@ -3769,6 +4381,15 @@
 "small": false,
 "market": "US",
 "mcap": 2487000325.0
+},
+"BEBE": {
+"name": "TGE Value Creative Solutions Corp Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Diversified Commercial Services",
+"small": true,
+"market": "US",
+"mcap": 129858300.0
 },
 "BEKE": {
 "name": "KE Holdings Inc",
@@ -3860,6 +4481,15 @@
 "market": "US",
 "mcap": 5914021026.0
 },
+"BETR": {
+"name": "Better Home & Finance Holding Company Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 298625396.0
+},
 "BFAM": {
 "name": "Bright Horizons Family Solutions Inc.",
 "name_local": "",
@@ -3941,6 +4571,15 @@
 "market": "US",
 "mcap": 312255197.0
 },
+"BGM": {
+"name": "BGM Group Ltd. Class A",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 103093745.0
+},
 "BGR": {
 "name": "BlackRock Energy and Resources Trust",
 "name_local": "",
@@ -3949,6 +4588,15 @@
 "small": false,
 "market": "US",
 "mcap": 2346997018.0
+},
+"BGS": {
+"name": "B&G Foods Inc.",
+"name_local": "",
+"sector": "필수소비재",
+"industry": "Packaged Foods",
+"small": true,
+"market": "US",
+"mcap": 270604481.0
 },
 "BGSI": {
 "name": "Boyd Group Services Inc. Common Shares",
@@ -4058,6 +4706,15 @@
 "market": "US",
 "mcap": 204765446563.0
 },
+"BHR": {
+"name": "Braemar Hotels & Resorts Inc.",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 115381254.0
+},
 "BHRB": {
 "name": "Burke & Herbert Financial Services Corp.",
 "name_local": "",
@@ -4121,6 +4778,15 @@
 "market": "S&P400",
 "mcap": 9963029334.0
 },
+"BIOA": {
+"name": "BioAge Labs Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 259665576.0
+},
 "BIP": {
 "name": "Brookfield Infrastructure Partners LP Limited Partnership Units",
 "name_local": "",
@@ -4147,6 +4813,15 @@
 "small": false,
 "market": "US",
 "mcap": 6744848871.0
+},
+"BIPI": {
+"name": "BIP Bermuda Holdings I Limited 5.125% Perpetual Subordinated Notes",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Marine Transportation",
+"small": true,
+"market": "US",
+"mcap": 143195959.0
 },
 "BIPJ": {
 "name": "Brookfield Infrastructure Corporation 7.250% Subordinated Notes due 2084",
@@ -4211,6 +4886,15 @@
 "market": "S&P400",
 "mcap": 6700129214.0
 },
+"BKKT": {
+"name": "Bakkt Inc. Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 165389399.0
+},
 "BKNG": {
 "name": "Booking Holdings",
 "name_local": "",
@@ -4246,6 +4930,15 @@
 "small": true,
 "market": "US",
 "mcap": 1451921717.0
+},
+"BKTI": {
+"name": "BK Technologies Corporation",
+"name_local": "",
+"sector": "IT",
+"industry": "Radio And Television Broadcasting And Communications Equipment",
+"small": true,
+"market": "US",
+"mcap": 251757491.0
 },
 "BKU": {
 "name": "BankUnited, Inc.",
@@ -4346,6 +5039,15 @@
 "market": "US",
 "mcap": 867814237.0
 },
+"BLND": {
+"name": "Blend Labs Inc. Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Programming Data Processing",
+"small": true,
+"market": "US",
+"mcap": 257332118.0
+},
 "BLSH": {
 "name": "Bullish",
 "name_local": "",
@@ -4427,6 +5129,15 @@
 "market": "US",
 "mcap": 634451662.0
 },
+"BMEZ": {
+"name": "BlackRock Health Sciences Term Trust Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "금융",
+"industry": "Trusts Except Educational Religious and Charitable",
+"small": true,
+"market": "US",
+"mcap": 231461192.0
+},
 "BMI": {
 "name": "Badger Meter, Inc.",
 "name_local": "",
@@ -4444,6 +5155,15 @@
 "small": true,
 "market": "US",
 "mcap": 341343453.0
+},
+"BMMX": {
+"name": "Black Mammoth Metals Corporation Common Shares",
+"name_local": "",
+"sector": "기타",
+"industry": "기타",
+"small": true,
+"market": "US",
+"mcap": 148536770.0
 },
 "BMNP": {
 "name": "BitMine Immersion Technologies Inc. 9.5% Series A Perpetual Preferred Stock",
@@ -4508,6 +5228,15 @@
 "market": "US",
 "mcap": 102073723547.0
 },
+"BNC": {
+"name": "BNB Standard Corporation",
+"name_local": "",
+"sector": "필수소비재",
+"industry": "Farming/Seeds/Milling",
+"small": true,
+"market": "US",
+"mcap": 209724390.0
+},
 "BNED": {
 "name": "Barnes & Noble Education Inc",
 "name_local": "",
@@ -4543,6 +5272,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3354922829.0
+},
+"BNR": {
+"name": "Burning Rock Biotech Limited",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical Specialities",
+"small": true,
+"market": "US",
+"mcap": 140582752.0
 },
 "BNS": {
 "name": "Bank Nova Scotia Halifax Pfd 3",
@@ -4625,6 +5363,15 @@
 "market": "US",
 "mcap": 7907754306.0
 },
+"BOOM": {
+"name": "DMC Global Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Specialties",
+"small": true,
+"market": "US",
+"mcap": 164122183.0
+},
 "BOOT": {
 "name": "Boot Barn Holdings, Inc.",
 "name_local": "",
@@ -4642,6 +5389,15 @@
 "small": true,
 "market": "US",
 "mcap": 1047722160.0
+},
+"BOTJ": {
+"name": "Bank of the James Financial Group Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 112538482.0
 },
 "BOW": {
 "name": "Bowhead Specialty Holdings Inc.",
@@ -4796,6 +5552,15 @@
 "market": "US",
 "mcap": 483438683.0
 },
+"BRCC": {
+"name": "BRC Inc. Class A",
+"name_local": "",
+"sector": "필수소비재",
+"industry": "Beverages (Production/Distribution)",
+"small": true,
+"market": "US",
+"mcap": 241656870.0
+},
 "BRK-A": {
 "name": "Berkshire Hathaway Inc.",
 "name_local": "",
@@ -4832,6 +5597,15 @@
 "market": "US",
 "mcap": 67532311423.0
 },
+"BRLT": {
+"name": "Brilliant Earth Group Inc. Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Consumer Specialties",
+"small": true,
+"market": "US",
+"mcap": 129706670.0
+},
 "BRO": {
 "name": "Brown & Brown",
 "name_local": "",
@@ -4867,6 +5641,15 @@
 "small": true,
 "market": "US",
 "mcap": 388368023.0
+},
+"BRT": {
+"name": "BRT Apartments Corp. (MD)",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 231682577.0
 },
 "BRUN": {
 "name": "Boost Run Inc. Class A",
@@ -4913,6 +5696,15 @@
 "market": "US",
 "mcap": 15061556684.0
 },
+"BSBK": {
+"name": "Bogota Financial Corp.",
+"name_local": "",
+"sector": "금융",
+"industry": "Banks",
+"small": true,
+"market": "US",
+"mcap": 117531693.0
+},
 "BSBR": {
 "name": "Banco Santander Brasil SA",
 "name_local": "",
@@ -4921,6 +5713,15 @@
 "small": false,
 "market": "US",
 "mcap": 37580126599.0
+},
+"BSET": {
+"name": "Bassett Furniture Industries Incorporated",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Home Furnishings",
+"small": true,
+"market": "US",
+"mcap": 186782884.0
 },
 "BSM": {
 "name": "Black Stone Minerals L.P. Common units representing limited partner interests",
@@ -5003,6 +5804,15 @@
 "market": "S&P400",
 "mcap": 13364745074.0
 },
+"BTBT": {
+"name": "Bit Digital Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 276728531.0
+},
 "BTDR": {
 "name": "Bitdeer Technologies Group Class A",
 "name_local": "",
@@ -5047,6 +5857,15 @@
 "small": false,
 "market": "US",
 "mcap": 131866760197.0
+},
+"BTQ": {
+"name": "BTQ Technologies Corp.",
+"name_local": "",
+"sector": "기타",
+"industry": "기타",
+"small": true,
+"market": "US",
+"mcap": 222827226.0
 },
 "BTSG": {
 "name": "BrightSpring Health Services",
@@ -5173,6 +5992,24 @@
 "small": true,
 "market": "US",
 "mcap": 934800000.0
+},
+"BVC": {
+"name": "BitVentures Limited",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 138171402.0
+},
+"BVFL": {
+"name": "BV Financial Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 178306214.0
 },
 "BVN": {
 "name": "Buenaventura Mining Company Inc.",
@@ -5345,6 +6182,24 @@
 "market": "S&P400",
 "mcap": 5450853767.0
 },
+"BYFC": {
+"name": "Broadway Financial Corporation Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 108558977.0
+},
+"BYND": {
+"name": "Beyond Meat Inc.",
+"name_local": "",
+"sector": "필수소비재",
+"industry": "Packaged Foods",
+"small": true,
+"market": "US",
+"mcap": 101468521.0
+},
 "BZ": {
 "name": "KANZHUN LIMITED American Depository Shares",
 "name_local": "",
@@ -5353,6 +6208,15 @@
 "small": false,
 "market": "US",
 "mcap": 5893030876.0
+},
+"BZUN": {
+"name": "Baozun Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Catalog/Specialty Distribution",
+"small": true,
+"market": "US",
+"mcap": 202286794.0
 },
 "C": {
 "name": "Citigroup",
@@ -5371,6 +6235,24 @@
 "small": false,
 "market": "US",
 "mcap": 4142043990.0
+},
+"CAAS": {
+"name": "China Automotive Systems Inc. Ordinary Share",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Auto Parts:O.E.M.",
+"small": true,
+"market": "US",
+"mcap": 128828898.0
+},
+"CABA": {
+"name": "Cabaletta Bio Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 286908121.0
 },
 "CAC": {
 "name": "Camden National Corporation",
@@ -5489,6 +6371,15 @@
 "market": "S&P600",
 "mcap": 2902667298.0
 },
+"CAMP": {
+"name": "CAMP4 Therapeutics Corporation",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 256664678.0
+},
 "CAMT": {
 "name": "Camtek Ltd.",
 "name_local": "",
@@ -5497,6 +6388,15 @@
 "small": false,
 "market": "US",
 "mcap": 4907154150.0
+},
+"CAN": {
+"name": "Canaan Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 114743845.0
 },
 "CAPL": {
 "name": "CrossAmerica Partners LP Common Units representing limited partner interests",
@@ -5624,6 +6524,15 @@
 "market": "S&P500",
 "mcap": 276995481347.0
 },
+"CATX": {
+"name": "Perspective Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 102838207.0
+},
 "CATY": {
 "name": "Cathay General Bancorp",
 "name_local": "",
@@ -5668,6 +6577,15 @@
 "small": false,
 "market": "US",
 "mcap": 9134725773.0
+},
+"CBFV": {
+"name": "CB Financial Services Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 209436270.0
 },
 "CBIO": {
 "name": "Crescent Biopharma Inc.",
@@ -5894,6 +6812,15 @@
 "market": "S&P500",
 "mcap": 39457584236.0
 },
+"CCLD": {
+"name": "CareCloud Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 112328988.0
+},
 "CCNE": {
 "name": "CNB Financial Corporation",
 "name_local": "",
@@ -5911,6 +6838,15 @@
 "small": true,
 "market": "US",
 "mcap": 733623345.0
+},
+"CCOI": {
+"name": "Cogent Communications Holdings, Inc.",
+"name_local": "",
+"sector": "커뮤니케이션",
+"industry": "대체 통신사",
+"small": true,
+"market": "S&P600",
+"mcap": 200975241.0
 },
 "CCS": {
 "name": "Century Communities, Inc.",
@@ -5984,6 +6920,15 @@
 "market": "US",
 "mcap": 4193439751.0
 },
+"CDNL": {
+"name": "Cardinal Infrastructure Group Inc. Class A",
+"name_local": "",
+"sector": "산업재",
+"industry": "Military/Government/Technical",
+"small": true,
+"market": "US",
+"mcap": 268113367.0
+},
 "CDNS": {
 "name": "Cadence Design Systems",
 "name_local": "",
@@ -6028,6 +6973,24 @@
 "small": false,
 "market": "S&P500",
 "mcap": 21565802921.0
+},
+"CDXS": {
+"name": "Codexis Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Major Chemicals",
+"small": true,
+"market": "US",
+"mcap": 105005393.0
+},
+"CDZI": {
+"name": "CADIZ Inc.",
+"name_local": "",
+"sector": "유틸리티",
+"industry": "Water Supply",
+"small": true,
+"market": "US",
+"mcap": 298865935.0
 },
 "CDZIP": {
 "name": "Cadiz Inc. Depositary Shares",
@@ -6155,6 +7118,15 @@
 "market": "S&P500",
 "mcap": 18279762479.0
 },
+"CFBK": {
+"name": "CF Bankshares Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 236278615.0
+},
 "CFFI": {
 "name": "C&F Financial Corporation",
 "name_local": "",
@@ -6218,6 +7190,15 @@
 "market": "US",
 "mcap": 760359369.0
 },
+"CGC": {
+"name": "Canopy Growth Corporation Common Shares",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medicinal Chemicals and Botanical Products",
+"small": true,
+"market": "US",
+"mcap": 242919761.0
+},
 "CGEM": {
 "name": "Cullinan Therapeutics Inc.",
 "name_local": "",
@@ -6226,6 +7207,15 @@
 "small": true,
 "market": "US",
 "mcap": 661544216.0
+},
+"CGEN": {
+"name": "Compugen Ltd.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 200519428.0
 },
 "CGNT": {
 "name": "Cognyte Software Ltd.",
@@ -6271,6 +7261,15 @@
 "small": true,
 "market": "US",
 "mcap": 400134235.0
+},
+"CHCI": {
+"name": "Comstock Holding Companies Inc. Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Real Estate",
+"small": true,
+"market": "US",
+"mcap": 164632111.0
 },
 "CHCO": {
 "name": "City Holding Company",
@@ -6389,6 +7388,33 @@
 "market": "S&P500",
 "mcap": 15581395521.0
 },
+"CHSCL": {
+"name": "CHS Inc Class B Cumulative Redeemable Preferred Stock Series 4",
+"name_local": "",
+"sector": "산업재",
+"industry": "Farming/Seeds/Milling",
+"small": true,
+"market": "US",
+"mcap": 290723751.0
+},
+"CHSCM": {
+"name": "CHS Inc Class B Reset Rate Cumulative Redeemable Preferred Stock Series 3",
+"name_local": "",
+"sector": "산업재",
+"industry": "Farming/Seeds/Milling",
+"small": true,
+"market": "US",
+"mcap": 260780064.0
+},
+"CHSCN": {
+"name": "CHS Inc Preferred Class B Series 2 Reset Rate",
+"name_local": "",
+"sector": "산업재",
+"industry": "Farming/Seeds/Milling",
+"small": true,
+"market": "US",
+"mcap": 270597666.0
+},
 "CHSCO": {
 "name": "CHS Inc. Class B Cumulative Redeemable Preferred Stock",
 "name_local": "",
@@ -6460,6 +7486,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 78063951209.0
+},
+"CIA": {
+"name": "Citizens Inc. Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Life Insurance",
+"small": true,
+"market": "US",
+"mcap": 186593539.0
 },
 "CIB": {
 "name": "Grupo Cibest S.A.",
@@ -6596,6 +7631,15 @@
 "market": "S&P500",
 "mcap": 77830667428.0
 },
+"CLAR": {
+"name": "Clarus Corporation",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Recreational Games/Products/Toys",
+"small": true,
+"market": "US",
+"mcap": 197949761.0
+},
 "CLB": {
 "name": "Core Laboratories Inc.",
 "name_local": "",
@@ -6668,6 +7712,15 @@
 "market": "S&P400",
 "mcap": 15492554584.0
 },
+"CLLS": {
+"name": "Cellectis S.A.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 133701277.0
+},
 "CLMB": {
 "name": "Climb Global Solutions Inc.",
 "name_local": "",
@@ -6704,6 +7757,15 @@
 "market": "US",
 "mcap": 2612853299.0
 },
+"CLPT": {
+"name": "ClearPoint Neuro Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 272140735.0
+},
 "CLS": {
 "name": "Celestica Inc.",
 "name_local": "",
@@ -6730,6 +7792,15 @@
 "small": true,
 "market": "US",
 "mcap": 1478178935.0
+},
+"CLW": {
+"name": "Clearwater Paper Corporation",
+"name_local": "",
+"sector": "소재",
+"industry": "Paper",
+"small": true,
+"market": "US",
+"mcap": 225499786.0
 },
 "CLX": {
 "name": "Clorox",
@@ -6866,6 +7937,24 @@
 "market": "US",
 "mcap": 1292398419.0
 },
+"CMPX": {
+"name": "Compass Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 147672090.0
+},
+"CMRC": {
+"name": "Commerce.com Inc. Series 1",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 295068455.0
+},
 "CMRE": {
 "name": "Costamare Inc.",
 "name_local": "",
@@ -6911,6 +8000,33 @@
 "market": "US",
 "mcap": 5837041490.0
 },
+"CMT": {
+"name": "Core Molding Technologies Inc",
+"name_local": "",
+"sector": "산업재",
+"industry": "Plastic Products",
+"small": true,
+"market": "US",
+"mcap": 206074922.0
+},
+"CMTG": {
+"name": "Claros Mortgage Trust Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Real Estate",
+"small": true,
+"market": "US",
+"mcap": 224326678.0
+},
+"CMTV": {
+"name": "Community Bancorp.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 274164153.0
+},
 "CNA": {
 "name": "CNA Financial Corporation",
 "name_local": "",
@@ -6928,6 +8044,24 @@
 "small": false,
 "market": "S&P500",
 "mcap": 34793379040.0
+},
+"CNCK": {
+"name": "Coincheck Group N.V.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 210977770.0
+},
+"CNDT": {
+"name": "Conduent Incorporated",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 193045335.0
 },
 "CNH": {
 "name": "CNH Industrial",
@@ -7054,6 +8188,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3674367948.0
+},
+"CNTN": {
+"name": "Canton Strategic Holdings Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 143426450.0
 },
 "CNX": {
 "name": "CNX Resources",
@@ -7234,6 +8377,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 11825757734.0
+},
+"COOK": {
+"name": "Traeger Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Consumer Electronics/Appliances",
+"small": true,
+"market": "US",
+"mcap": 161246503.0
 },
 "COP": {
 "name": "ConocoPhillips",
@@ -7424,6 +8576,15 @@
 "market": "US",
 "mcap": 322018910.0
 },
+"CPSS": {
+"name": "Consumer Portfolio Services Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 213480010.0
+},
 "CPT": {
 "name": "Camden Property Trust",
 "name_local": "",
@@ -7432,6 +8593,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 9845855914.0
+},
+"CPZ": {
+"name": "Calamos Long/Short Equity & Dynamic Income Trust",
+"name_local": "",
+"sector": "금융",
+"industry": "Trusts Except Educational Religious and Charitable",
+"small": true,
+"market": "US",
+"mcap": 247561966.0
 },
 "CQP": {
 "name": "Cheniere Energy Partners LP Common Units",
@@ -7495,6 +8665,15 @@
 "small": true,
 "market": "US",
 "mcap": 1770518236.0
+},
+"CRDL": {
+"name": "Cardiol Therapeutics Inc. Class A Common Shares",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 125486863.0
 },
 "CRDO": {
 "name": "Credo Technology Group Holding Ltd",
@@ -7603,6 +8782,15 @@
 "small": true,
 "market": "US",
 "mcap": 369078897.0
+},
+"CRNT": {
+"name": "Ceragon Networks Ltd.",
+"name_local": "",
+"sector": "IT",
+"industry": "Radio And Television Broadcasting And Communications Equipment",
+"small": true,
+"market": "US",
+"mcap": 217247619.0
 },
 "CRON": {
 "name": "Cronos Group Inc. Common Share",
@@ -8009,6 +9197,15 @@
 "market": "S&P600",
 "mcap": 2847131126.0
 },
+"CUE": {
+"name": "Cue Biopharma Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 127127245.0
+},
 "CURB": {
 "name": "Curbline Properties Corp.",
 "name_local": "",
@@ -8017,6 +9214,42 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3564407127.0
+},
+"CURI": {
+"name": "CuriosityStream Inc. Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Movies/Entertainment",
+"small": true,
+"market": "US",
+"mcap": 169706760.0
+},
+"CURR": {
+"name": "Currenc Group Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 196493299.0
+},
+"CURV": {
+"name": "Torrid Holdings Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Clothing/Shoe/Accessory Stores",
+"small": true,
+"market": "US",
+"mcap": 223371534.0
+},
+"CUVL": {
+"name": "Clinuvel Pharmaceuticals Limited",
+"name_local": "",
+"sector": "기타",
+"industry": "Miscellaneous",
+"small": true,
+"market": "US",
+"mcap": 254660885.0
 },
 "CUZ": {
 "name": "Cousins Properties",
@@ -8071,6 +9304,15 @@
 "small": true,
 "market": "US",
 "mcap": 375279666.0
+},
+"CVGI": {
+"name": "Commercial Vehicle Group Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Auto Parts:O.E.M.",
+"small": true,
+"market": "US",
+"mcap": 140109071.0
 },
 "CVI": {
 "name": "CVR Energy, Inc.",
@@ -8216,6 +9458,15 @@
 "market": "US",
 "mcap": 15879221305.0
 },
+"CXDO": {
+"name": "Crexendo Inc.",
+"name_local": "",
+"sector": "커뮤니케이션",
+"industry": "Telecommunications Equipment",
+"small": true,
+"market": "US",
+"mcap": 165542907.0
+},
 "CXM": {
 "name": "Sprinklr, Inc.",
 "name_local": "",
@@ -8261,6 +9512,15 @@
 "market": "US",
 "mcap": 313079176.0
 },
+"CYPH": {
+"name": "Cypherpunk Technologies Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 209601723.0
+},
 "CYRX": {
 "name": "CryoPort Inc.",
 "name_local": "",
@@ -8305,6 +9565,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 5967472122.0
+},
+"CZWI": {
+"name": "Citizens Community Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 223956144.0
 },
 "D": {
 "name": "Dominion Energy",
@@ -8513,6 +9782,15 @@
 "market": "S&P500",
 "mcap": 20504078012.0
 },
+"DDD": {
+"name": "3D Systems Corporation",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 271984730.0
+},
 "DDI": {
 "name": "DoubleDown Interactive Co. Ltd. American Depository Shares",
 "name_local": "",
@@ -8576,6 +9854,15 @@
 "market": "S&P500",
 "mcap": 11283730701.0
 },
+"DEFT": {
+"name": "Defi Technologies Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 117825103.0
+},
 "DEI": {
 "name": "Douglas Emmett",
 "name_local": "",
@@ -8602,6 +9889,24 @@
 "small": false,
 "market": "US",
 "mcap": 55653861601.0
+},
+"DERM": {
+"name": "Journey Medical Corporation",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 123932532.0
+},
+"DFDV": {
+"name": "DeFi Development Corp.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 118157757.0
 },
 "DFH": {
 "name": "Dream Finders Homes, Inc.",
@@ -8675,6 +9980,24 @@
 "market": "S&P500",
 "mcap": 28562601637.0
 },
+"DGXX": {
+"name": "Digi Power X Inc. Subordinate Voting Shares",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 224086683.0
+},
+"DH": {
+"name": "Definitive Healthcare Corp. Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 181877911.0
+},
 "DHC": {
 "name": "Diversified Healthcare Trust Common Shares of Beneficial Interest",
 "name_local": "",
@@ -8728,6 +10051,24 @@
 "small": false,
 "market": "US",
 "mcap": 3591228505.0
+},
+"DHX": {
+"name": "DHI Group Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 190713293.0
+},
+"DIBS": {
+"name": "1stdibs.com Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Catalog/Specialty Distribution",
+"small": true,
+"market": "US",
+"mcap": 198517260.0
 },
 "DIN": {
 "name": "Dine Brands Global Inc.",
@@ -8837,6 +10178,15 @@
 "market": "S&P400",
 "mcap": 6050067469.0
 },
+"DLNG": {
+"name": "Dynagas LNG Partners LP Common Units",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Marine Transportation",
+"small": true,
+"market": "US",
+"mcap": 118605356.0
+},
 "DLO": {
 "name": "DLocal Limited Class A Common Shares",
 "name_local": "",
@@ -8854,6 +10204,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 69439811531.0
+},
+"DLTH": {
+"name": "Duluth Holdings Inc. Class B",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Clothing/Shoe/Accessory Stores",
+"small": true,
+"market": "US",
+"mcap": 148219504.0
 },
 "DLTR": {
 "name": "Dollar Tree",
@@ -8917,6 +10276,15 @@
 "small": true,
 "market": "US",
 "mcap": 1364999561.0
+},
+"DMRC": {
+"name": "Digimarc Corporation",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 200969991.0
 },
 "DNA": {
 "name": "Ginkgo Bioworks Holdings Inc. Class A",
@@ -9035,6 +10403,15 @@
 "market": "S&P600",
 "mcap": 3893212224.0
 },
+"DOUG": {
+"name": "Douglas Elliman Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Real Estate",
+"small": true,
+"market": "US",
+"mcap": 154622028.0
+},
 "DOV": {
 "name": "Dover Corporation",
 "name_local": "",
@@ -9062,6 +10439,15 @@
 "market": "US",
 "mcap": 4761654165.0
 },
+"DOYU": {
+"name": "DouYu International Holdings Limited ADS",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Programming Data Processing",
+"small": true,
+"market": "US",
+"mcap": 114981453.0
+},
 "DPC": {
 "name": "DPC Holdings PLC",
 "name_local": "",
@@ -9070,6 +10456,15 @@
 "small": false,
 "market": "US",
 "mcap": 5134637960.0
+},
+"DPRO": {
+"name": "Draganfly Inc. Common Shares",
+"name_local": "",
+"sector": "산업재",
+"industry": "Aerospace",
+"small": true,
+"market": "US",
+"mcap": 111943178.0
 },
 "DPZ": {
 "name": "Domino's",
@@ -9134,6 +10529,24 @@
 "market": "US",
 "mcap": 1235508137.0
 },
+"DRTSW": {
+"name": "Alpha Tau Medical Ltd. Warrant",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 256164487.0
+},
+"DRUG": {
+"name": "Bright Minds Biosciences Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 223296817.0
+},
 "DRVN": {
 "name": "Driven Brands Holdings Inc.",
 "name_local": "",
@@ -9142,6 +10555,15 @@
 "small": true,
 "market": "US",
 "mcap": 1902217278.0
+},
+"DSC": {
+"name": "DSC Holdings Ltd.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Programming Data Processing",
+"small": true,
+"market": "US",
+"mcap": 114165282.0
 },
 "DSGN": {
 "name": "Design Therapeutics Inc.",
@@ -9287,6 +10709,15 @@
 "market": "S&P400",
 "mcap": 7426801689.0
 },
+"DUOT": {
+"name": "Duos Technologies Group Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 160824470.0
+},
 "DV": {
 "name": "DoubleVerify Holdings Inc.",
 "name_local": "",
@@ -9377,6 +10808,15 @@
 "market": "US",
 "mcap": 89226524807.0
 },
+"EAF": {
+"name": "GrafTech International Ltd.",
+"name_local": "",
+"sector": "에너지",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 298830925.0
+},
 "EAI": {
 "name": "Entergy Arkansas LLC First Mortgage Bonds 4.875% Series Due September 1 2066",
 "name_local": "",
@@ -9385,6 +10825,15 @@
 "small": false,
 "market": "US",
 "mcap": 8658227433.0
+},
+"EARN": {
+"name": "Ellington Credit Company Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 120189424.0
 },
 "EAT": {
 "name": "Brinker International",
@@ -9422,6 +10871,15 @@
 "market": "US",
 "mcap": 536990241.0
 },
+"EBMT": {
+"name": "Eagle Bancorp Montana Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 164167533.0
+},
 "EBS": {
 "name": "Emergent BioSolutions Inc.",
 "name_local": "",
@@ -9448,6 +10906,24 @@
 "small": true,
 "market": "US",
 "mcap": 1393860150.0
+},
+"ECBK": {
+"name": "ECB Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Banks",
+"small": true,
+"market": "US",
+"mcap": 178418643.0
+},
+"ECC": {
+"name": "Eagle Point Credit Company Common Share of Beneficial Interest",
+"name_local": "",
+"sector": "금융",
+"industry": "Trusts Except Educational Religious and Charitable",
+"small": true,
+"market": "US",
+"mcap": 159542438.0
 },
 "ECCC": {
 "name": "Eagle Point Credit Company 6.50% Series C Term Preferred Stock due 2031",
@@ -9557,6 +11033,15 @@
 "market": "US",
 "mcap": 635663054.0
 },
+"EDRY": {
+"name": "EuroDry Ltd. Common Shares",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Marine Transportation",
+"small": true,
+"market": "US",
+"mcap": 120826811.0
+},
 "EDU": {
 "name": "New Oriental Education & Technology Group Inc. Sponsored ADR representing 10 Ordinary Share (Cayman Islands)",
 "name_local": "",
@@ -9620,6 +11105,15 @@
 "market": "US",
 "mcap": 563795113.0
 },
+"EFSI": {
+"name": "Eagle Financial Services Inc",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 249010052.0
+},
 "EFT": {
 "name": "Eaton Vance Floating Rate Income Trust Common Shares of Beneficial Interest",
 "name_local": "",
@@ -9656,6 +11150,15 @@
 "market": "S&P500",
 "mcap": 15655481399.0
 },
+"EGAN": {
+"name": "eGain Corporation",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 154409861.0
+},
 "EGBN": {
 "name": "Eagle Bancorp Inc",
 "name_local": "",
@@ -9664,6 +11167,15 @@
 "small": true,
 "market": "S&P600",
 "mcap": 1048340264.0
+},
+"EGG": {
+"name": "Enigmatig Limited Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Professional Services",
+"small": true,
+"market": "US",
+"mcap": 173475596.0
 },
 "EGHT": {
 "name": "8x8 Inc",
@@ -9700,6 +11212,15 @@
 "small": true,
 "market": "US",
 "mcap": 582236491.0
+},
+"EH": {
+"name": "EHang Holdings Limited ADS",
+"name_local": "",
+"sector": "산업재",
+"industry": "Aerospace",
+"small": true,
+"market": "US",
+"mcap": 282903200.0
 },
 "EHC": {
 "name": "Encompass Health",
@@ -9746,6 +11267,15 @@
 "market": "S&P500",
 "mcap": 40041139135.0
 },
+"ELA": {
+"name": "Envela Corporation",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Consumer Specialties",
+"small": true,
+"market": "US",
+"mcap": 270799055.0
+},
 "ELAN": {
 "name": "Elanco",
 "name_local": "",
@@ -9764,6 +11294,15 @@
 "market": "US",
 "mcap": 3863864442.0
 },
+"ELDN": {
+"name": "Eledon Pharmaceuticals Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 199747221.0
+},
 "ELE": {
 "name": "Elemental Royalty Corporation",
 "name_local": "",
@@ -9781,6 +11320,24 @@
 "small": false,
 "market": "S&P400",
 "mcap": 6715326967.0
+},
+"ELLO": {
+"name": "Ellomay Capital Ltd",
+"name_local": "",
+"sector": "유틸리티",
+"industry": "Electric Utilities: Central",
+"small": true,
+"market": "US",
+"mcap": 231558264.0
+},
+"ELMD": {
+"name": "Electromed Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
+"small": true,
+"market": "US",
+"mcap": 204186720.0
 },
 "ELMT": {
 "name": "The Elmet Group Co.",
@@ -9817,6 +11374,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 92928879557.0
+},
+"ELVA": {
+"name": "Electrovaya Inc. Common Shares",
+"name_local": "",
+"sector": "기타",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 237494761.0
 },
 "ELVN": {
 "name": "Enliven Therapeutics Inc.",
@@ -9881,6 +11447,15 @@
 "market": "S&P500",
 "mcap": 29017836611.0
 },
+"EML": {
+"name": "Eastern Company (The)",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 185572820.0
+},
 "EMN": {
 "name": "Eastman Chemical Company",
 "name_local": "",
@@ -9916,6 +11491,15 @@
 "small": false,
 "market": "US",
 "mcap": 107251643018.0
+},
+"ENGN": {
+"name": "enGene Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 152797200.0
 },
 "ENHA": {
 "name": "Enhanced Group Inc. Class A",
@@ -10097,6 +11681,24 @@
 "market": "US",
 "mcap": 366363999.0
 },
+"EOT": {
+"name": "Eaton Vance Municipal Income Trust EATON VANCE NATIONAL MUNICIPAL OPPORTUNITIES TRUST",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Bankers/Brokers/Service",
+"small": true,
+"market": "US",
+"mcap": 245936257.0
+},
+"EP": {
+"name": "Empire Petroleum Corporation",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 100677665.0
+},
 "EPAC": {
 "name": "Enerpac Tool Group",
 "name_local": "",
@@ -10133,6 +11735,15 @@
 "market": "US",
 "mcap": 80635455641.0
 },
+"EPM": {
+"name": "Evolution Petroleum Corporation Inc.",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 140804700.0
+},
 "EPR": {
 "name": "EPR Properties",
 "name_local": "",
@@ -10159,6 +11770,24 @@
 "small": true,
 "market": "US",
 "mcap": 514730796.0
+},
+"EPSN": {
+"name": "Epsilon Energy Ltd. Common Share",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 164440920.0
+},
+"EQ": {
+"name": "Equillium Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 108668604.0
 },
 "EQBK": {
 "name": "Equity Bancshares Inc. Class A",
@@ -10304,6 +11933,15 @@
 "market": "S&P400",
 "mcap": 5132647539.0
 },
+"ESCA": {
+"name": "Escalade Incorporated",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Recreational Games/Products/Toys",
+"small": true,
+"market": "US",
+"mcap": 288762243.0
+},
 "ESE": {
 "name": "ESCO Technologies Inc.",
 "name_local": "",
@@ -10348,6 +11986,24 @@
 "small": false,
 "market": "S&P400",
 "mcap": 5708503015.0
+},
+"ESOA": {
+"name": "Energy Services of America Corporation",
+"name_local": "",
+"sector": "산업재",
+"industry": "Water Sewer Pipeline Comm & Power Line Construction",
+"small": true,
+"market": "US",
+"mcap": 163827609.0
+},
+"ESP": {
+"name": "Espey Mfg. & Electronics Corp.",
+"name_local": "",
+"sector": "IT",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 145174735.0
 },
 "ESQ": {
 "name": "Esquire Financial Holdings Inc.",
@@ -10493,6 +12149,24 @@
 "market": "US",
 "mcap": 1030219188.0
 },
+"ETX": {
+"name": "Eaton Vance Municipal Income 2028 Term Trust Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 192881420.0
+},
+"EU": {
+"name": "enCore Energy Corp. Common Shares",
+"name_local": "",
+"sector": "소재",
+"industry": "Other Metals and Minerals",
+"small": true,
+"market": "US",
+"mcap": 105465107.0
+},
 "EVC": {
 "name": "Entravision Communications Corporation",
 "name_local": "",
@@ -10546,6 +12220,15 @@
 "small": true,
 "market": "US",
 "mcap": 538947798.0
+},
+"EVI": {
+"name": "EVI Industries Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 284457999.0
 },
 "EVLV": {
 "name": "Evolv Technologies Holdings Inc. Class A",
@@ -10664,6 +12347,15 @@
 "market": "S&P400",
 "mcap": 17041720907.0
 },
+"EXFY": {
+"name": "Expensify Inc. Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 171851983.0
+},
 "EXK": {
 "name": "Endeavour Silver Corporation",
 "name_local": "",
@@ -10681,6 +12373,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 6498994306.0
+},
+"EXOD": {
+"name": "Exodus Movement Inc. Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 146718122.0
 },
 "EXP": {
 "name": "Eagle Materials",
@@ -10808,6 +12509,15 @@
 "market": "S&P500",
 "mcap": 63732597658.0
 },
+"FATE": {
+"name": "Fate Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 162902132.0
+},
 "FBIN": {
 "name": "Fortune Brands Innovations",
 "name_local": "",
@@ -10843,6 +12553,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 2673294915.0
+},
+"FBLA": {
+"name": "FB Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Banks",
+"small": true,
+"market": "US",
+"mcap": 262985455.0
 },
 "FBNC": {
 "name": "First Bancorp (Southern Pines NC)",
@@ -10888,6 +12607,33 @@
 "small": true,
 "market": "US",
 "mcap": 605768500.0
+},
+"FBYDW": {
+"name": "Falcon's Beyond Global Inc. Warrants",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Services-Misc. Amusement & Recreation",
+"small": true,
+"market": "US",
+"mcap": 109256844.0
+},
+"FC": {
+"name": "Franklin Covey Company",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 167538261.0
+},
+"FCAP": {
+"name": "First Capital Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 220745250.0
 },
 "FCBC": {
 "name": "First Community Bankshares Inc. (VA)",
@@ -10960,6 +12706,33 @@
 "small": false,
 "market": "US",
 "mcap": 25639921627.0
+},
+"FCNCN": {
+"name": "First Citizens BancShares Inc. Depositary Shares each representing a 1/40th interest in a share of 6.625% Non-Cumulative Perpetual Preferred Stock Series E",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 247343950.0
+},
+"FCNCO": {
+"name": "First Citizens BancShares Inc. 5.625% Non-Cumulative Perpetual Preferred Stock Series C",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 200773376.0
+},
+"FCNCP": {
+"name": "First Citizens BancShares Inc. Depositary Shares",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 193915002.0
 },
 "FCPT": {
 "name": "Four Corners Property Trust, Inc.",
@@ -11096,6 +12869,15 @@
 "market": "US",
 "mcap": 880873829.0
 },
+"FF": {
+"name": "FutureFuel Corp.  Common shares",
+"name_local": "",
+"sector": "산업재",
+"industry": "Major Chemicals",
+"small": true,
+"market": "US",
+"mcap": 123913873.0
+},
 "FFBC": {
 "name": "First Financial Bancorp",
 "name_local": "",
@@ -11132,6 +12914,15 @@
 "market": "S&P600",
 "mcap": 3091593034.0
 },
+"FGBI": {
+"name": "First Guaranty Bancshares Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 213685094.0
+},
 "FGBIP": {
 "name": "First Guaranty Bancshares Inc. 6.75% Series A Fixed-Rate Non-Cumulative Perpetual Preferred Stock",
 "name_local": "",
@@ -11140,6 +12931,15 @@
 "small": true,
 "market": "US",
 "mcap": 311431140.0
+},
+"FGCPP": {
+"name": "FG Communities Holdings Inc. 8.00% Cumulative Preferred Stock",
+"name_local": "",
+"sector": "금융",
+"industry": "Property-Casualty Insurers",
+"small": true,
+"market": "US",
+"mcap": 115526325.0
 },
 "FGN": {
 "name": "F&G Annuities & Life Inc. 7.950% Senior Notes due 2053",
@@ -11176,6 +12976,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 11027629962.0
+},
+"FHTX": {
+"name": "Foghorn Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 122923433.0
 },
 "FIBK": {
 "name": "First Interstate BancSystem, Inc.",
@@ -11222,6 +13031,15 @@
 "market": "US",
 "mcap": 3758042625.0
 },
+"FINS": {
+"name": "Angel Oak Financial Strategies Income Term Trust Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance/Investors Services",
+"small": true,
+"market": "US",
+"mcap": 294235370.0
+},
 "FINV": {
 "name": "FinVolution Group",
 "name_local": "",
@@ -11231,6 +13049,15 @@
 "market": "US",
 "mcap": 645717095.0
 },
+"FINW": {
+"name": "FinWise Bancorp",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 197945383.0
+},
 "FIP": {
 "name": "FTAI Infrastructure Inc.",
 "name_local": "",
@@ -11239,6 +13066,15 @@
 "small": true,
 "market": "US",
 "mcap": 499908748.0
+},
+"FIRY": {
+"name": "Firy Inc. Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 199467084.0
 },
 "FIS": {
 "name": "Fidelity National Information Services",
@@ -11257,6 +13093,15 @@
 "small": true,
 "market": "US",
 "mcap": 784821437.0
+},
+"FISN": {
+"name": "Deep Fission Inc.",
+"name_local": "",
+"sector": "유틸리티",
+"industry": "Electric Utilities: Central",
+"small": true,
+"market": "US",
+"mcap": 122531943.0
 },
 "FISV": {
 "name": "Fiserv",
@@ -11357,6 +13202,15 @@
 "market": "US",
 "mcap": 1396935610.0
 },
+"FLNT": {
+"name": "Fluent Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Advertising",
+"small": true,
+"market": "US",
+"mcap": 105285284.0
+},
 "FLO": {
 "name": "Flowers Foods",
 "name_local": "",
@@ -11402,6 +13256,24 @@
 "market": "US",
 "mcap": 14248748528.0
 },
+"FLWS": {
+"name": "1-800-FLOWERS.COM Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Specialty Stores",
+"small": true,
+"market": "US",
+"mcap": 167581734.0
+},
+"FLX": {
+"name": "BingEx Limited",
+"name_local": "",
+"sector": "산업재",
+"industry": "Trucking Freight/Courier Services",
+"small": true,
+"market": "US",
+"mcap": 107500968.0
+},
 "FLXS": {
 "name": "Flexsteel Industries Inc.",
 "name_local": "",
@@ -11428,6 +13300,15 @@
 "small": false,
 "market": "US",
 "mcap": 2630994431.0
+},
+"FLYX": {
+"name": "flyExclusive Inc. Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Transportation Services",
+"small": true,
+"market": "US",
+"mcap": 106760524.0
 },
 "FMAO": {
 "name": "Farmers & Merchants Bancorp Inc.",
@@ -11546,6 +13427,15 @@
 "market": "US",
 "mcap": 415247524.0
 },
+"FNRN": {
+"name": "First Northern Community Bancorp Common stock",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 276918219.0
+},
 "FNV": {
 "name": "Franco-Nevada Corporation",
 "name_local": "",
@@ -11554,6 +13444,33 @@
 "small": false,
 "market": "US",
 "mcap": 47767127785.0
+},
+"FNWD": {
+"name": "Finward Bancorp",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 189178867.0
+},
+"FOA": {
+"name": "Finance of America Companies Inc. Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 189479534.0
+},
+"FOCL": {
+"name": "EDAP TMS S.A.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
+"small": true,
+"market": "US",
+"mcap": 161022208.0
 },
 "FOF": {
 "name": "Cohen & Steers Closed-End Opportunity Fund Inc.",
@@ -11590,6 +13507,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 7222686681.0
+},
+"FORR": {
+"name": "Forrester Research Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Diversified Commercial Services",
+"small": true,
+"market": "US",
+"mcap": 166054200.0
 },
 "FORTY": {
 "name": "Formula Systems (1985) Ltd.",
@@ -11716,6 +13642,15 @@
 "small": true,
 "market": "US",
 "mcap": 981783109.0
+},
+"FRD": {
+"name": "Friedman Industries Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Steel/Iron Ore",
+"small": true,
+"market": "US",
+"mcap": 274961155.0
 },
 "FRHC": {
 "name": "Freedom Holding Corp.",
@@ -11933,6 +13868,15 @@
 "market": "US",
 "mcap": 6460973090.0
 },
+"FT": {
+"name": "Franklin Universal Trust",
+"name_local": "",
+"sector": "금융",
+"industry": "Trusts Except Educational Religious and Charitable",
+"small": true,
+"market": "US",
+"mcap": 185473378.0
+},
 "FTAI": {
 "name": "FTAI Aviation Ltd.",
 "name_local": "",
@@ -11959,6 +13903,24 @@
 "small": false,
 "market": "S&P600",
 "mcap": 6449293620.0
+},
+"FTF": {
+"name": "Franklin Limited Duration Income Trust Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance/Investors Services",
+"small": true,
+"market": "US",
+"mcap": 217784966.0
+},
+"FTH": {
+"name": "Faeth Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 275238014.0
 },
 "FTHY": {
 "name": "First Trust High Yield Opportunities 2027 Term Fund",
@@ -12041,6 +14003,15 @@
 "market": "US",
 "mcap": 837539418.0
 },
+"FUFU": {
+"name": "BitFuFu Inc. Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 151471455.0
+},
 "FUL": {
 "name": "H.B. Fuller Company",
 "name_local": "",
@@ -12049,6 +14020,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 2662388226.0
+},
+"FULC": {
+"name": "Fulcrum Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 281085569.0
 },
 "FULT": {
 "name": "Fulton Financial Corporation",
@@ -12077,6 +14057,24 @@
 "market": "S&P600",
 "mcap": 1145358446.0
 },
+"FUNC": {
+"name": "First United Corporation",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 299672405.0
+},
+"FUND": {
+"name": "Sprott Focus Trust Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 293075879.0
+},
 "FUTU": {
 "name": "Futu Holdings Limited",
 "name_local": "",
@@ -12086,6 +14084,15 @@
 "market": "US",
 "mcap": 13402828494.0
 },
+"FVCB": {
+"name": "FVCBankcorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 292875489.0
+},
 "FVR": {
 "name": "FrontView REIT Inc.",
 "name_local": "",
@@ -12094,6 +14101,15 @@
 "small": true,
 "market": "US",
 "mcap": 501875499.0
+},
+"FVRR": {
+"name": "Fiverr International Ltd.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 285988041.0
 },
 "FWDI": {
 "name": "Forward Industries Inc.",
@@ -12139,6 +14155,24 @@
 "small": true,
 "market": "US",
 "mcap": 798741337.0
+},
+"FXHO": {
+"name": "UTime Limited Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "Consumer Electronics/Appliances",
+"small": true,
+"market": "US",
+"mcap": 155519821.0
+},
+"FXNC": {
+"name": "First National Corporation",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 273720380.0
 },
 "G": {
 "name": "Genpact",
@@ -12239,6 +14273,15 @@
 "market": "US",
 "mcap": 584381379.0
 },
+"GBAB": {
+"name": "Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 282201003.0
+},
 "GBC": {
 "name": "Georgia Banking Company Inc.",
 "name_local": "",
@@ -12265,6 +14308,15 @@
 "small": false,
 "market": "US",
 "mcap": 3243048347.0
+},
+"GBFH": {
+"name": "GBank Financial Holdings Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 218472678.0
 },
 "GBLI": {
 "name": "Global Indemnity Group LLC Class A",
@@ -12293,6 +14345,15 @@
 "market": "US",
 "mcap": 606447776.0
 },
+"GCL": {
+"name": "GCL Global Holdings Ltd",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 150957101.0
+},
 "GCMG": {
 "name": "GCM Grosvenor Inc. Class A",
 "name_local": "",
@@ -12320,6 +14381,15 @@
 "market": "US",
 "mcap": 2308080515.0
 },
+"GCTS": {
+"name": "GCT Semiconductor Holding Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Semiconductors",
+"small": true,
+"market": "US",
+"mcap": 141083889.0
+},
 "GD": {
 "name": "General Dynamics",
 "name_local": "",
@@ -12337,6 +14407,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 13628850898.0
+},
+"GDEV": {
+"name": "GDEV Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 149197020.0
 },
 "GDOT": {
 "name": "Green Dot Corporation Class A",
@@ -12463,6 +14542,15 @@
 "small": true,
 "market": "US",
 "mcap": 1622745092.0
+},
+"GENC": {
+"name": "Gencor Industries Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Construction/Ag Equipment/Trucks",
+"small": true,
+"market": "US",
+"mcap": 258855017.0
 },
 "GENI": {
 "name": "Genius Sports Limited",
@@ -12599,6 +14687,24 @@
 "market": "S&P400",
 "mcap": 11620782065.0
 },
+"GGT": {
+"name": "Gabelli Multi-Media Trust Inc. (The)",
+"name_local": "",
+"sector": "금융",
+"industry": "Trusts Except Educational Religious and Charitable",
+"small": true,
+"market": "US",
+"mcap": 100780849.0
+},
+"GGZ": {
+"name": "Gabelli Global Small and Mid Cap Value Trust (The) Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 136273413.0
+},
 "GH": {
 "name": "Guardant Health Inc.",
 "name_local": "",
@@ -12616,6 +14722,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 5066742504.0
+},
+"GHG": {
+"name": "GreenTree Hospitality Group Ltd. American depositary shares each representing one Class A ordinary share",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Hotels/Resorts",
+"small": true,
+"market": "US",
+"mcap": 103419758.0
 },
 "GHM": {
 "name": "Graham Corporation",
@@ -12643,6 +14758,15 @@
 "small": false,
 "market": "US",
 "mcap": 16940839047.0
+},
+"GIBO": {
+"name": "GIBO Holdings Limited Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 210955058.0
 },
 "GIC": {
 "name": "Global Industrial Company",
@@ -12734,6 +14858,15 @@
 "market": "US",
 "mcap": 438079608.0
 },
+"GLAS": {
+"name": "Glass House Brands Inc. Subordinate Voting Shares",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medicinal Chemicals and Botanical Products",
+"small": true,
+"market": "US",
+"mcap": 109557490.0
+},
 "GLBE": {
 "name": "Global-E Online Ltd.",
 "name_local": "",
@@ -12742,6 +14875,15 @@
 "small": false,
 "market": "US",
 "mcap": 6878678222.0
+},
+"GLDG": {
+"name": "GoldMining Inc. Common Shares",
+"name_local": "",
+"sector": "소재",
+"industry": "Precious Metals",
+"small": true,
+"market": "US",
+"mcap": 158876419.0
 },
 "GLIBA": {
 "name": "Liberty Capital Corporation Series A GCI Group",
@@ -12779,6 +14921,15 @@
 "market": "US",
 "mcap": 1976112380.0
 },
+"GLOO": {
+"name": "Gloo Holdings Inc. Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 272762502.0
+},
 "GLP": {
 "name": "Global Partners LP Common Units representing Limited Partner Interests",
 "name_local": "",
@@ -12805,6 +14956,24 @@
 "small": true,
 "market": "US",
 "mcap": 527447103.0
+},
+"GLSI": {
+"name": "Greenwich LifeSciences Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 224283018.0
+},
+"GLU": {
+"name": "Gabelli Global Utility Common Shares of Beneficial Ownership",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance/Investors Services",
+"small": true,
+"market": "US",
+"mcap": 113946511.0
 },
 "GLUE": {
 "name": "Monte Rosa Therapeutics Inc.",
@@ -12887,6 +15056,15 @@
 "market": "US",
 "mcap": 755693642.0
 },
+"GMTL": {
+"name": "Guardian Metal Resources PLC ADS",
+"name_local": "",
+"sector": "소재",
+"industry": "Metal Mining",
+"small": true,
+"market": "US",
+"mcap": 168977459.0
+},
 "GNE": {
 "name": "Genie Energy Ltd. Class B",
 "name_local": "",
@@ -12922,6 +15100,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 11375435289.0
+},
+"GNT": {
+"name": "GAMCO Natural Resources Gold & Income Trust",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance/Investors Services",
+"small": true,
+"market": "US",
+"mcap": 157780249.0
 },
 "GNTX": {
 "name": "Gentex",
@@ -13067,6 +15254,15 @@
 "market": "US",
 "mcap": 591335768.0
 },
+"GOW": {
+"name": "GOWell Energy Technology Ordinary shares",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Oil and Gas Field Machinery",
+"small": true,
+"market": "US",
+"mcap": 121057066.0
+},
 "GPC": {
 "name": "Genuine Parts Company",
 "name_local": "",
@@ -13102,6 +15298,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3072130779.0
+},
+"GPJA": {
+"name": "Georgia Power Company Series 2017A 5.00% Junior Subordinated Notes due October 1 2077",
+"name_local": "",
+"sector": "유틸리티",
+"industry": "Electric Utilities: Central",
+"small": true,
+"market": "US",
+"mcap": 165503005.0
 },
 "GPK": {
 "name": "Graphic Packaging",
@@ -13147,6 +15352,15 @@
 "small": true,
 "market": "US",
 "mcap": 603530503.0
+},
+"GPRO": {
+"name": "GoPro Inc. Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 143865725.0
 },
 "GRAB": {
 "name": "Grab Holdings Limited Class A",
@@ -13229,6 +15443,15 @@
 "market": "US",
 "mcap": 857010333.0
 },
+"GRO": {
+"name": "Brazil Potash Corp. Common Shares",
+"name_local": "",
+"sector": "산업재",
+"industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+"small": true,
+"market": "US",
+"mcap": 109963445.0
+},
 "GROY": {
 "name": "Gold Royalty Corp. Common Shares",
 "name_local": "",
@@ -13237,6 +15460,15 @@
 "small": true,
 "market": "US",
 "mcap": 679528886.0
+},
+"GROY.WS": {
+"name": "Gold Royalty Corp. Warrants",
+"name_local": "",
+"sector": "소재",
+"industry": "Precious Metals",
+"small": true,
+"market": "US",
+"mcap": 250902973.0
 },
 "GRPN": {
 "name": "Groupon Inc.",
@@ -13247,6 +15479,15 @@
 "market": "US",
 "mcap": 488475800.0
 },
+"GRRR": {
+"name": "Gorilla Technology Group Inc. Ordinary shares",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 198565243.0
+},
 "GRVY": {
 "name": "GRAVITY Co. Ltd. American Depository Shares",
 "name_local": "",
@@ -13255,6 +15496,15 @@
 "small": true,
 "market": "US",
 "mcap": 468425349.0
+},
+"GRX": {
+"name": "The Gabelli Healthcare & Wellness Trust Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance/Investors Services",
+"small": true,
+"market": "US",
+"mcap": 177766919.0
 },
 "GS": {
 "name": "Goldman Sachs",
@@ -13300,6 +15550,24 @@
 "small": true,
 "market": "S&P600",
 "mcap": 1621656222.0
+},
+"GSIT": {
+"name": "GSI Technology",
+"name_local": "",
+"sector": "IT",
+"industry": "Semiconductors",
+"small": true,
+"market": "US",
+"mcap": 123965170.0
+},
+"GSIW": {
+"name": "Garden Stage Limited Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Bankers/Brokers/Service",
+"small": true,
+"market": "US",
+"mcap": 106481246.0
 },
 "GSK": {
 "name": "GSK plc",
@@ -13400,6 +15668,15 @@
 "market": "S&P600",
 "mcap": 1897922929.0
 },
+"GUNN": {
+"name": "Gunnison Copper Corp.",
+"name_local": "",
+"sector": "기타",
+"industry": "기타",
+"small": true,
+"market": "US",
+"mcap": 129412577.0
+},
 "GUT": {
 "name": "Gabelli Utility Trust (The)",
 "name_local": "",
@@ -13426,6 +15703,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 13228428008.0
+},
+"GWRS": {
+"name": "Global Water Resources Inc.",
+"name_local": "",
+"sector": "유틸리티",
+"industry": "Water Supply",
+"small": true,
+"market": "US",
+"mcap": 201764246.0
 },
 "GWW": {
 "name": "W. W. Grainger",
@@ -13661,6 +15947,15 @@
 "market": "S&P500",
 "mcap": 104585163513.0
 },
+"HCAT": {
+"name": "Health Catalyst Inc",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Programming Data Processing",
+"small": true,
+"market": "US",
+"mcap": 103571435.0
+},
 "HCC": {
 "name": "Warrior Met Coal, Inc.",
 "name_local": "",
@@ -13750,6 +16045,15 @@
 "small": true,
 "market": "US",
 "mcap": 685415146.0
+},
+"HDSN": {
+"name": "Hudson Technologies Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Industrial Specialties",
+"small": true,
+"market": "US",
+"mcap": 186452263.0
 },
 "HE": {
 "name": "Hawaiian Electric Industries, Inc.",
@@ -13904,6 +16208,15 @@
 "market": "US",
 "mcap": 985003270.0
 },
+"HITI": {
+"name": "High Tide Inc. Common Shares",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Specialty Stores",
+"small": true,
+"market": "US",
+"mcap": 222856535.0
+},
 "HIVE": {
 "name": "HIVE Digital Technologies Ltd. Common Shares",
 "name_local": "",
@@ -13921,6 +16234,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3412604486.0
+},
+"HKD": {
+"name": "AMTD Digital Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 176629559.0
 },
 "HL": {
 "name": "Hecla Mining",
@@ -13966,6 +16288,15 @@
 "small": true,
 "market": "S&P600",
 "mcap": 1125004526.0
+},
+"HLLY": {
+"name": "Holley Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Auto Parts:O.E.M.",
+"small": true,
+"market": "US",
+"mcap": 286478888.0
 },
 "HLMN": {
 "name": "Hillman Solutions Corp.",
@@ -14083,6 +16414,24 @@
 "small": true,
 "market": "US",
 "mcap": 523606642.0
+},
+"HNVR": {
+"name": "Hanover Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 155254520.0
+},
+"HOFT": {
+"name": "Hooker Furnishings Corporation",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Home Furnishings",
+"small": true,
+"market": "US",
+"mcap": 155678388.0
 },
 "HOG": {
 "name": "Harley-Davidson",
@@ -14219,6 +16568,15 @@
 "market": "US",
 "mcap": 1012445581.0
 },
+"HQI": {
+"name": "HireQuest Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Professional Services",
+"small": true,
+"market": "US",
+"mcap": 257567000.0
+},
 "HQL": {
 "name": "abrdn Life Sciences Investors Shares of Beneficial Interest",
 "name_local": "",
@@ -14227,6 +16585,15 @@
 "small": true,
 "market": "US",
 "mcap": 470707728.0
+},
+"HQWWW": {
+"name": "Horizon Quantum Holdings Ltd. Warrant",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 283353420.0
 },
 "HQY": {
 "name": "HealthEquity",
@@ -14300,6 +16667,15 @@
 "market": "US",
 "mcap": 992389612.0
 },
+"HRZN": {
+"name": "Horizon Technology Finance Corporation",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 244905671.0
+},
 "HSAI": {
 "name": "Hesai Group American Depositary Share",
 "name_local": "",
@@ -14317,6 +16693,15 @@
 "small": false,
 "market": "US",
 "mcap": 305807447458.0
+},
+"HSDT": {
+"name": "Solana Company Class A",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
+"small": true,
+"market": "US",
+"mcap": 118855625.0
 },
 "HSHP": {
 "name": "Himalaya Shipping Ltd. Common Shares",
@@ -14444,6 +16829,15 @@
 "market": "S&P600",
 "mcap": 2943592932.0
 },
+"HTT": {
+"name": "High Templar Tech Limited American depositary shares each representing one Class A ordinary share",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 256217782.0
+},
 "HTZ": {
 "name": "Hertz Global Holdings Inc",
 "name_local": "",
@@ -14452,6 +16846,15 @@
 "small": true,
 "market": "US",
 "mcap": 550497318.0
+},
+"HTZWW": {
+"name": "Hertz Global Holdings Inc Warrant",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Rental/Leasing Companies",
+"small": true,
+"market": "US",
+"mcap": 292764483.0
 },
 "HUBB": {
 "name": "Hubbell Incorporated",
@@ -14480,6 +16883,15 @@
 "market": "S&P400",
 "mcap": 10536954825.0
 },
+"HUCK": {
+"name": "Huckleberry.ai Inc. Class B",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 158982224.0
+},
 "HUM": {
 "name": "Humana",
 "name_local": "",
@@ -14489,6 +16901,15 @@
 "market": "S&P500",
 "mcap": 53289812025.0
 },
+"HUMA": {
+"name": "Humacyte Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 165400992.0
+},
 "HUN": {
 "name": "Huntsman Corporation",
 "name_local": "",
@@ -14497,6 +16918,15 @@
 "small": true,
 "market": "US",
 "mcap": 1690223144.0
+},
+"HURC": {
+"name": "Hurco Companies Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 135031314.0
 },
 "HURN": {
 "name": "Huron Consulting Group Inc.",
@@ -14533,6 +16963,15 @@
 "small": true,
 "market": "US",
 "mcap": 404966467.0
+},
+"HWBK": {
+"name": "Hawthorn Bancshares Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 288222426.0
 },
 "HWC": {
 "name": "Hancock Whitney",
@@ -14605,6 +17044,15 @@
 "small": true,
 "market": "US",
 "mcap": 1584120418.0
+},
+"HYNE": {
+"name": "Hoyne Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Banks",
+"small": true,
+"market": "US",
+"mcap": 152546312.0
 },
 "HZO": {
 "name": "MarineMax, Inc.",
@@ -14759,6 +17207,15 @@
 "market": "US",
 "mcap": 1475228650.0
 },
+"ICG": {
+"name": "Intchains Group Limited",
+"name_local": "",
+"sector": "IT",
+"industry": "Semiconductors",
+"small": true,
+"market": "US",
+"mcap": 173927379.0
+},
 "ICHR": {
 "name": "Ichor Holdings, Ltd.",
 "name_local": "",
@@ -14812,6 +17269,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 7607765219.0
+},
+"IDR": {
+"name": "Idaho Strategic Resources Inc.",
+"name_local": "",
+"sector": "소재",
+"industry": "Precious Metals",
+"small": true,
+"market": "US",
+"mcap": 299352006.0
 },
 "IDT": {
 "name": "IDT Corporation Class B",
@@ -14885,6 +17351,15 @@
 "market": "S&P500",
 "mcap": 20126452131.0
 },
+"IFRX": {
+"name": "InflaRx N.V.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 182736594.0
+},
 "IFS": {
 "name": "Intercorp Financial Services Inc. Common Shares",
 "name_local": "",
@@ -14921,6 +17396,15 @@
 "market": "US",
 "mcap": 2818378265.0
 },
+"III": {
+"name": "Information Services Group Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Professional Services",
+"small": true,
+"market": "US",
+"mcap": 297564194.0
+},
 "IIIN": {
 "name": "Insteel Industries Inc.",
 "name_local": "",
@@ -14956,6 +17440,24 @@
 "small": true,
 "market": "S&P600",
 "mcap": 1452019395.0
+},
+"IKT": {
+"name": "Inhibikase Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 214612538.0
+},
+"ILLU": {
+"name": "Illumination Acquisition Corp I Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Blank Checks",
+"small": true,
+"market": "US",
+"mcap": 102647440.0
 },
 "ILMN": {
 "name": "Illumina, Inc.",
@@ -15011,6 +17513,15 @@
 "market": "US",
 "mcap": 1593438203.0
 },
+"IMMR": {
+"name": "Immersion Corporation",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer peripheral equipment",
+"small": true,
+"market": "US",
+"mcap": 231446106.0
+},
 "IMMX": {
 "name": "Immix Biopharma Inc.",
 "name_local": "",
@@ -15047,6 +17558,15 @@
 "market": "US",
 "mcap": 1775507184.0
 },
+"IMPP": {
+"name": "Imperial Petroleum Inc. Common Shares",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Marine Transportation",
+"small": true,
+"market": "US",
+"mcap": 200296505.0
+},
 "IMPPP": {
 "name": "Imperial Petroleum Inc. 8.75% Series A Cumulative Redeemable Perpetual Preferred Shares",
 "name_local": "",
@@ -15055,6 +17575,24 @@
 "small": true,
 "market": "US",
 "mcap": 1164251694.0
+},
+"IMRX": {
+"name": "Immuneering Corporation Class A",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 237680779.0
+},
+"IMSR": {
+"name": "Terrestrial Energy Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Metal Fabrications",
+"small": true,
+"market": "US",
+"mcap": 264971015.0
 },
 "IMTX": {
 "name": "Immatics N.V.",
@@ -15065,6 +17603,15 @@
 "market": "US",
 "mcap": 975598528.0
 },
+"IMUX": {
+"name": "Immunic Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 106290398.0
+},
 "IMVT": {
 "name": "Immunovant Inc.",
 "name_local": "",
@@ -15073,6 +17620,33 @@
 "small": false,
 "market": "US",
 "mcap": 7253518918.0
+},
+"IMXI": {
+"name": "International Money Express Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 193103155.0
+},
+"INBK": {
+"name": "First Internet Bancorp",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 221832780.0
+},
+"INBKZ": {
+"name": "First Internet Bancorp 6.0% Fixed-to-Floating Rate Subordinated Notes Due 2029",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 220354147.0
 },
 "INBX": {
 "name": "Inhibrx Biosciences Inc.",
@@ -15137,6 +17711,15 @@
 "market": "US",
 "mcap": 768467547.0
 },
+"INFU": {
+"name": "InfuSystems Holdings Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 295493948.0
+},
 "INFY": {
 "name": "Infosys Limited",
 "name_local": "",
@@ -15163,6 +17746,15 @@
 "small": false,
 "market": "US",
 "mcap": 6612799955.0
+},
+"INGN": {
+"name": "Inogen Inc",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Industrial Specialties",
+"small": true,
+"market": "US",
+"mcap": 146131701.0
 },
 "INGR": {
 "name": "Ingredion",
@@ -15209,6 +17801,15 @@
 "market": "US",
 "mcap": 1282691156.0
 },
+"INO": {
+"name": "Inovio Pharmaceuticals Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 273468051.0
+},
 "INOD": {
 "name": "Innodata Inc.",
 "name_local": "",
@@ -15226,6 +17827,15 @@
 "small": true,
 "market": "US",
 "mcap": 837503303.0
+},
+"INSE": {
+"name": "Inspired Entertainment Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 115749743.0
 },
 "INSM": {
 "name": "Insmed Incorporated",
@@ -15281,6 +17891,15 @@
 "market": "US",
 "mcap": 1749840394.0
 },
+"INTT": {
+"name": "inTest Corporation",
+"name_local": "",
+"sector": "산업재",
+"industry": "Electrical Products",
+"small": true,
+"market": "US",
+"mcap": 188691655.0
+},
 "INTU": {
 "name": "Intuit",
 "name_local": "",
@@ -15334,6 +17953,15 @@
 "small": false,
 "market": "US",
 "mcap": 13337148157.0
+},
+"IONR": {
+"name": "ioneer Ltd",
+"name_local": "",
+"sector": "산업재",
+"industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+"small": true,
+"market": "US",
+"mcap": 177175782.0
 },
 "IONS": {
 "name": "Ionis Pharmaceuticals Inc.",
@@ -15398,6 +18026,15 @@
 "market": "S&P400",
 "mcap": 3012126800.0
 },
+"IPHA": {
+"name": "Innate Pharma S.A. ADS",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 167550521.0
+},
 "IPI": {
 "name": "Intrepid Potash Inc",
 "name_local": "",
@@ -15406,6 +18043,15 @@
 "small": true,
 "market": "US",
 "mcap": 445304107.0
+},
+"IPSC": {
+"name": "Century Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 296003113.0
 },
 "IPX": {
 "name": "IperionX Limited American Depositary Share",
@@ -15442,6 +18088,15 @@
 "small": true,
 "market": "US",
 "mcap": 1349213072.0
+},
+"IQMXW": {
+"name": "IQM Quantum Computers Oyj Warrants to purchase",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 151293780.0
 },
 "IQV": {
 "name": "IQVIA",
@@ -15578,6 +18233,15 @@
 "market": "US",
 "mcap": 498072498.0
 },
+"ISPR": {
+"name": "Ispire Technology Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medicinal Chemicals and Botanical Products",
+"small": true,
+"market": "US",
+"mcap": 100512901.0
+},
 "ISRG": {
 "name": "Intuitive Surgical",
 "name_local": "",
@@ -15713,6 +18377,15 @@
 "market": "S&P600",
 "mcap": 2464118420.0
 },
+"IVVD": {
+"name": "Invivyd Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 167216637.0
+},
 "IVZ": {
 "name": "Invesco",
 "name_local": "",
@@ -15739,6 +18412,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 18574027566.0
+},
+"JACK": {
+"name": "Jack In The Box Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Restaurants",
+"small": true,
+"market": "US",
+"mcap": 269853173.0
 },
 "JAKK": {
 "name": "JAKKS Pacific Inc.",
@@ -15893,6 +18575,24 @@
 "market": "S&P400",
 "mcap": 10631407497.0
 },
+"JHI": {
+"name": "John Hancock Investors Trust",
+"name_local": "",
+"sector": "금융",
+"industry": "Trusts Except Educational Religious and Charitable",
+"small": true,
+"market": "US",
+"mcap": 105459237.0
+},
+"JHS": {
+"name": "John Hancock Income Securities Trust",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance Companies",
+"small": true,
+"market": "US",
+"mcap": 120891552.0
+},
 "JHX": {
 "name": "James Hardie Industries",
 "name_local": "",
@@ -15937,6 +18637,15 @@
 "small": true,
 "market": "US",
 "mcap": 509038227.0
+},
+"JLHL": {
+"name": "Julong Holding Limited Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Military/Government/Technical",
+"small": true,
+"market": "US",
+"mcap": 120538572.0
 },
 "JLL": {
 "name": "Jones Lang LaSalle",
@@ -16028,6 +18737,15 @@
 "market": "S&P500",
 "mcap": 910820949397.0
 },
+"JRVR": {
+"name": "James River Group Holdings Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Property-Casualty Insurers",
+"small": true,
+"market": "US",
+"mcap": 145221979.0
+},
 "JSM": {
 "name": "Navient LLC 6% Senior Notes due December 15 2043",
 "name_local": "",
@@ -16036,6 +18754,15 @@
 "small": true,
 "market": "US",
 "mcap": 1531237985.0
+},
+"JXG": {
+"name": "JX Luxventure Group Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Office Equipment/Supplies/Services",
+"small": true,
+"market": "US",
+"mcap": 220695790.0
 },
 "JXN": {
 "name": "Jackson Financial, Inc.",
@@ -16136,6 +18863,15 @@
 "market": "S&P400",
 "mcap": 3718326998.0
 },
+"KDK": {
+"name": "Kodiak AI Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 246941160.0
+},
 "KDP": {
 "name": "Keurig Dr Pepper",
 "name_local": "",
@@ -16199,6 +18935,15 @@
 "market": "US",
 "mcap": 14283700713.0
 },
+"KEQU": {
+"name": "Kewaunee Scientific Corporation",
+"name_local": "",
+"sector": "산업재",
+"industry": "Medical Specialities",
+"small": true,
+"market": "US",
+"mcap": 104058771.0
+},
 "KEX": {
 "name": "Kirby Corporation",
 "name_local": "",
@@ -16252,6 +18997,15 @@
 "small": false,
 "market": "US",
 "mcap": 24406735000.0
+},
+"KGEI": {
+"name": "Kolibri Global Energy Inc. Common stock",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 199890312.0
 },
 "KGS": {
 "name": "Kodiak Gas Services, Inc.",
@@ -16334,6 +19088,15 @@
 "market": "US",
 "mcap": 8965213360.0
 },
+"KLC": {
+"name": "KinderCare Learning Companies Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 250162974.0
+},
 "KLIC": {
 "name": "Kulicke and Soffa Industries, Inc.",
 "name_local": "",
@@ -16351,6 +19114,24 @@
 "small": true,
 "market": "US",
 "mcap": 1715324854.0
+},
+"KLTR": {
+"name": "Kaltura Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 214174369.0
+},
+"KLXE": {
+"name": "KLX Energy Services Holdings Inc.",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oilfield Services/Equipment",
+"small": true,
+"market": "US",
+"mcap": 122632171.0
 },
 "KMB": {
 "name": "Kimberly-Clark",
@@ -16595,6 +19376,15 @@
 "market": "S&P400",
 "mcap": 5084774972.0
 },
+"KRMD": {
+"name": "KORU Medical Systems Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 160054399.0
+},
 "KRMN": {
 "name": "Karman Holdings",
 "name_local": "",
@@ -16631,6 +19421,15 @@
 "market": "US",
 "mcap": 966819134.0
 },
+"KROS": {
+"name": "Keros Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 197813690.0
+},
 "KRP": {
 "name": "Kimbell Royalty Partners Common Units Representing Limited Partner Interests",
 "name_local": "",
@@ -16639,6 +19438,15 @@
 "small": true,
 "market": "US",
 "mcap": 1915840376.0
+},
+"KRRO": {
+"name": "Korro Bio Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 196413994.0
 },
 "KRSA": {
 "name": "Korsana Biosciences Inc.",
@@ -16730,6 +19538,15 @@
 "market": "S&P400",
 "mcap": 6542504403.0
 },
+"KTWO": {
+"name": "K2 Capital Acquisition Corporation Class A Ordinary Share",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 202415716.0
+},
 "KURA": {
 "name": "Kura Oncology Inc.",
 "name_local": "",
@@ -16738,6 +19555,15 @@
 "small": true,
 "market": "US",
 "mcap": 682658696.0
+},
+"KVHI": {
+"name": "KVH Industries Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Telecommunications Equipment",
+"small": true,
+"market": "US",
+"mcap": 133936845.0
 },
 "KVYO": {
 "name": "Klaviyo Inc. Series A",
@@ -16756,6 +19582,24 @@
 "small": false,
 "market": "S&P600",
 "mcap": 2645155119.0
+},
+"KWY": {
+"name": "Kingsway Corporation",
+"name_local": "",
+"sector": "금융",
+"industry": "Property-Casualty Insurers",
+"small": true,
+"market": "US",
+"mcap": 262114860.0
+},
+"KXIN": {
+"name": "Kaixin Holdings",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Retail-Auto Dealers and Gas Stations",
+"small": true,
+"market": "US",
+"mcap": 118629806.0
 },
 "KYIV": {
 "name": "Kyivstar Group Ltd. Common Shares",
@@ -16802,6 +19646,15 @@
 "market": "US",
 "mcap": 318006509.0
 },
+"KZIA": {
+"name": "Kazia Therapeutics Limited",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 108064702.0
+},
 "L": {
 "name": "Loews Corporation",
 "name_local": "",
@@ -16810,6 +19663,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 22618891976.0
+},
+"LAB": {
+"name": "Standard BioTools Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Biotechnology: Laboratory Analytical Instruments",
+"small": true,
+"market": "US",
+"mcap": 257166493.0
 },
 "LAC": {
 "name": "Lithium Americas Corp. Common Shares",
@@ -16837,6 +19699,15 @@
 "small": true,
 "market": "US",
 "mcap": 1074081826.0
+},
+"LAES": {
+"name": "SEALSQ Corp",
+"name_local": "",
+"sector": "IT",
+"industry": "Semiconductors",
+"small": true,
+"market": "US",
+"mcap": 294061679.0
 },
 "LAMR": {
 "name": "Lamar Advertising Company",
@@ -16882,6 +19753,15 @@
 "small": true,
 "market": "US",
 "mcap": 613734000.0
+},
+"LARK": {
+"name": "Landmark Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 196665048.0
 },
 "LASR": {
 "name": "nLIGHT Inc.",
@@ -17000,6 +19880,42 @@
 "market": "US",
 "mcap": 2713744138.0
 },
+"LCNB": {
+"name": "LCNB Corporation",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 279112665.0
+},
+"LCTX": {
+"name": "Lineage Cell Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 250454262.0
+},
+"LCUT": {
+"name": "Lifetime Brands Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 177440031.0
+},
+"LDI": {
+"name": "loanDepot Inc. Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 150560123.0
+},
 "LDOS": {
 "name": "Leidos",
 "name_local": "",
@@ -17008,6 +19924,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 15999604512.0
+},
+"LE": {
+"name": "Lands' End Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Clothing/Shoe/Accessory Stores",
+"small": true,
+"market": "US",
+"mcap": 263533854.0
 },
 "LEA": {
 "name": "Lear",
@@ -17026,6 +19951,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 15413072808.0
+},
+"LEE": {
+"name": "Lee Enterprises Incorporated",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Newspapers/Magazines",
+"small": true,
+"market": "US",
+"mcap": 158942274.0
 },
 "LEGH": {
 "name": "Legacy Housing Corporation",
@@ -17072,6 +20006,15 @@
 "market": "US",
 "mcap": 19416228006.0
 },
+"LENZ": {
+"name": "LENZ Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 128510184.0
+},
 "LEO": {
 "name": "BNY Mellon Strategic Municipals Inc.",
 "name_local": "",
@@ -17098,6 +20041,15 @@
 "small": false,
 "market": "US",
 "mcap": 9220529874.0
+},
+"LFCR": {
+"name": "Lifecore Biomedical Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 242597414.0
 },
 "LFMDP": {
 "name": "LifeMD Inc. 8.875% Series A Cumulative Perpetual Preferred Stock",
@@ -17134,6 +20086,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 10075300776.0
+},
+"LGCY": {
+"name": "Legacy Education Inc.",
+"name_local": "",
+"sector": "부동산",
+"industry": "Other Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 105278043.0
 },
 "LGIH": {
 "name": "LGI Homes",
@@ -17188,6 +20149,15 @@
 "small": false,
 "market": "US",
 "mcap": 11424338589.0
+},
+"LIEN": {
+"name": "Chicago Atlantic BDC Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 206526340.0
 },
 "LIF": {
 "name": "Life360",
@@ -17396,6 +20366,15 @@
 "market": "US",
 "mcap": 3349832990.0
 },
+"LMNR": {
+"name": "Limoneira Co",
+"name_local": "",
+"sector": "필수소비재",
+"industry": "Farming/Seeds/Milling",
+"small": true,
+"market": "US",
+"mcap": 185127791.0
+},
 "LMRI": {
 "name": "Lumexa Imaging Holdings Inc.",
 "name_local": "",
@@ -17495,6 +20474,15 @@
 "market": "US",
 "mcap": 447231521.0
 },
+"LODE": {
+"name": "Comstock Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Major Chemicals",
+"small": true,
+"market": "US",
+"mcap": 120169594.0
+},
 "LOGI": {
 "name": "Logitech International S.A.",
 "name_local": "",
@@ -17521,6 +20509,24 @@
 "small": false,
 "market": "S&P400",
 "mcap": 3004373587.0
+},
+"LOT": {
+"name": "Lotus Technology Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Auto Manufacturing",
+"small": true,
+"market": "US",
+"mcap": 171759042.0
+},
+"LOVE": {
+"name": "The Lovesac Company",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Specialty Stores",
+"small": true,
+"market": "US",
+"mcap": 219668885.0
 },
 "LOW": {
 "name": "Lowe's",
@@ -17603,6 +20609,15 @@
 "market": "S&P500",
 "mcap": 292031196380.0
 },
+"LRMR": {
+"name": "Larimar Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 280483930.0
+},
 "LRN": {
 "name": "Stride, Inc.",
 "name_local": "",
@@ -17611,6 +20626,24 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3166909364.0
+},
+"LSAK": {
+"name": "Lesaka Technologies Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Bankers/Brokers/Service",
+"small": true,
+"market": "US",
+"mcap": 287308730.0
+},
+"LSBK": {
+"name": "Lake Shore Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 146574429.0
 },
 "LSCC": {
 "name": "Lattice Semiconductor",
@@ -17638,6 +20671,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 4989597743.0
+},
+"LTBR": {
+"name": "Lightbridge Corporation",
+"name_local": "",
+"sector": "소재",
+"industry": "Major Chemicals",
+"small": true,
+"market": "US",
+"mcap": 164748479.0
 },
 "LTC": {
 "name": "LTC Properties, Inc.",
@@ -17675,6 +20717,15 @@
 "market": "US",
 "mcap": 13627580840.0
 },
+"LTRX": {
+"name": "Lantronix Inc.",
+"name_local": "",
+"sector": "커뮤니케이션",
+"industry": "Computer Communications Equipment",
+"small": true,
+"market": "US",
+"mcap": 210310056.0
+},
 "LU": {
 "name": "Lufax Holding Ltd",
 "name_local": "",
@@ -17710,6 +20761,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 4299447963.0
+},
+"LUNG": {
+"name": "Pulmonx Corporation",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 130651995.0
 },
 "LUNR": {
 "name": "Intuitive Machines Inc. Class A",
@@ -17773,6 +20833,15 @@
 "small": true,
 "market": "US",
 "mcap": 522626994.0
+},
+"LXEO": {
+"name": "Lexeo Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 238754602.0
 },
 "LXFR": {
 "name": "Luxfer Holdings PLC",
@@ -18134,6 +21203,15 @@
 "market": "S&P600",
 "mcap": 6816806967.0
 },
+"MBI": {
+"name": "MBIA Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Property-Casualty Insurers",
+"small": true,
+"market": "US",
+"mcap": 238765915.0
+},
 "MBIN": {
 "name": "Merchants Bancorp",
 "name_local": "",
@@ -18413,6 +21491,15 @@
 "market": "S&P600",
 "mcap": 4174257683.0
 },
+"MDWD": {
+"name": "MediWound Ltd.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medicinal Chemicals and Botanical Products",
+"small": true,
+"market": "US",
+"mcap": 186641114.0
+},
 "MDXG": {
 "name": "MiMedx Group Inc",
 "name_local": "",
@@ -18430,6 +21517,15 @@
 "small": true,
 "market": "US",
 "mcap": 357014700.0
+},
+"MED": {
+"name": "MEDIFAST INC",
+"name_local": "",
+"sector": "필수소비재",
+"industry": "Packaged Foods",
+"small": true,
+"market": "US",
+"mcap": 143752284.0
 },
 "MEDP": {
 "name": "Medpace",
@@ -18457,6 +21553,15 @@
 "small": false,
 "market": "US",
 "mcap": 74782345662.0
+},
+"MENS": {
+"name": "Jyong Biotech Ltd.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 127726481.0
 },
 "MEOH": {
 "name": "Methanex Corporation",
@@ -18511,6 +21616,24 @@
 "small": true,
 "market": "US",
 "mcap": 455334544.0
+},
+"METCB": {
+"name": "Ramaco Resources Inc. Class B",
+"name_local": "",
+"sector": "에너지",
+"industry": "Coal Mining",
+"small": true,
+"market": "US",
+"mcap": 261737759.0
+},
+"MF": {
+"name": "MindForge Inc. Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Programming Data Processing",
+"small": true,
+"market": "US",
+"mcap": 120356447.0
 },
 "MFA": {
 "name": "MFA Financial Inc.",
@@ -18584,6 +21707,24 @@
 "market": "US",
 "mcap": 2374577180.0
 },
+"MFIN": {
+"name": "Medallion Financial Corp.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 209507118.0
+},
+"MFM": {
+"name": "Aberdeen Municipal Income Fund Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance Companies",
+"small": true,
+"market": "US",
+"mcap": 210262856.0
+},
 "MFP": {
 "name": "Midera Food Processing, Inc.",
 "name_local": "",
@@ -18646,6 +21787,15 @@
 "small": false,
 "market": "US",
 "mcap": 4212034791.0
+},
+"MGNX": {
+"name": "MacroGenics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 146351486.0
 },
 "MGR": {
 "name": "Affiliated Managers Group Inc. 5.875% Junior Subordinated Notes due 2059",
@@ -18719,6 +21869,15 @@
 "market": "S&P600",
 "mcap": 6436736894.0
 },
+"MGYR": {
+"name": "Magyar Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 141631103.0
+},
 "MH": {
 "name": "McGraw Hill Inc.",
 "name_local": "",
@@ -18791,6 +21950,15 @@
 "market": "US",
 "mcap": 1603972883.0
 },
+"MINE": {
+"name": "Mayfair Gold Corp. Common Shares",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 159121101.0
+},
 "MIR": {
 "name": "Mirion Technologies, Inc.",
 "name_local": "",
@@ -18835,6 +22003,15 @@
 "small": true,
 "market": "US",
 "mcap": 727002056.0
+},
+"MITT": {
+"name": "TPG Mortgage Investment Trust Inc.",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 133097543.0
 },
 "MIY": {
 "name": "Blackrock MuniYield Michigan Quality Fund Inc.",
@@ -18943,6 +22120,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 36799548878.0
+},
+"MLP": {
+"name": "Maui Land & Pineapple Company Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Real Estate",
+"small": true,
+"market": "US",
+"mcap": 294114086.0
 },
 "MLR": {
 "name": "Miller Industries Inc.",
@@ -19079,6 +22265,24 @@
 "market": "US",
 "mcap": 324390329.0
 },
+"MNSB": {
+"name": "MainStreet Bancshares Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 152669131.0
+},
+"MNSBP": {
+"name": "MainStreet Bancshares Inc. Depositary Shares",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 165124654.0
+},
 "MNSO": {
 "name": "MINISO Group Holding Limited",
 "name_local": "",
@@ -19096,6 +22300,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 89203818286.0
+},
+"MNTK": {
+"name": "Montauk Renewables Inc.",
+"name_local": "",
+"sector": "유틸리티",
+"industry": "Natural Gas Distribution",
+"small": true,
+"market": "US",
+"mcap": 146611373.0
 },
 "MNTN": {
 "name": "MNTN Inc. Class A",
@@ -19151,6 +22364,15 @@
 "market": "S&P400",
 "mcap": 10955475000.0
 },
+"MOLN": {
+"name": "Molecular Partners AG",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 111033042.0
+},
 "MOMO": {
 "name": "Hello Group Inc.",
 "name_local": "",
@@ -19187,6 +22409,15 @@
 "market": "US",
 "mcap": 713322473.0
 },
+"MOVE": {
+"name": "Corvex Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 184346362.0
+},
 "MP": {
 "name": "MP Materials",
 "name_local": "",
@@ -19195,6 +22426,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 6681483740.0
+},
+"MPAA": {
+"name": "Motorcar Parts  of America Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Auto Parts:O.E.M.",
+"small": true,
+"market": "US",
+"mcap": 146240327.0
 },
 "MPB": {
 "name": "Mid Penn Bancorp",
@@ -19241,6 +22481,24 @@
 "market": "S&P600",
 "mcap": 1012908000.0
 },
+"MPTI": {
+"name": "M-tron Industries Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 296168875.0
+},
+"MPV": {
+"name": "Barings Participation Investors",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance Companies",
+"small": true,
+"market": "US",
+"mcap": 176783348.0
+},
 "MPWR": {
 "name": "Monolithic Power Systems",
 "name_local": "",
@@ -19276,6 +22534,15 @@
 "small": true,
 "market": "US",
 "mcap": 314602116.0
+},
+"MRBK": {
+"name": "Meridian Corporation",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 197154957.0
 },
 "MRCY": {
 "name": "Mercury Systems",
@@ -19321,6 +22588,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 97870358783.0
+},
+"MRT": {
+"name": "Marti Technologies Inc. Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Rental/Leasing Companies",
+"small": true,
+"market": "US",
+"mcap": 172515666.0
 },
 "MRTN": {
 "name": "Marten Transport, Ltd.",
@@ -19376,6 +22652,15 @@
 "market": "S&P400",
 "mcap": 6723170310.0
 },
+"MSB": {
+"name": "Mesabi Trust",
+"name_local": "",
+"sector": "산업재",
+"industry": "Precious Metals",
+"small": true,
+"market": "US",
+"mcap": 225532972.0
+},
 "MSBI": {
 "name": "Midland States Bancorp Inc.",
 "name_local": "",
@@ -19393,6 +22678,15 @@
 "small": true,
 "market": "US",
 "mcap": 522554957.0
+},
+"MSC": {
+"name": "Studio City International Holdings Limited American depositary shares each representing four  Class A ordinary shares",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Hotels/Resorts",
+"small": true,
+"market": "US",
+"mcap": 209304317.0
 },
 "MSCI": {
 "name": "MSCI",
@@ -19465,6 +22759,15 @@
 "small": true,
 "market": "US",
 "mcap": 561650924.0
+},
+"MSLE": {
+"name": "Satellos Bioscience Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 144908278.0
 },
 "MSM": {
 "name": "MSC Industrial Direct",
@@ -19610,6 +22913,15 @@
 "market": "S&P600",
 "mcap": 4341282193.0
 },
+"MTRX": {
+"name": "Matrix Service Company",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Engineering & Construction",
+"small": true,
+"market": "US",
+"mcap": 259951859.0
+},
 "MTSI": {
 "name": "MACOM Technology Solutions",
 "name_local": "",
@@ -19754,6 +23066,24 @@
 "market": "US",
 "mcap": 5428554251.0
 },
+"MX": {
+"name": "Magnachip Semiconductor Corporation",
+"name_local": "",
+"sector": "IT",
+"industry": "Semiconductors",
+"small": true,
+"market": "US",
+"mcap": 107875092.0
+},
+"MXCT": {
+"name": "MaxCyte Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Commercial Physical & Biological Resarch",
+"small": true,
+"market": "US",
+"mcap": 122867847.0
+},
 "MXL": {
 "name": "MaxLinear, Inc.",
 "name_local": "",
@@ -19826,6 +23156,15 @@
 "market": "S&P600",
 "mcap": 846486491.0
 },
+"NAGE": {
+"name": "Niagen Bioscience Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medicinal Chemicals and Botanical Products",
+"small": true,
+"market": "US",
+"mcap": 169085388.0
+},
 "NAK": {
 "name": "Northern Dynasty Minerals Ltd.",
 "name_local": "",
@@ -19834,6 +23173,15 @@
 "small": true,
 "market": "US",
 "mcap": 337891331.0
+},
+"NAKA": {
+"name": "Nakamoto Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Nursing Services",
+"small": true,
+"market": "US",
+"mcap": 106226079.0
 },
 "NAMS": {
 "name": "NewAmsterdam Pharma Company N.V.",
@@ -19871,6 +23219,15 @@
 "market": "US",
 "mcap": 591815691.0
 },
+"NARA": {
+"name": "Narragansett Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Banks",
+"small": true,
+"market": "US",
+"mcap": 223555400.0
+},
 "NAT": {
 "name": "Nordic American Tankers Limited",
 "name_local": "",
@@ -19888,6 +23245,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3566859956.0
+},
+"NATR": {
+"name": "Nature's Sunshine Products Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 178139817.0
 },
 "NAUT": {
 "name": "Nautilus Biotechnology Inc.",
@@ -19997,6 +23363,15 @@
 "market": "US",
 "mcap": 1638554872.0
 },
+"NC": {
+"name": "NACCO Industries Inc.",
+"name_local": "",
+"sector": "에너지",
+"industry": "Coal Mining",
+"small": true,
+"market": "US",
+"mcap": 266247400.0
+},
 "NCDL": {
 "name": "Nuveen Churchill Direct Lending Corp.",
 "name_local": "",
@@ -20014,6 +23389,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 8292218159.0
+},
+"NCMI": {
+"name": "National CineMedia Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Advertising",
+"small": true,
+"market": "US",
+"mcap": 160458740.0
 },
 "NCNO": {
 "name": "nCino Inc.",
@@ -20096,6 +23480,15 @@
 "market": "S&P500",
 "mcap": 178879232919.0
 },
+"NEGG": {
+"name": "Newegg Commerce Inc. Common Shares",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Specialty Stores",
+"small": true,
+"market": "US",
+"mcap": 181420109.0
+},
 "NEM": {
 "name": "Newmont",
 "name_local": "",
@@ -20104,6 +23497,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 117106680018.0
+},
+"NEN": {
+"name": "New England Realty Associates Limited Partnership Class A Depositary Receipts Evidencing Units of Limited Partnership",
+"name_local": "",
+"sector": "부동산",
+"industry": "Building operators",
+"small": true,
+"market": "US",
+"mcap": 128491708.0
 },
 "NEO": {
 "name": "NeoGenomics Laboratories, Inc.",
@@ -20122,6 +23524,24 @@
 "small": false,
 "market": "S&P600",
 "mcap": 2442844520.0
+},
+"NEOV": {
+"name": "NeoVolta Inc.",
+"name_local": "",
+"sector": "기타",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 168444074.0
+},
+"NERV": {
+"name": "Minerva Neurosciences Inc",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 118607874.0
 },
 "NESR": {
 "name": "National Energy Services Reunited Corp",
@@ -20267,6 +23687,15 @@
 "market": "US",
 "mcap": 2525386045.0
 },
+"NGEN": {
+"name": "NervGen Pharma Corp. Common stock",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 175414752.0
+},
 "NGG": {
 "name": "National Grid Transco PLC National Grid PLC (NEW)",
 "name_local": "",
@@ -20402,6 +23831,15 @@
 "market": "US",
 "mcap": 5676271738.0
 },
+"NIU": {
+"name": "Niu Technologies",
+"name_local": "",
+"sector": "산업재",
+"industry": "Auto Manufacturing",
+"small": true,
+"market": "US",
+"mcap": 138831876.0
+},
 "NJR": {
 "name": "New Jersey Resources",
 "name_local": "",
@@ -20420,6 +23858,24 @@
 "market": "S&P500",
 "mcap": 56092687927.0
 },
+"NKLR": {
+"name": "Terra Innovatum Global N.V. Ordinary shares",
+"name_local": "",
+"sector": "산업재",
+"industry": "Metal Fabrications",
+"small": true,
+"market": "US",
+"mcap": 251942070.0
+},
+"NKSH": {
+"name": "National Bankshares Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 252212846.0
+},
 "NKTR": {
 "name": "Nektar Therapeutics",
 "name_local": "",
@@ -20437,6 +23893,15 @@
 "small": true,
 "market": "US",
 "mcap": 353537847.0
+},
+"NLOP": {
+"name": "Net Lease Office Properties Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 141770698.0
 },
 "NLY": {
 "name": "Annaly Capital Management",
@@ -20483,6 +23948,15 @@
 "market": "US",
 "mcap": 2663278463.0
 },
+"NMG": {
+"name": "Nouveau Monde Graphite Inc. Common Shares",
+"name_local": "",
+"sector": "소재",
+"industry": "Other Metals and Minerals",
+"small": true,
+"market": "US",
+"mcap": 257960208.0
+},
 "NMIH": {
 "name": "NMI Holdings, Inc.",
 "name_local": "",
@@ -20528,6 +24002,24 @@
 "market": "US",
 "mcap": 1480536870.0
 },
+"NNBR": {
+"name": "NN Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 287794829.0
+},
+"NNDM": {
+"name": "Nano Dimension Ltd.",
+"name_local": "",
+"sector": "IT",
+"industry": "Electrical Products",
+"small": true,
+"market": "US",
+"mcap": 249771779.0
+},
 "NNE": {
 "name": "Nano Nuclear Energy Inc.",
 "name_local": "",
@@ -20563,6 +24055,15 @@
 "small": true,
 "market": "US",
 "mcap": 546786560.0
+},
+"NOA": {
+"name": "North American Construction Group Ltd. Common Shares (no par)",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oilfield Services/Equipment",
+"small": true,
+"market": "US",
+"mcap": 256247215.0
 },
 "NOAH": {
 "name": "Noah Holdings Limited",
@@ -20708,6 +24209,15 @@
 "market": "S&P600",
 "mcap": 5900389364.0
 },
+"NPWR": {
+"name": "NET Power Inc. Class A",
+"name_local": "",
+"sector": "에너지",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 169884510.0
+},
 "NRC": {
 "name": "NRC Health",
 "name_local": "",
@@ -20725,6 +24235,15 @@
 "small": true,
 "market": "US",
 "mcap": 463430396.0
+},
+"NREF": {
+"name": "NexPoint Real Estate Finance Inc.",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 238804527.0
 },
 "NRG": {
 "name": "NRG Energy",
@@ -20789,6 +24308,15 @@
 "market": "S&P600",
 "mcap": 4979888184.0
 },
+"NSLR": {
+"name": "Neostellar Capital Corp.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 159368796.0
+},
 "NSLRL": {
 "name": "Neostellar Capital Corp. 6.00% Notes due 2026",
 "name_local": "",
@@ -20815,6 +24343,15 @@
 "small": true,
 "market": "S&P600",
 "mcap": 1085214379.0
+},
+"NSTR": {
+"name": "NorthStar Earth & Space Enterprises Inc. Common Shares",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Telecommunications Equipment",
+"small": true,
+"market": "US",
+"mcap": 166374533.0
 },
 "NTAP": {
 "name": "NetApp",
@@ -20860,6 +24397,15 @@
 "small": true,
 "market": "US",
 "mcap": 527429098.0
+},
+"NTHI": {
+"name": "NeOnc Technologies Holdings Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 139925352.0
 },
 "NTLA": {
 "name": "Intellia Therapeutics Inc.",
@@ -20951,6 +24497,24 @@
 "market": "US",
 "mcap": 382348945.0
 },
+"NUAIW": {
+"name": "New Era Energy & Digital Inc. Warrants",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 171494747.0
+},
+"NUCL": {
+"name": "Eagle Nuclear Energy Corp. Common stock",
+"name_local": "",
+"sector": "소재",
+"industry": "Other Metals and Minerals",
+"small": true,
+"market": "US",
+"mcap": 116361147.0
+},
 "NUE": {
 "name": "Nucor",
 "name_local": "",
@@ -20959,6 +24523,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 58658693036.0
+},
+"NUS": {
+"name": "Nu Skin Enterprises Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Other Pharmaceuticals",
+"small": true,
+"market": "US",
+"mcap": 195929179.0
 },
 "NUTX": {
 "name": "Nutex Health Inc.",
@@ -20977,6 +24550,24 @@
 "small": true,
 "market": "US",
 "mcap": 1431486522.0
+},
+"NVA": {
+"name": "Nova Minerals Corp",
+"name_local": "",
+"sector": "소재",
+"industry": "Precious Metals",
+"small": true,
+"market": "US",
+"mcap": 147048317.0
+},
+"NVA.WS": {
+"name": "Nova Minerals Corp Warrants to Purchase",
+"name_local": "",
+"sector": "소재",
+"industry": "Precious Metals",
+"small": true,
+"market": "US",
+"mcap": 190971840.0
 },
 "NVAX": {
 "name": "Novavax Inc.",
@@ -21122,6 +24713,15 @@
 "market": "US",
 "mcap": 1266907275.0
 },
+"NWCLW": {
+"name": "newcleo plc Warrants",
+"name_local": "",
+"sector": "산업재",
+"industry": "Metal Fabrications",
+"small": true,
+"market": "US",
+"mcap": 129506077.0
+},
 "NWE": {
 "name": "NorthWestern Energy",
 "name_local": "",
@@ -21212,6 +24812,15 @@
 "market": "US",
 "mcap": 792910334.0
 },
+"NXDT": {
+"name": "NexPoint Diversified Real Estate Trust",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 162504443.0
+},
 "NXE": {
 "name": "Nexgen Energy Ltd. Common Shares",
 "name_local": "",
@@ -21220,6 +24829,24 @@
 "small": false,
 "market": "US",
 "mcap": 5407953221.0
+},
+"NXG": {
+"name": "NXG NextGen Infrastructure Income Fund Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "기타",
+"industry": "기타",
+"small": true,
+"market": "US",
+"mcap": 120797581.0
+},
+"NXH": {
+"name": "Neighborhood Intelligence Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Catalog/Specialty Distribution",
+"small": true,
+"market": "US",
+"mcap": 138621682.0
 },
 "NXP": {
 "name": "Nuveen Select Tax Free Income Portfolio",
@@ -21356,6 +24983,15 @@
 "market": "S&P400",
 "mcap": 9061372976.0
 },
+"OCCIN": {
+"name": "OFS Credit Company Inc. 5.25% Series E Term Preferred Stock Due 2026",
+"name_local": "",
+"sector": "금융",
+"industry": "Trusts Except Educational Religious and Charitable",
+"small": true,
+"market": "US",
+"mcap": 290180420.0
+},
 "OCFC": {
 "name": "OceanFirst Financial Corp.",
 "name_local": "",
@@ -21365,6 +25001,15 @@
 "market": "US",
 "mcap": 1749664257.0
 },
+"OCGN": {
+"name": "Ocugen Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 296418248.0
+},
 "OCS": {
 "name": "Oculis Holding AG Ordinary shares",
 "name_local": "",
@@ -21373,6 +25018,15 @@
 "small": true,
 "market": "US",
 "mcap": 461910548.0
+},
+"OCSAW": {
+"name": "Oculis Holding AG Warrants",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 117017339.0
 },
 "OCSL": {
 "name": "Oaktree Specialty Lending Corporation",
@@ -21437,6 +25091,15 @@
 "market": "US",
 "mcap": 966164328.0
 },
+"OEC": {
+"name": "Orion S.A. Common Shares",
+"name_local": "",
+"sector": "산업재",
+"industry": "Major Chemicals",
+"small": true,
+"market": "US",
+"mcap": 223547275.0
+},
 "OFG": {
 "name": "OFG Bancorp",
 "name_local": "",
@@ -21445,6 +25108,24 @@
 "small": false,
 "market": "S&P600",
 "mcap": 2149521578.0
+},
+"OFIX": {
+"name": "Orthofix Medical Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 282873019.0
+},
+"OFLX": {
+"name": "Omega Flex Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Specialties",
+"small": true,
+"market": "US",
+"mcap": 236711851.0
 },
 "OFRM": {
 "name": "Once Upon a Farm PBC",
@@ -21491,6 +25172,15 @@
 "market": "US",
 "mcap": 712149778.0
 },
+"OGI": {
+"name": "Organigram Global Inc. Common Shares",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 117599418.0
+},
 "OGN": {
 "name": "Organon & Co.",
 "name_local": "",
@@ -21526,6 +25216,15 @@
 "small": true,
 "market": "S&P600",
 "mcap": 752010769.0
+},
+"OIA": {
+"name": "Invesco Municipal Income Opportunities Trust",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance Companies",
+"small": true,
+"market": "US",
+"mcap": 265163131.0
 },
 "OIG": {
 "name": "Orion180 Insurance Group Inc. Class A common stock",
@@ -21589,6 +25288,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 31911812197.0
+},
+"OKUR": {
+"name": "OnKure Therapeutics Inc. Class A",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 121914313.0
 },
 "OLED": {
 "name": "Universal Display",
@@ -21689,6 +25397,15 @@
 "market": "US",
 "mcap": 6225567947.0
 },
+"OMSE": {
+"name": "OMS Energy Technologies Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Oil and Gas Field Machinery",
+"small": true,
+"market": "US",
+"mcap": 165974433.0
+},
 "ON": {
 "name": "ON Semiconductor",
 "name_local": "",
@@ -21743,6 +25460,42 @@
 "market": "US",
 "mcap": 3139650508.0
 },
+"ONEN": {
+"name": "ONE Nuclear Energy Inc.",
+"name_local": "",
+"sector": "유틸리티",
+"industry": "Electric Utilities: Central",
+"small": true,
+"market": "US",
+"mcap": 163471058.0
+},
+"ONEW": {
+"name": "OneWater Marine Inc. Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Auto & Home Supply Stores",
+"small": true,
+"market": "US",
+"mcap": 164156347.0
+},
+"ONIT": {
+"name": "Onity Group Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 222401554.0
+},
+"ONL": {
+"name": "Orion Properties Inc.",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 148031033.0
+},
 "ONON": {
 "name": "On Holding AG Class A",
 "name_local": "",
@@ -21779,6 +25532,24 @@
 "market": "US",
 "mcap": 507012000.0
 },
+"OPAL": {
+"name": "OPAL Fuels Inc. Class A",
+"name_local": "",
+"sector": "유틸리티",
+"industry": "Natural Gas Distribution",
+"small": true,
+"market": "US",
+"mcap": 215859180.0
+},
+"OPBK": {
+"name": "OP Bancorp",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 223391920.0
+},
 "OPCH": {
 "name": "Option Care Health",
 "name_local": "",
@@ -21805,6 +25576,15 @@
 "small": true,
 "market": "US",
 "mcap": 501175235.0
+},
+"OPHC": {
+"name": "OptimumBank Holdings Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 112592432.0
 },
 "OPI": {
 "name": "Office Properties Income Trust Common shares of beneficial interest",
@@ -21851,6 +25631,33 @@
 "market": "US",
 "mcap": 541898671.0
 },
+"OPRX": {
+"name": "OptimizeRx Corporation",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 167074885.0
+},
+"OPTU": {
+"name": "Optimum Communications Inc. Class A common stock",
+"name_local": "",
+"sector": "커뮤니케이션",
+"industry": "Cable & Other Pay Television Services",
+"small": true,
+"market": "US",
+"mcap": 289528353.0
+},
+"OPTX": {
+"name": "Syntec Optics Holdings Inc. Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "Electronic Components",
+"small": true,
+"market": "US",
+"mcap": 273903170.0
+},
 "OPY": {
 "name": "Oppenheimer Holdings Inc. Class A",
 "name_local": "",
@@ -21878,6 +25685,15 @@
 "market": "S&P400",
 "mcap": 5567250745.0
 },
+"ORBS": {
+"name": "Eightco Holdings Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance Companies",
+"small": true,
+"market": "US",
+"mcap": 282431032.0
+},
 "ORC": {
 "name": "Orchid Island Capital Inc.",
 "name_local": "",
@@ -21895,6 +25711,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 384437795040.0
+},
+"ORGO": {
+"name": "Organogenesis Holdings Inc. Class A",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 125258660.0
 },
 "ORI": {
 "name": "Old Republic International",
@@ -21932,6 +25757,15 @@
 "market": "S&P500",
 "mcap": 73435581993.0
 },
+"ORMP": {
+"name": "Oramed Pharmaceuticals Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 175248346.0
+},
 "ORN": {
 "name": "Orion Group Holdings Inc. Common",
 "name_local": "",
@@ -21968,6 +25802,15 @@
 "market": "US",
 "mcap": 9926417700.0
 },
+"OSG": {
+"name": "Octave Specialty Group Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Property-Casualty Insurers",
+"small": true,
+"market": "US",
+"mcap": 229136273.0
+},
 "OSIS": {
 "name": "OSI Systems, Inc.",
 "name_local": "",
@@ -21994,6 +25837,24 @@
 "small": true,
 "market": "US",
 "mcap": 827550117.0
+},
+"OSS": {
+"name": "One Stop Systems Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Manufacturing",
+"small": true,
+"market": "US",
+"mcap": 118176740.0
+},
+"OSUR": {
+"name": "OraSure Technologies Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 249951103.0
 },
 "OSW": {
 "name": "OneSpaWorld Holdings Limited",
@@ -22031,6 +25892,24 @@
 "market": "S&P500",
 "mcap": 29375623183.0
 },
+"OTLK": {
+"name": "Outlook Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 107141269.0
+},
+"OTLY": {
+"name": "Oatly Group AB",
+"name_local": "",
+"sector": "필수소비재",
+"industry": "Packaged Foods",
+"small": true,
+"market": "US",
+"mcap": 242533161.0
+},
 "OTTR": {
 "name": "Otter Tail Corporation",
 "name_local": "",
@@ -22058,6 +25937,15 @@
 "market": "S&P600",
 "mcap": 5848753563.0
 },
+"OVBC": {
+"name": "Ohio Valley Banc Corp.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 267576186.0
+},
 "OVID": {
 "name": "Ovid Therapeutics Inc.",
 "name_local": "",
@@ -22066,6 +25954,15 @@
 "small": true,
 "market": "US",
 "mcap": 481266381.0
+},
+"OVLY": {
+"name": "Oak Valley Bancorp (CA)",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 291076531.0
 },
 "OVV": {
 "name": "Ovintiv",
@@ -22084,6 +25981,15 @@
 "small": false,
 "market": "US",
 "mcap": 15306709775.0
+},
+"OWLT": {
+"name": "Owlet Inc. Class A",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 135442473.0
 },
 "OXLC": {
 "name": "Oxford Lane Capital Corp.",
@@ -22175,6 +26081,15 @@
 "market": "US",
 "mcap": 36316177138.0
 },
+"OZ": {
+"name": "Belpointe PREP LLC Class A Units",
+"name_local": "",
+"sector": "금융",
+"industry": "Real Estate",
+"small": true,
+"market": "US",
+"mcap": 122288031.0
+},
 "OZK": {
 "name": "Bank OZK",
 "name_local": "",
@@ -22211,6 +26126,15 @@
 "market": "US",
 "mcap": 17209958194.0
 },
+"PAAC": {
+"name": "Proem Acquisition Corp I",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 179714597.0
+},
 "PAAS": {
 "name": "Pan American Silver Corp.",
 "name_local": "",
@@ -22237,6 +26161,15 @@
 "small": true,
 "market": "US",
 "mcap": 616465658.0
+},
+"PACK": {
+"name": "Ranpak Holdings Corp Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Containers/Packaging",
+"small": true,
+"market": "US",
+"mcap": 297250035.0
 },
 "PACS": {
 "name": "PACS Group Inc.",
@@ -22283,6 +26216,15 @@
 "market": "S&P600",
 "mcap": 1439732842.0
 },
+"PALI": {
+"name": "Palisade Bio Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 204376715.0
+},
 "PAM": {
 "name": "Pampa Energia S.A.",
 "name_local": "",
@@ -22291,6 +26233,15 @@
 "small": false,
 "market": "US",
 "mcap": 3447524916.0
+},
+"PAMT": {
+"name": "PAMT CORP",
+"name_local": "",
+"sector": "산업재",
+"industry": "Trucking Freight/Courier Services",
+"small": true,
+"market": "US",
+"mcap": 298030000.0
 },
 "PANL": {
 "name": "Pangaea Logistics Solutions Ltd. Common Shares",
@@ -22318,6 +26269,15 @@
 "small": true,
 "market": "US",
 "mcap": 899397670.0
+},
+"PARK": {
+"name": "Park Dental Partners Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Misc Health and Biotechnology Services",
+"small": true,
+"market": "US",
+"mcap": 117287265.0
 },
 "PARR": {
 "name": "Par Pacific Holdings, Inc.",
@@ -22589,6 +26549,15 @@
 "market": "US",
 "mcap": 10240425771.0
 },
+"PCYO": {
+"name": "Pure Cycle Corporation",
+"name_local": "",
+"sector": "유틸리티",
+"industry": "Water Supply",
+"small": true,
+"market": "US",
+"mcap": 260733543.0
+},
 "PD": {
 "name": "PagerDuty Inc.",
 "name_local": "",
@@ -22606,6 +26575,15 @@
 "small": false,
 "market": "US",
 "mcap": 110355927699.0
+},
+"PDEX": {
+"name": "Pro-Dex Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 215744067.0
 },
 "PDFS": {
 "name": "PDF Solutions, Inc.",
@@ -22661,6 +26639,15 @@
 "market": "US",
 "mcap": 1197825450.0
 },
+"PDSB": {
+"name": "PDS Biotechnology Corporation",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 120250453.0
+},
 "PDX": {
 "name": "PIMCO Dynamic Income Strategy Fund Common Shares of Beneficial Interest",
 "name_local": "",
@@ -22670,6 +26657,15 @@
 "market": "US",
 "mcap": 913364010.0
 },
+"PDYN": {
+"name": "Palladyne AI Corp.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 166474819.0
+},
 "PEB": {
 "name": "Pebblebrook Hotel Trust",
 "name_local": "",
@@ -22678,6 +26674,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 2411475166.0
+},
+"PEBK": {
+"name": "Peoples Bancorp of North Carolina Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 236755592.0
 },
 "PEBO": {
 "name": "Peoples Bancorp Inc.",
@@ -22696,6 +26701,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 5317380000.0
+},
+"PED": {
+"name": "Pedevco Corp.",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 175720412.0
 },
 "PEG": {
 "name": "Public Service Enterprise Group",
@@ -22985,6 +26999,15 @@
 "market": "US",
 "mcap": 342144000.0
 },
+"PHOS": {
+"name": "First Phosphate Corp.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+"small": true,
+"market": "US",
+"mcap": 222600583.0
+},
 "PHR": {
 "name": "Phreesia Inc.",
 "name_local": "",
@@ -23029,6 +27052,24 @@
 "small": false,
 "market": "S&P400",
 "mcap": 3682540805.0
+},
+"PIM": {
+"name": "Franklin Master Intermediate Income Trust Shares of Beneficial Interest",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance Companies",
+"small": true,
+"market": "US",
+"mcap": 152267784.0
+},
+"PINE": {
+"name": "Alpine Income Property Trust Inc.",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 299070919.0
 },
 "PINS": {
 "name": "Pinterest",
@@ -23129,6 +27170,15 @@
 "market": "S&P600",
 "mcap": 1644841016.0
 },
+"PLAY": {
+"name": "Dave & Buster's Entertainment Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Restaurants",
+"small": true,
+"market": "US",
+"mcap": 273420555.0
+},
 "PLBC": {
 "name": "Plumas Bancorp",
 "name_local": "",
@@ -23147,6 +27197,15 @@
 "market": "US",
 "mcap": 2663636907.0
 },
+"PLBY": {
+"name": "Playboy Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Specialty Stores",
+"small": true,
+"market": "US",
+"mcap": 143088839.0
+},
 "PLD": {
 "name": "Prologis",
 "name_local": "",
@@ -23155,6 +27214,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 122207456410.0
+},
+"PLG": {
+"name": "Platinum Group Metals Ltd.",
+"name_local": "",
+"sector": "소재",
+"industry": "Precious Metals",
+"small": true,
+"market": "US",
+"mcap": 137476495.0
 },
 "PLGO": {
 "name": "Pelagos Insurance Capital Limited Common Shares",
@@ -23246,6 +27314,15 @@
 "market": "S&P600",
 "mcap": 2523300252.0
 },
+"PLX": {
+"name": "Protalix BioTherapeutics Inc. (DE)",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 249162417.0
+},
 "PLXS": {
 "name": "Plexus Corp.",
 "name_local": "",
@@ -23263,6 +27340,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 306517422721.0
+},
+"PMA": {
+"name": "PMA Graphene Technology Group Inc. Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Engineering & Construction",
+"small": true,
+"market": "US",
+"mcap": 197199750.0
 },
 "PMM": {
 "name": "Franklin Managed Municipal Income Trust Shares of Beneficial Interest",
@@ -23291,6 +27377,15 @@
 "market": "S&P600",
 "mcap": 631345101.0
 },
+"PMTS": {
+"name": "CPI Card Group Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Publishing",
+"small": true,
+"market": "US",
+"mcap": 292668467.0
+},
 "PMTU": {
 "name": "PennyMac Mortgage Investment Trust 8.50% Senior Notes due 2028",
 "name_local": "",
@@ -23299,6 +27394,15 @@
 "small": false,
 "market": "US",
 "mcap": 2189651310.0
+},
+"PNBK": {
+"name": "Patriot National Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 107919534.0
 },
 "PNC": {
 "name": "PNC Financial Services",
@@ -23317,6 +27421,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 15006367730.0
+},
+"PNNT": {
+"name": "PennantPark Investment Corporation",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 211885825.0
 },
 "PNR": {
 "name": "Pentair",
@@ -23426,6 +27539,15 @@
 "market": "S&P600",
 "mcap": 5165044598.0
 },
+"POWW": {
+"name": "Outdoor Holding Company",
+"name_local": "",
+"sector": "산업재",
+"industry": "Ordnance And Accessories",
+"small": true,
+"market": "US",
+"mcap": 264618923.0
+},
 "POWWP": {
 "name": "Outdoor Holding Company 8.75% Series A Cumulative Redeemable Perpetual Preferred Stock",
 "name_local": "",
@@ -23461,6 +27583,15 @@
 "small": true,
 "market": "US",
 "mcap": 319879592.0
+},
+"PPIH": {
+"name": "Perma-Pipe International Holdings Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Pollution Control Equipment",
+"small": true,
+"market": "US",
+"mcap": 235775300.0
 },
 "PPL": {
 "name": "PPL Corporation",
@@ -23561,6 +27692,15 @@
 "market": "S&P600",
 "mcap": 1805489693.0
 },
+"PRE": {
+"name": "Prenetics Global Limited Class A Ordinary Share",
+"name_local": "",
+"sector": "금융",
+"industry": "Blank Checks",
+"small": true,
+"market": "US",
+"mcap": 283198678.0
+},
 "PRG": {
 "name": "PROG Holdings, Inc.",
 "name_local": "",
@@ -23596,6 +27736,15 @@
 "small": false,
 "market": "US",
 "mcap": 7367360000.0
+},
+"PRHIZ": {
+"name": "Presurance Holdings Inc. 9.75% Senior Unsecured Notes due 2028",
+"name_local": "",
+"sector": "금융",
+"industry": "Property-Casualty Insurers",
+"small": true,
+"market": "US",
+"mcap": 279903975.0
 },
 "PRI": {
 "name": "Primerica",
@@ -23642,6 +27791,15 @@
 "market": "S&P600",
 "mcap": 1634984719.0
 },
+"PRLD": {
+"name": "Prelude Therapeutics Incorporated",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 280908267.0
+},
 "PRM": {
 "name": "Perimeter Group Inc.",
 "name_local": "",
@@ -23669,6 +27827,15 @@
 "market": "US",
 "mcap": 707674265.0
 },
+"PROF": {
+"name": "Profound Medical Corp.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 272503719.0
+},
 "PROK": {
 "name": "ProKidney Corp. Class A",
 "name_local": "",
@@ -23677,6 +27844,24 @@
 "small": true,
 "market": "US",
 "mcap": 347738969.0
+},
+"PROV": {
+"name": "Provident Financial Holdings Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 111468780.0
+},
+"PRQR": {
+"name": "ProQR Therapeutics N.V.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 191925207.0
 },
 "PRS": {
 "name": "Prudential Financial Inc. 5.625% Junior Subordinated Notes due 2058",
@@ -23768,6 +27953,15 @@
 "market": "US",
 "mcap": 902676596.0
 },
+"PSFE": {
+"name": "Paysafe Limited Common Shares",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 202073877.0
+},
 "PSIX": {
 "name": "Power Solutions International Inc.",
 "name_local": "",
@@ -23839,6 +28033,15 @@
 "small": true,
 "market": "US",
 "mcap": 857666512.0
+},
+"PSQLW": {
+"name": "Pasqal Holding SA Warrant",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 167712016.0
 },
 "PSTL": {
 "name": "Postal Realty Trust Inc. Class A",
@@ -23975,6 +28178,15 @@
 "market": "US",
 "mcap": 2439061744.0
 },
+"PUSA": {
+"name": "Powerus Corporation",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Hotels/Resorts",
+"small": true,
+"market": "US",
+"mcap": 234686017.0
+},
 "PVH": {
 "name": "PVH Corp.",
 "name_local": "",
@@ -24020,6 +28232,15 @@
 "market": "US",
 "mcap": 714827792.0
 },
+"PYPD": {
+"name": "PolyPid Ltd.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 129995302.0
+},
 "PYPL": {
 "name": "PayPal",
 "name_local": "",
@@ -24028,6 +28249,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 48427378773.0
+},
+"PYXS": {
+"name": "Pyxis Oncology Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 188980411.0
 },
 "PZZA": {
 "name": "Papa John's Pizza",
@@ -24119,6 +28349,24 @@
 "market": "US",
 "mcap": 657839446.0
 },
+"QNBC": {
+"name": "QNB Corp.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 294123272.0
+},
+"QNC": {
+"name": "Quantum eMotion Corp. Common Shares",
+"name_local": "",
+"sector": "기타",
+"industry": "기타",
+"small": true,
+"market": "US",
+"mcap": 203182614.0
+},
 "QNST": {
 "name": "QuinStreet, Inc.",
 "name_local": "",
@@ -24155,6 +28403,15 @@
 "market": "US",
 "mcap": 2413588125.0
 },
+"QSI": {
+"name": "Quantum-Si Incorporated Class A",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 268085745.0
+},
 "QSR": {
 "name": "Restaurant Brands International Inc. Common Shares",
 "name_local": "",
@@ -24163,6 +28420,24 @@
 "small": false,
 "market": "US",
 "mcap": 34071414255.0
+},
+"QTRX": {
+"name": "Quanterix Corporation",
+"name_local": "",
+"sector": "산업재",
+"industry": "Biotechnology: Laboratory Analytical Instruments",
+"small": true,
+"market": "US",
+"mcap": 135788287.0
+},
+"QTTB": {
+"name": "Q32 Bio Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 263928639.0
 },
 "QTWO": {
 "name": "Q2 Holdings, Inc.",
@@ -24190,6 +28465,15 @@
 "small": true,
 "market": "US",
 "mcap": 1320742832.0
+},
+"QUIK": {
+"name": "QuickLogic Corporation",
+"name_local": "",
+"sector": "IT",
+"industry": "Semiconductors",
+"small": true,
+"market": "US",
+"mcap": 186131949.0
 },
 "QUIT": {
 "name": "Achieve Life Sciences Inc. Common Shares",
@@ -24245,6 +28529,15 @@
 "market": "US",
 "mcap": 94876205764.0
 },
+"RAIL": {
+"name": "FreightCar America Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Railroads",
+"small": true,
+"market": "US",
+"mcap": 174468283.0
+},
 "RAL": {
 "name": "Ralliant Corp",
 "name_local": "",
@@ -24290,6 +28583,15 @@
 "market": "US",
 "mcap": 435200973.0
 },
+"RBBN": {
+"name": "Ribbon Communications Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 259801736.0
+},
 "RBC": {
 "name": "RBC Bearings",
 "name_local": "",
@@ -24308,6 +28610,15 @@
 "market": "US",
 "mcap": 1790103656.0
 },
+"RBKB": {
+"name": "Rhinebeck Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Banks",
+"small": true,
+"market": "US",
+"mcap": 204518435.0
+},
 "RBLX": {
 "name": "Roblox Corporation Class A",
 "name_local": "",
@@ -24325,6 +28636,15 @@
 "small": false,
 "market": "US",
 "mcap": 22869825049.0
+},
+"RC": {
+"name": "Ready Capital Corporation",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 148996731.0
 },
 "RCAT": {
 "name": "Red Cat Holdings Inc.",
@@ -24362,6 +28682,15 @@
 "market": "US",
 "mcap": 17738297003.0
 },
+"RCKT": {
+"name": "Rocket Pharmaceuticals Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 266868076.0
+},
 "RCKY": {
 "name": "Rocky Brands Inc.",
 "name_local": "",
@@ -24380,6 +28709,15 @@
 "market": "S&P500",
 "mcap": 86114939013.0
 },
+"RCMT": {
+"name": "RCM Technologies Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Professional Services",
+"small": true,
+"market": "US",
+"mcap": 224347961.0
+},
 "RCUS": {
 "name": "Arcus Biosciences, Inc.",
 "name_local": "",
@@ -24389,6 +28727,15 @@
 "market": "S&P600",
 "mcap": 2558713211.0
 },
+"RDCM": {
+"name": "Radcom Ltd.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer peripheral equipment",
+"small": true,
+"market": "US",
+"mcap": 177085749.0
+},
 "RDDT": {
 "name": "Reddit",
 "name_local": "",
@@ -24397,6 +28744,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 19212826235.0
+},
+"RDIB": {
+"name": "Reading International Inc Class B",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Movies/Entertainment",
+"small": true,
+"market": "US",
+"mcap": 270332400.0
 },
 "RDN": {
 "name": "Radian Group, Inc.",
@@ -24415,6 +28771,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 5990042788.0
+},
+"RDNW": {
+"name": "RideNow Group Inc. Class B",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 183471165.0
 },
 "RDVT": {
 "name": "Red Violet Inc.",
@@ -24452,6 +28817,15 @@
 "market": "US",
 "mcap": 12294497168.0
 },
+"REA": {
+"name": "Rare Earths Americas Inc.",
+"name_local": "",
+"sector": "소재",
+"industry": "Metal Mining",
+"small": true,
+"market": "US",
+"mcap": 121364306.0
+},
 "REAL": {
 "name": "The RealReal Inc.",
 "name_local": "",
@@ -24478,6 +28852,15 @@
 "small": true,
 "market": "US",
 "mcap": 1068744899.0
+},
+"REFI": {
+"name": "Chicago Atlantic Real Estate Finance Inc.",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 225472007.0
 },
 "REG": {
 "name": "Regency Centers",
@@ -24523,6 +28906,15 @@
 "small": true,
 "market": "US",
 "mcap": 312647528.0
+},
+"RELL": {
+"name": "Richardson Electronics Ltd.",
+"name_local": "",
+"sector": "IT",
+"industry": "Electronic Components",
+"small": true,
+"market": "US",
+"mcap": 293666907.0
 },
 "RELX": {
 "name": "RELX PLC PLC",
@@ -24632,6 +29024,15 @@
 "market": "US",
 "mcap": 522343616.0
 },
+"RFMZ": {
+"name": "RiverNorth Flexible Municipal Income Fund II Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance/Investors Services",
+"small": true,
+"market": "US",
+"mcap": 286376651.0
+},
 "RGA": {
 "name": "Reinsurance Group of America",
 "name_local": "",
@@ -24649,6 +29050,15 @@
 "small": false,
 "market": "US",
 "mcap": 2541407427.0
+},
+"RGCO": {
+"name": "RGC Resources Inc.",
+"name_local": "",
+"sector": "유틸리티",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 234023228.0
 },
 "RGEN": {
 "name": "Repligen",
@@ -24740,6 +29150,15 @@
 "market": "S&P600",
 "mcap": 9424697671.0
 },
+"RICK": {
+"name": "RCI Hospitality Holdings Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Restaurants",
+"small": true,
+"market": "US",
+"mcap": 206860170.0
+},
 "RIG": {
 "name": "Transocean Ltd (Switzerland)",
 "name_local": "",
@@ -24758,6 +29177,15 @@
 "market": "US",
 "mcap": 860341421.0
 },
+"RILY": {
+"name": "BRC Group Holdings Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 151553076.0
+},
 "RILYG": {
 "name": "BRC Group Holdings Inc. 5.00% Senior Notes due 2026",
 "name_local": "",
@@ -24766,6 +29194,24 @@
 "small": true,
 "market": "US",
 "mcap": 757852090.0
+},
+"RILYL": {
+"name": "BRC Group Holdings Inc. Depositary Shares each representing 1/1000th in a share of 7.375% Series B Cumulative Perpetual Preferred Stock par value $0.0001",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 261298408.0
+},
+"RILYP": {
+"name": "BRC Group Holdings Inc. Depositary Shares each representing a 1/1000th fractional interest in a share of Series A Cumulative Perpetual Preferred Stock",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 258082427.0
 },
 "RILYT": {
 "name": "BRC Group Holdings Inc. 6.00% Senior Notes Due 2028",
@@ -24929,6 +29375,15 @@
 "market": "US",
 "mcap": 310833510.0
 },
+"RMBI": {
+"name": "Richmond Mutual Bancorporation Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 267641965.0
+},
 "RMBS": {
 "name": "Rambus",
 "name_local": "",
@@ -24955,6 +29410,24 @@
 "small": true,
 "market": "US",
 "mcap": 613311330.0
+},
+"RMM": {
+"name": "RiverNorth Managed Duration Municipal Income Fund Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Trusts Except Educational Religious and Charitable",
+"small": true,
+"market": "US",
+"mcap": 255233390.0
+},
+"RMMZ": {
+"name": "RiverNorth Managed Duration Municipal Income Fund II Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 261550071.0
 },
 "RMNI": {
 "name": "Rimini Street Inc. (DE)",
@@ -24983,6 +29456,24 @@
 "market": "US",
 "mcap": 608438757.0
 },
+"RNA": {
+"name": "Atrium Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 161786303.0
+},
+"RNAC": {
+"name": "Cartesian Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 193846597.0
+},
 "RNG": {
 "name": "RingCentral, Inc.",
 "name_local": "",
@@ -24991,6 +29482,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 6404628416.0
+},
+"RNGR": {
+"name": "Ranger Energy Services Inc. Class A",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oilfield Services/Equipment",
+"small": true,
+"market": "US",
+"mcap": 296768784.0
 },
 "RNP": {
 "name": "Cohen & Steers REIT and Preferred and Income Fund Inc. Common Shares",
@@ -25018,6 +29518,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3600459271.0
+},
+"RNTZ": {
+"name": "Rantizo Class A",
+"name_local": "",
+"sector": "산업재",
+"industry": "Water Sewer Pipeline Comm & Power Line Construction",
+"small": true,
+"market": "US",
+"mcap": 290088792.0
 },
 "RNW": {
 "name": "ReNew Energy Global plc Class A",
@@ -25172,6 +29681,15 @@
 "market": "US",
 "mcap": 1568628765.0
 },
+"RR": {
+"name": "Richtech Robotics Inc. Class B",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 184313471.0
+},
 "RRBI": {
 "name": "Red River Bancshares Inc.",
 "name_local": "",
@@ -25189,6 +29707,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 12028065939.0
+},
+"RRGB": {
+"name": "Red Robin Gourmet Burgers Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Restaurants",
+"small": true,
+"market": "US",
+"mcap": 166920130.0
 },
 "RRR": {
 "name": "Red Rock Resorts, Inc.",
@@ -25316,6 +29843,15 @@
 "market": "US",
 "mcap": 6922077266.0
 },
+"RVII": {
+"name": "Robinhood Ventures Fund II Common Shares of Beneficial Interest",
+"name_local": "",
+"sector": "기타",
+"industry": "기타",
+"small": true,
+"market": "US",
+"mcap": 133185181.0
+},
 "RVLV": {
 "name": "Revolve Group Inc. Class A",
 "name_local": "",
@@ -25343,6 +29879,15 @@
 "market": "US",
 "mcap": 1762782432.0
 },
+"RVSB": {
+"name": "Riverview Bancorp Inc",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 130439166.0
+},
 "RVT": {
 "name": "Royce Small-Cap Trust Inc.",
 "name_local": "",
@@ -25360,6 +29905,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 17530075818.0
+},
+"RWAY": {
+"name": "Runway Growth Finance Corp.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 274293345.0
 },
 "RWAYL": {
 "name": "Runway Growth Finance Corp. 7.50% Notes due 2027",
@@ -25415,6 +29969,15 @@
 "market": "US",
 "mcap": 2073788332.0
 },
+"RXST": {
+"name": "RxSight Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Ophthalmic Goods",
+"small": true,
+"market": "US",
+"mcap": 225579214.0
+},
 "RXT": {
 "name": "Rackspace Technology Inc.",
 "name_local": "",
@@ -25460,6 +30023,15 @@
 "market": "S&P400",
 "mcap": 11610473349.0
 },
+"RYDE": {
+"name": "Ryde Group Ltd. Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 178081613.0
+},
 "RYN": {
 "name": "Rayonier",
 "name_local": "",
@@ -25486,6 +30058,15 @@
 "small": true,
 "market": "US",
 "mcap": 1561632638.0
+},
+"RZAI": {
+"name": "Roze AI Inc. Common Shares",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 120746154.0
 },
 "RZC": {
 "name": "Reinsurance Group of America Incorporated 7.125% Fixed-Rate Reset Subordinated Debentures due 2052",
@@ -25514,6 +30095,15 @@
 "market": "US",
 "mcap": 500489708.0
 },
+"RZLVW": {
+"name": "Rezolve AI PLC Warrants",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Programming Data Processing",
+"small": true,
+"market": "US",
+"mcap": 116153651.0
+},
 "S": {
 "name": "SentinelOne Inc. Class A",
 "name_local": "",
@@ -25540,6 +30130,15 @@
 "small": true,
 "market": "S&P600",
 "mcap": 767198608.0
+},
+"SABS": {
+"name": "SAB Biotherapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 277473599.0
 },
 "SAFE": {
 "name": "Safehold, Inc.",
@@ -25595,6 +30194,15 @@
 "market": "US",
 "mcap": 11749361407.0
 },
+"SAIQ": {
+"name": "WISeSat.Space Holdings Corp.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Telecommunications Equipment",
+"small": true,
+"market": "US",
+"mcap": 101673147.0
+},
 "SAJ": {
 "name": "Saratoga Investment Corp 8.00% Notes due 2027",
 "name_local": "",
@@ -25612,6 +30220,15 @@
 "small": false,
 "market": "US",
 "mcap": 2230475246.0
+},
+"SAMG": {
+"name": "Silvercrest Asset Management Group Inc. Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 132339557.0
 },
 "SAN": {
 "name": "Banco Santander S.A. Sponsored ADR (Spain)",
@@ -25631,6 +30248,15 @@
 "market": "US",
 "mcap": 602266252.0
 },
+"SANG": {
+"name": "Sangoma Technologies Corporation Common Shares",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Programming Data Processing",
+"small": true,
+"market": "US",
+"mcap": 159866440.0
+},
 "SANM": {
 "name": "Sanmina Corporation",
 "name_local": "",
@@ -25648,6 +30274,15 @@
 "small": false,
 "market": "US",
 "mcap": 287568270627.0
+},
+"SAR": {
+"name": "Saratoga Investment Corp New",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 181425379.0
 },
 "SARO": {
 "name": "StandardAero",
@@ -25748,6 +30383,15 @@
 "market": "US",
 "mcap": 1254087574.0
 },
+"SBFG": {
+"name": "SB Financial Group Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 182449340.0
+},
 "SBGI": {
 "name": "Sinclair Inc. Class A",
 "name_local": "",
@@ -25774,6 +30418,15 @@
 "small": false,
 "market": "US",
 "mcap": 3174148069.0
+},
+"SBMT": {
+"name": "Silver Bow Mining Corp. Common Shares",
+"name_local": "",
+"sector": "소재",
+"industry": "Precious Metals",
+"small": true,
+"market": "US",
+"mcap": 184848410.0
 },
 "SBR": {
 "name": "Sabine Royalty Trust",
@@ -25910,6 +30563,15 @@
 "market": "S&P600",
 "mcap": 1508217411.0
 },
+"SCM": {
+"name": "Stellus Capital Investment Corporation",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance/Investors Services",
+"small": true,
+"market": "US",
+"mcap": 188238218.0
+},
 "SCSC": {
 "name": "ScanSource, Inc.",
 "name_local": "",
@@ -26018,6 +30680,15 @@
 "market": "S&P600",
 "mcap": 1503900800.0
 },
+"SEG": {
+"name": "Seaport Entertainment Group Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Services-Misc. Amusement & Recreation",
+"small": true,
+"market": "US",
+"mcap": 262835650.0
+},
 "SEI": {
 "name": "Solaris Energy Infrastructure, Inc.",
 "name_local": "",
@@ -26072,6 +30743,33 @@
 "market": "US",
 "mcap": 1990410475.0
 },
+"SERV": {
+"name": "Serve Robotics Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 255305205.0
+},
+"SES": {
+"name": "SES AI Corporation Class A",
+"name_local": "",
+"sector": "기타",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 208460753.0
+},
+"SEVN": {
+"name": "Seven Hills Realty Trust",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 148367479.0
+},
 "SEZL": {
 "name": "Sezzle",
 "name_local": "",
@@ -26098,6 +30796,15 @@
 "small": true,
 "market": "US",
 "mcap": 1775773796.0
+},
+"SFBC": {
+"name": "Sound Financial Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 115711294.0
 },
 "SFBS": {
 "name": "ServisFirst Bancshares, Inc.",
@@ -26170,6 +30877,15 @@
 "small": true,
 "market": "US",
 "mcap": 1474646651.0
+},
+"SGC": {
+"name": "Superior Group of Companies Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Apparel",
+"small": true,
+"market": "US",
+"mcap": 227156498.0
 },
 "SGHC": {
 "name": "Super Group (SGHC) Limited",
@@ -26306,6 +31022,15 @@
 "market": "US",
 "mcap": 29946230746.0
 },
+"SHIM": {
+"name": "Shimmick Corporation",
+"name_local": "",
+"sector": "산업재",
+"industry": "Military/Government/Technical",
+"small": true,
+"market": "US",
+"mcap": 100062525.0
+},
 "SHIP": {
 "name": "Seanergy Maritime Holdings Corp.",
 "name_local": "",
@@ -26323,6 +31048,15 @@
 "small": true,
 "market": "US",
 "mcap": 1359568233.0
+},
+"SHMD": {
+"name": "SCHMID Group N.V. Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 149477485.0
 },
 "SHO": {
 "name": "Sunstone Hotel Investors, Inc.",
@@ -26396,6 +31130,15 @@
 "market": "US",
 "mcap": 1038198951.0
 },
+"SIF": {
+"name": "SIFCO Industries Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Aerospace",
+"small": true,
+"market": "US",
+"mcap": 104569020.0
+},
 "SIFY": {
 "name": "Sify Technologies Limited",
 "name_local": "",
@@ -26413,6 +31156,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 4531397157.0
+},
+"SIGA": {
+"name": "SIGA Technologies Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 207660993.0
 },
 "SIGI": {
 "name": "Selective Insurance Group",
@@ -26441,6 +31193,15 @@
 "market": "US",
 "mcap": 2764934500.0
 },
+"SILC": {
+"name": "Silicom Ltd",
+"name_local": "",
+"sector": "커뮤니케이션",
+"industry": "Computer Communications Equipment",
+"small": true,
+"market": "US",
+"mcap": 180762366.0
+},
 "SIM": {
 "name": "Grupo Simec S.A.B. de C.V.",
 "name_local": "",
@@ -26467,6 +31228,15 @@
 "small": true,
 "market": "US",
 "mcap": 1873732443.0
+},
+"SION": {
+"name": "Sionna Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 155157998.0
 },
 "SIRI": {
 "name": "SiriusXM",
@@ -26504,6 +31274,15 @@
 "market": "S&P500",
 "mcap": 14069681433.0
 },
+"SJT": {
+"name": "San Juan Basin Royalty Trust",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 205544790.0
+},
 "SKE": {
 "name": "Skeena Resources Limited Common Shares",
 "name_local": "",
@@ -26521,6 +31300,15 @@
 "small": false,
 "market": "US",
 "mcap": 1003720680050.0
+},
+"SKIN": {
+"name": "SkinHealth Systems Inc. Class A",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 104417789.0
 },
 "SKM": {
 "name": "SK Telecom Co. Ltd.",
@@ -26558,6 +31346,15 @@
 "market": "S&P600",
 "mcap": 4963320580.0
 },
+"SKYA": {
+"name": "SkyAI Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 124592788.0
+},
 "SKYD": {
 "name": "Skydance",
 "name_local": "",
@@ -26584,6 +31381,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3137817953.0
+},
+"SKYX": {
+"name": "SKYX Platforms Corp.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Building Products",
+"small": true,
+"market": "US",
+"mcap": 112358429.0
 },
 "SLAB": {
 "name": "Silicon Labs",
@@ -26657,6 +31463,15 @@
 "market": "S&P600",
 "mcap": 3457621693.0
 },
+"SLGL": {
+"name": "Sol-Gel Technologies Ltd.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 184162444.0
+},
 "SLGN": {
 "name": "Silgan Holdings",
 "name_local": "",
@@ -26701,6 +31516,15 @@
 "small": true,
 "market": "US",
 "mcap": 1230645240.0
+},
+"SLNH": {
+"name": "Soluna Holdings Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 131689553.0
 },
 "SLNHP": {
 "name": "Soluna Holdings Inc 9.0% Series A Cumulative Perpetual Preferred Stock",
@@ -26828,6 +31652,24 @@
 "market": "S&P400",
 "mcap": 3709795859.0
 },
+"SMHI": {
+"name": "SEACOR Marine Holdings Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Marine Transportation",
+"small": true,
+"market": "US",
+"mcap": 238115340.0
+},
+"SMID": {
+"name": "Smith-Midland Corporation",
+"name_local": "",
+"sector": "산업재",
+"industry": "Building Materials",
+"small": true,
+"market": "US",
+"mcap": 108213962.0
+},
 "SMMT": {
 "name": "Summit Therapeutics Inc.",
 "name_local": "",
@@ -26882,6 +31724,15 @@
 "market": "S&P400",
 "mcap": 11146812769.0
 },
+"SMTI": {
+"name": "Sanara MedTech Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Industrial Specialties",
+"small": true,
+"market": "US",
+"mcap": 298809093.0
+},
 "SMWB": {
 "name": "Similarweb Ltd.",
 "name_local": "",
@@ -26917,6 +31768,15 @@
 "small": false,
 "market": "US",
 "mcap": 9021363529.0
+},
+"SND": {
+"name": "Smart Sand Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+"small": true,
+"market": "US",
+"mcap": 199276808.0
 },
 "SNDA": {
 "name": "Sonida Senior Living Inc.",
@@ -26971,6 +31831,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 6888421736.0
+},
+"SNFCA": {
+"name": "Security National Financial Corporation Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 245771084.0
 },
 "SNN": {
 "name": "Smith & Nephew SNATS Inc.",
@@ -27034,6 +31903,15 @@
 "small": false,
 "market": "US",
 "mcap": 6942218176.0
+},
+"SOC": {
+"name": "Sable Offshore Corp.",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oil & Gas Production",
+"small": true,
+"market": "US",
+"mcap": 128989372.0
 },
 "SOFI": {
 "name": "SoFi Technologies Inc.",
@@ -27251,6 +32129,15 @@
 "market": "S&P600",
 "mcap": 3084584689.0
 },
+"SPOK": {
+"name": "Spok Holdings Inc.",
+"name_local": "",
+"sector": "커뮤니케이션",
+"industry": "Telecommunications Equipment",
+"small": true,
+"market": "US",
+"mcap": 243207204.0
+},
 "SPOT": {
 "name": "Spotify Technology S.A.",
 "name_local": "",
@@ -27259,6 +32146,15 @@
 "small": false,
 "market": "US",
 "mcap": 126116004422.0
+},
+"SPRB": {
+"name": "Spruce Biosciences Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 123266418.0
 },
 "SPRY": {
 "name": "ARS Pharmaceuticals Inc.",
@@ -27332,6 +32228,15 @@
 "market": "US",
 "mcap": 4024787569.0
 },
+"SRBK": {
+"name": "SR Bancorp Inc. Common stock",
+"name_local": "",
+"sector": "금융",
+"industry": "Banks",
+"small": true,
+"market": "US",
+"mcap": 146759250.0
+},
 "SRCE": {
 "name": "1st Source Corporation",
 "name_local": "",
@@ -27358,6 +32263,15 @@
 "small": false,
 "market": "US",
 "mcap": 11586569513.0
+},
+"SRI": {
+"name": "Stoneridge Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Auto Parts:O.E.M.",
+"small": true,
+"market": "US",
+"mcap": 145049443.0
 },
 "SRPT": {
 "name": "Sarepta Therapeutics",
@@ -27413,6 +32327,15 @@
 "market": "S&P400",
 "mcap": 8061669520.0
 },
+"SSII": {
+"name": "SS Innovations International Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 264644724.0
+},
 "SSL": {
 "name": "Sasol Ltd.",
 "name_local": "",
@@ -27457,6 +32380,15 @@
 "small": false,
 "market": "US",
 "mcap": 5384237556.0
+},
+"SSTI": {
+"name": "SoundThinking Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 109234224.0
 },
 "SSYS": {
 "name": "Stratasys Ltd.",
@@ -27547,6 +32479,15 @@
 "small": false,
 "market": "US",
 "mcap": 2764902440.0
+},
+"STIM": {
+"name": "Neuronetics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 137963985.0
 },
 "STLA": {
 "name": "Stellantis N.V. Common Shares",
@@ -27674,6 +32615,33 @@
 "market": "S&P400",
 "mcap": 9199565159.0
 },
+"STRO": {
+"name": "Sutro Biopharma Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 159207531.0
+},
+"STRT": {
+"name": "STRATTEC SECURITY CORPORATION",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Auto Parts:O.E.M.",
+"small": true,
+"market": "US",
+"mcap": 251364327.0
+},
+"STRW": {
+"name": "Strawberry Fields REIT Inc.",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 178126931.0
+},
 "STRZ": {
 "name": "Starz Entertainment Corp. Common Shares",
 "name_local": "",
@@ -27782,6 +32750,15 @@
 "market": "US",
 "mcap": 33404034403.0
 },
+"SUNS": {
+"name": "Sunrise Realty Trust Inc.",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 153426179.0
+},
 "SUPN": {
 "name": "Supernus, Inc.",
 "name_local": "",
@@ -27800,6 +32777,15 @@
 "market": "US",
 "mcap": 518379833.0
 },
+"SUPX": {
+"name": "SuperX AI Technology Limited",
+"name_local": "",
+"sector": "기타",
+"industry": "기타",
+"small": true,
+"market": "US",
+"mcap": 235813856.0
+},
 "SUZ": {
 "name": "Suzano S.A.",
 "name_local": "",
@@ -27817,6 +32803,24 @@
 "small": true,
 "market": "US",
 "mcap": 720467178.0
+},
+"SVCO": {
+"name": "Silvaco Group Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 254766994.0
+},
+"SVIA": {
+"name": "Silvia Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 215881763.0
 },
 "SVM": {
 "name": "Silvercorp Metals Inc. Common Shares",
@@ -27899,6 +32903,15 @@
 "market": "S&P500",
 "mcap": 21143961439.0
 },
+"SWMR": {
+"name": "Swarmer Inc",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 149018315.0
+},
 "SWRD": {
 "name": "Stewards Inc",
 "name_local": "",
@@ -27907,6 +32920,15 @@
 "small": true,
 "market": "US",
 "mcap": 560179515.0
+},
+"SWVL": {
+"name": "Swvl Holdings Corp Class A Common Shares",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 141298926.0
 },
 "SWX": {
 "name": "Southwest Gas Corp",
@@ -27943,6 +32965,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 4938225651.0
+},
+"SY": {
+"name": "So-Young International Inc. American Depository Shares",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 194586212.0
 },
 "SYBT": {
 "name": "Stock Yards Bancorp Inc.",
@@ -28070,6 +33101,15 @@
 "market": "US",
 "mcap": 7331661648.0
 },
+"TARA": {
+"name": "Protara Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 150231656.0
+},
 "TARS": {
 "name": "Tarsus Pharmaceuticals Inc.",
 "name_local": "",
@@ -28097,6 +33137,15 @@
 "market": "US",
 "mcap": 494917182.0
 },
+"TAYD": {
+"name": "Taylor Devices Inc.",
+"name_local": "",
+"sector": "산업재",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 189657673.0
+},
 "TBB": {
 "name": "AT&T Inc. 5.350% Global Notes due 2066",
 "name_local": "",
@@ -28123,6 +33172,15 @@
 "small": true,
 "market": "S&P600",
 "mcap": 1932631408.0
+},
+"TBCH": {
+"name": "Turtle Beach Corporation",
+"name_local": "",
+"sector": "커뮤니케이션",
+"industry": "Telecommunications Equipment",
+"small": true,
+"market": "US",
+"mcap": 296014472.0
 },
 "TBI": {
 "name": "TrueBlue Inc.",
@@ -28214,6 +33272,15 @@
 "market": "US",
 "mcap": 344840405.0
 },
+"TCX": {
+"name": "Tucows Inc. Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 138466140.0
+},
 "TD": {
 "name": "Toronto Dominion Bank (The)",
 "name_local": "",
@@ -28267,6 +33334,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3355716000.0
+},
+"TDUP": {
+"name": "ThredUp Inc. Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Catalog/Specialty Distribution",
+"small": true,
+"market": "US",
+"mcap": 199660821.0
 },
 "TDW": {
 "name": "Tidewater, Inc.",
@@ -28457,6 +33533,15 @@
 "market": "S&P600",
 "mcap": 6072932284.0
 },
+"TG": {
+"name": "Tredegar Corporation",
+"name_local": "",
+"sector": "산업재",
+"industry": "Metal Fabrications",
+"small": true,
+"market": "US",
+"mcap": 197423509.0
+},
 "TGB": {
 "name": "Trekor Metals Limited Common Shares",
 "name_local": "",
@@ -28592,6 +33677,15 @@
 "market": "US",
 "mcap": 700506591.0
 },
+"TII": {
+"name": "Titan Mining Corporation Common Shares",
+"name_local": "",
+"sector": "기타",
+"industry": "기타",
+"small": true,
+"market": "US",
+"mcap": 184103406.0
+},
 "TILE": {
 "name": "Interface, Inc.",
 "name_local": "",
@@ -28618,6 +33712,15 @@
 "small": true,
 "market": "US",
 "mcap": 638171186.0
+},
+"TISI": {
+"name": "Team Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 107226297.0
 },
 "TITN": {
 "name": "Titan Machinery Inc.",
@@ -28718,6 +33821,15 @@
 "market": "US",
 "mcap": 567674536.0
 },
+"TLSI": {
+"name": "TriSalus Life Sciences Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical Specialities",
+"small": true,
+"market": "US",
+"mcap": 155481566.0
+},
 "TLX": {
 "name": "Telix Pharmaceuticals Limited",
 "name_local": "",
@@ -28726,6 +33838,15 @@
 "small": false,
 "market": "US",
 "mcap": 3170953179.0
+},
+"TLYS": {
+"name": "Tilly's Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Clothing/Shoe/Accessory Stores",
+"small": true,
+"market": "US",
+"mcap": 130913494.0
 },
 "TM": {
 "name": "Toyota Motor Corporation",
@@ -28753,6 +33874,15 @@
 "small": true,
 "market": "US",
 "mcap": 350088248.0
+},
+"TMCR": {
+"name": "The Metals Royalty Company Inc.",
+"name_local": "",
+"sector": "소재",
+"industry": "Precious Metals",
+"small": true,
+"market": "US",
+"mcap": 119322819.0
 },
 "TMDX": {
 "name": "TransMedics Group, Inc.",
@@ -28880,6 +34010,15 @@
 "market": "S&P400",
 "mcap": 13635913060.0
 },
+"TONX": {
+"name": "TON Strategy Company",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 201012760.0
+},
 "TOP": {
 "name": "TOP Financial Group Limited Class A",
 "name_local": "",
@@ -28888,6 +34027,15 @@
 "small": true,
 "market": "US",
 "mcap": 1908791388.0
+},
+"TORO": {
+"name": "Toro Corp. Common Shares",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Marine Transportation",
+"small": true,
+"market": "US",
+"mcap": 133744607.0
 },
 "TOST": {
 "name": "Toast, Inc.",
@@ -28906,6 +34054,24 @@
 "small": false,
 "market": "US",
 "mcap": 2730248105.0
+},
+"TOYO": {
+"name": "TOYO Co. Ltd",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Miscellaneous manufacturing industries",
+"small": true,
+"market": "US",
+"mcap": 202060624.0
+},
+"TP": {
+"name": "Ticketplus Ltd.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Services-Misc. Amusement & Recreation",
+"small": true,
+"market": "US",
+"mcap": 106439707.0
 },
 "TPB": {
 "name": "Turning Point Brands Inc.",
@@ -28961,6 +34127,15 @@
 "market": "S&P500",
 "mcap": 26062017700.0
 },
+"TPVG": {
+"name": "TriplePoint Venture Growth BDC Corp.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 161328993.0
+},
 "TR": {
 "name": "Tootsie Roll Industries, Inc.",
 "name_local": "",
@@ -28969,6 +34144,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 2843407173.0
+},
+"TRAK": {
+"name": "ReposiTrak Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 136919280.0
 },
 "TRAX": {
 "name": "First Tracks Biotherapeutics Inc.",
@@ -28987,6 +34171,15 @@
 "small": true,
 "market": "US",
 "mcap": 468233262.0
+},
+"TRDA": {
+"name": "Entrada Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 202407227.0
 },
 "TREE": {
 "name": "LendingTree Inc.",
@@ -29132,6 +34325,15 @@
 "market": "US",
 "mcap": 683182172.0
 },
+"TROO": {
+"name": "TROOPS Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Diversified Financial Services",
+"small": true,
+"market": "US",
+"mcap": 189348257.0
+},
 "TROW": {
 "name": "T. Rowe Price",
 "name_local": "",
@@ -29213,6 +34415,15 @@
 "market": "S&P500",
 "mcap": 82677405843.0
 },
+"TRVG": {
+"name": "trivago N.V.",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 283891089.0
+},
 "TRVI": {
 "name": "Trevi Therapeutics Inc.",
 "name_local": "",
@@ -29221,6 +34432,15 @@
 "small": true,
 "market": "US",
 "mcap": 1941659028.0
+},
+"TRX": {
+"name": "TRX Gold Corporation",
+"name_local": "",
+"sector": "소재",
+"industry": "Precious Metals",
+"small": true,
+"market": "US",
+"mcap": 289323287.0
 },
 "TRXB": {
 "name": "TRex Bio Inc. Common stock",
@@ -29321,6 +34541,15 @@
 "market": "S&P500",
 "mcap": 20851275616.0
 },
+"TSSI": {
+"name": "TSS Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Professional Services",
+"small": true,
+"market": "US",
+"mcap": 189075474.0
+},
 "TT": {
 "name": "Trane Technologies",
 "name_local": "",
@@ -29375,6 +34604,15 @@
 "market": "US",
 "mcap": 195385724548.0
 },
+"TTEC": {
+"name": "TTEC Holdings Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Professional Services",
+"small": true,
+"market": "US",
+"mcap": 146173822.0
+},
 "TTEK": {
 "name": "Tetra Tech",
 "name_local": "",
@@ -29383,6 +34621,15 @@
 "small": false,
 "market": "S&P400",
 "mcap": 10095831796.0
+},
+"TTGT": {
+"name": "TechTarget Inc.",
+"name_local": "",
+"sector": "커뮤니케이션",
+"industry": "Telecommunications Equipment",
+"small": true,
+"market": "US",
+"mcap": 204547223.0
 },
 "TTI": {
 "name": "Tetra Technologies Inc.",
@@ -29428,6 +34675,15 @@
 "small": false,
 "market": "US",
 "mcap": 13571800000.0
+},
+"TUSK": {
+"name": "Mammoth Energy Services Inc.",
+"name_local": "",
+"sector": "에너지",
+"industry": "Oilfield Services/Equipment",
+"small": true,
+"market": "US",
+"mcap": 156895927.0
 },
 "TUYA": {
 "name": "Tuya Inc.",
@@ -29753,6 +35009,15 @@
 "market": "S&P600",
 "mcap": 1319387214.0
 },
+"UFI": {
+"name": "Unifi Inc. New",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Textiles",
+"small": true,
+"market": "US",
+"mcap": 125846426.0
+},
 "UFPI": {
 "name": "UFP Industries",
 "name_local": "",
@@ -29834,6 +35099,15 @@
 "market": "US",
 "mcap": 41392159534.0
 },
+"UIS": {
+"name": "Unisys Corporation New",
+"name_local": "",
+"sector": "IT",
+"industry": "EDP Services",
+"small": true,
+"market": "US",
+"mcap": 208955142.0
+},
 "UL": {
 "name": "Unilever PLC",
 "name_local": "",
@@ -29842,6 +35116,15 @@
 "small": false,
 "market": "US",
 "mcap": 142261006161.0
+},
+"ULBI": {
+"name": "Ultralife Corporation",
+"name_local": "",
+"sector": "기타",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 263021813.0
 },
 "ULCC": {
 "name": "Frontier Group Holdings Inc.",
@@ -29924,6 +35207,24 @@
 "market": "US",
 "mcap": 1246941279.0
 },
+"UNB": {
+"name": "Union Bankshares Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 112958306.0
+},
+"UNCY": {
+"name": "Unicycive Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 101393135.0
+},
 "UNF": {
 "name": "UniFirst Corporation",
 "name_local": "",
@@ -29996,6 +35297,15 @@
 "market": "US",
 "mcap": 587590570.0
 },
+"UPB": {
+"name": "Upstream Bio Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 156760578.0
+},
 "UPBD": {
 "name": "Upbound Group, Inc.",
 "name_local": "",
@@ -30040,6 +35350,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 7263983349.0
+},
+"URG": {
+"name": "Ur Energy Inc Common Shares (Canada)",
+"name_local": "",
+"sector": "소재",
+"industry": "Precious Metals",
+"small": true,
+"market": "US",
+"mcap": 245704316.0
 },
 "URGN": {
 "name": "UroGen Pharma Ltd.",
@@ -30086,6 +35405,15 @@
 "market": "US",
 "mcap": 945150531.0
 },
+"USAU": {
+"name": "U.S. Gold Corp.",
+"name_local": "",
+"sector": "소재",
+"industry": "Metal Mining",
+"small": true,
+"market": "US",
+"mcap": 178013701.0
+},
 "USB": {
 "name": "U.S. Bancorp",
 "name_local": "",
@@ -30095,6 +35423,15 @@
 "market": "S&P500",
 "mcap": 94240469736.0
 },
+"USBC": {
+"name": "USBC Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 138693072.0
+},
 "USCB": {
 "name": "USCB Financial Holdings Inc. Class A",
 "name_local": "",
@@ -30103,6 +35440,15 @@
 "small": true,
 "market": "US",
 "mcap": 370112716.0
+},
+"USDE": {
+"name": "StablecoinX Inc. Class A",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 166657101.0
 },
 "USFD": {
 "name": "US Foods",
@@ -30121,6 +35467,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3278502010.0
+},
+"USNA": {
+"name": "USANA Health Sciences Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medicinal Chemicals and Botanical Products",
+"small": true,
+"market": "US",
+"mcap": 235361800.0
 },
 "USPH": {
 "name": "U.S. Physical Therapy, Inc.",
@@ -30157,6 +35512,15 @@
 "small": true,
 "market": "S&P600",
 "mcap": 1033971528.0
+},
+"UTMD": {
+"name": "Utah Medical Products Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical/Dental Instruments",
+"small": true,
+"market": "US",
+"mcap": 234424519.0
 },
 "UTZ": {
 "name": "Utz Brands Inc Class A",
@@ -30212,6 +35576,15 @@
 "market": "US",
 "mcap": 2057069463.0
 },
+"UXIN": {
+"name": "Uxin Limited ADS",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 169384801.0
+},
 "UZD": {
 "name": "Array Digital Infrastructure Inc. 6.250% Senior Notes due 2069",
 "name_local": "",
@@ -30247,6 +35620,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 757868912591.0
+},
+"VABK": {
+"name": "Virginia National Bankshares Corporation",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 292965228.0
 },
 "VAC": {
 "name": "Marriott Vacations Worldwide",
@@ -30391,6 +35773,15 @@
 "small": true,
 "market": "US",
 "mcap": 633213825.0
+},
+"VELO": {
+"name": "Velo3D Inc. Common stock",
+"name_local": "",
+"sector": "IT",
+"industry": "Industrial Machinery/Components",
+"small": true,
+"market": "US",
+"mcap": 142270437.0
 },
 "VEON": {
 "name": "VEON Ltd. ADS",
@@ -30581,6 +35972,15 @@
 "market": "S&P600",
 "mcap": 2075801769.0
 },
+"VIRC": {
+"name": "Virco Manufacturing Corporation",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Industrial Specialties",
+"small": true,
+"market": "US",
+"mcap": 100257863.0
+},
 "VIRT": {
 "name": "Virtu Financial, Inc.",
 "name_local": "",
@@ -30661,6 +36061,15 @@
 "small": true,
 "market": "US",
 "mcap": 625715421.0
+},
+"VLN": {
+"name": "Valens Semiconductor Ltd.",
+"name_local": "",
+"sector": "IT",
+"industry": "Semiconductors",
+"small": true,
+"market": "US",
+"mcap": 151621488.0
 },
 "VLO": {
 "name": "Valero Energy",
@@ -30779,6 +36188,24 @@
 "market": "S&P500",
 "mcap": 49536744975.0
 },
+"VNCE": {
+"name": "Vince Holding Corp.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Clothing/Shoe/Accessory Stores",
+"small": true,
+"market": "US",
+"mcap": 167116710.0
+},
+"VNDA": {
+"name": "Vanda Pharmaceuticals Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 238855264.0
+},
 "VNET": {
 "name": "VNET Group Inc.",
 "name_local": "",
@@ -30823,6 +36250,15 @@
 "small": false,
 "market": "US",
 "mcap": 35848446821.0
+},
+"VOGX": {
+"name": "Vogenx Inc",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 284474916.0
 },
 "VOR": {
 "name": "Vor Biopharma Inc.",
@@ -30869,6 +36305,24 @@
 "market": "US",
 "mcap": 704517543.0
 },
+"VPV": {
+"name": "Invesco Pennsylvania Value Municipal Income Trust",
+"name_local": "",
+"sector": "금융",
+"industry": "Trusts Except Educational Religious and Charitable",
+"small": true,
+"market": "US",
+"mcap": 253784644.0
+},
+"VRA": {
+"name": "Vera Bradley Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Apparel",
+"small": true,
+"market": "US",
+"mcap": 216886300.0
+},
 "VRDN": {
 "name": "Viridian Therapeutics Inc.",
 "name_local": "",
@@ -30895,6 +36349,15 @@
 "small": false,
 "market": "US",
 "mcap": 5657700732.0
+},
+"VRRM": {
+"name": "Verra Mobility Corporation",
+"name_local": "",
+"sector": "산업재",
+"industry": "데이터 처리·아웃소싱",
+"small": true,
+"market": "S&P600",
+"mcap": 297938312.0
 },
 "VRSK": {
 "name": "Verisk Analytics",
@@ -30940,6 +36403,15 @@
 "small": false,
 "market": "S&P500",
 "mcap": 137574612666.0
+},
+"VRXA": {
+"name": "Veraxa Biotech AG",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 162618985.0
 },
 "VSAT": {
 "name": "Viasat, Inc.",
@@ -31040,6 +36512,15 @@
 "market": "US",
 "mcap": 3357510526.0
 },
+"VTN": {
+"name": "Invesco Trust for Investment Grade New York Municipals",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance Companies",
+"small": true,
+"market": "US",
+"mcap": 197295537.0
+},
 "VTOL": {
 "name": "Bristow Group Inc.",
 "name_local": "",
@@ -31076,6 +36557,15 @@
 "market": "US",
 "mcap": 650303021.0
 },
+"VUZI": {
+"name": "Vuzix Corporation",
+"name_local": "",
+"sector": "IT",
+"industry": "Radio And Television Broadcasting And Communications Equipment",
+"small": true,
+"market": "US",
+"mcap": 156688652.0
+},
 "VVV": {
 "name": "Valvoline",
 "name_local": "",
@@ -31093,6 +36583,15 @@
 "small": false,
 "market": "S&P600",
 "mcap": 2534153708.0
+},
+"VYGR": {
+"name": "Voyager Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 105789609.0
 },
 "VYLR": {
 "name": "Vylor",
@@ -31463,6 +36962,15 @@
 "market": "S&P600",
 "mcap": 4957579977.0
 },
+"WHF": {
+"name": "WhiteHorse Finance Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance Companies",
+"small": true,
+"market": "US",
+"mcap": 178469474.0
+},
 "WHFCL": {
 "name": "WhiteHorse Finance Inc. 7.875% Notes due 2028",
 "name_local": "",
@@ -31471,6 +36979,15 @@
 "small": true,
 "market": "US",
 "mcap": 584331232.0
+},
+"WHG": {
+"name": "Westwood Holdings Group Inc",
+"name_local": "",
+"sector": "금융",
+"industry": "Investment Managers",
+"small": true,
+"market": "US",
+"mcap": 176263248.0
 },
 "WHK": {
 "name": "WhiteHawk Minerals Corp Class A",
@@ -31481,6 +36998,15 @@
 "market": "US",
 "mcap": 778422543.0
 },
+"WHLRL": {
+"name": "Wheeler Real Estate Investment Trust Inc. 7.00% Senior Subordinated Convertible Notes Due 2031",
+"name_local": "",
+"sector": "부동산",
+"industry": "Real Estate Investment Trusts",
+"small": true,
+"market": "US",
+"mcap": 162054193.0
+},
 "WHR": {
 "name": "Whirlpool Corporation",
 "name_local": "",
@@ -31489,6 +37015,15 @@
 "small": true,
 "market": "S&P400",
 "mcap": 1900448315.0
+},
+"WHWK": {
+"name": "Whitehawk Therapeutics Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 181157575.0
 },
 "WINA": {
 "name": "Winmark",
@@ -31552,6 +37087,15 @@
 "small": true,
 "market": "US",
 "mcap": 1070989685.0
+},
+"WLDSW": {
+"name": "Wearable Devices Ltd. Warrant",
+"name_local": "",
+"sector": "커뮤니케이션",
+"industry": "Computer Communications Equipment",
+"small": true,
+"market": "US",
+"mcap": 144446106.0
 },
 "WLFC": {
 "name": "Willis Lease Finance Corporation",
@@ -31669,6 +37213,15 @@
 "small": true,
 "market": "US",
 "mcap": 476642720.0
+},
+"WNEB": {
+"name": "Western New England Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Savings Institutions",
+"small": true,
+"market": "US",
+"mcap": 268113389.0
 },
 "WOLF": {
 "name": "Wolfspeed Inc.",
@@ -31804,6 +37357,15 @@
 "small": true,
 "market": "US",
 "mcap": 362057344.0
+},
+"WSBK": {
+"name": "Winchester Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Banks",
+"small": true,
+"market": "US",
+"mcap": 128462096.0
 },
 "WSC": {
 "name": "WillScot Holdings Corp.",
@@ -31976,6 +37538,15 @@
 "market": "US",
 "mcap": 622257394.0
 },
+"WW": {
+"name": "WW International Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Other Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 122684785.0
+},
 "WWD": {
 "name": "Woodward, Inc.",
 "name_local": "",
@@ -32011,6 +37582,15 @@
 "small": true,
 "market": "US",
 "mcap": 468048907.0
+},
+"WYHG": {
+"name": "Wing Yip Food Holdings Group Limited",
+"name_local": "",
+"sector": "필수소비재",
+"industry": "Specialty Foods",
+"small": true,
+"market": "US",
+"mcap": 121337116.0
 },
 "WYNN": {
 "name": "Wynn Resorts",
@@ -32075,6 +37655,24 @@
 "market": "US",
 "mcap": 323699966.0
 },
+"XGN": {
+"name": "Exagen Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Medical Specialities",
+"small": true,
+"market": "US",
+"mcap": 112514522.0
+},
+"XHG": {
+"name": "XChange TEC.INC",
+"name_local": "",
+"sector": "금융",
+"industry": "Specialty Insurers",
+"small": true,
+"market": "US",
+"mcap": 168046239.0
+},
 "XHR": {
 "name": "Xenia Hotels & Resorts, Inc.",
 "name_local": "",
@@ -32092,6 +37690,15 @@
 "small": true,
 "market": "US",
 "mcap": 692433679.0
+},
+"XLAB": {
+"name": "Exascale Labs Holdings Inc. Class A",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 146039971.0
 },
 "XMAX": {
 "name": "XMAX Inc.",
@@ -32128,6 +37735,15 @@
 "small": true,
 "market": "US",
 "mcap": 784337256.0
+},
+"XNET": {
+"name": "Xunlei Limited",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 225334395.0
 },
 "XOM": {
 "name": "ExxonMobil",
@@ -32183,6 +37799,15 @@
 "market": "S&P400",
 "mcap": 21981733220.0
 },
+"XPOF": {
+"name": "Xponential Fitness Inc. Class A",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Services-Misc. Amusement & Recreation",
+"small": true,
+"market": "US",
+"mcap": 228191040.0
+},
 "XPRO": {
 "name": "Expro Ltd",
 "name_local": "",
@@ -32209,6 +37834,15 @@
 "small": true,
 "market": "US",
 "mcap": 351302033.0
+},
+"XRX": {
+"name": "Xerox Holdings Corporation",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer peripheral equipment",
+"small": true,
+"market": "US",
+"mcap": 132036516.0
 },
 "XTND": {
 "name": "Xtend AI Robotics Inc.",
@@ -32272,6 +37906,15 @@
 "small": true,
 "market": "US",
 "mcap": 832022849.0
+},
+"YARW": {
+"name": "Yarrow Bioscience Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 182644606.0
 },
 "YB": {
 "name": "Yuanbao Inc.",
@@ -32354,6 +37997,15 @@
 "market": "US",
 "mcap": 14631235900.0
 },
+"YSG": {
+"name": "Yatsen Holding Limited",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Package Goods/Cosmetics",
+"small": true,
+"market": "US",
+"mcap": 182098880.0
+},
 "YSS": {
 "name": "York Space Systems Inc.",
 "name_local": "",
@@ -32435,6 +38087,15 @@
 "market": "S&P600",
 "mcap": 1711056853.0
 },
+"ZENA": {
+"name": "ZenaTech Inc.",
+"name_local": "",
+"sector": "IT",
+"industry": "Computer Software: Prepackaged Software",
+"small": true,
+"market": "US",
+"mcap": 126045529.0
+},
 "ZETA": {
 "name": "Zeta Global Holdings Corp. Class A",
 "name_local": "",
@@ -32461,6 +38122,15 @@
 "small": false,
 "market": "US",
 "mcap": 3639652958.0
+},
+"ZH": {
+"name": "Zhihu Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Business Services",
+"small": true,
+"market": "US",
+"mcap": 228493853.0
 },
 "ZIM": {
 "name": "ZIM Integrated Shipping Services Ltd.",
@@ -32507,6 +38177,15 @@
 "market": "US",
 "mcap": 612212843.0
 },
+"ZKH": {
+"name": "ZKH Group Limited",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "RETAIL: Building Materials",
+"small": true,
+"market": "US",
+"mcap": 203416726.0
+},
 "ZLAB": {
 "name": "Zai Lab Limited",
 "name_local": "",
@@ -32525,6 +38204,15 @@
 "market": "US",
 "mcap": 28507268565.0
 },
+"ZNTL": {
+"name": "Zentalis Pharmaceuticals Inc.",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Pharmaceutical Preparations",
+"small": true,
+"market": "US",
+"mcap": 165086650.0
+},
 "ZS": {
 "name": "Zscaler Inc.",
 "name_local": "",
@@ -32533,6 +38221,15 @@
 "small": false,
 "market": "US",
 "mcap": 31505428748.0
+},
+"ZSQR": {
+"name": "Z Squared Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Finance: Consumer Services",
+"small": true,
+"market": "US",
+"mcap": 130910981.0
 },
 "ZTO": {
 "name": "ZTO Express (Cayman) Inc.",
@@ -32551,6 +38248,24 @@
 "small": false,
 "market": "S&P500",
 "mcap": 33707987555.0
+},
+"ZUMZ": {
+"name": "Zumiez Inc.",
+"name_local": "",
+"sector": "경기소비재",
+"industry": "Clothing/Shoe/Accessory Stores",
+"small": true,
+"market": "US",
+"mcap": 216008337.0
+},
+"ZURA": {
+"name": "Zura Bio Limited Class A",
+"name_local": "",
+"sector": "헬스케어",
+"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+"small": true,
+"market": "US",
+"mcap": 119443510.0
 },
 "ZVRA": {
 "name": "Zevra Therapeutics Inc.",
@@ -32578,6 +38293,15 @@
 "small": true,
 "market": "US",
 "mcap": 1827242391.0
+},
+"ZYN": {
+"name": "PTL LTD Class A",
+"name_local": "",
+"sector": "기타",
+"industry": "기타",
+"small": true,
+"market": "US",
+"mcap": 105326250.0
 },
 "BF-B": {
 "name": "Brown–Forman",
@@ -32624,15 +38348,6 @@
 "market": "S&P400",
 "mcap": null
 },
-"ABR": {
-"name": "Arbor Realty Trust",
-"name_local": "",
-"sector": "금융",
-"industry": "모기지 리츠",
-"small": true,
-"market": "S&P600",
-"mcap": null
-},
 "ACA": {
 "name": "Arcosa, Inc.",
 "name_local": "",
@@ -32647,15 +38362,6 @@
 "name_local": "",
 "sector": "헬스케어",
 "industry": "의료용품",
-"small": true,
-"market": "S&P600",
-"mcap": null
-},
-"CCOI": {
-"name": "Cogent Communications Holdings, Inc.",
-"name_local": "",
-"sector": "커뮤니케이션",
-"industry": "대체 통신사",
 "small": true,
 "market": "S&P600",
 "mcap": null
@@ -32719,15 +38425,6 @@
 "name_local": "",
 "sector": "IT",
 "industry": "응용 소프트웨어",
-"small": true,
-"market": "S&P600",
-"mcap": null
-},
-"VRRM": {
-"name": "Verra Mobility Corporation",
-"name_local": "",
-"sector": "산업재",
-"industry": "데이터 처리·아웃소싱",
 "small": true,
 "market": "S&P600",
 "mcap": null
