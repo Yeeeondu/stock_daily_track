@@ -3,8 +3,8 @@ name: Schedule
 # ※ 이 파일은 저장소 주인이 GitHub 웹에서 직접 한 번 수정해야 예약이 작동합니다.
 on:
   schedule:
-    - cron: "10 7 * * 1-5"   # 한국·일본·대만: 16:10 KST
-    - cron: "0 22 * * 1-5"   # 미국·ETF: 07:00 KST (다음 날)
+    - cron: "12 7 * * 1-5"   # 한국·일본·대만: 16:10 KST
+    - cron: "2 22 * * 1-5"   # 미국·ETF: 07:00 KST (다음 날)
 
 permissions:
   contents: write
