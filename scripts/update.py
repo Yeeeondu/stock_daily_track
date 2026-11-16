@@ -127,13 +127,37 @@ def download(tickers, period, interval="1d"):
 
 # ---------------------------------------------------------------- 계산
 def returns(df):
+    """d1 = 전일 대비, w1 = 이번 주 수익률 (지난주 마지막 종가 대비)."""
     c = df["Close"].dropna()
-    last = c.iloc[-1]
+    last, d = c.iloc[-1], c.index[-1]
+    monday = d - pd.Timedelta(days=d.weekday())
+    prev_week = c[c.index < monday]
+    prev2 = c[c.index < monday - pd.Timedelta(days=7)]
     return {
         "close": num(last),
         "d1": pct(last, c.iloc[-2]) if len(c) > 1 else None,
-        "w1": pct(last, c.iloc[-6]) if len(c) > 5 else None,
+        "w1": pct(last, prev_week.iloc[-1]) if len(prev_week) else None,
+        "w1_prev": pct(prev_week.iloc[-1], prev2.iloc[-1]) if len(prev_week) and len(prev2) else None,
     }
+
+
+def weekly_top(market, rows, trade_date, n):
+    """주간 상승률 상위는 금요일(주 마지막 거래일) 데이터로만 새로 집계하고, 그 외 날은 직전 목록을 유지."""
+    monday = trade_date - pd.Timedelta(days=trade_date.weekday())
+    label = f"{monday:%Y-%m-%d}~{monday + pd.Timedelta(days=4):%Y-%m-%d}"
+    if trade_date.weekday() == 4:
+        return top_n(rows, "w1", n), label
+    ds = trade_date.strftime("%Y-%m-%d")
+    for d in read_json(DATA / "index.json", {}).get(market, []):
+        if d >= ds:
+            continue
+        prev = read_json(DATA / market / f"{d}.json", {})
+        if prev.get("w1_week") and prev.get("top_w1"):
+            return prev["top_w1"], prev["w1_week"]
+    # 직전 목록이 없으면 지난주(완료된 주) 수익률로 집계
+    lm = monday - pd.Timedelta(days=7)
+    last = [{**r, "w1": r["w1_prev"]} for r in rows if r.get("w1_prev") is not None]
+    return top_n(last, "w1", n), f"{lm:%Y-%m-%d}~{lm + pd.Timedelta(days=4):%Y-%m-%d}"
 
 
 def is_new_high(df):
@@ -294,14 +318,15 @@ def run_stocks(market):
             highs.append({**row, "ref": num(ref)})
 
     n = SETTINGS["top_n"]
-    top_d1, top_w1 = top_n(rows, "d1", n), top_n(rows, "w1", n)
+    top_d1 = top_n(rows, "d1", n)
+    top_w1, w1_week = weekly_top(market, rows, trade_date, n)
     flags = ath_flags([h["ticker"] for h in highs], hist, trade_date)
     for h in highs:
         h["ath"], h["since"] = flags.get(h["ticker"], (False, None))
     highs.sort(key=lambda r: -(r["d1"] or 0))
     log(f"신고가 {len(highs)} (역대 {sum(h['ath'] for h in highs)})")
 
-    shown = {r["ticker"] for r in highs + top_d1 + top_w1}
+    shown = {r["ticker"] for r in highs + top_d1 + top_w1 if r["ticker"] in hist}
     every = highs + top_d1 + top_w1
     if market in ("jp", "tw"):  # 영문명은 캐시에 있는 것만 (새로 받는 건 meta 단계)
         names = read_json(CACHE / "names.json", {})
@@ -319,7 +344,7 @@ def run_stocks(market):
     write_json(DATA / market / f"{ds}.json", {
         "market": market, "date": ds, "generated_at": now_iso(),
         "universe": len(uni), "priced": len(rows), "criteria": criteria_text(),
-        "newhigh": highs, "top_d1": top_d1, "top_w1": top_w1,
+        "newhigh": highs, "top_d1": top_d1, "top_w1": top_w1, "w1_week": w1_week,
     })
     add_index(market, ds)
     log(f"저장 완료: docs/data/{market}/{ds}.json")
@@ -407,7 +432,8 @@ def run_etf():
             continue
         rows.append({"ticker": t, "name": name, **returns(df)})
     n = SETTINGS["top_n"]
-    tops = {"top_d1": top_n(rows, "d1", n), "top_w1": top_n(rows, "w1", n)}
+    w1, w1_week = weekly_top("etf", rows, trade_date, n)
+    tops = {"top_d1": top_n(rows, "d1", n), "top_w1": w1}
     log(f"집계 {len(rows)}개 (레버리지·인버스 제외 {skipped['lev']}, 상장 1년 미만 제외 {skipped['young']})")
 
     top_set = {r["ticker"] for v in tops.values() for r in v}
@@ -441,7 +467,7 @@ def run_etf():
     write_json(spath, shares)
 
     write_json(DATA / "etf" / f"{ds}.json", {"market": "etf", "date": ds, "generated_at": now_iso(),
-                                             "universe": len(uni), "priced": len(rows), "skipped": skipped,
+                                             "universe": len(uni), "priced": len(rows), "skipped": skipped, "w1_week": w1_week,
                                              **tops, "groups": groups})
     add_index("etf", ds)
     log(f"저장 완료: docs/data/etf/{ds}.json")
@@ -558,6 +584,12 @@ def run_macro_kr():
         S["kospi"] = {"label": "코스피", "type": "ohlc", "data": bars_of(kk["^KS11"])}
     if kk.get("^KQ11") is not None:
         S["kosdaq"] = {"label": "코스닥", "type": "ohlc", "data": bars_of(kk["^KQ11"])}
+    # 일본 니케이225 · 대만 가권지수 (아시아 장 마감 후 같은 단계에서 갱신)
+    asia = download(["^N225", "^TWII"], "4y")
+    for t, f, label in (("^N225", "jp", "니케이 225"), ("^TWII", "tw", "대만 가권지수")):
+        if asia.get(t) is not None:
+            write_json(DATA / "macro" / f"{f}.json", {"updated": now_iso(), "series": {
+                "index": {"label": label, "type": "ohlc", "data": bars_of(asia[t])}}}, compact=True)
     end = dt.date.today()
     start = (end - dt.timedelta(days=365 * 3 + 10)).strftime("%Y%m%d")
     end = end.strftime("%Y%m%d")

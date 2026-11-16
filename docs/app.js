@@ -60,6 +60,13 @@ function loadLWC() {
   })();
   return lwcPromise;
 }
+const fmtT = (t) => {
+  let y, m, d;
+  if (typeof t === 'string') [y, m, d] = t.split('-').map(Number);
+  else if (typeof t === 'number') { const x = new Date(t * 1000); y = x.getUTCFullYear(); m = x.getUTCMonth() + 1; d = x.getUTCDate(); }
+  else ({ year: y, month: m, day: d } = t);
+  return `${String(y).slice(2)}.${String(m).padStart(2, '0')}.${String(d).padStart(2, '0')}`;
+};
 function makeChart(el, extra = {}) {
   const th = theme();
   const c = LightweightCharts.createChart(el, {
@@ -69,7 +76,7 @@ function makeChart(el, extra = {}) {
     rightPriceScale: { borderVisible: false },
     leftPriceScale: { borderVisible: false },
     timeScale: { borderVisible: false },
-    localization: { locale: 'ko-KR' },
+    localization: { locale: 'ko-KR', timeFormatter: fmtT },
     crosshair: { mode: 0 },
     ...extra,
   });
@@ -156,7 +163,7 @@ function maRsiCard(id, s, MA = [[5, '#e5489b'], [20, '#f0a020'], [60, '#2fa84f']
   const card = document.getElementById(id); if (!card || !s) return;
   cardHeader(card, s.data);
   const th = theme();
-  const main = makeChart($('.cbox', card), { timeScale: { visible: false, borderVisible: false } });
+  const main = makeChart($('.cbox', card));
   const cs = main.addCandlestickSeries({ upColor: th.up, downColor: th.down, wickUpColor: th.up, wickDownColor: th.down, borderVisible: false, priceLineVisible: false });
   const d = s.data, closes = d.map((b) => b[4]);
   cs.setData(d.map((b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] })));
@@ -313,18 +320,23 @@ function stockSections(day, mk) {
   return `<p class="muted small" style="margin:18px 0 -14px">${fmtDate(day.date)} 기준 · 집계 ${day.priced?.toLocaleString()}종목 · 신고가: ${esc(day.criteria)} · 오른쪽 차트는 왼쪽에서 종목을 누르면 바뀝니다</p>`
     + panelHTML(`${mk}-high`, '신고가', day.newhigh, { metric: 'd1', copy: true })
     + panelHTML(`${mk}-d1`, '일간 상승률 상위', day.top_d1, { metric: 'd1' })
-    + panelHTML(`${mk}-w1`, '주간 상승률 상위', day.top_w1, { metric: 'w1' });
+    + panelHTML(`${mk}-w1`, wkTitle(day), day.top_w1, { metric: 'w1' });
 }
 function bindStocks(day, mk) {
   if (!day) return;
   const showMeta = mk !== 'kr';
   bindPanel(`${mk}-high`, day.newhigh, { metric: 'd1', chartMarket: mk, defRange: '1Y', showMeta });
-  bindPanel(`${mk}-d1`, day.top_d1, { metric: 'd1', chartMarket: mk, defRange: '3M', showMeta });
-  bindPanel(`${mk}-w1`, day.top_w1, { metric: 'w1', chartMarket: mk, defRange: '3M', showMeta });
+  bindPanel(`${mk}-d1`, day.top_d1, { metric: 'd1', chartMarket: mk, defRange: '6M', showMeta });
+  bindPanel(`${mk}-w1`, day.top_w1, { metric: 'w1', chartMarket: mk, defRange: '6M', showMeta });
   const btn = document.querySelector(`[data-copy="${mk}-high"]`);
   if (btn) btn.onclick = async () => { try { await navigator.clipboard.writeText(highsText(day)); btn.textContent = '복사됨 ✓'; } catch { btn.textContent = '복사 실패'; } setTimeout(() => (btn.textContent = '텍스트 복사'), 1500); };
 }
 
+function wkTitle(day) {
+  const w = day?.w1_week; if (!w) return '주간 상승률 상위';
+  const [a, b] = w.split('~'); const f = (x) => x.slice(5).replace('-', '/');
+  return `주간 상승률 상위 <span class="small muted">(${f(a)}~${f(b.slice(0, 10))} 한 주 · 매주 금요일 장 마감 후 갱신)</span>`;
+}
 async function pageUS(day) {
   const mac = await getJSON('data/macro/us.json').catch(() => null);
   const S = mac?.series || {};
@@ -361,15 +373,15 @@ async function pageKR(day) {
   bindStocks(day, 'kr');
 }
 
-async function pageTW(day) {
-  $('#main').innerHTML = stockSections(day, 'tw');
-  bindStocks(day, 'tw');
+async function pageIdx(day, mk, title) {
+  const mac = await getJSON(`data/macro/${mk}.json`).catch(() => null);
+  $('#main').innerHTML = `<h2 class="sec">지수</h2><div class="grid">${cardHTML(`c-${mk}idx`, `${title} (일봉 · 이동평균 · RSI)`, true, '<div class="rsibox"></div><div class="legend"></div>')}</div>` + stockSections(day, mk);
+  if (mac?.series?.index) maRsiCard(`c-${mk}idx`, mac.series.index, undefined, ['3M', '6M', '1Y', '3Y'], '1Y');
+  else $(`#c-${mk}idx .cbox`).innerHTML = '<p class="muted small">지수 데이터가 아직 없습니다.</p>';
+  bindStocks(day, mk);
 }
-
-async function pageJP(day) {
-  $('#main').innerHTML = stockSections(day, 'jp');
-  bindStocks(day, 'jp');
-}
+const pageTW = (day) => pageIdx(day, 'tw', '대만 가권지수');
+const pageJP = (day) => pageIdx(day, 'jp', '니케이 225');
 
 function etfExtra(it) {
   const hs = it.shares || [];
@@ -398,11 +410,11 @@ async function pageETF(day) {
     rows += `<button class="lrow" data-i="${i}"><span class="rk"><span class="caret">▶</span></span><span class="nm"><b>${esc(it.label)}</b><span class="ind">${esc(it.ticker)}</span></span><span class="pc ${cls(it.d1)}">${fp(it.d1)}</span></button><div class="hwrap" data-h="${i}" hidden>${holdsHTML(it)}</div>`;
   });
   $('#main').innerHTML = panelHTML('etf-d1', '일간 상승률 상위', d1, { metric: 'd1', tools: tool })
-    + panelHTML('etf-w1', '주간 상승률 상위', w1, { metric: 'w1' })
+    + panelHTML('etf-w1', wkTitle(day), w1, { metric: 'w1' })
     + `<h2 class="sec">관심 ETF <span class="n">${watch.length}</span></h2><p class="muted small" style="margin:-4px 0 8px">ETF 이름을 누르면 상위 구성종목 10개가 펼쳐지고, 오른쪽에 차트와 좌수 변동이 나옵니다.</p>
        <div class="panel" id="etf-watch"><div class="list">${rows}</div>${detailHTML()}</div>`;
-  bindPanel('etf-d1', d1, { metric: 'd1', chartMarket: 'etf', defRange: '1Y' });
-  bindPanel('etf-w1', w1, { metric: 'w1', chartMarket: 'etf', defRange: '1Y' });
+  bindPanel('etf-d1', d1, { metric: 'd1', chartMarket: 'etf', defRange: '6M' });
+  bindPanel('etf-w1', w1, { metric: 'w1', chartMarket: 'etf', defRange: '6M' });
   // 관심 ETF: 이름 클릭 → 구성종목 펼침/접기 + 차트
   const el = document.getElementById('etf-watch');
   panels.set('etf-watch', { items: watch, opts: { metric: 'd1', chartMarket: 'etf', defRange: '1Y', extra: etfExtra }, chart: null, seq: 0 });
