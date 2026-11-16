@@ -1,0 +1,17 @@
+name: Schedule
+# 매일 자동 실행 시각 (UTC 기준, 한국시간 = UTC+9)
+# ※ 이 파일은 저장소 주인이 GitHub 웹에서 직접 한 번 수정해야 예약이 작동합니다.
+on:
+  schedule:
+    - cron: "10 7 * * 1-5"   # 한국·일본·대만: 16:10 KST
+    - cron: "0 22 * * 1-5"   # 미국·ETF: 07:00 KST (다음 날)
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    uses: ./.github/workflows/update.yml
+    with:
+      market: ${{ contains(github.event.schedule, ' 7 ') && 'kr,jp,tw,macro_kr' || 'etf,macro_us,us' }}
+    secrets: inherit

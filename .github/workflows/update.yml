@@ -1,25 +1,26 @@
 name: Daily update
 
 on:
-  schedule:
-    - cron: "10 7 * * 1-5"   # 한국·일본·대만: 16:10 KST (장 마감 후)
-    - cron: "0 22 * * 1-5"   # 미국·ETF: 22:00 UTC = 한국 07:00 (장 마감 후)
   workflow_dispatch:
     inputs:
       market:
-        description: "all 또는 쉼표로: us,kr,jp,etf,macro_us,macro_kr / none(사이트 파일만 갱신)"
+        description: "all 또는 쉼표로: us,kr,jp,tw,etf,macro_us,macro_kr / none(사이트 파일만 갱신)"
         required: true
         default: "all"
+  workflow_call:   # schedule.yml 이 매일 이 워크플로를 부른다
+    inputs:
+      market:
+        type: string
+        required: true
 
 permissions:
   contents: write
 
-concurrency:
-  group: daily-update
-  cancel-in-progress: false
-
 jobs:
   update:
+    concurrency:
+      group: daily-update
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
@@ -34,14 +35,7 @@ jobs:
 
       - name: 어느 시장을 돌릴지 결정
         id: m
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "market=${{ inputs.market }}" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "10 7 * * 1-5" ]; then
-            echo "market=kr,jp,tw,macro_kr" >> "$GITHUB_OUTPUT"
-          else
-            echo "market=etf,macro_us,us" >> "$GITHUB_OUTPUT"
-          fi
+        run: echo "market=${{ inputs.market }}" >> "$GITHUB_OUTPUT"
 
       - name: 차트 라이브러리 내려받기 (없을 때만)
         run: |
