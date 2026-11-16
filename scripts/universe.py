@@ -11,7 +11,7 @@ from pathlib import Path
 import pandas as pd
 import requests
 
-from industry_map import NASDAQ_SECTOR, jp_category, us_category
+from industry_map import NASDAQ_SECTOR, jp_category, tw_category, us_category
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"}
 NASDAQ_SCREENER = "https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25000&download=true"
@@ -157,6 +157,31 @@ def _kr():
     return out
 
 
+def _tw():
+    """대만: TWSE 상장(.TW) + TPEx 상장(.TWO) 보통주 (CFI 코드 ES로 시작)."""
+    out = {}
+    for mode, suf in ((2, ".TW"), (4, ".TWO")):
+        r = requests.get(f"https://isin.twse.com.tw/isin/C_public.jsp?strMode={mode}", headers=UA, timeout=120)
+        r.encoding = "cp950"
+        df = pd.read_html(io.StringIO(r.text), header=0)[0]
+        cols = list(df.columns)
+        cname = next(c for c in cols if "代號" in str(c))
+        cind = next((c for c in cols if "產業" in str(c)), None)
+        ccfi = next((c for c in cols if "CFI" in str(c)), None)
+        for _, x in df.iterrows():
+            cfi = str(x[ccfi]) if ccfi is not None else ""
+            if not cfi.startswith("ES"):
+                continue
+            parts = str(x[cname]).replace("\u3000", " ").split()
+            if len(parts) < 2 or not parts[0].isdigit():
+                continue
+            sector, ind = tw_category(str(x[cind]) if cind is not None else "")
+            out[parts[0] + suf] = {"name": " ".join(parts[1:]), "name_local": " ".join(parts[1:]),
+                                   "sector": sector, "industry": ind, "small": False,
+                                   "market": "TWSE" if suf == ".TW" else "TPEx"}
+    return out
+
+
 def _etf():
     out = {}
     for f in ("nasdaqlisted", "otherlisted"):
@@ -177,7 +202,7 @@ def _etf():
 def load_universe(market: str, cache_dir: Path, us_min_mcap=3e8):
     path = cache_dir / f"universe_{market}.json"
     try:
-        uni = _us(us_min_mcap) if market == "us" else {"jp": _jp, "kr": _kr, "etf": _etf}[market]()
+        uni = _us(us_min_mcap) if market == "us" else {"jp": _jp, "kr": _kr, "tw": _tw, "etf": _etf}[market]()
         if len(uni) < 300:
             raise RuntimeError(f"종목 수가 너무 적음: {len(uni)}")
         path.write_text(json.dumps(uni, ensure_ascii=False, indent=0), "utf-8")

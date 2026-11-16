@@ -105,3 +105,4 @@ h2.sec .n{color:var(--muted);font-weight:500;font-size:14px}
 .lrow .rk .caret{margin-right:2px}
 .lrow:has(.caret){grid-template-columns:44px minmax(0,1fr) auto}
 .lrow .nm{-webkit-line-clamp:3}
+.dmeta{font-size:12px;font-weight:500;color:var(--muted);margin-left:2px}

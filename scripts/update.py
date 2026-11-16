@@ -303,11 +303,11 @@ def run_stocks(market):
 
     shown = {r["ticker"] for r in highs + top_d1 + top_w1}
     every = highs + top_d1 + top_w1
-    if market == "jp" and SETTINGS.get("jp_english_names"):
-        names = english_names(sorted(shown))
+    if market in ("jp", "tw"):  # 영문명은 캐시에 있는 것만 (새로 받는 건 meta 단계)
+        names = read_json(CACHE / "names.json", {})
         for r in every:
             r["name"] = names.get(r["ticker"], r["name"])
-    if market == "us":
+    if market != "kr":
         rs = rs_ratings(hist, trade_date)
         for r in every:
             r["rs"] = rs.get(r["ticker"])
@@ -466,9 +466,9 @@ def run_macro_us():
     if vix is not None:
         S["vix"] = {"label": "VIX (변동성지수)", "type": "ohlc", "data": bars_of(vix)}
     # 국채 금리 일봉 (Yahoo: 5년 ^FVX · 10년 ^TNX · 30년 ^TYX, 2년은 국채 2년 선물 수익률 2YY=F)
-    ylds = download(["2YY=F", "^FVX", "^TNX", "^TYX"], "10y")
+    ylds = download(["^FVX", "^TNX", "^TYX"], "10y")
     yahoo_yields = {}
-    for key, t in (("ust2", "2YY=F"), ("ust5", "^FVX"), ("ust10", "^TNX"), ("ust30", "^TYX")):
+    for key, t in (("ust5", "^FVX"), ("ust10", "^TNX"), ("ust30", "^TYX")):
         df = ylds.get(t)
         if df is None or len(df) < 100:
             continue
@@ -585,11 +585,17 @@ def run_meta():
     미국: 시가총액·PER·PSR / ETF: 상승률 상위 ETF 구성종목. 최신 날짜 파일을 보완한다."""
     log("===== 보조 정보 =====")
     idx = read_json(DATA / "index.json", {})
-    if idx.get("us"):
-        p = DATA / "us" / f"{idx['us'][0]}.json"
+    for mk in ("us", "jp", "tw"):
+        if not idx.get(mk):
+            continue
+        p = DATA / mk / f"{idx[mk][0]}.json"
         day = read_json(p, None)
         if day:
             every = day["newhigh"] + day["top_d1"] + day["top_w1"]
+            if mk in ("jp", "tw"):
+                names = english_names(sorted({r["ticker"] for r in every}))
+                for r in every:
+                    r["name"] = names.get(r["ticker"], r["name"])
             fu = fundamentals(sorted({r["ticker"] for r in every}), {r["ticker"]: r["close"] for r in every})
             for r in every:
                 f = fu.get(r["ticker"], {})
@@ -597,7 +603,7 @@ def run_meta():
                     r["mcap"] = f["mcap"]
                 r["per"], r["psr"] = f.get("per"), f.get("psr")
             write_json(p, day)
-            log(f"미국 재무 정보 {sum(1 for t in fu.values() if t.get('per') or t.get('psr'))}/{len({r['ticker'] for r in every})}")
+            log(f"[{mk}] 재무 정보 {sum(1 for t in fu.values() if t.get('per') or t.get('psr'))}/{len({r['ticker'] for r in every})}")
     if idx.get("etf"):
         p = DATA / "etf" / f"{idx['etf'][0]}.json"
         day = read_json(p, None)
@@ -624,6 +630,7 @@ def run_meta():
 # ---------------------------------------------------------------- 실행
 JOBS = {"etf": run_etf, "macro_us": run_macro_us, "macro_kr": run_macro_kr,
         "us": lambda: run_stocks("us"), "kr": lambda: run_stocks("kr"), "jp": lambda: run_stocks("jp"),
+        "tw": lambda: run_stocks("tw"),
         "meta": run_meta}
 
 

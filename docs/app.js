@@ -1,6 +1,6 @@
 // 마켓 보드 — 정적 사이트 (GitHub Pages)
 // 주소 형식: #<tab>/<date>   예) #us/2026-11-13, #kr, #etf
-const TABS = { us: { flag: '🇺🇸', name: '미국' }, kr: { flag: '🇰🇷', name: '한국' }, jp: { flag: '🇯🇵', name: '일본' }, etf: { flag: '📊', name: 'ETF' } };
+const TABS = { us: { flag: '🇺🇸', name: '미국' }, kr: { flag: '🇰🇷', name: '한국' }, jp: { flag: '🇯🇵', name: '일본' }, tw: { flag: '🇹🇼', name: '대만' }, etf: { flag: '📊', name: 'ETF' } };
 const WD = ['일', '월', '화', '수', '목', '금', '토'];
 const FG_KO = { 'extreme fear': '극단적 공포', fear: '공포', neutral: '중립', greed: '탐욕', 'extreme greed': '극단적 탐욕' };
 const $ = (s, r = document) => r.querySelector(s);
@@ -27,8 +27,12 @@ const fmtDate = (d) => { const [y, m, dd] = d.split('-'); return `${y}.${m}.${dd
 const fp = (v, d = 2) => (v == null ? '–' : `${v > 0 ? '+' : ''}${v.toFixed(d)}%`);
 const cls = (v) => (v == null ? '' : v > 0 ? 'up' : v < 0 ? 'down' : '');
 const fnum = (v, d) => (v == null ? '–' : v.toLocaleString('ko-KR', { minimumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2), maximumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2) }));
-const fcap = (v) => (v >= 1e12 ? `$${(v / 1e12).toFixed(2)}T` : v >= 1e9 ? `$${(v / 1e9).toFixed(1)}B` : `$${Math.round(v / 1e6)}M`);
-const code = (t) => t.replace(/\.(T|KS|KQ)$/, '');
+function fcap(v, mk = 'us') {
+  if (mk === 'us') return v >= 1e12 ? `$${(v / 1e12).toFixed(2)}T` : v >= 1e9 ? `$${(v / 1e9).toFixed(1)}B` : `$${Math.round(v / 1e6)}M`;
+  const cur = mk === 'jp' ? '엔' : mk === 'tw' ? '대만달러' : '원';
+  return v >= 1e12 ? `${(v / 1e12).toFixed(1)}조${cur}` : `${Math.round(v / 1e8).toLocaleString()}억${cur}`;
+}
+const code = (t) => t.replace(/\.(T|KS|KQ|TW|TWO)$/, '');
 const rgba = (hex, a) => { const h = hex.replace('#', ''); const f = h.length === 3 ? h.split('').map((c) => c + c).join('') : h; const n = parseInt(f.slice(0, 6), 16); return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`; };
 function theme() {
   const c = getComputedStyle(document.documentElement);
@@ -204,11 +208,10 @@ function fundsCard(id, dep, cre) {
 function rowHTML(it, i, metric, extra = '') {
   const ind = it.industry ? `<span class="ind">(${esc(it.industry)})</span>` : '';
   const tags = (it.ath ? '<span class="tag ath">역대</span>' : '') + (it.small ? '<span class="tag">소형</span>' : '');
-  const meta = [it.rs != null ? `RS ${it.rs}` : '', it.mcap ? `시총 ${fcap(it.mcap)}` : '', it.per != null ? `PER ${it.per}` : '', it.psr != null ? `PSR ${it.psr}` : ''].filter(Boolean).join(' · ');
   const hold = it.holdings !== undefined;
   return `<button class="lrow" data-i="${i}" title="${esc(it.name)} ${esc(it.industry || '')}">
     <span class="rk">${hold ? '<span class="caret">▶</span>' : ''}${extra || `${i + 1}위`}</span>
-    <span class="nm"><b>${esc(it.name)}</b>${hold ? `<span class="ind">${esc(it.ticker)}</span>` : ''}${tags}${ind}${meta ? `<span class="meta">${meta}</span>` : ''}</span>
+    <span class="nm"><b>${esc(it.name)}</b>${hold ? `<span class="ind">${esc(it.ticker)}</span>` : ''}${tags}${ind}</span>
     <span class="pc ${cls(it[metric])}">${fp(it[metric])}</span></button>${hold ? `<div class="hwrap" data-h="${i}" hidden>${holdsHTML(it)}</div>` : ''}`;
 }
 const detailHTML = () => `<div class="detail"><div class="dhead"><div><div class="dname"></div><div class="dsub"></div></div><div class="dprice"><div class="v"></div><div class="c"></div></div></div>
@@ -239,8 +242,9 @@ async function selectItem(id, i) {
   const it = p.items[i]; const seq = ++p.seq;
   el.querySelectorAll('.lrow').forEach((r) => r.classList.toggle('on', Number(r.dataset.i) === i));
   const det = $('.detail', el), box = $('.dbox', det);
-  $('.dname', det).textContent = it.name;
   const mk = p.opts.chartMarket;
+  const meta = p.opts.showMeta ? [it.rs != null ? `RS ${it.rs}` : '', it.mcap ? `시총 ${fcap(it.mcap, mk)}` : '', it.per != null ? `PER ${it.per}` : '', it.psr != null ? `PSR ${it.psr}` : ''].filter(Boolean).join(' · ') : '';
+  $('.dname', det).innerHTML = `${esc(it.name)}${meta ? ` <span class="dmeta">(${meta})</span>` : ''}`;
   const sub = [mk === 'etf' ? it.ticker : (mk === 'us' ? it.ticker : code(it.ticker)), it.name_local, it.industry].filter(Boolean).join(' · ');
   $('.dsub', det).textContent = sub;
   const m = p.opts.metric;
@@ -287,6 +291,7 @@ RANGES['1M'] = 1;
 function links(t, mk) {
   const y = `<a href="https://finance.yahoo.com/quote/${encodeURIComponent(t)}" target="_blank" rel="noopener">Yahoo Finance ↗</a>`;
   if (mk === 'jp') return y + `<a href="https://kabutan.jp/stock/?code=${encodeURIComponent(code(t))}" target="_blank" rel="noopener">株探 ↗</a>`;
+  if (mk === 'tw') return y + `<a href="https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=${encodeURIComponent(code(t))}" target="_blank" rel="noopener">Goodinfo ↗</a>`;
   if (mk === 'kr') return `<a href="https://finance.naver.com/item/main.naver?code=${encodeURIComponent(code(t))}" target="_blank" rel="noopener">네이버 금융 ↗</a>` + y;
   if (mk === 'etf') return y + `<a href="https://stockanalysis.com/etf/${encodeURIComponent(t.toLowerCase())}/holdings/" target="_blank" rel="noopener">전체 구성종목 ↗</a>`;
   return y + `<a href="https://finviz.com/quote.ashx?t=${encodeURIComponent(t)}" target="_blank" rel="noopener">Finviz ↗</a>`;
@@ -312,9 +317,10 @@ function stockSections(day, mk) {
 }
 function bindStocks(day, mk) {
   if (!day) return;
-  bindPanel(`${mk}-high`, day.newhigh, { metric: 'd1', chartMarket: mk, defRange: '1Y' });
-  bindPanel(`${mk}-d1`, day.top_d1, { metric: 'd1', chartMarket: mk, defRange: '3M' });
-  bindPanel(`${mk}-w1`, day.top_w1, { metric: 'w1', chartMarket: mk, defRange: '3M' });
+  const showMeta = mk !== 'kr';
+  bindPanel(`${mk}-high`, day.newhigh, { metric: 'd1', chartMarket: mk, defRange: '1Y', showMeta });
+  bindPanel(`${mk}-d1`, day.top_d1, { metric: 'd1', chartMarket: mk, defRange: '3M', showMeta });
+  bindPanel(`${mk}-w1`, day.top_w1, { metric: 'w1', chartMarket: mk, defRange: '3M', showMeta });
   const btn = document.querySelector(`[data-copy="${mk}-high"]`);
   if (btn) btn.onclick = async () => { try { await navigator.clipboard.writeText(highsText(day)); btn.textContent = '복사됨 ✓'; } catch { btn.textContent = '복사 실패'; } setTimeout(() => (btn.textContent = '텍스트 복사'), 1500); };
 }
@@ -325,8 +331,9 @@ async function pageUS(day) {
   const fgNow = S.fg?.now ? `<span class="badge">${esc(FG_KO[S.fg.now.rating] || S.fg.now.rating)}</span>` : '';
   const RSI_BOX = '<div class="rsibox"></div><div class="legend"></div>';
   let html = `<h2 class="sec">지수</h2><div class="grid">${cardHTML('c-dji', '다우존스 (일봉 · 이동평균 · RSI)', true, RSI_BOX)}${cardHTML('c-ixic', '나스닥 종합 (일봉 · 이동평균 · RSI)', true, RSI_BOX)}${cardHTML('c-spx', 'S&P 500 (일봉 · 이동평균 · RSI)', true, RSI_BOX)}</div>
-    <h2 class="sec">심리 · 변동성</h2><div class="grid">${cardHTML('c-vix', 'VIX (변동성지수)')}${cardHTML('c-fg', '공포탐욕지수 <span class="small muted">CNN</span>')}${cardHTML('c-pc', 'Put/Call 비율 <span class="small muted">5일 평균</span>')}</div>
-    <h2 class="sec">미국 국채 금리</h2><div class="grid">${cardHTML('c-u2', '2년물')}${cardHTML('c-u5', '5년물')}${cardHTML('c-u10', '10년물')}${cardHTML('c-u20', '20년물')}${cardHTML('c-u30', '30년물')}</div>`;
+    <h2 class="sec">변동성 · 심리</h2><div class="grid">${cardHTML('c-vix', 'VIX (변동성지수) · 일봉', true)}</div>
+    <div class="grid two" style="margin-top:12px">${cardHTML('c-fg', '공포탐욕지수 <span class="small muted">CNN</span>')}${cardHTML('c-pc', 'Put/Call 비율 <span class="small muted">5일 평균</span>')}</div>
+    <h2 class="sec">미국 국채 금리</h2><div class="grid">${cardHTML('c-u2', '2년물 <span class="small muted">(일봉 자료 없음 · 재무부 종가)</span>', true)}${cardHTML('c-u10', '10년물 · 일봉', true)}${cardHTML('c-u30', '30년물 · 일봉', true)}</div>`;
   html += stockSections(day, 'us');
   $('#main').innerHTML = html;
   const th = theme();
@@ -336,7 +343,7 @@ async function pageUS(day) {
   anyCard('c-vix', S.vix, { color: th.up, def: '1Y', bands: [20, 30] });
   lineCard('c-fg', S.fg, { color: th.accent, dec: 1, def: '1Y', bands: [25, 50, 75], badge: fgNow });
   lineCard('c-pc', S.pc, { color: '#8a5cf6', dec: 3, def: '1Y', bands: [1] });
-  [['c-u2', 'ust2'], ['c-u5', 'ust5'], ['c-u10', 'ust10'], ['c-u20', 'ust20'], ['c-u30', 'ust30']].forEach(([id, k]) => anyCard(id, S[k], { color: '#2fa84f', unit: '%', bp: true, def: '1Y', dec: 3 }));
+  [['c-u2', 'ust2'], ['c-u10', 'ust10'], ['c-u30', 'ust30']].forEach(([id, k]) => anyCard(id, S[k], { color: '#2fa84f', unit: '%', bp: true, def: '1Y', dec: 3 }));
   bindStocks(day, 'us');
 }
 
@@ -352,6 +359,11 @@ async function pageKR(day) {
   maRsiCard('c-kosdaq', S.kosdaq, undefined, ['3M', '6M', '1Y', '3Y'], '1Y');
   fundsCard('c-funds', S.deposit, S.credit);
   bindStocks(day, 'kr');
+}
+
+async function pageTW(day) {
+  $('#main').innerHTML = stockSections(day, 'tw');
+  bindStocks(day, 'tw');
 }
 
 async function pageJP(day) {
@@ -430,7 +442,7 @@ async function render() {
   if (seq !== renderSeq) return;
   if (!okLib) { $('#main').innerHTML = '<div class="empty">차트 라이브러리를 불러오지 못했습니다. 새로고침해 주세요.</div>'; return; }
   try {
-    await ({ us: pageUS, kr: pageKR, jp: pageJP, etf: pageETF }[state.tab])(day);
+    await ({ us: pageUS, kr: pageKR, jp: pageJP, tw: pageTW, etf: pageETF }[state.tab])(day);
   } catch (e) { console.error(e); $('#main').innerHTML = `<div class="empty">화면을 그리다 오류가 났습니다: ${esc(e.message || e)}</div>`; }
 }
 
