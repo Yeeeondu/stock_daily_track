@@ -1,9 +1,9 @@
 {
  "market": "kr",
  "date": "2026-11-16",
- "generated_at": "2026-11-16T13:11:48+00:00",
+ "generated_at": "2026-11-17T16:56:47+00:00",
  "universe": 2662,
- "priced": 2548,
+ "priced": 2539,
  "criteria": "상승·양봉 마감 · 장중 52주(252거래일) 고가 돌파",
  "newhigh": [
   {
@@ -243,18 +243,6 @@
    "w1_prev": 29.29
   },
   {
-   "ticker": "489460.KQ",
-   "name": "바이오비쥬",
-   "name_local": "",
-   "sector": "기타 화학제품 제조업",
-   "industry": "기타 화학제품 제조업",
-   "small": false,
-   "close": 15000.0,
-   "d1": 13.9,
-   "w1": 13.9,
-   "w1_prev": 0.0
-  },
-  {
    "ticker": "192440.KQ",
    "name": "슈피겐코리아",
    "name_local": "",
@@ -325,18 +313,6 @@
    "d1": 11.88,
    "w1": 11.88,
    "w1_prev": -4.73
-  },
-  {
-   "ticker": "435570.KQ",
-   "name": "에르코스",
-   "name_local": "",
-   "sector": "도시락 및 식사용 조리식품 제조업",
-   "industry": "도시락 및 식사용 조리식품 제조업",
-   "small": false,
-   "close": 7530.0,
-   "d1": 11.39,
-   "w1": 11.39,
-   "w1_prev": 0.0
   },
   {
    "ticker": "294140.KQ",
@@ -637,6 +613,30 @@
    "d1": 6.49,
    "w1": 6.49,
    "w1_prev": -7.45
+  },
+  {
+   "ticker": "003230.KS",
+   "name": "삼양식품",
+   "name_local": "",
+   "sector": "기타 식품 제조업",
+   "industry": "기타 식품 제조업",
+   "small": false,
+   "close": 1285000.0,
+   "d1": 6.2,
+   "w1": 6.2,
+   "w1_prev": -0.82
+  },
+  {
+   "ticker": "080530.KQ",
+   "name": "코디",
+   "name_local": "",
+   "sector": "기타 화학제품 제조업",
+   "industry": "기타 화학제품 제조업",
+   "small": false,
+   "close": 2160.0,
+   "d1": 6.14,
+   "w1": 6.14,
+   "w1_prev": 3.35
   }
  ],
  "top_w1": [

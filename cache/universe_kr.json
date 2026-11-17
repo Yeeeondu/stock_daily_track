@@ -1,4 +1,12 @@
 {
+"471800.KQ": {
+"name": "에이엘로봇",
+"name_local": "",
+"sector": "특수 목적용 기계 제조업",
+"industry": "특수 목적용 기계 제조업",
+"small": false,
+"market": "코스닥"
+},
 "493260.KQ": {
 "name": "옵토닉스",
 "name_local": "",
@@ -2359,14 +2367,6 @@
 "small": false,
 "market": "코스닥"
 },
-"474660.KQ": {
-"name": "신한제12호스팩",
-"name_local": "",
-"sector": "금융 지원 서비스업",
-"industry": "금융 지원 서비스업",
-"small": false,
-"market": "코스닥"
-},
 "461030.KQ": {
 "name": "아이엠비디엑스",
 "name_local": "",
@@ -4128,7 +4128,7 @@
 "market": "코스닥"
 },
 "200350.KQ": {
-"name": "아티스트스튜디오",
+"name": "스튜디오쏠쏠",
 "name_local": "",
 "sector": "영화, 비디오물, 방송프로그램 제작 및 배급업",
 "industry": "영화, 비디오물, 방송프로그램 제작 및 배급업",
