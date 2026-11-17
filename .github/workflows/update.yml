@@ -49,6 +49,8 @@ jobs:
 
       - name: 데이터 집계
         if: steps.m.outputs.market != 'none'
+        env:
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
         run: python scripts/update.py --market "${{ steps.m.outputs.market }}"
 
       - name: 결과 커밋

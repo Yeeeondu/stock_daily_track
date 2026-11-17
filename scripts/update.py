@@ -704,6 +704,52 @@ def run_macro_kr():
     out["updated"] = now_iso()
     write_json(DATA / "macro" / "kr.json", out, compact=True)
     log("저장 완료: docs/data/macro/kr.json")
+    run_vkospi()
+
+
+def run_vkospi():
+    """코스피 200 변동성지수(VKOSPI) — 한국거래소 Open API (인증키: 환경변수 KRX_API_KEY).
+    KRX는 다음 날 공개하므로, 비어 있는 날짜는 다음 실행에서 다시 받는다."""
+    import os
+    import requests
+    key = os.environ.get("KRX_API_KEY")
+    if not key:
+        log("KRX_API_KEY 없음 — VKOSPI 건너뜀")
+        return
+    log("===== VKOSPI =====")
+    cpath = CACHE / "vkospi.json"
+    cache = read_json(cpath, {})
+    kr = read_json(DATA / "macro" / "kr.json", {"series": {}})
+    days = [b[0] for b in kr.get("series", {}).get("kospi", {}).get("data", [])]
+    cut = (dt.date.today() - dt.timedelta(days=365 * 3 + 10)).isoformat()
+    days = [d for d in days if d >= cut]
+    if not days:  # 코스피 날짜가 없으면 최근 평일로
+        days = [str(d.date()) for d in pd.bdate_range(end=dt.date.today(), periods=760)]
+    today = dt.date.today()
+    todo = [d for d in days if d not in cache] + [today.isoformat(), (today - dt.timedelta(days=1)).isoformat()]
+    got = 0
+    for d in dict.fromkeys(todo):
+        if d in cache:
+            continue
+        try:
+            r = requests.get("https://data-dbg.krx.co.kr/svc/apis/idx/drvprod_dd_trd", params={"basDd": d.replace("-", "")},
+                             headers={"AUTH_KEY": key}, timeout=30)
+            for x in (r.json().get("OutBlock_1") or []):
+                if x.get("IDX_NM") == "코스피 200 변동성지수":
+                    f = lambda k: float(str(x.get(k, "0")).replace(",", "") or 0)  # noqa: E731
+                    if f("CLSPRC_IDX"):
+                        cache[d] = [f("OPNPRC_IDX") or f("CLSPRC_IDX"), f("HGPRC_IDX") or f("CLSPRC_IDX"),
+                                    f("LWPRC_IDX") or f("CLSPRC_IDX"), f("CLSPRC_IDX")]
+                        got += 1
+        except Exception as e:  # noqa: BLE001
+            log("  VKOSPI 오류", d, repr(e)[:100])
+        time.sleep(0.15)
+    write_json(cpath, dict(sorted(cache.items())))
+    kr.setdefault("series", {})["vkospi"] = {"label": "VKOSPI (코스피200 변동성지수)", "type": "ohlc",
+                                             "data": [[d, *v, 0] for d, v in sorted(cache.items()) if d >= cut]}
+    kr["updated"] = now_iso()
+    write_json(DATA / "macro" / "kr.json", kr, compact=True)
+    log(f"VKOSPI 새로 {got}일, 총 {len(cache)}일")
 
 
 # ---------------------------------------------------------------- 보조 정보 (별도 프로세스에서 실행)
@@ -759,7 +805,7 @@ def run_meta():
 # ---------------------------------------------------------------- 실행
 JOBS = {"etf": run_etf, "macro_us": run_macro_us, "macro_kr": run_macro_kr,
         "us": lambda: run_stocks("us"), "kr": lambda: run_stocks("kr"), "jp": lambda: run_stocks("jp"),
-        "tw": lambda: run_stocks("tw"),
+        "tw": lambda: run_stocks("tw"), "vkospi": run_vkospi,
         "meta": run_meta}
 
 

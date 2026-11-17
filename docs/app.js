@@ -385,12 +385,14 @@ async function pageKR(day) {
   const mac = await getJSON('data/macro/kr.json').catch(() => null);
   const S = mac?.series || {};
   const RB = '<div class="rsibox"></div><div class="legend"></div>';
-  let html = `<h2 class="sec">지수</h2><div class="grid">${cardHTML('c-kospi', '코스피 (일봉 · 이동평균 · RSI)', true, RB)}${cardHTML('c-kosdaq', '코스닥 (일봉 · 이동평균 · RSI)', true, RB)}</div>
+  let html = `<h2 class="sec">지수</h2><div class="grid">${cardHTML('c-kospi', '코스피 (일봉 · 이동평균 · RSI)', true, RB)}${cardHTML('c-kosdaq', '코스닥 (일봉 · 이동평균 · RSI)', true, RB)}${cardHTML('c-vkospi', 'VKOSPI · 코스피200 변동성지수 <span class="small muted">(일봉 · 한국거래소, 하루 늦게 반영)</span>', true)}</div>
     <h2 class="sec">증시 자금</h2><div class="grid">${cardHTML('c-funds', '투자자 예탁금 · 신용잔고', true, '<div class="legend"></div>')}</div>`;
   html += stockSections(day, 'kr');
   $('#main').innerHTML = html;
   maRsiCard('c-kospi', S.kospi, undefined, ['3M', '6M', '1Y', '3Y'], '1Y');
   maRsiCard('c-kosdaq', S.kosdaq, undefined, ['3M', '6M', '1Y', '3Y'], '1Y');
+  if (S.vkospi) ohlcCard('c-vkospi', S.vkospi, { ranges: ['3M', '6M', '1Y', '3Y'], def: '1Y', bands: [20, 30] });
+  else $('#c-vkospi .cbox').innerHTML = '<p class="muted small">데이터 준비 중입니다.</p>';
   fundsCard('c-funds', S.deposit, S.credit);
   bindStocks(day, 'kr');
 }
