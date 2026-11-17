@@ -82,7 +82,18 @@
    "d1": 3.29,
    "w1": -13.05,
    "w1_prev": -15.73,
-   "holdings": []
+   "holdings": [
+    {
+     "symbol": "AGPXX",
+     "name": "Invesco Shrt-Trm Inv Gov&Agcy Instl",
+     "pct": 24.45
+    },
+    {
+     "symbol": "BSOL",
+     "name": "Bitwise Solana Staking ETF",
+     "pct": 21.98
+    }
+   ]
   },
   {
    "ticker": "ZCSH",
@@ -165,7 +176,13 @@
    "d1": 2.61,
    "w1": -3.33,
    "w1_prev": 1.43,
-   "holdings": []
+   "holdings": [
+    {
+     "symbol": "FGXXX",
+     "name": "First American Government Obligs X",
+     "pct": 0.92
+    }
+   ]
   },
   {
    "ticker": "BSOL",

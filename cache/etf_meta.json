@@ -7403,5 +7403,30 @@
    }
   ],
   "at": "2026-11-17"
+ },
+ "SOLM": {
+  "holdings": [
+   {
+    "symbol": "AGPXX",
+    "name": "Invesco Shrt-Trm Inv Gov&Agcy Instl",
+    "pct": 24.45
+   },
+   {
+    "symbol": "BSOL",
+    "name": "Bitwise Solana Staking ETF",
+    "pct": 21.98
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "RDYY": {
+  "holdings": [
+   {
+    "symbol": "FGXXX",
+    "name": "First American Government Obligs X",
+    "pct": 0.92
+   }
+  ],
+  "at": "2026-11-17"
  }
 }
