@@ -2119,6 +2119,22 @@
 "small": false,
 "market": "ETF"
 },
+"CWPD": {
+"name": "CWP Premium Dividend ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"CWPG": {
+"name": "CWP Premium Growth ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "CWY": {
 "name": "GraniteShares YieldBOOST CRWV ETF",
 "name_local": "",
@@ -2161,6 +2177,14 @@
 },
 "DAPP": {
 "name": "VanEck Digital Transformation ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"DAU": {
+"name": "GraniteShares Autocallable AMD ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -2289,6 +2313,14 @@
 },
 "DMXF": {
 "name": "iShares ESG Advanced MSCI EAFE ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"DRAC": {
+"name": "GraniteShares Autocallable DRAM ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -5335,6 +5367,14 @@
 "small": false,
 "market": "ETF"
 },
+"MEA": {
+"name": "GraniteShares Autocallable META ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "MEDX": {
 "name": "Horizon Kinetics Medical ETF",
 "name_local": "",
@@ -6007,6 +6047,14 @@
 "small": false,
 "market": "ETF"
 },
+"NTCR": {
+"name": "Nuveen Technology & Infrastructure Credit ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "NUGY": {
 "name": "GraniteShares YieldBOOST Gold Miners ETF",
 "name_local": "",
@@ -6375,6 +6423,14 @@
 "small": false,
 "market": "ETF"
 },
+"PCHX": {
+"name": "State Street SPDR Nasdaq MyPaycheck ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "PCMM": {
 "name": "BondBloxx Private Credit CLO ETF",
 "name_local": "",
@@ -6529,6 +6585,14 @@
 },
 "PIO": {
 "name": "Invesco Global Water ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"PIVT": {
+"name": "VanEck Pivotal Trends ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -7521,14 +7585,6 @@
 },
 "RKLX": {
 "name": "Defiance Daily Target 2X Long RKLB ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
-"RKLZ": {
-"name": "Defiance Daily Target 2x Short RKLB ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -11897,14 +11953,6 @@
 },
 "ASTG": {
 "name": "Leverage Shares 2X Long ASTS Daily ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
-"ASTN": {
-"name": "Defiance Daily Target 2X Short ASTS ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -38295,6 +38343,14 @@
 "small": false,
 "market": "ETF"
 },
+"SIMI": {
+"name": "American Beacon SiM High Income ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "SIMS": {
 "name": "State Street SPDR S&P Kensho Intelligent Structures ETF",
 "name_local": "",
@@ -39985,14 +40041,6 @@
 },
 "STRN": {
 "name": "SMART Trend 25 ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
-"STSM": {
-"name": "Defiance Daily Target 2X Short TSM ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -46137,6 +46185,14 @@
 },
 "ZCSH": {
 "name": "The Zcash ETF Shares",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ZDAY": {
+"name": "Bitwise AI Cyber Defense ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",

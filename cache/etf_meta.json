@@ -1047,54 +1047,54 @@
  "ARKG": {
   "holdings": [
    {
+    "symbol": "TEM",
+    "name": "Tempus AI Inc Class A common stock",
+    "pct": 8.5
+   },
+   {
     "symbol": "TWST",
     "name": "Twist Bioscience Corp",
-    "pct": 8.75
+    "pct": 8.25
    },
    {
     "symbol": "TXG",
     "name": "10x Genomics Inc Ordinary Shares - Class A",
-    "pct": 8.73
-   },
-   {
-    "symbol": "TEM",
-    "name": "Tempus AI Inc Class A common stock",
-    "pct": 8.36
+    "pct": 8.03
    },
    {
     "symbol": "ABSI",
     "name": "Absci Corp",
-    "pct": 5.56
+    "pct": 5.47
    },
    {
     "symbol": "CRSP",
     "name": "CRISPR Therapeutics AG",
-    "pct": 5.22
+    "pct": 5.29
    },
    {
     "symbol": "GH",
     "name": "Guardant Health Inc",
-    "pct": 4.88
+    "pct": 5.04
    },
    {
     "symbol": "NTRA",
     "name": "Natera Inc",
-    "pct": 4.71
+    "pct": 4.79
    },
    {
-    "symbol": "ILMN",
-    "name": "Illumina Inc",
-    "pct": 4.69
+    "symbol": "CDNA",
+    "name": "CareDx Inc",
+    "pct": 4.38
    },
    {
     "symbol": "LLY",
     "name": "Eli Lilly and Co",
-    "pct": 3.92
+    "pct": 4.33
    },
    {
-    "symbol": "BEAM",
-    "name": "Beam Therapeutics Inc",
-    "pct": 3.69
+    "symbol": "ILMN",
+    "name": "Illumina Inc",
+    "pct": 4.09
    }
   ],
   "at": "2026-11-17"
