@@ -51,11 +51,6 @@ jobs:
         if: steps.m.outputs.market != 'none'
         run: python scripts/update.py --market "${{ steps.m.outputs.market }}"
 
-      - name: 보조 정보 (PER·PSR·영문명, ETF 구성종목)
-        if: steps.m.outputs.market != 'none'
-        continue-on-error: true
-        run: python scripts/update.py --market meta
-
       - name: 결과 커밋
         if: always()
         run: |
@@ -64,4 +59,34 @@ jobs:
           git add docs/data docs/vendor cache
           if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
           git commit -m "data: ${{ steps.m.outputs.market }} $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+
+  # 보조 정보(PER·PSR, ETF 구성종목)는 다른 머신에서 받는다 — 대량 다운로드한 머신은 Yahoo가 종목 정보 요청을 막기 때문
+  meta:
+    needs: update
+    if: ${{ always() && inputs.market != 'none' }}
+    concurrency:
+      group: daily-update-meta
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: 보조 정보 (PER·PSR, ETF 구성종목)
+        continue-on-error: true
+        run: python scripts/update.py --market meta
+      - name: 결과 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data cache
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "data: 보조 정보 $(date -u +%F)"
           for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
