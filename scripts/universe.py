@@ -6,6 +6,7 @@
 가져오기에 실패하면 cache/ 에 저장된 직전 목록을 사용한다."""
 import io
 import json
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -126,6 +127,8 @@ def _us(min_mcap=3e8):
             if mcap < min_mcap:
                 continue
             name = str(r.get("name", sym))
+            if re.search(r"preferred|depositary shares? (each )?represent|\bnotes? due\b|\bwarrants?\b|\bunits?\b|\brights?\b|debentures|subordinated|% series|fixed[- ]rate|fixed-to-floating|cumulative|perpetual", name, re.I):
+                continue  # 우선주·채권·워런트·유닛 제외
             for suf in (" Common Stock", " Class A Common Stock", " Ordinary Shares", " American Depositary Shares"):
                 name = name.split(suf)[0]
             sec = NASDAQ_SECTOR.get(r.get("sector") or "", "기타")

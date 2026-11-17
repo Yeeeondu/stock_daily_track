@@ -141,23 +141,83 @@ def returns(df):
     }
 
 
+# ---------------------------------------------------------------- 시가총액 구간
+CAP_ORDER = ["L", "M", "S", "U"]  # 대형 ≥$10B, 중형 $1B~10B, 소형 $0.1B~1B, U=시총 미확인
+
+
+def quote_batch(tickers):
+    """Yahoo 일괄 시세(100개씩)로 시가총액·통화·PER을 받는다. {ticker: {...}}"""
+    from yfinance.data import YfData
+    yd, out = YfData(), {}
+    tickers = list(dict.fromkeys(tickers))
+    for i in range(0, len(tickers), 100):
+        part = tickers[i:i + 100]
+        for attempt in range(3):
+            try:
+                r = yd.get_raw_json("https://query1.finance.yahoo.com/v7/finance/quote",
+                                    params={"symbols": ",".join(part), "fields": "marketCap,currency,trailingPE,regularMarketPrice"})
+                for x in r["quoteResponse"]["result"]:
+                    out[x["symbol"]] = {"mcap": x.get("marketCap"), "cur": x.get("currency"),
+                                        "pe": x.get("trailingPE"), "px": x.get("regularMarketPrice")}
+                break
+            except Exception as e:  # noqa: BLE001
+                log("  시총 조회 오류:", repr(e)[:120])
+                time.sleep(10 * (attempt + 1))
+        time.sleep(0.5)
+    return out
+
+
+def market_caps(market, tickers):
+    """종목별 (현지통화 시총, 달러 환산 시총). 실패 시 직전 캐시 사용."""
+    cpath = CACHE / f"mcap_{market}.json"
+    cache = read_json(cpath, {})
+    fx_sym = {"jp": "JPY=X", "tw": "TWD=X"}.get(market)
+    q = quote_batch(list(tickers) + ([fx_sym] if fx_sym else []))
+    fx = (q.get(fx_sym, {}).get("px") if fx_sym else 1.0) or cache.get("_fx")
+    if fx:
+        cache["_fx"] = fx
+    for t in tickers:
+        m = q.get(t, {}).get("mcap")
+        if m and fx:
+            cache[t] = [m, m / fx]
+    write_json(cpath, cache)
+    log(f"  시총 {sum(1 for t in tickers if t in cache)}/{len(tickers)} (환율 {fx})")
+    return {t: cache[t] for t in tickers if t in cache}, {t: q[t].get("pe") for t in q if t in tickers}
+
+
+def cap_bucket(usd):
+    big, mid, small = SETTINGS["cap_buckets_usd"]
+    if not usd:
+        return "U"
+    return "L" if usd >= big else "M" if usd >= mid else "S" if usd >= small else None
+
+
+def top_by_cap(rows, key, n):
+    out = []
+    for b in CAP_ORDER:
+        out += top_n([r for r in rows if r.get("cap", "U") == b], key, n)
+    return out
+
+
 def weekly_top(market, rows, trade_date, n):
     """주간 상승률 상위는 금요일(주 마지막 거래일) 데이터로만 새로 집계하고, 그 외 날은 직전 목록을 유지."""
     monday = trade_date - pd.Timedelta(days=trade_date.weekday())
     label = f"{monday:%Y-%m-%d}~{monday + pd.Timedelta(days=4):%Y-%m-%d}"
+    by = top_by_cap if market in ("us", "jp", "tw") else top_n
     if trade_date.weekday() == 4:
-        return top_n(rows, "w1", n), label
+        return by(rows, "w1", n), label
     ds = trade_date.strftime("%Y-%m-%d")
     for d in read_json(DATA / "index.json", {}).get(market, []):
         if d >= ds:
             continue
         prev = read_json(DATA / market / f"{d}.json", {})
-        if prev.get("w1_week") and prev.get("top_w1"):
+        ok_caps = market not in ("us", "jp", "tw") or all("cap" in r for r in prev.get("top_w1", []))
+        if prev.get("w1_week") and prev.get("top_w1") and ok_caps:
             return prev["top_w1"], prev["w1_week"]
     # 직전 목록이 없으면 지난주(완료된 주) 수익률로 집계
     lm = monday - pd.Timedelta(days=7)
     last = [{**r, "w1": r["w1_prev"]} for r in rows if r.get("w1_prev") is not None]
-    return top_n(last, "w1", n), f"{lm:%Y-%m-%d}~{lm + pd.Timedelta(days=4):%Y-%m-%d}"
+    return by(last, "w1", n), f"{lm:%Y-%m-%d}~{lm + pd.Timedelta(days=4):%Y-%m-%d}"
 
 
 def is_new_high(df):
@@ -296,6 +356,11 @@ def top_n(rows, key, n):
 def run_stocks(market):
     log(f"===== {market.upper()} 주식 =====")
     uni = load_universe(market, CACHE, SETTINGS.get("us_min_mcap", 3e8))
+    caps, pes = ({}, {})
+    if market in ("jp", "tw"):  # 대량 다운로드 전에 시총을 먼저 받는다
+        caps, pes = market_caps(market, list(uni))
+    elif market == "us":
+        caps = {t: [m["mcap"], m["mcap"]] for t, m in uni.items() if m.get("mcap")}
     hist = download(list(uni), "13mo")
     if not hist:
         raise RuntimeError("시세를 하나도 받지 못했습니다")
@@ -309,16 +374,28 @@ def run_stocks(market):
             continue
         if df["Volume"].iloc[-1] == 0:
             continue
+        pc = df["Close"].iloc[-2]
+        if pc < 1 and df["Close"].iloc[-1] / pc > 4:  # 미반영 액면병합으로 보이는 급등 제외
+            continue
         m = uni[t]
         row = {"ticker": t, "name": m["name"], "name_local": m.get("name_local", ""),
                "sector": m["sector"], "industry": m["industry"], "small": bool(m.get("small")), **returns(df)}
+        if market in ("us", "jp", "tw"):
+            c = caps.get(t)
+            row["cap"] = cap_bucket(c[1] if c else None)
+            if row["cap"] is None:  # 시총 1억달러 미만은 제외
+                continue
+            if c:
+                row["mcap"], row["mcap_usd"] = c[0], round(c[1])
+            if pes.get(t):
+                row["per"] = round(pes[t], 1)
         rows.append(row)
         ref = is_new_high(df)
         if ref is not None:
             highs.append({**row, "ref": num(ref)})
 
     n = SETTINGS["top_n"]
-    top_d1 = top_n(rows, "d1", n)
+    top_d1 = top_by_cap(rows, "d1", n) if market in ("us", "jp", "tw") else top_n(rows, "d1", n)
     top_w1, w1_week = weekly_top(market, rows, trade_date, n)
     flags = ath_flags([h["ticker"] for h in highs], hist, trade_date)
     for h in highs:
@@ -336,7 +413,6 @@ def run_stocks(market):
         rs = rs_ratings(hist, trade_date)
         for r in every:
             r["rs"] = rs.get(r["ticker"])
-            r["mcap"] = uni[r["ticker"]].get("mcap")
     wk = weekly(shown)
     for t in shown:
         write_chart(market, t, uni[t]["name"], hist[t], wk.get(t))
@@ -631,9 +707,10 @@ def run_meta():
             fu = fundamentals(sorted({r["ticker"] for r in every}), {r["ticker"]: r["close"] for r in every})
             for r in every:
                 f = fu.get(r["ticker"], {})
-                if f.get("mcap"):
+                if f.get("mcap") and not r.get("mcap"):
                     r["mcap"] = f["mcap"]
-                r["per"], r["psr"] = f.get("per"), f.get("psr")
+                r["per"] = f.get("per") or r.get("per")
+                r["psr"] = f.get("psr")
             write_json(p, day)
             log(f"[{mk}] 재무 정보 {sum(1 for t in fu.values() if t.get('per') or t.get('psr'))}/{len({r['ticker'] for r in every})}")
     if idx.get("etf"):

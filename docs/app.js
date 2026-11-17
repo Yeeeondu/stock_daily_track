@@ -214,7 +214,7 @@ function fundsCard(id, dep, cre) {
 // ------------------------------------------------------------ 리스트 + 차트 패널
 function rowHTML(it, i, metric, extra = '') {
   const ind = it.industry ? `<span class="ind">(${esc(it.industry)})</span>` : '';
-  const tags = (it.ath ? '<span class="tag ath">역대</span>' : '') + (it.small ? '<span class="tag">소형</span>' : '');
+  const tags = (it.ath ? '<span class="tag ath">역대</span>' : '') + (it.small && !it.cap ? '<span class="tag">소형</span>' : '');
   const hold = it.holdings !== undefined;
   return `<button class="lrow" data-i="${i}" title="${esc(it.name)} ${esc(it.industry || '')}">
     <span class="rk">${hold ? '<span class="caret">▶</span>' : ''}${extra || `${i + 1}위`}</span>
@@ -224,17 +224,39 @@ function rowHTML(it, i, metric, extra = '') {
 const detailHTML = () => `<div class="detail"><div class="dhead"><div><div class="dname"></div><div class="dsub"></div></div><div class="dprice"><div class="v"></div><div class="c"></div></div></div>
   <div class="ranges" style="justify-content:flex-start;margin-top:8px"></div><div class="dbox"></div><div class="dextra"></div><div class="dlinks"></div></div>`;
 
+const CAPS = [['L', '대형 · $10B 이상'], ['M', '중형 · $1B~10B'], ['S', '소형 · $0.1B~1B'], ['U', '시총 미확인']];
+const hasCaps = (items) => items.some((x) => x.cap);
+const defCap = (items) => (CAPS.find(([k]) => items.some((x) => (x.cap || 'U') === k)) || ['L'])[0];
+function capbarHTML(id, items, cur) {
+  return `<div class="capbar" data-p="${id}">${CAPS.map(([k, label]) => { const n = items.filter((x) => (x.cap || 'U') === k).length;
+    return k === 'U' && !n ? '' : `<button data-c="${k}" class="${k === cur ? 'on' : ''}">${label} <span class="n">${n}</span></button>`; }).join('')}</div>`;
+}
 function panelHTML(id, title, items, opts) {
-  const head = `<h2 class="sec">${title} <span class="n">${items.length}</span>${opts.copy ? '<button class="copy" data-copy="' + id + '">텍스트 복사</button>' : ''}</h2>${opts.tools || ''}`;
+  const caps = hasCaps(items);
+  const cur = caps ? defCap(items) : null;
+  const shown = caps ? items.filter((x) => (x.cap || 'U') === cur) : items;
+  const note = caps && opts.fx ? '<span class="small muted" style="font-weight:400">(시총은 달러 환산)</span>' : '';
+  const head = `<h2 class="sec">${title} <span class="n">${items.length}</span>${note}${opts.copy ? '<button class="copy" data-copy="' + id + '">텍스트 복사</button>' : ''}</h2>${opts.tools || ''}${caps ? capbarHTML(id, items, cur) : ''}`;
   if (!items.length) return head + '<div class="empty">해당 종목 없음</div>';
-  const rows = items.map((it, i) => rowHTML(it, i, opts.metric)).join('');
+  const rows = shown.map((it, i) => rowHTML(it, i, opts.metric)).join('');
   return `${head}<div class="panel" id="${id}"><div class="list">${rows}</div>${detailHTML()}</div>`;
 }
 
-function bindPanel(id, items, opts) {
+function bindPanel(id, all, opts) {
   const el = document.getElementById(id); if (!el) return;
+  const caps = hasCaps(all);
+  const items = caps ? all.filter((x) => (x.cap || 'U') === defCap(all)) : all;
   const p = { items, opts, chart: null, seq: 0 };
   panels.set(id, p);
+  const bar = document.querySelector(`.capbar[data-p="${id}"]`);
+  if (bar) bar.onclick = (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    bar.querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b));
+    p.items = all.filter((x) => (x.cap || 'U') === b.dataset.c);
+    $('.list', el).innerHTML = p.items.map((it, i) => rowHTML(it, i, opts.metric)).join('') || '<p class="muted small" style="padding:10px 14px">해당 종목 없음</p>';
+    $('.list', el).scrollTop = 0;
+    if (p.items.length) selectItem(id, 0);
+  };
   $('.list', el).onclick = (e) => {
     const r = e.target.closest('.lrow'); if (!r) return;
     const i = Number(r.dataset.i); const h = el.querySelector(`[data-h="${i}"]`);
@@ -318,9 +340,9 @@ function highsText(day) {
 function stockSections(day, mk) {
   if (!day) return '<div class="empty">아직 종목 데이터가 없습니다.</div>';
   return `<p class="muted small" style="margin:18px 0 -14px">${fmtDate(day.date)} 기준 · 집계 ${day.priced?.toLocaleString()}종목 · 신고가: ${esc(day.criteria)} · 오른쪽 차트는 왼쪽에서 종목을 누르면 바뀝니다</p>`
-    + panelHTML(`${mk}-high`, '신고가', day.newhigh, { metric: 'd1', copy: true })
-    + panelHTML(`${mk}-d1`, '일간 상승률 상위', day.top_d1, { metric: 'd1' })
-    + panelHTML(`${mk}-w1`, wkTitle(day), day.top_w1, { metric: 'w1' });
+    + panelHTML(`${mk}-high`, '신고가', day.newhigh, { metric: 'd1', copy: true, fx: mk !== 'us' })
+    + panelHTML(`${mk}-d1`, '일간 상승률 상위', day.top_d1, { metric: 'd1', fx: mk !== 'us' })
+    + panelHTML(`${mk}-w1`, wkTitle(day), day.top_w1, { metric: 'w1', fx: mk !== 'us' });
 }
 function bindStocks(day, mk) {
   if (!day) return;

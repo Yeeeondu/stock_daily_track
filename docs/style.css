@@ -106,3 +106,7 @@ h2.sec .n{color:var(--muted);font-weight:500;font-size:14px}
 .lrow:has(.caret){grid-template-columns:44px minmax(0,1fr) auto}
 .lrow .nm{-webkit-line-clamp:3}
 .dmeta{font-size:12px;font-weight:500;color:var(--muted);margin-left:2px}
+.capbar{display:flex;gap:6px;flex-wrap:wrap;margin:-2px 0 10px}
+.capbar button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:4px 12px;cursor:pointer;font-size:13px;color:var(--muted)}
+.capbar button .n{font-size:12px;opacity:.8}
+.capbar button.on{background:var(--fg);color:var(--bg);border-color:var(--fg);font-weight:700}
