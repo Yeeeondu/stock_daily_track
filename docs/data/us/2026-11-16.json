@@ -45,8 +45,8 @@
    "ath": false,
    "since": "2019-12-12",
    "rs": 85,
-   "per": null,
-   "psr": null
+   "per": 104.8,
+   "psr": 2.92
   },
   {
    "ticker": "CIX",
@@ -66,8 +66,8 @@
    "ath": true,
    "since": "1998-03-06",
    "rs": 97,
-   "per": null,
-   "psr": null
+   "per": 24.2,
+   "psr": 3.39
   },
   {
    "ticker": "GHC",
@@ -87,8 +87,8 @@
    "ath": true,
    "since": "1973-02-21",
    "rs": 74,
-   "per": null,
-   "psr": null
+   "per": 11.3,
+   "psr": 0.81
   },
   {
    "ticker": "PCTY",
@@ -108,8 +108,8 @@
    "ath": false,
    "since": "2014-03-19",
    "rs": 92,
-   "per": null,
-   "psr": null
+   "per": 35.8,
+   "psr": 5.28
   },
   {
    "ticker": "ASUR",
@@ -130,7 +130,7 @@
    "since": "1992-04-07",
    "rs": 89,
    "per": null,
-   "psr": null
+   "psr": 2.03
   },
   {
    "ticker": "COLM",
@@ -171,8 +171,8 @@
    "ath": false,
    "since": "2019-10-25",
    "rs": 95,
-   "per": null,
-   "psr": null
+   "per": 33.2,
+   "psr": 2.04
   },
   {
    "ticker": "HUM",
@@ -192,8 +192,8 @@
    "ath": false,
    "since": "1981-12-31",
    "rs": 96,
-   "per": null,
-   "psr": null
+   "per": 45.0,
+   "psr": 0.36
   },
   {
    "ticker": "SJM",
@@ -213,8 +213,8 @@
    "ath": false,
    "since": "1994-10-31",
    "rs": 82,
-   "per": null,
-   "psr": null
+   "per": 63.3,
+   "psr": 1.58
   },
   {
    "ticker": "APPN",
@@ -235,7 +235,7 @@
    "since": "2017-05-25",
    "rs": 97,
    "per": null,
-   "psr": null
+   "psr": 2.66
   },
   {
    "ticker": "PG",
@@ -297,8 +297,8 @@
    "ath": true,
    "since": "2023-10-04",
    "rs": 86,
-   "per": null,
-   "psr": null
+   "per": 29.7,
+   "psr": 5.04
   },
   {
    "ticker": "WCN",
@@ -318,8 +318,8 @@
    "ath": false,
    "since": "1998-05-22",
    "rs": 81,
-   "per": null,
-   "psr": null
+   "per": 44.2,
+   "psr": 4.96
   },
   {
    "ticker": "GRX",
@@ -339,7 +339,7 @@
    "ath": false,
    "since": "2007-06-19",
    "rs": 68,
-   "per": null,
+   "per": 18.9,
    "psr": null
   },
   {
@@ -381,8 +381,8 @@
    "ath": false,
    "since": "1980-03-17",
    "rs": 80,
-   "per": null,
-   "psr": null
+   "per": 35.2,
+   "psr": 4.34
   },
   {
    "ticker": "CL",
@@ -402,8 +402,8 @@
    "ath": false,
    "since": "1973-05-02",
    "rs": 72,
-   "per": null,
-   "psr": null
+   "per": 39.3,
+   "psr": 3.77
   },
   {
    "ticker": "TFX",
@@ -423,8 +423,8 @@
    "ath": false,
    "since": "1980-03-17",
    "rs": 88,
-   "per": null,
-   "psr": null
+   "per": 77.4,
+   "psr": 2.76
   },
   {
    "ticker": "PLMR",
@@ -444,8 +444,8 @@
    "ath": false,
    "since": "2019-04-17",
    "rs": 86,
-   "per": null,
-   "psr": null
+   "per": 20.2,
+   "psr": 3.44
   },
   {
    "ticker": "COST",
@@ -486,8 +486,8 @@
    "ath": true,
    "since": "2003-04-10",
    "rs": 82,
-   "per": null,
-   "psr": null
+   "per": 38.1,
+   "psr": 4.93
   },
   {
    "ticker": "PUBM",
@@ -529,7 +529,7 @@
    "since": "2018-06-21",
    "rs": 98,
    "per": null,
-   "psr": null
+   "psr": 8.29
   },
   {
    "ticker": "ITGR",
@@ -547,8 +547,9 @@
    "ath": false,
    "since": "2000-09-29",
    "rs": 90,
-   "per": null,
-   "psr": null
+   "per": 42.6,
+   "psr": 2.36,
+   "mcap": 4316641878.89
   }
  ],
  "top_d1": [
@@ -568,7 +569,7 @@
    "mcap_usd": 13587720000,
    "rs": 24,
    "per": null,
-   "psr": null
+   "psr": 0.75
   },
   {
    "ticker": "MOH",
@@ -586,7 +587,7 @@
    "mcap_usd": 10932246000,
    "rs": 91,
    "per": null,
-   "psr": null
+   "psr": 0.29
   },
   {
    "ticker": "HTHT",
@@ -603,8 +604,8 @@
    "mcap": 15496125239.0,
    "mcap_usd": 15496125239,
    "rs": 76,
-   "per": null,
-   "psr": null
+   "per": 36.3,
+   "psr": 0.65
   },
   {
    "ticker": "TSN",
@@ -621,8 +622,8 @@
    "mcap": 20714073027.0,
    "mcap_usd": 20714073027,
    "rs": 63,
-   "per": null,
-   "psr": null
+   "per": 50.0,
+   "psr": 0.32
   },
   {
    "ticker": "HUBS",
@@ -639,8 +640,8 @@
    "mcap": 10620465174.0,
    "mcap_usd": 10620465174,
    "rs": 41,
-   "per": null,
-   "psr": null
+   "per": 56.0,
+   "psr": 3.16
   },
   {
    "ticker": "CNC",
@@ -657,8 +658,8 @@
    "mcap": 35283496360.0,
    "mcap_usd": 35283496360,
    "rs": 94,
-   "per": null,
-   "psr": null
+   "per": 25.7,
+   "psr": 0.21
   },
   {
    "ticker": "BEKE",
@@ -675,8 +676,8 @@
    "mcap": 20173291664.0,
    "mcap_usd": 20173291664,
    "rs": 66,
-   "per": null,
-   "psr": null
+   "per": 31.1,
+   "psr": 0.22
   },
   {
    "ticker": "TIGO",
@@ -693,8 +694,8 @@
    "mcap": 13291013965.0,
    "mcap_usd": 13291013965,
    "rs": 76,
-   "per": null,
-   "psr": null
+   "per": 24.6,
+   "psr": 1.71
   },
   {
    "ticker": "RCI",
@@ -711,8 +712,8 @@
    "mcap": 17954387114.0,
    "mcap_usd": 17954387114,
    "rs": 41,
-   "per": null,
-   "psr": null
+   "per": 29.9,
+   "psr": 0.65
   },
   {
    "ticker": "TSCO",
@@ -729,8 +730,8 @@
    "mcap": 18902011001.0,
    "mcap_usd": 18902011001,
    "rs": 44,
-   "per": null,
-   "psr": null
+   "per": 20.4,
+   "psr": 1.23
   },
   {
    "ticker": "ELV",
@@ -747,8 +748,8 @@
    "mcap": 92856500834.0,
    "mcap_usd": 92856500834,
    "rs": 81,
-   "per": null,
-   "psr": null
+   "per": 19.0,
+   "psr": 0.48
   },
   {
    "ticker": "WSE",
@@ -765,8 +766,8 @@
    "mcap": 13793538986.0,
    "mcap_usd": 13793538986,
    "rs": null,
-   "per": null,
-   "psr": null
+   "per": 23.8,
+   "psr": 4.06
   },
   {
    "ticker": "LUV",
@@ -783,8 +784,8 @@
    "mcap": 22002730957.0,
    "mcap_usd": 22002730957,
    "rs": 72,
-   "per": null,
-   "psr": null
+   "per": 22.7,
+   "psr": 0.72
   },
   {
    "ticker": "BCE",
@@ -801,8 +802,8 @@
    "mcap": 19993353516.0,
    "mcap_usd": 19993353516,
    "rs": 39,
-   "per": null,
-   "psr": null
+   "per": 12.0,
+   "psr": 0.83
   },
   {
    "ticker": "PCG",
@@ -819,8 +820,8 @@
    "mcap": 35539097865.0,
    "mcap_usd": 35539097865,
    "rs": 22,
-   "per": null,
-   "psr": null
+   "per": 10.1,
+   "psr": 1.17
   },
   {
    "ticker": "EIX",
@@ -837,8 +838,8 @@
    "mcap": 23158418896.0,
    "mcap_usd": 23158418896,
    "rs": 34,
-   "per": null,
-   "psr": null
+   "per": 6.6,
+   "psr": 1.28
   },
   {
    "ticker": "HRL",
@@ -855,8 +856,8 @@
    "mcap": 12154497418.0,
    "mcap_usd": 12154497418,
    "rs": 49,
-   "per": null,
-   "psr": null
+   "per": 36.6,
+   "psr": 1.03
   },
   {
    "ticker": "GIS",
@@ -874,7 +875,7 @@
    "mcap_usd": 18355809654,
    "rs": 32,
    "per": null,
-   "psr": null
+   "psr": 1.03
   },
   {
    "ticker": "ARMK",
@@ -891,8 +892,8 @@
    "mcap": 14209389872.0,
    "mcap_usd": 14209389872,
    "rs": 74,
-   "per": null,
-   "psr": null
+   "per": 34.2,
+   "psr": 0.74
   },
   {
    "ticker": "HCA",
@@ -909,8 +910,8 @@
    "mcap": 104222735025.0,
    "mcap_usd": 104222735025,
    "rs": 74,
-   "per": null,
-   "psr": null
+   "per": 17.0,
+   "psr": 1.36
   },
   {
    "ticker": "HUM",
@@ -927,8 +928,8 @@
    "mcap": 54102911028.0,
    "mcap_usd": 54102911028,
    "rs": 96,
-   "per": null,
-   "psr": null
+   "per": 45.0,
+   "psr": 0.36
   },
   {
    "ticker": "VRSK",
@@ -945,8 +946,8 @@
    "mcap": 26660483181.0,
    "mcap_usd": 26660483181,
    "rs": 76,
-   "per": null,
-   "psr": null
+   "per": 32.2,
+   "psr": 8.59
   },
   {
    "ticker": "PAYC",
@@ -963,8 +964,8 @@
    "mcap": 11199251329.0,
    "mcap_usd": 11199251329,
    "rs": 95,
-   "per": null,
-   "psr": null
+   "per": 23.8,
+   "psr": 5.24
   },
   {
    "ticker": "GFL",
@@ -982,7 +983,7 @@
    "mcap_usd": 18534132888,
    "rs": 60,
    "per": null,
-   "psr": null
+   "psr": 2.48
   },
   {
    "ticker": "FNF",
@@ -999,8 +1000,8 @@
    "mcap": 11644932548.0,
    "mcap_usd": 11644932548,
    "rs": 28,
-   "per": null,
-   "psr": null
+   "per": 11.4,
+   "psr": 0.8
   },
   {
    "ticker": "CHYM",
@@ -1017,8 +1018,8 @@
    "mcap": 12875878082.0,
    "mcap_usd": 12875878082,
    "rs": 94,
-   "per": null,
-   "psr": null
+   "per": 30.1,
+   "psr": 4.61
   },
   {
    "ticker": "BRO",
@@ -1035,8 +1036,8 @@
    "mcap": 23855276342.0,
    "mcap_usd": 23855276342,
    "rs": 63,
-   "per": null,
-   "psr": null
+   "per": 23.3,
+   "psr": 3.58
   },
   {
    "ticker": "PS",
@@ -1054,7 +1055,7 @@
    "mcap_usd": 17896000000,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 24.07
   },
   {
    "ticker": "SJM",
@@ -1071,8 +1072,8 @@
    "mcap": 14174368152.0,
    "mcap_usd": 14174368152,
    "rs": 82,
-   "per": null,
-   "psr": null
+   "per": 63.3,
+   "psr": 1.58
   },
   {
    "ticker": "SBUX",
@@ -1089,8 +1090,8 @@
    "mcap": 121352244000.0,
    "mcap_usd": 121352244000,
    "rs": 66,
-   "per": null,
-   "psr": null
+   "per": 49.2,
+   "psr": 3.27
   },
   {
    "ticker": "RYAN",
@@ -1107,8 +1108,8 @@
    "mcap": 11794127640.0,
    "mcap_usd": 11794127640,
    "rs": 75,
-   "per": null,
-   "psr": null
+   "per": 58.4,
+   "psr": 1.79
   },
   {
    "ticker": "THC",
@@ -1125,8 +1126,8 @@
    "mcap": 22759382420.0,
    "mcap_usd": 22759382420,
    "rs": 86,
-   "per": null,
-   "psr": null
+   "per": 8.5,
+   "psr": 1.05
   },
   {
    "ticker": "UHS",
@@ -1143,8 +1144,8 @@
    "mcap": 11204688939.0,
    "mcap_usd": 11204688939,
    "rs": 57,
-   "per": null,
-   "psr": null
+   "per": 8.3,
+   "psr": 0.54
   },
   {
    "ticker": "PG",
@@ -1179,8 +1180,8 @@
    "mcap": 44647292625.0,
    "mcap_usd": 44647292625,
    "rs": 62,
-   "per": null,
-   "psr": null
+   "per": 33.6,
+   "psr": 3.58
   },
   {
    "ticker": "XYL",
@@ -1197,8 +1198,8 @@
    "mcap": 21587265145.0,
    "mcap_usd": 21587265145,
    "rs": 22,
-   "per": null,
-   "psr": null
+   "per": 20.9,
+   "psr": 2.43
   },
   {
    "ticker": "PAYX",
@@ -1215,8 +1216,8 @@
    "mcap": 41179821117.0,
    "mcap_usd": 41179821117,
    "rs": 68,
-   "per": null,
-   "psr": null
+   "per": 23.4,
+   "psr": 6.35
   },
   {
    "ticker": "HDB",
@@ -1233,8 +1234,8 @@
    "mcap": 132562556918.0,
    "mcap_usd": 132562556918,
    "rs": 46,
-   "per": null,
-   "psr": null
+   "per": 17.0,
+   "psr": 0.04
   },
   {
    "ticker": "CMCSA",
@@ -1251,8 +1252,8 @@
    "mcap": 89343319389.0,
    "mcap_usd": 89343319389,
    "rs": 43,
-   "per": null,
-   "psr": null
+   "per": 8.1,
+   "psr": 0.74
   },
   {
    "ticker": "KMB",
@@ -1269,8 +1270,8 @@
    "mcap": 67154489611.0,
    "mcap_usd": 67154489611,
    "rs": 62,
-   "per": null,
-   "psr": null
+   "per": 21.2,
+   "psr": 4.12
   },
   {
    "ticker": "KSPI",
@@ -1287,7 +1288,7 @@
    "mcap": 17022971838.0,
    "mcap_usd": 17022971838,
    "rs": 64,
-   "per": null,
+   "per": 8.1,
    "psr": null
   },
   {
@@ -1305,8 +1306,8 @@
    "mcap": 28761246361.0,
    "mcap_usd": 28761246361,
    "rs": 86,
-   "per": null,
-   "psr": null
+   "per": 29.7,
+   "psr": 5.04
   },
   {
    "ticker": "WCN",
@@ -1323,8 +1324,8 @@
    "mcap": 48519040931.0,
    "mcap_usd": 48519040931,
    "rs": 81,
-   "per": null,
-   "psr": null
+   "per": 44.2,
+   "psr": 4.96
   },
   {
    "ticker": "TXRH",
@@ -1341,8 +1342,8 @@
    "mcap": 12205007243.0,
    "mcap_usd": 12205007243,
    "rs": 53,
-   "per": null,
-   "psr": null
+   "per": 29.7,
+   "psr": 1.95
   },
   {
    "ticker": "TCOM",
@@ -1359,8 +1360,8 @@
    "mcap": 27442553575.0,
    "mcap_usd": 27442553575,
    "rs": 28,
-   "per": null,
-   "psr": null
+   "per": 8.9,
+   "psr": 0.42
   },
   {
    "ticker": "CHD",
@@ -1377,8 +1378,8 @@
    "mcap": 26688144120.0,
    "mcap_usd": 26688144120,
    "rs": 80,
-   "per": null,
-   "psr": null
+   "per": 35.2,
+   "psr": 4.34
   },
   {
    "ticker": "H",
@@ -1395,8 +1396,8 @@
    "mcap": 17529319518.0,
    "mcap_usd": 17529319518,
    "rs": 71,
-   "per": null,
-   "psr": null
+   "per": 99.3,
+   "psr": 2.39
   },
   {
    "ticker": "DG",
@@ -1413,8 +1414,8 @@
    "mcap": 29591330043.0,
    "mcap_usd": 29591330043,
    "rs": 74,
-   "per": null,
-   "psr": null
+   "per": 17.4,
+   "psr": 0.69
   },
   {
    "ticker": "APP",
@@ -1431,8 +1432,8 @@
    "mcap": 135543858019.0,
    "mcap_usd": 135543858019,
    "rs": 64,
-   "per": null,
-   "psr": null
+   "per": 28.0,
+   "psr": 16.44
   },
   {
    "ticker": "ES",
@@ -1449,8 +1450,8 @@
    "mcap": 27044186520.0,
    "mcap_usd": 27044186520,
    "rs": 54,
-   "per": null,
-   "psr": null
+   "per": 19.2,
+   "psr": 1.99
   },
   {
    "ticker": "CGON",
@@ -1468,7 +1469,7 @@
    "mcap_usd": 6645327350,
    "rs": 93,
    "per": null,
-   "psr": null
+   "psr": 1228.1
   },
   {
    "ticker": "MGRT",
@@ -1486,7 +1487,7 @@
    "mcap_usd": 1608750000,
    "rs": 99,
    "per": null,
-   "psr": null
+   "psr": 286.64
   },
   {
    "ticker": "URGN",
@@ -1504,7 +1505,7 @@
    "mcap_usd": 1284072006,
    "rs": 40,
    "per": null,
-   "psr": null
+   "psr": 5.51
   },
   {
    "ticker": "AHG",
@@ -1522,7 +1523,7 @@
    "mcap_usd": 1088014305,
    "rs": 59,
    "per": null,
-   "psr": null
+   "psr": 82.12
   },
   {
    "ticker": "AVEX",
@@ -1539,8 +1540,8 @@
    "mcap": 1585246007.0,
    "mcap_usd": 1585246007,
    "rs": null,
-   "per": null,
-   "psr": null
+   "per": 58.3,
+   "psr": 1.21
   },
   {
    "ticker": "GSHD",
@@ -1557,8 +1558,8 @@
    "mcap": 1634086789.0,
    "mcap_usd": 1634086789,
    "rs": 29,
-   "per": null,
-   "psr": null
+   "per": 35.6,
+   "psr": 2.89
   },
   {
    "ticker": "POWL",
@@ -1575,8 +1576,8 @@
    "mcap": 5199655534.0,
    "mcap_usd": 5199655534,
    "rs": 27,
-   "per": null,
-   "psr": null
+   "per": 29.0,
+   "psr": 4.76
   },
   {
    "ticker": "BILL",
@@ -1593,8 +1594,8 @@
    "mcap": 4679766959.0,
    "mcap_usd": 4679766959,
    "rs": 85,
-   "per": null,
-   "psr": null
+   "per": 104.8,
+   "psr": 2.92
   },
   {
    "ticker": "REF",
@@ -1611,8 +1612,8 @@
    "mcap": 1077311400.0,
    "mcap_usd": 1077311400,
    "rs": null,
-   "per": null,
-   "psr": null
+   "per": 213.3,
+   "psr": 1.92
   },
   {
    "ticker": "QLYS",
@@ -1629,8 +1630,8 @@
    "mcap": 6037234403.0,
    "mcap_usd": 6037234403,
    "rs": 90,
-   "per": null,
-   "psr": null
+   "per": 30.3,
+   "psr": 8.81
   },
   {
    "ticker": "ALVO",
@@ -1648,7 +1649,7 @@
    "mcap_usd": 1635907901,
    "rs": 62,
    "per": null,
-   "psr": null
+   "psr": 3.2
   },
   {
    "ticker": "HNGE",
@@ -1665,8 +1666,8 @@
    "mcap": 9369768408.0,
    "mcap_usd": 9369768408,
    "rs": 98,
-   "per": null,
-   "psr": null
+   "per": 31.3,
+   "psr": 10.37
   },
   {
    "ticker": "TRUP",
@@ -1683,8 +1684,8 @@
    "mcap": 1491809335.0,
    "mcap_usd": 1491809335,
    "rs": 83,
-   "per": null,
-   "psr": null
+   "per": 59.3,
+   "psr": 1.0
   },
   {
    "ticker": "ULCC",
@@ -1702,7 +1703,7 @@
    "mcap_usd": 1748869212,
    "rs": 94,
    "per": null,
-   "psr": null
+   "psr": 0.4
   },
   {
    "ticker": "SEZL",
@@ -1719,8 +1720,8 @@
    "mcap": 5222913949.0,
    "mcap_usd": 5222913949,
    "rs": 98,
-   "per": null,
-   "psr": null
+   "per": 31.2,
+   "psr": 9.41
   },
   {
    "ticker": "TWFG",
@@ -1737,8 +1738,8 @@
    "mcap": 1394704915.0,
    "mcap_usd": 1394704915,
    "rs": 79,
-   "per": null,
-   "psr": null
+   "per": 46.6,
+   "psr": 1.12
   },
   {
    "ticker": "FORTY",
@@ -1755,8 +1756,8 @@
    "mcap": 1776849372.0,
    "mcap_usd": 1776849372,
    "rs": 44,
-   "per": null,
-   "psr": null
+   "per": 27.3,
+   "psr": 0.64
   },
   {
    "ticker": "ANDG",
@@ -1774,7 +1775,7 @@
    "mcap_usd": 6859942460,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 1.36
   },
   {
    "ticker": "GXO",
@@ -1791,8 +1792,8 @@
    "mcap": 6175348867.0,
    "mcap_usd": 6175348867,
    "rs": 73,
-   "per": null,
-   "psr": null
+   "per": 48.4,
+   "psr": 0.47
   },
   {
    "ticker": "MSGR",
@@ -1827,8 +1828,8 @@
    "mcap": 3323694594.0,
    "mcap_usd": 3323694594,
    "rs": 87,
-   "per": null,
-   "psr": null
+   "per": 17.6,
+   "psr": 3.4
   },
   {
    "ticker": "STC",
@@ -1845,8 +1846,8 @@
    "mcap": 1307152609.0,
    "mcap_usd": 1307152609,
    "rs": 11,
-   "per": null,
-   "psr": null
+   "per": 11.2,
+   "psr": 0.4
   },
   {
    "ticker": "ASO",
@@ -1863,8 +1864,8 @@
    "mcap": 4162117243.0,
    "mcap_usd": 4162117243,
    "rs": 92,
-   "per": null,
-   "psr": null
+   "per": 11.8,
+   "psr": 0.7
   },
   {
    "ticker": "AMN",
@@ -1881,8 +1882,8 @@
    "mcap": 1466932868.0,
    "mcap_usd": 1466932868,
    "rs": 96,
-   "per": null,
-   "psr": null
+   "per": 14.5,
+   "psr": 0.43
   },
   {
    "ticker": "DMRA",
@@ -1899,7 +1900,7 @@
    "mcap": 1337142427.0,
    "mcap_usd": 1337142427,
    "rs": 20,
-   "per": null,
+   "per": 13.2,
    "psr": null
   },
   {
@@ -1918,7 +1919,7 @@
    "mcap_usd": 1256383823,
    "rs": 88,
    "per": null,
-   "psr": null
+   "psr": 0.66
   },
   {
    "ticker": "PBH",
@@ -1935,8 +1936,8 @@
    "mcap": 2187613427.0,
    "mcap_usd": 2187613427,
    "rs": 33,
-   "per": null,
-   "psr": null
+   "per": 14.8,
+   "psr": 1.95
   },
   {
    "ticker": "ARLO",
@@ -1953,8 +1954,8 @@
    "mcap": 1274782317.0,
    "mcap_usd": 1274782317,
    "rs": 40,
-   "per": null,
-   "psr": null
+   "per": 56.0,
+   "psr": 2.22
   },
   {
    "ticker": "IOND",
@@ -1972,7 +1973,7 @@
    "mcap_usd": 2692571112,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 15.94
   },
   {
    "ticker": "MMED",
@@ -1990,7 +1991,7 @@
    "mcap_usd": 5061485259,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 1.63
   },
   {
    "ticker": "STWD",
@@ -2008,7 +2009,7 @@
    "mcap_usd": 4125996426,
    "rs": 13,
    "per": null,
-   "psr": null
+   "psr": 13.29
   },
   {
    "ticker": "GHC",
@@ -2025,8 +2026,8 @@
    "mcap": 5179341414.0,
    "mcap_usd": 5179341414,
    "rs": 74,
-   "per": null,
-   "psr": null
+   "per": 11.3,
+   "psr": 0.81
   },
   {
    "ticker": "PPC",
@@ -2043,8 +2044,8 @@
    "mcap": 6695709721.0,
    "mcap_usd": 6695709721,
    "rs": 34,
-   "per": null,
-   "psr": null
+   "per": 21.7,
+   "psr": 0.38
   },
   {
    "ticker": "PCTY",
@@ -2061,8 +2062,8 @@
    "mcap": 9260901286.0,
    "mcap_usd": 9260901286,
    "rs": 92,
-   "per": null,
-   "psr": null
+   "per": 35.8,
+   "psr": 5.28
   },
   {
    "ticker": "AZTA",
@@ -2080,7 +2081,7 @@
    "mcap_usd": 1999853140,
    "rs": 97,
    "per": null,
-   "psr": null
+   "psr": 3.17
   },
   {
    "ticker": "KVYO",
@@ -2097,8 +2098,8 @@
    "mcap": 6233791049.0,
    "mcap_usd": 6233791049,
    "rs": 84,
-   "per": null,
-   "psr": null
+   "per": 763.0,
+   "psr": 2.03
   },
   {
    "ticker": "BUUU",
@@ -2133,8 +2134,8 @@
    "mcap": 1579418900.0,
    "mcap_usd": 1579418900,
    "rs": 74,
-   "per": null,
-   "psr": null
+   "per": 29.3,
+   "psr": 0.42
   },
   {
    "ticker": "MBGL",
@@ -2151,8 +2152,8 @@
    "mcap": 6861033656.0,
    "mcap_usd": 6861033656,
    "rs": null,
-   "per": null,
-   "psr": null
+   "per": 72.8,
+   "psr": 3.84
   },
   {
    "ticker": "KRSA",
@@ -2188,7 +2189,7 @@
    "mcap_usd": 3556219364,
    "rs": 95,
    "per": null,
-   "psr": null
+   "psr": 0.64
   },
   {
    "ticker": "CIGI",
@@ -2205,8 +2206,8 @@
    "mcap": 4599854928.0,
    "mcap_usd": 4599854928,
    "rs": 27,
-   "per": null,
-   "psr": null
+   "per": 65.4,
+   "psr": 0.75
   },
   {
    "ticker": "PRG",
@@ -2223,8 +2224,8 @@
    "mcap": 1496692425.0,
    "mcap_usd": 1496692425,
    "rs": 72,
-   "per": null,
-   "psr": null
+   "per": 12.3,
+   "psr": 0.56
   },
   {
    "ticker": "SRRK",
@@ -2242,7 +2243,7 @@
    "mcap_usd": 5271203472,
    "rs": 51,
    "per": null,
-   "psr": null
+   "psr": 9533.47
   },
   {
    "ticker": "CPB",
@@ -2259,8 +2260,8 @@
    "mcap": 6789312786.0,
    "mcap_usd": 6789312786,
    "rs": 44,
-   "per": null,
-   "psr": null
+   "per": 18.5,
+   "psr": 0.72
   },
   {
    "ticker": "COLM",
@@ -2296,7 +2297,7 @@
    "mcap_usd": 7029884588,
    "rs": 42,
    "per": null,
-   "psr": null
+   "psr": 0.64
   },
   {
    "ticker": "BMI",
@@ -2313,8 +2314,8 @@
    "mcap": 4419939510.0,
    "mcap_usd": 4419939510,
    "rs": 75,
-   "per": null,
-   "psr": null
+   "per": 36.8,
+   "psr": 5.24
   },
   {
    "ticker": "PRVA",
@@ -2331,8 +2332,8 @@
    "mcap": 3136711421.0,
    "mcap_usd": 3136711421,
    "rs": 71,
-   "per": null,
-   "psr": null
+   "per": 97.2,
+   "psr": 1.33
   },
   {
    "ticker": "GDYN",
@@ -2349,8 +2350,8 @@
    "mcap": 1061698942.0,
    "mcap_usd": 1061698942,
    "rs": 97,
-   "per": null,
-   "psr": null
+   "per": 151.0,
+   "psr": 2.52
   },
   {
    "ticker": "BGIN",
@@ -2385,8 +2386,8 @@
    "mcap": 135821915.0,
    "mcap_usd": 135821915,
    "rs": 11,
-   "per": null,
-   "psr": null
+   "per": 19.5,
+   "psr": 0.86
   },
   {
    "ticker": "OFRM",
@@ -2404,7 +2405,7 @@
    "mcap_usd": 407316558,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 1.59
   },
   {
    "ticker": "AUC",
@@ -2440,7 +2441,7 @@
    "mcap_usd": 238983031,
    "rs": 9,
    "per": null,
-   "psr": null
+   "psr": 0.02
   },
   {
    "ticker": "EGG",
@@ -2458,7 +2459,7 @@
    "mcap_usd": 155933120,
    "rs": 96,
    "per": null,
-   "psr": null
+   "psr": 30.25
   },
   {
    "ticker": "PSNYW",
@@ -2476,7 +2477,7 @@
    "mcap_usd": 473126772,
    "rs": 45,
    "per": null,
-   "psr": null
+   "psr": 0.18
   },
   {
    "ticker": "LXEO",
@@ -2512,7 +2513,7 @@
    "mcap_usd": 226244074,
    "rs": 2,
    "per": null,
-   "psr": null
+   "psr": 45.7
   },
   {
    "ticker": "CLW",
@@ -2530,7 +2531,7 @@
    "mcap_usd": 235507651,
    "rs": 39,
    "per": null,
-   "psr": null
+   "psr": 0.17
   },
   {
    "ticker": "MFI",
@@ -2566,7 +2567,7 @@
    "mcap_usd": 185503008,
    "rs": 72,
    "per": null,
-   "psr": null
+   "psr": 195943.56
   },
   {
    "ticker": "ZIP",
@@ -2620,7 +2621,7 @@
    "mcap_usd": 197139849,
    "rs": 74,
    "per": null,
-   "psr": null
+   "psr": 5.86
   },
   {
    "ticker": "NPWR",
@@ -2656,7 +2657,7 @@
    "mcap_usd": 410245460,
    "rs": 89,
    "per": null,
-   "psr": null
+   "psr": 6.79
   },
   {
    "ticker": "TMCR",
@@ -2691,8 +2692,8 @@
    "mcap": 152464108.0,
    "mcap_usd": 152464108,
    "rs": 10,
-   "per": null,
-   "psr": null
+   "per": 2.2,
+   "psr": 0.43
   },
   {
    "ticker": "INDP",
@@ -2727,8 +2728,8 @@
    "mcap": 887336335.0,
    "mcap_usd": 887336335,
    "rs": 66,
-   "per": null,
-   "psr": null
+   "per": 14.2,
+   "psr": 0.53
   },
   {
    "ticker": "HPP",
@@ -2746,7 +2747,7 @@
    "mcap_usd": 481120815,
    "rs": 32,
    "per": null,
-   "psr": null
+   "psr": 0.64
   },
   {
    "ticker": "ABEO",
@@ -2764,7 +2765,7 @@
    "mcap_usd": 138295353,
    "rs": 5,
    "per": null,
-   "psr": null
+   "psr": 4.11
   },
   {
    "ticker": "SHIM",
@@ -2800,7 +2801,7 @@
    "mcap_usd": 323266606,
    "rs": 70,
    "per": null,
-   "psr": null
+   "psr": 24.92
   },
   {
    "ticker": "PLBY",
@@ -2817,8 +2818,8 @@
    "mcap": 150125996.0,
    "mcap_usd": 150125996,
    "rs": 49,
-   "per": null,
-   "psr": null
+   "per": 68.5,
+   "psr": 1.25
   },
   {
    "ticker": "FF",
@@ -2836,7 +2837,7 @@
    "mcap_usd": 128080889,
    "rs": 15,
    "per": null,
-   "psr": null
+   "psr": 0.58
   },
   {
    "ticker": "MTRI",
@@ -2872,7 +2873,7 @@
    "mcap_usd": 589662648,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 36.97
   },
   {
    "ticker": "ZYN",
@@ -2907,8 +2908,8 @@
    "mcap": 251839372.0,
    "mcap_usd": 251839372,
    "rs": 36,
-   "per": null,
-   "psr": null
+   "per": 21.8,
+   "psr": 0.23
   },
   {
    "ticker": "PDSB",
@@ -3015,8 +3016,8 @@
    "mcap": 439729281.0,
    "mcap_usd": 439729281,
    "rs": 86,
-   "per": null,
-   "psr": null
+   "per": 19.7,
+   "psr": 0.47
   },
   {
    "ticker": "NPCE",
@@ -3034,7 +3035,7 @@
    "mcap_usd": 260453869,
    "rs": 7,
    "per": null,
-   "psr": null
+   "psr": 2.57
   },
   {
    "ticker": "SLSN",
@@ -3051,8 +3052,8 @@
    "mcap": 107383508.0,
    "mcap_usd": 107383508,
    "rs": 91,
-   "per": null,
-   "psr": null
+   "per": 53.3,
+   "psr": 1.85
   },
   {
    "ticker": "AVR",
@@ -3070,7 +3071,7 @@
    "mcap_usd": 528414385,
    "rs": 33,
    "per": null,
-   "psr": null
+   "psr": 238.3
   },
   {
    "ticker": "MOVE",
@@ -3088,7 +3089,7 @@
    "mcap_usd": 174952917,
    "rs": 4,
    "per": null,
-   "psr": null
+   "psr": 16.57
   },
   {
    "ticker": "ORMP",
@@ -3105,7 +3106,7 @@
    "mcap": 161332845.0,
    "mcap_usd": 161332845,
    "rs": 64,
-   "per": null,
+   "per": 1.1,
    "psr": null
   },
   {
@@ -3124,7 +3125,7 @@
    "mcap_usd": 185633799,
    "rs": 29,
    "per": null,
-   "psr": null
+   "psr": 19.49
   },
   {
    "ticker": "CIA",
@@ -3141,8 +3142,8 @@
    "mcap": 165044013.0,
    "mcap_usd": 165044013,
    "rs": 16,
-   "per": null,
-   "psr": null
+   "per": 20.1,
+   "psr": 0.67
   },
   {
    "ticker": "QVCG",
@@ -3160,7 +3161,7 @@
    "mcap_usd": 398999178,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 0.05
   },
   {
    "ticker": "RMIX",
@@ -3177,8 +3178,8 @@
    "mcap": 383697236.0,
    "mcap_usd": 383697236,
    "rs": null,
-   "per": null,
-   "psr": null
+   "per": 14.0,
+   "psr": 1.0
   },
   {
    "ticker": "OKUR",
@@ -3213,8 +3214,8 @@
    "mcap": 266428058.0,
    "mcap_usd": 266428058,
    "rs": 80,
-   "per": null,
-   "psr": null
+   "per": 35.2,
+   "psr": 0.62
   },
   {
    "ticker": "ECC",
@@ -3265,8 +3266,9 @@
    "w1_prev": 0.23,
    "cap": "U",
    "rs": 71,
-   "per": null,
-   "psr": null
+   "per": 19.9,
+   "psr": 2.29,
+   "mcap": 8975751388.56
   },
   {
    "ticker": "ITGR",
@@ -3281,8 +3283,9 @@
    "w1_prev": 0.11,
    "cap": "U",
    "rs": 90,
-   "per": null,
-   "psr": null
+   "per": 42.6,
+   "psr": 2.36,
+   "mcap": 4316641878.89
   },
   {
    "ticker": "IBOC",
@@ -3297,8 +3300,9 @@
    "w1_prev": 0.24,
    "cap": "U",
    "rs": 43,
-   "per": null,
-   "psr": null
+   "per": 10.0,
+   "psr": 4.95,
+   "mcap": 4203093857.3199997
   },
   {
    "ticker": "PFBC",
@@ -4553,8 +4557,8 @@
    "mcap": 1585246007.0,
    "mcap_usd": 1585246007,
    "rs": null,
-   "per": null,
-   "psr": null
+   "per": 58.3,
+   "psr": 1.21
   },
   {
    "ticker": "FLY",
@@ -4679,8 +4683,8 @@
    "mcap": 6861033656.0,
    "mcap_usd": 6861033656,
    "rs": null,
-   "per": null,
-   "psr": null
+   "per": 72.8,
+   "psr": 3.84
   },
   {
    "ticker": "PRAX",
@@ -4968,7 +4972,7 @@
    "mcap_usd": 1999853140,
    "rs": 97,
    "per": null,
-   "psr": null
+   "psr": 3.17
   },
   {
    "ticker": "STVN",
@@ -5219,8 +5223,8 @@
    "mcap": 107383508.0,
    "mcap_usd": 107383508,
    "rs": 91,
-   "per": null,
-   "psr": null
+   "per": 53.3,
+   "psr": 1.85
   },
   {
    "ticker": "PEPG",
@@ -5922,7 +5926,7 @@
    "mcap_usd": 185503008,
    "rs": 72,
    "per": null,
-   "psr": null
+   "psr": 195943.56
   },
   {
    "ticker": "HUCK",
@@ -6111,8 +6115,9 @@
    "w1_prev": 0.24,
    "cap": "U",
    "rs": 43,
-   "per": null,
-   "psr": null
+   "per": 10.0,
+   "psr": 4.95,
+   "mcap": 4203093857.3199997
   },
   {
    "ticker": "BF-B",
@@ -6127,8 +6132,9 @@
    "w1_prev": 0.23,
    "cap": "U",
    "rs": 71,
-   "per": null,
-   "psr": null
+   "per": 19.9,
+   "psr": 2.29,
+   "mcap": 8975751388.56
   },
   {
    "ticker": "ITGR",
@@ -6143,8 +6149,9 @@
    "w1_prev": 0.11,
    "cap": "U",
    "rs": 90,
-   "per": null,
-   "psr": null
+   "per": 42.6,
+   "psr": 2.36,
+   "mcap": 4316641878.89
   }
  ],
  "w1_week": "2026-11-09~2026-11-13"

@@ -5633,5 +5633,1775 @@
    }
   ],
   "at": "2026-11-15"
+ },
+ "ZTAX": {
+  "holdings": [
+   {
+    "symbol": "MCSXX",
+    "name": "BlackRock Liquidity MuniCash Instl",
+    "pct": 11.94
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "BTAL": {
+  "holdings": [
+   {
+    "symbol": "MRNA",
+    "name": "Moderna Inc",
+    "pct": 0.57
+   },
+   {
+    "symbol": "ACN",
+    "name": "Accenture PLC Class A",
+    "pct": 0.51
+   },
+   {
+    "symbol": "ZS",
+    "name": "Zscaler Inc",
+    "pct": 0.5
+   },
+   {
+    "symbol": "EPAM",
+    "name": "EPAM Systems Inc",
+    "pct": 0.47
+   },
+   {
+    "symbol": "APA",
+    "name": "APA Corp",
+    "pct": 0.46
+   },
+   {
+    "symbol": "SAIC",
+    "name": "Science Applications International Corp",
+    "pct": 0.46
+   },
+   {
+    "symbol": "DOCS",
+    "name": "Doximity Inc Class A",
+    "pct": 0.46
+   },
+   {
+    "symbol": "WING",
+    "name": "Wingstop Inc",
+    "pct": 0.45
+   },
+   {
+    "symbol": "MCK",
+    "name": "McKesson Corp",
+    "pct": 0.45
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "TAIL": {
+  "holdings": [
+   {
+    "symbol": "FXFXX",
+    "name": "First American Treasury Obligs X",
+    "pct": 1.25
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "NDIA": {
+  "holdings": [
+   {
+    "symbol": "IBN",
+    "name": "ICICI Bank Ltd ADR",
+    "pct": 8.41
+   },
+   {
+    "symbol": "HDFCBANK.NS",
+    "name": "HDFC Bank Ltd",
+    "pct": 7.59
+   },
+   {
+    "symbol": "BHARTIARTL.NS",
+    "name": "Bharti Airtel Ltd",
+    "pct": 6.34
+   },
+   {
+    "symbol": "AXISBANK.BO",
+    "name": "Axis Bank Ltd",
+    "pct": 6.0
+   },
+   {
+    "symbol": "LT.NS",
+    "name": "Larsen & Toubro Ltd",
+    "pct": 4.65
+   },
+   {
+    "symbol": "APOLLOHOSP.NS",
+    "name": "Apollo Hospitals Enterprise Ltd",
+    "pct": 4.06
+   },
+   {
+    "symbol": "TITAN.NS",
+    "name": "Titan Co Ltd",
+    "pct": 4.0
+   },
+   {
+    "symbol": "ULTRACEMCO.BO",
+    "name": "UltraTech Cement Ltd",
+    "pct": 3.94
+   },
+   {
+    "symbol": "INFY",
+    "name": "Infosys Ltd ADR",
+    "pct": 3.92
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "IHF": {
+  "holdings": [
+   {
+    "symbol": "UNH",
+    "name": "UnitedHealth Group Inc",
+    "pct": 22.07
+   },
+   {
+    "symbol": "CVS",
+    "name": "CVS Health Corp",
+    "pct": 11.83
+   },
+   {
+    "symbol": "ELV",
+    "name": "Elevance Health Inc",
+    "pct": 9.32
+   },
+   {
+    "symbol": "VEEV",
+    "name": "Veeva Systems Inc Class A",
+    "pct": 5.12
+   },
+   {
+    "symbol": "HCA",
+    "name": "HCA Healthcare Inc",
+    "pct": 4.78
+   },
+   {
+    "symbol": "CI",
+    "name": "The Cigna Group",
+    "pct": 4.57
+   },
+   {
+    "symbol": "HUM",
+    "name": "Humana Inc",
+    "pct": 4.42
+   },
+   {
+    "symbol": "CNC",
+    "name": "Centene Corp",
+    "pct": 4.15
+   },
+   {
+    "symbol": "LH",
+    "name": "Labcorp Holdings Inc",
+    "pct": 3.6
+   },
+   {
+    "symbol": "DGX",
+    "name": "Quest Diagnostics Inc",
+    "pct": 3.41
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "FLV": {
+  "holdings": [
+   {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp",
+    "pct": 5.31
+   },
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "pct": 3.69
+   },
+   {
+    "symbol": "MRSH",
+    "name": "Marsh",
+    "pct": 3.69
+   },
+   {
+    "symbol": "DUK",
+    "name": "Duke Energy Corp",
+    "pct": 3.62
+   },
+   {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "pct": 3.42
+   },
+   {
+    "symbol": "BRK-B",
+    "name": "Berkshire Hathaway Inc Class B",
+    "pct": 3.25
+   },
+   {
+    "symbol": "BLK",
+    "name": "BlackRock Inc",
+    "pct": 3.09
+   },
+   {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "pct": 3.07
+   },
+   {
+    "symbol": "BDX",
+    "name": "Becton Dickinson & Co",
+    "pct": 3.01
+   },
+   {
+    "symbol": "CVX",
+    "name": "Chevron Corp",
+    "pct": 2.67
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "KBWP": {
+  "holdings": [
+   {
+    "symbol": "TRV",
+    "name": "The Travelers Companies Inc",
+    "pct": 8.27
+   },
+   {
+    "symbol": "CB",
+    "name": "Chubb Ltd",
+    "pct": 8.22
+   },
+   {
+    "symbol": "PGR",
+    "name": "Progressive Corp",
+    "pct": 8.1
+   },
+   {
+    "symbol": "MRSH",
+    "name": "Marsh",
+    "pct": 8.07
+   },
+   {
+    "symbol": "AON",
+    "name": "Aon PLC Class A",
+    "pct": 7.64
+   },
+   {
+    "symbol": "WRB",
+    "name": "WR Berkley Corp",
+    "pct": 4.18
+   },
+   {
+    "symbol": "ACGL",
+    "name": "Arch Capital Group Ltd",
+    "pct": 4.14
+   },
+   {
+    "symbol": "AIG",
+    "name": "American International Group Inc",
+    "pct": 4.1
+   },
+   {
+    "symbol": "CINF",
+    "name": "Cincinnati Financial Corp",
+    "pct": 4.07
+   },
+   {
+    "symbol": "AJG",
+    "name": "Arthur J. Gallagher & Co",
+    "pct": 4.02
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "QAT": {
+  "holdings": [
+   {
+    "symbol": "QNBK.QA",
+    "name": "Qatar National Bank SAQ",
+    "pct": 23.67
+   },
+   {
+    "symbol": "QIBK.QA",
+    "name": "Qatar Islamic Bank QPSC",
+    "pct": 14.0
+   },
+   {
+    "symbol": "IQCD.QA",
+    "name": "Industries Qatar QSC",
+    "pct": 5.62
+   },
+   {
+    "symbol": "QIIK.QA",
+    "name": "Qatar International Islamic Bank QSC",
+    "pct": 4.54
+   },
+   {
+    "symbol": "ORDS.QA",
+    "name": "Ooredoo QPSC",
+    "pct": 4.51
+   },
+   {
+    "symbol": "QGTS.QA",
+    "name": "Qatar Gas Transport Co Ltd (Nakilat) QSC",
+    "pct": 4.45
+   },
+   {
+    "symbol": "CBQK.QA",
+    "name": "The Commercial Bank (Q.S.C.)",
+    "pct": 4.31
+   },
+   {
+    "symbol": "MARK.QA",
+    "name": "AlRayan Bank Shs Partly paid",
+    "pct": 4.3
+   },
+   {
+    "symbol": "QNNS.QA",
+    "name": "Qatar Navigation QSC",
+    "pct": 3.84
+   },
+   {
+    "symbol": "QFLS.QA",
+    "name": "Qatar Fuel QSC",
+    "pct": 3.25
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "XHS": {
+  "holdings": [
+   {
+    "symbol": "SGRY",
+    "name": "Surgery Partners Inc",
+    "pct": 2.73
+   },
+   {
+    "symbol": "AMN",
+    "name": "AMN Healthcare Services Inc",
+    "pct": 2.27
+   },
+   {
+    "symbol": "OPCH",
+    "name": "Option Care Health Inc",
+    "pct": 2.23
+   },
+   {
+    "symbol": "HNGE",
+    "name": "Hinge Health Inc Ordinary Shares - Class A",
+    "pct": 2.08
+   },
+   {
+    "symbol": "CON",
+    "name": "Concentra Group Holdings Parent Inc",
+    "pct": 1.96
+   },
+   {
+    "symbol": "CRVL",
+    "name": "CorVel Corp",
+    "pct": 1.95
+   },
+   {
+    "symbol": "BLLN",
+    "name": "BillionToOne Inc Ordinary Shares - Class A",
+    "pct": 1.9
+   },
+   {
+    "symbol": "LH",
+    "name": "Labcorp Holdings Inc",
+    "pct": 1.87
+   },
+   {
+    "symbol": "HCA",
+    "name": "HCA Healthcare Inc",
+    "pct": 1.86
+   },
+   {
+    "symbol": "EHC",
+    "name": "Encompass Health Corp",
+    "pct": 1.86
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "IVOL": {
+  "holdings": [
+   {
+    "symbol": "SCHP",
+    "name": "Schwab US TIPS ETF™",
+    "pct": 71.97
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "TYA": {
+  "holdings": [
+   {
+    "symbol": "SBIL",
+    "name": "Simplify Government Money Market ETF",
+    "pct": 93.69
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "SAPH": {
+  "holdings": [
+   {
+    "symbol": "SAP",
+    "name": "SAP SE ADR",
+    "pct": 95.47
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "GXPS": {
+  "holdings": [
+   {
+    "symbol": "WMT",
+    "name": "Walmart Inc",
+    "pct": 16.84
+   },
+   {
+    "symbol": "COST",
+    "name": "Costco Wholesale Corp",
+    "pct": 13.98
+   },
+   {
+    "symbol": "PG",
+    "name": "Procter & Gamble Co",
+    "pct": 11.72
+   },
+   {
+    "symbol": "KO",
+    "name": "Coca-Cola Co",
+    "pct": 11.35
+   },
+   {
+    "symbol": "PM",
+    "name": "Philip Morris International Inc",
+    "pct": 10.13
+   },
+   {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc",
+    "pct": 5.83
+   },
+   {
+    "symbol": "MO",
+    "name": "Altria Group Inc",
+    "pct": 4.05
+   },
+   {
+    "symbol": "MDLZ",
+    "name": "Mondelez International Inc Class A",
+    "pct": 2.59
+   },
+   {
+    "symbol": "CL",
+    "name": "Colgate-Palmolive Co",
+    "pct": 2.25
+   },
+   {
+    "symbol": "TGT",
+    "name": "Target Corp",
+    "pct": 2.18
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "INDE": {
+  "holdings": [
+   {
+    "symbol": "ETERNAL.BO",
+    "name": "Eternal Ltd",
+    "pct": 10.44
+   },
+   {
+    "symbol": "ICICIBANK.NS",
+    "name": "ICICI Bank Ltd",
+    "pct": 7.52
+   },
+   {
+    "symbol": "HDFCBANK.NS",
+    "name": "HDFC Bank Ltd",
+    "pct": 6.17
+   },
+   {
+    "symbol": "NEULANDLAB.BO",
+    "name": "Neuland Laboratories Ltd",
+    "pct": 4.12
+   },
+   {
+    "symbol": "BHARTIARTL.NS",
+    "name": "Bharti Airtel Ltd",
+    "pct": 3.91
+   },
+   {
+    "symbol": "BAJFINANCE.BO",
+    "name": "Bajaj Finance Ltd",
+    "pct": 3.7
+   },
+   {
+    "symbol": "AXISBANK.BO",
+    "name": "Axis Bank Ltd",
+    "pct": 3.11
+   },
+   {
+    "symbol": "KOTAKBANK.NS",
+    "name": "Kotak Mahindra Bank Ltd",
+    "pct": 3.0
+   },
+   {
+    "symbol": "ATHERENERG.NS",
+    "name": "Ather Energy Ltd",
+    "pct": 2.97
+   },
+   {
+    "symbol": "GPPL.BO",
+    "name": "Gujarat Pipavav Port Ltd",
+    "pct": 2.29
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "KIE": {
+  "holdings": [
+   {
+    "symbol": "KMPR",
+    "name": "Kemper Corp",
+    "pct": 2.2
+   },
+   {
+    "symbol": "MRSH",
+    "name": "Marsh",
+    "pct": 2.05
+   },
+   {
+    "symbol": "BWIN",
+    "name": "The Baldwin Insurance Group Inc Class A",
+    "pct": 2.04
+   },
+   {
+    "symbol": "AJG",
+    "name": "Arthur J. Gallagher & Co",
+    "pct": 2.04
+   },
+   {
+    "symbol": "EG",
+    "name": "Everest Group Ltd",
+    "pct": 2.02
+   },
+   {
+    "symbol": "RYAN",
+    "name": "Ryan Specialty Holdings Inc Class A",
+    "pct": 2.0
+   },
+   {
+    "symbol": "WTM",
+    "name": "White Mountains Insurance Group Ltd",
+    "pct": 2.0
+   },
+   {
+    "symbol": "ACGL",
+    "name": "Arch Capital Group Ltd",
+    "pct": 2.0
+   },
+   {
+    "symbol": "SIGI",
+    "name": "Selective Insurance Group Inc",
+    "pct": 1.98
+   },
+   {
+    "symbol": "AFG",
+    "name": "American Financial Group Inc",
+    "pct": 1.98
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "IMVP": {
+  "holdings": [
+   {
+    "symbol": "TCS.NS",
+    "name": "Tata Consultancy Services Ltd",
+    "pct": 4.09
+   },
+   {
+    "symbol": "TECHM.BO",
+    "name": "Tech Mahindra Ltd",
+    "pct": 3.93
+   },
+   {
+    "symbol": "BHARTIARTL.NS",
+    "name": "Bharti Airtel Ltd",
+    "pct": 3.73
+   },
+   {
+    "symbol": "PNB.BO",
+    "name": "Punjab National Bank",
+    "pct": 3.62
+   },
+   {
+    "symbol": "FEDERALBNK.NS",
+    "name": "The Federal Bank Ltd",
+    "pct": 3.57
+   },
+   {
+    "symbol": "HAL.BO",
+    "name": "Hindustan Aeronautics Ltd Ordinary Shares",
+    "pct": 3.45
+   },
+   {
+    "symbol": "BANKBARODA.BO",
+    "name": "Bank of Baroda",
+    "pct": 3.44
+   },
+   {
+    "symbol": "APOLLOHOSP.NS",
+    "name": "Apollo Hospitals Enterprise Ltd",
+    "pct": 3.44
+   },
+   {
+    "symbol": "ADANIPORTS.BO",
+    "name": "Adani Ports & Special Economic Zone Ltd",
+    "pct": 3.43
+   },
+   {
+    "symbol": "MARICO.BO",
+    "name": "Marico Ltd",
+    "pct": 3.38
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "INDY": {
+  "holdings": [
+   {
+    "symbol": "HDFCBANK.NS",
+    "name": "HDFC Bank Ltd",
+    "pct": 9.95
+   },
+   {
+    "symbol": "ICICIBANK.NS",
+    "name": "ICICI Bank Ltd",
+    "pct": 9.37
+   },
+   {
+    "symbol": "RELIANCE.NS",
+    "name": "Reliance Industries Ltd",
+    "pct": 7.3
+   },
+   {
+    "symbol": "BHARTIARTL.NS",
+    "name": "Bharti Airtel Ltd",
+    "pct": 5.62
+   },
+   {
+    "symbol": "LT.NS",
+    "name": "Larsen & Toubro Ltd",
+    "pct": 4.25
+   },
+   {
+    "symbol": "INFY.NS",
+    "name": "Infosys Ltd",
+    "pct": 3.92
+   },
+   {
+    "symbol": "SBIN.NS",
+    "name": "State Bank of India",
+    "pct": 3.72
+   },
+   {
+    "symbol": "XTSLA",
+    "name": "BlackRock Cash Funds Treasury SL Agency",
+    "pct": 3.62
+   },
+   {
+    "symbol": "AXISBANK.BO",
+    "name": "Axis Bank Ltd",
+    "pct": 3.28
+   },
+   {
+    "symbol": "KOTAKBANK.NS",
+    "name": "Kotak Mahindra Bank Ltd",
+    "pct": 3.18
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "FLSP": {
+  "holdings": [
+   {
+    "symbol": "FGBLZ26",
+    "name": "Euro Bund Future Dec 26",
+    "pct": 27.62
+   },
+   {
+    "symbol": "INFXX",
+    "name": "Franklin Instl U.S. Govt Mny Mkt Fund",
+    "pct": 24.54
+   },
+   {
+    "symbol": "FOATZ26",
+    "name": "Euro OAT Future Dec 26",
+    "pct": 11.17
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "ARB": {
+  "holdings": [
+   {
+    "symbol": "WBD",
+    "name": "Warner Bros. Discovery Inc Ordinary Shares - Class A",
+    "pct": 3.74
+   },
+   {
+    "symbol": "CZR",
+    "name": "Caesars Entertainment Inc",
+    "pct": 2.51
+   },
+   {
+    "symbol": "PEN",
+    "name": "Penumbra Inc",
+    "pct": 2.5
+   },
+   {
+    "symbol": "TECH",
+    "name": "Bio-Techne Corp",
+    "pct": 2.49
+   },
+   {
+    "symbol": "AES",
+    "name": "The AES Corp",
+    "pct": 2.47
+   },
+   {
+    "symbol": "ITRK.L",
+    "name": "Intertek Group PLC",
+    "pct": 2.46
+   },
+   {
+    "symbol": "APGE",
+    "name": "Apogee Therapeutics Inc",
+    "pct": 2.45
+   },
+   {
+    "symbol": "CRNX",
+    "name": "Crinetics Pharmaceuticals Inc",
+    "pct": 2.41
+   },
+   {
+    "symbol": "DHER.DE",
+    "name": "Delivery Hero SE",
+    "pct": 2.37
+   },
+   {
+    "symbol": "GSAT",
+    "name": "Globalstar Inc",
+    "pct": 2.33
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "LDRC": {
+  "holdings": [
+   {
+    "symbol": "IBDS",
+    "name": "iShares iBonds Dec 2027 Term Corp ETF",
+    "pct": 20.21
+   },
+   {
+    "symbol": "IBDT",
+    "name": "iShares iBonds Dec 2028 Term Corp ETF",
+    "pct": 20.1
+   },
+   {
+    "symbol": "IBDU",
+    "name": "iShares iBonds Dec 2029 Term Corp ETF",
+    "pct": 19.98
+   },
+   {
+    "symbol": "IBDV",
+    "name": "iShares iBonds Dec 2030 Term Corp ETF",
+    "pct": 19.85
+   },
+   {
+    "symbol": "IBDW",
+    "name": "iShares iBonds Dec 2031 Term Corp ETF",
+    "pct": 19.74
+   },
+   {
+    "symbol": "XTSLA",
+    "name": "BlackRock Cash Funds Treasury SL Agency",
+    "pct": 0.13
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "NFTY": {
+  "holdings": [
+   {
+    "symbol": "TCS.NS",
+    "name": "Tata Consultancy Services Ltd",
+    "pct": 2.41
+   },
+   {
+    "symbol": "INFY.NS",
+    "name": "Infosys Ltd",
+    "pct": 2.32
+   },
+   {
+    "symbol": "TECHM.BO",
+    "name": "Tech Mahindra Ltd",
+    "pct": 2.31
+   },
+   {
+    "symbol": "KOTAKBANK.NS",
+    "name": "Kotak Mahindra Bank Ltd",
+    "pct": 2.3
+   },
+   {
+    "symbol": "DRREDDY.BO",
+    "name": "Dr Reddy's Laboratories Ltd",
+    "pct": 2.26
+   },
+   {
+    "symbol": "HCLTECH.NS",
+    "name": "HCL Technologies Ltd",
+    "pct": 2.26
+   },
+   {
+    "symbol": "BHARTIARTL.NS",
+    "name": "Bharti Airtel Ltd",
+    "pct": 2.23
+   },
+   {
+    "symbol": "BSE.NS",
+    "name": "BSE Ltd",
+    "pct": 2.22
+   },
+   {
+    "symbol": "TRENT.BO",
+    "name": "Trent Ltd",
+    "pct": 2.17
+   },
+   {
+    "symbol": "ADANIPORTS.BO",
+    "name": "Adani Ports & Special Economic Zone Ltd",
+    "pct": 2.12
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "INCO": {
+  "holdings": [
+   {
+    "symbol": "ETERNAL.BO",
+    "name": "Eternal Ltd",
+    "pct": 7.32
+   },
+   {
+    "symbol": "TVSMOTOR.BO",
+    "name": "TVS Motor Co Ltd",
+    "pct": 5.3
+   },
+   {
+    "symbol": "BAJAJ-AUTO.BO",
+    "name": "Bajaj Auto Ltd",
+    "pct": 5.22
+   },
+   {
+    "symbol": "TITAN.NS",
+    "name": "Titan Co Ltd",
+    "pct": 5.17
+   },
+   {
+    "symbol": "TRENT.BO",
+    "name": "Trent Ltd",
+    "pct": 4.75
+   },
+   {
+    "symbol": "EICHERMOT.NS",
+    "name": "Eicher Motors Ltd",
+    "pct": 4.69
+   },
+   {
+    "symbol": "NESTLEIND.NS",
+    "name": "Nestle India Ltd",
+    "pct": 4.49
+   },
+   {
+    "symbol": "ITC.NS",
+    "name": "ITC Ltd",
+    "pct": 4.24
+   },
+   {
+    "symbol": "M&M.NS",
+    "name": "Mahindra & Mahindra Ltd",
+    "pct": 4.21
+   },
+   {
+    "symbol": "HINDUNILVR.BO",
+    "name": "Hindustan Unilever Ltd",
+    "pct": 4.14
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "TUA": {
+  "holdings": [
+   {
+    "symbol": "SBIL",
+    "name": "Simplify Government Money Market ETF",
+    "pct": 84.04
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "DESK": {
+  "holdings": [
+   {
+    "symbol": "CUZ",
+    "name": "Cousins Properties Inc",
+    "pct": 10.68
+   },
+   {
+    "symbol": "KRC",
+    "name": "Kilroy Realty Corp",
+    "pct": 10.31
+   },
+   {
+    "symbol": "VNO",
+    "name": "Vornado Realty Trust",
+    "pct": 10.04
+   },
+   {
+    "symbol": "BXP",
+    "name": "BXP Inc",
+    "pct": 9.85
+   },
+   {
+    "symbol": "CDP",
+    "name": "COPT Defense Properties",
+    "pct": 9.04
+   },
+   {
+    "symbol": "ESRT",
+    "name": "Empire State Realty Trust Inc Class A",
+    "pct": 4.65
+   },
+   {
+    "symbol": "HIW",
+    "name": "Highwoods Properties Inc",
+    "pct": 4.64
+   },
+   {
+    "symbol": "PDM",
+    "name": "Piedmont Realty Trust Inc Class A",
+    "pct": 4.55
+   },
+   {
+    "symbol": "SLG",
+    "name": "SL Green Realty Corp",
+    "pct": 4.36
+   },
+   {
+    "symbol": "SPG",
+    "name": "Simon Property Group Inc",
+    "pct": 4.3
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "NUMI": {
+  "holdings": [
+   {
+    "symbol": "GVMXX",
+    "name": "State Street Instl US Govt MMkt Premier",
+    "pct": 2.03
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "IAK": {
+  "holdings": [
+   {
+    "symbol": "PGR",
+    "name": "Progressive Corp",
+    "pct": 13.75
+   },
+   {
+    "symbol": "CB",
+    "name": "Chubb Ltd",
+    "pct": 13.08
+   },
+   {
+    "symbol": "TRV",
+    "name": "The Travelers Companies Inc",
+    "pct": 8.45
+   },
+   {
+    "symbol": "ALL",
+    "name": "Allstate Corp",
+    "pct": 6.71
+   },
+   {
+    "symbol": "AFL",
+    "name": "Aflac Inc",
+    "pct": 4.65
+   },
+   {
+    "symbol": "AIG",
+    "name": "American International Group Inc",
+    "pct": 4.56
+   },
+   {
+    "symbol": "MET",
+    "name": "MetLife Inc",
+    "pct": 4.5
+   },
+   {
+    "symbol": "PRU",
+    "name": "Prudential Financial Inc",
+    "pct": 4.27
+   },
+   {
+    "symbol": "ACGL",
+    "name": "Arch Capital Group Ltd",
+    "pct": 3.85
+   },
+   {
+    "symbol": "HIG",
+    "name": "The Hartford Insurance Group Inc",
+    "pct": 3.82
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "PSCC": {
+  "holdings": [
+   {
+    "symbol": "LW",
+    "name": "Lamb Weston Holdings Inc",
+    "pct": 10.6
+   },
+   {
+    "symbol": "CAG",
+    "name": "Conagra Brands Inc",
+    "pct": 9.95
+   },
+   {
+    "symbol": "TAP",
+    "name": "Molson Coors Beverage Co Shs -B- Non-Voting",
+    "pct": 9.13
+   },
+   {
+    "symbol": "PSMT",
+    "name": "Pricesmart Inc",
+    "pct": 6.05
+   },
+   {
+    "symbol": "CPB",
+    "name": "The Campbell's Co",
+    "pct": 5.92
+   },
+   {
+    "symbol": "WDFC",
+    "name": "WD-40 Co",
+    "pct": 4.41
+   },
+   {
+    "symbol": "FRPT",
+    "name": "Freshpet Inc",
+    "pct": 4.4
+   },
+   {
+    "symbol": "COCO",
+    "name": "The Vita Coco Co Inc",
+    "pct": 4.32
+   },
+   {
+    "symbol": "CHEF",
+    "name": "The Chefs' Warehouse Inc",
+    "pct": 4.18
+   },
+   {
+    "symbol": "UNFI",
+    "name": "United Natural Foods Inc",
+    "pct": 4.14
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "IOPP": {
+  "holdings": [
+   {
+    "symbol": "ETERNAL.BO",
+    "name": "Eternal",
+    "pct": 8.17
+   },
+   {
+    "symbol": "INDHOTEL.BO",
+    "name": "Indian Hotels Co Ltd",
+    "pct": 6.23
+   },
+   {
+    "symbol": "ICICIBANK.NS",
+    "name": "ICICI Bank Ltd",
+    "pct": 5.54
+   },
+   {
+    "symbol": "BHARTIARTL.NS",
+    "name": "Bharti Airtel Ltd",
+    "pct": 4.93
+   },
+   {
+    "symbol": "TITAN.NS",
+    "name": "Titan Co Ltd",
+    "pct": 4.89
+   },
+   {
+    "symbol": "APOLLOHOSP.NS",
+    "name": "Apollo Hospitals Enterprise Ltd",
+    "pct": 4.85
+   },
+   {
+    "symbol": "MARICO.BO",
+    "name": "Marico Ltd",
+    "pct": 4.61
+   },
+   {
+    "symbol": "UNOMINDA.BO",
+    "name": "UNO Minda Ltd",
+    "pct": 4.36
+   },
+   {
+    "symbol": "BAJAJ-AUTO.BO",
+    "name": "Bajaj Auto Ltd",
+    "pct": 4.31
+   },
+   {
+    "symbol": "TORNTPHARM.NS",
+    "name": "Torrent Pharmaceuticals Ltd",
+    "pct": 4.11
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "NURE": {
+  "holdings": [
+   {
+    "symbol": "HST",
+    "name": "Host Hotels & Resorts Inc",
+    "pct": 5.51
+   },
+   {
+    "symbol": "EXR",
+    "name": "Extra Space Storage Inc",
+    "pct": 5.35
+   },
+   {
+    "symbol": "PSA",
+    "name": "Public Storage",
+    "pct": 5.29
+   },
+   {
+    "symbol": "CUBE",
+    "name": "CubeSmart",
+    "pct": 5.27
+   },
+   {
+    "symbol": "RHP",
+    "name": "Ryman Hospitality Properties Inc",
+    "pct": 5.21
+   },
+   {
+    "symbol": "UDR",
+    "name": "UDR Inc",
+    "pct": 4.81
+   },
+   {
+    "symbol": "AMH",
+    "name": "American Homes 4 Rent Class A",
+    "pct": 4.7
+   },
+   {
+    "symbol": "SUI",
+    "name": "Sun Communities Inc",
+    "pct": 4.68
+   },
+   {
+    "symbol": "CPT",
+    "name": "Camden Property Trust",
+    "pct": 4.64
+   },
+   {
+    "symbol": "ELS",
+    "name": "Equity Lifestyle Properties Inc",
+    "pct": 4.64
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "DOGG": {
+  "holdings": [
+   {
+    "symbol": "CVX",
+    "name": "Chevron Corp",
+    "pct": 6.15
+   },
+   {
+    "symbol": "AMGN",
+    "name": "Amgen Inc",
+    "pct": 6.07
+   },
+   {
+    "symbol": "MRK",
+    "name": "Merck & Co Inc",
+    "pct": 5.74
+   },
+   {
+    "symbol": "PG",
+    "name": "Procter & Gamble Co",
+    "pct": 5.68
+   },
+   {
+    "symbol": "KO",
+    "name": "Coca-Cola Co",
+    "pct": 5.35
+   },
+   {
+    "symbol": "HD",
+    "name": "The Home Depot Inc",
+    "pct": 5.02
+   },
+   {
+    "symbol": "UNH",
+    "name": "UnitedHealth Group Inc",
+    "pct": 4.96
+   },
+   {
+    "symbol": "MCD",
+    "name": "McDonald's Corp",
+    "pct": 4.89
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "PHDG": {
+  "holdings": [
+   {
+    "symbol": "IUGXX",
+    "name": "Invesco Premier US Government Money Inst",
+    "pct": 10.06
+   },
+   {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "pct": 5.54
+   },
+   {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "pct": 5.45
+   },
+   {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp",
+    "pct": 4.27
+   },
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "pct": 2.6
+   },
+   {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc Class A",
+    "pct": 1.81
+   },
+   {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "pct": 1.71
+   },
+   {
+    "symbol": "META",
+    "name": "Meta Platforms Inc Class A",
+    "pct": 1.49
+   },
+   {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc Class C",
+    "pct": 1.46
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "GNMA": {
+  "holdings": [
+   {
+    "symbol": "XTSLA",
+    "name": "BlackRock Cash Funds Treasury SL Agency",
+    "pct": 6.91
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "TMH": {
+  "holdings": [
+   {
+    "symbol": "TM",
+    "name": "Toyota Motor Corp ADR",
+    "pct": 97.18
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "EASY": {
+  "holdings": [
+   {
+    "symbol": "CAH",
+    "name": "Cardinal Health Inc",
+    "pct": 5.06
+   },
+   {
+    "symbol": "MSI",
+    "name": "Motorola Solutions Inc",
+    "pct": 5.01
+   },
+   {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp",
+    "pct": 4.61
+   },
+   {
+    "symbol": "LLY",
+    "name": "Eli Lilly and Co",
+    "pct": 4.38
+   },
+   {
+    "symbol": "ROL",
+    "name": "Rollins Inc",
+    "pct": 4.24
+   },
+   {
+    "symbol": "RSG",
+    "name": "Republic Services Inc",
+    "pct": 4.22
+   },
+   {
+    "symbol": "MCK",
+    "name": "McKesson Corp",
+    "pct": 4.21
+   },
+   {
+    "symbol": "NOC",
+    "name": "Northrop Grumman Corp",
+    "pct": 4.2
+   },
+   {
+    "symbol": "AMT",
+    "name": "American Tower Corp",
+    "pct": 4.17
+   },
+   {
+    "symbol": "WM",
+    "name": "Waste Management Inc",
+    "pct": 4.16
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "FTXN": {
+  "holdings": [
+   {
+    "symbol": "XOM",
+    "name": "ExxonMobil Holdings Corp",
+    "pct": 8.18
+   },
+   {
+    "symbol": "COP",
+    "name": "ConocoPhillips",
+    "pct": 8.13
+   },
+   {
+    "symbol": "CVX",
+    "name": "Chevron Corp",
+    "pct": 8.06
+   },
+   {
+    "symbol": "MPC",
+    "name": "Marathon Petroleum Corp",
+    "pct": 7.47
+   },
+   {
+    "symbol": "EOG",
+    "name": "EOG Resources Inc",
+    "pct": 5.56
+   },
+   {
+    "symbol": "VLO",
+    "name": "Valero Energy Corp",
+    "pct": 3.84
+   },
+   {
+    "symbol": "PSX",
+    "name": "Phillips 66",
+    "pct": 3.84
+   },
+   {
+    "symbol": "OXY",
+    "name": "Occidental Petroleum Corp",
+    "pct": 3.76
+   },
+   {
+    "symbol": "FANG",
+    "name": "Diamondback Energy Inc",
+    "pct": 3.7
+   },
+   {
+    "symbol": "DVN",
+    "name": "Devon Energy Corp",
+    "pct": 3.47
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "KDEF": {
+  "holdings": [
+   {
+    "symbol": "012450.KQ",
+    "name": "Hanwha Aerospace Co Ltd",
+    "pct": 18.45
+   },
+   {
+    "symbol": "079550.KQ",
+    "name": "LIG Defense&Aerospace Co Ltd",
+    "pct": 6.63
+   },
+   {
+    "symbol": "064350.KQ",
+    "name": "Hyundai Rotem Co",
+    "pct": 6.32
+   },
+   {
+    "symbol": "047810.KQ",
+    "name": "Korea Aerospace Industries Ltd",
+    "pct": 6.11
+   },
+   {
+    "symbol": "064960.KQ",
+    "name": "SNT Motiv Ordinary Shares",
+    "pct": 4.79
+   },
+   {
+    "symbol": "003570.KQ",
+    "name": "SNT Dynamics Co Ltd",
+    "pct": 4.74
+   },
+   {
+    "symbol": "100090.KS",
+    "name": "SK Oceanplant Co Ltd",
+    "pct": 4.59
+   },
+   {
+    "symbol": "103140.KQ",
+    "name": "Poongsan Corp",
+    "pct": 4.45
+   },
+   {
+    "symbol": "272210.KQ",
+    "name": "Hanwha Systems Co Ltd Ordinary Shares",
+    "pct": 4.34
+   },
+   {
+    "symbol": "437730.KQ",
+    "name": "Samhyun Co Ltd",
+    "pct": 4.28
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "RSPG": {
+  "holdings": [
+   {
+    "symbol": "APA",
+    "name": "APA Corp",
+    "pct": 5.18
+   },
+   {
+    "symbol": "XOM",
+    "name": "ExxonMobil Holdings Corp",
+    "pct": 5.02
+   },
+   {
+    "symbol": "COP",
+    "name": "ConocoPhillips",
+    "pct": 4.96
+   },
+   {
+    "symbol": "EOG",
+    "name": "EOG Resources Inc",
+    "pct": 4.95
+   },
+   {
+    "symbol": "MPC",
+    "name": "Marathon Petroleum Corp",
+    "pct": 4.9
+   },
+   {
+    "symbol": "CVX",
+    "name": "Chevron Corp",
+    "pct": 4.85
+   },
+   {
+    "symbol": "PSX",
+    "name": "Phillips 66",
+    "pct": 4.77
+   },
+   {
+    "symbol": "TRGP",
+    "name": "Targa Resources Corp",
+    "pct": 4.76
+   },
+   {
+    "symbol": "KMI",
+    "name": "Kinder Morgan Inc Class P",
+    "pct": 4.74
+   },
+   {
+    "symbol": "DVN",
+    "name": "Devon Energy Corp",
+    "pct": 4.68
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "PIE": {
+  "holdings": [
+   {
+    "symbol": "5434.TW",
+    "name": "Topco Scientific Co Ltd",
+    "pct": 3.07
+   },
+   {
+    "symbol": "2330.TW",
+    "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+    "pct": 2.95
+   },
+   {
+    "symbol": "2850.TW",
+    "name": "Shinkong Insurance Co Ltd",
+    "pct": 2.9
+   },
+   {
+    "symbol": "3653.TW",
+    "name": "Jentech Precision Industrial Co Ltd",
+    "pct": 2.72
+   },
+   {
+    "symbol": "6213.TW",
+    "name": "Iteq Corp",
+    "pct": 2.47
+   },
+   {
+    "symbol": "6257.TW",
+    "name": "Sigurd Microelectronics Corp",
+    "pct": 2.42
+   },
+   {
+    "symbol": "3189.TW",
+    "name": "Kinsus Interconnect Technology Corp",
+    "pct": 2.26
+   },
+   {
+    "symbol": "2301.TW",
+    "name": "Lite-On Technology Corp",
+    "pct": 2.21
+   },
+   {
+    "symbol": "MTELEKOM.BD",
+    "name": "Magyar Telekom Telecommunications PLC",
+    "pct": 2.18
+   },
+   {
+    "symbol": "1303.TW",
+    "name": "Nan Ya Plastics Corp",
+    "pct": 2.11
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "SPMO": {
+  "holdings": [
+   {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "pct": 10.35
+   },
+   {
+    "symbol": "MU",
+    "name": "Micron Technology Inc",
+    "pct": 8.78
+   },
+   {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "pct": 5.17
+   },
+   {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices Inc",
+    "pct": 5.17
+   },
+   {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc Class A",
+    "pct": 4.35
+   },
+   {
+    "symbol": "XOM",
+    "name": "ExxonMobil Holdings Corp",
+    "pct": 3.89
+   },
+   {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc Class C",
+    "pct": 3.51
+   },
+   {
+    "symbol": "INTC",
+    "name": "Intel Corp",
+    "pct": 3.38
+   },
+   {
+    "symbol": "CSCO",
+    "name": "Cisco Systems Inc",
+    "pct": 2.48
+   },
+   {
+    "symbol": "MRK",
+    "name": "Merck & Co Inc",
+    "pct": 2.45
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "XOP": {
+  "holdings": [
+   {
+    "symbol": "RRC",
+    "name": "Range Resources Corp",
+    "pct": 3.31
+   },
+   {
+    "symbol": "APA",
+    "name": "APA Corp",
+    "pct": 2.98
+   },
+   {
+    "symbol": "MUR",
+    "name": "Murphy Oil Corp",
+    "pct": 2.89
+   },
+   {
+    "symbol": "XOM",
+    "name": "ExxonMobil Holdings Corp",
+    "pct": 2.88
+   },
+   {
+    "symbol": "COP",
+    "name": "ConocoPhillips",
+    "pct": 2.85
+   },
+   {
+    "symbol": "OVV",
+    "name": "Ovintiv Inc",
+    "pct": 2.85
+   },
+   {
+    "symbol": "EOG",
+    "name": "EOG Resources Inc",
+    "pct": 2.85
+   },
+   {
+    "symbol": "MPC",
+    "name": "Marathon Petroleum Corp",
+    "pct": 2.82
+   },
+   {
+    "symbol": "CVX",
+    "name": "Chevron Corp",
+    "pct": 2.79
+   },
+   {
+    "symbol": "PR",
+    "name": "Permian Resources Corp Class A",
+    "pct": 2.79
+   }
+  ],
+  "at": "2026-11-17"
+ },
+ "HVAC": {
+  "holdings": [
+   {
+    "symbol": "AME",
+    "name": "AMETEK Inc",
+    "pct": 5.99
+   },
+   {
+    "symbol": "HTHIY",
+    "name": "Hitachi Ltd ADR",
+    "pct": 5.31
+   },
+   {
+    "symbol": "JCI",
+    "name": "Johnson Controls International PLC Registered Shares",
+    "pct": 5.18
+   },
+   {
+    "symbol": "JBL",
+    "name": "Jabil Inc",
+    "pct": 5.17
+   },
+   {
+    "symbol": "FIX",
+    "name": "Comfort Systems USA Inc",
+    "pct": 5.02
+   },
+   {
+    "symbol": "APH",
+    "name": "Amphenol Corp Class A",
+    "pct": 4.98
+   },
+   {
+    "symbol": "EMR",
+    "name": "Emerson Electric Co",
+    "pct": 4.88
+   },
+   {
+    "symbol": "BDC",
+    "name": "Belden Inc",
+    "pct": 4.86
+   },
+   {
+    "symbol": "CLS.TO",
+    "name": "Celestica Inc Ordinary Shares (Subordinate Voting)",
+    "pct": 4.74
+   },
+   {
+    "symbol": "VRT",
+    "name": "Vertiv Holdings Co Class A",
+    "pct": 4.35
+   }
+  ],
+  "at": "2026-11-17"
  }
 }
