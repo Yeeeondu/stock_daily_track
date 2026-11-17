@@ -116,15 +116,6 @@
 "market": "US",
 "mcap": 2907647500.0
 },
-"AB": {
-"name": "AllianceBernstein Holding L.P.  Units",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": false,
-"market": "US",
-"mcap": 3080622588.0
-},
 "ABAT": {
 "name": "American Battery Technology Company",
 "name_local": "",
@@ -278,15 +269,6 @@
 "market": "US",
 "mcap": 862038675.0
 },
-"ABXL": {
-"name": "Abacus Global Management Inc. 9.875% Fixed Rate Senior Notes due 2028",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 1878227891.0
-},
 "ACAD": {
 "name": "Acadia Pharmaceuticals",
 "name_local": "",
@@ -349,24 +331,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 35680832079.0
-},
-"ACGLN": {
-"name": "Arch Capital Group Ltd. Depositary Shares each Representing a 1/1000th Interest in a 4.550% Non-Cumulative Preferred Share Series G",
-"name_local": "",
-"sector": "금융",
-"industry": "Property-Casualty Insurers",
-"small": false,
-"market": "US",
-"mcap": 4725000252.0
-},
-"ACGLO": {
-"name": "Arch Capital Group Ltd. Depositary Shares Each Representing 1/1000th Interest in a Share of 5.45% Non-Cumulative Preferred Shares Series F",
-"name_local": "",
-"sector": "금융",
-"industry": "Property-Casualty Insurers",
-"small": false,
-"market": "US",
-"mcap": 5716224900.0
 },
 "ACHC": {
 "name": "Acadia Healthcare",
@@ -574,51 +538,6 @@
 "small": true,
 "market": "S&P600",
 "mcap": 474099917.0
-},
-"ADAMI": {
-"name": "Adamas Trust Inc. 9.125% Senior Notes Due 2029",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 2246370335.0
-},
-"ADAML": {
-"name": "Adamas Trust Inc. 6.875% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock $0.01 par value per share",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 1978576985.0
-},
-"ADAMM": {
-"name": "Adamas Trust Inc. 7.875% Series E Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 2031856785.0
-},
-"ADAMN": {
-"name": "Adamas Trust Inc. 8.00% Series D Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 1794355303.0
-},
-"ADAMZ": {
-"name": "Adamas Trust Inc. 7.000% Series G Cumulative Redeemable Preferred Stock $0.01 par value per share",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 1358183380.0
 },
 "ADBE": {
 "name": "Adobe Inc.",
@@ -953,42 +872,6 @@
 "market": "S&P400",
 "mcap": 13323972473.0
 },
-"AFGB": {
-"name": "American Financial Group Inc. 5.875% Subordinated Debentures due 2059",
-"name_local": "",
-"sector": "금융",
-"industry": "Property-Casualty Insurers",
-"small": true,
-"market": "US",
-"mcap": 1622048823.0
-},
-"AFGC": {
-"name": "American Financial Group Inc. 5.125% Subordinated Debentures due 2059",
-"name_local": "",
-"sector": "금융",
-"industry": "Property-Casualty Insurers",
-"small": true,
-"market": "US",
-"mcap": 1374603620.0
-},
-"AFGD": {
-"name": "American Financial Group Inc. 5.625% Subordinated Debentures due 2060",
-"name_local": "",
-"sector": "금융",
-"industry": "Property-Casualty Insurers",
-"small": true,
-"market": "US",
-"mcap": 1610462760.0
-},
-"AFGE": {
-"name": "American Financial Group Inc. 4.500% Subordinated Debentures due 2060",
-"name_local": "",
-"sector": "금융",
-"industry": "Property-Casualty Insurers",
-"small": true,
-"market": "US",
-"mcap": 1250467230.0
-},
 "AFL": {
 "name": "Aflac",
 "name_local": "",
@@ -1106,15 +989,6 @@
 "market": "US",
 "mcap": 1976831939.0
 },
-"AGLTW": {
-"name": "Agility Robotics Inc. Warrants",
-"name_local": "",
-"sector": "산업재",
-"industry": "Industrial Machinery/Components",
-"small": true,
-"market": "US",
-"mcap": 749369716.0
-},
 "AGM": {
 "name": "Federal Agricultural Mortgage Corporation",
 "name_local": "",
@@ -1141,60 +1015,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 10483420434.0
-},
-"AGNCL": {
-"name": "AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 7.75% Series G Fixed-Rate Reset Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 30762406254.0
-},
-"AGNCM": {
-"name": "AGNC Investment Corp. Depositary Shares rep 6.875% Series D Fixed-to-Floating Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 30252883998.0
-},
-"AGNCN": {
-"name": "AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 7.00% Series C Fixed-To-Floating Rate Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 31972521614.0
-},
-"AGNCO": {
-"name": "AGNC Investment Corp. Depositary Shares each representing a 1/1000th interest in a share of 6.50% Series E Fixed-to-Floating Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 31603117978.0
-},
-"AGNCP": {
-"name": "AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 6.125% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 30711454029.0
-},
-"AGNCZ": {
-"name": "AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 8.75% Series H Fixed-Rate Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 29399434217.0
 },
 "AGNT": {
 "name": "eXp World Holdings, Inc.",
@@ -1420,15 +1240,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 15802470033.0
-},
-"AIZN": {
-"name": "Assurant Inc. 5.25% Subordinated Notes due 2061",
-"name_local": "",
-"sector": "금융",
-"industry": "Property-Casualty Insurers",
-"small": true,
-"market": "US",
-"mcap": 833081574.0
 },
 "AJG": {
 "name": "Arthur J. Gallagher & Co.",
@@ -1799,15 +1610,6 @@
 "market": "US",
 "mcap": 1635907901.0
 },
-"ALVOW": {
-"name": "Alvotech Warrant",
-"name_local": "",
-"sector": "헬스케어",
-"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
-"small": true,
-"market": "US",
-"mcap": 107485786.0
-},
 "ALX": {
 "name": "Alexander's Inc.",
 "name_local": "",
@@ -2024,15 +1826,6 @@
 "market": "US",
 "mcap": 1162150633.0
 },
-"AMPX.WS": {
-"name": "Amprius Technologies Inc. Warrants to purchase one share of",
-"name_local": "",
-"sector": "기타",
-"industry": "Industrial Machinery/Components",
-"small": true,
-"market": "US",
-"mcap": 250760578.0
-},
 "AMPY": {
 "name": "Amplify Energy Corp.",
 "name_local": "",
@@ -2149,15 +1942,6 @@
 "small": true,
 "market": "US",
 "mcap": 203200083.0
-},
-"AMX": {
-"name": "America Movil S.A.B. de C.V.",
-"name_local": "",
-"sector": "커뮤니케이션",
-"industry": "Telecommunications Equipment",
-"small": false,
-"market": "US",
-"mcap": 76658332500.0
 },
 "AMZN": {
 "name": "Amazon",
@@ -2492,15 +2276,6 @@
 "market": "S&P600",
 "mcap": 985645405.0
 },
-"APOS": {
-"name": "Apollo Global Management Inc. 7.625% Fixed-Rate Resettable Junior Subordinated Notes due 2053",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": false,
-"market": "US",
-"mcap": 14329482258.0
-},
 "APP": {
 "name": "AppLovin",
 "name_local": "",
@@ -2572,15 +2347,6 @@
 "small": false,
 "market": "US",
 "mcap": 4307957252.0
-},
-"AQNB": {
-"name": "Algonquin Power & Utilities Corp. 6.20% Fixed-to-Floating Subordinated Notes Series 2019-A due July 1 2079",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 19523195525.0
 },
 "AQST": {
 "name": "Aquestive Therapeutics Inc.",
@@ -2752,15 +2518,6 @@
 "small": true,
 "market": "S&P600",
 "mcap": 1274782317.0
-},
-"ARLP": {
-"name": "Alliance Resource Partners L.P. Common Units representing Limited Partners Interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Coal Mining",
-"small": false,
-"market": "US",
-"mcap": 3251207901.0
 },
 "ARM": {
 "name": "Arm Holdings plc",
@@ -2950,15 +2707,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 5747593365.0
-},
-"ASBA": {
-"name": "Associated Banc-Corp 6.625% Fixed-Rate Reset Subordinated Notes due 2033",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 3636709642.0
 },
 "ASBH": {
 "name": "American Savings Bank N.A.",
@@ -3221,24 +2969,6 @@
 "market": "US",
 "mcap": 141412875.0
 },
-"ATHM": {
-"name": "Autohome Inc.",
-"name_local": "",
-"sector": "IT",
-"industry": "EDP Services",
-"small": false,
-"market": "US",
-"mcap": 2511877569.0
-},
-"ATHS": {
-"name": "Athene Holding Ltd. 7.250% Fixed-Rate Reset Junior Subordinated Debentures due 2064",
-"name_local": "",
-"sector": "금융",
-"industry": "Life Insurance",
-"small": false,
-"market": "US",
-"mcap": 4620259350.0
-},
 "ATI": {
 "name": "ATI Inc.",
 "name_local": "",
@@ -3256,33 +2986,6 @@
 "small": true,
 "market": "US",
 "mcap": 1280311224.0
-},
-"ATLCL": {
-"name": "Atlanticus Holdings Corporation 6.125% Senior Notes due 2026",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 377379953.0
-},
-"ATLCP": {
-"name": "Atlanticus Holdings Corporation 7.625% Series B Cumulative Perpetual Preferred Stock no par value per share",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 312480658.0
-},
-"ATLCZ": {
-"name": "Atlanticus Holdings Corporation 9.25% Senior Notes due 2029",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 378741243.0
 },
 "ATLO": {
 "name": "Ames National Corporation",
@@ -3490,15 +3193,6 @@
 "small": false,
 "market": "US",
 "mcap": 2511710389.0
-},
-"AVAL": {
-"name": "Grupo Aval Acciones y Valores S.A. ADR (Each representing 20 preferred shares)",
-"name_local": "",
-"sector": "금융",
-"industry": "Commercial Banks",
-"small": false,
-"market": "US",
-"mcap": 4819925579.0
 },
 "AVAV": {
 "name": "AeroVironment",
@@ -3815,15 +3509,6 @@
 "market": "S&P600",
 "mcap": 1999853140.0
 },
-"AZUL": {
-"name": "Azul S.A.",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Air Freight/Delivery Services",
-"small": true,
-"market": "US",
-"mcap": 903869959.0
-},
 "AZZ": {
 "name": "AZZ, Inc.",
 "name_local": "",
@@ -3850,15 +3535,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 135944787207.0
-},
-"BABA": {
-"name": "Alibaba Group Holding Limited",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Business Services",
-"small": false,
-"market": "US",
-"mcap": 228634230379.0
 },
 "BAC": {
 "name": "Bank of America",
@@ -3949,15 +3625,6 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3992935975.0
-},
-"BANFP": {
-"name": "BancFirst Corporation - BFC Capital Trust II Cumulative Trust Preferred Securities",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 861801676.0
 },
 "BANR": {
 "name": "Banner Corporation",
@@ -4436,15 +4103,6 @@
 "market": "S&P500",
 "mcap": 18409300663.0
 },
-"BEP": {
-"name": "Brookfield Renewable Partners L.P. Limited Partnership Units",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 20397728874.0
-},
 "BEPC": {
 "name": "Brookfield Renewable Corporation Brookfield Renewable Corporation Class A Subordinate Voting Shares",
 "name_local": "",
@@ -4453,33 +4111,6 @@
 "small": false,
 "market": "US",
 "mcap": 11592989991.0
-},
-"BEPH": {
-"name": "Brookfield BRP Holdings (Canada) Inc. 4.625% Perpetual Subordinated Notes",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 3870975303.0
-},
-"BEPI": {
-"name": "Brookfield BRP Holdings (Canada) Inc. 4.875% Perpetual Subordinated Notes",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 4074861985.0
-},
-"BEPJ": {
-"name": "Brookfield BRP Holdings (Canada) Inc. 7.250% Perpetual Subordinated Notes",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 6254439325.0
 },
 "BETA": {
 "name": "Beta Technologies Inc. Class A",
@@ -4661,51 +4292,6 @@
 "market": "S&P400",
 "mcap": 2524212828.0
 },
-"BHFAL": {
-"name": "Brighthouse Financial Inc. 6.25% Junior Subordinated Debentures due 2058",
-"name_local": "",
-"sector": "금융",
-"industry": "Life Insurance",
-"small": true,
-"market": "US",
-"mcap": 840254031.0
-},
-"BHFAM": {
-"name": "Brighthouse Financial Inc. Depositary shares each representing a 1/1000th Interest in a Share of 4.625% Non-Cumulative Preferred Stock Series D",
-"name_local": "",
-"sector": "금융",
-"industry": "Life Insurance",
-"small": true,
-"market": "US",
-"mcap": 523936634.0
-},
-"BHFAN": {
-"name": "Brighthouse Financial Inc. Depositary shares each representing a 1/1000th interest in a share of 5.375% Non-Cumulative Preferred Stock Series C",
-"name_local": "",
-"sector": "금융",
-"industry": "Life Insurance",
-"small": true,
-"market": "US",
-"mcap": 573397172.0
-},
-"BHFAO": {
-"name": "Brighthouse Financial Inc. Depositary Shares 6.75% Non-Cumulative Preferred Stock Series B",
-"name_local": "",
-"sector": "금융",
-"industry": "Life Insurance",
-"small": true,
-"market": "US",
-"mcap": 709126092.0
-},
-"BHFAP": {
-"name": "Brighthouse Financial Inc. Depositary Shares 6.6% Non-Cumulative Preferred Stock Series A",
-"name_local": "",
-"sector": "금융",
-"industry": "Life Insurance",
-"small": true,
-"market": "US",
-"mcap": 690722171.0
-},
 "BHP": {
 "name": "BHP Group Limited",
 "name_local": "",
@@ -4796,15 +4382,6 @@
 "market": "US",
 "mcap": 255069725.0
 },
-"BIP": {
-"name": "Brookfield Infrastructure Partners LP Limited Partnership Units",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Marine Transportation",
-"small": false,
-"market": "US",
-"mcap": 18075145487.0
-},
 "BIPC": {
 "name": "Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation",
 "name_local": "",
@@ -4813,33 +4390,6 @@
 "small": false,
 "market": "US",
 "mcap": 4866713213.0
-},
-"BIPH": {
-"name": "Brookfield Infrastructure Corporation 5.000% Subordinated Notes due 2081",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Marine Transportation",
-"small": false,
-"market": "US",
-"mcap": 6740235431.0
-},
-"BIPI": {
-"name": "BIP Bermuda Holdings I Limited 5.125% Perpetual Subordinated Notes",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Marine Transportation",
-"small": true,
-"market": "US",
-"mcap": 142153500.0
-},
-"BIPJ": {
-"name": "Brookfield Infrastructure Corporation 7.250% Subordinated Notes due 2084",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Marine Transportation",
-"small": false,
-"market": "US",
-"mcap": 9955802916.0
 },
 "BIRK": {
 "name": "Birkenstock Holding plc",
@@ -5165,15 +4715,6 @@
 "market": "US",
 "mcap": 147456503.0
 },
-"BMNP": {
-"name": "BitMine Immersion Technologies Inc. 9.5% Series A Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": false,
-"market": "US",
-"mcap": 60834658649.0
-},
 "BMNR": {
 "name": "BitMine Immersion Technologies Inc.",
 "name_local": "",
@@ -5245,24 +4786,6 @@
 "small": true,
 "market": "US",
 "mcap": 443365094.0
-},
-"BNH": {
-"name": "Brookfield Finance Inc. 4.625% Subordinated Notes due October 16 2080",
-"name_local": "",
-"sector": "부동산",
-"industry": "Building operators",
-"small": false,
-"market": "US",
-"mcap": 20898065921.0
-},
-"BNJ": {
-"name": "Brookfield Finance Inc. 4.50% Perpetual Subordinated Notes",
-"name_local": "",
-"sector": "부동산",
-"industry": "Building operators",
-"small": false,
-"market": "US",
-"mcap": 20385414953.0
 },
 "BNL": {
 "name": "Broadstone Net Lease, Inc.",
@@ -5435,15 +4958,6 @@
 "market": "US",
 "mcap": 9851592485.0
 },
-"BPOPM": {
-"name": "Popular Inc. Popular Capital Trust II - 6.125% Cumulative Monthly Income Trust Preferred Securities",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 1572460924.0
-},
 "BPRN": {
 "name": "Princeton Bancorp Inc.",
 "name_local": "",
@@ -5452,42 +4966,6 @@
 "small": true,
 "market": "US",
 "mcap": 303498945.0
-},
-"BPYPM": {
-"name": "Brookfield Property Partners L.P. 6.25% Class A Cumulative Redeemable Preferred Units Series 1",
-"name_local": "",
-"sector": "금융",
-"industry": "Real Estate",
-"small": false,
-"market": "US",
-"mcap": 19039241706.0
-},
-"BPYPN": {
-"name": "Brookfield Property Partners L.P. 5.750% Class A Cumulative Redeemable Perpetual Preferred Units Series 3",
-"name_local": "",
-"sector": "금융",
-"industry": "Real Estate",
-"small": false,
-"market": "US",
-"mcap": 16648497627.0
-},
-"BPYPO": {
-"name": "Brookfield Property Partners L.P. 6.375% Class A Cumulative Redeemable Perpetual Preferred Units Series 2",
-"name_local": "",
-"sector": "금융",
-"industry": "Real Estate",
-"small": false,
-"market": "US",
-"mcap": 18023485154.0
-},
-"BPYPP": {
-"name": "Brookfield Property Partners L.P. 6.50% Class A Cumulative Redeemable Perpetual Preferred Units",
-"name_local": "",
-"sector": "금융",
-"industry": "Real Estate",
-"small": false,
-"market": "US",
-"mcap": 18345554305.0
 },
 "BR": {
 "name": "Broadridge Financial Solutions",
@@ -5587,15 +5065,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 9406171692.0
-},
-"BRKRP": {
-"name": "Bruker Corporation 6.375% Mandatory Convertible Preferred Stock Series A",
-"name_local": "",
-"sector": "산업재",
-"industry": "Biotechnology: Laboratory Analytical Instruments",
-"small": false,
-"market": "US",
-"mcap": 68185963231.0
 },
 "BRLT": {
 "name": "Brilliant Earth Group Inc. Class A",
@@ -5705,15 +5174,6 @@
 "market": "US",
 "mcap": 118169758.0
 },
-"BSBR": {
-"name": "Banco Santander Brasil SA",
-"name_local": "",
-"sector": "금융",
-"industry": "Commercial Banks",
-"small": false,
-"market": "US",
-"mcap": 37804262543.0
-},
 "BSET": {
 "name": "Bassett Furniture Industries Incorporated",
 "name_local": "",
@@ -5722,15 +5182,6 @@
 "small": true,
 "market": "US",
 "mcap": 186263802.0
-},
-"BSM": {
-"name": "Black Stone Minerals L.P. Common units representing limited partner interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil & Gas Production",
-"small": false,
-"market": "US",
-"mcap": 3027959190.0
 },
 "BSP": {
 "name": "Bending Spoons S.p.A.",
@@ -5749,15 +5200,6 @@
 "small": true,
 "market": "US",
 "mcap": 547052289.0
-},
-"BSRT": {
-"name": "BSR Real Estate Investment Trust Units",
-"name_local": "",
-"sector": "기타",
-"industry": "기타",
-"small": true,
-"market": "US",
-"mcap": 361909670.0
 },
 "BST": {
 "name": "BlackRock Science and Technology Trust Common Shares of Beneficial Interest",
@@ -5876,15 +5318,6 @@
 "market": "S&P400",
 "mcap": 14169694221.0
 },
-"BTSGU": {
-"name": "BrightSpring Health Services Inc. Tangible Equity Unit",
-"name_local": "",
-"sector": "헬스케어",
-"industry": "Medical/Nursing Services",
-"small": false,
-"market": "US",
-"mcap": 46174379215.0
-},
 "BTU": {
 "name": "Peabody Energy, Inc.",
 "name_local": "",
@@ -5930,15 +5363,6 @@
 "market": "US",
 "mcap": 2800678411.0
 },
-"BULLW": {
-"name": "Webull Corporation Warrants",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Bankers/Brokers/Service",
-"small": true,
-"market": "US",
-"mcap": 708279675.0
-},
 "BUR": {
 "name": "Burford Capital Limited",
 "name_local": "",
@@ -5965,15 +5389,6 @@
 "small": false,
 "market": "US",
 "mcap": 2317015837.0
-},
-"BUSEP": {
-"name": "First Busey Corporation Depositary Shares Each Representing a 1/40thInterest in a Share of 8.25% Fixed-Rate Series B Non-Cumulative Perpetual Preferred Stock $0.001 par value",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 2030498811.0
 },
 "BUUU": {
 "name": "BUUU Group Limited Class A Ordinary Share",
@@ -6064,15 +5479,6 @@
 "small": true,
 "market": "US",
 "mcap": 581856014.0
-},
-"BWBBP": {
-"name": "Bridgewater Bancshares Inc. Depositary Shares Each Representing a 1/100th Interest in a Share of 5.875% Non-Cumulative Perpetual Preferred Stock Series A",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 530870075.0
 },
 "BWFG": {
 "name": "Bankwell Financial Group Inc.",
@@ -6397,15 +5803,6 @@
 "small": true,
 "market": "US",
 "mcap": 110191082.0
-},
-"CAPL": {
-"name": "CrossAmerica Partners LP Common Units representing limited partner interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil Refining/Marketing",
-"small": true,
-"market": "US",
-"mcap": 760029507.0
 },
 "CAPR": {
 "name": "Capricor Therapeutics Inc.",
@@ -6830,15 +6227,6 @@
 "market": "US",
 "mcap": 1054379938.0
 },
-"CCNEP": {
-"name": "CNB Financial Corporation Depositary Shares each representing a 1/40th ownership interest in a share of 7.125% Series A Fixed-Rate Non-Cumulative Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 722664902.0
-},
 "CCOI": {
 "name": "Cogent Communications Holdings, Inc.",
 "name_local": "",
@@ -7163,15 +6551,6 @@
 "market": "S&P400",
 "mcap": 14075189289.0
 },
-"CGABL": {
-"name": "The Carlyle Group Inc. 4.625% Subordinated Notes due 2061",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": false,
-"market": "US",
-"mcap": 5114507385.0
-},
 "CGAU": {
 "name": "Centerra Gold Inc. Common Shares",
 "name_local": "",
@@ -7252,15 +6631,6 @@
 "small": false,
 "market": "US",
 "mcap": 2741268995.0
-},
-"CHAD": {
-"name": "DeFi Development Corp. Variable Rate Series C Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 399733700.0
 },
 "CHCI": {
 "name": "Comstock Holding Companies Inc. Class A",
@@ -7388,51 +6758,6 @@
 "market": "S&P500",
 "mcap": 15589511435.0
 },
-"CHSCL": {
-"name": "CHS Inc Class B Cumulative Redeemable Preferred Stock Series 4",
-"name_local": "",
-"sector": "산업재",
-"industry": "Farming/Seeds/Milling",
-"small": true,
-"market": "US",
-"mcap": 294650792.0
-},
-"CHSCM": {
-"name": "CHS Inc Class B Reset Rate Cumulative Redeemable Preferred Stock Series 3",
-"name_local": "",
-"sector": "산업재",
-"industry": "Farming/Seeds/Milling",
-"small": true,
-"market": "US",
-"mcap": 261148224.0
-},
-"CHSCN": {
-"name": "CHS Inc Preferred Class B Series 2 Reset Rate",
-"name_local": "",
-"sector": "산업재",
-"industry": "Farming/Seeds/Milling",
-"small": true,
-"market": "US",
-"mcap": 274279267.0
-},
-"CHSCO": {
-"name": "CHS Inc. Class B Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "산업재",
-"industry": "Farming/Seeds/Milling",
-"small": true,
-"market": "US",
-"mcap": 307536395.0
-},
-"CHSCP": {
-"name": "CHS Inc. 8%  Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "산업재",
-"industry": "Farming/Seeds/Milling",
-"small": true,
-"market": "US",
-"mcap": 312936077.0
-},
 "CHT": {
 "name": "Chunghwa Telecom Co. Ltd.",
 "name_local": "",
@@ -7450,15 +6775,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 15839319783.0
-},
-"CHTRP": {
-"name": "Charter Communications Inc. Series A Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "커뮤니케이션",
-"industry": "Cable & Other Pay Television Services",
-"small": false,
-"market": "US",
-"mcap": 2428718591.0
 },
 "CHWY": {
 "name": "Chewy",
@@ -7495,15 +6811,6 @@
 "small": true,
 "market": "US",
 "mcap": 165044013.0
-},
-"CIB": {
-"name": "Grupo Cibest S.A.",
-"name_local": "",
-"sector": "금융",
-"industry": "Commercial Banks",
-"small": false,
-"market": "US",
-"mcap": 21344859364.0
 },
 "CIEN": {
 "name": "Ciena",
@@ -7567,15 +6874,6 @@
 "small": true,
 "market": "US",
 "mcap": 551246773.0
-},
-"CIMN": {
-"name": "Chimera Investment Corporation 9.000% Senior Notes due 2029",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 1945621615.0
 },
 "CINF": {
 "name": "Cincinnati Financial",
@@ -7973,33 +7271,6 @@
 "market": "S&P500",
 "mcap": 22072970995.0
 },
-"CMSA": {
-"name": "CMS Energy Corporation 5.625% Junior Subordinated Notes due 2078",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Power Generation",
-"small": false,
-"market": "US",
-"mcap": 5552672802.0
-},
-"CMSC": {
-"name": "CMS Energy Corporation 5.875% Junior Subordinated Notes due 2078",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Power Generation",
-"small": false,
-"market": "US",
-"mcap": 5756220915.0
-},
-"CMSD": {
-"name": "CMS Energy Corporation 5.875% Junior Subordinated Notes due 2079",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Power Generation",
-"small": false,
-"market": "US",
-"mcap": 5771187688.0
-},
 "CMT": {
 "name": "Core Molding Technologies Inc",
 "name_local": "",
@@ -8143,15 +7414,6 @@
 "small": true,
 "market": "US",
 "mcap": 1637257389.0
-},
-"CNOBP": {
-"name": "ConnectOne Bancorp Inc. Depositary Shares each representing a 1/40th interest in a share of 5.25% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series A",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 1255716597.0
 },
 "CNP": {
 "name": "CenterPoint Energy",
@@ -8423,24 +7685,6 @@
 "market": "US",
 "mcap": 4678869624.0
 },
-"CORZW": {
-"name": "Core Scientific Inc. Tranche 1 Warrants",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": false,
-"market": "US",
-"mcap": 2516664722.0
-},
-"CORZZ": {
-"name": "Core Scientific Inc. Tranche 2 Warrants",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": false,
-"market": "US",
-"mcap": 4677258443.0
-},
 "COSM": {
 "name": "Cosmos Health Inc.",
 "name_local": "",
@@ -8612,15 +7856,6 @@
 "market": "US",
 "mcap": 242850240.0
 },
-"CQP": {
-"name": "Cheniere Energy Partners LP Common Units",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Oil/Gas Transmission",
-"small": false,
-"market": "US",
-"mcap": 29938968992.0
-},
 "CR": {
 "name": "Crane",
 "name_local": "",
@@ -8773,15 +8008,6 @@
 "small": true,
 "market": "US",
 "mcap": 947791799.0
-},
-"CRMLW": {
-"name": "Critical Metals Corp. Warrants",
-"name_local": "",
-"sector": "소재",
-"industry": "Metal Mining",
-"small": true,
-"market": "US",
-"mcap": 304924821.0
 },
 "CRNC": {
 "name": "Cerence Inc.",
@@ -9178,15 +8404,6 @@
 "small": true,
 "market": "US",
 "mcap": 348501279.0
-},
-"CUBB": {
-"name": "Customers Bancorp Inc 5.375% Subordinated Notes Due 2034",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 654606243.0
 },
 "CUBE": {
 "name": "CubeSmart",
@@ -9629,15 +8846,6 @@
 "market": "S&P600",
 "mcap": 2330895706.0
 },
-"DAO": {
-"name": "Youdao Inc.",
-"name_local": "",
-"sector": "부동산",
-"industry": "Other Consumer Services",
-"small": false,
-"market": "US",
-"mcap": 2309550010.0
-},
 "DAR": {
 "name": "Darling Ingredients",
 "name_local": "",
@@ -9718,15 +8926,6 @@
 "small": true,
 "market": "US",
 "mcap": 715945162.0
-},
-"DCBG": {
-"name": "Dime Commercial Bancshares Inc. 9.000% Junior Subordinated Notes",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 1038221853.0
 },
 "DCBO": {
 "name": "Docebo Inc. Common Shares",
@@ -10016,24 +9215,6 @@
 "market": "US",
 "mcap": 1752273159.0
 },
-"DHCNI": {
-"name": "Diversified Healthcare Trust 5.625% Senior Notes due 2042",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 3961609598.0
-},
-"DHCNL": {
-"name": "Diversified Healthcare Trust 6.25% Senior Notes Due 2046",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 4400983728.0
-},
 "DHI": {
 "name": "D. R. Horton",
 "name_local": "",
@@ -10133,15 +9314,6 @@
 "market": "US",
 "mcap": 1291907136.0
 },
-"DJTWW": {
-"name": "Trump Media & Technology Group Corp. Warrants",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Programming Data Processing",
-"small": true,
-"market": "US",
-"mcap": 679364959.0
-},
 "DK": {
 "name": "Delek US Holdings Inc.",
 "name_local": "",
@@ -10150,15 +9322,6 @@
 "small": false,
 "market": "US",
 "mcap": 4150251056.0
-},
-"DKL": {
-"name": "Delek Logistics Partners L.P. Common Units representing Limited Partner Interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Natural Gas Distribution",
-"small": false,
-"market": "US",
-"mcap": 3090029806.0
 },
 "DKNG": {
 "name": "DraftKings Inc. Class A",
@@ -10186,15 +9349,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 5962018802.0
-},
-"DLNG": {
-"name": "Dynagas LNG Partners LP Common Units",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Marine Transportation",
-"small": true,
-"market": "US",
-"mcap": 115330975.0
 },
 "DLO": {
 "name": "DLocal Limited Class A Common Shares",
@@ -10267,15 +9421,6 @@
 "small": true,
 "market": "S&P600",
 "mcap": 1284302367.0
-},
-"DMLP": {
-"name": "Dorchester Minerals L.P. Common Units Representing Limited Partnership Interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil & Gas Production",
-"small": true,
-"market": "US",
-"mcap": 1447063773.0
 },
 "DMRA": {
 "name": "Damora Therapeutics Inc.",
@@ -10484,15 +9629,6 @@
 "market": "S&P500",
 "mcap": 11241240256.0
 },
-"DQ": {
-"name": "DAQO New Energy Corp.",
-"name_local": "",
-"sector": "IT",
-"industry": "Semiconductors",
-"small": true,
-"market": "US",
-"mcap": 738575885.0
-},
 "DRD": {
 "name": "DRDGOLD Limited",
 "name_local": "",
@@ -10537,15 +9673,6 @@
 "small": true,
 "market": "US",
 "mcap": 1237357701.0
-},
-"DRTSW": {
-"name": "Alpha Tau Medical Ltd. Warrant",
-"name_local": "",
-"sector": "헬스케어",
-"industry": "Medical/Dental Instruments",
-"small": true,
-"market": "US",
-"mcap": 258014050.0
 },
 "DRUG": {
 "name": "Bright Minds Biosciences Inc.",
@@ -10637,15 +9764,6 @@
 "market": "S&P400",
 "mcap": 12860836041.0
 },
-"DTB": {
-"name": "DTE Energy Company 2020 Series G 4.375% Junior Subordinated Debentures due 2080",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 3020446305.0
-},
 "DTE": {
 "name": "DTE Energy",
 "name_local": "",
@@ -10654,15 +9772,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 29086627308.0
-},
-"DTG": {
-"name": "DTE Energy Company 2021 Series E 4.375% Junior Subordinated Debentures",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 3022527936.0
 },
 "DTIL": {
 "name": "Precision BioSciences Inc.",
@@ -10682,15 +9791,6 @@
 "market": "S&P400",
 "mcap": 12214291390.0
 },
-"DTW": {
-"name": "DTE Energy Company 2017 Series E 5.25% Junior Subordinated Debentures due 2077",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 3597058040.0
-},
 "DUK": {
 "name": "Duke Energy",
 "name_local": "",
@@ -10699,15 +9799,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 100714920723.0
-},
-"DUKB": {
-"name": "Duke Energy Corporation 5.625% Junior Subordinated Debentures due 2078",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Power Generation",
-"small": false,
-"market": "US",
-"mcap": 15508398027.0
 },
 "DUOL": {
 "name": "Duolingo",
@@ -10826,15 +9917,6 @@
 "market": "US",
 "mcap": 261443438.0
 },
-"EAI": {
-"name": "Entergy Arkansas LLC First Mortgage Bonds 4.875% Series Due September 1 2066",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 8653449161.0
-},
 "EARN": {
 "name": "Ellington Credit Company Common Shares of Beneficial Interest",
 "name_local": "",
@@ -10933,24 +10015,6 @@
 "small": true,
 "market": "US",
 "mcap": 159542438.0
-},
-"ECCC": {
-"name": "Eagle Point Credit Company 6.50% Series C Term Preferred Stock due 2031",
-"name_local": "",
-"sector": "금융",
-"industry": "Trusts Except Educational Religious and Charitable",
-"small": true,
-"market": "US",
-"mcap": 1513529974.0
-},
-"ECCV": {
-"name": "Eagle Point Credit Company 5.375% Notes due 2029",
-"name_local": "",
-"sector": "금융",
-"industry": "Trusts Except Educational Religious and Charitable",
-"small": true,
-"market": "US",
-"mcap": 1479558960.0
 },
 "ECG": {
 "name": "Everus Construction Group, Inc.",
@@ -11104,15 +10168,6 @@
 "small": false,
 "market": "US",
 "mcap": 2219497217.0
-},
-"EFSCP": {
-"name": "Enterprise Financial Services Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of 5% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 544169334.0
 },
 "EFSI": {
 "name": "Eagle Financial Services Inc",
@@ -11294,15 +10349,6 @@
 "market": "S&P400",
 "mcap": 13390367125.0
 },
-"ELC": {
-"name": "Entergy Louisiana Inc. Collateral Trust Mortgage Bonds 4.875 % Series due September 1 2066",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 3865996818.0
-},
 "ELDN": {
 "name": "Eledon Pharmaceuticals Inc.",
 "name_local": "",
@@ -11474,15 +10520,6 @@
 "market": "S&P600",
 "mcap": 7439304858.0
 },
-"EMP": {
-"name": "Entergy Mississippi LLC First Mortgage Bonds 4.90% Series Due October 1 2066",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 8615222992.0
-},
 "EMR": {
 "name": "Emerson Electric",
 "name_local": "",
@@ -11528,15 +10565,6 @@
 "market": "US",
 "mcap": 5837657428.0
 },
-"ENJ": {
-"name": "Entergy New Orleans LLC First Mortgage Bonds 5.0% Series due December 1 2052",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Power Generation",
-"small": false,
-"market": "US",
-"mcap": 8598499042.0
-},
 "ENLT": {
 "name": "Enlight Renewable Energy Ltd.",
 "name_local": "",
@@ -11545,15 +10573,6 @@
 "small": false,
 "market": "US",
 "mcap": 9250594294.0
-},
-"ENO": {
-"name": "Entergy New Orleans LLC First Mortgage Bonds 5.50% Series due April 1 2066",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Power Generation",
-"small": false,
-"market": "US",
-"mcap": 4062786074.0
 },
 "ENOV": {
 "name": "Enovis",
@@ -11680,15 +10699,6 @@
 "small": true,
 "market": "US",
 "mcap": 699755238.0
-},
-"EOSEW": {
-"name": "Eos Energy Enterprises Inc. Warrant",
-"name_local": "",
-"sector": "기타",
-"industry": "Industrial Machinery/Components",
-"small": true,
-"market": "US",
-"mcap": 366363999.0
 },
 "EOT": {
 "name": "Eaton Vance Municipal Income Trust EATON VANCE NATIONAL MUNICIPAL OPPORTUNITIES TRUST",
@@ -12536,15 +11546,6 @@
 "market": "S&P400",
 "mcap": 5692755271.0
 },
-"FBIOP": {
-"name": "Fortress Biotech Inc. 9.375% Series A Cumulative Redeemable Perpetual Preferred Stock",
-"name_local": "",
-"sector": "헬스케어",
-"industry": "Biotechnology: Pharmaceutical Preparations",
-"small": true,
-"market": "US",
-"mcap": 478920259.0
-},
 "FBIZ": {
 "name": "First Business Financial Services Inc.",
 "name_local": "",
@@ -12607,24 +11608,6 @@
 "small": true,
 "market": "US",
 "mcap": 639759518.0
-},
-"FBYDP": {
-"name": "Falcon's Beyond Global Inc. 11% Series B Cumulative Convertible Preferred Stock",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Services-Misc. Amusement & Recreation",
-"small": true,
-"market": "US",
-"mcap": 631261764.0
-},
-"FBYDW": {
-"name": "Falcon's Beyond Global Inc. Warrants",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Services-Misc. Amusement & Recreation",
-"small": true,
-"market": "US",
-"mcap": 109256844.0
 },
 "FC": {
 "name": "Franklin Covey Company",
@@ -12715,24 +11698,6 @@
 "small": false,
 "market": "US",
 "mcap": 25710551820.0
-},
-"FCNCN": {
-"name": "First Citizens BancShares Inc. Depositary Shares each representing a 1/40th interest in a share of 6.625% Non-Cumulative Perpetual Preferred Stock Series E",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 246680236.0
-},
-"FCNCO": {
-"name": "First Citizens BancShares Inc. 5.625% Non-Cumulative Perpetual Preferred Stock Series C",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 199667187.0
 },
 "FCNCP": {
 "name": "First Citizens BancShares Inc. Depositary Shares",
@@ -12931,33 +11896,6 @@
 "small": true,
 "market": "US",
 "mcap": 204257811.0
-},
-"FGBIP": {
-"name": "First Guaranty Bancshares Inc. 6.75% Series A Fixed-Rate Non-Cumulative Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Savings Institutions",
-"small": true,
-"market": "US",
-"mcap": 302582725.0
-},
-"FGCPP": {
-"name": "FG Communities Holdings Inc. 8.00% Cumulative Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Property-Casualty Insurers",
-"small": true,
-"market": "US",
-"mcap": 118546023.0
-},
-"FGN": {
-"name": "F&G Annuities & Life Inc. 7.950% Senior Notes due 2053",
-"name_local": "",
-"sector": "금융",
-"industry": "Life Insurance",
-"small": false,
-"market": "US",
-"mcap": 2740121448.0
 },
 "FHB": {
 "name": "First Hawaiian, Inc.",
@@ -13481,15 +12419,6 @@
 "market": "US",
 "mcap": 592120467.0
 },
-"FOIL": {
-"name": "Londian Wason New Energy Tech Inc.",
-"name_local": "",
-"sector": "산업재",
-"industry": "Industrial Specialties",
-"small": true,
-"market": "US",
-"mcap": 1093436534.0
-},
 "FOR": {
 "name": "Forestar Group Inc",
 "name_local": "",
@@ -13886,15 +12815,6 @@
 "market": "US",
 "mcap": 18427537797.0
 },
-"FTAIM": {
-"name": "FTAI Aviation Ltd. 9.500% Fixed-Rate Reset Series D Cumulative Perpetual Redeemable Preferred Shares",
-"name_local": "",
-"sector": "산업재",
-"industry": "Misc Corporate Leasing Services",
-"small": false,
-"market": "US",
-"mcap": 2730384346.0
-},
 "FTDR": {
 "name": "Frontdoor, Inc.",
 "name_local": "",
@@ -14038,15 +12958,6 @@
 "small": false,
 "market": "S&P600",
 "mcap": 4540690097.0
-},
-"FULTP": {
-"name": "Fulton Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 3075707131.0
 },
 "FUN": {
 "name": "Six Flags",
@@ -14209,15 +13120,6 @@
 "small": true,
 "market": "US",
 "mcap": 592550869.0
-},
-"GAINZ": {
-"name": "Gladstone Investment Corporation 4.875% Notes due 2028",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 922230020.0
 },
 "GALT": {
 "name": "Galectin Therapeutics Inc.",
@@ -14489,15 +13391,6 @@
 "market": "US",
 "mcap": 4660230322.0
 },
-"GEGGL": {
-"name": "Great Elm Group Inc.  7.25% Notes due 2027",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Prepackaged Software",
-"small": true,
-"market": "US",
-"mcap": 719050725.0
-},
 "GEHC": {
 "name": "GE HealthCare",
 "name_local": "",
@@ -14506,15 +13399,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 37536482730.0
-},
-"GEL": {
-"name": "Genesis Energy L.P. Common Units",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil Refining/Marketing",
-"small": true,
-"market": "US",
-"mcap": 1567398628.0
 },
 "GEMI": {
 "name": "Gemini Space Station Inc. Class A",
@@ -14560,15 +13444,6 @@
 "small": true,
 "market": "US",
 "mcap": 1675344751.0
-},
-"GENVR": {
-"name": "Gen Digital Inc. Contingent Value Rights",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Prepackaged Software",
-"small": true,
-"market": "US",
-"mcap": 1910348978.0
 },
 "GEO": {
 "name": "GEO Group, Inc.",
@@ -14713,15 +13588,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 5179341414.0
-},
-"GHG": {
-"name": "GreenTree Hospitality Group Ltd. American depositary shares each representing one Class A ordinary share",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Hotels/Resorts",
-"small": true,
-"market": "US",
-"mcap": 102410785.0
 },
 "GHM": {
 "name": "Graham Corporation",
@@ -14920,15 +13786,6 @@
 "small": true,
 "market": "US",
 "mcap": 265440019.0
-},
-"GLP": {
-"name": "Global Partners LP Common Units representing Limited Partner Interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil Refining/Marketing",
-"small": true,
-"market": "US",
-"mcap": 1505153552.0
 },
 "GLPI": {
 "name": "Gaming and Leisure Properties",
@@ -15164,24 +14021,6 @@
 "market": "US",
 "mcap": 484341862.0
 },
-"GOODN": {
-"name": "Gladstone Commercial Corporation 6.625% Series E Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate",
-"small": true,
-"market": "US",
-"mcap": 965283130.0
-},
-"GOODO": {
-"name": "Gladstone Commercial Corporation 6.00% Series G Cumulative Redeemable Preferred Stock par value $0.001 per share",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate",
-"small": true,
-"market": "US",
-"mcap": 873952869.0
-},
 "GOOG": {
 "name": "Alphabet Inc. (Class C)",
 "name_local": "",
@@ -15199,24 +14038,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 3636196380000.0
-},
-"GOOGM": {
-"name": "Alphabet Inc. Depositary Shares representing a 1/20th Interest in a Share of Series A Mandatory Convertible Preferred Stock",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Programming Data Processing",
-"small": false,
-"market": "US",
-"mcap": 528150240000.0
-},
-"GOOGN": {
-"name": "Alphabet Inc. Depositary Shares representing a 1/20th Interest in a Share of Series B Mandatory Convertible Preferred Stock",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Programming Data Processing",
-"small": false,
-"market": "US",
-"mcap": 527043780000.0
 },
 "GOOS": {
 "name": "Canada Goose Holdings Inc. Subordinate Voting Shares",
@@ -15289,15 +14110,6 @@
 "small": false,
 "market": "S&P600",
 "mcap": 3107853230.0
-},
-"GPJA": {
-"name": "Georgia Power Company Series 2017A 5.00% Junior Subordinated Notes due October 1 2077",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": true,
-"market": "US",
-"mcap": 165780850.0
 },
 "GPK": {
 "name": "Graphic Packaging",
@@ -15451,15 +14263,6 @@
 "small": true,
 "market": "US",
 "mcap": 673720947.0
-},
-"GROY.WS": {
-"name": "Gold Royalty Corp. Warrants",
-"name_local": "",
-"sector": "소재",
-"industry": "Precious Metals",
-"small": true,
-"market": "US",
-"mcap": 218378514.0
 },
 "GRPN": {
 "name": "Groupon Inc.",
@@ -15839,42 +14642,6 @@
 "market": "S&P500",
 "mcap": 31883426311.0
 },
-"HBANL": {
-"name": "Huntington Bancshares Incorporated Depositary Shares Each Representing a 1/40th Interest in a Share of 6.875% Series J Non-Cumulative Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 49578526375.0
-},
-"HBANM": {
-"name": "Huntington Bancshares Incorporated Depositary Shares each representing a 1/1000th interest in a share of Huntington Series I Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 36841278948.0
-},
-"HBANP": {
-"name": "Huntington Bancshares Incorporated Depositary Shares 4.500% Series H Non-Cumulative Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 29202961267.0
-},
-"HBANZ": {
-"name": "Huntington Bancshares Incorporated Depositary Shares Each Representing a 1/1000th Interest in a Share of 5.50% Series L Non-Cumulative Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 34987122677.0
-},
 "HBB": {
 "name": "Hamilton Beach Brands Holding Company Class A",
 "name_local": "",
@@ -16000,15 +14767,6 @@
 "small": true,
 "market": "S&P600",
 "mcap": 1679056974.0
-},
-"HCXY": {
-"name": "Hercules Capital Inc. 6.25% Notes due 2033",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": false,
-"market": "US",
-"mcap": 4380200717.0
 },
 "HD": {
 "name": "Home Depot (The)",
@@ -16577,15 +15335,6 @@
 "market": "US",
 "mcap": 468653357.0
 },
-"HQWWW": {
-"name": "Horizon Quantum Holdings Ltd. Warrant",
-"name_local": "",
-"sector": "IT",
-"industry": "EDP Services",
-"small": true,
-"market": "US",
-"mcap": 261764588.0
-},
 "HQY": {
 "name": "HealthEquity",
 "name_local": "",
@@ -16757,15 +15506,6 @@
 "market": "US",
 "mcap": 748432521.0
 },
-"HTFC": {
-"name": "Horizon Technology Finance Corporation 6.25% Notes due 2027",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 1063642975.0
-},
 "HTFL": {
 "name": "Heartflow Inc.",
 "name_local": "",
@@ -16820,15 +15560,6 @@
 "market": "S&P600",
 "mcap": 2926198095.0
 },
-"HTT": {
-"name": "High Templar Tech Limited American depositary shares each representing one Class A ordinary share",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 252335694.0
-},
 "HTZ": {
 "name": "Hertz Global Holdings Inc",
 "name_local": "",
@@ -16837,15 +15568,6 @@
 "small": true,
 "market": "US",
 "mcap": 536198687.0
-},
-"HTZWW": {
-"name": "Hertz Global Holdings Inc Warrant",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Rental/Leasing Companies",
-"small": true,
-"market": "US",
-"mcap": 275248659.0
 },
 "HUBB": {
 "name": "Hubbell Incorporated",
@@ -16973,15 +15695,6 @@
 "market": "S&P400",
 "mcap": 5189987370.0
 },
-"HWCPZ": {
-"name": "Hancock Whitney Corporation 6.25% Subordinated Notes due 2060",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 1675605915.0
-},
 "HWKN": {
 "name": "Hawkins, Inc.",
 "name_local": "",
@@ -17098,15 +15811,6 @@
 "small": true,
 "market": "US",
 "mcap": 1120013759.0
-},
-"IAUX.WS": {
-"name": "i-80 Gold Corp. Warrants each warrant exercisable for one Common Share at an exercise price of $0.70",
-"name_local": "",
-"sector": "소재",
-"industry": "Precious Metals",
-"small": true,
-"market": "US",
-"mcap": 581712572.0
 },
 "IBCP": {
 "name": "Independent Bank Corporation",
@@ -17558,15 +16262,6 @@
 "market": "US",
 "mcap": 197131549.0
 },
-"IMPPP": {
-"name": "Imperial Petroleum Inc. 8.75% Series A Cumulative Redeemable Perpetual Preferred Shares",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Marine Transportation",
-"small": true,
-"market": "US",
-"mcap": 1155661098.0
-},
 "IMRX": {
 "name": "Immuneering Corporation Class A",
 "name_local": "",
@@ -17630,15 +16325,6 @@
 "market": "US",
 "mcap": 221527105.0
 },
-"INBKZ": {
-"name": "First Internet Bancorp 6.0% Fixed-to-Floating Rate Subordinated Notes Due 2029",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 220092754.0
-},
 "INBX": {
 "name": "Inhibrx Biosciences Inc.",
 "name_local": "",
@@ -17692,15 +16378,6 @@
 "small": true,
 "market": "US",
 "mcap": 1909901016.0
-},
-"INFQ.WS": {
-"name": "Infleqtion Inc. Warrants each whole warrant exercisable for one share of",
-"name_local": "",
-"sector": "IT",
-"industry": "EDP Services",
-"small": true,
-"market": "US",
-"mcap": 743678272.0
 },
 "INFU": {
 "name": "InfuSystems Holdings Inc.",
@@ -18080,15 +16757,6 @@
 "market": "US",
 "mcap": 1277204509.0
 },
-"IQMXW": {
-"name": "IQM Quantum Computers Oyj Warrants to purchase",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Prepackaged Software",
-"small": true,
-"market": "US",
-"mcap": 134542315.0
-},
 "IQV": {
 "name": "IQVIA",
 "name_local": "",
@@ -18304,15 +16972,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 18829228000.0
-},
-"ITUB": {
-"name": "Itau Unibanco Banco Holding SA",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 83032325016.0
 },
 "ITW": {
 "name": "Illinois Tool Works",
@@ -18629,15 +17288,6 @@
 "market": "S&P400",
 "mcap": 16762484001.0
 },
-"JMIA": {
-"name": "Jumia Technologies AG",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Catalog/Specialty Distribution",
-"small": true,
-"market": "US",
-"mcap": 711557603.0
-},
 "JMKE": {
 "name": "Jersey Mike's Subs Inc. Class A",
 "name_local": "",
@@ -18718,15 +17368,6 @@
 "small": true,
 "market": "US",
 "mcap": 144296999.0
-},
-"JSM": {
-"name": "Navient LLC 6% Senior Notes due December 15 2043",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Bankers/Brokers/Service",
-"small": true,
-"market": "US",
-"mcap": 1526266433.0
 },
 "JXG": {
 "name": "JX Luxventure Group Inc.",
@@ -19034,15 +17675,6 @@
 "market": "S&P500",
 "mcap": 87465359913.0
 },
-"KKRS": {
-"name": "KKR Group Finance Co. IX LLC 4.625% Subordinated Notes due 2061",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": false,
-"market": "US",
-"mcap": 13078765568.0
-},
 "KLAC": {
 "name": "KLA Corporation",
 "name_local": "",
@@ -19133,15 +17765,6 @@
 "market": "S&P500",
 "mcap": 71142085838.0
 },
-"KMPB": {
-"name": "Kemper Corporation 5.875% Fixed-Rate Reset Junior Subordinated Debentures due 2062",
-"name_local": "",
-"sector": "금융",
-"industry": "Property-Casualty Insurers",
-"small": true,
-"market": "US",
-"mcap": 1464261251.0
-},
 "KMPR": {
 "name": "Kemper Corporation",
 "name_local": "",
@@ -19195,15 +17818,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 3195212912.0
-},
-"KNOP": {
-"name": "KNOT Offshore Partners LP Common Units representing Limited Partner Interests",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Marine Transportation",
-"small": true,
-"market": "US",
-"mcap": 306309112.0
 },
 "KNSA": {
 "name": "Kiniksa Pharmaceuticals International plc Class A",
@@ -19267,15 +17881,6 @@
 "small": true,
 "market": "US",
 "mcap": 797062500.0
-},
-"KOF": {
-"name": "Coca Cola Femsa S.A.B. de C.V.",
-"name_local": "",
-"sector": "필수소비재",
-"industry": "Beverages (Production/Distribution)",
-"small": false,
-"market": "US",
-"mcap": 202738716660.0
 },
 "KOP": {
 "name": "Koppers Holdings, Inc.",
@@ -19402,15 +18007,6 @@
 "small": true,
 "market": "US",
 "mcap": 202131052.0
-},
-"KRP": {
-"name": "Kimbell Royalty Partners Common Units Representing Limited Partner Interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil & Gas Production",
-"small": true,
-"market": "US",
-"mcap": 1928881753.0
 },
 "KRRO": {
 "name": "Korro Bio Inc.",
@@ -19574,15 +18170,6 @@
 "market": "US",
 "mcap": 2891339391.0
 },
-"KYIVW": {
-"name": "Kyivstar Group Ltd. Warrant",
-"name_local": "",
-"sector": "커뮤니케이션",
-"industry": "Telecommunications Equipment",
-"small": true,
-"market": "US",
-"mcap": 1117582668.0
-},
 "KYMR": {
 "name": "Kymera Therapeutics Inc.",
 "name_local": "",
@@ -19690,24 +18277,6 @@
 "small": true,
 "market": "US",
 "mcap": 297854780.0
-},
-"LANDO": {
-"name": "Gladstone Land Corporation 6.00% Series B Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 827759216.0
-},
-"LANDP": {
-"name": "Gladstone Land Corporation 6.00% Series C Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 822564074.0
 },
 "LAR": {
 "name": "Lithium Argentina AG Common Shares",
@@ -20024,15 +18593,6 @@
 "market": "US",
 "mcap": 106092772.0
 },
-"LFMDP": {
-"name": "LifeMD Inc. 8.875% Series A Cumulative Perpetual Preferred Stock",
-"name_local": "",
-"sector": "헬스케어",
-"industry": "Medical/Nursing Services",
-"small": true,
-"market": "US",
-"mcap": 978760199.0
-},
 "LFST": {
 "name": "Lifestance Health",
 "name_local": "",
@@ -20176,15 +18736,6 @@
 "small": true,
 "market": "US",
 "mcap": 1836918000.0
-},
-"LILAP": {
-"name": "Liberty Latin America Ltd. 9.0% Fixed Rate Cumulative Perpetual Redeemable Series A Preference Shares",
-"name_local": "",
-"sector": "커뮤니케이션",
-"industry": "Cable & Other Pay Television Services",
-"small": false,
-"market": "US",
-"mcap": 3716685000.0
 },
 "LIME": {
 "name": "Neutron Holdings Inc.",
@@ -20762,15 +19313,6 @@
 "market": "S&P500",
 "mcap": 22002730957.0
 },
-"LUXE": {
-"name": "LuxExperience B.V.",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Catalog/Specialty Distribution",
-"small": true,
-"market": "US",
-"mcap": 1474531716.0
-},
 "LVS": {
 "name": "Las Vegas Sands",
 "name_local": "",
@@ -21203,33 +19745,6 @@
 "market": "S&P600",
 "mcap": 2431164433.0
 },
-"MBINL": {
-"name": "Merchants Bancorp Depositary Shares Each Representing a 1/40thInterest in a Share of 7.25% Fixed Rate Series E Non-CumulativePerpetual Preferred Stock without par value",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 1048818670.0
-},
-"MBINM": {
-"name": "Merchants Bancorp Depositary Shares Each Representing a 1/40th Interest in a Share of 8.25% Fixed-Rate Reset Series D Non-Cumulative Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 1152643908.0
-},
-"MBINN": {
-"name": "Merchants Bancorp Depositary Shares Preferred Series C",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 822102939.0
-},
 "MBLY": {
 "name": "Mobileye Global Inc. Class A",
 "name_local": "",
@@ -21238,15 +19753,6 @@
 "small": false,
 "market": "US",
 "mcap": 4726955536.0
-},
-"MBNKO": {
-"name": "Medallion Bank Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series G par value $1.00 per share",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 516365510.0
 },
 "MBUU": {
 "name": "Malibu Boats Inc. Class A",
@@ -21337,15 +19843,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 33567713313.0
-},
-"MCHPP": {
-"name": "Microchip Technology Incorporated Depositary Shares Each Representing a 1/20th Interest in a Share of 7.50% Series A Mandatory Convertible Preferred Stock",
-"name_local": "",
-"sector": "IT",
-"industry": "Semiconductors",
-"small": false,
-"market": "US",
-"mcap": 29589438600.0
 },
 "MCI": {
 "name": "Barings Corporate Investors",
@@ -21581,15 +20078,6 @@
 "market": "S&P500",
 "mcap": 1640314449638.0
 },
-"METAM": {
-"name": "Meta Platforms Inc. Depositary Shares representing a 1/20th Interest in a Share of Series A Mandatory Convertible Preferred Stock",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Programming Data Processing",
-"small": false,
-"market": "US",
-"mcap": 131390800404.0
-},
 "METC": {
 "name": "Ramaco Resources Inc. Class A",
 "name_local": "",
@@ -21626,24 +20114,6 @@
 "market": "US",
 "mcap": 588617415.0
 },
-"MFAN": {
-"name": "MFA Financial Inc. 8.875% Senior Notes due 2029",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 2496902833.0
-},
-"MFAO": {
-"name": "MFA Financial Inc. 9.000% Senior Notes due 2029",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 2495876146.0
-},
 "MFC": {
 "name": "Manulife Financial Corporation",
 "name_local": "",
@@ -21679,15 +20149,6 @@
 "small": true,
 "market": "US",
 "mcap": 838553353.0
-},
-"MFICL": {
-"name": "MidCap Financial Investment Corporation 8.00% Notes due 2028",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance/Investors Services",
-"small": false,
-"market": "US",
-"mcap": 2369911999.0
 },
 "MFIN": {
 "name": "Medallion Financial Corp.",
@@ -21779,24 +20240,6 @@
 "market": "US",
 "mcap": 140599681.0
 },
-"MGR": {
-"name": "Affiliated Managers Group Inc. 5.875% Junior Subordinated Notes due 2059",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 503745877.0
-},
-"MGRB": {
-"name": "Affiliated Managers Group Inc. 4.750% Junior Subordinated Notes due 2060",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 418225567.0
-},
 "MGRC": {
 "name": "McGrath RentCorp",
 "name_local": "",
@@ -21805,24 +20248,6 @@
 "small": false,
 "market": "US",
 "mcap": 3135203915.0
-},
-"MGRD": {
-"name": "Affiliated Managers Group Inc. 4.200% Junior Subordinated Notes due 2061",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 371345663.0
-},
-"MGRE": {
-"name": "Affiliated Managers Group Inc. 6.750% Junior Subordinated Notes due 2064",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 577617241.0
 },
 "MGRT": {
 "name": "Mega Fortune Company Limited",
@@ -21967,24 +20392,6 @@
 "small": true,
 "market": "US",
 "mcap": 818519864.0
-},
-"MITN": {
-"name": "TPG Mortgage Investment Trust Inc. 9.500% Senior Notes due 2029",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 722873038.0
-},
-"MITP": {
-"name": "TPG Mortgage Investment Trust Inc. 9.500% Senior Notes due 2029",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 722578108.0
 },
 "MITT": {
 "name": "TPG Mortgage Investment Trust Inc.",
@@ -22229,15 +20636,6 @@
 "market": "US",
 "mcap": 487927656.0
 },
-"MNR": {
-"name": "Mach Natural Resources LP Common Units representing Limited Partner Interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil & Gas Production",
-"small": true,
-"market": "US",
-"mcap": 1537821978.0
-},
 "MNRO": {
 "name": "Monro Inc.",
 "name_local": "",
@@ -22264,15 +20662,6 @@
 "small": true,
 "market": "US",
 "mcap": 165658463.0
-},
-"MNSO": {
-"name": "MINISO Group Holding Limited",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Department/Specialty Retail Stores",
-"small": false,
-"market": "US",
-"mcap": 3465179693.0
 },
 "MNST": {
 "name": "Monster Beverage",
@@ -22444,15 +20833,6 @@
 "small": true,
 "market": "US",
 "mcap": 469608644.0
-},
-"MPLX": {
-"name": "MPLX LP Common Units Representing Limited Partner Interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Natural Gas Distribution",
-"small": false,
-"market": "US",
-"mcap": 57995797983.0
 },
 "MPT": {
 "name": "Medical Properties Trust",
@@ -22660,24 +21040,6 @@
 "small": true,
 "market": "US",
 "mcap": 652361602.0
-},
-"MSBIP": {
-"name": "Midland States Bancorp Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of 7.750% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series A",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 522554957.0
-},
-"MSC": {
-"name": "Studio City International Holdings Limited American depositary shares each representing four  Class A ordinary shares",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Hotels/Resorts",
-"small": true,
-"market": "US",
-"mcap": 192425956.0
 },
 "MSCI": {
 "name": "MSCI",
@@ -23165,15 +21527,6 @@
 "market": "US",
 "mcap": 2415390160.0
 },
-"NAMSW": {
-"name": "NewAmsterdam Pharma Company N.V. Warrant",
-"name_local": "",
-"sector": "헬스케어",
-"industry": "Biotechnology: Pharmaceutical Preparations",
-"small": true,
-"market": "US",
-"mcap": 1138135681.0
-},
 "NAN": {
 "name": "Nuveen New York Quality Municipal Income Fund",
 "name_local": "",
@@ -23471,15 +21824,6 @@
 "market": "S&P500",
 "mcap": 117636668542.0
 },
-"NEN": {
-"name": "New England Realty Associates Limited Partnership Class A Depositary Receipts Evidencing Units of Limited Partnership",
-"name_local": "",
-"sector": "부동산",
-"industry": "Building operators",
-"small": true,
-"market": "US",
-"mcap": 128491708.0
-},
 "NEO": {
 "name": "NeoGenomics Laboratories, Inc.",
 "name_local": "",
@@ -23561,33 +21905,6 @@
 "market": "US",
 "mcap": 306694991.0
 },
-"NEWTG": {
-"name": "NewtekOne Inc. 8.50% Fixed Rate Senior Notes due 2029",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 650412963.0
-},
-"NEWTI": {
-"name": "NewtekOne Inc. 8.00% Fixed Rate Senior Notes due 2028",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 669364696.0
-},
-"NEWTP": {
-"name": "NewtekOne Inc. Depositary Shares Non-Cumulative Perpetual Preferred Stock Series B",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 679522894.0
-},
 "NEXA": {
 "name": "Nexa Resources S.A. Common Shares",
 "name_local": "",
@@ -23614,15 +21931,6 @@
 "small": true,
 "market": "US",
 "mcap": 1747214827.0
-},
-"NFEGP": {
-"name": "New Fortress Energy Inc. Series A Mandatorily Convertible Preferred Stock",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Oil/Gas Transmission",
-"small": false,
-"market": "US",
-"mcap": 3835579525.0
 },
 "NFG": {
 "name": "National Fuel Gas",
@@ -23677,15 +21985,6 @@
 "small": false,
 "market": "US",
 "mcap": 88506910776.0
-},
-"NGL": {
-"name": "NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Natural Gas Distribution",
-"small": true,
-"market": "US",
-"mcap": 1885319835.0
 },
 "NGNE": {
 "name": "Neurogene Inc.",
@@ -23921,15 +22220,6 @@
 "market": "US",
 "mcap": 632831013.0
 },
-"NMFCZ": {
-"name": "New Mountain Finance Corporation 8.250% Notes due 2028",
-"name_local": "",
-"sector": "기타",
-"industry": "기타",
-"small": false,
-"market": "US",
-"mcap": 2661151244.0
-},
 "NMG": {
 "name": "Nouveau Monde Graphite Inc. Common Shares",
 "name_local": "",
@@ -23947,15 +22237,6 @@
 "small": false,
 "market": "S&P600",
 "mcap": 2881680305.0
-},
-"NMM": {
-"name": "Navios Maritime Partners LP Common Units Representing Limited Partner Interests",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Marine Transportation",
-"small": false,
-"market": "US",
-"mcap": 2593062492.0
 },
 "NMR": {
 "name": "Nomura Holdings Inc ADR",
@@ -24118,15 +22399,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 4496262598.0
-},
-"NOVTU": {
-"name": "Novanta Inc. Tangible Equity Units",
-"name_local": "",
-"sector": "기타",
-"industry": "Industrial Machinery/Components",
-"small": true,
-"market": "US",
-"mcap": 1942152460.0
 },
 "NOW": {
 "name": "ServiceNow",
@@ -24299,15 +22571,6 @@
 "market": "US",
 "mcap": 158309868.0
 },
-"NSLRL": {
-"name": "Neostellar Capital Corp. 6.00% Notes due 2026",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 667125194.0
-},
 "NSP": {
 "name": "Insperity",
 "name_local": "",
@@ -24434,15 +22697,6 @@
 "market": "S&P500",
 "mcap": 32282437741.0
 },
-"NTRSO": {
-"name": "Northern Trust Corporation Depositary Shares Each Representing a 1/1000th Interest in a Share of Series E Non-Cumulative Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 3124282154.0
-},
 "NTSK": {
 "name": "Netskope Inc. Class A",
 "name_local": "",
@@ -24478,15 +22732,6 @@
 "small": true,
 "market": "US",
 "mcap": 449822288.0
-},
-"NUAIW": {
-"name": "New Era Energy & Digital Inc. Warrants",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil & Gas Production",
-"small": true,
-"market": "US",
-"mcap": 189768778.0
 },
 "NUCL": {
 "name": "Eagle Nuclear Energy Corp. Common stock",
@@ -24541,15 +22786,6 @@
 "small": true,
 "market": "US",
 "mcap": 127187245.0
-},
-"NVA.WS": {
-"name": "Nova Minerals Corp Warrants to Purchase",
-"name_local": "",
-"sector": "소재",
-"industry": "Precious Metals",
-"small": true,
-"market": "US",
-"mcap": 195173220.0
 },
 "NVAX": {
 "name": "Novavax Inc.",
@@ -24694,15 +22930,6 @@
 "small": true,
 "market": "US",
 "mcap": 1188077489.0
-},
-"NWCLW": {
-"name": "newcleo plc Warrants",
-"name_local": "",
-"sector": "산업재",
-"industry": "Metal Fabrications",
-"small": true,
-"market": "US",
-"mcap": 112613980.0
 },
 "NWFL": {
 "name": "Norwood Financial Corp.",
@@ -24956,15 +23183,6 @@
 "market": "S&P400",
 "mcap": 8928327325.0
 },
-"OCCIN": {
-"name": "OFS Credit Company Inc. 5.25% Series E Term Preferred Stock Due 2026",
-"name_local": "",
-"sector": "금융",
-"industry": "Trusts Except Educational Religious and Charitable",
-"small": true,
-"market": "US",
-"mcap": 291225906.0
-},
 "OCFC": {
 "name": "OceanFirst Financial Corp.",
 "name_local": "",
@@ -24991,15 +23209,6 @@
 "small": true,
 "market": "US",
 "mcap": 470532878.0
-},
-"OCSAW": {
-"name": "Oculis Holding AG Warrants",
-"name_local": "",
-"sector": "헬스케어",
-"industry": "Biotechnology: Pharmaceutical Preparations",
-"small": true,
-"market": "US",
-"mcap": 107163247.0
 },
 "OCSL": {
 "name": "Oaktree Specialty Lending Corporation",
@@ -25108,15 +23317,6 @@
 "small": true,
 "market": "US",
 "mcap": 407316558.0
-},
-"OFSSH": {
-"name": "OFS Capital Corporation 4.95% Notes due 2028",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance Companies",
-"small": true,
-"market": "US",
-"mcap": 313649006.0
 },
 "OGC": {
 "name": "OceanaGold Corporation Common Shares",
@@ -25396,24 +23596,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 9475362900.0
-},
-"ONBPO": {
-"name": "Old National Bancorp Depositary Shares Each Representing a 1/40th Interest in a Share of Series C Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 8889063000.0
-},
-"ONBPP": {
-"name": "Old National Bancorp Depositary Shares Each Representing a 1/40th Interest in a Share of Series A Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 9131148120.0
 },
 "ONC": {
 "name": "BeOne Medicines Ltd.",
@@ -25973,51 +24155,6 @@
 "market": "US",
 "mcap": 874944000.0
 },
-"OXLCL": {
-"name": "Oxford Lane Capital Corp. 6.75% Notes due 2031",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance Companies",
-"small": false,
-"market": "US",
-"mcap": 4143832000.0
-},
-"OXLCM": {
-"name": "Oxford Lane Capital Corp. Preferred Stock Shares 8.25% Series 2031",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": false,
-"market": "US",
-"mcap": 4318300000.0
-},
-"OXLCN": {
-"name": "Oxford Lane Capital Corp. 7.125% Series 2029 Term Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": false,
-"market": "US",
-"mcap": 4265352000.0
-},
-"OXLCO": {
-"name": "Oxford Lane Capital Corp. Preferred Stock Shares 6.00% Series 2029",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": false,
-"market": "US",
-"mcap": 4187232000.0
-},
-"OXLCZ": {
-"name": "Oxford Lane Capital Corp. 5.00% Notes due 2027",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance Companies",
-"small": false,
-"market": "US",
-"mcap": 4372984000.0
-},
 "OXM": {
 "name": "Oxford Industries Inc.",
 "name_local": "",
@@ -26026,15 +24163,6 @@
 "small": true,
 "market": "US",
 "mcap": 420889499.0
-},
-"OXSQG": {
-"name": "Oxford Square Capital Corp. 5.50% Notes due 2028",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Other Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 1537839583.0
 },
 "OXY": {
 "name": "Occidental Petroleum",
@@ -26045,24 +24173,6 @@
 "market": "S&P500",
 "mcap": 58743816269.0
 },
-"OXY.WS": {
-"name": "Occidental Petroleum Corporation Warrants",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil & Gas Production",
-"small": false,
-"market": "US",
-"mcap": 36756130826.0
-},
-"OZ": {
-"name": "Belpointe PREP LLC Class A Units",
-"name_local": "",
-"sector": "금융",
-"industry": "Real Estate",
-"small": true,
-"market": "US",
-"mcap": 124643629.0
-},
 "OZK": {
 "name": "Bank OZK",
 "name_local": "",
@@ -26072,15 +24182,6 @@
 "market": "S&P400",
 "mcap": 5742224380.0
 },
-"OZKAP": {
-"name": "Bank OZK 4.625% Series A Non-Cumulative Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 1626897578.0
-},
 "P": {
 "name": "Everpure",
 "name_local": "",
@@ -26089,15 +24190,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 35988543108.0
-},
-"PAA": {
-"name": "Plains All American Pipeline L.P. Common Units representing Limited Partner Interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Natural Gas Distribution",
-"small": false,
-"market": "US",
-"mcap": 17301990056.0
 },
 "PAAC": {
 "name": "Proem Acquisition Corp I",
@@ -26161,15 +24253,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 13920286336.0
-},
-"PAGP": {
-"name": "Plains GP Holdings L.P. Class A Units representing Limited Partner Interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Natural Gas Distribution",
-"small": false,
-"market": "US",
-"mcap": 5223929936.0
 },
 "PAGS": {
 "name": "PagSeguro Digital Ltd. Class A Common Shares",
@@ -26495,15 +24578,6 @@
 "market": "US",
 "mcap": 342708548.0
 },
-"PCTTU": {
-"name": "PureCycle Technologies Inc. Unit",
-"name_local": "",
-"sector": "산업재",
-"industry": "Major Chemicals",
-"small": true,
-"market": "US",
-"mcap": 842198719.0
-},
 "PCTY": {
 "name": "Paylocity",
 "name_local": "",
@@ -26765,15 +24839,6 @@
 "market": "US",
 "mcap": 316021544.0
 },
-"PFBC": {
-"name": "Preferred Bank",
-"name_local": "",
-"sector": "금융",
-"industry": "지역 은행",
-"small": true,
-"market": "S&P600",
-"mcap": 1489939364.0
-},
 "PFE": {
 "name": "Pfizer",
 "name_local": "",
@@ -26800,15 +24865,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 17548795649.0
-},
-"PFH": {
-"name": "Prudential Financial Inc. 4.125% Junior Subordinated Notes due 2060",
-"name_local": "",
-"sector": "금융",
-"industry": "Life Insurance",
-"small": false,
-"market": "US",
-"mcap": 5087250000.0
 },
 "PFIS": {
 "name": "Peoples Financial Services Corp.",
@@ -27359,15 +25415,6 @@
 "market": "US",
 "mcap": 289993040.0
 },
-"PMTU": {
-"name": "PennyMac Mortgage Investment Trust 8.50% Senior Notes due 2028",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 2196627499.0
-},
 "PNBK": {
 "name": "Patriot National Bancorp Inc.",
 "name_local": "",
@@ -27521,15 +25568,6 @@
 "market": "US",
 "mcap": 265779532.0
 },
-"POWWP": {
-"name": "Outdoor Holding Company 8.75% Series A Cumulative Redeemable Perpetual Preferred Stock",
-"name_local": "",
-"sector": "산업재",
-"industry": "Ordnance And Accessories",
-"small": false,
-"market": "US",
-"mcap": 2756447111.0
-},
 "PPC": {
 "name": "Pilgrim's Pride",
 "name_local": "",
@@ -27574,15 +25612,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 26846751179.0
-},
-"PPLC": {
-"name": "PPL Corporation Corporate Units",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 34919971602.0
 },
 "PPLI": {
 "name": "People Inc.",
@@ -27701,24 +25730,6 @@
 "market": "S&P600",
 "mcap": 1789472126.0
 },
-"PRH": {
-"name": "Prudential Financial Inc. 5.950% Junior Subordinated Notes due 2062",
-"name_local": "",
-"sector": "금융",
-"industry": "Life Insurance",
-"small": false,
-"market": "US",
-"mcap": 7124480000.0
-},
-"PRHIZ": {
-"name": "Presurance Holdings Inc. 9.75% Senior Unsecured Notes due 2028",
-"name_local": "",
-"sector": "금융",
-"industry": "Property-Casualty Insurers",
-"small": true,
-"market": "US",
-"mcap": 287971076.0
-},
 "PRI": {
 "name": "Primerica",
 "name_local": "",
@@ -27836,15 +25847,6 @@
 "market": "US",
 "mcap": 198981281.0
 },
-"PRS": {
-"name": "Prudential Financial Inc. 5.625% Junior Subordinated Notes due 2058",
-"name_local": "",
-"sector": "금융",
-"industry": "Life Insurance",
-"small": false,
-"market": "US",
-"mcap": 6768960000.0
-},
 "PRSU": {
 "name": "Pursuit Attractions & Hospitality, Inc.",
 "name_local": "",
@@ -27916,15 +25918,6 @@
 "small": true,
 "market": "US",
 "mcap": 813261607.0
-},
-"PSF": {
-"name": "Cohen & Steers Select Preferred and Income Fund Inc.",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 910047391.0
 },
 "PSFE": {
 "name": "Paysafe Limited Common Shares",
@@ -28007,15 +26000,6 @@
 "market": "US",
 "mcap": 793978404.0
 },
-"PSQLW": {
-"name": "Pasqal Holding SA Warrant",
-"name_local": "",
-"sector": "IT",
-"industry": "EDP Services",
-"small": true,
-"market": "US",
-"mcap": 166438254.0
-},
 "PSTL": {
 "name": "Postal Realty Trust Inc. Class A",
 "name_local": "",
@@ -28042,15 +26026,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 103326267970.0
-},
-"PTA": {
-"name": "Cohen & Steers Tax-Advantaged Preferred Securities and Income Fund Common Shares of Beneficial Interest",
-"name_local": "",
-"sector": "금융",
-"industry": "Trusts Except Educational Religious and Charitable",
-"small": true,
-"market": "US",
-"mcap": 933568689.0
 },
 "PTC": {
 "name": "PTC Inc.",
@@ -28844,24 +26819,6 @@
 "market": "S&P500",
 "mcap": 13937649687.0
 },
-"REGCO": {
-"name": "Regency Centers Corporation 5.875% Series B Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 3671657814.0
-},
-"REGCP": {
-"name": "Regency Centers Corporation 6.25% Series A Cumulative Redeemable Preferred Stock",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 3995789202.0
-},
 "REGN": {
 "name": "Regeneron Pharmaceuticals",
 "name_local": "",
@@ -29078,15 +27035,6 @@
 "market": "US",
 "mcap": 3297572633.0
 },
-"RGTIW": {
-"name": "Rigetti Computing Inc. Warrants",
-"name_local": "",
-"sector": "IT",
-"industry": "EDP Services",
-"small": true,
-"market": "US",
-"mcap": 551880659.0
-},
 "RH": {
 "name": "RH",
 "name_local": "",
@@ -29158,51 +27106,6 @@
 "small": true,
 "market": "US",
 "mcap": 138287157.0
-},
-"RILYG": {
-"name": "BRC Group Holdings Inc. 5.00% Senior Notes due 2026",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 757852090.0
-},
-"RILYL": {
-"name": "BRC Group Holdings Inc. Depositary Shares each representing 1/1000th in a share of 7.375% Series B Cumulative Perpetual Preferred Stock par value $0.0001",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 259690417.0
-},
-"RILYP": {
-"name": "BRC Group Holdings Inc. Depositary Shares each representing a 1/1000th fractional interest in a share of Series A Cumulative Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 248836483.0
-},
-"RILYT": {
-"name": "BRC Group Holdings Inc. 6.00% Senior Notes Due 2028",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 562823353.0
-},
-"RILYZ": {
-"name": "BRC Group Holdings Inc. 5.25% Senior Notes due 2028",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 496187264.0
 },
 "RIO": {
 "name": "Rio Tinto Plc",
@@ -29330,15 +27233,6 @@
 "market": "US",
 "mcap": 449185302.0
 },
-"RLX": {
-"name": "RLX Technology Inc.",
-"name_local": "",
-"sector": "헬스케어",
-"industry": "Medicinal Chemicals and Botanical Products",
-"small": true,
-"market": "US",
-"mcap": 1900605847.0
-},
 "RM": {
 "name": "Regional Management Corp.",
 "name_local": "",
@@ -29464,15 +27358,6 @@
 "small": true,
 "market": "US",
 "mcap": 296887302.0
-},
-"RNP": {
-"name": "Cohen & Steers REIT and Preferred and Income Fund Inc. Common Shares",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 931177001.0
 },
 "RNR": {
 "name": "RenaissanceRe",
@@ -29780,15 +27665,6 @@
 "market": "US",
 "mcap": 2861759352.0
 },
-"RUMBW": {
-"name": "RUM Group Inc. Warrant",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Programming Data Processing",
-"small": true,
-"market": "US",
-"mcap": 486052715.0
-},
 "RUN": {
 "name": "Sunrun",
 "name_local": "",
@@ -29843,15 +27719,6 @@
 "market": "US",
 "mcap": 37265004330.0
 },
-"RVMDW": {
-"name": "Revolution Medicines Inc. Warrant",
-"name_local": "",
-"sector": "헬스케어",
-"industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
-"small": true,
-"market": "US",
-"mcap": 1678428426.0
-},
 "RVSB": {
 "name": "Riverview Bancorp Inc",
 "name_local": "",
@@ -29888,15 +27755,6 @@
 "market": "US",
 "mcap": 275940753.0
 },
-"RWAYL": {
-"name": "Runway Growth Finance Corp. 7.50% Notes due 2027",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 905415800.0
-},
 "RWT": {
 "name": "Redwood Trust Inc.",
 "name_local": "",
@@ -29905,24 +27763,6 @@
 "small": true,
 "market": "US",
 "mcap": 337061145.0
-},
-"RWTN": {
-"name": "Redwood Trust Inc. 9.125% Senior Notes Due 2029",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 2844208443.0
-},
-"RWTO": {
-"name": "Redwood Trust Inc. 9.00% Senior Notes Due 2029",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": false,
-"market": "US",
-"mcap": 2713692744.0
 },
 "RXO": {
 "name": "RXO, Inc.",
@@ -30041,15 +27881,6 @@
 "market": "US",
 "mcap": 121302588.0
 },
-"RZC": {
-"name": "Reinsurance Group of America Incorporated 7.125% Fixed-Rate Reset Subordinated Debentures due 2052",
-"name_local": "",
-"sector": "금융",
-"industry": "Life Insurance",
-"small": true,
-"market": "US",
-"mcap": 1636005237.0
-},
 "RZLT": {
 "name": "Rezolute Inc.",
 "name_local": "",
@@ -30067,15 +27898,6 @@
 "small": true,
 "market": "US",
 "mcap": 480470119.0
-},
-"RZLVW": {
-"name": "Rezolve AI PLC Warrants",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Programming Data Processing",
-"small": true,
-"market": "US",
-"mcap": 124121447.0
 },
 "S": {
 "name": "SentinelOne Inc. Class A",
@@ -30167,15 +27989,6 @@
 "market": "US",
 "mcap": 11869252850.0
 },
-"SAJ": {
-"name": "Saratoga Investment Corp 8.00% Notes due 2027",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 392016638.0
-},
 "SAM": {
 "name": "Boston Beer Company Inc. (The)",
 "name_local": "",
@@ -30257,15 +28070,6 @@
 "market": "S&P400",
 "mcap": 9103498794.0
 },
-"SATA": {
-"name": "Strive Inc. Variable Rate Series A Perpetual Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": false,
-"market": "US",
-"mcap": 12444069283.0
-},
 "SATL": {
 "name": "Satellogic Inc. Class A",
 "name_local": "",
@@ -30274,33 +28078,6 @@
 "small": true,
 "market": "US",
 "mcap": 508506118.0
-},
-"SATS": {
-"name": "Strive Inc. 15% Series A Perpetual SATS Preferred Stock",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": false,
-"market": "US",
-"mcap": 12337747807.0
-},
-"SAY": {
-"name": "Saratoga Investment Corp 8.125% Notes due 2027",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 392173319.0
-},
-"SAZ": {
-"name": "Saratoga Investment Corp 8.50% Notes due 2028",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Managers",
-"small": true,
-"market": "US",
-"mcap": 392800044.0
 },
 "SB": {
 "name": "Safe Bulkers Inc",
@@ -30446,42 +28223,6 @@
 "market": "S&P500",
 "mcap": 121352244000.0
 },
-"SCCD": {
-"name": "Sachem Capital Corp. 6.00% Notes due 2026",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 1177402703.0
-},
-"SCCE": {
-"name": "Sachem Capital Corp. 6.00% Notes due 2027",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 1154204981.0
-},
-"SCCF": {
-"name": "Sachem Capital Corp. 7.125% Notes due 2027",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 1147103638.0
-},
-"SCCG": {
-"name": "Sachem Capital Corp. 8.00% Notes due 2027",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 1137161758.0
-},
 "SCCO": {
 "name": "Southern Copper Corporation",
 "name_local": "",
@@ -30607,15 +28348,6 @@
 "small": false,
 "market": "US",
 "mcap": 2795701489.0
-},
-"SE": {
-"name": "Sea Limited",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Other Consumer Services",
-"small": false,
-"market": "US",
-"mcap": 46175208114.0
 },
 "SEB": {
 "name": "Seaboard Corporation",
@@ -30751,15 +28483,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 10856977782.0
-},
-"SFB": {
-"name": "Stifel Financial Corporation 5.20% Senior Notes due 2047",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Bankers/Brokers/Service",
-"small": true,
-"market": "US",
-"mcap": 1771686860.0
 },
 "SFBC": {
 "name": "Sound Financial Bancorp Inc.",
@@ -31130,15 +28853,6 @@
 "market": "S&P400",
 "mcap": 6057142831.0
 },
-"SIGIP": {
-"name": "Selective Insurance Group Inc. Depositary Shares each representing a 1/1000th interest in a share of 4.60% Non-Cumulative Preferred Stock Series B",
-"name_local": "",
-"sector": "금융",
-"industry": "Property-Casualty Insurers",
-"small": true,
-"market": "US",
-"mcap": 872554227.0
-},
 "SII": {
 "name": "Sprott Inc. Common Shares",
 "name_local": "",
@@ -31445,15 +29159,6 @@
 "market": "S&P400",
 "mcap": 3144524176.0
 },
-"SLMBP": {
-"name": "SLM Corporation Floating Rate Non-Cumulative Preferred Stock Series B",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": false,
-"market": "US",
-"mcap": 12243533956.0
-},
 "SLN": {
 "name": "Silence Therapeutics Plc American Depository Share",
 "name_local": "",
@@ -31471,15 +29176,6 @@
 "small": true,
 "market": "US",
 "mcap": 122684928.0
-},
-"SLNHP": {
-"name": "Soluna Holdings Inc 9.0% Series A Cumulative Perpetual Preferred Stock",
-"name_local": "",
-"sector": "IT",
-"industry": "EDP Services",
-"small": false,
-"market": "US",
-"mcap": 2770463988.0
 },
 "SLRC": {
 "name": "SLR Investment Corp.",
@@ -31579,15 +29275,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 17710143214.0
-},
-"SMCIP": {
-"name": "Super Micro Computer Inc. Depositary Shares representing a 1/20th Interest in a Share of 7% Series A Mandatory Convertible Preferred Stock",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Manufacturing",
-"small": false,
-"market": "US",
-"mcap": 30522227092.0
 },
 "SMFG": {
 "name": "Sumitomo Mitsui Financial Group Inc Unsponsored",
@@ -31886,33 +29573,6 @@
 "market": "US",
 "mcap": 304225487.0
 },
-"SOJC": {
-"name": "Southern Company (The) Series 2017B 5.25% Junior Subordinated Notes due December 1 2077",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 19789852852.0
-},
-"SOJD": {
-"name": "Southern Company (The) Series 2020A 4.95% Junior Subordinated Notes due January 30 2080",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 18370791697.0
-},
-"SOJE": {
-"name": "Southern Company (The) Series 2020C 4.20% Junior Subordinated Notes due October 15 2060",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 16347339282.0
-},
 "SOLS": {
 "name": "Solstice Advanced Materials",
 "name_local": "",
@@ -31930,15 +29590,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 15110195602.0
-},
-"SOMN": {
-"name": "Southern Company (The) 2025 Series A Corporate Units",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": false,
-"market": "US",
-"mcap": 56257092921.0
 },
 "SON": {
 "name": "Sonoco",
@@ -32209,15 +29860,6 @@
 "small": false,
 "market": "S&P500",
 "mcap": 52041754660.0
-},
-"SREA": {
-"name": "DBA Sempra 5.750% Junior Subordinated Notes due 2079",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Natural Gas Distribution",
-"small": false,
-"market": "US",
-"mcap": 11434614503.0
 },
 "SRI": {
 "name": "Stoneridge Inc.",
@@ -32534,42 +30176,6 @@
 "market": "S&P600",
 "mcap": 1197389989.0
 },
-"STRC": {
-"name": "Strategy Inc Variable Rate Series A Perpetual Stretch Preferred Stock",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Prepackaged Software",
-"small": false,
-"market": "US",
-"mcap": 42197448785.0
-},
-"STRD": {
-"name": "Strategy Inc 10.00% Series A Perpetual Stride Preferred Stock",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Prepackaged Software",
-"small": false,
-"market": "US",
-"mcap": 28149934557.0
-},
-"STRF": {
-"name": "Strategy Inc 10.00% Series A Perpetual Strife Preferred Stock",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Prepackaged Software",
-"small": false,
-"market": "US",
-"mcap": 42383284812.0
-},
-"STRK": {
-"name": "Strategy Inc 8.00% Series A Perpetual Strike Preferred Stock",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Prepackaged Software",
-"small": false,
-"market": "US",
-"mcap": 27942980799.0
-},
 "STRL": {
 "name": "Sterling Infrastructure",
 "name_local": "",
@@ -32732,15 +30338,6 @@
 "market": "S&P600",
 "mcap": 6173560193.0
 },
-"SUPV": {
-"name": "Grupo Supervielle S.A.",
-"name_local": "",
-"sector": "금융",
-"industry": "Commercial Banks",
-"small": true,
-"market": "US",
-"mcap": 542586116.0
-},
 "SUPX": {
 "name": "SuperX AI Technology Limited",
 "name_local": "",
@@ -32803,15 +30400,6 @@
 "small": true,
 "market": "US",
 "mcap": 1023693091.0
-},
-"SVREW": {
-"name": "SaverOne 2014 Ltd. Warrant",
-"name_local": "",
-"sector": "IT",
-"industry": "EDP Services",
-"small": true,
-"market": "US",
-"mcap": 1112326723.0
 },
 "SVV": {
 "name": "Savers Value Village Inc.",
@@ -33109,15 +30697,6 @@
 "small": true,
 "market": "US",
 "mcap": 187784351.0
-},
-"TBB": {
-"name": "AT&T Inc. 5.350% Global Notes due 2066",
-"name_local": "",
-"sector": "커뮤니케이션",
-"industry": "Telecommunications Equipment",
-"small": false,
-"market": "US",
-"mcap": 126275807577.0
 },
 "TBBB": {
 "name": "BBB Foods Inc. Class A Common Shares",
@@ -33632,15 +31211,6 @@
 "market": "US",
 "mcap": 13291013965.0
 },
-"TIGR": {
-"name": "UP Fintech Holding Ltd American Depositary Share representing fifteen Class A",
-"name_local": "",
-"sector": "금융",
-"industry": "Investment Bankers/Brokers/Service",
-"small": true,
-"market": "US",
-"mcap": 739820737.0
-},
 "TII": {
 "name": "Titan Mining Corporation Common Shares",
 "name_local": "",
@@ -33857,15 +31427,6 @@
 "market": "S&P600",
 "mcap": 3173982229.0
 },
-"TME": {
-"name": "Tencent Music Entertainment Group",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Broadcasting",
-"small": false,
-"market": "US",
-"mcap": 14243835725.0
-},
 "TMO": {
 "name": "Thermo Fisher Scientific",
 "name_local": "",
@@ -34064,15 +31625,6 @@
 "market": "US",
 "mcap": 18575191572.0
 },
-"TPGXL": {
-"name": "TPG Operating Group II L.P. 6.950% Fixed-Rate Junior Subordinated Notes due 2064",
-"name_local": "",
-"sector": "기타",
-"industry": "기타",
-"small": false,
-"market": "US",
-"mcap": 7537300512.0
-},
 "TPL": {
 "name": "Texas Pacific Land Corporation",
 "name_local": "",
@@ -34244,15 +31796,6 @@
 "market": "S&P600",
 "mcap": 2388193875.0
 },
-"TRNI": {
-"name": "Trinity Capital Inc. 7.875% Notes Due 2029",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 1766291699.0
-},
 "TRNO": {
 "name": "Terreno Realty Corporation",
 "name_local": "",
@@ -34270,15 +31813,6 @@
 "small": true,
 "market": "US",
 "mcap": 978856372.0
-},
-"TRNZ": {
-"name": "Trinity Capital Inc. 7.875% Notes due 2029",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 1777541965.0
 },
 "TRON": {
 "name": "Tron Inc.",
@@ -34649,15 +32183,6 @@
 "market": "US",
 "mcap": 156895927.0
 },
-"TUYA": {
-"name": "Tuya Inc.",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Prepackaged Software",
-"small": true,
-"market": "US",
-"mcap": 1008855641.0
-},
 "TV": {
 "name": "Grupo Televisa S.A.B.",
 "name_local": "",
@@ -34775,15 +32300,6 @@
 "market": "S&P400",
 "mcap": 6479799542.0
 },
-"TXO": {
-"name": "TXO Partners L.P. Common Units Representing Limited Partner Interests",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil & Gas Production",
-"small": true,
-"market": "US",
-"mcap": 739100605.0
-},
 "TXRH": {
 "name": "Texas Roadhouse",
 "name_local": "",
@@ -34882,15 +32398,6 @@
 "small": true,
 "market": "US",
 "mcap": 462921245.0
-},
-"UAN": {
-"name": "CVR Partners LP Common Units representing Limited Partner Interests",
-"name_local": "",
-"sector": "산업재",
-"industry": "Agricultural Chemicals",
-"small": true,
-"market": "US",
-"mcap": 1181368327.0
 },
 "UBER": {
 "name": "Uber",
@@ -35144,15 +32651,6 @@
 "market": "S&P400",
 "mcap": 10167021729.0
 },
-"UMBFO": {
-"name": "UMB Financial Corporation Depositary Shares Each Representing a 1/400th Interest in a Share of 7.750% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series B",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 1910209148.0
-},
 "UMC": {
 "name": "United Microelectronics Corporation (NEW)",
 "name_local": "",
@@ -35224,15 +32722,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 12369115814.0
-},
-"UNMA": {
-"name": "Unum Group 6.250% Junior Subordinated Notes due 2058",
-"name_local": "",
-"sector": "금융",
-"industry": "Accident &Health Insurance",
-"small": false,
-"market": "US",
-"mcap": 3389233476.0
 },
 "UNP": {
 "name": "Union Pacific Corporation",
@@ -35540,33 +33029,6 @@
 "market": "US",
 "mcap": 177898037.0
 },
-"UZD": {
-"name": "Array Digital Infrastructure Inc. 6.250% Senior Notes due 2069",
-"name_local": "",
-"sector": "커뮤니케이션",
-"industry": "Telecommunications Equipment",
-"small": true,
-"market": "US",
-"mcap": 1433620000.0
-},
-"UZE": {
-"name": "Array Digital Infrastructure Inc. 5.500% Senior Notes due 2070",
-"name_local": "",
-"sector": "커뮤니케이션",
-"industry": "Telecommunications Equipment",
-"small": true,
-"market": "US",
-"mcap": 1271940000.0
-},
-"UZF": {
-"name": "Array Digital Infrastructure Inc. 5.500% Senior Notes due 2070",
-"name_local": "",
-"sector": "커뮤니케이션",
-"industry": "Telecommunications Equipment",
-"small": true,
-"market": "US",
-"mcap": 1275380000.0
-},
 "V": {
 "name": "Visa Inc.",
 "name_local": "",
@@ -35602,24 +33064,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 5842244470.0
-},
-"VAL.WS": {
-"name": "Valaris Limited Warrants",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil & Gas Production",
-"small": true,
-"market": "US",
-"mcap": 647209301.0
-},
-"VALE": {
-"name": "VALE S.A.",
-"name_local": "",
-"sector": "소재",
-"industry": "Metal Mining",
-"small": false,
-"market": "US",
-"mcap": 47903951041.0
 },
 "VALN": {
 "name": "Valneva SE",
@@ -35801,15 +33245,6 @@
 "market": "US",
 "mcap": 7135584831.0
 },
-"VFSWW": {
-"name": "VinFast Auto Ltd. Warrant",
-"name_local": "",
-"sector": "산업재",
-"industry": "Auto Manufacturing",
-"small": true,
-"market": "US",
-"mcap": 485453722.0
-},
 "VG": {
 "name": "Venture Global Inc. Class A common stock",
 "name_local": "",
@@ -35909,15 +33344,6 @@
 "market": "US",
 "mcap": 569826474.0
 },
-"VIPS": {
-"name": "Vipshop Holdings Limited",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Catalog/Specialty Distribution",
-"small": false,
-"market": "US",
-"mcap": 6370788713.0
-},
 "VIR": {
 "name": "Vir Biotechnology, Inc.",
 "name_local": "",
@@ -35944,15 +33370,6 @@
 "small": true,
 "market": "US",
 "mcap": 863198458.0
-},
-"VIST": {
-"name": "Vista Energy S.A.B. de C.V.",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil & Gas Production",
-"small": false,
-"market": "US",
-"mcap": 6213737380.0
 },
 "VITL": {
 "name": "Vital Farms Inc.",
@@ -36026,15 +33443,6 @@
 "market": "S&P500",
 "mcap": 105900773212.0
 },
-"VLRS": {
-"name": "Controladora Vuela Compania de Aviacion S.A.B. de C.V.",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Air Freight/Delivery Services",
-"small": true,
-"market": "US",
-"mcap": 927243450.0
-},
 "VLTO": {
 "name": "Veralto",
 "name_local": "",
@@ -36052,33 +33460,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 7883640927.0
-},
-"VLYPN": {
-"name": "Valley National Bancorp 8.250% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series C",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 13716655587.0
-},
-"VLYPO": {
-"name": "Valley National Bancorp 5.50% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series B",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 13331819559.0
-},
-"VLYPP": {
-"name": "Valley National Bancorp 6.25% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series A",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 13749641533.0
 },
 "VMC": {
 "name": "Vulcan Materials Company",
@@ -36377,15 +33758,6 @@
 "market": "S&P600",
 "mcap": 5098320040.0
 },
-"VSECU": {
-"name": "VSE Corporation Tangible Equity Units",
-"name_local": "",
-"sector": "기타",
-"industry": "기타",
-"small": true,
-"market": "US",
-"mcap": 1316265977.0
-},
 "VSH": {
 "name": "Vishay Intertechnology",
 "name_local": "",
@@ -36448,15 +33820,6 @@
 "small": true,
 "market": "US",
 "mcap": 682459275.0
-},
-"VTMX": {
-"name": "Corporacion Inmobiliaria Vesta S.A.B de C.V.",
-"name_local": "",
-"sector": "금융",
-"industry": "Real Estate",
-"small": false,
-"market": "US",
-"mcap": 3312401718.0
 },
 "VTN": {
 "name": "Invesco Trust for Investment Grade New York Municipals",
@@ -36755,24 +34118,6 @@
 "market": "S&P600",
 "mcap": 2991880702.0
 },
-"WDH": {
-"name": "Waterdrop Inc.",
-"name_local": "",
-"sector": "금융",
-"industry": "Specialty Insurers",
-"small": true,
-"market": "US",
-"mcap": 359301953.0
-},
-"WDS": {
-"name": "Woodside Energy Group Limited",
-"name_local": "",
-"sector": "에너지",
-"industry": "Oil & Gas Production",
-"small": false,
-"market": "US",
-"mcap": 40065685514.0
-},
 "WEC": {
 "name": "WEC Energy Group",
 "name_local": "",
@@ -36808,15 +34153,6 @@
 "small": true,
 "market": "S&P600",
 "mcap": 1681759454.0
-},
-"WES": {
-"name": "Western Midstream Partners LP Common Units Representing Limited Partner Interests",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Natural Gas Distribution",
-"small": false,
-"market": "US",
-"mcap": 17454459602.0
 },
 "WEST": {
 "name": "Westrock Coffee Company",
@@ -36926,15 +34262,6 @@
 "market": "US",
 "mcap": 177395650.0
 },
-"WHFCL": {
-"name": "WhiteHorse Finance Inc. 7.875% Notes due 2028",
-"name_local": "",
-"sector": "기타",
-"industry": "기타",
-"small": true,
-"market": "US",
-"mcap": 585260956.0
-},
 "WHG": {
 "name": "Westwood Holdings Group Inc",
 "name_local": "",
@@ -36952,15 +34279,6 @@
 "small": true,
 "market": "US",
 "mcap": 790590148.0
-},
-"WHLRL": {
-"name": "Wheeler Real Estate Investment Trust Inc. 7.00% Senior Subordinated Convertible Notes Due 2031",
-"name_local": "",
-"sector": "부동산",
-"industry": "Real Estate Investment Trusts",
-"small": true,
-"market": "US",
-"mcap": 162054193.0
 },
 "WHR": {
 "name": "Whirlpool Corporation",
@@ -37043,15 +34361,6 @@
 "market": "US",
 "mcap": 1079265793.0
 },
-"WLDSW": {
-"name": "Wearable Devices Ltd. Warrant",
-"name_local": "",
-"sector": "커뮤니케이션",
-"industry": "Computer Communications Equipment",
-"small": true,
-"market": "US",
-"mcap": 113151605.0
-},
 "WLFC": {
 "name": "Willis Lease Finance Corporation",
 "name_local": "",
@@ -37069,15 +34378,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 8132330833.0
-},
-"WLKP": {
-"name": "Westlake Chemical Partners LP Common Units representing limited partner interests",
-"name_local": "",
-"sector": "산업재",
-"industry": "Major Chemicals",
-"small": true,
-"market": "US",
-"mcap": 746666737.0
 },
 "WLTH": {
 "name": "Wealthfront Corporation",
@@ -37295,15 +34595,6 @@
 "market": "S&P600",
 "mcap": 3705025902.0
 },
-"WSBCO": {
-"name": "WesBanco Inc. Depositary Shares each representing 1/40th interest in a share of 7.375% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series B",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 2427463862.0
-},
 "WSBF": {
 "name": "Waterstone Financial Inc.",
 "name_local": "",
@@ -37402,15 +34693,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 10492463317.0
-},
-"WTFCN": {
-"name": "Wintrust Financial Corporation Depositary Shares Each Representing a 1/1000th Interest in a Share of 7.875% Fixed-Rate Reset Non-Cumulative Perpetual Preferred StocK",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": true,
-"market": "US",
-"mcap": 1728948483.0
 },
 "WTI": {
 "name": "W&T Offshore Inc.",
@@ -37646,15 +34928,6 @@
 "market": "S&P600",
 "mcap": 2013726578.0
 },
-"XIFR": {
-"name": "XPLR Infrastructure LP Common Units representing limited partner interests",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "Electric Utilities: Central",
-"small": true,
-"market": "US",
-"mcap": 716944606.0
-},
 "XLAB": {
 "name": "Exascale Labs Holdings Inc. Class A",
 "name_local": "",
@@ -37745,15 +35018,6 @@
 "market": "US",
 "mcap": 296822451.0
 },
-"XPEV": {
-"name": "XPeng Inc. American depositary shares each representing two Class A ordinary shares",
-"name_local": "",
-"sector": "산업재",
-"industry": "Auto Manufacturing",
-"small": false,
-"market": "US",
-"mcap": 8981907844.0
-},
 "XPO": {
 "name": "XPO, Inc.",
 "name_local": "",
@@ -37826,15 +35090,6 @@
 "market": "US",
 "mcap": 2786554360.0
 },
-"XYF": {
-"name": "X Financial",
-"name_local": "",
-"sector": "금융",
-"industry": "Finance: Consumer Services",
-"small": true,
-"market": "US",
-"mcap": 302949105.0
-},
 "XYL": {
 "name": "Xylem Inc.",
 "name_local": "",
@@ -37861,15 +35116,6 @@
 "small": true,
 "market": "US",
 "mcap": 1434156810.0
-},
-"YALA": {
-"name": "Yalla Group Limited",
-"name_local": "",
-"sector": "IT",
-"industry": "Computer Software: Programming Data Processing",
-"small": true,
-"market": "US",
-"mcap": 836577718.0
 },
 "YARW": {
 "name": "Yarrow Bioscience Inc.",
@@ -37960,15 +35206,6 @@
 "small": false,
 "market": "US",
 "mcap": 14898688599.0
-},
-"YSG": {
-"name": "Yatsen Holding Limited",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Package Goods/Cosmetics",
-"small": true,
-"market": "US",
-"mcap": 180221572.0
 },
 "YSS": {
 "name": "York Space Systems Inc.",
@@ -38087,15 +35324,6 @@
 "market": "US",
 "mcap": 3701364730.0
 },
-"ZH": {
-"name": "Zhihu Inc.",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Business Services",
-"small": true,
-"market": "US",
-"mcap": 231523128.0
-},
 "ZIM": {
 "name": "ZIM Integrated Shipping Services Ltd.",
 "name_local": "",
@@ -38114,15 +35342,6 @@
 "market": "S&P400",
 "mcap": 9615715451.0
 },
-"ZIONP": {
-"name": "Zions Bancorporation N.A. Depositary Shares (Each representing 1/40th Interest in a Share of Series A Floating-Rate Non-Cumulative Perpetual Preferred Stock)",
-"name_local": "",
-"sector": "금융",
-"industry": "Major Banks",
-"small": false,
-"market": "US",
-"mcap": 2319135472.0
-},
 "ZIP": {
 "name": "ZipRecruiter Inc. Class A",
 "name_local": "",
@@ -38140,15 +35359,6 @@
 "small": true,
 "market": "US",
 "mcap": 553680866.0
-},
-"ZKH": {
-"name": "ZKH Group Limited",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "RETAIL: Building Materials",
-"small": true,
-"market": "US",
-"mcap": 201827533.0
 },
 "ZLAB": {
 "name": "Zai Lab Limited",
@@ -38194,15 +35404,6 @@
 "small": true,
 "market": "US",
 "mcap": 125875943.0
-},
-"ZTO": {
-"name": "ZTO Express (Cayman) Inc.",
-"name_local": "",
-"sector": "산업재",
-"industry": "Trucking Freight/Courier Services",
-"small": false,
-"market": "US",
-"mcap": 15644382082.0
 },
 "ZTS": {
 "name": "Zoetis",
@@ -38398,6 +35599,15 @@
 "name_local": "",
 "sector": "부동산",
 "industry": "복합 리츠",
+"small": true,
+"market": "S&P600",
+"mcap": null
+},
+"PFBC": {
+"name": "Preferred Bank",
+"name_local": "",
+"sector": "금융",
+"industry": "지역 은행",
 "small": true,
 "market": "S&P600",
 "mcap": null
