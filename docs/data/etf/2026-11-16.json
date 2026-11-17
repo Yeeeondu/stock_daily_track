@@ -1,0 +1,5828 @@
+{
+ "market": "etf",
+ "date": "2026-11-16",
+ "generated_at": "2026-11-17T04:30:30+00:00",
+ "universe": 5805,
+ "priced": 3922,
+ "skipped": {
+  "lev": 861,
+  "young": 1000
+ },
+ "w1_week": "2026-11-09~2026-11-13",
+ "top_d1": [
+  {
+   "ticker": "VIXY",
+   "name": "VIX Short-Term Futures ETF",
+   "close": 19.56,
+   "d1": 9.03,
+   "w1": 9.03,
+   "w1_prev": -14.69,
+   "holdings": [
+    {
+     "symbol": "IQMM",
+     "name": "ProShares GENIUS Money Market ETF",
+     "pct": 17.99
+    }
+   ]
+  },
+  {
+   "ticker": "ZTAX",
+   "name": "X-Square Municipal Income ETF",
+   "close": 24.57,
+   "d1": 5.77,
+   "w1": 5.77,
+   "w1_prev": -3.93,
+   "holdings": []
+  },
+  {
+   "ticker": "BWET",
+   "name": "Breakwave Tanker Shipping ETF",
+   "close": 638.41,
+   "d1": 3.19,
+   "w1": 3.19,
+   "w1_prev": -8.55,
+   "holdings": [
+    {
+     "symbol": "AGPXX",
+     "name": "Invesco Shrt-Trm Inv Gov&Agcy Instl",
+     "pct": 21.63
+    }
+   ]
+  },
+  {
+   "ticker": "MBSX",
+   "name": "Regan Fixed Rate MBS ETF",
+   "close": 26.5,
+   "d1": 2.71,
+   "w1": 2.71,
+   "w1_prev": 0.0,
+   "holdings": []
+  },
+  {
+   "ticker": "VIXM",
+   "name": "VIX Mid-Term Futures ETF",
+   "close": 13.73,
+   "d1": 2.54,
+   "w1": 2.54,
+   "w1_prev": -3.39,
+   "holdings": [
+    {
+     "symbol": "IQMM",
+     "name": "ProShares GENIUS Money Market ETF",
+     "pct": 18.76
+    }
+   ]
+  },
+  {
+   "ticker": "BTAL",
+   "name": "AGF U.S. Market Neutral Anti-Beta Fund",
+   "close": 13.58,
+   "d1": 1.88,
+   "w1": 1.88,
+   "w1_prev": 0.6,
+   "holdings": []
+  },
+  {
+   "ticker": "TAIL",
+   "name": "Cambria Tail Risk ETF",
+   "close": 10.09,
+   "d1": 1.41,
+   "w1": 1.41,
+   "w1_prev": -3.96,
+   "holdings": []
+  },
+  {
+   "ticker": "NDIA",
+   "name": "Global X India Active ETF",
+   "close": 28.87,
+   "d1": 1.36,
+   "w1": 1.36,
+   "w1_prev": 0.03,
+   "holdings": []
+  },
+  {
+   "ticker": "HDLB",
+   "name": "ETRACS Monthly Pay 2xLeveraged US High Dividend Low Volatility ETN Series B due September 30, 2044",
+   "close": 17.15,
+   "d1": 1.27,
+   "w1": 1.27,
+   "w1_prev": 0.53,
+   "holdings": []
+  },
+  {
+   "ticker": "IHF",
+   "name": "iShares U.S. Health Care Providers ETF",
+   "close": 61.11,
+   "d1": 1.16,
+   "w1": 1.16,
+   "w1_prev": 1.96,
+   "holdings": []
+  },
+  {
+   "ticker": "FLV",
+   "name": "American Century Focused Large Cap Value ETF",
+   "close": 89.32,
+   "d1": 1.13,
+   "w1": 1.13,
+   "w1_prev": 0.31,
+   "holdings": []
+  },
+  {
+   "ticker": "KBWP",
+   "name": "Invesco KBW Property & Casualty Insurance ETF",
+   "close": 144.69,
+   "d1": 0.98,
+   "w1": 0.98,
+   "w1_prev": 2.57,
+   "holdings": []
+  },
+  {
+   "ticker": "EMTY",
+   "name": "ProShares Decline of the Retail Store ETF",
+   "close": 22.16,
+   "d1": 0.98,
+   "w1": 0.98,
+   "w1_prev": -1.42,
+   "holdings": []
+  },
+  {
+   "ticker": "NTRL",
+   "name": "First Trust Equity Market Neutral ETF",
+   "close": 20.6,
+   "d1": 0.93,
+   "w1": 0.93,
+   "w1_prev": 0.06,
+   "holdings": []
+  },
+  {
+   "ticker": "QAT",
+   "name": "iShares MSCI Qatar ETF",
+   "close": 17.79,
+   "d1": 0.91,
+   "w1": 0.91,
+   "w1_prev": 0.17,
+   "holdings": []
+  },
+  {
+   "ticker": "EMBD",
+   "name": "Global X Emerging Markets Bond ETF",
+   "close": 22.59,
+   "d1": 0.85,
+   "w1": 0.85,
+   "w1_prev": -1.93,
+   "holdings": []
+  },
+  {
+   "ticker": "XHS",
+   "name": "State Street SPDR S&P Health Care Services ETF",
+   "close": 146.58,
+   "d1": 0.79,
+   "w1": 0.79,
+   "w1_prev": 0.59,
+   "holdings": []
+  },
+  {
+   "ticker": "IVOL",
+   "name": "Quadratic Interest Rate Volatility and Inflation Hedge ETF",
+   "close": 16.6,
+   "d1": 0.73,
+   "w1": 0.73,
+   "w1_prev": -3.06,
+   "holdings": []
+  },
+  {
+   "ticker": "TYA",
+   "name": "Simplify Intermediate Term Treasury Futures Strategy ETF",
+   "close": 11.29,
+   "d1": 0.71,
+   "w1": 0.71,
+   "w1_prev": -5.72,
+   "holdings": []
+  },
+  {
+   "ticker": "SAPH",
+   "name": "SAP SE ADRhedged",
+   "close": 44.7,
+   "d1": 0.63,
+   "w1": 0.63,
+   "w1_prev": 0.61,
+   "holdings": []
+  },
+  {
+   "ticker": "JETS",
+   "name": "U.S. Global Jets ETF",
+   "close": 29.02,
+   "d1": 0.62,
+   "w1": 0.62,
+   "w1_prev": 0.42,
+   "holdings": [
+    {
+     "symbol": "LUV",
+     "name": "Southwest Airlines Co",
+     "pct": 12.16
+    },
+    {
+     "symbol": "DAL",
+     "name": "Delta Air Lines Inc",
+     "pct": 11.22
+    },
+    {
+     "symbol": "AAL",
+     "name": "American Airlines Group Inc",
+     "pct": 10.8
+    },
+    {
+     "symbol": "UAL",
+     "name": "United Airlines Holdings Inc",
+     "pct": 10.68
+    },
+    {
+     "symbol": "ULCC",
+     "name": "Frontier Group Holdings Inc",
+     "pct": 4.27
+    },
+    {
+     "symbol": "ALGT",
+     "name": "Allegiant Travel Co",
+     "pct": 3.53
+    },
+    {
+     "symbol": "ALK",
+     "name": "Alaska Air Group Inc",
+     "pct": 3.3
+    },
+    {
+     "symbol": "SKYW",
+     "name": "SkyWest Inc",
+     "pct": 3.18
+    },
+    {
+     "symbol": "AC.TO",
+     "name": "Air Canada Ordinary Shares (Voting and Variable Voting)",
+     "pct": 2.6
+    },
+    {
+     "symbol": "JBLU",
+     "name": "JetBlue Airways Corp",
+     "pct": 2.35
+    }
+   ]
+  },
+  {
+   "ticker": "GXPS",
+   "name": "Global X PureCap MSCI Consumer Staples ETF",
+   "close": 29.89,
+   "d1": 0.61,
+   "w1": 0.61,
+   "w1_prev": 2.59,
+   "holdings": []
+  },
+  {
+   "ticker": "INDE",
+   "name": "Matthews India Active ETF",
+   "close": 31.26,
+   "d1": 0.61,
+   "w1": 0.61,
+   "w1_prev": 1.34,
+   "holdings": []
+  },
+  {
+   "ticker": "KIE",
+   "name": "State Street SPDR S&P Insurance ETF",
+   "close": 66.06,
+   "d1": 0.61,
+   "w1": 0.61,
+   "w1_prev": 2.15,
+   "holdings": []
+  },
+  {
+   "ticker": "IMVP",
+   "name": "Invesco India ETF",
+   "close": 20.28,
+   "d1": 0.6,
+   "w1": 0.6,
+   "w1_prev": 0.85,
+   "holdings": []
+  },
+  {
+   "ticker": "INDY",
+   "name": "iShares India 50 ETF",
+   "close": 46.06,
+   "d1": 0.59,
+   "w1": 0.59,
+   "w1_prev": 0.22,
+   "holdings": []
+  },
+  {
+   "ticker": "FLSP",
+   "name": "Franklin Systematic Style Premia ETF",
+   "close": 29.46,
+   "d1": 0.58,
+   "w1": 0.58,
+   "w1_prev": 0.34,
+   "holdings": []
+  },
+  {
+   "ticker": "ARB",
+   "name": "AltShares Merger Arbitrage ETF",
+   "close": 30.3,
+   "d1": 0.57,
+   "w1": 0.57,
+   "w1_prev": 0.26,
+   "holdings": []
+  },
+  {
+   "ticker": "LDRC",
+   "name": "iShares iBonds 1-5 Year Corporate Ladder ETF",
+   "close": 24.77,
+   "d1": 0.53,
+   "w1": 0.53,
+   "w1_prev": -0.59,
+   "holdings": []
+  },
+  {
+   "ticker": "NFTY",
+   "name": "First Trust India Nifty 50 Equal Weight ETF",
+   "close": 55.82,
+   "d1": 0.52,
+   "w1": 0.52,
+   "w1_prev": -0.04,
+   "holdings": []
+  },
+  {
+   "ticker": "RSPS",
+   "name": "Invesco S&P 500 Equal Weight Consumer Staples ETF",
+   "close": 32.76,
+   "d1": 0.52,
+   "w1": 0.52,
+   "w1_prev": 2.13,
+   "holdings": [
+    {
+     "symbol": "KR",
+     "name": "The Kroger Co",
+     "pct": 3.31
+    },
+    {
+     "symbol": "WMT",
+     "name": "Walmart Inc",
+     "pct": 3.26
+    },
+    {
+     "symbol": "MO",
+     "name": "Altria Group Inc",
+     "pct": 3.21
+    },
+    {
+     "symbol": "PG",
+     "name": "Procter & Gamble Co",
+     "pct": 3.17
+    },
+    {
+     "symbol": "DLTR",
+     "name": "Dollar Tree Inc",
+     "pct": 3.16
+    },
+    {
+     "symbol": "CHD",
+     "name": "Church & Dwight Co Inc",
+     "pct": 3.15
+    },
+    {
+     "symbol": "PM",
+     "name": "Philip Morris International Inc",
+     "pct": 3.14
+    },
+    {
+     "symbol": "COST",
+     "name": "Costco Wholesale Corp",
+     "pct": 3.13
+    },
+    {
+     "symbol": "KDP",
+     "name": "Keurig Dr Pepper Inc",
+     "pct": 3.12
+    },
+    {
+     "symbol": "STZ",
+     "name": "Constellation Brands Inc Class A",
+     "pct": 3.11
+    }
+   ]
+  },
+  {
+   "ticker": "INCO",
+   "name": "Columbia India Consumer ETF",
+   "close": 62.4,
+   "d1": 0.5,
+   "w1": 0.5,
+   "w1_prev": 0.11,
+   "holdings": []
+  },
+  {
+   "ticker": "TUA",
+   "name": "Simplify Short Term Treasury Futures Strategy ETF",
+   "close": 19.23,
+   "d1": 0.5,
+   "w1": 0.5,
+   "w1_prev": -3.48,
+   "holdings": []
+  },
+  {
+   "ticker": "DESK",
+   "name": "VanEck Office and Commercial REIT ETF",
+   "close": 38.97,
+   "d1": 0.49,
+   "w1": 0.49,
+   "w1_prev": -0.41,
+   "holdings": []
+  },
+  {
+   "ticker": "NUMI",
+   "name": "Nuveen Municipal Income ETF",
+   "close": 24.39,
+   "d1": 0.47,
+   "w1": 0.47,
+   "w1_prev": -0.93,
+   "holdings": []
+  },
+  {
+   "ticker": "IAK",
+   "name": "iShares U.S. Insurance ETF",
+   "close": 153.86,
+   "d1": 0.45,
+   "w1": 0.45,
+   "w1_prev": 3.01,
+   "holdings": []
+  },
+  {
+   "ticker": "RIGS",
+   "name": "ALPS Strategic Income Fund",
+   "close": 22.19,
+   "d1": 0.45,
+   "w1": 0.45,
+   "w1_prev": -0.85,
+   "holdings": []
+  },
+  {
+   "ticker": "PSCC",
+   "name": "Invesco S&P SmallCap Consumer Staples ETF",
+   "close": 36.88,
+   "d1": 0.44,
+   "w1": 0.44,
+   "w1_prev": 0.3,
+   "holdings": []
+  },
+  {
+   "ticker": "PVI",
+   "name": "Invesco Floating Rate Municipal Income ETF",
+   "close": 24.93,
+   "d1": 0.44,
+   "w1": 0.44,
+   "w1_prev": 0.0,
+   "holdings": []
+  },
+  {
+   "ticker": "IOPP",
+   "name": "Simplify Tara India Opportunities ETF",
+   "close": 27.3,
+   "d1": 0.43,
+   "w1": 0.43,
+   "w1_prev": 0.48,
+   "holdings": []
+  },
+  {
+   "ticker": "NURE",
+   "name": "Nuveen Short-Term REIT ETF",
+   "close": 32.53,
+   "d1": 0.42,
+   "w1": 0.42,
+   "w1_prev": 0.5,
+   "holdings": []
+  },
+  {
+   "ticker": "KXI",
+   "name": "iShares Global Consumer Staples ETF",
+   "close": 74.36,
+   "d1": 0.41,
+   "w1": 0.41,
+   "w1_prev": 2.04,
+   "holdings": [
+    {
+     "symbol": "WMT",
+     "name": "Walmart Inc",
+     "pct": 7.4
+    },
+    {
+     "symbol": "COST",
+     "name": "Costco Wholesale Corp",
+     "pct": 6.04
+    },
+    {
+     "symbol": "PG",
+     "name": "Procter & Gamble Co",
+     "pct": 5.05
+    },
+    {
+     "symbol": "KO",
+     "name": "Coca-Cola Co",
+     "pct": 4.9
+    },
+    {
+     "symbol": "PM",
+     "name": "Philip Morris International Inc",
+     "pct": 4.69
+    },
+    {
+     "symbol": "NESN.SW",
+     "name": "Nestle SA",
+     "pct": 4.49
+    },
+    {
+     "symbol": "PEP",
+     "name": "PepsiCo Inc",
+     "pct": 4.13
+    },
+    {
+     "symbol": "ULVR.L",
+     "name": "Unilever PLC",
+     "pct": 3.68
+    },
+    {
+     "symbol": "BATS.L",
+     "name": "British American Tobacco PLC",
+     "pct": 3.48
+    },
+    {
+     "symbol": "MO",
+     "name": "Altria Group Inc",
+     "pct": 3.41
+    }
+   ]
+  },
+  {
+   "ticker": "LLDR",
+   "name": "Global X Long-Term Treasury Ladder ETF",
+   "close": 41.74,
+   "d1": 0.4,
+   "w1": 0.4,
+   "w1_prev": -2.88,
+   "holdings": []
+  },
+  {
+   "ticker": "DOGG",
+   "name": "FT Vest DJIA Dogs 10 Target Income ETF",
+   "close": 23.05,
+   "d1": 0.39,
+   "w1": 0.39,
+   "w1_prev": 1.12,
+   "holdings": []
+  },
+  {
+   "ticker": "PHDG",
+   "name": "Invesco S&P 500 Downside Hedged ETF",
+   "close": 41.39,
+   "d1": 0.39,
+   "w1": 0.39,
+   "w1_prev": -0.22,
+   "holdings": []
+  },
+  {
+   "ticker": "GNMA",
+   "name": "iShares GNMA Bond ETF",
+   "close": 42.26,
+   "d1": 0.38,
+   "w1": 0.38,
+   "w1_prev": -2.14,
+   "holdings": []
+  },
+  {
+   "ticker": "TMH",
+   "name": "Toyota Motor Corporation ADRhedged",
+   "close": 56.74,
+   "d1": 0.38,
+   "w1": 0.38,
+   "w1_prev": -0.72,
+   "holdings": []
+  },
+  {
+   "ticker": "EASY",
+   "name": "Liberty One Defensive Dividend Growth ETF",
+   "close": 29.81,
+   "d1": 0.36,
+   "w1": 0.36,
+   "w1_prev": 2.6,
+   "holdings": []
+  },
+  {
+   "ticker": "COSW",
+   "name": "Roundhill COST WeeklyPay ETF",
+   "close": 44.8,
+   "d1": 0.36,
+   "w1": 0.36,
+   "w1_prev": 5.28,
+   "holdings": [
+    {
+     "symbol": "FGXXX",
+     "name": "First American Government Obligs X",
+     "pct": 6.45
+    },
+    {
+     "symbol": "COST",
+     "name": "Costco Wholesale Corp",
+     "pct": 5.43
+    }
+   ]
+  },
+  {
+   "ticker": "VDC",
+   "name": "Vanguard Consumer Staples ETF",
+   "close": 252.62,
+   "d1": 0.34,
+   "w1": 0.34,
+   "w1_prev": 2.57,
+   "holdings": [
+    {
+     "symbol": "WMT",
+     "name": "Walmart Inc",
+     "pct": 13.86
+    },
+    {
+     "symbol": "COST",
+     "name": "Costco Wholesale Corp",
+     "pct": 12.12
+    },
+    {
+     "symbol": "PG",
+     "name": "Procter & Gamble Co",
+     "pct": 9.9
+    },
+    {
+     "symbol": "KO",
+     "name": "Coca-Cola Co",
+     "pct": 9.8
+    },
+    {
+     "symbol": "PM",
+     "name": "Philip Morris International Inc",
+     "pct": 4.83
+    },
+    {
+     "symbol": "PEP",
+     "name": "PepsiCo Inc",
+     "pct": 4.28
+    },
+    {
+     "symbol": "MO",
+     "name": "Altria Group Inc",
+     "pct": 3.86
+    },
+    {
+     "symbol": "MDLZ",
+     "name": "Mondelez International Inc Class A",
+     "pct": 2.58
+    },
+    {
+     "symbol": "TGT",
+     "name": "Target Corp",
+     "pct": 2.5
+    },
+    {
+     "symbol": "CL",
+     "name": "Colgate-Palmolive Co",
+     "pct": 2.28
+    }
+   ]
+  }
+ ],
+ "top_w1": [
+  {
+   "ticker": "AMDW",
+   "name": "Roundhill AMD WeeklyPay ETF",
+   "close": 74.54,
+   "d1": -7.68,
+   "w1": 22.0,
+   "w1_prev": 22.0,
+   "holdings": [
+    {
+     "symbol": "FGXXX",
+     "name": "First American Government Obligs X",
+     "pct": 12.27
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 0.33
+    }
+   ]
+  },
+  {
+   "ticker": "AVGW",
+   "name": "Roundhill AVGO WeeklyPay ETF",
+   "close": 28.27,
+   "d1": -5.34,
+   "w1": 20.64,
+   "w1_prev": 20.64,
+   "holdings": [
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 19.98
+    },
+    {
+     "symbol": "FGXXX",
+     "name": "First American Government Obligs X",
+     "pct": 9.33
+    }
+   ]
+  },
+  {
+   "ticker": "AMDY",
+   "name": "Yieldmax AMD Option Income Strategy ETF",
+   "close": 40.01,
+   "d1": -5.37,
+   "w1": 17.15,
+   "w1_prev": 17.15,
+   "holdings": [
+    {
+     "symbol": "FGXXX",
+     "name": "First American Government Obligs X",
+     "pct": 1.31
+    }
+   ]
+  },
+  {
+   "ticker": "STHH",
+   "name": "STMicroelectronics NV ADRhedged",
+   "close": 9.45,
+   "d1": -4.56,
+   "w1": 12.9,
+   "w1_prev": 12.9,
+   "holdings": [
+    {
+     "symbol": "STM",
+     "name": "STMicroelectronics NV ADR",
+     "pct": 93.33
+    }
+   ]
+  },
+  {
+   "ticker": "PSI",
+   "name": "Invesco Semiconductors ETF",
+   "close": 107.65,
+   "d1": -5.74,
+   "w1": 10.8,
+   "w1_prev": 10.8,
+   "holdings": [
+    {
+     "symbol": "TXN",
+     "name": "Texas Instruments Inc",
+     "pct": 6.62
+    },
+    {
+     "symbol": "ADI",
+     "name": "Analog Devices Inc",
+     "pct": 6.39
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 6.03
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 5.43
+    },
+    {
+     "symbol": "KLAC",
+     "name": "KLA Corp",
+     "pct": 4.93
+    },
+    {
+     "symbol": "AMAT",
+     "name": "Applied Materials Inc",
+     "pct": 4.65
+    },
+    {
+     "symbol": "LRCX",
+     "name": "Lam Research Corp",
+     "pct": 4.35
+    },
+    {
+     "symbol": "INTC",
+     "name": "Intel Corp",
+     "pct": 4.3
+    },
+    {
+     "symbol": "ENTG",
+     "name": "Entegris Inc",
+     "pct": 3.47
+    },
+    {
+     "symbol": "MCHP",
+     "name": "Microchip Technology Inc",
+     "pct": 3.28
+    }
+   ]
+  },
+  {
+   "ticker": "SPRX",
+   "name": "Spear Alpha ETF",
+   "close": 31.59,
+   "d1": -6.45,
+   "w1": 10.69,
+   "w1_prev": 10.69,
+   "holdings": [
+    {
+     "symbol": "ALAB",
+     "name": "Astera Labs Inc",
+     "pct": 11.35
+    },
+    {
+     "symbol": "NET",
+     "name": "Cloudflare Inc",
+     "pct": 8.5
+    },
+    {
+     "symbol": "LITE",
+     "name": "Lumentum Holdings Inc",
+     "pct": 7.97
+    },
+    {
+     "symbol": "ARM",
+     "name": "ARM Holdings PLC ADR",
+     "pct": 7.53
+    },
+    {
+     "symbol": "COHR",
+     "name": "Coherent Corp",
+     "pct": 7.19
+    },
+    {
+     "symbol": "LRCX",
+     "name": "Lam Research Corp",
+     "pct": 6.88
+    },
+    {
+     "symbol": "AAOI",
+     "name": "Applied Optoelectronics Inc",
+     "pct": 5.7
+    },
+    {
+     "symbol": "CIEN",
+     "name": "Ciena Corp",
+     "pct": 5.45
+    },
+    {
+     "symbol": "SPCX",
+     "name": "Space Exploration Technologies Corp Class A",
+     "pct": 5.29
+    },
+    {
+     "symbol": "KLAC",
+     "name": "KLA Corp",
+     "pct": 4.74
+    }
+   ]
+  },
+  {
+   "ticker": "ARMH",
+   "name": "Arm Holdings PLC ADRhedged",
+   "close": 7.61,
+   "d1": -8.01,
+   "w1": 10.29,
+   "w1_prev": 10.29,
+   "holdings": [
+    {
+     "symbol": "ARM",
+     "name": "ARM Holdings PLC ADR",
+     "pct": 97.15
+    }
+   ]
+  },
+  {
+   "ticker": "ARMW",
+   "name": "Roundhill ARM WeeklyPay ETF",
+   "close": 22.52,
+   "d1": -10.31,
+   "w1": 9.78,
+   "w1_prev": 9.78,
+   "holdings": [
+    {
+     "symbol": "FGXXX",
+     "name": "First American Government Obligs X",
+     "pct": 19.9
+    },
+    {
+     "symbol": "ARM",
+     "name": "ARM Holdings PLC ADR",
+     "pct": 9.68
+    }
+   ]
+  },
+  {
+   "ticker": "TSLP",
+   "name": "Kurv Yield Premium Strategy Tesla (TSLA) ETF",
+   "close": 15.0,
+   "d1": -2.61,
+   "w1": 9.74,
+   "w1_prev": 9.74,
+   "holdings": [
+    {
+     "symbol": "FIGXX",
+     "name": "Fidelity Inv MM Government I",
+     "pct": 0.96
+    }
+   ]
+  },
+  {
+   "ticker": "FLTW",
+   "name": "Franklin FTSE Taiwan ETF",
+   "close": 87.01,
+   "d1": -6.66,
+   "w1": 9.52,
+   "w1_prev": 9.52,
+   "holdings": [
+    {
+     "symbol": "2330.TW",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+     "pct": 20.28
+    },
+    {
+     "symbol": "2454.TW",
+     "name": "MediaTek Inc",
+     "pct": 8.4
+    },
+    {
+     "symbol": "2317.TW",
+     "name": "Hon Hai Precision Industry Co Ltd",
+     "pct": 4.37
+    },
+    {
+     "symbol": "2308.TW",
+     "name": "Delta Electronics Inc",
+     "pct": 3.76
+    },
+    {
+     "symbol": "3711.TW",
+     "name": "ASE Technology Holding Co Ltd",
+     "pct": 3.23
+    },
+    {
+     "symbol": "1303.TW",
+     "name": "Nan Ya Plastics Corp",
+     "pct": 2.13
+    },
+    {
+     "symbol": "2383.TW",
+     "name": "Elite Material Co Ltd",
+     "pct": 1.98
+    },
+    {
+     "symbol": "2881.TW",
+     "name": "Fubon Financial Holdings Co Ltd",
+     "pct": 1.96
+    },
+    {
+     "symbol": "2891.TW",
+     "name": "CTBC Financial Holding Co Ltd",
+     "pct": 1.95
+    },
+    {
+     "symbol": "3037.TW",
+     "name": "Unimicron Technology Corp",
+     "pct": 1.9
+    }
+   ]
+  },
+  {
+   "ticker": "SOXX",
+   "name": "iShares PHLX SOX Semiconductor Sector Index Fund",
+   "close": 141.22,
+   "d1": -5.41,
+   "w1": 9.35,
+   "w1_prev": 9.35,
+   "holdings": [
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 9.24
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 7.98
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 7.95
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 7.58
+    },
+    {
+     "symbol": "INTC",
+     "name": "Intel Corp",
+     "pct": 6.33
+    },
+    {
+     "symbol": "TXN",
+     "name": "Texas Instruments Inc",
+     "pct": 4.96
+    },
+    {
+     "symbol": "ADI",
+     "name": "Analog Devices Inc",
+     "pct": 4.96
+    },
+    {
+     "symbol": "QCOM",
+     "name": "Qualcomm Inc",
+     "pct": 4.16
+    },
+    {
+     "symbol": "MRVL",
+     "name": "Marvell Technology Inc",
+     "pct": 4.0
+    },
+    {
+     "symbol": "KLAC",
+     "name": "KLA Corp",
+     "pct": 3.88
+    }
+   ]
+  },
+  {
+   "ticker": "TSLW",
+   "name": "Roundhill TSLA WeeklyPay ETF",
+   "close": 17.29,
+   "d1": -3.62,
+   "w1": 9.26,
+   "w1_prev": 9.26,
+   "holdings": []
+  },
+  {
+   "ticker": "SOXY",
+   "name": "YieldMax Target 12 Semiconductor Option Income ETF",
+   "close": 71.16,
+   "d1": -5.64,
+   "w1": 9.21,
+   "w1_prev": 9.21,
+   "holdings": [
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 6.7
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 6.03
+    },
+    {
+     "symbol": "MRVL",
+     "name": "Marvell Technology Inc",
+     "pct": 5.13
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.94
+    },
+    {
+     "symbol": "ASML",
+     "name": "ASML Holding NV ADR",
+     "pct": 4.92
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 4.45
+    },
+    {
+     "symbol": "TXN",
+     "name": "Texas Instruments Inc",
+     "pct": 4.05
+    },
+    {
+     "symbol": "ADI",
+     "name": "Analog Devices Inc",
+     "pct": 3.93
+    },
+    {
+     "symbol": "SKHY",
+     "name": "SK hynix Inc ADR",
+     "pct": 3.9
+    },
+    {
+     "symbol": "LRCX",
+     "name": "Lam Research Corp",
+     "pct": 3.89
+    }
+   ]
+  },
+  {
+   "ticker": "EWT",
+   "name": "iShares MSCI Taiwan ETF",
+   "close": 90.8,
+   "d1": -6.76,
+   "w1": 9.12,
+   "w1_prev": 9.12,
+   "holdings": [
+    {
+     "symbol": "2330.TW",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+     "pct": 22.32
+    },
+    {
+     "symbol": "2454.TW",
+     "name": "MediaTek Inc",
+     "pct": 6.1
+    },
+    {
+     "symbol": "2317.TW",
+     "name": "Hon Hai Precision Industry Co Ltd",
+     "pct": 3.36
+    },
+    {
+     "symbol": "3711.TW",
+     "name": "ASE Technology Holding Co Ltd",
+     "pct": 3.0
+    },
+    {
+     "symbol": "2308.TW",
+     "name": "Delta Electronics Inc",
+     "pct": 2.95
+    },
+    {
+     "symbol": "1303.TW",
+     "name": "Nan Ya Plastics Corp",
+     "pct": 2.58
+    },
+    {
+     "symbol": "3037.TW",
+     "name": "Unimicron Technology Corp",
+     "pct": 1.95
+    },
+    {
+     "symbol": "2881.TW",
+     "name": "Fubon Financial Holdings Co Ltd",
+     "pct": 1.91
+    },
+    {
+     "symbol": "2383.TW",
+     "name": "Elite Material Co Ltd",
+     "pct": 1.89
+    },
+    {
+     "symbol": "2891.TW",
+     "name": "CTBC Financial Holding Co Ltd",
+     "pct": 1.75
+    }
+   ]
+  },
+  {
+   "ticker": "PFIX",
+   "name": "Simplify Interest Rate Hedge ETF",
+   "close": 59.31,
+   "d1": 0.07,
+   "w1": 8.85,
+   "w1_prev": 8.85,
+   "holdings": [
+    {
+     "symbol": "SBIL",
+     "name": "Simplify Government Money Market ETF",
+     "pct": 30.92
+    }
+   ]
+  },
+  {
+   "ticker": "CHPS",
+   "name": "Xtrackers Semiconductor Select Equity ETF",
+   "close": 66.67,
+   "d1": -5.8,
+   "w1": 8.84,
+   "w1_prev": 8.84,
+   "holdings": [
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 5.42
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 5.19
+    },
+    {
+     "symbol": "TXN",
+     "name": "Texas Instruments Inc",
+     "pct": 5.14
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.88
+    },
+    {
+     "symbol": "ASML.AS",
+     "name": "ASML Holding NV",
+     "pct": 4.76
+    },
+    {
+     "symbol": "2330.TW",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+     "pct": 4.69
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 4.39
+    },
+    {
+     "symbol": "ADI",
+     "name": "Analog Devices Inc",
+     "pct": 4.29
+    },
+    {
+     "symbol": "INTC",
+     "name": "Intel Corp",
+     "pct": 4.14
+    },
+    {
+     "symbol": "000660.KQ",
+     "name": "SK hynix Inc",
+     "pct": 4.08
+    }
+   ]
+  },
+  {
+   "ticker": "FTXL",
+   "name": "First Trust Nasdaq Semiconductor ETF",
+   "close": 191.35,
+   "d1": -4.98,
+   "w1": 8.84,
+   "w1_prev": 8.84,
+   "holdings": [
+    {
+     "symbol": "QCOM",
+     "name": "Qualcomm Inc",
+     "pct": 8.37
+    },
+    {
+     "symbol": "INTC",
+     "name": "Intel Corp",
+     "pct": 7.92
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 7.5
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 7.45
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 7.17
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 4.63
+    },
+    {
+     "symbol": "TXN",
+     "name": "Texas Instruments Inc",
+     "pct": 4.62
+    },
+    {
+     "symbol": "ADI",
+     "name": "Analog Devices Inc",
+     "pct": 4.6
+    },
+    {
+     "symbol": "NXPI",
+     "name": "NXP Semiconductors NV",
+     "pct": 4.56
+    },
+    {
+     "symbol": "MRVL",
+     "name": "Marvell Technology Inc",
+     "pct": 3.97
+    }
+   ]
+  },
+  {
+   "ticker": "UNG",
+   "name": "United States Natural Gas Fund LP",
+   "close": 9.82,
+   "d1": -3.25,
+   "w1": 8.56,
+   "w1_prev": 8.56,
+   "holdings": []
+  },
+  {
+   "ticker": "TCAI",
+   "name": "Tortoise AI Infrastructure ETF",
+   "close": 34.06,
+   "d1": -4.62,
+   "w1": 8.22,
+   "w1_prev": 8.22,
+   "holdings": [
+    {
+     "symbol": "VRT",
+     "name": "Vertiv Holdings Co Class A",
+     "pct": 6.52
+    },
+    {
+     "symbol": "DELL",
+     "name": "Dell Technologies Inc Ordinary Shares - Class C",
+     "pct": 4.94
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.86
+    },
+    {
+     "symbol": "SNDK",
+     "name": "SanDisk Corp Ordinary Shares",
+     "pct": 4.25
+    },
+    {
+     "symbol": "PWR",
+     "name": "Quanta Services Inc",
+     "pct": 4.18
+    },
+    {
+     "symbol": "MYRG",
+     "name": "MYR Group Inc",
+     "pct": 3.88
+    },
+    {
+     "symbol": "CIEN",
+     "name": "Ciena Corp",
+     "pct": 3.75
+    },
+    {
+     "symbol": "MTZ",
+     "name": "MasTec Inc",
+     "pct": 3.73
+    },
+    {
+     "symbol": "GEV",
+     "name": "GE Vernova Inc",
+     "pct": 3.59
+    },
+    {
+     "symbol": "STX",
+     "name": "Seagate Technology Holdings PLC",
+     "pct": 3.46
+    }
+   ]
+  },
+  {
+   "ticker": "SOXQ",
+   "name": "Invesco PHLX Semiconductor ETF",
+   "close": 75.68,
+   "d1": -5.22,
+   "w1": 8.17,
+   "w1_prev": 8.17,
+   "holdings": [
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 12.01
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 9.51
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 7.97
+    },
+    {
+     "symbol": "TXN",
+     "name": "Texas Instruments Inc",
+     "pct": 4.98
+    },
+    {
+     "symbol": "ADI",
+     "name": "Analog Devices Inc",
+     "pct": 4.98
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 4.63
+    },
+    {
+     "symbol": "TSM",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+     "pct": 4.23
+    },
+    {
+     "symbol": "QCOM",
+     "name": "Qualcomm Inc",
+     "pct": 4.18
+    },
+    {
+     "symbol": "MRVL",
+     "name": "Marvell Technology Inc",
+     "pct": 4.01
+    },
+    {
+     "symbol": "ASML",
+     "name": "ASML Holding NV ADR",
+     "pct": 3.99
+    }
+   ]
+  },
+  {
+   "ticker": "AIS",
+   "name": "VistaShares Artificial Intelligence Supercycle ETF",
+   "close": 50.82,
+   "d1": -6.6,
+   "w1": 8.09,
+   "w1_prev": 8.09,
+   "holdings": [
+    {
+     "symbol": "000660.KQ",
+     "name": "SK hynix Inc",
+     "pct": 7.82
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 7.51
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 5.97
+    },
+    {
+     "symbol": "TSM",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+     "pct": 4.06
+    },
+    {
+     "symbol": "MRVL",
+     "name": "Marvell Technology Inc",
+     "pct": 3.87
+    },
+    {
+     "symbol": "SMTC",
+     "name": "Semtech Corp",
+     "pct": 3.86
+    },
+    {
+     "symbol": "VRT",
+     "name": "Vertiv Holdings Co Class A",
+     "pct": 3.6
+    },
+    {
+     "symbol": "GEV",
+     "name": "GE Vernova Inc",
+     "pct": 2.84
+    },
+    {
+     "symbol": "SIMO",
+     "name": "Silicon Motion Technology Corp ADR",
+     "pct": 2.63
+    },
+    {
+     "symbol": "INTC",
+     "name": "Intel Corp",
+     "pct": 2.43
+    }
+   ]
+  },
+  {
+   "ticker": "BAI",
+   "name": "iShares A.I. Innovation and Tech Active ETF",
+   "close": 34.56,
+   "d1": -5.24,
+   "w1": 7.74,
+   "w1_prev": 7.74,
+   "holdings": [
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 6.16
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 5.67
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 5.37
+    },
+    {
+     "symbol": "TSM",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+     "pct": 5.0
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 4.41
+    },
+    {
+     "symbol": "SPCX",
+     "name": "Space Exploration Technologies Corp Class A",
+     "pct": 3.52
+    },
+    {
+     "symbol": "LRCX",
+     "name": "Lam Research Corp",
+     "pct": 3.46
+    },
+    {
+     "symbol": "SNOW",
+     "name": "Snowflake Inc Ordinary Shares",
+     "pct": 3.13
+    },
+    {
+     "symbol": "LITE",
+     "name": "Lumentum Holdings Inc",
+     "pct": 2.88
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 2.69
+    }
+   ]
+  },
+  {
+   "ticker": "CHPY",
+   "name": "YieldMax Semiconductor Portfolio Option Income ETF",
+   "close": 50.08,
+   "d1": -5.22,
+   "w1": 7.68,
+   "w1_prev": 7.68,
+   "holdings": [
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 6.73
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 6.09
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 5.3
+    },
+    {
+     "symbol": "MRVL",
+     "name": "Marvell Technology Inc",
+     "pct": 5.15
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.98
+    },
+    {
+     "symbol": "LRCX",
+     "name": "Lam Research Corp",
+     "pct": 4.57
+    },
+    {
+     "symbol": "ASX",
+     "name": "ASE Technology Holding Co Ltd ADR",
+     "pct": 4.57
+    },
+    {
+     "symbol": "ASML",
+     "name": "ASML Holding NV ADR",
+     "pct": 4.23
+    },
+    {
+     "symbol": "ALAB",
+     "name": "Astera Labs Inc",
+     "pct": 3.88
+    },
+    {
+     "symbol": "UMC",
+     "name": "United Microelectronics Corp ADR",
+     "pct": 3.81
+    }
+   ]
+  },
+  {
+   "ticker": "TNGY",
+   "name": "Tortoise Energy ETF",
+   "close": 10.81,
+   "d1": -2.44,
+   "w1": 7.57,
+   "w1_prev": 7.57,
+   "holdings": [
+    {
+     "symbol": "MPC",
+     "name": "Marathon Petroleum Corp",
+     "pct": 8.98
+    },
+    {
+     "symbol": "LNG",
+     "name": "Cheniere Energy Inc",
+     "pct": 8.49
+    },
+    {
+     "symbol": "VLO",
+     "name": "Valero Energy Corp",
+     "pct": 8.38
+    },
+    {
+     "symbol": "TRGP",
+     "name": "Targa Resources Corp",
+     "pct": 8.29
+    },
+    {
+     "symbol": "CVX",
+     "name": "Chevron Corp",
+     "pct": 8.12
+    },
+    {
+     "symbol": "OXY",
+     "name": "Occidental Petroleum Corp",
+     "pct": 7.85
+    },
+    {
+     "symbol": "FANG",
+     "name": "Diamondback Energy Inc",
+     "pct": 7.46
+    },
+    {
+     "symbol": "XOM",
+     "name": "ExxonMobil Holdings Corp",
+     "pct": 5.34
+    },
+    {
+     "symbol": "PSX",
+     "name": "Phillips 66",
+     "pct": 4.81
+    },
+    {
+     "symbol": "OVV",
+     "name": "Ovintiv Inc",
+     "pct": 4.78
+    }
+   ]
+  },
+  {
+   "ticker": "ARTY",
+   "name": "iShares Future AI & Tech ETF",
+   "close": 62.27,
+   "d1": -5.08,
+   "w1": 7.54,
+   "w1_prev": 7.54,
+   "holdings": [
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 5.25
+    },
+    {
+     "symbol": "2330.TW",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+     "pct": 4.67
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 4.56
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 4.56
+    },
+    {
+     "symbol": "MRVL",
+     "name": "Marvell Technology Inc",
+     "pct": 4.35
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.33
+    },
+    {
+     "symbol": "ORCL",
+     "name": "Oracle Corp",
+     "pct": 4.07
+    },
+    {
+     "symbol": "3443.TW",
+     "name": "Global Unichip Corp",
+     "pct": 4.03
+    },
+    {
+     "symbol": "035420.KS",
+     "name": "NAVER Corp",
+     "pct": 3.29
+    },
+    {
+     "symbol": "SMCI",
+     "name": "Super Micro Computer Inc",
+     "pct": 3.2
+    }
+   ]
+  },
+  {
+   "ticker": "CHPX",
+   "name": "Global X AI Semiconductor & Quantum ETF",
+   "close": 75.66,
+   "d1": -5.68,
+   "w1": 7.51,
+   "w1_prev": 7.51,
+   "holdings": [
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 13.05
+    },
+    {
+     "symbol": "TSM",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+     "pct": 11.1
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 10.52
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 8.72
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 5.38
+    },
+    {
+     "symbol": "ASML",
+     "name": "ASML Holding NV ADR",
+     "pct": 4.77
+    },
+    {
+     "symbol": "2454.TW",
+     "name": "MediaTek Inc",
+     "pct": 4.36
+    },
+    {
+     "symbol": "CSCO",
+     "name": "Cisco Systems Inc",
+     "pct": 4.32
+    },
+    {
+     "symbol": "ANET",
+     "name": "Arista Networks Inc",
+     "pct": 4.14
+    },
+    {
+     "symbol": "000660.KQ",
+     "name": "SK hynix Inc",
+     "pct": 4.14
+    }
+   ]
+  },
+  {
+   "ticker": "GGTL",
+   "name": "Gabelli Global Technology Leaders ETF",
+   "close": 34.2,
+   "d1": -3.9,
+   "w1": 7.44,
+   "w1_prev": 7.44,
+   "holdings": [
+    {
+     "symbol": "TSM",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+     "pct": 9.21
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 5.02
+    },
+    {
+     "symbol": "ORCL",
+     "name": "Oracle Corp",
+     "pct": 3.96
+    },
+    {
+     "symbol": "6723.T",
+     "name": "Renesas Electronics Corp",
+     "pct": 3.47
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 3.26
+    },
+    {
+     "symbol": "SONY",
+     "name": "Sony Group Corp ADR",
+     "pct": 3.23
+    },
+    {
+     "symbol": "ANET",
+     "name": "Arista Networks Inc",
+     "pct": 3.05
+    },
+    {
+     "symbol": "TXN",
+     "name": "Texas Instruments Inc",
+     "pct": 2.4
+    }
+   ]
+  },
+  {
+   "ticker": "EEMO",
+   "name": "Invesco S&P Emerging Markets Momentum ETF",
+   "close": 17.28,
+   "d1": -5.88,
+   "w1": 7.31,
+   "w1_prev": 7.31,
+   "holdings": [
+    {
+     "symbol": "2330.TW",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+     "pct": 9.46
+    },
+    {
+     "symbol": "005930.KQ",
+     "name": "Samsung Electronics Co Ltd",
+     "pct": 8.65
+    },
+    {
+     "symbol": "000660.KQ",
+     "name": "SK hynix Inc",
+     "pct": 8.35
+    },
+    {
+     "symbol": "2454.TW",
+     "name": "MediaTek Inc",
+     "pct": 5.36
+    },
+    {
+     "symbol": "3711.TW",
+     "name": "ASE Technology Holding Co Ltd",
+     "pct": 2.81
+    },
+    {
+     "symbol": "2308.TW",
+     "name": "Delta Electronics Inc",
+     "pct": 2.55
+    },
+    {
+     "symbol": "402340.KQ",
+     "name": "SK Square",
+     "pct": 2.36
+    },
+    {
+     "symbol": "009150.KQ",
+     "name": "Samsung Electro-Mechanics Co Ltd",
+     "pct": 1.94
+    },
+    {
+     "symbol": "1303.TW",
+     "name": "Nan Ya Plastics Corp",
+     "pct": 1.92
+    }
+   ]
+  },
+  {
+   "ticker": "IEO",
+   "name": "iShares U.S. Oil & Gas Exploration & Production ETF",
+   "close": 135.84,
+   "d1": -2.38,
+   "w1": 7.26,
+   "w1_prev": 7.26,
+   "holdings": [
+    {
+     "symbol": "COP",
+     "name": "ConocoPhillips",
+     "pct": 18.34
+    },
+    {
+     "symbol": "MPC",
+     "name": "Marathon Petroleum Corp",
+     "pct": 12.38
+    },
+    {
+     "symbol": "VLO",
+     "name": "Valero Energy Corp",
+     "pct": 11.4
+    },
+    {
+     "symbol": "EOG",
+     "name": "EOG Resources Inc",
+     "pct": 4.74
+    },
+    {
+     "symbol": "PSX",
+     "name": "Phillips 66",
+     "pct": 4.57
+    },
+    {
+     "symbol": "DVN",
+     "name": "Devon Energy Corp",
+     "pct": 4.48
+    },
+    {
+     "symbol": "FANG",
+     "name": "Diamondback Energy Inc",
+     "pct": 4.41
+    },
+    {
+     "symbol": "EQT",
+     "name": "EQT Corp",
+     "pct": 4.27
+    },
+    {
+     "symbol": "PR",
+     "name": "Permian Resources Corp Class A",
+     "pct": 3.03
+    },
+    {
+     "symbol": "EXE",
+     "name": "Expand Energy Corp Ordinary Shares - New",
+     "pct": 2.91
+    }
+   ]
+  },
+  {
+   "ticker": "PSCE",
+   "name": "Invesco S&P SmallCap Energy ETF",
+   "close": 52.4,
+   "d1": -3.55,
+   "w1": 7.24,
+   "w1_prev": 7.24,
+   "holdings": [
+    {
+     "symbol": "SM",
+     "name": "SM Energy Co",
+     "pct": 8.19
+    },
+    {
+     "symbol": "MGY",
+     "name": "Magnolia Oil & Gas Corp Class A",
+     "pct": 5.36
+    },
+    {
+     "symbol": "NE",
+     "name": "Noble Corp PLC Class A",
+     "pct": 5.34
+    },
+    {
+     "symbol": "AROC",
+     "name": "Archrock Inc",
+     "pct": 4.74
+    },
+    {
+     "symbol": "PTEN",
+     "name": "Patterson-UTI Energy Inc",
+     "pct": 4.33
+    },
+    {
+     "symbol": "KGS",
+     "name": "Kodiak Gas Services Inc",
+     "pct": 4.04
+    },
+    {
+     "symbol": "CRGY",
+     "name": "Crescent Energy Co Class A",
+     "pct": 3.98
+    },
+    {
+     "symbol": "INSW",
+     "name": "International Seaways Inc",
+     "pct": 3.97
+    },
+    {
+     "symbol": "SEI",
+     "name": "Solaris Energy Infrastructure Inc Class A",
+     "pct": 3.97
+    },
+    {
+     "symbol": "WHD",
+     "name": "Cactus Inc Class A",
+     "pct": 3.91
+    }
+   ]
+  },
+  {
+   "ticker": "MBCE",
+   "name": "Monarch Blue Chips Elite Index ETF",
+   "close": 34.21,
+   "d1": -3.9,
+   "w1": 7.0,
+   "w1_prev": 7.0,
+   "holdings": []
+  },
+  {
+   "ticker": "IQM",
+   "name": "Franklin Intelligent Machines ETF",
+   "close": 83.61,
+   "d1": -4.76,
+   "w1": 6.99,
+   "w1_prev": 6.99,
+   "holdings": [
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 8.51
+    },
+    {
+     "symbol": "TSM",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+     "pct": 6.5
+    },
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 4.77
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 4.4
+    },
+    {
+     "symbol": "CLS.TO",
+     "name": "Celestica Inc Ordinary Shares (Subordinate Voting)",
+     "pct": 4.14
+    },
+    {
+     "symbol": "SNDK",
+     "name": "SanDisk Corp Ordinary Shares",
+     "pct": 3.68
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 3.6
+    },
+    {
+     "symbol": "BE",
+     "name": "Bloom Energy Corp Class A",
+     "pct": 3.2
+    },
+    {
+     "symbol": "GEV",
+     "name": "GE Vernova Inc",
+     "pct": 3.02
+    },
+    {
+     "symbol": "INFXX",
+     "name": "Franklin Instl U.S. Govt Mny Mkt Fund",
+     "pct": 2.77
+    }
+   ]
+  },
+  {
+   "ticker": "PXE",
+   "name": "Invesco Energy Exploration & Production ETF",
+   "close": 40.07,
+   "d1": -2.41,
+   "w1": 6.9,
+   "w1_prev": 6.9,
+   "holdings": [
+    {
+     "symbol": "MPC",
+     "name": "Marathon Petroleum Corp",
+     "pct": 5.53
+    },
+    {
+     "symbol": "PSX",
+     "name": "Phillips 66",
+     "pct": 5.27
+    },
+    {
+     "symbol": "VLO",
+     "name": "Valero Energy Corp",
+     "pct": 5.17
+    },
+    {
+     "symbol": "COP",
+     "name": "ConocoPhillips",
+     "pct": 5.16
+    },
+    {
+     "symbol": "EOG",
+     "name": "EOG Resources Inc",
+     "pct": 4.97
+    },
+    {
+     "symbol": "OXY",
+     "name": "Occidental Petroleum Corp",
+     "pct": 4.83
+    },
+    {
+     "symbol": "FANG",
+     "name": "Diamondback Energy Inc",
+     "pct": 4.67
+    },
+    {
+     "symbol": "EQT",
+     "name": "EQT Corp",
+     "pct": 4.53
+    },
+    {
+     "symbol": "CVI",
+     "name": "CVR Energy Inc",
+     "pct": 3.71
+    },
+    {
+     "symbol": "RRC",
+     "name": "Range Resources Corp",
+     "pct": 3.21
+    }
+   ]
+  },
+  {
+   "ticker": "PXI",
+   "name": "Invesco Dorsey Wright Energy Momentum ETF",
+   "close": 58.74,
+   "d1": -2.93,
+   "w1": 6.72,
+   "w1_prev": 6.72,
+   "holdings": [
+    {
+     "symbol": "LNG",
+     "name": "Cheniere Energy Inc",
+     "pct": 4.45
+    },
+    {
+     "symbol": "TRGP",
+     "name": "Targa Resources Corp",
+     "pct": 4.05
+    },
+    {
+     "symbol": "PR",
+     "name": "Permian Resources Corp Class A",
+     "pct": 3.74
+    },
+    {
+     "symbol": "MPC",
+     "name": "Marathon Petroleum Corp",
+     "pct": 3.63
+    },
+    {
+     "symbol": "PSX",
+     "name": "Phillips 66",
+     "pct": 3.63
+    },
+    {
+     "symbol": "VLO",
+     "name": "Valero Energy Corp",
+     "pct": 3.58
+    },
+    {
+     "symbol": "DINO",
+     "name": "HF Sinclair Corp",
+     "pct": 3.53
+    },
+    {
+     "symbol": "PBF",
+     "name": "PBF Energy Inc Class A",
+     "pct": 3.38
+    },
+    {
+     "symbol": "XOM",
+     "name": "ExxonMobil Holdings Corp",
+     "pct": 3.26
+    },
+    {
+     "symbol": "COP",
+     "name": "ConocoPhillips",
+     "pct": 2.83
+    }
+   ]
+  },
+  {
+   "ticker": "LNGX",
+   "name": "Global X U.S. Natural Gas ETF",
+   "close": 43.5,
+   "d1": -2.93,
+   "w1": 6.7,
+   "w1_prev": 6.7,
+   "holdings": [
+    {
+     "symbol": "OVV",
+     "name": "Ovintiv Inc",
+     "pct": 7.57
+    },
+    {
+     "symbol": "EQT",
+     "name": "EQT Corp",
+     "pct": 7.04
+    },
+    {
+     "symbol": "EXE",
+     "name": "Expand Energy Corp Ordinary Shares - New",
+     "pct": 6.81
+    },
+    {
+     "symbol": "LNG",
+     "name": "Cheniere Energy Inc",
+     "pct": 5.05
+    },
+    {
+     "symbol": "APA",
+     "name": "APA Corp",
+     "pct": 5.01
+    },
+    {
+     "symbol": "RRC",
+     "name": "Range Resources Corp",
+     "pct": 4.72
+    },
+    {
+     "symbol": "PR",
+     "name": "Permian Resources Corp Class A",
+     "pct": 4.69
+    },
+    {
+     "symbol": "AR",
+     "name": "Antero Resources Corp",
+     "pct": 4.64
+    },
+    {
+     "symbol": "EOG",
+     "name": "EOG Resources Inc",
+     "pct": 4.32
+    },
+    {
+     "symbol": "DVN",
+     "name": "Devon Energy Corp",
+     "pct": 4.07
+    }
+   ]
+  },
+  {
+   "ticker": "MTUM",
+   "name": "iShares MSCI USA Momentum Factor ETF",
+   "close": 65.71,
+   "d1": -3.34,
+   "w1": 6.62,
+   "w1_prev": 6.62,
+   "holdings": [
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 5.76
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 5.02
+    },
+    {
+     "symbol": "JNJ",
+     "name": "Johnson & Johnson",
+     "pct": 3.7
+    },
+    {
+     "symbol": "CSCO",
+     "name": "Cisco Systems Inc",
+     "pct": 3.6
+    },
+    {
+     "symbol": "XOM",
+     "name": "ExxonMobil Holdings Corp",
+     "pct": 3.24
+    },
+    {
+     "symbol": "INTC",
+     "name": "Intel Corp",
+     "pct": 2.9
+    },
+    {
+     "symbol": "PANW",
+     "name": "Palo Alto Networks Inc",
+     "pct": 2.77
+    },
+    {
+     "symbol": "AMAT",
+     "name": "Applied Materials Inc",
+     "pct": 2.63
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 2.41
+    },
+    {
+     "symbol": "UNH",
+     "name": "UnitedHealth Group Inc",
+     "pct": 2.32
+    }
+   ]
+  },
+  {
+   "ticker": "GTEK",
+   "name": "Goldman Sachs Future Tech Leaders Equity ETF",
+   "close": 46.15,
+   "d1": -5.25,
+   "w1": 6.61,
+   "w1_prev": 6.61,
+   "holdings": [
+    {
+     "symbol": "MRVL",
+     "name": "Marvell Technology Inc",
+     "pct": 3.65
+    },
+    {
+     "symbol": "402340.KQ",
+     "name": "SK Square",
+     "pct": 3.44
+    },
+    {
+     "symbol": "3711.TW",
+     "name": "ASE Technology Holding Co Ltd",
+     "pct": 3.43
+    },
+    {
+     "symbol": "3653.TW",
+     "name": "Jentech Precision Industrial Co Ltd",
+     "pct": 3.35
+    },
+    {
+     "symbol": "2454.TW",
+     "name": "MediaTek Inc",
+     "pct": 2.9
+    },
+    {
+     "symbol": "NET",
+     "name": "Cloudflare Inc",
+     "pct": 2.9
+    },
+    {
+     "symbol": "2383.TW",
+     "name": "Elite Material Co Ltd",
+     "pct": 2.71
+    },
+    {
+     "symbol": "APH",
+     "name": "Amphenol Corp Class A",
+     "pct": 2.7
+    },
+    {
+     "symbol": "SNOW",
+     "name": "Snowflake Inc Ordinary Shares",
+     "pct": 2.65
+    },
+    {
+     "symbol": "EBAY",
+     "name": "eBay Inc",
+     "pct": 2.53
+    }
+   ]
+  },
+  {
+   "ticker": "WTAI",
+   "name": "WisdomTree Artificial Intelligence and Innovation Fund",
+   "close": 31.67,
+   "d1": -5.74,
+   "w1": 6.57,
+   "w1_prev": 6.57,
+   "holdings": [
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 5.38
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.94
+    },
+    {
+     "symbol": "005930.KQ",
+     "name": "Samsung Electronics Co Ltd",
+     "pct": 4.68
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 4.47
+    },
+    {
+     "symbol": "TSM",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+     "pct": 4.35
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 4.3
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 4.05
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 3.68
+    },
+    {
+     "symbol": "ORCL",
+     "name": "Oracle Corp",
+     "pct": 3.5
+    },
+    {
+     "symbol": "PANW",
+     "name": "Palo Alto Networks Inc",
+     "pct": 3.34
+    }
+   ]
+  },
+  {
+   "ticker": "TRFK",
+   "name": "Pacer Data and Digital Revolution ETF",
+   "close": 74.44,
+   "d1": -4.69,
+   "w1": 6.56,
+   "w1_prev": 6.56,
+   "holdings": [
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 10.52
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 9.61
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 8.76
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 7.22
+    },
+    {
+     "symbol": "CSCO",
+     "name": "Cisco Systems Inc",
+     "pct": 4.24
+    },
+    {
+     "symbol": "ORCL",
+     "name": "Oracle Corp",
+     "pct": 3.93
+    },
+    {
+     "symbol": "PANW",
+     "name": "Palo Alto Networks Inc",
+     "pct": 3.37
+    },
+    {
+     "symbol": "000660.KQ",
+     "name": "SK hynix Inc",
+     "pct": 3.01
+    },
+    {
+     "symbol": "INTC",
+     "name": "Intel Corp",
+     "pct": 2.91
+    }
+   ]
+  },
+  {
+   "ticker": "FCG",
+   "name": "First Trust Natural Gas ETF",
+   "close": 29.0,
+   "d1": -2.55,
+   "w1": 6.55,
+   "w1_prev": 6.55,
+   "holdings": [
+    {
+     "symbol": "COP",
+     "name": "ConocoPhillips",
+     "pct": 4.91
+    },
+    {
+     "symbol": "EOG",
+     "name": "EOG Resources Inc",
+     "pct": 4.79
+    },
+    {
+     "symbol": "DVN",
+     "name": "Devon Energy Corp",
+     "pct": 4.39
+    },
+    {
+     "symbol": "OXY",
+     "name": "Occidental Petroleum Corp",
+     "pct": 4.24
+    },
+    {
+     "symbol": "WES",
+     "name": "Western Midstream Partners LP",
+     "pct": 4.13
+    },
+    {
+     "symbol": "RRC",
+     "name": "Range Resources Corp",
+     "pct": 4.11
+    },
+    {
+     "symbol": "FANG",
+     "name": "Diamondback Energy Inc",
+     "pct": 4.06
+    },
+    {
+     "symbol": "APA",
+     "name": "APA Corp",
+     "pct": 4.03
+    },
+    {
+     "symbol": "PR",
+     "name": "Permian Resources Corp Class A",
+     "pct": 3.96
+    },
+    {
+     "symbol": "EQT",
+     "name": "EQT Corp",
+     "pct": 3.85
+    }
+   ]
+  },
+  {
+   "ticker": "KNCT",
+   "name": "Invesco Next Gen Connectivity ETF",
+   "close": 169.94,
+   "d1": -3.71,
+   "w1": 6.53,
+   "w1_prev": 6.53,
+   "holdings": [
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 9.2
+    },
+    {
+     "symbol": "2330.TW",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+     "pct": 8.02
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 7.89
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 7.88
+    },
+    {
+     "symbol": "005930.KQ",
+     "name": "Samsung Electronics Co Ltd",
+     "pct": 5.93
+    },
+    {
+     "symbol": "000660.KQ",
+     "name": "SK hynix Inc",
+     "pct": 4.81
+    },
+    {
+     "symbol": "CSCO",
+     "name": "Cisco Systems Inc",
+     "pct": 3.93
+    },
+    {
+     "symbol": "PANW",
+     "name": "Palo Alto Networks Inc",
+     "pct": 3.41
+    },
+    {
+     "symbol": "INTC",
+     "name": "Intel Corp",
+     "pct": 3.22
+    },
+    {
+     "symbol": "CRWD",
+     "name": "CrowdStrike Holdings Inc Class A",
+     "pct": 2.91
+    }
+   ]
+  },
+  {
+   "ticker": "XES",
+   "name": "State Street SPDR S&P Oil & Gas Equipment & Services ETF",
+   "close": 98.23,
+   "d1": -4.15,
+   "w1": 6.53,
+   "w1_prev": 6.53,
+   "holdings": [
+    {
+     "symbol": "VAL",
+     "name": "Valaris Ltd",
+     "pct": 4.74
+    },
+    {
+     "symbol": "RIG",
+     "name": "Transocean Ltd",
+     "pct": 4.65
+    },
+    {
+     "symbol": "SDRL",
+     "name": "Seadrill Ltd",
+     "pct": 4.19
+    },
+    {
+     "symbol": "NE",
+     "name": "Noble Corp PLC Class A",
+     "pct": 4.12
+    },
+    {
+     "symbol": "SEI",
+     "name": "Solaris Energy Infrastructure Inc Class A",
+     "pct": 4.0
+    },
+    {
+     "symbol": "PTEN",
+     "name": "Patterson-UTI Energy Inc",
+     "pct": 3.94
+    },
+    {
+     "symbol": "HAL",
+     "name": "Halliburton Co",
+     "pct": 3.73
+    },
+    {
+     "symbol": "WFRD",
+     "name": "Weatherford International PLC Ordinary Shares - New",
+     "pct": 3.72
+    },
+    {
+     "symbol": "HP",
+     "name": "Helmerich & Payne Inc",
+     "pct": 3.72
+    },
+    {
+     "symbol": "WTTR",
+     "name": "Select Water Solutions Inc Class A",
+     "pct": 3.68
+    }
+   ]
+  },
+  {
+   "ticker": "PWRD",
+   "name": "TCW Transform Systems ETF",
+   "close": 94.65,
+   "d1": -2.8,
+   "w1": 6.48,
+   "w1_prev": 6.48,
+   "holdings": [
+    {
+     "symbol": "GE",
+     "name": "GE Aerospace",
+     "pct": 8.42
+    },
+    {
+     "symbol": "UNP",
+     "name": "Union Pacific Corp",
+     "pct": 7.28
+    },
+    {
+     "symbol": "VG",
+     "name": "Venture Global Inc Ordinary Shares - Class A",
+     "pct": 6.41
+    },
+    {
+     "symbol": "XOM",
+     "name": "ExxonMobil Holdings Corp",
+     "pct": 5.74
+    },
+    {
+     "symbol": "ANET",
+     "name": "Arista Networks Inc",
+     "pct": 5.13
+    },
+    {
+     "symbol": "SAF.PA",
+     "name": "Safran SA",
+     "pct": 4.84
+    },
+    {
+     "symbol": "AIR.PA",
+     "name": "Airbus SE",
+     "pct": 4.19
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 3.9
+    },
+    {
+     "symbol": "TT",
+     "name": "Trane Technologies PLC Class A",
+     "pct": 3.47
+    },
+    {
+     "symbol": "ETN",
+     "name": "Eaton Corp PLC",
+     "pct": 3.45
+    }
+   ]
+  },
+  {
+   "ticker": "FTXN",
+   "name": "First Trust Nasdaq Oil & Gas ETF",
+   "close": 39.14,
+   "d1": -2.25,
+   "w1": 6.43,
+   "w1_prev": 6.43,
+   "holdings": []
+  },
+  {
+   "ticker": "KDEF",
+   "name": "PLUS Korea Defense Industry Index ETF",
+   "close": 30.27,
+   "d1": -0.12,
+   "w1": 6.43,
+   "w1_prev": 6.43,
+   "holdings": []
+  },
+  {
+   "ticker": "RSPG",
+   "name": "Invesco S&P 500 Equal Weight Energy ETF",
+   "close": 109.84,
+   "d1": -2.38,
+   "w1": 6.4,
+   "w1_prev": 6.4,
+   "holdings": []
+  },
+  {
+   "ticker": "PIE",
+   "name": "Invesco Dorsey Wright Emerging Markets Momentum ETF",
+   "close": 28.01,
+   "d1": -5.53,
+   "w1": 6.35,
+   "w1_prev": 6.35,
+   "holdings": []
+  },
+  {
+   "ticker": "SPMO",
+   "name": "Invesco S&P 500 Momentum ETF",
+   "close": 128.06,
+   "d1": -3.21,
+   "w1": 6.35,
+   "w1_prev": 6.35,
+   "holdings": []
+  },
+  {
+   "ticker": "XOP",
+   "name": "State Street SPDR S&P Oil & Gas Exploration & Production ETF",
+   "close": 179.98,
+   "d1": -2.61,
+   "w1": 6.35,
+   "w1_prev": 6.35,
+   "holdings": []
+  },
+  {
+   "ticker": "HVAC",
+   "name": "AdvisorShares HVAC and Industrials ETF",
+   "close": 28.35,
+   "d1": -3.04,
+   "w1": 6.32,
+   "w1_prev": 6.32,
+   "holdings": []
+  }
+ ],
+ "groups": [
+  {
+   "name": "지수",
+   "items": [
+    {
+     "ticker": "SPY",
+     "label": "S&P 500",
+     "close": 739.95,
+     "d1": -1.91,
+     "w1": -1.91,
+     "w1_prev": 2.59,
+     "name": "S&P 500",
+     "holdings": [
+      {
+       "symbol": "AAPL",
+       "name": "Apple Inc",
+       "pct": 7.7
+      },
+      {
+       "symbol": "NVDA",
+       "name": "NVIDIA Corp",
+       "pct": 7.58
+      },
+      {
+       "symbol": "MSFT",
+       "name": "Microsoft Corp",
+       "pct": 5.93
+      },
+      {
+       "symbol": "AMZN",
+       "name": "Amazon.com Inc",
+       "pct": 3.61
+      },
+      {
+       "symbol": "GOOGL",
+       "name": "Alphabet Inc Class A",
+       "pct": 2.51
+      },
+      {
+       "symbol": "AVGO",
+       "name": "Broadcom Inc",
+       "pct": 2.38
+      },
+      {
+       "symbol": "META",
+       "name": "Meta Platforms Inc Class A",
+       "pct": 2.08
+      },
+      {
+       "symbol": "GOOG",
+       "name": "Alphabet Inc Class C",
+       "pct": 2.02
+      },
+      {
+       "symbol": "LLY",
+       "name": "Eli Lilly and Co",
+       "pct": 1.74
+      },
+      {
+       "symbol": "TSLA",
+       "name": "Tesla Inc",
+       "pct": 1.73
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       917782016
+      ],
+      [
+       "2026-11-16",
+       917782016
+      ]
+     ]
+    },
+    {
+     "ticker": "QQQ",
+     "label": "나스닥 100",
+     "close": 661.75,
+     "d1": -2.67,
+     "w1": -2.67,
+     "w1_prev": 3.63,
+     "name": "나스닥 100",
+     "holdings": [
+      {
+       "symbol": "AAPL",
+       "name": "Apple Inc",
+       "pct": 8.16
+      },
+      {
+       "symbol": "NVDA",
+       "name": "NVIDIA Corp",
+       "pct": 8.0
+      },
+      {
+       "symbol": "MSFT",
+       "name": "Microsoft Corp",
+       "pct": 6.29
+      },
+      {
+       "symbol": "MU",
+       "name": "Micron Technology Inc",
+       "pct": 4.47
+      },
+      {
+       "symbol": "AMZN",
+       "name": "Amazon.com Inc",
+       "pct": 4.21
+      },
+      {
+       "symbol": "AMD",
+       "name": "Advanced Micro Devices Inc",
+       "pct": 3.69
+      },
+      {
+       "symbol": "TSLA",
+       "name": "Tesla Inc",
+       "pct": 3.41
+      },
+      {
+       "symbol": "META",
+       "name": "Meta Platforms Inc Class A",
+       "pct": 2.97
+      },
+      {
+       "symbol": "WMT",
+       "name": "Walmart Inc",
+       "pct": 2.69
+      },
+      {
+       "symbol": "GOOGL",
+       "name": "Alphabet Inc Class A",
+       "pct": 2.66
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       393100000
+      ],
+      [
+       "2026-11-16",
+       393100000
+      ]
+     ]
+    },
+    {
+     "ticker": "DIA",
+     "label": "다우",
+     "close": 515.68,
+     "d1": -1.43,
+     "w1": -1.43,
+     "w1_prev": 2.13,
+     "name": "다우",
+     "holdings": [
+      {
+       "symbol": "GS",
+       "name": "The Goldman Sachs Group Inc",
+       "pct": 10.26
+      },
+      {
+       "symbol": "CAT",
+       "name": "Caterpillar Inc",
+       "pct": 7.14
+      },
+      {
+       "symbol": "MSFT",
+       "name": "Microsoft Corp",
+       "pct": 5.99
+      },
+      {
+       "symbol": "AMGN",
+       "name": "Amgen Inc",
+       "pct": 5.35
+      },
+      {
+       "symbol": "V",
+       "name": "Visa Inc Class A",
+       "pct": 4.74
+      },
+      {
+       "symbol": "UNH",
+       "name": "UnitedHealth Group Inc",
+       "pct": 4.67
+      },
+      {
+       "symbol": "TRV",
+       "name": "The Travelers Companies Inc",
+       "pct": 4.55
+      },
+      {
+       "symbol": "AAPL",
+       "name": "Apple Inc",
+       "pct": 3.95
+      },
+      {
+       "symbol": "JPM",
+       "name": "JPMorgan Chase & Co",
+       "pct": 3.87
+      },
+      {
+       "symbol": "SHW",
+       "name": "Sherwin-Williams Co",
+       "pct": 3.82
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       86287000
+      ],
+      [
+       "2026-11-16",
+       86287000
+      ]
+     ]
+    },
+    {
+     "ticker": "IWM",
+     "label": "러셀 2000",
+     "close": 272.94,
+     "d1": -1.66,
+     "w1": -1.66,
+     "w1_prev": 1.41,
+     "name": "러셀 2000",
+     "holdings": [
+      {
+       "symbol": "GKOS",
+       "name": "Glaukos Corp",
+       "pct": 0.46
+      },
+      {
+       "symbol": "BTSG",
+       "name": "BrightSpring Health Services Inc",
+       "pct": 0.38
+      },
+      {
+       "symbol": "FROG",
+       "name": "JFrog Ltd Ordinary Shares",
+       "pct": 0.35
+      },
+      {
+       "symbol": "TWST",
+       "name": "Twist Bioscience Corp",
+       "pct": 0.34
+      },
+      {
+       "symbol": "MOG-A",
+       "name": "Moog Inc Class A",
+       "pct": 0.34
+      },
+      {
+       "symbol": "UMBF",
+       "name": "UMB Financial Corp",
+       "pct": 0.33
+      },
+      {
+       "symbol": "VSAT",
+       "name": "Viasat Inc",
+       "pct": 0.33
+      },
+      {
+       "symbol": "SM",
+       "name": "SM Energy Co",
+       "pct": 0.33
+      },
+      {
+       "symbol": "EAT",
+       "name": "Brinker International Inc",
+       "pct": 0.31
+      },
+      {
+       "symbol": "RHP",
+       "name": "Ryman Hospitality Properties Inc",
+       "pct": 0.3
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       281049984
+      ],
+      [
+       "2026-11-16",
+       281049984
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "name": "미국 섹터",
+   "items": [
+    {
+     "ticker": "XLK",
+     "label": "IT",
+     "close": 164.76,
+     "d1": -3.24,
+     "w1": -3.24,
+     "w1_prev": 3.36,
+     "name": "IT",
+     "holdings": [
+      {
+       "symbol": "AAPL",
+       "name": "Apple Inc",
+       "pct": 15.31
+      },
+      {
+       "symbol": "NVDA",
+       "name": "NVIDIA Corp",
+       "pct": 15.08
+      },
+      {
+       "symbol": "MSFT",
+       "name": "Microsoft Corp",
+       "pct": 11.8
+      },
+      {
+       "symbol": "AVGO",
+       "name": "Broadcom Inc",
+       "pct": 4.72
+      },
+      {
+       "symbol": "AMD",
+       "name": "Advanced Micro Devices Inc",
+       "pct": 4.54
+      },
+      {
+       "symbol": "MU",
+       "name": "Micron Technology Inc",
+       "pct": 4.04
+      },
+      {
+       "symbol": "PLTR",
+       "name": "Palantir Technologies Inc Ordinary Shares - Class A",
+       "pct": 2.61
+      },
+      {
+       "symbol": "CSCO",
+       "name": "Cisco Systems Inc",
+       "pct": 2.54
+      },
+      {
+       "symbol": "INTC",
+       "name": "Intel Corp",
+       "pct": 2.01
+      },
+      {
+       "symbol": "AMAT",
+       "name": "Applied Materials Inc",
+       "pct": 1.91
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       697098000
+      ],
+      [
+       "2026-11-16",
+       697098000
+      ]
+     ]
+    },
+    {
+     "ticker": "XLY",
+     "label": "경기소비재",
+     "close": 118.15,
+     "d1": -1.53,
+     "w1": -1.53,
+     "w1_prev": 2.04,
+     "name": "경기소비재",
+     "holdings": [
+      {
+       "symbol": "AMZN",
+       "name": "Amazon.com Inc",
+       "pct": 21.29
+      },
+      {
+       "symbol": "TSLA",
+       "name": "Tesla Inc",
+       "pct": 18.78
+      },
+      {
+       "symbol": "HD",
+       "name": "The Home Depot Inc",
+       "pct": 5.47
+      },
+      {
+       "symbol": "MCD",
+       "name": "McDonald's Corp",
+       "pct": 4.46
+      },
+      {
+       "symbol": "TJX",
+       "name": "TJX Companies Inc",
+       "pct": 4.07
+      },
+      {
+       "symbol": "SBUX",
+       "name": "Starbucks Corp",
+       "pct": 3.11
+      },
+      {
+       "symbol": "LOW",
+       "name": "Lowe's Companies Inc",
+       "pct": 3.08
+      },
+      {
+       "symbol": "BKNG",
+       "name": "Booking Holdings Inc",
+       "pct": 2.93
+      },
+      {
+       "symbol": "MAR",
+       "name": "Marriott International Inc Class A",
+       "pct": 2.24
+      },
+      {
+       "symbol": "HLT",
+       "name": "Hilton Worldwide Holdings Inc",
+       "pct": 2.11
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       186695000
+      ],
+      [
+       "2026-11-16",
+       186695000
+      ]
+     ]
+    },
+    {
+     "ticker": "XLP",
+     "label": "필수소비재",
+     "close": 92.6,
+     "d1": 0.27,
+     "w1": 0.27,
+     "w1_prev": 2.52,
+     "name": "필수소비재",
+     "holdings": [
+      {
+       "symbol": "WMT",
+       "name": "Walmart Inc",
+       "pct": 11.14
+      },
+      {
+       "symbol": "COST",
+       "name": "Costco Wholesale Corp",
+       "pct": 9.09
+      },
+      {
+       "symbol": "PG",
+       "name": "Procter & Gamble Co",
+       "pct": 7.6
+      },
+      {
+       "symbol": "KO",
+       "name": "Coca-Cola Co",
+       "pct": 7.37
+      },
+      {
+       "symbol": "PM",
+       "name": "Philip Morris International Inc",
+       "pct": 6.59
+      },
+      {
+       "symbol": "MO",
+       "name": "Altria Group Inc",
+       "pct": 4.7
+      },
+      {
+       "symbol": "CL",
+       "name": "Colgate-Palmolive Co",
+       "pct": 4.42
+      },
+      {
+       "symbol": "MDLZ",
+       "name": "Mondelez International Inc Class A",
+       "pct": 4.25
+      },
+      {
+       "symbol": "PEP",
+       "name": "PepsiCo Inc",
+       "pct": 4.11
+      },
+      {
+       "symbol": "TGT",
+       "name": "Target Corp",
+       "pct": 4.0
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       210172000
+      ],
+      [
+       "2026-11-16",
+       210172000
+      ]
+     ]
+    },
+    {
+     "ticker": "XLE",
+     "label": "에너지",
+     "close": 63.69,
+     "d1": -1.96,
+     "w1": -1.96,
+     "w1_prev": 5.42,
+     "name": "에너지",
+     "holdings": [
+      {
+       "symbol": "XOM",
+       "name": "ExxonMobil Holdings Corp",
+       "pct": 24.29
+      },
+      {
+       "symbol": "CVX",
+       "name": "Chevron Corp",
+       "pct": 18.29
+      },
+      {
+       "symbol": "COP",
+       "name": "ConocoPhillips",
+       "pct": 7.27
+      },
+      {
+       "symbol": "MPC",
+       "name": "Marathon Petroleum Corp",
+       "pct": 4.64
+      },
+      {
+       "symbol": "PSX",
+       "name": "Phillips 66",
+       "pct": 4.52
+      },
+      {
+       "symbol": "VLO",
+       "name": "Valero Energy Corp",
+       "pct": 4.28
+      },
+      {
+       "symbol": "WMB",
+       "name": "Williams Companies Inc",
+       "pct": 4.12
+      },
+      {
+       "symbol": "EOG",
+       "name": "EOG Resources Inc",
+       "pct": 4.07
+      },
+      {
+       "symbol": "SLB",
+       "name": "SLB Ltd",
+       "pct": 3.74
+      },
+      {
+       "symbol": "TRGP",
+       "name": "Targa Resources Corp",
+       "pct": 3.16
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       186424000
+      ],
+      [
+       "2026-11-16",
+       186424000
+      ]
+     ]
+    },
+    {
+     "ticker": "XLF",
+     "label": "금융",
+     "close": 58.18,
+     "d1": -0.85,
+     "w1": -0.85,
+     "w1_prev": 2.66,
+     "name": "금융",
+     "holdings": [
+      {
+       "symbol": "BRK-B",
+       "name": "Berkshire Hathaway Inc Class B",
+       "pct": 12.68
+      },
+      {
+       "symbol": "JPM",
+       "name": "JPMorgan Chase & Co",
+       "pct": 11.24
+      },
+      {
+       "symbol": "V",
+       "name": "Visa Inc Class A",
+       "pct": 8.84
+      },
+      {
+       "symbol": "MA",
+       "name": "Mastercard Inc Class A",
+       "pct": 6.47
+      },
+      {
+       "symbol": "BAC",
+       "name": "Bank of America Corp",
+       "pct": 4.08
+      },
+      {
+       "symbol": "GS",
+       "name": "The Goldman Sachs Group Inc",
+       "pct": 3.27
+      },
+      {
+       "symbol": "WFC",
+       "name": "Wells Fargo & Co",
+       "pct": 3.16
+      },
+      {
+       "symbol": "MS",
+       "name": "Morgan Stanley",
+       "pct": 2.76
+      },
+      {
+       "symbol": "C",
+       "name": "Citigroup Inc",
+       "pct": 2.58
+      },
+      {
+       "symbol": "AXP",
+       "name": "American Express Co",
+       "pct": 2.11
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       883444992
+      ],
+      [
+       "2026-11-16",
+       883444992
+      ]
+     ]
+    },
+    {
+     "ticker": "XLV",
+     "label": "헬스케어",
+     "close": 187.88,
+     "d1": -0.51,
+     "w1": -0.51,
+     "w1_prev": 2.19,
+     "name": "헬스케어",
+     "holdings": [
+      {
+       "symbol": "LLY",
+       "name": "Eli Lilly and Co",
+       "pct": 16.88
+      },
+      {
+       "symbol": "JNJ",
+       "name": "Johnson & Johnson",
+       "pct": 9.8
+      },
+      {
+       "symbol": "ABBV",
+       "name": "AbbVie Inc",
+       "pct": 7.76
+      },
+      {
+       "symbol": "MRK",
+       "name": "Merck & Co Inc",
+       "pct": 5.49
+      },
+      {
+       "symbol": "UNH",
+       "name": "UnitedHealth Group Inc",
+       "pct": 5.44
+      },
+      {
+       "symbol": "TMO",
+       "name": "Thermo Fisher Scientific Inc",
+       "pct": 3.84
+      },
+      {
+       "symbol": "AMGN",
+       "name": "Amgen Inc",
+       "pct": 3.75
+      },
+      {
+       "symbol": "GILD",
+       "name": "Gilead Sciences Inc",
+       "pct": 3.15
+      },
+      {
+       "symbol": "ABT",
+       "name": "Abbott Laboratories",
+       "pct": 2.74
+      },
+      {
+       "symbol": "PFE",
+       "name": "Pfizer Inc",
+       "pct": 2.59
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       260078000
+      ],
+      [
+       "2026-11-16",
+       260078000
+      ]
+     ]
+    },
+    {
+     "ticker": "XLI",
+     "label": "산업재",
+     "close": 165.66,
+     "d1": -1.85,
+     "w1": -1.85,
+     "w1_prev": 3.76,
+     "name": "산업재",
+     "holdings": [
+      {
+       "symbol": "GE",
+       "name": "GE Aerospace",
+       "pct": 5.88
+      },
+      {
+       "symbol": "CAT",
+       "name": "Caterpillar Inc",
+       "pct": 5.38
+      },
+      {
+       "symbol": "RTX",
+       "name": "RTX Corp",
+       "pct": 5.06
+      },
+      {
+       "symbol": "GEV",
+       "name": "GE Vernova Inc",
+       "pct": 4.29
+      },
+      {
+       "symbol": "UNP",
+       "name": "Union Pacific Corp",
+       "pct": 3.39
+      },
+      {
+       "symbol": "DE",
+       "name": "Deere & Co",
+       "pct": 3.19
+      },
+      {
+       "symbol": "ETN",
+       "name": "Eaton Corp PLC",
+       "pct": 2.7
+      },
+      {
+       "symbol": "BA",
+       "name": "Boeing Co",
+       "pct": 2.55
+      },
+      {
+       "symbol": "UBER",
+       "name": "Uber Technologies Inc",
+       "pct": 2.5
+      },
+      {
+       "symbol": "LMT",
+       "name": "Lockheed Martin Corp",
+       "pct": 2.43
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       136626000
+      ],
+      [
+       "2026-11-16",
+       136626000
+      ]
+     ]
+    },
+    {
+     "ticker": "XLB",
+     "label": "소재",
+     "close": 51.47,
+     "d1": -1.46,
+     "w1": -1.46,
+     "w1_prev": 0.54,
+     "name": "소재",
+     "holdings": [
+      {
+       "symbol": "LIN",
+       "name": "Linde PLC",
+       "pct": 12.84
+      },
+      {
+       "symbol": "NEM",
+       "name": "Newmont Corp",
+       "pct": 6.09
+      },
+      {
+       "symbol": "VMC",
+       "name": "Vulcan Materials Co",
+       "pct": 5.14
+      },
+      {
+       "symbol": "ECL",
+       "name": "Ecolab Inc",
+       "pct": 5.08
+      },
+      {
+       "symbol": "APD",
+       "name": "Air Products and Chemicals Inc",
+       "pct": 4.89
+      },
+      {
+       "symbol": "MLM",
+       "name": "Martin Marietta Materials Inc",
+       "pct": 4.86
+      },
+      {
+       "symbol": "FCX",
+       "name": "Freeport-McMoRan Inc",
+       "pct": 4.86
+      },
+      {
+       "symbol": "NUE",
+       "name": "Nucor Corp",
+       "pct": 4.85
+      },
+      {
+       "symbol": "STLD",
+       "name": "Steel Dynamics Inc",
+       "pct": 4.75
+      },
+      {
+       "symbol": "SHW",
+       "name": "Sherwin-Williams Co",
+       "pct": 4.73
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       71923696
+      ],
+      [
+       "2026-11-16",
+       71923696
+      ]
+     ]
+    },
+    {
+     "ticker": "XLU",
+     "label": "유틸리티",
+     "close": 44.12,
+     "d1": 0.18,
+     "w1": 0.18,
+     "w1_prev": 2.11,
+     "name": "유틸리티",
+     "holdings": [
+      {
+       "symbol": "NEE",
+       "name": "NextEra Energy Inc",
+       "pct": 12.77
+      },
+      {
+       "symbol": "SO",
+       "name": "Southern Co",
+       "pct": 7.88
+      },
+      {
+       "symbol": "DUK",
+       "name": "Duke Energy Corp",
+       "pct": 7.26
+      },
+      {
+       "symbol": "CEG",
+       "name": "Constellation Energy Corp",
+       "pct": 6.32
+      },
+      {
+       "symbol": "AEP",
+       "name": "American Electric Power Co Inc",
+       "pct": 5.18
+      },
+      {
+       "symbol": "D",
+       "name": "Dominion Energy Inc",
+       "pct": 4.28
+      },
+      {
+       "symbol": "SRE",
+       "name": "Sempra",
+       "pct": 4.11
+      },
+      {
+       "symbol": "ETR",
+       "name": "Entergy Corp",
+       "pct": 3.76
+      },
+      {
+       "symbol": "XEL",
+       "name": "Xcel Energy Inc",
+       "pct": 3.65
+      },
+      {
+       "symbol": "EXC",
+       "name": "Exelon Corp",
+       "pct": 3.48
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       163274000
+      ],
+      [
+       "2026-11-16",
+       163274000
+      ]
+     ]
+    },
+    {
+     "ticker": "XLRE",
+     "label": "부동산",
+     "close": 44.25,
+     "d1": -0.27,
+     "w1": -0.27,
+     "w1_prev": 0.84,
+     "name": "부동산",
+     "holdings": [
+      {
+       "symbol": "WELL",
+       "name": "Welltower Inc",
+       "pct": 11.33
+      },
+      {
+       "symbol": "PLD",
+       "name": "Prologis Inc",
+       "pct": 8.15
+      },
+      {
+       "symbol": "EQIX",
+       "name": "Equinix Inc",
+       "pct": 6.7
+      },
+      {
+       "symbol": "AMT",
+       "name": "American Tower Corp",
+       "pct": 5.86
+      },
+      {
+       "symbol": "PSA",
+       "name": "Public Storage",
+       "pct": 4.97
+      },
+      {
+       "symbol": "SPG",
+       "name": "Simon Property Group Inc",
+       "pct": 4.8
+      },
+      {
+       "symbol": "DLR",
+       "name": "Digital Realty Trust Inc",
+       "pct": 4.31
+      },
+      {
+       "symbol": "VMRK",
+       "name": "Vivmark Residential",
+       "pct": 4.3
+      },
+      {
+       "symbol": "VTR",
+       "name": "Ventas Inc",
+       "pct": 4.28
+      },
+      {
+       "symbol": "O",
+       "name": "Realty Income Corp",
+       "pct": 4.27
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       185008000
+      ],
+      [
+       "2026-11-16",
+       185008000
+      ]
+     ]
+    },
+    {
+     "ticker": "XLC",
+     "label": "커뮤니케이션",
+     "close": 106.82,
+     "d1": -1.72,
+     "w1": -1.72,
+     "w1_prev": 3.72,
+     "name": "커뮤니케이션",
+     "holdings": [
+      {
+       "symbol": "META",
+       "name": "Meta Platforms Inc Class A",
+       "pct": 22.0
+      },
+      {
+       "symbol": "GOOGL",
+       "name": "Alphabet Inc Class A",
+       "pct": 11.08
+      },
+      {
+       "symbol": "GOOG",
+       "name": "Alphabet Inc Class C",
+       "pct": 8.92
+      },
+      {
+       "symbol": "DIS",
+       "name": "The Walt Disney Co",
+       "pct": 5.55
+      },
+      {
+       "symbol": "CMCSA",
+       "name": "Comcast Corp Class A",
+       "pct": 4.92
+      },
+      {
+       "symbol": "TTWO",
+       "name": "Take-Two Interactive Software Inc",
+       "pct": 4.7
+      },
+      {
+       "symbol": "VZ",
+       "name": "Verizon Communications Inc",
+       "pct": 4.69
+      },
+      {
+       "symbol": "TMUS",
+       "name": "T-Mobile US Inc",
+       "pct": 4.6
+      },
+      {
+       "symbol": "T",
+       "name": "AT&T Inc",
+       "pct": 4.44
+      },
+      {
+       "symbol": "NFLX",
+       "name": "Netflix Inc",
+       "pct": 4.26
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       197364000
+      ],
+      [
+       "2026-11-16",
+       197364000
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "name": "테마",
+   "items": [
+    {
+     "ticker": "SOXX",
+     "label": "반도체",
+     "close": 141.22,
+     "d1": -5.41,
+     "w1": -5.41,
+     "w1_prev": 9.35,
+     "name": "반도체",
+     "holdings": [
+      {
+       "symbol": "AMD",
+       "name": "Advanced Micro Devices Inc",
+       "pct": 9.24
+      },
+      {
+       "symbol": "NVDA",
+       "name": "NVIDIA Corp",
+       "pct": 7.98
+      },
+      {
+       "symbol": "MU",
+       "name": "Micron Technology Inc",
+       "pct": 7.95
+      },
+      {
+       "symbol": "AVGO",
+       "name": "Broadcom Inc",
+       "pct": 7.58
+      },
+      {
+       "symbol": "INTC",
+       "name": "Intel Corp",
+       "pct": 6.33
+      },
+      {
+       "symbol": "TXN",
+       "name": "Texas Instruments Inc",
+       "pct": 4.96
+      },
+      {
+       "symbol": "ADI",
+       "name": "Analog Devices Inc",
+       "pct": 4.96
+      },
+      {
+       "symbol": "QCOM",
+       "name": "Qualcomm Inc",
+       "pct": 4.16
+      },
+      {
+       "symbol": "MRVL",
+       "name": "Marvell Technology Inc",
+       "pct": 4.0
+      },
+      {
+       "symbol": "KLAC",
+       "name": "KLA Corp",
+       "pct": 3.88
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       7650000
+      ],
+      [
+       "2026-11-16",
+       7650000
+      ]
+     ]
+    },
+    {
+     "ticker": "IGV",
+     "label": "소프트웨어",
+     "close": 99.0,
+     "d1": -2.16,
+     "w1": -2.16,
+     "w1_prev": 2.34,
+     "name": "소프트웨어",
+     "holdings": [
+      {
+       "symbol": "PANW",
+       "name": "Palo Alto Networks Inc",
+       "pct": 9.07
+      },
+      {
+       "symbol": "PLTR",
+       "name": "Palantir Technologies Inc Ordinary Shares - Class A",
+       "pct": 9.02
+      },
+      {
+       "symbol": "MSFT",
+       "name": "Microsoft Corp",
+       "pct": 8.82
+      },
+      {
+       "symbol": "CRWD",
+       "name": "CrowdStrike Holdings Inc Class A",
+       "pct": 8.55
+      },
+      {
+       "symbol": "ORCL",
+       "name": "Oracle Corp",
+       "pct": 6.72
+      },
+      {
+       "symbol": "CRM",
+       "name": "Salesforce Inc",
+       "pct": 4.13
+      },
+      {
+       "symbol": "NOW",
+       "name": "ServiceNow Inc",
+       "pct": 3.53
+      },
+      {
+       "symbol": "ADBE",
+       "name": "Adobe Inc",
+       "pct": 3.51
+      },
+      {
+       "symbol": "INTU",
+       "name": "Intuit Inc",
+       "pct": 3.29
+      },
+      {
+       "symbol": "CDNS",
+       "name": "Cadence Design Systems Inc",
+       "pct": 3.19
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       12500000
+      ],
+      [
+       "2026-11-16",
+       12500000
+      ]
+     ]
+    },
+    {
+     "ticker": "CIBR",
+     "label": "사이버보안 (대형)",
+     "close": 93.23,
+     "d1": -1.9,
+     "w1": -1.9,
+     "w1_prev": 4.39,
+     "name": "사이버보안 (대형)",
+     "holdings": [
+      {
+       "symbol": "CRWD",
+       "name": "CrowdStrike Holdings Inc Class A",
+       "pct": 8.61
+      },
+      {
+       "symbol": "PANW",
+       "name": "Palo Alto Networks Inc",
+       "pct": 7.58
+      },
+      {
+       "symbol": "CSCO",
+       "name": "Cisco Systems Inc",
+       "pct": 7.48
+      },
+      {
+       "symbol": "AVGO",
+       "name": "Broadcom Inc",
+       "pct": 7.09
+      },
+      {
+       "symbol": "FTNT",
+       "name": "Fortinet Inc",
+       "pct": 6.2
+      },
+      {
+       "symbol": "OKTA",
+       "name": "Okta Inc Class A",
+       "pct": 4.6
+      },
+      {
+       "symbol": "ZS",
+       "name": "Zscaler Inc",
+       "pct": 4.38
+      },
+      {
+       "symbol": "NET",
+       "name": "Cloudflare Inc",
+       "pct": 3.87
+      },
+      {
+       "symbol": "RBRK",
+       "name": "Rubrik Inc Class A Shares",
+       "pct": 3.07
+      },
+      {
+       "symbol": "FFIV",
+       "name": "F5 Inc",
+       "pct": 2.89
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       184666000
+      ],
+      [
+       "2026-11-16",
+       184666000
+      ]
+     ]
+    },
+    {
+     "ticker": "WCBR",
+     "label": "사이버보안 (순수)",
+     "close": 42.44,
+     "d1": -1.16,
+     "w1": -1.16,
+     "w1_prev": 2.83,
+     "name": "사이버보안 (순수)",
+     "holdings": [
+      {
+       "symbol": "ZS",
+       "name": "Zscaler Inc",
+       "pct": 7.0
+      },
+      {
+       "symbol": "S",
+       "name": "SentinelOne Inc Class A",
+       "pct": 6.11
+      },
+      {
+       "symbol": "NTSK",
+       "name": "Netskope Inc Ordinary Shares - Class A",
+       "pct": 5.82
+      },
+      {
+       "symbol": "CRWD",
+       "name": "CrowdStrike Holdings Inc Class A",
+       "pct": 5.77
+      },
+      {
+       "symbol": "TENB",
+       "name": "Tenable Holdings Inc",
+       "pct": 5.73
+      },
+      {
+       "symbol": "RBRK",
+       "name": "Rubrik Inc Class A Shares",
+       "pct": 5.05
+      },
+      {
+       "symbol": "4704.T",
+       "name": "Trend Micro Inc",
+       "pct": 4.57
+      },
+      {
+       "symbol": "OKTA",
+       "name": "Okta Inc Class A",
+       "pct": 4.4
+      },
+      {
+       "symbol": "SAIL",
+       "name": "SailPoint Inc",
+       "pct": 4.33
+      },
+      {
+       "symbol": "RPD",
+       "name": "Rapid7 Inc",
+       "pct": 4.27
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       5281000
+      ],
+      [
+       "2026-11-16",
+       5281000
+      ]
+     ]
+    },
+    {
+     "ticker": "ARKG",
+     "label": "AI 신약·유전체",
+     "close": 40.62,
+     "d1": -5.97,
+     "w1": -5.97,
+     "w1_prev": -4.95,
+     "name": "AI 신약·유전체",
+     "holdings": [
+      {
+       "symbol": "TWST",
+       "name": "Twist Bioscience Corp",
+       "pct": 8.75
+      },
+      {
+       "symbol": "TXG",
+       "name": "10x Genomics Inc Ordinary Shares - Class A",
+       "pct": 8.73
+      },
+      {
+       "symbol": "TEM",
+       "name": "Tempus AI Inc Class A common stock",
+       "pct": 8.36
+      },
+      {
+       "symbol": "ABSI",
+       "name": "Absci Corp",
+       "pct": 5.56
+      },
+      {
+       "symbol": "CRSP",
+       "name": "CRISPR Therapeutics AG",
+       "pct": 5.22
+      },
+      {
+       "symbol": "GH",
+       "name": "Guardant Health Inc",
+       "pct": 4.88
+      },
+      {
+       "symbol": "NTRA",
+       "name": "Natera Inc",
+       "pct": 4.71
+      },
+      {
+       "symbol": "ILMN",
+       "name": "Illumina Inc",
+       "pct": 4.69
+      },
+      {
+       "symbol": "LLY",
+       "name": "Eli Lilly and Co",
+       "pct": 3.92
+      },
+      {
+       "symbol": "BEAM",
+       "name": "Beam Therapeutics Inc",
+       "pct": 3.69
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       51230000
+      ],
+      [
+       "2026-11-16",
+       51230000
+      ]
+     ]
+    },
+    {
+     "ticker": "PPH",
+     "label": "빅파마",
+     "close": 121.59,
+     "d1": -0.86,
+     "w1": -0.86,
+     "w1_prev": 3.21,
+     "name": "빅파마",
+     "holdings": [
+      {
+       "symbol": "LLY",
+       "name": "Eli Lilly and Co",
+       "pct": 23.26
+      },
+      {
+       "symbol": "MRK",
+       "name": "Merck & Co Inc",
+       "pct": 12.58
+      },
+      {
+       "symbol": "NVO",
+       "name": "Novo Nordisk AS ADR",
+       "pct": 5.42
+      },
+      {
+       "symbol": "PFE",
+       "name": "Pfizer Inc",
+       "pct": 5.07
+      },
+      {
+       "symbol": "TEVA.TA",
+       "name": "Teva Pharmaceutical Industries Ltd",
+       "pct": 4.64
+      },
+      {
+       "symbol": "MCK",
+       "name": "McKesson Corp",
+       "pct": 4.63
+      },
+      {
+       "symbol": "BMY",
+       "name": "Bristol-Myers Squibb Co",
+       "pct": 4.47
+      },
+      {
+       "symbol": "COR",
+       "name": "Cencora Inc",
+       "pct": 4.25
+      },
+      {
+       "symbol": "GSK",
+       "name": "GSK PLC ADR",
+       "pct": 4.23
+      },
+      {
+       "symbol": "AZN.L",
+       "name": "AstraZeneca PLC",
+       "pct": 3.8
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       11547000
+      ],
+      [
+       "2026-11-16",
+       11547000
+      ]
+     ]
+    },
+    {
+     "ticker": "LNGX",
+     "label": "LNG·천연가스",
+     "close": 43.5,
+     "d1": -2.93,
+     "w1": -2.93,
+     "w1_prev": 6.7,
+     "name": "LNG·천연가스",
+     "holdings": [
+      {
+       "symbol": "OVV",
+       "name": "Ovintiv Inc",
+       "pct": 7.57
+      },
+      {
+       "symbol": "EQT",
+       "name": "EQT Corp",
+       "pct": 7.04
+      },
+      {
+       "symbol": "EXE",
+       "name": "Expand Energy Corp Ordinary Shares - New",
+       "pct": 6.81
+      },
+      {
+       "symbol": "LNG",
+       "name": "Cheniere Energy Inc",
+       "pct": 5.05
+      },
+      {
+       "symbol": "APA",
+       "name": "APA Corp",
+       "pct": 5.01
+      },
+      {
+       "symbol": "RRC",
+       "name": "Range Resources Corp",
+       "pct": 4.72
+      },
+      {
+       "symbol": "PR",
+       "name": "Permian Resources Corp Class A",
+       "pct": 4.69
+      },
+      {
+       "symbol": "AR",
+       "name": "Antero Resources Corp",
+       "pct": 4.64
+      },
+      {
+       "symbol": "EOG",
+       "name": "EOG Resources Inc",
+       "pct": 4.32
+      },
+      {
+       "symbol": "DVN",
+       "name": "Devon Energy Corp",
+       "pct": 4.07
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       1287000
+      ],
+      [
+       "2026-11-16",
+       1287000
+      ]
+     ]
+    },
+    {
+     "ticker": "JETS",
+     "label": "항공",
+     "close": 29.02,
+     "d1": 0.62,
+     "w1": 0.62,
+     "w1_prev": 0.42,
+     "name": "항공",
+     "holdings": [
+      {
+       "symbol": "LUV",
+       "name": "Southwest Airlines Co",
+       "pct": 12.16
+      },
+      {
+       "symbol": "DAL",
+       "name": "Delta Air Lines Inc",
+       "pct": 11.22
+      },
+      {
+       "symbol": "AAL",
+       "name": "American Airlines Group Inc",
+       "pct": 10.8
+      },
+      {
+       "symbol": "UAL",
+       "name": "United Airlines Holdings Inc",
+       "pct": 10.68
+      },
+      {
+       "symbol": "ULCC",
+       "name": "Frontier Group Holdings Inc",
+       "pct": 4.27
+      },
+      {
+       "symbol": "ALGT",
+       "name": "Allegiant Travel Co",
+       "pct": 3.53
+      },
+      {
+       "symbol": "ALK",
+       "name": "Alaska Air Group Inc",
+       "pct": 3.3
+      },
+      {
+       "symbol": "SKYW",
+       "name": "SkyWest Inc",
+       "pct": 3.18
+      },
+      {
+       "symbol": "AC.TO",
+       "name": "Air Canada Ordinary Shares (Voting and Variable Voting)",
+       "pct": 2.6
+      },
+      {
+       "symbol": "JBLU",
+       "name": "JetBlue Airways Corp",
+       "pct": 2.35
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       29327000
+      ],
+      [
+       "2026-11-16",
+       29327000
+      ]
+     ]
+    },
+    {
+     "ticker": "ITA",
+     "label": "방산",
+     "close": 69.75,
+     "d1": -2.46,
+     "w1": -2.46,
+     "w1_prev": 3.67,
+     "name": "방산",
+     "holdings": [
+      {
+       "symbol": "GE",
+       "name": "GE Aerospace",
+       "pct": 20.02
+      },
+      {
+       "symbol": "RTX",
+       "name": "RTX Corp",
+       "pct": 17.22
+      },
+      {
+       "symbol": "BA",
+       "name": "Boeing Co",
+       "pct": 6.83
+      },
+      {
+       "symbol": "LMT",
+       "name": "Lockheed Martin Corp",
+       "pct": 5.69
+      },
+      {
+       "symbol": "NOC",
+       "name": "Northrop Grumman Corp",
+       "pct": 5.06
+      },
+      {
+       "symbol": "GD",
+       "name": "General Dynamics Corp",
+       "pct": 4.95
+      },
+      {
+       "symbol": "TDG",
+       "name": "TransDigm Group Inc",
+       "pct": 4.77
+      },
+      {
+       "symbol": "HWM",
+       "name": "Howmet Aerospace Inc",
+       "pct": 4.01
+      },
+      {
+       "symbol": "LHX",
+       "name": "L3Harris Technologies Inc",
+       "pct": 3.97
+      },
+      {
+       "symbol": "HONA",
+       "name": "Honeywell Aerospace Inc",
+       "pct": 3.75
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       171005000
+      ],
+      [
+       "2026-11-16",
+       171005000
+      ]
+     ]
+    },
+    {
+     "ticker": "UFO",
+     "label": "우주",
+     "close": 39.54,
+     "d1": -2.83,
+     "w1": -2.83,
+     "w1_prev": 4.31,
+     "name": "우주",
+     "holdings": [
+      {
+       "symbol": "SPCX",
+       "name": "Space Exploration Technologies Corp Class A",
+       "pct": 14.4
+      },
+      {
+       "symbol": "TRMB",
+       "name": "Trimble Inc",
+       "pct": 5.79
+      },
+      {
+       "symbol": "ECHO",
+       "name": "EchoStar Corp Class A",
+       "pct": 5.35
+      },
+      {
+       "symbol": "VSAT",
+       "name": "Viasat Inc",
+       "pct": 5.26
+      },
+      {
+       "symbol": "SIRI",
+       "name": "Sirius XM Holdings Inc",
+       "pct": 5.09
+      },
+      {
+       "symbol": "GRMN",
+       "name": "Garmin Ltd",
+       "pct": 5.08
+      },
+      {
+       "symbol": "RKLB",
+       "name": "Rocket Lab Corp",
+       "pct": 4.48
+      },
+      {
+       "symbol": "ASTS",
+       "name": "AST SpaceMobile Inc Ordinary Shares - Class A",
+       "pct": 3.47
+      },
+      {
+       "symbol": "GSAT",
+       "name": "Globalstar Inc",
+       "pct": 3.32
+      },
+      {
+       "symbol": "IRDM",
+       "name": "Iridium Communications Inc",
+       "pct": 3.17
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       11128000
+      ],
+      [
+       "2026-11-16",
+       11128000
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "name": "일본 업종 (TOPIX-17)",
+   "items": [
+    {
+     "ticker": "1617.T",
+     "label": "식품",
+     "close": 47660.0,
+     "d1": 0.21,
+     "w1": 0.83,
+     "w1_prev": 1.98,
+     "name": "식품",
+     "holdings": [
+      {
+       "symbol": "2914.T",
+       "name": "Japan Tobacco Inc",
+       "pct": 25.99
+      },
+      {
+       "symbol": "2802.T",
+       "name": "Ajinomoto Co Inc",
+       "pct": 14.58
+      },
+      {
+       "symbol": "2503.T",
+       "name": "Kirin Holdings Co Ltd",
+       "pct": 7.4
+      },
+      {
+       "symbol": "2502.T",
+       "name": "Asahi Group Holdings Ltd",
+       "pct": 7.31
+      },
+      {
+       "symbol": "2269.T",
+       "name": "Meiji Holdings Co Ltd",
+       "pct": 3.54
+      },
+      {
+       "symbol": "2801.T",
+       "name": "Kikkoman Corp",
+       "pct": 3.52
+      },
+      {
+       "symbol": "2875.T",
+       "name": "Toyo Suisan Kaisha Ltd",
+       "pct": 3.02
+      },
+      {
+       "symbol": "2267.T",
+       "name": "Yakult Honsha Co Ltd",
+       "pct": 2.46
+      },
+      {
+       "symbol": "2587.T",
+       "name": "Suntory Beverage & Food Ltd",
+       "pct": 2.29
+      },
+      {
+       "symbol": "2897.T",
+       "name": "Nissin Foods Holdings Co Ltd",
+       "pct": 2.03
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       149000
+      ],
+      [
+       "2026-11-16",
+       149000
+      ]
+     ]
+    },
+    {
+     "ticker": "1618.T",
+     "label": "에너지자원",
+     "close": 31440.0,
+     "d1": -4.06,
+     "w1": -4.29,
+     "w1_prev": 5.66,
+     "name": "에너지자원",
+     "holdings": [
+      {
+       "symbol": "5020.T",
+       "name": "ENEOS Holdings Inc",
+       "pct": 40.99
+      },
+      {
+       "symbol": "1605.T",
+       "name": "Inpex Corp",
+       "pct": 36.22
+      },
+      {
+       "symbol": "5019.T",
+       "name": "Idemitsu Kosan Co Ltd",
+       "pct": 11.81
+      },
+      {
+       "symbol": "5021.T",
+       "name": "Cosmo Energy Holdings Co Ltd",
+       "pct": 4.98
+      },
+      {
+       "symbol": "1662.T",
+       "name": "Japan Petroleum Exploration Co Ltd",
+       "pct": 3.18
+      },
+      {
+       "symbol": "1515.T",
+       "name": "Nittetsu Mining Co Ltd",
+       "pct": 1.54
+      },
+      {
+       "symbol": "1663.T",
+       "name": "K&O Energy Group Inc",
+       "pct": 0.39
+      },
+      {
+       "symbol": "5011.T",
+       "name": "Nichireki Group Co Ltd",
+       "pct": 0.38
+      },
+      {
+       "symbol": "5013.T",
+       "name": "Yushiro Inc",
+       "pct": 0.21
+      },
+      {
+       "symbol": "3315.T",
+       "name": "Nippon Coke & Engineering Co Ltd",
+       "pct": 0.16
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       117000
+      ],
+      [
+       "2026-11-16",
+       117000
+      ]
+     ]
+    },
+    {
+     "ticker": "1619.T",
+     "label": "건설·자재",
+     "close": 42180.0,
+     "d1": -2.5,
+     "w1": -3.96,
+     "w1_prev": 9.96,
+     "name": "건설·자재",
+     "holdings": [
+      {
+       "symbol": "1925.T",
+       "name": "Daiwa House Industry Co Ltd",
+       "pct": 7.5
+      },
+      {
+       "symbol": "1928.T",
+       "name": "Sekisui House Ltd",
+       "pct": 6.12
+      },
+      {
+       "symbol": "1802.T",
+       "name": "Obayashi Corp",
+       "pct": 5.97
+      },
+      {
+       "symbol": "1812.T",
+       "name": "Kajima Corp",
+       "pct": 5.7
+      },
+      {
+       "symbol": "1801.T",
+       "name": "Taisei Corp",
+       "pct": 5.28
+      },
+      {
+       "symbol": "5334.T",
+       "name": "Niterra Co Ltd",
+       "pct": 3.42
+      },
+      {
+       "symbol": "5201.T",
+       "name": "AGC Inc",
+       "pct": 3.18
+      },
+      {
+       "symbol": "1803.T",
+       "name": "Shimizu Corp",
+       "pct": 3.05
+      },
+      {
+       "symbol": "5333.T",
+       "name": "NGK Corp",
+       "pct": 3.01
+      },
+      {
+       "symbol": "3436.T",
+       "name": "SUMCO Corp",
+       "pct": 2.53
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       232000
+      ],
+      [
+       "2026-11-16",
+       232000
+      ]
+     ]
+    },
+    {
+     "ticker": "1620.T",
+     "label": "소재·화학",
+     "close": 36550.0,
+     "d1": -1.4,
+     "w1": -2.04,
+     "w1_prev": 8.11,
+     "name": "소재·화학",
+     "holdings": [
+      {
+       "symbol": "4063.T",
+       "name": "Shin-Etsu Chemical Co Ltd",
+       "pct": 18.8
+      },
+      {
+       "symbol": "4901.T",
+       "name": "FUJIFILM Holdings Corp",
+       "pct": 8.0
+      },
+      {
+       "symbol": "4452.T",
+       "name": "Kao Corp",
+       "pct": 6.3
+      },
+      {
+       "symbol": "4004.T",
+       "name": "Resonac Holdings Corp",
+       "pct": 4.33
+      },
+      {
+       "symbol": "3407.T",
+       "name": "Asahi Kasei Corp",
+       "pct": 4.06
+      },
+      {
+       "symbol": "6988.T",
+       "name": "Nitto Denko Corp",
+       "pct": 3.66
+      },
+      {
+       "symbol": "4911.T",
+       "name": "Shiseido Co Ltd",
+       "pct": 3.03
+      },
+      {
+       "symbol": "4188.T",
+       "name": "Mitsubishi Chemical Group Corp",
+       "pct": 2.89
+      },
+      {
+       "symbol": "3402.T",
+       "name": "Toray Industries Inc",
+       "pct": 2.81
+      },
+      {
+       "symbol": "4612.T",
+       "name": "Nippon Paint Holdings Co Ltd",
+       "pct": 2.4
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       40000
+      ],
+      [
+       "2026-11-16",
+       40000
+      ]
+     ]
+    },
+    {
+     "ticker": "1621.T",
+     "label": "의약품",
+     "close": 34070.0,
+     "d1": -0.18,
+     "w1": 1.4,
+     "w1_prev": 5.49,
+     "name": "의약품",
+     "holdings": [
+      {
+       "symbol": "4502.T",
+       "name": "Takeda Pharmaceutical Co Ltd",
+       "pct": 29.21
+      },
+      {
+       "symbol": "4578.T",
+       "name": "Otsuka Holdings Co Ltd",
+       "pct": 14.31
+      },
+      {
+       "symbol": "4568.T",
+       "name": "Daiichi Sankyo Co Ltd",
+       "pct": 12.18
+      },
+      {
+       "symbol": "4503.T",
+       "name": "Astellas Pharma Inc",
+       "pct": 11.9
+      },
+      {
+       "symbol": "4519.T",
+       "name": "Chugai Pharmaceutical Co Ltd",
+       "pct": 10.47
+      },
+      {
+       "symbol": "4507.T",
+       "name": "Shionogi & Co Ltd",
+       "pct": 5.88
+      },
+      {
+       "symbol": "4523.T",
+       "name": "Eisai Co Ltd",
+       "pct": 3.23
+      },
+      {
+       "symbol": "4528.T",
+       "name": "Ono Pharmaceutical Co Ltd",
+       "pct": 2.26
+      },
+      {
+       "symbol": "4536.T",
+       "name": "Santen Pharmaceutical Co Ltd",
+       "pct": 1.48
+      },
+      {
+       "symbol": "4527.T",
+       "name": "Rohto Pharmaceutical Co Ltd",
+       "pct": 1.42
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       167000
+      ],
+      [
+       "2026-11-16",
+       167000
+      ]
+     ]
+    },
+    {
+     "ticker": "1622.T",
+     "label": "자동차·수송기",
+     "close": 37080.0,
+     "d1": -1.04,
+     "w1": -1.01,
+     "w1_prev": 2.13,
+     "name": "자동차·수송기",
+     "holdings": [
+      {
+       "symbol": "7203.T",
+       "name": "Toyota Motor Corp",
+       "pct": 46.35
+      },
+      {
+       "symbol": "7267.T",
+       "name": "Honda Motor Co Ltd",
+       "pct": 11.17
+      },
+      {
+       "symbol": "5108.T",
+       "name": "Bridgestone Corp",
+       "pct": 6.51
+      },
+      {
+       "symbol": "7269.T",
+       "name": "Suzuki Motor Corp",
+       "pct": 5.68
+      },
+      {
+       "symbol": "6902.T",
+       "name": "Denso Corp",
+       "pct": 4.98
+      },
+      {
+       "symbol": "7012.T",
+       "name": "Kawasaki Heavy Industries Ltd",
+       "pct": 2.77
+      },
+      {
+       "symbol": "7309.T",
+       "name": "Shimano Inc",
+       "pct": 2.67
+      },
+      {
+       "symbol": "7272.T",
+       "name": "Yamaha Motor Co Ltd",
+       "pct": 2.63
+      },
+      {
+       "symbol": "7270.T",
+       "name": "Subaru Corp",
+       "pct": 2.42
+      },
+      {
+       "symbol": "7202.T",
+       "name": "Isuzu Motors Ltd",
+       "pct": 1.79
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       150000
+      ],
+      [
+       "2026-11-16",
+       150000
+      ]
+     ]
+    },
+    {
+     "ticker": "1623.T",
+     "label": "철강·비철",
+     "close": 43890.0,
+     "d1": -2.9,
+     "w1": -6.91,
+     "w1_prev": 3.97,
+     "name": "철강·비철",
+     "holdings": [
+      {
+       "symbol": "5803.T",
+       "name": "Fujikura Ltd",
+       "pct": 21.22
+      },
+      {
+       "symbol": "5802.T",
+       "name": "Sumitomo Electric Industries Ltd",
+       "pct": 18.58
+      },
+      {
+       "symbol": "5401.T",
+       "name": "Nippon Steel Corp",
+       "pct": 12.56
+      },
+      {
+       "symbol": "5713.T",
+       "name": "Sumitomo Metal Mining Co Ltd",
+       "pct": 7.17
+      },
+      {
+       "symbol": "5016.T",
+       "name": "JX Advanced Metals Corp",
+       "pct": 7.13
+      },
+      {
+       "symbol": "5801.T",
+       "name": "Furukawa Electric Co Ltd",
+       "pct": 7.06
+      },
+      {
+       "symbol": "5706.T",
+       "name": "Mitsui Kinzoku Co Ltd",
+       "pct": 4.12
+      },
+      {
+       "symbol": "5411.T",
+       "name": "JFE Holdings Inc",
+       "pct": 4.04
+      },
+      {
+       "symbol": "5406.T",
+       "name": "Kobe Steel Ltd",
+       "pct": 3.05
+      },
+      {
+       "symbol": "5711.T",
+       "name": "Mitsubishi Materials Corp",
+       "pct": 2.17
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       127000
+      ],
+      [
+       "2026-11-16",
+       127000
+      ]
+     ]
+    },
+    {
+     "ticker": "1624.T",
+     "label": "기계",
+     "close": 69880.0,
+     "d1": -2.59,
+     "w1": -4.22,
+     "w1_prev": 6.87,
+     "name": "기계",
+     "holdings": [
+      {
+       "symbol": "7011.T",
+       "name": "Mitsubishi Heavy Industries Ltd",
+       "pct": 21.53
+      },
+      {
+       "symbol": "6301.T",
+       "name": "Komatsu Ltd",
+       "pct": 10.04
+      },
+      {
+       "symbol": "6367.T",
+       "name": "Daikin Industries Ltd",
+       "pct": 10.01
+      },
+      {
+       "symbol": "6146.T",
+       "name": "Disco Corp",
+       "pct": 7.96
+      },
+      {
+       "symbol": "6273.T",
+       "name": "SMC Corp",
+       "pct": 6.61
+      },
+      {
+       "symbol": "7013.T",
+       "name": "IHI Corp",
+       "pct": 4.72
+      },
+      {
+       "symbol": "6326.T",
+       "name": "Kubota Corp",
+       "pct": 4.45
+      },
+      {
+       "symbol": "6361.T",
+       "name": "Ebara Corp",
+       "pct": 2.99
+      },
+      {
+       "symbol": "6383.T",
+       "name": "Daifuku Co Ltd",
+       "pct": 2.95
+      },
+      {
+       "symbol": "6586.T",
+       "name": "Makita Corp",
+       "pct": 2.2
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       41000
+      ],
+      [
+       "2026-11-16",
+       41000
+      ]
+     ]
+    },
+    {
+     "ticker": "1625.T",
+     "label": "전기·정밀",
+     "close": 53560.0,
+     "d1": -1.74,
+     "w1": -5.4,
+     "w1_prev": 7.05,
+     "name": "전기·정밀",
+     "holdings": [
+      {
+       "symbol": "6758.T",
+       "name": "Sony Group Corp",
+       "pct": 10.62
+      },
+      {
+       "symbol": "6501.T",
+       "name": "Hitachi Ltd",
+       "pct": 10.4
+      },
+      {
+       "symbol": "6857.T",
+       "name": "Advantest Corp",
+       "pct": 9.19
+      },
+      {
+       "symbol": "8035.T",
+       "name": "Tokyo Electron Ltd",
+       "pct": 8.02
+      },
+      {
+       "symbol": "6861.T",
+       "name": "Keyence Corp",
+       "pct": 6.85
+      },
+      {
+       "symbol": "6981.T",
+       "name": "Murata Manufacturing Co Ltd",
+       "pct": 4.49
+      },
+      {
+       "symbol": "285A.T",
+       "name": "Kioxia Holdings Corp Ordinary Shares",
+       "pct": 4.32
+      },
+      {
+       "symbol": "6503.T",
+       "name": "Mitsubishi Electric Corp",
+       "pct": 4.12
+      },
+      {
+       "symbol": "7741.T",
+       "name": "Hoya Corp",
+       "pct": 3.94
+      },
+      {
+       "symbol": "6752.T",
+       "name": "Panasonic Holdings Corp",
+       "pct": 3.66
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       232000
+      ],
+      [
+       "2026-11-16",
+       232000
+      ]
+     ]
+    },
+    {
+     "ticker": "1626.T",
+     "label": "정보통신·서비스",
+     "close": 48210.0,
+     "d1": 0.42,
+     "w1": 0.29,
+     "w1_prev": 3.94,
+     "name": "정보통신·서비스",
+     "holdings": [
+      {
+       "symbol": "6098.T",
+       "name": "Recruit Holdings Co Ltd",
+       "pct": 19.43
+      },
+      {
+       "symbol": "9984.T",
+       "name": "SoftBank Group Corp",
+       "pct": 11.31
+      },
+      {
+       "symbol": "7974.T",
+       "name": "Nintendo Co Ltd",
+       "pct": 7.33
+      },
+      {
+       "symbol": "9432.T",
+       "name": "NTT Inc",
+       "pct": 6.27
+      },
+      {
+       "symbol": "9433.T",
+       "name": "KDDI Corp",
+       "pct": 5.58
+      },
+      {
+       "symbol": "9434.T",
+       "name": "SoftBank Corp",
+       "pct": 4.97
+      },
+      {
+       "symbol": "6178.T",
+       "name": "Japan Post Holdings Co Ltd",
+       "pct": 2.98
+      },
+      {
+       "symbol": "4661.T",
+       "name": "Oriental Land Co Ltd",
+       "pct": 2.73
+      },
+      {
+       "symbol": "7936.T",
+       "name": "ASICS Corp",
+       "pct": 2.53
+      },
+      {
+       "symbol": "7832.T",
+       "name": "BANDAI NAMCO Holdings Inc",
+       "pct": 2.16
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       167000
+      ],
+      [
+       "2026-11-16",
+       167000
+      ]
+     ]
+    },
+    {
+     "ticker": "1627.T",
+     "label": "전력·가스",
+     "close": 12220.0,
+     "d1": -0.33,
+     "w1": -1.61,
+     "w1_prev": 7.91,
+     "name": "전력·가스",
+     "holdings": [
+      {
+       "symbol": "9503.T",
+       "name": "Kansai Electric Power Co Inc",
+       "pct": 20.09
+      },
+      {
+       "symbol": "9532.T",
+       "name": "Osaka Gas Co Ltd",
+       "pct": 15.55
+      },
+      {
+       "symbol": "9502.T",
+       "name": "Chubu Electric Power Co Inc",
+       "pct": 14.07
+      },
+      {
+       "symbol": "9531.T",
+       "name": "Tokyo Gas Co Ltd",
+       "pct": 13.89
+      },
+      {
+       "symbol": "642A.T",
+       "name": "Kyuden Holdings Inc",
+       "pct": 6.93
+      },
+      {
+       "symbol": "9501.T",
+       "name": "Tokyo Electric Power Co Holdings",
+       "pct": 5.88
+      },
+      {
+       "symbol": "9506.T",
+       "name": "Tohoku Electric Power Co Inc",
+       "pct": 4.81
+      },
+      {
+       "symbol": "9513.T",
+       "name": "Electric Power Development Co Ltd",
+       "pct": 4.18
+      },
+      {
+       "symbol": "9507.T",
+       "name": "Shikoku Electric Power Co Inc",
+       "pct": 2.73
+      },
+      {
+       "symbol": "9504.T",
+       "name": "Chugoku Electric Power Co Inc",
+       "pct": 2.65
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       230000
+      ],
+      [
+       "2026-11-16",
+       230000
+      ]
+     ]
+    },
+    {
+     "ticker": "1628.T",
+     "label": "운수·물류",
+     "close": 23550.0,
+     "d1": -0.42,
+     "w1": -0.08,
+     "w1_prev": 5.04,
+     "name": "운수·물류",
+     "holdings": [
+      {
+       "symbol": "9020.T",
+       "name": "East Japan Railway Co",
+       "pct": 11.67
+      },
+      {
+       "symbol": "9022.T",
+       "name": "Central Japan Railway Co",
+       "pct": 9.42
+      },
+      {
+       "symbol": "9101.T",
+       "name": "Nippon Yusen Kabushiki Kaisha",
+       "pct": 9.3
+      },
+      {
+       "symbol": "9104.T",
+       "name": "Mitsui O.S.K. Lines Ltd",
+       "pct": 7.87
+      },
+      {
+       "symbol": "9202.T",
+       "name": "ANA Holdings Inc",
+       "pct": 4.49
+      },
+      {
+       "symbol": "9201.T",
+       "name": "Japan Airlines Co Ltd",
+       "pct": 4.41
+      },
+      {
+       "symbol": "9107.T",
+       "name": "Kawasaki Kisen Kaisha Ltd",
+       "pct": 4.4
+      },
+      {
+       "symbol": "9021.T",
+       "name": "West Japan Railway Co",
+       "pct": 4.29
+      },
+      {
+       "symbol": "9147.T",
+       "name": "Nippon Express Holdings Inc",
+       "pct": 3.75
+      },
+      {
+       "symbol": "9042.T",
+       "name": "Hankyu Hanshin Holdings Inc",
+       "pct": 3.46
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       69000
+      ],
+      [
+       "2026-11-16",
+       69000
+      ]
+     ]
+    },
+    {
+     "ticker": "1629.T",
+     "label": "상사·도매",
+     "close": 276.6,
+     "d1": -3.35,
+     "w1": -3.96,
+     "w1_prev": 8.43,
+     "name": "상사·도매",
+     "holdings": [
+      {
+       "symbol": "8058.T",
+       "name": "Mitsubishi Corp",
+       "pct": 25.11
+      },
+      {
+       "symbol": "8031.T",
+       "name": "Mitsui & Co Ltd",
+       "pct": 20.3
+      },
+      {
+       "symbol": "8001.T",
+       "name": "ITOCHU Corp",
+       "pct": 15.72
+      },
+      {
+       "symbol": "8002.T",
+       "name": "Marubeni Corp",
+       "pct": 10.16
+      },
+      {
+       "symbol": "8053.T",
+       "name": "Sumitomo Corp",
+       "pct": 8.21
+      },
+      {
+       "symbol": "8015.T",
+       "name": "Toyota Tsusho Corp",
+       "pct": 4.23
+      },
+      {
+       "symbol": "2768.T",
+       "name": "Sojitz Corp",
+       "pct": 1.4
+      },
+      {
+       "symbol": "8136.T",
+       "name": "Sanrio Co Ltd",
+       "pct": 1.15
+      },
+      {
+       "symbol": "9962.T",
+       "name": "MISUMI Group Inc",
+       "pct": 0.88
+      },
+      {
+       "symbol": "7459.T",
+       "name": "Medipal Holdings Corp",
+       "pct": 0.74
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       103216000
+      ],
+      [
+       "2026-11-16",
+       103216000
+      ]
+     ]
+    },
+    {
+     "ticker": "1630.T",
+     "label": "소매",
+     "close": 41740.0,
+     "d1": -0.31,
+     "w1": 2.33,
+     "w1_prev": 5.59,
+     "name": "소매",
+     "holdings": [
+      {
+       "symbol": "9983.T",
+       "name": "Fast Retailing Co Ltd",
+       "pct": 23.66
+      },
+      {
+       "symbol": "3382.T",
+       "name": "Seven & i Holdings Co Ltd",
+       "pct": 8.95
+      },
+      {
+       "symbol": "8267.T",
+       "name": "AEON Co Ltd",
+       "pct": 6.61
+      },
+      {
+       "symbol": "7453.T",
+       "name": "Ryohin Keikaku Co Ltd",
+       "pct": 4.93
+      },
+      {
+       "symbol": "7532.T",
+       "name": "Pan Pacific International Holdings Corp",
+       "pct": 3.49
+      },
+      {
+       "symbol": "3563.T",
+       "name": "Food & Life Companies Ltd",
+       "pct": 3.12
+      },
+      {
+       "symbol": "7550.T",
+       "name": "Zensho Holdings Co Ltd",
+       "pct": 3.01
+      },
+      {
+       "symbol": "9843.T",
+       "name": "Nitori Holdings Co Ltd",
+       "pct": 2.88
+      },
+      {
+       "symbol": "3099.T",
+       "name": "Isetan Mitsukoshi Holdings Ltd",
+       "pct": 2.84
+      },
+      {
+       "symbol": "3197.T",
+       "name": "Skylark Holdings Co Ltd",
+       "pct": 2.32
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       73000
+      ],
+      [
+       "2026-11-16",
+       73000
+      ]
+     ]
+    },
+    {
+     "ticker": "1631.T",
+     "label": "은행",
+     "close": 37650.0,
+     "d1": -4.05,
+     "w1": -4.71,
+     "w1_prev": 9.51,
+     "name": "은행",
+     "holdings": [
+      {
+       "symbol": "8306.T",
+       "name": "Mitsubishi UFJ Financial Group Inc",
+       "pct": 31.5
+      },
+      {
+       "symbol": "8316.T",
+       "name": "Sumitomo Mitsui Financial Group Inc",
+       "pct": 20.26
+      },
+      {
+       "symbol": "8411.T",
+       "name": "Mizuho Financial Group Inc",
+       "pct": 15.62
+      },
+      {
+       "symbol": "7182.T",
+       "name": "Japan Post Bank Co Ltd",
+       "pct": 4.76
+      },
+      {
+       "symbol": "8308.T",
+       "name": "Resona Holdings Inc",
+       "pct": 3.99
+      },
+      {
+       "symbol": "8309.T",
+       "name": "Sumitomo Mitsui Trust Group Inc",
+       "pct": 3.55
+      },
+      {
+       "symbol": "7186.T",
+       "name": "Yokohama Financial Group Inc",
+       "pct": 1.27
+      },
+      {
+       "symbol": "8331.T",
+       "name": "The Chiba Bank Ltd",
+       "pct": 1.17
+      },
+      {
+       "symbol": "7167.T",
+       "name": "Mebuki Financial Group Inc",
+       "pct": 1.09
+      },
+      {
+       "symbol": "5831.T",
+       "name": "Shizuoka Financial Group Inc",
+       "pct": 0.98
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       620000
+      ],
+      [
+       "2026-11-16",
+       620000
+      ]
+     ]
+    },
+    {
+     "ticker": "1632.T",
+     "label": "금융(은행 제외)",
+     "close": 43830.0,
+     "d1": -1.66,
+     "w1": -1.44,
+     "w1_prev": 5.08,
+     "name": "금융(은행 제외)",
+     "holdings": [
+      {
+       "symbol": "8766.T",
+       "name": "Tokio Marine Holdings Inc",
+       "pct": 25.95
+      },
+      {
+       "symbol": "8725.T",
+       "name": "MS&AD Insurance Group Holdings Inc",
+       "pct": 11.25
+      },
+      {
+       "symbol": "8591.T",
+       "name": "ORIX Corp",
+       "pct": 10.87
+      },
+      {
+       "symbol": "8630.T",
+       "name": "Sompo Holdings Inc",
+       "pct": 10.24
+      },
+      {
+       "symbol": "8750.T",
+       "name": "Daiichi Life Group Inc",
+       "pct": 10.08
+      },
+      {
+       "symbol": "8604.T",
+       "name": "Nomura Holdings Inc",
+       "pct": 7.13
+      },
+      {
+       "symbol": "8601.T",
+       "name": "Daiwa Securities Group Inc",
+       "pct": 3.82
+      },
+      {
+       "symbol": "8697.T",
+       "name": "Japan Exchange Group Inc",
+       "pct": 3.61
+      },
+      {
+       "symbol": "8795.T",
+       "name": "T&D Holdings Inc",
+       "pct": 3.4
+      },
+      {
+       "symbol": "8473.T",
+       "name": "SBI Holdings Inc",
+       "pct": 2.51
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       372000
+      ],
+      [
+       "2026-11-16",
+       372000
+      ]
+     ]
+    },
+    {
+     "ticker": "1633.T",
+     "label": "부동산",
+     "close": 51700.0,
+     "d1": -1.99,
+     "w1": -1.56,
+     "w1_prev": 3.88,
+     "name": "부동산",
+     "holdings": [
+      {
+       "symbol": "8802.T",
+       "name": "Mitsubishi Estate Co Ltd",
+       "pct": 24.19
+      },
+      {
+       "symbol": "8801.T",
+       "name": "Mitsui Fudosan Co Ltd",
+       "pct": 23.98
+      },
+      {
+       "symbol": "8830.T",
+       "name": "Sumitomo Realty & Development Co Ltd",
+       "pct": 12.24
+      },
+      {
+       "symbol": "1878.T",
+       "name": "Daito Trust Construction Co Ltd",
+       "pct": 5.81
+      },
+      {
+       "symbol": "3003.T",
+       "name": "Hulic Co Ltd",
+       "pct": 5.57
+      },
+      {
+       "symbol": "3289.T",
+       "name": "Tokyu Fudosan Holdings Corp",
+       "pct": 3.92
+      },
+      {
+       "symbol": "8804.T",
+       "name": "Tokyo Tatemono Co Ltd",
+       "pct": 3.03
+      },
+      {
+       "symbol": "3231.T",
+       "name": "Nomura Real Estate Holdings Inc",
+       "pct": 2.62
+      },
+      {
+       "symbol": "3288.T",
+       "name": "Open House Group Co Ltd",
+       "pct": 2.53
+      },
+      {
+       "symbol": "9706.T",
+       "name": "Japan Airport Terminal Co Ltd",
+       "pct": 2.37
+      }
+     ],
+     "shares": [
+      [
+       "2026-11-13",
+       86000
+      ],
+      [
+       "2026-11-16",
+       86000
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

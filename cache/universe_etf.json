@@ -3951,6 +3951,14 @@
 "small": false,
 "market": "ETF"
 },
+"HCOP": {
+"name": "Hartford Hybrid and Credit Opportunities ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "HCOW": {
 "name": "Amplify COWS Covered Call ETF",
 "name_local": "",
