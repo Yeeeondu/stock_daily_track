@@ -155,10 +155,11 @@ def quote_batch(tickers):
         for attempt in range(3):
             try:
                 r = yd.get_raw_json("https://query1.finance.yahoo.com/v7/finance/quote",
-                                    params={"symbols": ",".join(part), "fields": "marketCap,currency,trailingPE,regularMarketPrice"})
+                                    params={"symbols": ",".join(part), "fields": "marketCap,currency,trailingPE,regularMarketPrice,shortName,longName"})
                 for x in r["quoteResponse"]["result"]:
                     out[x["symbol"]] = {"mcap": x.get("marketCap"), "cur": x.get("currency"),
-                                        "pe": x.get("trailingPE"), "px": x.get("regularMarketPrice")}
+                                        "pe": x.get("trailingPE"), "px": x.get("regularMarketPrice"),
+                                        "name": x.get("shortName") or x.get("longName")}
                 break
             except Exception as e:  # noqa: BLE001
                 log("  시총 조회 오류:", repr(e)[:120])
@@ -182,6 +183,11 @@ def market_caps(market, tickers):
             cache[t] = [m, m / fx]
     write_json(cpath, cache)
     log(f"  시총 {sum(1 for t in tickers if t in cache)}/{len(tickers)} (환율 {fx})")
+    if market in ("jp", "tw"):  # 영문명도 같이 저장
+        npath = CACHE / "names.json"
+        names = read_json(npath, {})
+        names.update({t: q[t]["name"].strip() for t in tickers if q.get(t, {}).get("name")})
+        write_json(npath, dict(sorted(names.items())))
     return {t: cache[t] for t in tickers if t in cache}, {t: q[t].get("pe") for t in q if t in tickers}
 
 
@@ -310,7 +316,13 @@ def fundamentals(tickers, closes):
     today = dt.date.today()
     cache = {t: v for t, v in cache.items() if any(v.get(k) for k in ("shares", "eps", "rev", "mcap"))}  # 빈 기록 제거
     fresh = lambda t: t in cache and (today - dt.date.fromisoformat(cache[t]["at"])).days < 7  # noqa: E731
-    for t in [t for t in tickers if not fresh(t)]:
+    todo = [t for t in tickers if not fresh(t)][:SETTINGS.get("info_per_run", 150)]
+    fails = 0
+    for t in todo:
+        if fails >= 8:  # 연속 실패면 오늘은 중단 (다음 실행에서 이어서)
+            log("  종목 정보 요청이 막혀 중단 — 다음 실행에서 이어서 받습니다")
+            break
+        got = False
         for attempt in range(2):
             try:
                 i = yf.Ticker(t).info or {}
@@ -318,9 +330,11 @@ def fundamentals(tickers, closes):
                        "eps": i.get("trailingEps"), "rev": i.get("totalRevenue"), "mcap": i.get("marketCap")}
                 if any(rec[k] for k in ("shares", "eps", "rev", "mcap")):  # 빈 응답은 저장하지 않음
                     cache[t] = rec
+                    got = True
                 break
             except Exception:  # noqa: BLE001
-                time.sleep(15 * (attempt + 1))
+                time.sleep(5 * (attempt + 1))
+        fails = 0 if got else fails + 1
         time.sleep(0.35)
     write_json(cpath, cache)
     out = {}
@@ -409,6 +423,11 @@ def run_stocks(market):
         names = read_json(CACHE / "names.json", {})
         for r in every:
             r["name"] = names.get(r["ticker"], r["name"])
+    if market == "us":
+        qq = quote_batch(sorted(shown))
+        for r in every:
+            if qq.get(r["ticker"], {}).get("pe"):
+                r["per"] = round(qq[r["ticker"]]["pe"], 1)
     if market != "kr":
         rs = rs_ratings(hist, trade_date)
         for r in every:
@@ -693,26 +712,6 @@ def run_meta():
     미국: 시가총액·PER·PSR / ETF: 상승률 상위 ETF 구성종목. 최신 날짜 파일을 보완한다."""
     log("===== 보조 정보 =====")
     idx = read_json(DATA / "index.json", {})
-    for mk in ("us", "jp", "tw"):
-        if not idx.get(mk):
-            continue
-        p = DATA / mk / f"{idx[mk][0]}.json"
-        day = read_json(p, None)
-        if day:
-            every = day["newhigh"] + day["top_d1"] + day["top_w1"]
-            if mk in ("jp", "tw"):
-                names = english_names(sorted({r["ticker"] for r in every}))
-                for r in every:
-                    r["name"] = names.get(r["ticker"], r["name"])
-            fu = fundamentals(sorted({r["ticker"] for r in every}), {r["ticker"]: r["close"] for r in every})
-            for r in every:
-                f = fu.get(r["ticker"], {})
-                if f.get("mcap") and not r.get("mcap"):
-                    r["mcap"] = f["mcap"]
-                r["per"] = f.get("per") or r.get("per")
-                r["psr"] = f.get("psr")
-            write_json(p, day)
-            log(f"[{mk}] 재무 정보 {sum(1 for t in fu.values() if t.get('per') or t.get('psr'))}/{len({r['ticker'] for r in every})}")
     if idx.get("etf"):
         p = DATA / "etf" / f"{idx['etf'][0]}.json"
         day = read_json(p, None)
@@ -721,13 +720,17 @@ def run_meta():
             meta = read_json(mpath, {})
             week_ago = (dt.date.today() - dt.timedelta(days=7)).isoformat()
             tops = [r for k in ("top_d1", "top_w1") for r in day[k]]
-            for t in sorted({r["ticker"] for r in tops}):
+            fails = 0
+            for t in list(dict.fromkeys(r["ticker"] for r in tops)):
                 m = meta.get(t, {})
                 if m.get("holdings") and m.get("at", "") >= week_ago:
                     continue
+                if fails >= 8:
+                    break
                 h = etf_holdings(t)
                 if h:
                     meta[t] = {"holdings": h, "at": dt.date.today().isoformat()}
+                fails = 0 if h else fails + 1
                 time.sleep(0.6)
             write_json(mpath, meta)
             for r in tops:
@@ -735,6 +738,23 @@ def run_meta():
             write_json(p, day)
             log(f"ETF 구성종목 {sum(1 for r in tops if r['holdings'])}/{len(tops)}")
 
+    for mk in ("us", "jp", "tw"):
+        if not idx.get(mk):
+            continue
+        p = DATA / mk / f"{idx[mk][0]}.json"
+        day = read_json(p, None)
+        if day:
+            every = day["newhigh"] + day["top_d1"] + day["top_w1"]
+            order = list(dict.fromkeys(r["ticker"] for r in every))  # 신고가 → 일간 → 주간 순으로 우선
+            fu = fundamentals(order, {r["ticker"]: r["close"] for r in every})
+            for r in every:
+                f = fu.get(r["ticker"], {})
+                if f.get("mcap") and not r.get("mcap"):
+                    r["mcap"] = f["mcap"]
+                r["per"] = f.get("per") or r.get("per")
+                r["psr"] = f.get("psr")
+            write_json(p, day)
+            log(f"[{mk}] 재무 정보 {sum(1 for t in fu.values() if t.get('per') or t.get('psr'))}/{len({r['ticker'] for r in every})}")
 
 # ---------------------------------------------------------------- 실행
 JOBS = {"etf": run_etf, "macro_us": run_macro_us, "macro_kr": run_macro_kr,
