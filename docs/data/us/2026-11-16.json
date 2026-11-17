@@ -3317,8 +3317,9 @@
    "w1_prev": 0.87,
    "cap": "U",
    "rs": 62,
-   "per": null,
-   "psr": null
+   "per": 9.6,
+   "psr": 4.32,
+   "mcap": 1227674348.47
   },
   {
    "ticker": "CFR",
@@ -3333,8 +3334,9 @@
    "w1_prev": 1.89,
    "cap": "U",
    "rs": 63,
-   "per": null,
-   "psr": null
+   "per": 14.5,
+   "psr": 4.23,
+   "mcap": 9703892731.5
   },
   {
    "ticker": "MOG-A",
@@ -3349,8 +3351,9 @@
    "w1_prev": 4.93,
    "cap": "U",
    "rs": 60,
-   "per": null,
-   "psr": null
+   "per": 27.8,
+   "psr": 2.17,
+   "mcap": 9373122037.92
   }
  ],
  "top_w1": [
@@ -3387,8 +3390,8 @@
    "mcap": 10180765198.0,
    "mcap_usd": 10180765198,
    "rs": 41,
-   "per": null,
-   "psr": null
+   "per": 272.0,
+   "psr": 8.44
   },
   {
    "ticker": "AMD",
@@ -3405,8 +3408,8 @@
    "mcap": 875904997269.0,
    "mcap_usd": 875904997269,
    "rs": 95,
-   "per": null,
-   "psr": null
+   "per": 107.8,
+   "psr": 18.2
   },
   {
    "ticker": "AVGO",
@@ -3423,8 +3426,8 @@
    "mcap": 1656497299454.0,
    "mcap_usd": 1656497299454,
    "rs": 35,
-   "per": null,
-   "psr": null
+   "per": 42.6,
+   "psr": 17.86
   },
   {
    "ticker": "CHTR",
@@ -3441,8 +3444,8 @@
    "mcap": 15839319783.0,
    "mcap_usd": 15839319783,
    "rs": 24,
-   "per": null,
-   "psr": null
+   "per": 13.1,
+   "psr": 0.29
   },
   {
    "ticker": "MPWR",
@@ -3459,8 +3462,8 @@
    "mcap": 67813854720.0,
    "mcap_usd": 67813854720,
    "rs": 64,
-   "per": null,
-   "psr": null
+   "per": 72.0,
+   "psr": 17.14
   },
   {
    "ticker": "ALAB",
@@ -3477,8 +3480,8 @@
    "mcap": 38771907697.0,
    "mcap_usd": 38771907697,
    "rs": 62,
-   "per": null,
-   "psr": null
+   "per": 80.0,
+   "psr": 22.72
   },
   {
    "ticker": "CLS",
@@ -3495,8 +3498,8 @@
    "mcap": 30289534045.0,
    "mcap_usd": 30289534045,
    "rs": 20,
-   "per": null,
-   "psr": null
+   "per": 22.5,
+   "psr": 1.65
   },
   {
    "ticker": "RKLB",
@@ -3514,7 +3517,7 @@
    "mcap_usd": 38888246900,
    "rs": 22,
    "per": null,
-   "psr": null
+   "psr": 41.11
   },
   {
    "ticker": "ANET",
@@ -3531,8 +3534,8 @@
    "mcap": 249382986906.0,
    "mcap_usd": 249382986906,
    "rs": 80,
-   "per": null,
-   "psr": null
+   "per": 52.8,
+   "psr": 19.87
   },
   {
    "ticker": "CIEN",
@@ -3549,8 +3552,8 @@
    "mcap": 39792890200.0,
    "mcap_usd": 39792890200,
    "rs": 21,
-   "per": null,
-   "psr": null
+   "per": 57.6,
+   "psr": 6.07
   },
   {
    "ticker": "ENTG",
@@ -3567,8 +3570,8 @@
    "mcap": 22524248000.0,
    "mcap_usd": 22524248000,
    "rs": 75,
-   "per": null,
-   "psr": null
+   "per": 54.5,
+   "psr": 6.07
   },
   {
    "ticker": "STX",
@@ -3585,8 +3588,8 @@
    "mcap": 121274838274.0,
    "mcap_usd": 121274838274,
    "rs": 47,
-   "per": null,
-   "psr": null
+   "per": 26.2,
+   "psr": 8.3
   },
   {
    "ticker": "CRWV",
@@ -3604,7 +3607,7 @@
    "mcap_usd": 29546959716,
    "rs": 6,
    "per": null,
-   "psr": null
+   "psr": 2.35
   },
   {
    "ticker": "TER",
@@ -3621,8 +3624,8 @@
    "mcap": 38960931612.0,
    "mcap_usd": 38960931612,
    "rs": 22,
-   "per": null,
-   "psr": null
+   "per": 26.7,
+   "psr": 7.24
   },
   {
    "ticker": "SOLS",
@@ -3639,8 +3642,8 @@
    "mcap": 10394793436.0,
    "mcap_usd": 10394793436,
    "rs": 58,
-   "per": null,
-   "psr": null
+   "per": 31.8,
+   "psr": 2.45
   },
   {
    "ticker": "VG",
@@ -3657,8 +3660,8 @@
    "mcap": 33081908412.0,
    "mcap_usd": 33081908412,
    "rs": 72,
-   "per": null,
-   "psr": null
+   "per": 6.0,
+   "psr": 0.37
   },
   {
    "ticker": "NET",
@@ -3676,7 +3679,7 @@
    "mcap_usd": 109628606882,
    "rs": 85,
    "per": null,
-   "psr": null
+   "psr": 34.93
   },
   {
    "ticker": "COHR",
@@ -3693,8 +3696,8 @@
    "mcap": 42978351162.0,
    "mcap_usd": 42978351162,
    "rs": 28,
-   "per": null,
-   "psr": null
+   "per": 42.1,
+   "psr": 5.07
   },
   {
    "ticker": "UI",
@@ -3711,8 +3714,8 @@
    "mcap": 40503111105.0,
    "mcap_usd": 40503111105,
    "rs": 69,
-   "per": null,
-   "psr": null
+   "per": 37.8,
+   "psr": 11.35
   },
   {
    "ticker": "MU",
@@ -3729,8 +3732,8 @@
    "mcap": 880598000132.0,
    "mcap_usd": 880598000132,
    "rs": 94,
-   "per": null,
-   "psr": null
+   "per": 9.7,
+   "psr": 6.11
   },
   {
    "ticker": "LRCX",
@@ -3747,8 +3750,8 @@
    "mcap": 282212712320.0,
    "mcap_usd": 282212712320,
    "rs": 29,
-   "per": null,
-   "psr": null
+   "per": 31.4,
+   "psr": 10.08
   },
   {
    "ticker": "FROG",
@@ -3783,8 +3786,8 @@
    "mcap": 79155117526.0,
    "mcap_usd": 79155117526,
    "rs": 87,
-   "per": null,
-   "psr": null
+   "per": 31.5,
+   "psr": 0.09
   },
   {
    "ticker": "TRGP",
@@ -3801,8 +3804,8 @@
    "mcap": 63823381652.0,
    "mcap_usd": 63823381652,
    "rs": 81,
-   "per": null,
-   "psr": null
+   "per": 25.9,
+   "psr": 3.45
   },
   {
    "ticker": "ON",
@@ -3819,8 +3822,8 @@
    "mcap": 27662555788.0,
    "mcap_usd": 27662555788,
    "rs": 40,
-   "per": null,
-   "psr": null
+   "per": 39.6,
+   "psr": 4.14
   },
   {
    "ticker": "MKSI",
@@ -3837,8 +3840,8 @@
    "mcap": 14582355434.0,
    "mcap_usd": 14582355434,
    "rs": 27,
-   "per": null,
-   "psr": null
+   "per": 24.2,
+   "psr": 2.9
   },
   {
    "ticker": "CEG",
@@ -3855,8 +3858,8 @@
    "mcap": 98520702821.0,
    "mcap_usd": 98520702821,
    "rs": 47,
-   "per": null,
-   "psr": null
+   "per": 22.3,
+   "psr": 2.85
   },
   {
    "ticker": "WDC",
@@ -3873,8 +3876,8 @@
    "mcap": 110668674480.0,
    "mcap_usd": 110668674480,
    "rs": 35,
-   "per": null,
-   "psr": null
+   "per": 9.9,
+   "psr": 7.26
   },
   {
    "ticker": "STM",
@@ -3891,8 +3894,8 @@
    "mcap": 41717562975.0,
    "mcap_usd": 41717562975,
    "rs": 72,
-   "per": null,
-   "psr": null
+   "per": 78.1,
+   "psr": 2.91
   },
   {
    "ticker": "P",
@@ -3909,8 +3912,8 @@
    "mcap": 35988543108.0,
    "mcap_usd": 35988543108,
    "rs": 75,
-   "per": null,
-   "psr": null
+   "per": 142.0,
+   "psr": 8.11
   },
   {
    "ticker": "AMAT",
@@ -3927,8 +3930,8 @@
    "mcap": 294027852632.0,
    "mcap_usd": 294027852632,
    "rs": 43,
-   "per": null,
-   "psr": null
+   "per": 27.8,
+   "psr": 8.07
   },
   {
    "ticker": "PWR",
@@ -3945,8 +3948,8 @@
    "mcap": 90703120976.0,
    "mcap_usd": 90703120976,
    "rs": 50,
-   "per": null,
-   "psr": null
+   "per": 53.0,
+   "psr": 2.37
   },
   {
    "ticker": "MPC",
@@ -3963,8 +3966,8 @@
    "mcap": 112915461516.0,
    "mcap_usd": 112915461516,
    "rs": 95,
-   "per": null,
-   "psr": null
+   "per": 8.0,
+   "psr": 0.62
   },
   {
    "ticker": "UMC",
@@ -3981,8 +3984,8 @@
    "mcap": 38758933386.0,
    "mcap_usd": 38758933386,
    "rs": 76,
-   "per": null,
-   "psr": null
+   "per": 13.5,
+   "psr": 0.14
   },
   {
    "ticker": "LNG",
@@ -3999,8 +4002,8 @@
    "mcap": 63031622134.0,
    "mcap_usd": 63031622134,
    "rs": 85,
-   "per": null,
-   "psr": null
+   "per": 21.7,
+   "psr": 2.75
   },
   {
    "ticker": "TLN",
@@ -4018,7 +4021,7 @@
    "mcap_usd": 16358432365,
    "rs": 62,
    "per": null,
-   "psr": null
+   "psr": 3.49
   },
   {
    "ticker": "ZM",
@@ -4035,8 +4038,8 @@
    "mcap": 29120014358.0,
    "mcap_usd": 29120014358,
    "rs": 52,
-   "per": null,
-   "psr": null
+   "per": 8.9,
+   "psr": 5.07
   },
   {
    "ticker": "SMTC",
@@ -4053,8 +4056,8 @@
    "mcap": 10694183483.0,
    "mcap_usd": 10694183483,
    "rs": 55,
-   "per": null,
-   "psr": null
+   "per": 69.7,
+   "psr": 8.37
   },
   {
    "ticker": "MRVL",
@@ -4071,8 +4074,8 @@
    "mcap": 137462844000.0,
    "mcap_usd": 137462844000,
    "rs": 73,
-   "per": null,
-   "psr": null
+   "per": 47.8,
+   "psr": 13.5
   },
   {
    "ticker": "BE",
@@ -4089,8 +4092,8 @@
    "mcap": 56757214587.0,
    "mcap_usd": 56757214587,
    "rs": 62,
-   "per": null,
-   "psr": null
+   "per": 116.6,
+   "psr": 13.69
   },
   {
    "ticker": "LITE",
@@ -4108,7 +4111,7 @@
    "mcap_usd": 54113434000,
    "rs": 58,
    "per": null,
-   "psr": null
+   "psr": 13.23
   },
   {
    "ticker": "SKM",
@@ -4125,8 +4128,8 @@
    "mcap": 13256524800.0,
    "mcap_usd": 13256524800,
    "rs": 61,
-   "per": null,
-   "psr": null
+   "per": 14.4,
+   "psr": 0.0
   },
   {
    "ticker": "VRT",
@@ -4143,8 +4146,8 @@
    "mcap": 77816860480.0,
    "mcap_usd": 77816860480,
    "rs": 20,
-   "per": null,
-   "psr": null
+   "per": 37.7,
+   "psr": 5.54
   },
   {
    "ticker": "DVN",
@@ -4161,8 +4164,8 @@
    "mcap": 53110686846.0,
    "mcap_usd": 53110686846,
    "rs": 51,
-   "per": null,
-   "psr": null
+   "per": 10.4,
+   "psr": 2.28
   },
   {
    "ticker": "MFG",
@@ -4179,8 +4182,8 @@
    "mcap": 128849664740.0,
    "mcap_usd": 128849664740,
    "rs": 74,
-   "per": null,
-   "psr": null
+   "per": 13.5,
+   "psr": 0.03
   },
   {
    "ticker": "KLAC",
@@ -4197,8 +4200,8 @@
    "mcap": 198467238099.0,
    "mcap_usd": 198467238099,
    "rs": 35,
-   "per": null,
-   "psr": null
+   "per": 36.1,
+   "psr": 12.93
   },
   {
    "ticker": "MTSI",
@@ -4215,8 +4218,8 @@
    "mcap": 17819321638.0,
    "mcap_usd": 17819321638,
    "rs": 30,
-   "per": null,
-   "psr": null
+   "per": 51.1,
+   "psr": 12.75
   },
   {
    "ticker": "NRG",
@@ -4233,8 +4236,8 @@
    "mcap": 20392016182.0,
    "mcap_usd": 20392016182,
    "rs": 14,
-   "per": null,
-   "psr": null
+   "per": 16.4,
+   "psr": 0.56
   },
   {
    "ticker": "WCC",
@@ -4251,8 +4254,8 @@
    "mcap": 15664870518.0,
    "mcap_usd": 15664870518,
    "rs": 48,
-   "per": null,
-   "psr": null
+   "per": 19.3,
+   "psr": 0.58
   },
   {
    "ticker": "FRMI",
@@ -4486,7 +4489,7 @@
    "mcap_usd": 2976012884,
    "rs": 16,
    "per": null,
-   "psr": null
+   "psr": 2.94
   },
   {
    "ticker": "CORZ",
@@ -4504,7 +4507,7 @@
    "mcap_usd": 4678869624,
    "rs": 17,
    "per": null,
-   "psr": null
+   "psr": 7.39
   },
   {
    "ticker": "AMBQ",
@@ -4521,8 +4524,8 @@
    "mcap": 1179850950.0,
    "mcap_usd": 1179850950,
    "rs": 58,
-   "per": null,
-   "psr": null
+   "per": 733.8,
+   "psr": 9.3
   },
   {
    "ticker": "HAWK",
@@ -4575,8 +4578,8 @@
    "mcap": 4329964752.0,
    "mcap_usd": 4329964752,
    "rs": 31,
-   "per": null,
-   "psr": null
+   "per": 32.6,
+   "psr": 10.52
   },
   {
    "ticker": "TTD",
@@ -4593,8 +4596,8 @@
    "mcap": 7414880861.0,
    "mcap_usd": 7414880861,
    "rs": 19,
-   "per": null,
-   "psr": null
+   "per": 21.8,
+   "psr": 2.13
   },
   {
    "ticker": "DPC",
@@ -4612,7 +4615,7 @@
    "mcap_usd": 5116710798,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 4.57
   },
   {
    "ticker": "OIG",
@@ -4629,8 +4632,8 @@
    "mcap": 1056950919.0,
    "mcap_usd": 1056950919,
    "rs": null,
-   "per": null,
-   "psr": null
+   "per": 24.3,
+   "psr": 2.66
   },
   {
    "ticker": "TNDM",
@@ -4719,8 +4722,8 @@
    "mcap": 1845154673.0,
    "mcap_usd": 1845154673,
    "rs": null,
-   "per": null,
-   "psr": null
+   "per": 26.7,
+   "psr": 1.3
   },
   {
    "ticker": "ZETA",
@@ -4737,8 +4740,8 @@
    "mcap": 9362571507.0,
    "mcap_usd": 9362571507,
    "rs": 96,
-   "per": null,
-   "psr": null
+   "per": 224.1,
+   "psr": 4.81
   },
   {
    "ticker": "AMRC",
@@ -4755,8 +4758,8 @@
    "mcap": 1351153380.0,
    "mcap_usd": 1351153380,
    "rs": 28,
-   "per": null,
-   "psr": null
+   "per": 35.8,
+   "psr": 0.42
   },
   {
    "ticker": "CSQR",
@@ -4774,7 +4777,7 @@
    "mcap_usd": 2809448970,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 2.46
   },
   {
    "ticker": "SANM",
@@ -4791,8 +4794,8 @@
    "mcap": 8484997428.0,
    "mcap_usd": 8484997428,
    "rs": 28,
-   "per": null,
-   "psr": null
+   "per": 22.5,
+   "psr": 0.57
   },
   {
    "ticker": "ONTO",
@@ -4809,8 +4812,8 @@
    "mcap": 9990623918.0,
    "mcap_usd": 9990623918,
    "rs": 32,
-   "per": null,
-   "psr": null
+   "per": 64.7,
+   "psr": 7.36
   },
   {
    "ticker": "ANRO",
@@ -4846,7 +4849,7 @@
    "mcap_usd": 2861759352,
    "rs": 17,
    "per": null,
-   "psr": null
+   "psr": 7.46
   },
   {
    "ticker": "TARS",
@@ -4864,7 +4867,7 @@
    "mcap_usd": 3958249715,
    "rs": 76,
    "per": null,
-   "psr": null
+   "psr": 5.69
   },
   {
    "ticker": "GEO",
@@ -4881,8 +4884,8 @@
    "mcap": 4305983999.0,
    "mcap_usd": 4305983999,
    "rs": 95,
-   "per": null,
-   "psr": null
+   "per": 25.9,
+   "psr": 1.48
   },
   {
    "ticker": "SENEA",
@@ -4899,8 +4902,8 @@
    "mcap": 1192878435.0,
    "mcap_usd": 1192878435,
    "rs": 81,
-   "per": null,
-   "psr": null
+   "per": 10.4,
+   "psr": 0.1
   },
   {
    "ticker": "ACCV",
@@ -4918,7 +4921,7 @@
    "mcap_usd": 3054594966,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 1.67
   },
   {
    "ticker": "GRDN",
@@ -4935,8 +4938,8 @@
    "mcap": 3134118373.0,
    "mcap_usd": 3134118373,
    "rs": 92,
-   "per": null,
-   "psr": null
+   "per": 42.2,
+   "psr": 2.15
   },
   {
    "ticker": "WWW",
@@ -5008,7 +5011,7 @@
    "mcap_usd": 1291907136,
    "rs": 4,
    "per": null,
-   "psr": null
+   "psr": 174.41
   },
   {
    "ticker": "SGRY",
@@ -5026,7 +5029,7 @@
    "mcap_usd": 3527248960,
    "rs": 97,
    "per": null,
-   "psr": null
+   "psr": 1.04
   },
   {
    "ticker": "SECZ",
@@ -5044,7 +5047,7 @@
    "mcap_usd": 1319186735,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 17.92
   },
   {
    "ticker": "ATEN",
@@ -5061,8 +5064,8 @@
    "mcap": 2065357251.0,
    "mcap_usd": 2065357251,
    "rs": 86,
-   "per": null,
-   "psr": null
+   "per": 45.4,
+   "psr": 6.41
   },
   {
    "ticker": "NBR",
@@ -5080,7 +5083,7 @@
    "mcap_usd": 1384004579,
    "rs": 58,
    "per": null,
-   "psr": null
+   "psr": 0.37
   },
   {
    "ticker": "STRL",
@@ -5097,8 +5100,8 @@
    "mcap": 8918636793.0,
    "mcap_usd": 8918636793,
    "rs": 7,
-   "per": null,
-   "psr": null
+   "per": 15.4,
+   "psr": 1.95
   },
   {
    "ticker": "CHA",
@@ -5115,8 +5118,8 @@
    "mcap": 2741268995.0,
    "mcap_usd": 2741268995,
    "rs": 86,
-   "per": null,
-   "psr": null
+   "per": 14.1,
+   "psr": 0.13
   },
   {
    "ticker": "FUN",
@@ -5134,7 +5137,7 @@
    "mcap_usd": 1183213080,
    "rs": 15,
    "per": null,
-   "psr": null
+   "psr": 0.41
   },
   {
    "ticker": "PRCT",
@@ -5152,7 +5155,7 @@
    "mcap_usd": 1369359680,
    "rs": 42,
    "per": null,
-   "psr": null
+   "psr": 3.84
   },
   {
    "ticker": "BGIN",
@@ -5656,7 +5659,7 @@
    "mcap_usd": 114913831,
    "rs": 1,
    "per": null,
-   "psr": null
+   "psr": 14.37
   },
   {
    "ticker": "LINC",
@@ -5890,7 +5893,7 @@
    "mcap_usd": 705330154,
    "rs": null,
    "per": null,
-   "psr": null
+   "psr": 0.18
   },
   {
    "ticker": "AIFU",
@@ -5908,7 +5911,7 @@
    "mcap_usd": 687602315,
    "rs": 3,
    "per": null,
-   "psr": null
+   "psr": 1.26
   },
   {
    "ticker": "SJT",
@@ -5944,7 +5947,7 @@
    "mcap_usd": 159452586,
    "rs": 17,
    "per": null,
-   "psr": null
+   "psr": 0.46
   },
   {
    "ticker": "SENS",
@@ -5962,7 +5965,7 @@
    "mcap_usd": 579577775,
    "rs": 94,
    "per": null,
-   "psr": null
+   "psr": 9.95
   },
   {
    "ticker": "TDUP",
@@ -5980,7 +5983,7 @@
    "mcap_usd": 210309398,
    "rs": 3,
    "per": null,
-   "psr": null
+   "psr": 0.53
   },
   {
    "ticker": "PANL",
@@ -5997,8 +6000,8 @@
    "mcap": 607596604.0,
    "mcap_usd": 607596604,
    "rs": 82,
-   "per": null,
-   "psr": null
+   "per": 8.2,
+   "psr": 0.8
   },
   {
    "ticker": "AMPY",
@@ -6015,8 +6018,8 @@
    "mcap": 162606041.0,
    "mcap_usd": 162606041,
    "rs": 21,
-   "per": null,
-   "psr": null
+   "per": 6.9,
+   "psr": 0.81
   },
   {
    "ticker": "GTN",
@@ -6033,8 +6036,8 @@
    "mcap": 616876454.0,
    "mcap_usd": 616876454,
    "rs": 84,
-   "per": null,
-   "psr": null
+   "per": 18.2,
+   "psr": 0.16
   },
   {
    "ticker": "EML",
@@ -6051,8 +6054,8 @@
    "mcap": 191957344.0,
    "mcap_usd": 191957344,
    "rs": 92,
-   "per": null,
-   "psr": null
+   "per": 16.6,
+   "psr": 0.71
   },
   {
    "ticker": "MOG-A",
@@ -6067,8 +6070,9 @@
    "w1_prev": 4.93,
    "cap": "U",
    "rs": 60,
-   "per": null,
-   "psr": null
+   "per": 27.8,
+   "psr": 2.17,
+   "mcap": 9373122037.92
   },
   {
    "ticker": "CFR",
@@ -6083,8 +6087,9 @@
    "w1_prev": 1.89,
    "cap": "U",
    "rs": 63,
-   "per": null,
-   "psr": null
+   "per": 14.5,
+   "psr": 4.23,
+   "mcap": 9703892731.5
   },
   {
    "ticker": "PFBC",
@@ -6099,8 +6104,9 @@
    "w1_prev": 0.87,
    "cap": "U",
    "rs": 62,
-   "per": null,
-   "psr": null
+   "per": 9.6,
+   "psr": 4.32,
+   "mcap": 1227674348.47
   },
   {
    "ticker": "IBOC",

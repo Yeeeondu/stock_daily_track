@@ -3106,7 +3106,7 @@
    "mcap_usd": 13190385595,
    "per": 24.7,
    "rs": 77,
-   "psr": null
+   "psr": 4.84
   },
   {
    "ticker": "2454.TW",
@@ -3250,7 +3250,7 @@
    "mcap_usd": 14615472340,
    "per": 29.0,
    "rs": 27,
-   "psr": null
+   "psr": 9.26
   },
   {
    "ticker": "3711.TW",
@@ -3304,7 +3304,7 @@
    "mcap_usd": 15557473396,
    "per": 63.4,
    "rs": 94,
-   "psr": null
+   "psr": 9.79
   },
   {
    "ticker": "7769.TW",
@@ -3916,7 +3916,7 @@
    "mcap_usd": 19398916988,
    "per": 79.2,
    "rs": 91,
-   "psr": null
+   "psr": 23.34
   },
   {
    "ticker": "1802.TW",
@@ -4186,7 +4186,7 @@
    "mcap_usd": 1191033373,
    "per": 56.0,
    "rs": 65,
-   "psr": null
+   "psr": 15.5
   },
   {
    "ticker": "6278.TW",
@@ -4204,7 +4204,7 @@
    "mcap_usd": 1664771416,
    "per": 17.7,
    "rs": 93,
-   "psr": null
+   "psr": 1.05
   },
   {
    "ticker": "4991.TWO",
@@ -4222,7 +4222,7 @@
    "mcap_usd": 1097366401,
    "per": 67.0,
    "rs": 60,
-   "psr": null
+   "psr": 11.96
   },
   {
    "ticker": "6515.TW",
@@ -4240,7 +4240,7 @@
    "mcap_usd": 3820305767,
    "per": 43.3,
    "rs": 12,
-   "psr": null
+   "psr": 9.45
   },
   {
    "ticker": "8021.TW",
@@ -4258,7 +4258,7 @@
    "mcap_usd": 1442219966,
    "per": 44.6,
    "rs": 90,
-   "psr": null
+   "psr": 6.94
   },
   {
    "ticker": "8358.TWO",
@@ -4276,7 +4276,7 @@
    "mcap_usd": 2452812057,
    "per": 39.3,
    "rs": 66,
-   "psr": null
+   "psr": 7.56
   },
   {
    "ticker": "3529.TWO",
@@ -4312,7 +4312,7 @@
    "mcap_usd": 4752301352,
    "per": 18.6,
    "rs": 49,
-   "psr": null
+   "psr": 1.71
   },
   {
    "ticker": "6488.TWO",
@@ -4330,7 +4330,7 @@
    "mcap_usd": 8765773209,
    "per": 26.5,
    "rs": 28,
-   "psr": null
+   "psr": 4.92
   },
   {
    "ticker": "2455.TW",
@@ -4346,9 +4346,9 @@
    "cap": "M",
    "mcap": 60582817792,
    "mcap_usd": 1841702927,
-   "per": 72.3,
+   "per": 65.2,
    "rs": 93,
-   "psr": null
+   "psr": 14.33
   },
   {
    "ticker": "5469.TW",
@@ -4366,7 +4366,7 @@
    "mcap_usd": 1005664127,
    "per": 13.2,
    "rs": 30,
-   "psr": null
+   "psr": 0.52
   },
   {
    "ticker": "3035.TW",
@@ -4384,7 +4384,7 @@
    "mcap_usd": 1437600993,
    "per": 71.7,
    "rs": 78,
-   "psr": null
+   "psr": 3.82
   },
   {
    "ticker": "8996.TW",
@@ -4402,7 +4402,7 @@
    "mcap_usd": 3312314605,
    "per": 65.9,
    "rs": 90,
-   "psr": null
+   "psr": 11.11
   },
   {
    "ticker": "6789.TW",
@@ -4420,7 +4420,7 @@
    "mcap_usd": 3347816011,
    "per": 57.6,
    "rs": 59,
-   "psr": null
+   "psr": 11.25
   },
   {
    "ticker": "6526.TW",
@@ -4438,7 +4438,7 @@
    "mcap_usd": 3360804421,
    "per": 34.4,
    "rs": 88,
-   "psr": null
+   "psr": 4.76
   },
   {
    "ticker": "1815.TWO",
@@ -4456,7 +4456,7 @@
    "mcap_usd": 2202894421,
    "per": 28.2,
    "rs": 93,
-   "psr": null
+   "psr": 10.09
   },
   {
    "ticker": "6147.TWO",
@@ -4474,7 +4474,7 @@
    "mcap_usd": 3202849114,
    "per": 26.4,
    "rs": 95,
-   "psr": null
+   "psr": 4.15
   },
   {
    "ticker": "3081.TWO",
@@ -4492,7 +4492,7 @@
    "mcap_usd": 5295515997,
    "per": 109.0,
    "rs": 97,
-   "psr": null
+   "psr": 40.23
   },
   {
    "ticker": "8150.TW",
@@ -4510,7 +4510,7 @@
    "mcap_usd": 1543259489,
    "per": 15.6,
    "rs": 87,
-   "psr": null
+   "psr": 1.74
   },
   {
    "ticker": "3533.TW",
@@ -4528,7 +4528,7 @@
    "mcap_usd": 5808560573,
    "per": 20.4,
    "rs": 72,
-   "psr": null
+   "psr": 5.22
   },
   {
    "ticker": "3131.TWO",
@@ -4546,7 +4546,7 @@
    "mcap_usd": 1288332518,
    "per": 26.8,
    "rs": 10,
-   "psr": null
+   "psr": 6.08
   },
   {
    "ticker": "6182.TWO",
@@ -4564,7 +4564,7 @@
    "mcap_usd": 1338243451,
    "per": 306.1,
    "rs": 92,
-   "psr": null
+   "psr": 4.32
   },
   {
    "ticker": "4749.TWO",
@@ -4582,7 +4582,7 @@
    "mcap_usd": 1938145890,
    "per": 43.1,
    "rs": 22,
-   "psr": null
+   "psr": 13.03
   },
   {
    "ticker": "6949.TW",
@@ -4618,7 +4618,7 @@
    "mcap_usd": 1310640931,
    "rs": 81,
    "per": null,
-   "psr": null
+   "psr": 1.4
   },
   {
    "ticker": "3406.TW",
@@ -4636,7 +4636,7 @@
    "mcap_usd": 2948398048,
    "per": 24.1,
    "rs": 96,
-   "psr": null
+   "psr": 3.62
   },
   {
    "ticker": "4979.TWO",
@@ -4654,7 +4654,7 @@
    "mcap_usd": 1382655074,
    "per": 46.9,
    "rs": 40,
-   "psr": null
+   "psr": 8.64
   },
   {
    "ticker": "6548.TWO",
@@ -4672,7 +4672,7 @@
    "mcap_usd": 1742713085,
    "per": 24.4,
    "rs": 84,
-   "psr": null
+   "psr": 3.49
   },
   {
    "ticker": "3583.TW",
@@ -4688,9 +4688,9 @@
    "cap": "M",
    "mcap": 36851998720,
    "mcap_usd": 1120291799,
-   "per": 28.6,
+   "per": 25.8,
    "rs": 31,
-   "psr": null
+   "psr": 3.13
   },
   {
    "ticker": "3450.TW",
@@ -4708,7 +4708,7 @@
    "mcap_usd": 1361814970,
    "per": 41.8,
    "rs": 39,
-   "psr": null
+   "psr": 4.09
   },
   {
    "ticker": "6531.TW",
@@ -4726,7 +4726,7 @@
    "mcap_usd": 2981541095,
    "per": 29.9,
    "rs": 64,
-   "psr": null
+   "psr": 10.17
   },
   {
    "ticker": "7799.TW",
@@ -4762,7 +4762,7 @@
    "mcap_usd": 1879945459,
    "per": 31.0,
    "rs": 97,
-   "psr": null
+   "psr": 6.17
   },
   {
    "ticker": "6285.TW",
@@ -4798,7 +4798,7 @@
    "mcap_usd": 2464724886,
    "per": 18.0,
    "rs": 69,
-   "psr": null
+   "psr": 4.59
   },
   {
    "ticker": "2486.TW",
@@ -4816,7 +4816,7 @@
    "mcap_usd": 1029273935,
    "per": 87.2,
    "rs": 70,
-   "psr": null
+   "psr": 4.5
   },
   {
    "ticker": "6108.TW",
@@ -5176,7 +5176,7 @@
    "mcap_usd": 334499787,
    "per": 20.5,
    "rs": 79,
-   "psr": null
+   "psr": 1.15
   },
   {
    "ticker": "5498.TWO",
@@ -5194,7 +5194,7 @@
    "mcap_usd": 250945885,
    "per": 118.5,
    "rs": 60,
-   "psr": null
+   "psr": 4.58
   },
   {
    "ticker": "4927.TW",
@@ -5212,7 +5212,7 @@
    "mcap_usd": 374916020,
    "rs": 94,
    "per": null,
-   "psr": null
+   "psr": 0.99
   },
   {
    "ticker": "6651.TWO",
@@ -5230,7 +5230,7 @@
    "mcap_usd": 141475445,
    "per": 13.0,
    "rs": 90,
-   "psr": null
+   "psr": 2.97
   },
   {
    "ticker": "6756.TW",
@@ -5248,7 +5248,7 @@
    "mcap_usd": 228725490,
    "per": 61.1,
    "rs": 88,
-   "psr": null
+   "psr": 3.89
   },
   {
    "ticker": "8155.TWO",
@@ -5266,7 +5266,7 @@
    "mcap_usd": 431333641,
    "per": 20.0,
    "rs": 43,
-   "psr": null
+   "psr": 2.29
   },
   {
    "ticker": "6163.TWO",
@@ -5302,7 +5302,7 @@
    "mcap_usd": 421993342,
    "per": 17.8,
    "rs": 36,
-   "psr": null
+   "psr": 1.01
   },
   {
    "ticker": "3060.TW",
@@ -5318,9 +5318,9 @@
    "cap": "S",
    "mcap": 3370298368,
    "mcap_usd": 102456251,
-   "per": 35.5,
+   "per": 17.5,
    "rs": 47,
-   "psr": null
+   "psr": 0.74
   },
   {
    "ticker": "1709.TW",
@@ -5338,7 +5338,7 @@
    "mcap_usd": 699681845,
    "per": 24.1,
    "rs": 98,
-   "psr": null
+   "psr": 2.21
   },
   {
    "ticker": "6456.TW",
@@ -5374,7 +5374,7 @@
    "mcap_usd": 403564890,
    "per": 64.7,
    "rs": 66,
-   "psr": null
+   "psr": 11.46
   },
   {
    "ticker": "3016.TW",
@@ -5390,9 +5390,9 @@
    "cap": "S",
    "mcap": 31179681792,
    "mcap_usd": 947854744,
-   "per": 87.9,
+   "per": 59.3,
    "rs": 92,
-   "psr": null
+   "psr": 7.07
   },
   {
    "ticker": "3624.TWO",
@@ -5410,7 +5410,7 @@
    "mcap_usd": 352433219,
    "per": 22.4,
    "rs": 95,
-   "psr": null
+   "psr": 3.43
   },
   {
    "ticker": "8227.TWO",
@@ -5428,7 +5428,7 @@
    "mcap_usd": 275280337,
    "per": 51.3,
    "rs": 94,
-   "psr": null
+   "psr": 4.87
   },
   {
    "ticker": "1528.TW",
@@ -5446,7 +5446,7 @@
    "mcap_usd": 142793010,
    "rs": 89,
    "per": null,
-   "psr": null
+   "psr": 1.59
   },
   {
    "ticker": "6725.TWO",
@@ -5464,7 +5464,7 @@
    "mcap_usd": 174955155,
    "per": 12.1,
    "rs": 3,
-   "psr": null
+   "psr": 1.47
   },
   {
    "ticker": "2340.TW",
@@ -5482,7 +5482,7 @@
    "mcap_usd": 484523367,
    "rs": 90,
    "per": null,
-   "psr": null
+   "psr": 3.65
   },
   {
    "ticker": "3234.TWO",
@@ -5500,7 +5500,7 @@
    "mcap_usd": 455608776,
    "rs": 96,
    "per": null,
-   "psr": null
+   "psr": 21.32
   },
   {
    "ticker": "6269.TW",
@@ -5518,7 +5518,7 @@
    "mcap_usd": 659674154,
    "rs": 83,
    "per": null,
-   "psr": null
+   "psr": 0.96
   },
   {
    "ticker": "1569.TWO",
@@ -5536,7 +5536,7 @@
    "mcap_usd": 370539855,
    "rs": 97,
    "per": null,
-   "psr": null
+   "psr": 3.82
   },
   {
    "ticker": "6533.TW",
@@ -5554,7 +5554,7 @@
    "mcap_usd": 405187165,
    "rs": 61,
    "per": null,
-   "psr": null
+   "psr": 7.48
   },
   {
    "ticker": "6683.TWO",
@@ -5572,7 +5572,7 @@
    "mcap_usd": 670075342,
    "per": 34.9,
    "rs": 62,
-   "psr": null
+   "psr": 8.46
   },
   {
    "ticker": "2468.TW",
@@ -5608,7 +5608,7 @@
    "mcap_usd": 753594333,
    "rs": 34,
    "per": null,
-   "psr": null
+   "psr": 1.59
   },
   {
    "ticker": "6742.TW",
@@ -5626,7 +5626,7 @@
    "mcap_usd": 104258368,
    "rs": 83,
    "per": null,
-   "psr": null
+   "psr": 8.83
   },
   {
    "ticker": "3029.TW",
@@ -5644,7 +5644,7 @@
    "mcap_usd": 617729595,
    "per": 16.6,
    "rs": 85,
-   "psr": null
+   "psr": 0.7
   },
   {
    "ticker": "8099.TWO",
@@ -5680,7 +5680,7 @@
    "mcap_usd": 372501565,
    "per": 23.4,
    "rs": 84,
-   "psr": null
+   "psr": 2.7
   },
   {
    "ticker": "6706.TW",
@@ -5698,7 +5698,7 @@
    "mcap_usd": 256697484,
    "rs": 73,
    "per": null,
-   "psr": null
+   "psr": 12.29
   },
   {
    "ticker": "5475.TWO",
@@ -5716,7 +5716,7 @@
    "mcap_usd": 659031333,
    "per": 133.2,
    "rs": 91,
-   "psr": null
+   "psr": 16.16
   },
   {
    "ticker": "6617.TWO",
