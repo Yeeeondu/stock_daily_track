@@ -15672,9 +15672,9 @@
 "name": "Bright Horizon Energy Corporation",
 "name_local": "",
 "sector": "유틸리티",
-"industry": "Electric Utilities: Central",
+"industry": "복합 유틸리티",
 "small": false,
-"market": "US",
+"market": "S&P400",
 "mcap": 11703643222.0
 },
 "HZO": {
@@ -35295,15 +35295,6 @@
 "industry": "주류",
 "small": false,
 "market": "S&P500",
-"mcap": null
-},
-"BKH": {
-"name": "Black Hills Corporation",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "복합 유틸리티",
-"small": false,
-"market": "S&P400",
 "mcap": null
 },
 "CFR": {
