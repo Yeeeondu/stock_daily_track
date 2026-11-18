@@ -7428,5 +7428,1390 @@
    }
   ],
   "at": "2026-11-17"
+ },
+ "BUG": {
+  "holdings": [
+   {
+    "symbol": "OKTA",
+    "name": "Okta Inc Class A",
+    "pct": 9.26
+   },
+   {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings Inc Class A",
+    "pct": 7.35
+   },
+   {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "pct": 6.67
+   },
+   {
+    "symbol": "QLYS",
+    "name": "Qualys Inc",
+    "pct": 6.33
+   },
+   {
+    "symbol": "NTSK",
+    "name": "Netskope Inc Ordinary Shares - Class A",
+    "pct": 5.98
+   },
+   {
+    "symbol": "TENB",
+    "name": "Tenable Holdings Inc",
+    "pct": 5.96
+   },
+   {
+    "symbol": "ZS",
+    "name": "Zscaler Inc",
+    "pct": 5.96
+   },
+   {
+    "symbol": "RBRK",
+    "name": "Rubrik Inc Class A Shares",
+    "pct": 5.73
+   },
+   {
+    "symbol": "FTNT",
+    "name": "Fortinet Inc",
+    "pct": 5.28
+   },
+   {
+    "symbol": "VRNS",
+    "name": "Varonis Systems Inc",
+    "pct": 4.56
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "RBLY": {
+  "holdings": [
+   {
+    "symbol": "FGXXX",
+    "name": "First American Government Obligs X",
+    "pct": 2.26
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "PSWD": {
+  "holdings": [
+   {
+    "symbol": "ZS",
+    "name": "Zscaler Inc",
+    "pct": 6.87
+   },
+   {
+    "symbol": "RBRK",
+    "name": "Rubrik Inc Class A Shares",
+    "pct": 6.29
+   },
+   {
+    "symbol": "OKTA",
+    "name": "Okta Inc Class A",
+    "pct": 6.01
+   },
+   {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings Inc Class A",
+    "pct": 5.44
+   },
+   {
+    "symbol": "CACI",
+    "name": "CACI International Inc Class A",
+    "pct": 5.42
+   },
+   {
+    "symbol": "BAH",
+    "name": "Booz Allen Hamilton Holding Corp Class A",
+    "pct": 5.34
+   },
+   {
+    "symbol": "S",
+    "name": "SentinelOne Inc Class A",
+    "pct": 4.73
+   },
+   {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "pct": 4.72
+   },
+   {
+    "symbol": "QLYS",
+    "name": "Qualys Inc",
+    "pct": 4.67
+   },
+   {
+    "symbol": "CHKP",
+    "name": "Check Point Software Technologies Ltd",
+    "pct": 4.46
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "SPAM": {
+  "holdings": [
+   {
+    "symbol": "ZS",
+    "name": "Zscaler Inc",
+    "pct": 6.73
+   },
+   {
+    "symbol": "RBRK",
+    "name": "Rubrik Inc Class A Shares",
+    "pct": 5.98
+   },
+   {
+    "symbol": "OKTA",
+    "name": "Okta Inc Class A",
+    "pct": 5.76
+   },
+   {
+    "symbol": "BAH",
+    "name": "Booz Allen Hamilton Holding Corp Class A",
+    "pct": 5.74
+   },
+   {
+    "symbol": "CACI",
+    "name": "CACI International Inc Class A",
+    "pct": 5.55
+   },
+   {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings Inc Class A",
+    "pct": 5.32
+   },
+   {
+    "symbol": "S",
+    "name": "SentinelOne Inc Class A",
+    "pct": 4.87
+   },
+   {
+    "symbol": "QLYS",
+    "name": "Qualys Inc",
+    "pct": 4.79
+   },
+   {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "pct": 4.64
+   },
+   {
+    "symbol": "CHKP",
+    "name": "Check Point Software Technologies Ltd",
+    "pct": 4.52
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "HACK": {
+  "holdings": [
+   {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "pct": 5.99
+   },
+   {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings Inc Class A",
+    "pct": 5.75
+   },
+   {
+    "symbol": "CSCO",
+    "name": "Cisco Systems Inc",
+    "pct": 5.41
+   },
+   {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "pct": 5.26
+   },
+   {
+    "symbol": "RBRK",
+    "name": "Rubrik Inc Class A Shares",
+    "pct": 5.1
+   },
+   {
+    "symbol": "ZS",
+    "name": "Zscaler Inc",
+    "pct": 5.03
+   },
+   {
+    "symbol": "NTSK",
+    "name": "Netskope Inc Ordinary Shares - Class A",
+    "pct": 4.99
+   },
+   {
+    "symbol": "OKTA",
+    "name": "Okta Inc Class A",
+    "pct": 4.83
+   },
+   {
+    "symbol": "NOC",
+    "name": "Northrop Grumman Corp",
+    "pct": 4.77
+   },
+   {
+    "symbol": "GD",
+    "name": "General Dynamics Corp",
+    "pct": 4.72
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "IHAK": {
+  "holdings": [
+   {
+    "symbol": "NTSK",
+    "name": "Netskope Inc Ordinary Shares - Class A",
+    "pct": 6.86
+   },
+   {
+    "symbol": "QLYS",
+    "name": "Qualys Inc",
+    "pct": 6.38
+   },
+   {
+    "symbol": "TENB",
+    "name": "Tenable Holdings Inc",
+    "pct": 5.7
+   },
+   {
+    "symbol": "ZS",
+    "name": "Zscaler Inc",
+    "pct": 5.69
+   },
+   {
+    "symbol": "OKTA",
+    "name": "Okta Inc Class A",
+    "pct": 5.49
+   },
+   {
+    "symbol": "S",
+    "name": "SentinelOne Inc Class A",
+    "pct": 4.93
+   },
+   {
+    "symbol": "VRNS",
+    "name": "Varonis Systems Inc",
+    "pct": 4.67
+   },
+   {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings Inc Class A",
+    "pct": 4.67
+   },
+   {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "pct": 4.21
+   },
+   {
+    "symbol": "SAIC",
+    "name": "Science Applications International Corp",
+    "pct": 4.15
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "AMZW": {
+  "holdings": [
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "pct": 20.14
+   },
+   {
+    "symbol": "FGXXX",
+    "name": "First American Government Obligs X",
+    "pct": 16.73
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "AMZP": {
+  "holdings": [
+   {
+    "symbol": "FIGXX",
+    "name": "Fidelity Inv MM Government I",
+    "pct": 0.17
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "GMEY": {
+  "holdings": [
+   {
+    "symbol": "FGXXX",
+    "name": "First American Government Obligs X",
+    "pct": 12.67
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "AMZY": {
+  "holdings": [
+   {
+    "symbol": "FGXXX",
+    "name": "First American Government Obligs X",
+    "pct": 3.03
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "FITE": {
+  "holdings": [
+   {
+    "symbol": "RPD",
+    "name": "Rapid7 Inc",
+    "pct": 2.95
+   },
+   {
+    "symbol": "QLYS",
+    "name": "Qualys Inc",
+    "pct": 2.62
+   },
+   {
+    "symbol": "ZS",
+    "name": "Zscaler Inc",
+    "pct": 2.45
+   },
+   {
+    "symbol": "TENB",
+    "name": "Tenable Holdings Inc",
+    "pct": 2.44
+   },
+   {
+    "symbol": "OSPN",
+    "name": "OneSpan Inc",
+    "pct": 2.34
+   },
+   {
+    "symbol": "OKTA",
+    "name": "Okta Inc Class A",
+    "pct": 2.33
+   },
+   {
+    "symbol": "RBRK",
+    "name": "Rubrik Inc Class A Shares",
+    "pct": 2.24
+   },
+   {
+    "symbol": "S",
+    "name": "SentinelOne Inc Class A",
+    "pct": 2.18
+   },
+   {
+    "symbol": "NABL",
+    "name": "N-able Inc",
+    "pct": 2.18
+   },
+   {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings Inc Class A",
+    "pct": 1.99
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "LRNZ": {
+  "holdings": [
+   {
+    "symbol": "NTRA",
+    "name": "Natera Inc",
+    "pct": 8.37
+   },
+   {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings Inc Class A",
+    "pct": 7.15
+   },
+   {
+    "symbol": "NET",
+    "name": "Cloudflare Inc",
+    "pct": 6.71
+   },
+   {
+    "symbol": "GH",
+    "name": "Guardant Health Inc",
+    "pct": 5.6
+   },
+   {
+    "symbol": "SNOW",
+    "name": "Snowflake Inc Ordinary Shares",
+    "pct": 5.53
+   },
+   {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "pct": 5.06
+   },
+   {
+    "symbol": "SDGR",
+    "name": "Schrodinger Inc Ordinary Shares",
+    "pct": 4.99
+   },
+   {
+    "symbol": "IOT",
+    "name": "Samsara Inc Ordinary Shares - Class A",
+    "pct": 4.65
+   },
+   {
+    "symbol": "MDB",
+    "name": "MongoDB Inc Class A",
+    "pct": 4.4
+   },
+   {
+    "symbol": "DDOG",
+    "name": "Datadog Inc Class A",
+    "pct": 4.19
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "XDAT": {
+  "holdings": [
+   {
+    "symbol": "NET",
+    "name": "Cloudflare Inc",
+    "pct": 8.88
+   },
+   {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc Class A",
+    "pct": 8.1
+   },
+   {
+    "symbol": "META",
+    "name": "Meta Platforms Inc Class A",
+    "pct": 6.9
+   },
+   {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "pct": 5.96
+   },
+   {
+    "symbol": "SNOW",
+    "name": "Snowflake Inc Ordinary Shares",
+    "pct": 5.94
+   },
+   {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings Inc Class A",
+    "pct": 5.66
+   },
+   {
+    "symbol": "PLTR",
+    "name": "Palantir Technologies Inc Ordinary Shares - Class A",
+    "pct": 5.06
+   },
+   {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp",
+    "pct": 4.89
+   },
+   {
+    "symbol": "MDB",
+    "name": "MongoDB Inc Class A",
+    "pct": 3.88
+   },
+   {
+    "symbol": "DDOG",
+    "name": "Datadog Inc Class A",
+    "pct": 3.65
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "PSCD": {
+  "holdings": [
+   {
+    "symbol": "LTH",
+    "name": "Life Time Group Holdings Inc",
+    "pct": 3.61
+   },
+   {
+    "symbol": "KMX",
+    "name": "CarMax Inc",
+    "pct": 3.32
+   },
+   {
+    "symbol": "VSXY",
+    "name": "Victoria's Secret & Co",
+    "pct": 3.23
+   },
+   {
+    "symbol": "ETSY",
+    "name": "Etsy Inc",
+    "pct": 3.19
+   },
+   {
+    "symbol": "POOL",
+    "name": "Pool Corp",
+    "pct": 3.15
+   },
+   {
+    "symbol": "MHK",
+    "name": "Mohawk Industries Inc",
+    "pct": 2.98
+   },
+   {
+    "symbol": "FTDR",
+    "name": "Frontdoor Inc",
+    "pct": 2.54
+   },
+   {
+    "symbol": "CZR",
+    "name": "Caesars Entertainment Inc",
+    "pct": 2.49
+   },
+   {
+    "symbol": "ADT",
+    "name": "ADT Inc",
+    "pct": 2.21
+   },
+   {
+    "symbol": "URBN",
+    "name": "Urban Outfitters Inc",
+    "pct": 2.19
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "SNOY": {
+  "holdings": [
+   {
+    "symbol": "FGXXX",
+    "name": "First American Government Obligs X",
+    "pct": 1.13
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "PBOT": {
+  "holdings": [
+   {
+    "symbol": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+    "pct": 5.17
+   },
+   {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc Class A",
+    "pct": 4.81
+   },
+   {
+    "symbol": "SNOW",
+    "name": "Snowflake Inc Ordinary Shares",
+    "pct": 4.75
+   },
+   {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "pct": 4.6
+   },
+   {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "pct": 4.42
+   },
+   {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings Inc Class A",
+    "pct": 4.22
+   },
+   {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "pct": 4.05
+   },
+   {
+    "symbol": "AMAT",
+    "name": "Applied Materials Inc",
+    "pct": 3.73
+   },
+   {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp",
+    "pct": 3.38
+   },
+   {
+    "symbol": "ASML.AS",
+    "name": "ASML Holding NV",
+    "pct": 3.26
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "GXPD": {
+  "holdings": [
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "pct": 39.09
+   },
+   {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "pct": 19.22
+   },
+   {
+    "symbol": "HD",
+    "name": "The Home Depot Inc",
+    "pct": 5.52
+   },
+   {
+    "symbol": "MCD",
+    "name": "McDonald's Corp",
+    "pct": 3.06
+   },
+   {
+    "symbol": "TJX",
+    "name": "TJX Companies Inc",
+    "pct": 2.6
+   },
+   {
+    "symbol": "SBUX",
+    "name": "Starbucks Corp",
+    "pct": 1.98
+   },
+   {
+    "symbol": "LOW",
+    "name": "Lowe's Companies Inc",
+    "pct": 1.96
+   },
+   {
+    "symbol": "BKNG",
+    "name": "Booking Holdings Inc",
+    "pct": 1.95
+   },
+   {
+    "symbol": "MAR",
+    "name": "Marriott International Inc Class A",
+    "pct": 1.46
+   },
+   {
+    "symbol": "HLT",
+    "name": "Hilton Worldwide Holdings Inc",
+    "pct": 1.36
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "TRUD": {
+  "holdings": [
+   {
+    "symbol": "XLY",
+    "name": "State Street® CnsmrDiscSelSectSPDR®ETF",
+    "pct": 68.51
+   },
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "pct": 24.4
+   },
+   {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "pct": 5.47
+   },
+   {
+    "symbol": "HD",
+    "name": "The Home Depot Inc",
+    "pct": 1.63
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "XRT": {
+  "holdings": [
+   {
+    "symbol": "KSS",
+    "name": "Kohl's Corp",
+    "pct": 1.86
+   },
+   {
+    "symbol": "BBWI",
+    "name": "Bath & Body Works Inc",
+    "pct": 1.73
+   },
+   {
+    "symbol": "VSXY",
+    "name": "Victoria's Secret & Co",
+    "pct": 1.71
+   },
+   {
+    "symbol": "REAL",
+    "name": "The RealReal Inc",
+    "pct": 1.68
+   },
+   {
+    "symbol": "ETSY",
+    "name": "Etsy Inc",
+    "pct": 1.68
+   },
+   {
+    "symbol": "OLLI",
+    "name": "Ollie's Bargain Outlet Holdings Inc",
+    "pct": 1.67
+   },
+   {
+    "symbol": "GME",
+    "name": "GameStop Corp Class A",
+    "pct": 1.64
+   },
+   {
+    "symbol": "BJ",
+    "name": "BJ's Wholesale Club Holdings Inc",
+    "pct": 1.63
+   },
+   {
+    "symbol": "CART",
+    "name": "Maplebear Inc",
+    "pct": 1.62
+   },
+   {
+    "symbol": "KR",
+    "name": "The Kroger Co",
+    "pct": 1.59
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "ONLN": {
+  "holdings": [
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "pct": 22.22
+   },
+   {
+    "symbol": "EBAY",
+    "name": "eBay Inc",
+    "pct": 8.64
+   },
+   {
+    "symbol": "BABA",
+    "name": "Alibaba Group Holding Ltd ADR",
+    "pct": 7.52
+   },
+   {
+    "symbol": "CVNA",
+    "name": "Carvana Co Class A",
+    "pct": 4.84
+   },
+   {
+    "symbol": "FIGS",
+    "name": "FIGS Inc Class A",
+    "pct": 4.65
+   },
+   {
+    "symbol": "PDD",
+    "name": "PDD Holdings Inc ADR",
+    "pct": 4.39
+   },
+   {
+    "symbol": "ETSY",
+    "name": "Etsy Inc",
+    "pct": 3.94
+   },
+   {
+    "symbol": "REAL",
+    "name": "The RealReal Inc",
+    "pct": 3.92
+   },
+   {
+    "symbol": "WSM",
+    "name": "Williams-Sonoma Inc",
+    "pct": 3.9
+   },
+   {
+    "symbol": "W",
+    "name": "Wayfair Inc Class A",
+    "pct": 3.8
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "GXDW": {
+  "holdings": [
+   {
+    "symbol": "BUG",
+    "name": "Global X Cybersecurity ETF",
+    "pct": 22.87
+   },
+   {
+    "symbol": "GNOM",
+    "name": "Global X Genomics & Biotechnology ETF",
+    "pct": 21.13
+   },
+   {
+    "symbol": "CLOU",
+    "name": "Global X Cloud Computing ETF",
+    "pct": 21.06
+   },
+   {
+    "symbol": "AIQ",
+    "name": "Global X Artfcl Intlgc & Tech ETF",
+    "pct": 19.75
+   },
+   {
+    "symbol": "BKCH",
+    "name": "Global X Blockchain ETF",
+    "pct": 15.25
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "TEKY": {
+  "holdings": [
+   {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "pct": 5.73
+   },
+   {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc Class A",
+    "pct": 4.67
+   },
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "pct": 4.25
+   },
+   {
+    "symbol": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+    "pct": 3.87
+   },
+   {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp",
+    "pct": 3.61
+   },
+   {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings Inc Class A",
+    "pct": 3.22
+   },
+   {
+    "symbol": "PLTR",
+    "name": "Palantir Technologies Inc Ordinary Shares - Class A",
+    "pct": 3.15
+   },
+   {
+    "symbol": "6857.T",
+    "name": "Advantest Corp",
+    "pct": 3.08
+   },
+   {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices Inc",
+    "pct": 3.0
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "WCLD": {
+  "holdings": [
+   {
+    "symbol": "NTSK",
+    "name": "Netskope Inc Ordinary Shares - Class A",
+    "pct": 2.42
+   },
+   {
+    "symbol": "OKTA",
+    "name": "Okta Inc Class A",
+    "pct": 2.22
+   },
+   {
+    "symbol": "TENB",
+    "name": "Tenable Holdings Inc",
+    "pct": 2.13
+   },
+   {
+    "symbol": "BRZE",
+    "name": "Braze Inc Class A",
+    "pct": 2.12
+   },
+   {
+    "symbol": "PD",
+    "name": "PagerDuty Inc",
+    "pct": 1.98
+   },
+   {
+    "symbol": "DOCU",
+    "name": "Docusign Inc",
+    "pct": 1.91
+   },
+   {
+    "symbol": "ZS",
+    "name": "Zscaler Inc",
+    "pct": 1.89
+   },
+   {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings Inc Class A",
+    "pct": 1.88
+   },
+   {
+    "symbol": "GTLB",
+    "name": "GitLab Inc Class A",
+    "pct": 1.87
+   },
+   {
+    "symbol": "AVPT",
+    "name": "AvePoint Inc Ordinary Shares - Class A",
+    "pct": 1.84
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "PKB": {
+  "holdings": [
+   {
+    "symbol": "JCI",
+    "name": "Johnson Controls International PLC Registered Shares",
+    "pct": 5.77
+   },
+   {
+    "symbol": "PWR",
+    "name": "Quanta Services Inc",
+    "pct": 5.65
+   },
+   {
+    "symbol": "VMC",
+    "name": "Vulcan Materials Co",
+    "pct": 5.64
+   },
+   {
+    "symbol": "MLM",
+    "name": "Martin Marietta Materials Inc",
+    "pct": 5.58
+   },
+   {
+    "symbol": "CRH",
+    "name": "CRH PLC",
+    "pct": 5.19
+   },
+   {
+    "symbol": "AMRZ.SW",
+    "name": "Amrize Ltd Registered Share",
+    "pct": 5.14
+   },
+   {
+    "symbol": "EME",
+    "name": "EMCOR Group Inc",
+    "pct": 5.04
+   },
+   {
+    "symbol": "FIX",
+    "name": "Comfort Systems USA Inc",
+    "pct": 4.33
+   },
+   {
+    "symbol": "MHK",
+    "name": "Mohawk Industries Inc",
+    "pct": 3.12
+   },
+   {
+    "symbol": "SSD",
+    "name": "Simpson Manufacturing Co Inc",
+    "pct": 3.11
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "FDIS": {
+  "holdings": [
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "pct": 21.01
+   },
+   {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "pct": 17.01
+   },
+   {
+    "symbol": "HD",
+    "name": "The Home Depot Inc",
+    "pct": 4.97
+   },
+   {
+    "symbol": "MCD",
+    "name": "McDonald's Corp",
+    "pct": 2.8
+   },
+   {
+    "symbol": "TJX",
+    "name": "TJX Companies Inc",
+    "pct": 2.39
+   },
+   {
+    "symbol": "SBUX",
+    "name": "Starbucks Corp",
+    "pct": 1.83
+   },
+   {
+    "symbol": "LOW",
+    "name": "Lowe's Companies Inc",
+    "pct": 1.81
+   },
+   {
+    "symbol": "BKNG",
+    "name": "Booking Holdings Inc",
+    "pct": 1.79
+   },
+   {
+    "symbol": "MAR",
+    "name": "Marriott International Inc Class A",
+    "pct": 1.41
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "MARO": {
+  "holdings": [
+   {
+    "symbol": "FGXXX",
+    "name": "First American Government Obligs X",
+    "pct": 3.58
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "CSMD": {
+  "holdings": [
+   {
+    "symbol": "HALO",
+    "name": "Halozyme Therapeutics Inc",
+    "pct": 4.47
+   },
+   {
+    "symbol": "RBRK",
+    "name": "Rubrik Inc Class A Shares",
+    "pct": 4.37
+   },
+   {
+    "symbol": "RGEN",
+    "name": "Repligen Corp",
+    "pct": 3.43
+   },
+   {
+    "symbol": "MEDP",
+    "name": "Medpace Holdings Inc",
+    "pct": 3.08
+   },
+   {
+    "symbol": "BJ",
+    "name": "BJ's Wholesale Club Holdings Inc",
+    "pct": 3.02
+   },
+   {
+    "symbol": "VMI",
+    "name": "Valmont Industries Inc",
+    "pct": 2.98
+   },
+   {
+    "symbol": "LGND",
+    "name": "Ligand Pharmaceuticals Inc",
+    "pct": 2.9
+   },
+   {
+    "symbol": "UFPT",
+    "name": "UFP Technologies Inc",
+    "pct": 2.88
+   },
+   {
+    "symbol": "RRC",
+    "name": "Range Resources Corp",
+    "pct": 2.85
+   },
+   {
+    "symbol": "IOT",
+    "name": "Samsara Inc Ordinary Shares - Class A",
+    "pct": 2.83
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "KSTR": {
+  "holdings": [
+   {
+    "symbol": "688256.SS",
+    "name": "Cambricon Technologies Corp Ltd Class A",
+    "pct": 11.94
+   },
+   {
+    "symbol": "688008.SS",
+    "name": "Montage Technology Co Ltd Class A",
+    "pct": 8.38
+   },
+   {
+    "symbol": "688012.SS",
+    "name": "Advanced Micro-fabrication Equipment Inc Class A",
+    "pct": 7.4
+   },
+   {
+    "symbol": "688041.SS",
+    "name": "Hygon Information Technology Co Ltd Class A",
+    "pct": 7.31
+   },
+   {
+    "symbol": "688072.SS",
+    "name": "Piotech Inc Class A",
+    "pct": 4.13
+   },
+   {
+    "symbol": "688498.SS",
+    "name": "Yuanjie Semiconductor Technology Co Ltd Class A",
+    "pct": 3.51
+   },
+   {
+    "symbol": "688120.SS",
+    "name": "Hwatsing Technology Co Ltd Class A",
+    "pct": 3.31
+   },
+   {
+    "symbol": "688271.SS",
+    "name": "Shanghai United Imaging Healthcare Co Ltd Class A",
+    "pct": 2.91
+   },
+   {
+    "symbol": "688347",
+    "name": "Hua Hong Grace Semiconductor Ltd Ordinary Shares - Class A",
+    "pct": 2.75
+   },
+   {
+    "symbol": "688361.SS",
+    "name": "Skyverse Technology Co Ltd Ordinary Shares - Class A",
+    "pct": 2.67
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "VCR": {
+  "holdings": [
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "pct": 21.01
+   },
+   {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "pct": 16.99
+   },
+   {
+    "symbol": "HD",
+    "name": "The Home Depot Inc",
+    "pct": 4.96
+   },
+   {
+    "symbol": "MCD",
+    "name": "McDonald's Corp",
+    "pct": 2.8
+   },
+   {
+    "symbol": "TJX",
+    "name": "TJX Companies Inc",
+    "pct": 2.38
+   },
+   {
+    "symbol": "SBUX",
+    "name": "Starbucks Corp",
+    "pct": 1.82
+   },
+   {
+    "symbol": "LOW",
+    "name": "Lowe's Companies Inc",
+    "pct": 1.8
+   },
+   {
+    "symbol": "BKNG",
+    "name": "Booking Holdings Inc",
+    "pct": 1.78
+   },
+   {
+    "symbol": "MAR",
+    "name": "Marriott International Inc Class A",
+    "pct": 1.4
+   },
+   {
+    "symbol": "HLT",
+    "name": "Hilton Worldwide Holdings Inc",
+    "pct": 1.3
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "PEJ": {
+  "holdings": [
+   {
+    "symbol": "MAR",
+    "name": "Marriott International Inc Class A",
+    "pct": 5.74
+   },
+   {
+    "symbol": "SYY",
+    "name": "Sysco Corp",
+    "pct": 5.11
+   },
+   {
+    "symbol": "SBUX",
+    "name": "Starbucks Corp",
+    "pct": 5.04
+   },
+   {
+    "symbol": "DAL",
+    "name": "Delta Air Lines Inc",
+    "pct": 4.93
+   },
+   {
+    "symbol": "LYV",
+    "name": "Live Nation Entertainment Inc",
+    "pct": 4.9
+   },
+   {
+    "symbol": "VIK",
+    "name": "Viking Holdings Ltd",
+    "pct": 4.88
+   },
+   {
+    "symbol": "ABNB",
+    "name": "Airbnb Inc Ordinary Shares - Class A",
+    "pct": 4.44
+   },
+   {
+    "symbol": "EXPE",
+    "name": "Expedia Group Inc",
+    "pct": 4.35
+   },
+   {
+    "symbol": "CBRL",
+    "name": "Cracker Barrel Old Country Store Inc",
+    "pct": 3.38
+   },
+   {
+    "symbol": "AMC",
+    "name": "AMC Entertainment Holdings Inc Class A",
+    "pct": 3.24
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "TEK": {
+  "holdings": [
+   {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "pct": 10.4
+   },
+   {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp",
+    "pct": 8.03
+   },
+   {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "pct": 6.09
+   },
+   {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "pct": 5.94
+   },
+   {
+    "symbol": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+    "pct": 5.1
+   },
+   {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices Inc",
+    "pct": 4.73
+   },
+   {
+    "symbol": "005930.KQ",
+    "name": "Samsung Electronics Co Ltd",
+    "pct": 4.32
+   },
+   {
+    "symbol": "XTSLA",
+    "name": "BlackRock Cash Funds Treasury SL Agency",
+    "pct": 3.77
+   },
+   {
+    "symbol": "LRCX",
+    "name": "Lam Research Corp",
+    "pct": 3.53
+   },
+   {
+    "symbol": "SPCX",
+    "name": "Space Exploration Technologies Corp Class A",
+    "pct": 2.98
+   }
+  ],
+  "at": "2026-11-18"
+ },
+ "BOTT": {
+  "holdings": [
+   {
+    "symbol": "688306.SS",
+    "name": "Ningbo PIA Automation Holding Corp Class A",
+    "pct": 5.78
+   },
+   {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "pct": 5.67
+   },
+   {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "pct": 5.6
+   },
+   {
+    "symbol": "603666.SS",
+    "name": "Yijiahe Technology Co Ltd Class A",
+    "pct": 5.38
+   },
+   {
+    "symbol": "277810.KQ",
+    "name": "Rainbow Robotics Ordinary Shares",
+    "pct": 5.33
+   },
+   {
+    "symbol": "603486.SS",
+    "name": "Ecovacs Robotics Co Ltd Class A",
+    "pct": 5.14
+   },
+   {
+    "symbol": "056080.KQ",
+    "name": "Yujin Robot Co Ltd",
+    "pct": 4.92
+   },
+   {
+    "symbol": "TER",
+    "name": "Teradyne Inc",
+    "pct": 4.36
+   },
+   {
+    "symbol": "160980.KQ",
+    "name": "Cymechs Inc",
+    "pct": 4.35
+   },
+   {
+    "symbol": "688165.SS",
+    "name": "EFORT Intelligent Robot Co Ltd Class A",
+    "pct": 4.11
+   }
+  ],
+  "at": "2026-11-18"
  }
 }
