@@ -1687,6 +1687,14 @@
 "small": false,
 "market": "ETF"
 },
+"CCHP": {
+"name": "Global X China Semiconductor ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "CCML": {
 "name": "Roundhill MLCC & Electronic Components ETF",
 "name_local": "",
@@ -4735,6 +4743,14 @@
 "small": false,
 "market": "ETF"
 },
+"IQQI": {
+"name": "IncomeQ Nasdaq-100 Premium Income ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "IQQQ": {
 "name": "ProShares Nasdaq-100 High Income ETF",
 "name_local": "",
@@ -7745,6 +7761,14 @@
 },
 "SCZ": {
 "name": "iShares MSCI EAFE Small-Cap ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"SDC": {
+"name": "KICK Space Data Center & Infrastructure Index ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -11471,6 +11495,14 @@
 "small": false,
 "market": "ETF"
 },
+"APFS": {
+"name": "Artisan Focus Fund: ETF Class Shares",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "APHG": {
 "name": "Leverage Shares 2X Long APH Daily ETF",
 "name_local": "",
@@ -11537,6 +11569,14 @@
 },
 "APMU": {
 "name": "ActivePassive Intermediate Municipal Bond ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"APNX": {
+"name": "Artisan Select Equity Fund: ETF Class Shares",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -23361,6 +23401,14 @@
 },
 "GMIE": {
 "name": "GMO International Equity Fund, ETF Class",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"GMIX": {
+"name": "iShares Macro AlphaBeta Active ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -38207,6 +38255,14 @@
 "small": false,
 "market": "ETF"
 },
+"SHLA": {
+"name": "Global X Asia Defense Tech ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "SHLD": {
 "name": "Global X Defense Tech ETF",
 "name_local": "",
@@ -41663,6 +41719,14 @@
 "small": false,
 "market": "ETF"
 },
+"TRLL": {
+"name": "Direxion Trillions ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "TRND": {
 "name": "Pacer Trendpilot Fund of Funds ETF",
 "name_local": "",
@@ -42097,14 +42161,6 @@
 },
 "TYO": {
 "name": "Direxion Daily 10-Yr Treasury Bear 3x Shrs",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
-"TYYY": {
-"name": "xETFs TSLA Daily Income ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -43263,6 +43319,14 @@
 "small": false,
 "market": "ETF"
 },
+"VEN": {
+"name": "Teucrium Venezuela Future Opportunities ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "VETZ": {
 "name": "Academy Veteran Bond ETF",
 "name_local": "",
@@ -43887,6 +43951,14 @@
 "small": false,
 "market": "ETF"
 },
+"VVPL": {
+"name": "Vulcan Value Partners ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "VWO": {
 "name": "Vanguard FTSE Emerging Markets ETF",
 "name_local": "",
@@ -44449,14 +44521,6 @@
 },
 "WYFL": {
 "name": "Defiance Daily Target 2X Long WYFI ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
-"WZRD": {
-"name": "Opportunistic Trader ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -45903,6 +45967,14 @@
 "small": false,
 "market": "ETF"
 },
+"YASX": {
+"name": "Yorkville America Space Index ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "YBIT": {
 "name": "YieldMax Bitcoin Option Income Strategy ETF",
 "name_local": "",
@@ -46049,6 +46121,14 @@
 },
 "YMAX": {
 "name": "YieldMax Universe Fund of Option Income ETFs",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"YO": {
+"name": "Amplify S&P 500 Buffered Autocallable Yield Opportunity ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
