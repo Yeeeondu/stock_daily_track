@@ -206,6 +206,9 @@ def top_by_cap(rows, key, n):
     return out
 
 
+ETF_CRIT = "aum1조-6m-h10"
+
+
 def weekly_top(market, rows, trade_date, n):
     """주간 상승률 상위는 금요일(주 마지막 거래일) 데이터로만 새로 집계하고, 그 외 날은 직전 목록을 유지."""
     monday = trade_date - pd.Timedelta(days=trade_date.weekday())
@@ -219,6 +222,8 @@ def weekly_top(market, rows, trade_date, n):
             continue
         prev = read_json(DATA / market / f"{d}.json", {})
         ok_caps = market not in ("us", "jp", "tw") or all("cap" in r for r in prev.get("top_w1", []))
+        if market == "etf" and prev.get("w1_crit") != ETF_CRIT:  # 선정 기준이 바뀌면 새로 집계
+            ok_caps = False
         if prev.get("w1_week") and prev.get("top_w1") and ok_caps:
             return prev["top_w1"], prev["w1_week"]
     # 직전 목록이 없으면 지난주(완료된 주) 수익률로 집계
@@ -625,7 +630,7 @@ def run_etf():
 
     write_json(DATA / "etf" / f"{ds}.json", {"market": "etf", "date": ds, "generated_at": now_iso(),
                                              "universe": len(uni), "priced": len(rows), "skipped": skipped, "w1_week": w1_week,
-                                             "min_aum_usd": round(min_usd), "krw": krw, "strength": strength,
+                                             "min_aum_usd": round(min_usd), "krw": krw, "strength": strength, "w1_crit": ETF_CRIT,
                                              **tops, "groups": groups})
     add_index("etf", ds)
     log(f"저장 완료: docs/data/etf/{ds}.json")
