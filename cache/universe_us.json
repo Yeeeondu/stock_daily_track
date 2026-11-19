@@ -6723,12 +6723,12 @@
 "mcap": 8207354425.0
 },
 "CHYM": {
-"name": "Chime Financial Inc. Class A",
+"name": "Chime Financial",
 "name_local": "",
 "sector": "금융",
-"industry": "Finance: Consumer Services",
+"industry": "소비자 금융",
 "small": false,
-"market": "US",
+"market": "S&P400",
 "mcap": 12653284660.0
 },
 "CI": {
@@ -35266,15 +35266,6 @@
 "name_local": "",
 "sector": "산업재",
 "industry": "항공우주·방산",
-"small": false,
-"market": "S&P400",
-"mcap": null
-},
-"NWE": {
-"name": "NorthWestern Energy",
-"name_local": "",
-"sector": "유틸리티",
-"industry": "복합 유틸리티",
 "small": false,
 "market": "S&P400",
 "mcap": null
