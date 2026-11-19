@@ -442,8 +442,8 @@ async function pageETF(day) {
   });
   const st = day.strength || [];
   const pick = (k) => st.filter((x) => x.trend === k);
-  const line = (k, label, c) => { const a = pick(k); return `<div class="srow"><span class="slab ${c}">${label}</span><span>${a.length ? a.map((x) => `<b>${esc(x.label)}</b><span class="muted">(${esc(x.ticker)} ${x.rel3m != null ? (x.rel3m > 0 ? '+' : '') + x.rel3m + '%p' : ''})</span>`).join(' · ') : '<span class="muted">없음</span>'}</span></div>`; };
-  const strengthBox = st.length ? `<div class="strength"><div class="shead">미국 섹터·테마 흐름 <span class="muted small">(50·200일선 위치 + 최근 3개월 S&P500 대비, ${fmtDate(day.date)})</span></div>
+  const line = (k, label, c) => { const a = pick(k); return `<div class="srow"><span class="slab ${c}">${label}</span><span>${a.length ? a.map((x) => `<span class="si"><b>${esc(x.label)}</b><span class="muted">${x.rel3m != null ? (x.rel3m > 0 ? '+' : '') + x.rel3m + '%p' : ''}</span></span>`).join('') : '<span class="muted">없음</span>'}</span></div>`; };
+  const strengthBox = st.length ? `<div class="strength"><div class="shead">미국 섹터·테마 흐름 <span class="muted small">· 숫자는 최근 3개월 S&P500 대비 초과수익(%p), 50·200일선 위치 함께 반영 · ${fmtDate(day.date)}</span></div>
     ${line('강세', '강한 섹터', 'up')}${line('횡보', '횡보 섹터', '')}${line('약세', '하락 섹터', 'down')}</div>` : '';
   $('#main').innerHTML = panelHTML('etf-d1', '일간 상승률 상위', d1, { metric: 'd1', tools: tool })
     + panelHTML('etf-w1', wkTitle(day), w1, { metric: 'w1' })
