@@ -25,6 +25,8 @@ async function getJSON(path) {
 }
 const fmtDate = (d) => { const [y, m, dd] = d.split('-'); return `${y}.${m}.${dd}(${WD[new Date(d + 'T00:00:00').getDay()]})`; };
 const fp = (v, d = 2) => (v == null ? '–' : `${v > 0 ? '+' : ''}${v.toFixed(d)}%`);
+const fpp = (v, d = 1) => (v == null ? '–' : `${v > 0 ? '+' : ''}${v.toFixed(d)}%p`);
+const fmetric = (it, m) => (m === 'score' ? fpp(it.score) : fp(it[m]));
 const cls = (v) => (v == null ? '' : v > 0 ? 'up' : v < 0 ? 'down' : '');
 const fnum = (v, d) => (v == null ? '–' : v.toLocaleString('ko-KR', { minimumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2), maximumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2) }));
 function fcap(v, mk = 'us') {
@@ -219,7 +221,7 @@ function rowHTML(it, i, metric, extra = '') {
   return `<button class="lrow" data-i="${i}" title="${esc(it.name)} ${esc(it.industry || '')}">
     <span class="rk">${hold ? '<span class="caret" title="구성종목 보기">▶</span>' : ''}${extra || `${i + 1}위`}</span>
     <span class="nm"><b>${esc(it.name)}</b>${hold ? `<span class="ind">${esc(it.ticker)}</span>` : ''}${tags}${ind}</span>
-    <span class="pc ${cls(it[metric])}">${fp(it[metric])}</span></button>${hold ? `<div class="hwrap" data-h="${i}" hidden>${holdsHTML(it)}</div>` : ''}`;
+    <span class="pc ${cls(it[metric])}">${fmetric(it, metric)}</span></button>${hold ? `<div class="hwrap" data-h="${i}" hidden>${holdsHTML(it)}</div>` : ''}`;
 }
 const detailHTML = () => `<div class="detail"><div class="dhead"><div><div class="dname"></div><div class="dsub"></div></div><div class="dprice"><div class="v"></div><div class="c"></div></div></div>
   <div class="ranges" style="justify-content:flex-start;margin-top:8px"></div><div class="dbox"></div><div class="dextra"></div><div class="dlinks"></div></div>`;
@@ -279,10 +281,12 @@ async function selectItem(id, i) {
   const meta = p.opts.showMeta ? [it.rs != null ? `RS ${it.rs}` : '', it.mcap ? `시총 ${fcap(it.mcap, mk)}` : '', it.per != null ? `PER ${it.per}` : '', it.psr != null ? `PSR ${it.psr}` : ''].filter(Boolean).join(' · ') : '';
   $('.dname', det).innerHTML = `${esc(it.name)}${meta ? ` <span class="dmeta">(${meta})</span>` : ''}`;
   const sub = [mk === 'etf' ? it.ticker : (mk === 'us' ? it.ticker : code(it.ticker)), it.name_local, it.industry].filter(Boolean).join(' · ');
-  $('.dsub', det).textContent = sub;
+  const ma = [it.above50 === false ? '50일선 아래' : '', it.above200 === false ? '200일선 아래' : ''].filter(Boolean).join(' · ');
+  const mom = it.rel1w != null ? `시장 대비 1주 ${fpp(it.rel1w)} · 1달 ${fpp(it.rel1m)}` : '';
+  $('.dsub', det).innerHTML = [esc(sub), mom, ma ? `<span class="matag">${ma}</span>` : ''].filter(Boolean).join(' · ');
   const m = p.opts.metric;
   $('.v', det).textContent = fnum(it.close);
-  $('.c', det).innerHTML = `<span class="${cls(it[m])}">${m === 'w1' ? '주간 ' : '일간 '}${fp(it[m])}</span>`;
+  $('.c', det).innerHTML = m === 'score' ? `<span class="${cls(it.d1)}">일간 ${fp(it.d1)}</span>` : `<span class="${cls(it[m])}">${m === 'w1' ? '주간 ' : '일간 '}${fp(it[m])}</span>`;
   $('.dlinks', det).innerHTML = links(it.ticker, mk);
   $('.dextra', det).innerHTML = p.opts.extra ? p.opts.extra(it) : '';
   dropChart(p.chart); p.chart = null;
@@ -345,6 +349,7 @@ function stockSections(day, mk) {
   if (!day) return '<div class="empty">아직 종목 데이터가 없습니다.</div>';
   return `<p class="muted small" style="margin:18px 0 -14px">${fmtDate(day.date)} 기준 · 집계 ${day.priced?.toLocaleString()}종목 · 신고가: ${esc(day.criteria)} · 오른쪽 차트는 왼쪽에서 종목을 누르면 바뀝니다</p>`
     + panelHTML(`${mk}-high`, '신고가', day.newhigh, { metric: 'd1', copy: true, fx: mk !== 'us' })
+    + (day.rising ? panelHTML(`${mk}-rise`, `최근 시장 대비 강세 <span class="small muted">(1주·1달 모두 ${BENCH[mk] || '지수'}보다 강한 종목 · 숫자는 1주+1달 초과수익 합계)</span>`, day.rising, { metric: 'score', fx: mk !== 'us' }) : '')
     + panelHTML(`${mk}-d1`, '일간 상승률 상위', day.top_d1, { metric: 'd1', fx: mk !== 'us' })
     + panelHTML(`${mk}-w1`, wkTitle(day), day.top_w1, { metric: 'w1', fx: mk !== 'us' });
 }
@@ -352,12 +357,14 @@ function bindStocks(day, mk) {
   if (!day) return;
   const showMeta = mk !== 'kr';
   bindPanel(`${mk}-high`, day.newhigh, { metric: 'd1', chartMarket: mk, defRange: '1Y', showMeta });
+  if (day.rising) bindPanel(`${mk}-rise`, day.rising, { metric: 'score', chartMarket: mk, defRange: '6M', showMeta });
   bindPanel(`${mk}-d1`, day.top_d1, { metric: 'd1', chartMarket: mk, defRange: '6M', showMeta });
   bindPanel(`${mk}-w1`, day.top_w1, { metric: 'w1', chartMarket: mk, defRange: '6M', showMeta });
   const btn = document.querySelector(`[data-copy="${mk}-high"]`);
   if (btn) btn.onclick = async () => { try { await navigator.clipboard.writeText(highsText(day)); btn.textContent = '복사됨 ✓'; } catch { btn.textContent = '복사 실패'; } setTimeout(() => (btn.textContent = '텍스트 복사'), 1500); };
 }
 
+const BENCH = { us: 'S&P500', jp: '니케이225', tw: '가권지수' };
 function wkTitle(day) {
   const w = day?.w1_week; if (!w) return '주간 상승률 상위';
   const [a, b] = w.split('~'); const f = (x) => x.slice(5).replace('-', '/');
@@ -442,8 +449,8 @@ async function pageETF(day) {
   });
   const st = day.strength || [];
   const pick = (k) => st.filter((x) => x.trend === k);
-  const line = (k, label, c) => { const a = pick(k); return `<div class="srow"><span class="slab ${c}">${label}</span><span>${a.length ? a.map((x) => `<span class="si"><b>${esc(x.label)}</b><span class="muted">${x.rel3m != null ? (x.rel3m > 0 ? '+' : '') + x.rel3m + '%p' : ''}</span></span>`).join('') : '<span class="muted">없음</span>'}</span></div>`; };
-  const strengthBox = st.length ? `<div class="strength"><div class="shead">미국 섹터·테마 흐름 <span class="muted small">· 숫자는 최근 3개월 S&P500 대비 초과수익(%p), 50·200일선 위치 함께 반영 · ${fmtDate(day.date)}</span></div>
+  const line = (k, label, c) => { const a = pick(k); return `<div class="srow"><span class="slab ${c}">${label}</span><span>${a.length ? a.map((x) => `<span class="si" title="${esc(x.ticker)} · 1주 ${fpp(x.rel1w)} · 1달 ${fpp(x.rel1m)} · RS ${x.rs ?? '–'}"><b>${esc(x.label)}</b><span class="muted">${fpp(x.rel1w)}/${fpp(x.rel1m)}${x.rs != null ? ' · RS ' + x.rs : ''}${x.above50 === false ? ' · <span class="matag">50일선↓</span>' : ''}</span></span>`).join('') : '<span class="muted">없음</span>'}</span></div>`; };
+  const strengthBox = st.length ? `<div class="strength"><div class="shead">미국 섹터·테마 흐름 <span class="muted small">· 숫자: S&P500 대비 1주/1달 초과수익(%p) · RS · ${fmtDate(day.date)}</span></div>
     ${line('강세', '강한 섹터', 'up')}${line('횡보', '횡보 섹터', '')}${line('약세', '하락 섹터', 'down')}</div>` : '';
   $('#main').innerHTML = panelHTML('etf-d1', '일간 상승률 상위', d1, { metric: 'd1', tools: tool })
     + panelHTML('etf-w1', wkTitle(day), w1, { metric: 'w1' })

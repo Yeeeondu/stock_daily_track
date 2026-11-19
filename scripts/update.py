@@ -232,6 +232,28 @@ def weekly_top(market, rows, trade_date, n):
     return by(last, "w1", n), f"{lm:%Y-%m-%d}~{lm + pd.Timedelta(days=4):%Y-%m-%d}"
 
 
+def momentum(c, idx_c=None):
+    """최근 1주(5거래일)·1달(21거래일) 수익률, 시장 대비 초과수익(%p), 50·200일선 위치."""
+    def r(x, n):
+        return float(x.iloc[-1] / x.iloc[-1 - n] - 1) * 100 if len(x) > n else None
+    out = {"r1w": r(c, 5), "r1m": r(c, 21)}
+    ir1w, ir1m = (r(idx_c, 5), r(idx_c, 21)) if idx_c is not None else (0.0, 0.0)
+    out["rel1w"] = round(out["r1w"] - ir1w, 2) if out["r1w"] is not None and ir1w is not None else None
+    out["rel1m"] = round(out["r1m"] - ir1m, 2) if out["r1m"] is not None and ir1m is not None else None
+    out["r1w"] = round(out["r1w"], 2) if out["r1w"] is not None else None
+    out["r1m"] = round(out["r1m"], 2) if out["r1m"] is not None else None
+    px = c.iloc[-1]
+    out["above50"] = bool(px > c.rolling(50).mean().iloc[-1]) if len(c) >= 50 else None
+    out["above200"] = bool(px > c.rolling(200).mean().iloc[-1]) if len(c) >= 200 else None
+    return out
+
+
+def is_rising(m):
+    """최근 시장 대비 강세: 1주·1달 모두 시장보다 강하고, 둘 중 하나는 뚜렷하게(+2%p 이상) 강할 것."""
+    a, b = m.get("rel1w"), m.get("rel1m")
+    return a is not None and b is not None and a > 0 and b > 0 and (a >= 2 or b >= 2)
+
+
 def is_new_high(df):
     """당일 52주 신고가 여부. 반환: 직전 52주 고가 또는 None"""
     df = df.dropna(subset=["Open", "High", "Low", "Close"])
@@ -384,6 +406,9 @@ def run_stocks(market):
     hist = download(list(uni), "13mo")
     if not hist:
         raise RuntimeError("시세를 하나도 받지 못했습니다")
+    bench = {"us": "^GSPC", "jp": "^N225", "tw": "^TWII", "kr": "^KS11"}[market]
+    bdf = download([bench], "13mo").get(bench)
+    bclose = bdf["Close"].dropna() if bdf is not None else None
     trade_date = trade_date_of(hist)
     ds = trade_date.strftime("%Y-%m-%d")
     log(f"기준일 {ds} / 시세 {len(hist)}종목")
@@ -409,6 +434,8 @@ def run_stocks(market):
                 row["mcap"], row["mcap_usd"] = c[0], round(c[1])
             if pes.get(t):
                 row["per"] = round(pes[t], 1)
+        if market in ("us", "jp", "tw"):
+            row.update(momentum(df["Close"].dropna(), bclose))
         rows.append(row)
         ref = is_new_high(df)
         if ref is not None:
@@ -417,14 +444,20 @@ def run_stocks(market):
     n = SETTINGS["top_n"]
     top_d1 = top_by_cap(rows, "d1", n) if market in ("us", "jp", "tw") else top_n(rows, "d1", n)
     top_w1, w1_week = weekly_top(market, rows, trade_date, n)
+    rising = []
+    if market in ("us", "jp", "tw"):
+        for r in rows:
+            if is_rising(r):
+                r["score"] = round(r["rel1w"] + r["rel1m"], 2)
+        rising = top_by_cap([r for r in rows if "score" in r and is_rising(r)], "score", n)
     flags = ath_flags([h["ticker"] for h in highs], hist, trade_date)
     for h in highs:
         h["ath"], h["since"] = flags.get(h["ticker"], (False, None))
     highs.sort(key=lambda r: -(r["d1"] or 0))
     log(f"신고가 {len(highs)} (역대 {sum(h['ath'] for h in highs)})")
 
-    shown = {r["ticker"] for r in highs + top_d1 + top_w1 if r["ticker"] in hist}
-    every = highs + top_d1 + top_w1
+    shown = {r["ticker"] for r in highs + top_d1 + top_w1 + rising if r["ticker"] in hist}
+    every = highs + top_d1 + top_w1 + rising
     if market in ("jp", "tw"):  # 영문명은 캐시에 있는 것만 (새로 받는 건 meta 단계)
         names = read_json(CACHE / "names.json", {})
         for r in every:
@@ -445,7 +478,8 @@ def run_stocks(market):
     write_json(DATA / market / f"{ds}.json", {
         "market": market, "date": ds, "generated_at": now_iso(),
         "universe": len(uni), "priced": len(rows), "criteria": criteria_text(),
-        "newhigh": highs, "top_d1": top_d1, "top_w1": top_w1, "w1_week": w1_week,
+        "newhigh": highs, "top_d1": top_d1, "top_w1": top_w1, "w1_week": w1_week, "rising": rising,
+        "bench": bench,
     })
     add_index(market, ds)
     log(f"저장 완료: docs/data/{market}/{ds}.json")
@@ -497,33 +531,28 @@ def etf_shares_snapshot(t):
 
 
 def sector_strength(items, full):
-    """미국 섹터·테마 ETF 추세 분류: 50·200일선 위치 + 최근 3개월 S&P500 대비 수익률."""
+    """미국 섹터·테마 ETF 흐름: 최근 1주·1달 S&P500(SPY) 대비 초과수익 + RS. 이동평균선은 참고 표시만."""
     spy = full.get("SPY")
-    def r(c, n):
-        return c.iloc[-1] / c.iloc[-1 - n] - 1 if len(c) > n else None
-    s3 = r(spy["Close"].dropna(), 63) if spy is not None else None
+    sc = spy["Close"].dropna() if spy is not None else None
+    rs = rs_ratings({t: d for t, d in full.items()}, sc.index[-1]) if sc is not None else {}
     out = []
     for e in items:
         df = full.get(e["ticker"])
-        if df is None or len(df) < 200:
+        if df is None or len(df) < 30:
             continue
-        c = df["Close"].dropna()
-        ma50, ma200 = c.rolling(50).mean().iloc[-1], c.rolling(200).mean().iloc[-1]
-        r1, r3 = r(c, 21), r(c, 63)
-        rel = (r3 - s3) if (r3 is not None and s3 is not None) else None
-        px = c.iloc[-1]
-        if px > ma50 > ma200 and (rel is None or rel > 0):
+        m = momentum(df["Close"].dropna(), sc)
+        a, b = m["rel1w"], m["rel1m"]
+        if a is None or b is None:
+            continue
+        if (b >= 1.5 and a >= 0) or (a >= 2 and b > -3):
             lab = "강세"
-        elif px < ma50 < ma200 or (px < ma50 and rel is not None and rel < -0.05):
+        elif (b <= -1.5 and a <= 0) or (a <= -2 and b < 3):
             lab = "약세"
         else:
             lab = "횡보"
-        out.append({"ticker": e["ticker"], "label": e["label"], "trend": lab,
-                    "r1m": round(r1 * 100, 1) if r1 is not None else None,
-                    "r3m": round(r3 * 100, 1) if r3 is not None else None,
-                    "rel3m": round(rel * 100, 1) if rel is not None else None,
-                    "above50": bool(px > ma50), "above200": bool(px > ma200)})
-    return sorted(out, key=lambda x: -(x["rel3m"] if x["rel3m"] is not None else -999))
+        out.append({"ticker": e["ticker"], "label": e["label"], "trend": lab, "rs": rs.get(e["ticker"]),
+                    "score": round(a + b, 2), **m})
+    return sorted(out, key=lambda x: -x["score"])
 
 
 def run_etf():
@@ -858,7 +887,7 @@ def run_meta():
         p = DATA / mk / f"{idx[mk][0]}.json"
         day = read_json(p, None)
         if day:
-            every = day["newhigh"] + day["top_d1"] + day["top_w1"]
+            every = day["newhigh"] + day.get("rising", []) + day["top_d1"] + day["top_w1"]
             order = list(dict.fromkeys(r["ticker"] for r in every))  # 신고가 → 일간 → 주간 순으로 우선
             fu = fundamentals(order, {r["ticker"]: r["close"] for r in every})
             for r in every:
