@@ -15079,6 +15079,14 @@
 "small": false,
 "market": "ETF"
 },
+"CGBI": {
+"name": "Capital Group Multi-Asset Income Builder ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "CGBL": {
 "name": "Capital Group Core Balanced ETF",
 "name_local": "",
@@ -15201,6 +15209,14 @@
 },
 "CGIE": {
 "name": "Capital Group International Equity ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"CGMI": {
+"name": "Capital Group Multi-Asset Income ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -23415,14 +23431,6 @@
 "small": false,
 "market": "ETF"
 },
-"GMMA": {
-"name": "GammaRoad Market Navigation ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
 "GMMF": {
 "name": "iShares Government Money Market ETF",
 "name_local": "",
@@ -23655,6 +23663,14 @@
 "small": false,
 "market": "ETF"
 },
+"GQGG": {
+"name": "GQG Global Equity ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "GQGU": {
 "name": "GQG US Equity ETF",
 "name_local": "",
@@ -23745,6 +23761,14 @@
 },
 "GSC": {
 "name": "Goldman Sachs Small Cap Equity ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"GSCZ": {
+"name": "Goldman Sachs Securitized Income ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -27417,6 +27441,14 @@
 },
 "JAJL": {
 "name": "Innovator Equity Defined Protection ETF - 6mo Jan/Jul",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"JALL": {
+"name": "JPMorgan All Country Research Enhanced Equity ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -40839,6 +40871,14 @@
 "small": false,
 "market": "ETF"
 },
+"TFIX": {
+"name": "T. Rowe Price Capital Appreciation Fixed Income ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "TFJL": {
 "name": "Innovator 20  Year Treasury Bond 5 Floor ETF - July",
 "name_local": "",
@@ -42232,7 +42272,7 @@
 "market": "ETF"
 },
 "UBT": {
-"name": "ProShares Ultra 20+ Year Treasury",
+"name": "ProShares Ultra 20 Year Treasury",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
