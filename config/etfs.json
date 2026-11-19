@@ -19,7 +19,8 @@
      "ticker": "IWM",
      "label": "러셀 2000"
     }
-   ]
+   ],
+   "region": "us"
   },
   {
    "name": "미국 섹터",
@@ -68,7 +69,8 @@
      "ticker": "XLC",
      "label": "커뮤니케이션"
     }
-   ]
+   ],
+   "region": "us"
   },
   {
    "name": "테마",
@@ -113,7 +115,8 @@
      "ticker": "UFO",
      "label": "우주"
     }
-   ]
+   ],
+   "region": "us"
   },
   {
    "name": "일본 업종 (TOPIX-17)",
@@ -186,7 +189,8 @@
      "ticker": "1633.T",
      "label": "부동산"
     }
-   ]
+   ],
+   "region": "jp"
   }
  ]
 }

@@ -217,7 +217,7 @@ function rowHTML(it, i, metric, extra = '') {
   const tags = (it.ath ? '<span class="tag ath">역대</span>' : '') + (it.small && !it.cap ? '<span class="tag">소형</span>' : '');
   const hold = it.holdings !== undefined;
   return `<button class="lrow" data-i="${i}" title="${esc(it.name)} ${esc(it.industry || '')}">
-    <span class="rk">${hold ? '<span class="caret">▶</span>' : ''}${extra || `${i + 1}위`}</span>
+    <span class="rk">${hold ? '<span class="caret" title="구성종목 보기">▶</span>' : ''}${extra || `${i + 1}위`}</span>
     <span class="nm"><b>${esc(it.name)}</b>${hold ? `<span class="ind">${esc(it.ticker)}</span>` : ''}${tags}${ind}</span>
     <span class="pc ${cls(it[metric])}">${fp(it[metric])}</span></button>${hold ? `<div class="hwrap" data-h="${i}" hidden>${holdsHTML(it)}</div>` : ''}`;
 }
@@ -242,6 +242,10 @@ function panelHTML(id, title, items, opts) {
   return `${head}<div class="panel" id="${id}"><div class="list">${rows}</div>${detailHTML()}</div>`;
 }
 
+function toggleHold(el, r, i) {
+  const h = el.querySelector(`[data-h="${i}"]`); if (!h) return;
+  h.hidden = !h.hidden; const c = $('.caret', r); if (c) c.textContent = h.hidden ? '▶' : '▼';
+}
 function bindPanel(id, all, opts) {
   const el = document.getElementById(id); if (!el) return;
   const caps = hasCaps(all);
@@ -259,9 +263,9 @@ function bindPanel(id, all, opts) {
   };
   $('.list', el).onclick = (e) => {
     const r = e.target.closest('.lrow'); if (!r) return;
-    const i = Number(r.dataset.i); const h = el.querySelector(`[data-h="${i}"]`);
-    if (h) { h.hidden = !h.hidden; const c = $('.caret', r); if (c) c.textContent = h.hidden ? '▶' : '▼'; }
-    selectItem(id, i);
+    const i = Number(r.dataset.i);
+    if (e.target.closest('.caret')) { toggleHold(el, r, i); return; }  // 화살표: 구성종목만 펼침/접기
+    selectItem(id, i);  // 이름: 차트만
   };
   if (items.length) selectItem(id, 0);
 }
@@ -424,19 +428,27 @@ function holdsHTML(it) {
 async function pageETF(day) {
   if (!day) { $('#main').innerHTML = '<div class="empty">아직 ETF 데이터가 없습니다.</div>'; return; }
   const sk = day.skipped || {};
-  const tool = `<p class="muted small" style="margin:-4px 0 8px">미국 상장 ETF ${day.priced?.toLocaleString()}개 기준 (레버리지·인버스 ${sk.lev ?? '–'}개, 상장 1년 미만 ${sk.young ?? '–'}개 제외) · ${fmtDate(day.date)} · 이름을 누르면 상위 구성종목 10개</p>`;
+  const tool = `<p class="muted small" style="margin:-4px 0 8px">미국 상장 ETF 중 순자산 1조원(${day.min_aum_usd ? '$' + (day.min_aum_usd / 1e8).toFixed(1) + '억' : '환산'}) 이상 · 상장 6개월 이상 · 구성종목 10개 이상 · 레버리지·인버스 제외 ${day.priced?.toLocaleString()}개 기준 · ${fmtDate(day.date)} · ▶ 누르면 상위 구성종목 10개</p>`;
   const tops = (v) => (Array.isArray(v) ? v : v?.unlev || []).map((x) => ({ ...x, holdings: x.holdings || [] }));
   const d1 = tops(day.top_d1), w1 = tops(day.top_w1);
-  const watch = day.groups.flatMap((g) => g.items.map((it) => ({ ...it, group: g.name })));
-  let rows = ''; let gi = -1;
+  const REG = { us: '🇺🇸 미국', jp: '🇯🇵 일본' };
+  const watch = ['us', 'jp'].flatMap((rg) => day.groups.filter((g) => (g.region || (g.name.includes('일본') ? 'jp' : 'us')) === rg)
+    .flatMap((g) => g.items.map((it) => ({ ...it, group: g.name, region: rg }))));
+  let rows = '';
   watch.forEach((it, i) => {
-    if (it.group !== watch[i - 1]?.group) { gi++; rows += `<div class="lgroup">${esc(it.group)}</div>`; }
-    rows += `<button class="lrow" data-i="${i}"><span class="rk"><span class="caret">▶</span></span><span class="nm"><b>${esc(it.label)}</b><span class="ind">${esc(it.ticker)}</span></span><span class="pc ${cls(it.d1)}">${fp(it.d1)}</span></button><div class="hwrap" data-h="${i}" hidden>${holdsHTML(it)}</div>`;
+    if (it.region !== watch[i - 1]?.region) rows += `<div class="lregion">${REG[it.region]}</div>`;
+    if (it.group !== watch[i - 1]?.group) rows += `<div class="lgroup">${esc(it.group)}</div>`;
+    rows += `<button class="lrow" data-i="${i}"><span class="rk"><span class="caret" title="구성종목 보기">▶</span></span><span class="nm"><b>${esc(it.label)}</b><span class="ind">${esc(it.ticker)}</span></span><span class="pc ${cls(it.d1)}">${fp(it.d1)}</span></button><div class="hwrap" data-h="${i}" hidden>${holdsHTML(it)}</div>`;
   });
+  const st = day.strength || [];
+  const pick = (k) => st.filter((x) => x.trend === k);
+  const line = (k, label, c) => { const a = pick(k); return `<div class="srow"><span class="slab ${c}">${label}</span><span>${a.length ? a.map((x) => `<b>${esc(x.label)}</b><span class="muted">(${esc(x.ticker)} ${x.rel3m != null ? (x.rel3m > 0 ? '+' : '') + x.rel3m + '%p' : ''})</span>`).join(' · ') : '<span class="muted">없음</span>'}</span></div>`; };
+  const strengthBox = st.length ? `<div class="strength"><div class="shead">미국 섹터·테마 흐름 <span class="muted small">(50·200일선 위치 + 최근 3개월 S&P500 대비, ${fmtDate(day.date)})</span></div>
+    ${line('강세', '강한 섹터', 'up')}${line('횡보', '횡보 섹터', '')}${line('약세', '하락 섹터', 'down')}</div>` : '';
   $('#main').innerHTML = panelHTML('etf-d1', '일간 상승률 상위', d1, { metric: 'd1', tools: tool })
     + panelHTML('etf-w1', wkTitle(day), w1, { metric: 'w1' })
-    + `<h2 class="sec">관심 ETF <span class="n">${watch.length}</span></h2><p class="muted small" style="margin:-4px 0 8px">ETF 이름을 누르면 상위 구성종목 10개가 펼쳐지고, 오른쪽에 차트와 좌수 변동이 나옵니다.</p>
-       <div class="panel" id="etf-watch"><div class="list">${rows}</div>${detailHTML()}</div>`;
+    + `<h2 class="sec">관심 ETF <span class="n">${watch.length}</span></h2><p class="muted small" style="margin:-4px 0 8px">이름을 누르면 오른쪽에 차트와 좌수 변동이, ▶ 화살표를 누르면 상위 구성종목 10개가 나옵니다.</p>
+       <div class="panel" id="etf-watch"><div class="lcol"><div class="list">${rows}</div>${strengthBox}</div>${detailHTML()}</div>`;
   bindPanel('etf-d1', d1, { metric: 'd1', chartMarket: 'etf', defRange: '6M' });
   bindPanel('etf-w1', w1, { metric: 'w1', chartMarket: 'etf', defRange: '6M' });
   // 관심 ETF: 이름 클릭 → 구성종목 펼침/접기 + 차트
@@ -444,8 +456,8 @@ async function pageETF(day) {
   panels.set('etf-watch', { items: watch, opts: { metric: 'd1', chartMarket: 'etf', defRange: '1Y', extra: etfExtra }, chart: null, seq: 0 });
   $('.list', el).onclick = (e) => {
     const r = e.target.closest('.lrow'); if (!r) return;
-    const i = Number(r.dataset.i); const h = el.querySelector(`[data-h="${i}"]`);
-    h.hidden = !h.hidden; $('.caret', r).textContent = h.hidden ? '▶' : '▼';
+    const i = Number(r.dataset.i);
+    if (e.target.closest('.caret')) { toggleHold(el, r, i); return; }
     selectItem('etf-watch', i);
   };
   selectItem('etf-watch', 0);

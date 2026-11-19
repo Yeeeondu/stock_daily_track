@@ -13,11 +13,14 @@
   "jp_english_names": true,
   "top_n": 50,
   "us_min_mcap": 100000000.0,
-  "etf_min_days": 250,
+  "etf_min_days": 126,
   "weekly_years": 5,
   "cap_buckets_usd": [
     10000000000.0,
     1000000000.0,
     100000000.0
-  ]
+  ],
+  "etf_min_aum_krw": 1000000000000.0,
+  "etf_min_holdings": 10,
+  "etf_min_age_days": 183
 }

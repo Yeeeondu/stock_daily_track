@@ -155,11 +155,12 @@ def quote_batch(tickers):
         for attempt in range(3):
             try:
                 r = yd.get_raw_json("https://query1.finance.yahoo.com/v7/finance/quote",
-                                    params={"symbols": ",".join(part), "fields": "marketCap,currency,trailingPE,regularMarketPrice,shortName,longName"})
+                                    params={"symbols": ",".join(part), "fields": "marketCap,currency,trailingPE,regularMarketPrice,shortName,longName,netAssets,firstTradeDateMilliseconds"})
                 for x in r["quoteResponse"]["result"]:
                     out[x["symbol"]] = {"mcap": x.get("marketCap"), "cur": x.get("currency"),
                                         "pe": x.get("trailingPE"), "px": x.get("regularMarketPrice"),
-                                        "name": x.get("shortName") or x.get("longName")}
+                                        "name": x.get("shortName") or x.get("longName"),
+                                        "aum": x.get("netAssets"), "first": x.get("firstTradeDateMilliseconds")}
                 break
             except Exception as e:  # noqa: BLE001
                 log("  시총 조회 오류:", repr(e)[:120])
@@ -490,6 +491,36 @@ def etf_shares_snapshot(t):
     return None
 
 
+def sector_strength(items, full):
+    """미국 섹터·테마 ETF 추세 분류: 50·200일선 위치 + 최근 3개월 S&P500 대비 수익률."""
+    spy = full.get("SPY")
+    def r(c, n):
+        return c.iloc[-1] / c.iloc[-1 - n] - 1 if len(c) > n else None
+    s3 = r(spy["Close"].dropna(), 63) if spy is not None else None
+    out = []
+    for e in items:
+        df = full.get(e["ticker"])
+        if df is None or len(df) < 200:
+            continue
+        c = df["Close"].dropna()
+        ma50, ma200 = c.rolling(50).mean().iloc[-1], c.rolling(200).mean().iloc[-1]
+        r1, r3 = r(c, 21), r(c, 63)
+        rel = (r3 - s3) if (r3 is not None and s3 is not None) else None
+        px = c.iloc[-1]
+        if px > ma50 > ma200 and (rel is None or rel > 0):
+            lab = "강세"
+        elif px < ma50 < ma200 or (px < ma50 and rel is not None and rel < -0.05):
+            lab = "약세"
+        else:
+            lab = "횡보"
+        out.append({"ticker": e["ticker"], "label": e["label"], "trend": lab,
+                    "r1m": round(r1 * 100, 1) if r1 is not None else None,
+                    "r3m": round(r3 * 100, 1) if r3 is not None else None,
+                    "rel3m": round(rel * 100, 1) if rel is not None else None,
+                    "above50": bool(px > ma50), "above200": bool(px > ma200)})
+    return sorted(out, key=lambda x: -(x["rel3m"] if x["rel3m"] is not None else -999))
+
+
 def run_etf():
     log("===== ETF =====")
     watch = [e for g in ETFS["groups"] for e in g["items"]]
@@ -501,12 +532,39 @@ def run_etf():
         t = e["ticker"]
         h = etf_holdings(t)
         if h:
-            meta[t] = {"holdings": h, "at": dt.date.today().isoformat()}
+            meta[t] = {"holdings": h, "count": len(h), "at": dt.date.today().isoformat()}
         snaps[t] = etf_shares_snapshot(t)
         time.sleep(0.5)
     write_json(mpath, meta)
     log(f"구성종목 {sum(bool(meta.get(e['ticker'], {}).get('holdings')) for e in watch)}/{len(watch)}, 좌수 {sum(bool(v) for v in snaps.values())}/{len(watch)}")
     uni = load_universe("etf", CACHE)
+    # 운용자산(순자산)·상장일은 일괄 시세로, 구성종목 수는 개별 조회(30일 캐시)로 — 모두 대량 다운로드 전에
+    q = quote_batch([t for t in uni if not LEVERAGED.search(uni[t].get("name", ""))] + ["KRW=X"])
+    krw = q.get("KRW=X", {}).get("px") or meta.get("_krw") or 1400
+    meta["_krw"] = krw
+    min_usd = SETTINGS["etf_min_aum_krw"] / krw
+    now_ms = time.time() * 1000
+    eligible = {}
+    for t, x in q.items():
+        na, ft = x.get("aum"), x.get("first")
+        if na and na >= min_usd and (not ft or now_ms - ft >= SETTINGS["etf_min_age_days"] * 864e5):
+            eligible[t] = na
+    month_ago = (dt.date.today() - dt.timedelta(days=30)).isoformat()
+    fails = 0
+    for t in sorted(eligible):
+        m = meta.get(t, {})
+        if "count" in m and m.get("at", "") >= month_ago:
+            continue
+        if fails >= 8:
+            break
+        h = etf_holdings(t)
+        meta[t] = {"holdings": h, "count": len(h), "at": dt.date.today().isoformat()}
+        fails = 0 if h else fails + 1
+        time.sleep(0.15)
+    write_json(mpath, meta)
+    min_h = SETTINGS["etf_min_holdings"]
+    ok = {t for t in eligible if meta.get(t, {}).get("count", min_h) >= min_h}
+    log(f"순자산 {min_usd / 1e8:.1f}억달러(1조원) 이상·상장 6개월 이상 {len(eligible)}개 → 구성종목 {min_h}개 이상 {len(ok)}개 (환율 {krw})")
     for e in watch:
         uni.setdefault(e["ticker"], {"name": e["label"], "sector": "ETF", "industry": "ETF"})
     full = download(list(uni), "13mo")
@@ -522,10 +580,13 @@ def run_etf():
         if LEVERAGED.search(name):
             skipped["lev"] += 1
             continue
-        if len(df) < SETTINGS["etf_min_days"]:  # 상장 1년 미만 제외
+        if len(df) < SETTINGS["etf_min_days"]:  # 상장 6개월 미만 제외
             skipped["young"] += 1
             continue
-        rows.append({"ticker": t, "name": name, **returns(df)})
+        if t not in ok:  # 순자산 1조원 미만 · 구성종목 10개 미만
+            skipped["small"] = skipped.get("small", 0) + 1
+            continue
+        rows.append({"ticker": t, "name": name, "aum": round(eligible.get(t, 0)), **returns(df)})
     n = SETTINGS["top_n"]
     w1, w1_week = weekly_top("etf", rows, trade_date, n)
     tops = {"top_d1": top_n(rows, "d1", n), "top_w1": w1}
@@ -558,11 +619,13 @@ def run_etf():
             items.append({**e, **(returns(df) if df is not None else {"close": None, "d1": None, "w1": None}),
                           "name": e["label"], "holdings": meta.get(t, {}).get("holdings", []),
                           "shares": [[d, v] for d, v in hs]})
-        groups.append({"name": g["name"], "items": items})
+        groups.append({"name": g["name"], "region": g.get("region", "us"), "items": items})
     write_json(spath, shares)
+    strength = sector_strength([e for g in ETFS["groups"] if g.get("region", "us") == "us" and g["name"] != "지수" for e in g["items"]], full)
 
     write_json(DATA / "etf" / f"{ds}.json", {"market": "etf", "date": ds, "generated_at": now_iso(),
                                              "universe": len(uni), "priced": len(rows), "skipped": skipped, "w1_week": w1_week,
+                                             "min_aum_usd": round(min_usd), "krw": krw, "strength": strength,
                                              **tops, "groups": groups})
     add_index("etf", ds)
     log(f"저장 완료: docs/data/etf/{ds}.json")
@@ -775,7 +838,7 @@ def run_meta():
                     break
                 h = etf_holdings(t)
                 if h:
-                    meta[t] = {"holdings": h, "at": dt.date.today().isoformat()}
+                    meta[t] = {"holdings": h, "count": len(h), "at": dt.date.today().isoformat()}
                 fails = 0 if h else fails + 1
                 time.sleep(0.6)
             write_json(mpath, meta)
