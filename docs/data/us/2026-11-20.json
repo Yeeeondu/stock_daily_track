@@ -29,7 +29,9 @@
    "ref": 29.99,
    "ath": true,
    "since": "1986-10-29",
-   "rs": 98
+   "rs": 98,
+   "per": 18.8,
+   "psr": 0.2
   },
   {
    "ticker": "JXG",
@@ -54,7 +56,9 @@
    "ref": 13.97,
    "ath": false,
    "since": "2013-03-07",
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": 2.96
   },
   {
    "ticker": "PLMR",
@@ -79,7 +83,9 @@
    "ref": 162.38,
    "ath": false,
    "since": "2019-04-17",
-   "rs": 91
+   "rs": 91,
+   "per": 20.5,
+   "psr": 3.49
   },
   {
    "ticker": "IPAR",
@@ -104,7 +110,9 @@
    "ref": 138.13,
    "ath": false,
    "since": "1988-02-04",
-   "rs": 93
+   "rs": 93,
+   "per": 25.9,
+   "psr": 2.93
   },
   {
    "ticker": "SKWD",
@@ -129,7 +137,9 @@
    "ref": 65.69,
    "ath": true,
    "since": "2023-01-13",
-   "rs": 89
+   "rs": 89,
+   "per": 15.0,
+   "psr": 1.58
   },
   {
    "ticker": "FCN",
@@ -154,7 +164,9 @@
    "ref": 208.7,
    "ath": false,
    "since": "1996-05-09",
-   "rs": 91
+   "rs": 91,
+   "per": 25.6,
+   "psr": 1.41
   },
   {
    "ticker": "ENR",
@@ -179,7 +191,9 @@
    "ref": 28.7,
    "ath": false,
    "since": "2015-06-12",
-   "rs": 94
+   "rs": 94,
+   "per": 24.0,
+   "psr": 0.65
   },
   {
    "ticker": "EXPO",
@@ -204,7 +218,9 @@
    "ref": 90.51,
    "ath": false,
    "since": "1990-08-17",
-   "rs": 92
+   "rs": 92,
+   "per": 38.4,
+   "psr": 7.27
   }
  ],
  "top_d1": [
@@ -229,7 +245,9 @@
    "above50": true,
    "above200": true,
    "score": 25.29,
-   "rs": 79
+   "rs": 79,
+   "per": 164.0,
+   "psr": 2.11
   },
   {
    "ticker": "HDB",
@@ -252,7 +270,9 @@
    "above50": true,
    "above200": true,
    "score": 46.79,
-   "rs": 61
+   "rs": 61,
+   "per": 17.7,
+   "psr": 0.05
   },
   {
    "ticker": "RKT",
@@ -275,7 +295,9 @@
    "above50": true,
    "above200": false,
    "score": 35.85,
-   "rs": 45
+   "rs": 45,
+   "per": null,
+   "psr": 2.22
   },
   {
    "ticker": "GIS",
@@ -298,7 +320,9 @@
    "above50": true,
    "above200": false,
    "score": 24.17,
-   "rs": 37
+   "rs": 37,
+   "per": null,
+   "psr": 1.04
   },
   {
    "ticker": "RCI",
@@ -321,7 +345,9 @@
    "above50": true,
    "above200": false,
    "score": 31.86,
-   "rs": 51
+   "rs": 51,
+   "per": 30.6,
+   "psr": 0.67
   },
   {
    "ticker": "MKC",
@@ -344,7 +370,9 @@
    "above50": true,
    "above200": false,
    "score": 16.69,
-   "rs": 29
+   "rs": 29,
+   "per": 8.6,
+   "psr": 1.57
   },
   {
    "ticker": "HCA",
@@ -367,7 +395,9 @@
    "above50": true,
    "above200": true,
    "score": 15.5,
-   "rs": 70
+   "rs": 70,
+   "per": 15.8,
+   "psr": 1.26
   },
   {
    "ticker": "INFY",
@@ -390,7 +420,9 @@
    "above50": true,
    "above200": false,
    "score": 7.32,
-   "rs": 44
+   "rs": 44,
+   "per": 14.9,
+   "psr": 2.39
   },
   {
    "ticker": "CSGP",
@@ -412,7 +444,9 @@
    "rel1m": -6.65,
    "above50": false,
    "above200": false,
-   "rs": 23
+   "rs": 23,
+   "per": 68.9,
+   "psr": 3.24
   },
   {
    "ticker": "CTSH",
@@ -434,7 +468,9 @@
    "rel1m": -11.42,
    "above50": false,
    "above200": true,
-   "rs": 50
+   "rs": 50,
+   "per": 10.6,
+   "psr": 1.19
   },
   {
    "ticker": "UNH",
@@ -456,7 +492,9 @@
    "rel1m": -10.21,
    "above50": false,
    "above200": false,
-   "rs": 56
+   "rs": 56,
+   "per": 19.4,
+   "psr": 0.68
   },
   {
    "ticker": "TU",
@@ -479,7 +517,9 @@
    "above50": true,
    "above200": true,
    "score": 73.16,
-   "rs": 52
+   "rs": 52,
+   "per": null,
+   "psr": 0.87
   },
   {
    "ticker": "HUM",
@@ -501,7 +541,9 @@
    "rel1m": 2.47,
    "above50": false,
    "above200": true,
-   "rs": 94
+   "rs": 94,
+   "per": 38.0,
+   "psr": 0.3
   },
   {
    "ticker": "UHS",
@@ -524,7 +566,9 @@
    "above50": false,
    "above200": true,
    "score": 6.27,
-   "rs": 50
+   "rs": 50,
+   "per": 7.5,
+   "psr": 0.49
   },
   {
    "ticker": "BCE",
@@ -547,7 +591,9 @@
    "above50": true,
    "above200": false,
    "score": 25.49,
-   "rs": 44
+   "rs": 44,
+   "per": 11.8,
+   "psr": 0.82
   },
   {
    "ticker": "FICO",
@@ -569,7 +615,9 @@
    "rel1m": -5.84,
    "above50": false,
    "above200": false,
-   "rs": 9
+   "rs": 9,
+   "per": 19.1,
+   "psr": 5.86
   },
   {
    "ticker": "SBAC",
@@ -592,7 +640,9 @@
    "above50": false,
    "above200": false,
    "score": 7.14,
-   "rs": 41
+   "rs": 41,
+   "per": 18.7,
+   "psr": 6.35
   },
   {
    "ticker": "T",
@@ -615,7 +665,9 @@
    "above50": false,
    "above200": false,
    "score": 17.14,
-   "rs": 35
+   "rs": 35,
+   "per": 11.9,
+   "psr": 1.17
   },
   {
    "ticker": "HRL",
@@ -638,7 +690,9 @@
    "above50": true,
    "above200": true,
    "score": 35.21,
-   "rs": 62
+   "rs": 62,
+   "per": 38.0,
+   "psr": 1.07
   },
   {
    "ticker": "TSN",
@@ -661,7 +715,9 @@
    "above50": true,
    "above200": true,
    "score": 43.25,
-   "rs": 76
+   "rs": 76,
+   "per": 50.9,
+   "psr": 0.33
   },
   {
    "ticker": "WSE",
@@ -684,7 +740,9 @@
    "above50": false,
    "above200": null,
    "score": 12.98,
-   "rs": null
+   "rs": null,
+   "per": 22.1,
+   "psr": 3.78
   },
   {
    "ticker": "DHI",
@@ -707,7 +765,9 @@
    "above50": true,
    "above200": false,
    "score": 16.86,
-   "rs": 56
+   "rs": 56,
+   "per": 14.4,
+   "psr": 1.18
   },
   {
    "ticker": "CL",
@@ -730,7 +790,9 @@
    "above50": true,
    "above200": true,
    "score": 18.83,
-   "rs": 75
+   "rs": 75,
+   "per": 38.4,
+   "psr": 3.69
   },
   {
    "ticker": "KHC",
@@ -753,7 +815,9 @@
    "above50": true,
    "above200": true,
    "score": 20.75,
-   "rs": 64
+   "rs": 64,
+   "per": null,
+   "psr": 1.21
   },
   {
    "ticker": "TMUS",
@@ -776,7 +840,9 @@
    "above50": true,
    "above200": false,
    "score": 20.17,
-   "rs": 33
+   "rs": 33,
+   "per": 16.0,
+   "psr": 1.87
   },
   {
    "ticker": "JBS",
@@ -799,7 +865,9 @@
    "above50": false,
    "above200": false,
    "score": 15.44,
-   "rs": 35
+   "rs": 35,
+   "per": 17.3,
+   "psr": 0.1
   },
   {
    "ticker": "SJM",
@@ -822,7 +890,9 @@
    "above50": true,
    "above200": true,
    "score": 19.4,
-   "rs": 83
+   "rs": 83,
+   "per": 62.5,
+   "psr": 1.56
   },
   {
    "ticker": "TEVA",
@@ -844,7 +914,9 @@
    "rel1m": 7.39,
    "above50": false,
    "above200": true,
-   "rs": 86
+   "rs": 86,
+   "per": 91.2,
+   "psr": 2.66
   },
   {
    "ticker": "PHM",
@@ -867,7 +939,9 @@
    "above50": true,
    "above200": true,
    "score": 20.94,
-   "rs": 59
+   "rs": 59,
+   "per": 13.3,
+   "psr": 1.44
   },
   {
    "ticker": "AMT",
@@ -890,7 +964,9 @@
    "above50": true,
    "above200": true,
    "score": 16.02,
-   "rs": 62
+   "rs": 62,
+   "per": 25.9,
+   "psr": 7.76
   },
   {
    "ticker": "TAK",
@@ -913,7 +989,9 @@
    "above50": true,
    "above200": true,
    "score": 26.95,
-   "rs": 90
+   "rs": 90,
+   "per": 311.0,
+   "psr": 0.01
   },
   {
    "ticker": "IBN",
@@ -936,7 +1014,9 @@
    "above50": true,
    "above200": true,
    "score": 39.66,
-   "rs": 86
+   "rs": 86,
+   "per": 20.2,
+   "psr": 0.06
   },
   {
    "ticker": "VZ",
@@ -959,7 +1039,9 @@
    "above50": true,
    "above200": false,
    "score": 21.53,
-   "rs": 55
+   "rs": 55,
+   "per": 11.9,
+   "psr": 1.38
   },
   {
    "ticker": "FMS",
@@ -981,7 +1063,9 @@
    "rel1m": 1.77,
    "above50": false,
    "above200": false,
-   "rs": 39
+   "rs": 39,
+   "per": 11.8,
+   "psr": 0.54
   },
   {
    "ticker": "WMT",
@@ -1004,7 +1088,9 @@
    "above50": true,
    "above200": true,
    "score": 23.97,
-   "rs": 81
+   "rs": 81,
+   "per": 46.4,
+   "psr": 1.38
   },
   {
    "ticker": "CPNG",
@@ -1027,7 +1113,9 @@
    "above50": false,
    "above200": false,
    "score": 14.39,
-   "rs": 26
+   "rs": 26,
+   "per": null,
+   "psr": 0.65
   },
   {
    "ticker": "WIT",
@@ -1050,7 +1138,9 @@
    "above50": true,
    "above200": true,
    "score": 8.74,
-   "rs": 56
+   "rs": 56,
+   "per": 14.6,
+   "psr": 0.02
   },
   {
    "ticker": "GIB",
@@ -1073,7 +1163,9 @@
    "above50": true,
    "above200": true,
    "score": 11.87,
-   "rs": 71
+   "rs": 71,
+   "per": 12.8,
+   "psr": 0.86
   },
   {
    "ticker": "SYY",
@@ -1096,7 +1188,9 @@
    "above50": false,
    "above200": false,
    "score": 12.92,
-   "rs": 52
+   "rs": 52,
+   "per": 20.8,
+   "psr": 0.45
   },
   {
    "ticker": "ERIE",
@@ -1119,7 +1213,9 @@
    "above50": true,
    "above200": true,
    "score": 23.69,
-   "rs": 68
+   "rs": 68,
+   "per": 24.7,
+   "psr": 3.05
   },
   {
    "ticker": "FDS",
@@ -1142,7 +1238,9 @@
    "above50": true,
    "above200": true,
    "score": 5.18,
-   "rs": 88
+   "rs": 88,
+   "per": 21.4,
+   "psr": 4.44
   },
   {
    "ticker": "IFF",
@@ -1164,7 +1262,9 @@
    "rel1m": -5.32,
    "above50": false,
    "above200": true,
-   "rs": 64
+   "rs": 64,
+   "per": 227.5,
+   "psr": 1.84
   },
   {
    "ticker": "IT",
@@ -1186,7 +1286,9 @@
    "rel1m": -15.75,
    "above50": false,
    "above200": true,
-   "rs": 52
+   "rs": 52,
+   "per": 12.5,
+   "psr": 1.71
   },
   {
    "ticker": "VEEV",
@@ -1208,7 +1310,9 @@
    "rel1m": -7.64,
    "above50": false,
    "above200": true,
-   "rs": 89
+   "rs": 89,
+   "per": 43.6,
+   "psr": 12.46
   },
   {
    "ticker": "JNJ",
@@ -1231,7 +1335,9 @@
    "above50": true,
    "above200": true,
    "score": 14.17,
-   "rs": 77
+   "rs": 77,
+   "per": 41.0,
+   "psr": 6.55
   },
   {
    "ticker": "KDP",
@@ -1254,7 +1360,9 @@
    "above50": true,
    "above200": true,
    "score": 13.32,
-   "rs": 82
+   "rs": 82,
+   "per": 31.4,
+   "psr": 2.15
   },
   {
    "ticker": "TEAM",
@@ -1276,7 +1384,9 @@
    "rel1m": -29.84,
    "above50": false,
    "above200": true,
-   "rs": 86
+   "rs": 86,
+   "per": 408.0,
+   "psr": 3.07
   },
   {
    "ticker": "ACN",
@@ -1298,7 +1408,9 @@
    "rel1m": -4.69,
    "above50": false,
    "above200": true,
-   "rs": 78
+   "rs": 78,
+   "per": 15.7,
+   "psr": 1.76
   },
   {
    "ticker": "WRB",
@@ -1321,7 +1433,9 @@
    "above50": true,
    "above200": true,
    "score": 23.22,
-   "rs": 76
+   "rs": 76,
+   "per": 16.6,
+   "psr": 1.96
   },
   {
    "ticker": "EMA",
@@ -1344,7 +1458,9 @@
    "above50": true,
    "above200": true,
    "score": 25.53,
-   "rs": 65
+   "rs": 65,
+   "per": 24.2,
+   "psr": 1.82
   },
   {
    "ticker": "DGICB",
@@ -1367,7 +1483,9 @@
    "above50": true,
    "above200": true,
    "score": 87.66,
-   "rs": 98
+   "rs": 98,
+   "per": 18.8,
+   "psr": 0.2
   },
   {
    "ticker": "GAP",
@@ -1390,7 +1508,9 @@
    "above50": false,
    "above200": false,
    "score": 9.23,
-   "rs": 47
+   "rs": 47,
+   "per": 6.7,
+   "psr": 0.48
   },
   {
    "ticker": "EFOR",
@@ -1412,7 +1532,9 @@
    "rel1m": -13.78,
    "above50": false,
    "above200": true,
-   "rs": 63
+   "rs": 63,
+   "per": 19.2,
+   "psr": 0.32
   },
   {
    "ticker": "EVCM",
@@ -1434,7 +1556,9 @@
    "rel1m": -20.74,
    "above50": false,
    "above200": false,
-   "rs": 17
+   "rs": 17,
+   "per": 40.2,
+   "psr": 1.88
   },
   {
    "ticker": "CBLL",
@@ -1457,7 +1581,9 @@
    "above50": true,
    "above200": true,
    "score": 23.18,
-   "rs": 94
+   "rs": 94,
+   "per": null,
+   "psr": 9.78
   },
   {
    "ticker": "SPB",
@@ -1480,7 +1606,9 @@
    "above50": false,
    "above200": false,
    "score": 9.78,
-   "rs": 72
+   "rs": 72,
+   "per": 36.7,
+   "psr": 0.65
   },
   {
    "ticker": "KRSA",
@@ -1503,7 +1631,9 @@
    "above50": true,
    "above200": true,
    "score": 49.47,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "BRVE",
@@ -1526,7 +1656,9 @@
    "above50": false,
    "above200": null,
    "score": 17.29,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "BKE",
@@ -1549,7 +1681,9 @@
    "above50": true,
    "above200": false,
    "score": 12.68,
-   "rs": 43
+   "rs": 43,
+   "per": 10.2,
+   "psr": 1.71
   },
   {
    "ticker": "NTLA",
@@ -1571,7 +1705,9 @@
    "rel1m": -0.57,
    "above50": false,
    "above200": false,
-   "rs": 37
+   "rs": 37,
+   "per": null,
+   "psr": 26.54
   },
   {
    "ticker": "HTFL",
@@ -1593,7 +1729,9 @@
    "rel1m": -5.94,
    "above50": false,
    "above200": true,
-   "rs": 95
+   "rs": 95,
+   "per": 69.7,
+   "psr": 17.19
   },
   {
    "ticker": "KVYO",
@@ -1616,7 +1754,9 @@
    "above50": true,
    "above200": true,
    "score": 26.95,
-   "rs": 87
+   "rs": 87,
+   "per": 741.3,
+   "psr": 1.97
   },
   {
    "ticker": "PLMR",
@@ -1639,7 +1779,9 @@
    "above50": true,
    "above200": true,
    "score": 34.38,
-   "rs": 91
+   "rs": 91,
+   "per": 20.5,
+   "psr": 3.49
   },
   {
    "ticker": "BORR",
@@ -1661,7 +1803,9 @@
    "rel1m": -6.6,
    "above50": false,
    "above200": false,
-   "rs": 25
+   "rs": 25,
+   "per": null,
+   "psr": 1.05
   },
   {
    "ticker": "BGSI",
@@ -1683,7 +1827,9 @@
    "rel1m": -1.94,
    "above50": false,
    "above200": false,
-   "rs": 16
+   "rs": 16,
+   "per": null,
+   "psr": 0.53
   },
   {
    "ticker": "BIPC",
@@ -1706,7 +1852,9 @@
    "above50": true,
    "above200": true,
    "score": 40.47,
-   "rs": 62
+   "rs": 62,
+   "per": null,
+   "psr": 1.43
   },
   {
    "ticker": "YSWY",
@@ -1728,7 +1876,9 @@
    "rel1m": -8.13,
    "above50": false,
    "above200": null,
-   "rs": null
+   "rs": null,
+   "per": 17.0,
+   "psr": 0.19
   },
   {
    "ticker": "GLOB",
@@ -1750,7 +1900,9 @@
    "rel1m": 0.76,
    "above50": true,
    "above200": true,
-   "rs": 53
+   "rs": 53,
+   "per": 16.3,
+   "psr": 0.74
   },
   {
    "ticker": "LYCA",
@@ -1772,7 +1924,9 @@
    "rel1m": null,
    "above50": null,
    "above200": null,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 388.45
   },
   {
    "ticker": "ARDT",
@@ -1794,7 +1948,9 @@
    "rel1m": 31.83,
    "above50": true,
    "above200": true,
-   "rs": 96
+   "rs": 96,
+   "per": 14.6,
+   "psr": 0.33
   },
   {
    "ticker": "DRTS",
@@ -1816,7 +1972,9 @@
    "rel1m": 0.95,
    "above50": false,
    "above200": true,
-   "rs": 96
+   "rs": 96,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TNDM",
@@ -1838,7 +1996,9 @@
    "rel1m": 11.63,
    "above50": true,
    "above200": false,
-   "rs": 35
+   "rs": 35,
+   "per": null,
+   "psr": 1.13
   },
   {
    "ticker": "TGLS",
@@ -1861,7 +2021,9 @@
    "above50": true,
    "above200": true,
    "score": 43.89,
-   "rs": 76
+   "rs": 76,
+   "per": 21.4,
+   "psr": 1.92
   },
   {
    "ticker": "AMN",
@@ -1883,7 +2045,9 @@
    "rel1m": -13.97,
    "above50": false,
    "above200": true,
-   "rs": 95
+   "rs": 95,
+   "per": 13.0,
+   "psr": 0.39
   },
   {
    "ticker": "PLBL",
@@ -1906,7 +2070,9 @@
    "above50": true,
    "above200": true,
    "score": 135.02,
-   "rs": 94
+   "rs": 94,
+   "per": null,
+   "psr": 150.15
   },
   {
    "ticker": "VOR",
@@ -1929,7 +2095,9 @@
    "above50": false,
    "above200": true,
    "score": 18.58,
-   "rs": 92
+   "rs": 92,
+   "per": 0.1,
+   "psr": null
   },
   {
    "ticker": "LFST",
@@ -1952,7 +2120,9 @@
    "above50": true,
    "above200": true,
    "score": 26.63,
-   "rs": 97
+   "rs": 97,
+   "per": 76.8,
+   "psr": 3.13
   },
   {
    "ticker": "CALM",
@@ -1975,7 +2145,9 @@
    "above50": true,
    "above200": false,
    "score": 40.6,
-   "rs": 37
+   "rs": 37,
+   "per": 58.8,
+   "psr": 1.34
   },
   {
    "ticker": "PPC",
@@ -1998,7 +2170,9 @@
    "above50": true,
    "above200": false,
    "score": 21.96,
-   "rs": 34
+   "rs": 34,
+   "per": 21.3,
+   "psr": 0.37
   },
   {
    "ticker": "HURN",
@@ -2020,7 +2194,9 @@
    "rel1m": -1.11,
    "above50": true,
    "above200": true,
-   "rs": 87
+   "rs": 87,
+   "per": 25.8,
+   "psr": 1.49
   },
   {
    "ticker": "IPAR",
@@ -2043,7 +2219,9 @@
    "above50": true,
    "above200": true,
    "score": 39.87,
-   "rs": 93
+   "rs": 93,
+   "per": 25.9,
+   "psr": 2.93
   },
   {
    "ticker": "EPC",
@@ -2066,7 +2244,9 @@
    "above50": true,
    "above200": true,
    "score": 21.35,
-   "rs": 91
+   "rs": 91,
+   "per": null,
+   "psr": 0.66
   },
   {
    "ticker": "MNDY",
@@ -2088,7 +2268,9 @@
    "rel1m": -22.65,
    "above50": false,
    "above200": false,
-   "rs": 27
+   "rs": 27,
+   "per": 24.8,
+   "psr": 2.14
   },
   {
    "ticker": "STC",
@@ -2111,7 +2293,9 @@
    "above50": false,
    "above200": false,
    "score": 12.69,
-   "rs": 15
+   "rs": 15,
+   "per": 11.1,
+   "psr": 0.4
   },
   {
    "ticker": "DBD",
@@ -2133,7 +2317,9 @@
    "rel1m": -15.3,
    "above50": false,
    "above200": false,
-   "rs": 22
+   "rs": 22,
+   "per": 24.6,
+   "psr": 0.44
   },
   {
    "ticker": "DVA",
@@ -2155,7 +2341,9 @@
    "rel1m": -3.64,
    "above50": false,
    "above200": false,
-   "rs": 64
+   "rs": 64,
+   "per": 12.2,
+   "psr": 0.71
   },
   {
    "ticker": "AVAH",
@@ -2177,7 +2365,9 @@
    "rel1m": -7.52,
    "above50": false,
    "above200": true,
-   "rs": 84
+   "rs": 84,
+   "per": 7.9,
+   "psr": 0.9
   },
   {
    "ticker": "TDS",
@@ -2199,7 +2389,9 @@
    "rel1m": -2.91,
    "above50": false,
    "above200": false,
-   "rs": 30
+   "rs": 30,
+   "per": 7.7,
+   "psr": 2.46
   },
   {
    "ticker": "INNV",
@@ -2222,7 +2414,9 @@
    "above50": false,
    "above200": false,
    "score": 11.38,
-   "rs": 81
+   "rs": 81,
+   "per": 152.7,
+   "psr": 1.23
   },
   {
    "ticker": "PLSE",
@@ -2244,7 +2438,9 @@
    "rel1m": -3.71,
    "above50": false,
    "above200": true,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 2242.41
   },
   {
    "ticker": "DXC",
@@ -2266,7 +2462,9 @@
    "rel1m": -5.16,
    "above50": true,
    "above200": true,
-   "rs": 89
+   "rs": 89,
+   "per": 19.0,
+   "psr": 0.17
   },
   {
    "ticker": "NJR",
@@ -2289,7 +2487,9 @@
    "above50": true,
    "above200": true,
    "score": 21.91,
-   "rs": 69
+   "rs": 69,
+   "per": 15.4,
+   "psr": 2.49
   },
   {
    "ticker": "CNXC",
@@ -2311,7 +2511,9 @@
    "rel1m": -4.74,
    "above50": true,
    "above200": true,
-   "rs": 68
+   "rs": 68,
+   "per": null,
+   "psr": 0.18
   },
   {
    "ticker": "INTA",
@@ -2334,7 +2536,9 @@
    "above50": true,
    "above200": true,
    "score": 4.66,
-   "rs": 95
+   "rs": 95,
+   "per": null,
+   "psr": 5.55
   },
   {
    "ticker": "ATRC",
@@ -2357,7 +2561,9 @@
    "above50": false,
    "above200": true,
    "score": 9.29,
-   "rs": 95
+   "rs": 95,
+   "per": 178.7,
+   "psr": 4.78
   },
   {
    "ticker": "NSP",
@@ -2380,7 +2586,9 @@
    "above50": false,
    "above200": true,
    "score": 4.74,
-   "rs": 94
+   "rs": 94,
+   "per": 691.1,
+   "psr": 0.27
   },
   {
    "ticker": "UPBD",
@@ -2403,7 +2611,9 @@
    "above50": true,
    "above200": true,
    "score": 66.3,
-   "rs": 93
+   "rs": 93,
+   "per": 13.4,
+   "psr": 0.31
   },
   {
    "ticker": "ECO",
@@ -2426,7 +2636,9 @@
    "above50": false,
    "above200": true,
    "score": 8.15,
-   "rs": 97
+   "rs": 97,
+   "per": 4.8,
+   "psr": 2.96
   },
   {
    "ticker": "AD",
@@ -2448,7 +2660,9 @@
    "rel1m": -8.45,
    "above50": false,
    "above200": false,
-   "rs": 15
+   "rs": 15,
+   "per": 3.8,
+   "psr": 6.61
   },
   {
    "ticker": "MSGR",
@@ -2471,7 +2685,9 @@
    "above50": null,
    "above200": null,
    "score": 49.63,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "LVWR",
@@ -2493,7 +2709,9 @@
    "rel1m": -30.54,
    "above50": false,
    "above200": false,
-   "rs": 13
+   "rs": 13,
+   "per": null,
+   "psr": 6.08
   },
   {
    "ticker": "PMA",
@@ -2516,7 +2734,9 @@
    "above50": true,
    "above200": true,
    "score": 63.63,
-   "rs": 87
+   "rs": 87,
+   "per": null,
+   "psr": 17.38
   },
   {
    "ticker": "FLNT",
@@ -2539,7 +2759,9 @@
    "above50": true,
    "above200": true,
    "score": 73.28,
-   "rs": 89
+   "rs": 89,
+   "per": null,
+   "psr": 0.57
   },
   {
    "ticker": "EVH",
@@ -2561,7 +2783,9 @@
    "rel1m": -10.42,
    "above50": false,
    "above200": false,
-   "rs": 65
+   "rs": 65,
+   "per": null,
+   "psr": 0.19
   },
   {
    "ticker": "PSQL",
@@ -2583,7 +2807,9 @@
    "rel1m": -31.77,
    "above50": false,
    "above200": false,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 29.59
   },
   {
    "ticker": "OPTX",
@@ -2605,7 +2831,9 @@
    "rel1m": 4.27,
    "above50": false,
    "above200": false,
-   "rs": 96
+   "rs": 96,
+   "per": null,
+   "psr": 8.22
   },
   {
    "ticker": "JXG",
@@ -2628,7 +2856,9 @@
    "above50": true,
    "above200": true,
    "score": 134.29,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": 2.96
   },
   {
    "ticker": "GOW",
@@ -2650,7 +2880,9 @@
    "rel1m": -19.26,
    "above50": false,
    "above200": false,
-   "rs": 1
+   "rs": 1,
+   "per": 39.0,
+   "psr": 1.91
   },
   {
    "ticker": "BGS",
@@ -2673,7 +2905,9 @@
    "above50": true,
    "above200": false,
    "score": 90.99,
-   "rs": 41
+   "rs": 41,
+   "per": null,
+   "psr": 0.16
   },
   {
    "ticker": "NXH",
@@ -2695,7 +2929,9 @@
    "rel1m": -15.17,
    "above50": false,
    "above200": false,
-   "rs": 1
+   "rs": 1,
+   "per": null,
+   "psr": 0.09
   },
   {
    "ticker": "PYXS",
@@ -2718,7 +2954,9 @@
    "above50": false,
    "above200": false,
    "score": 38.84,
-   "rs": 24
+   "rs": 24,
+   "per": null,
+   "psr": 19.61
   },
   {
    "ticker": "DTIL",
@@ -2741,7 +2979,9 @@
    "above50": true,
    "above200": true,
    "score": 25.4,
-   "rs": 87
+   "rs": 87,
+   "per": 29.6,
+   "psr": 6.27
   },
   {
    "ticker": "MXCT",
@@ -2764,7 +3004,9 @@
    "above50": true,
    "above200": true,
    "score": 29.37,
-   "rs": 84
+   "rs": 84,
+   "per": null,
+   "psr": 4.12
   },
   {
    "ticker": "MPT",
@@ -2786,7 +3028,9 @@
    "rel1m": -25.6,
    "above50": false,
    "above200": false,
-   "rs": 3
+   "rs": 3,
+   "per": 4.2,
+   "psr": 0.95
   },
   {
    "ticker": "FXHO",
@@ -2808,7 +3052,9 @@
    "rel1m": -7.88,
    "above50": false,
    "above200": false,
-   "rs": 3
+   "rs": 3,
+   "per": null,
+   "psr": 0.73
   },
   {
    "ticker": "TLSI",
@@ -2830,7 +3076,9 @@
    "rel1m": -26.79,
    "above50": false,
    "above200": false,
-   "rs": 8
+   "rs": 8,
+   "per": null,
+   "psr": 3.09
   },
   {
    "ticker": "GIBO",
@@ -2853,7 +3101,9 @@
    "above50": true,
    "above200": true,
    "score": 122.69,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TRXB",
@@ -2875,7 +3125,9 @@
    "rel1m": -23.63,
    "above50": null,
    "above200": null,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "YDES",
@@ -2898,7 +3150,9 @@
    "above50": false,
    "above200": false,
    "score": 31.33,
-   "rs": 33
+   "rs": 33,
+   "per": null,
+   "psr": 276.05
   },
   {
    "ticker": "LSAK",
@@ -2920,7 +3174,9 @@
    "rel1m": -15.41,
    "above50": false,
    "above200": false,
-   "rs": 19
+   "rs": 19,
+   "per": 78.5,
+   "psr": 0.37
   },
   {
    "ticker": "CTY",
@@ -2943,7 +3199,9 @@
    "above50": null,
    "above200": null,
    "score": 18.2,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 71.92
   },
   {
    "ticker": "SAR",
@@ -2965,7 +3223,9 @@
    "rel1m": -12.68,
    "above50": false,
    "above200": false,
-   "rs": 8
+   "rs": 8,
+   "per": null,
+   "psr": 1.34
   },
   {
    "ticker": "PNBK",
@@ -2988,7 +3248,9 @@
    "above50": false,
    "above200": false,
    "score": 24.79,
-   "rs": 24
+   "rs": 24,
+   "per": null,
+   "psr": 2.07
   },
   {
    "ticker": "OCGN",
@@ -3011,7 +3273,9 @@
    "above50": false,
    "above200": false,
    "score": 8.38,
-   "rs": 10
+   "rs": 10,
+   "per": null,
+   "psr": 54.51
   },
   {
    "ticker": "VANI",
@@ -3034,7 +3298,9 @@
    "above50": false,
    "above200": false,
    "score": 35.89,
-   "rs": 37
+   "rs": 37,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "RNAC",
@@ -3057,7 +3323,9 @@
    "above50": false,
    "above200": false,
    "score": 10.92,
-   "rs": 25
+   "rs": 25,
+   "per": null,
+   "psr": 182.72
   },
   {
    "ticker": "RGCO",
@@ -3080,7 +3348,9 @@
    "above50": true,
    "above200": false,
    "score": 15.23,
-   "rs": 65
+   "rs": 65,
+   "per": 16.6,
+   "psr": 2.18
   },
   {
    "ticker": "ATER",
@@ -3103,7 +3373,9 @@
    "above50": true,
    "above200": true,
    "score": 102.89,
-   "rs": 97
+   "rs": 97,
+   "per": null,
+   "psr": 5.46
   },
   {
    "ticker": "ALXO",
@@ -3125,7 +3397,9 @@
    "rel1m": -1.1,
    "above50": false,
    "above200": false,
-   "rs": 9
+   "rs": 9,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "DEFT",
@@ -3147,7 +3421,9 @@
    "rel1m": -25.64,
    "above50": false,
    "above200": false,
-   "rs": 4
+   "rs": 4,
+   "per": 2.4,
+   "psr": 1.84
   },
   {
    "ticker": "ADSE",
@@ -3170,7 +3446,9 @@
    "above50": false,
    "above200": false,
    "score": 23.14,
-   "rs": 37
+   "rs": 37,
+   "per": null,
+   "psr": 30.26
   },
   {
    "ticker": "TISI",
@@ -3193,7 +3471,9 @@
    "above50": true,
    "above200": true,
    "score": 36.33,
-   "rs": 95
+   "rs": 95,
+   "per": null,
+   "psr": 0.13
   },
   {
    "ticker": "CRMD",
@@ -3215,7 +3495,9 @@
    "rel1m": -25.11,
    "above50": false,
    "above200": false,
-   "rs": 15
+   "rs": 15,
+   "per": 8.2,
+   "psr": 1.02
   },
   {
    "ticker": "MAGN",
@@ -3238,7 +3520,9 @@
    "above50": true,
    "above200": true,
    "score": 29.28,
-   "rs": 84
+   "rs": 84,
+   "per": null,
+   "psr": 0.14
   },
   {
    "ticker": "PED",
@@ -3260,7 +3544,9 @@
    "rel1m": -25.49,
    "above50": false,
    "above200": false,
-   "rs": 24
+   "rs": 24,
+   "per": null,
+   "psr": 0.88
   },
   {
    "ticker": "AMRO",
@@ -3283,7 +3569,9 @@
    "above50": null,
    "above200": null,
    "score": 30.91,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 8.86
   },
   {
    "ticker": "PICS",
@@ -3305,7 +3593,9 @@
    "rel1m": -53.21,
    "above50": false,
    "above200": false,
-   "rs": null
+   "rs": null,
+   "per": 2.6,
+   "psr": 0.01
   },
   {
    "ticker": "LAB",
@@ -3327,7 +3617,9 @@
    "rel1m": 8.42,
    "above50": false,
    "above200": false,
-   "rs": 21
+   "rs": 21,
+   "per": null,
+   "psr": 2.95
   },
   {
    "ticker": "IVR",
@@ -3350,7 +3642,9 @@
    "above50": false,
    "above200": false,
    "score": 22.65,
-   "rs": 19
+   "rs": 19,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "AIIR",
@@ -3372,7 +3666,9 @@
    "rel1m": -4.36,
    "above50": false,
    "above200": false,
-   "rs": 24
+   "rs": 24,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "IMXI",
@@ -3394,7 +3690,9 @@
    "rel1m": -32.02,
    "above50": false,
    "above200": false,
-   "rs": 3
+   "rs": 3,
+   "per": 9.4,
+   "psr": 0.32
   },
   {
    "ticker": "NAVI",
@@ -3416,7 +3714,9 @@
    "rel1m": -20.08,
    "above50": false,
    "above200": false,
-   "rs": 16
+   "rs": 16,
+   "per": 11.7,
+   "psr": 1.34
   },
   {
    "ticker": "JBGS",
@@ -3439,7 +3739,9 @@
    "above50": true,
    "above200": false,
    "score": 22.0,
-   "rs": 33
+   "rs": 33,
+   "per": null,
+   "psr": 1.36
   },
   {
    "ticker": "INO",
@@ -3462,7 +3764,9 @@
    "above50": true,
    "above200": true,
    "score": 151.04,
-   "rs": 86
+   "rs": 86,
+   "per": null,
+   "psr": 1102.91
   },
   {
    "ticker": "BBTX",
@@ -3484,7 +3788,9 @@
    "rel1m": null,
    "above50": null,
    "above200": null,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "DMAC",
@@ -3507,7 +3813,9 @@
    "above50": false,
    "above200": true,
    "score": 7.89,
-   "rs": 86
+   "rs": 86,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "SMRT",
@@ -3530,7 +3838,9 @@
    "above50": true,
    "above200": true,
    "score": 29.44,
-   "rs": 67
+   "rs": 67,
+   "per": null,
+   "psr": 1.78
   },
   {
    "ticker": "LAW",
@@ -3552,7 +3862,9 @@
    "rel1m": 29.3,
    "above50": true,
    "above200": true,
-   "rs": 94
+   "rs": 94,
+   "per": null,
+   "psr": 2.26
   },
   {
    "ticker": "SDHC",
@@ -3574,7 +3886,9 @@
    "rel1m": -7.23,
    "above50": false,
    "above200": false,
-   "rs": 13
+   "rs": 13,
+   "per": 15.3,
+   "psr": 0.07
   },
   {
    "ticker": "IMC",
@@ -3597,7 +3911,9 @@
    "above50": false,
    "above200": null,
    "score": 23.11,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "MOG-A",
@@ -3618,7 +3934,10 @@
    "above50": false,
    "above200": false,
    "score": 14.84,
-   "rs": 75
+   "rs": 75,
+   "mcap": 9513346264.560001,
+   "per": 28.2,
+   "psr": 2.2
   },
   {
    "ticker": "BF-B",
@@ -3639,7 +3958,10 @@
    "above50": true,
    "above200": true,
    "score": 15.19,
-   "rs": 70
+   "rs": 70,
+   "mcap": 8688271806.720001,
+   "per": 19.3,
+   "psr": 2.22
   },
   {
    "ticker": "PFBC",
@@ -3660,7 +3982,10 @@
    "above50": false,
    "above200": false,
    "score": 3.79,
-   "rs": 64
+   "rs": 64,
+   "mcap": 1166035779.27,
+   "per": 9.1,
+   "psr": 4.11
   },
   {
    "ticker": "CFR",
@@ -3680,7 +4005,10 @@
    "rel1m": 1.51,
    "above50": false,
    "above200": false,
-   "rs": 60
+   "rs": 60,
+   "mcap": 8988816694.0,
+   "per": 13.4,
+   "psr": 3.92
   },
   {
    "ticker": "IBOC",
@@ -3701,7 +4029,10 @@
    "above50": false,
    "above200": false,
    "score": 6.3,
-   "rs": 45
+   "rs": 45,
+   "mcap": 3941449244.88,
+   "per": 9.4,
+   "psr": 4.64
   }
  ],
  "top_w1": [
@@ -3726,7 +4057,9 @@
    "above50": true,
    "above200": true,
    "score": 73.16,
-   "rs": 52
+   "rs": 52,
+   "per": null,
+   "psr": 0.87
   },
   {
    "ticker": "INSM",
@@ -3749,7 +4082,9 @@
    "above50": true,
    "above200": true,
    "score": 83.76,
-   "rs": 67
+   "rs": 67,
+   "per": null,
+   "psr": 20.4
   },
   {
    "ticker": "ACM",
@@ -3772,7 +4107,9 @@
    "above50": true,
    "above200": true,
    "score": 59.29,
-   "rs": 62
+   "rs": 62,
+   "per": 27.7,
+   "psr": 0.66
   },
   {
    "ticker": "TSN",
@@ -3795,7 +4132,9 @@
    "above50": true,
    "above200": true,
    "score": 43.25,
-   "rs": 76
+   "rs": 76,
+   "per": 50.9,
+   "psr": 0.33
   },
   {
    "ticker": "NTSK",
@@ -3818,7 +4157,9 @@
    "above50": true,
    "above200": true,
    "score": 36.26,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 7.96
   },
   {
    "ticker": "RCI",
@@ -3841,7 +4182,9 @@
    "above50": true,
    "above200": false,
    "score": 31.86,
-   "rs": 51
+   "rs": 51,
+   "per": 30.6,
+   "psr": 0.67
   },
   {
    "ticker": "HRL",
@@ -3864,7 +4207,9 @@
    "above50": true,
    "above200": true,
    "score": 35.21,
-   "rs": 62
+   "rs": 62,
+   "per": 38.0,
+   "psr": 1.07
   },
   {
    "ticker": "PANW",
@@ -3887,7 +4232,9 @@
    "above50": false,
    "above200": true,
    "score": 21.71,
-   "rs": 95
+   "rs": 95,
+   "per": 858.3,
+   "psr": 24.49
   },
   {
    "ticker": "HDB",
@@ -3910,7 +4257,9 @@
    "above50": true,
    "above200": true,
    "score": 46.79,
-   "rs": 61
+   "rs": 61,
+   "per": 17.7,
+   "psr": 0.05
   },
   {
    "ticker": "PDD",
@@ -3933,7 +4282,9 @@
    "above50": true,
    "above200": false,
    "score": 30.1,
-   "rs": 36
+   "rs": 36,
+   "per": 9.4,
+   "psr": 0.26
   },
   {
    "ticker": "BMRN",
@@ -3956,7 +4307,9 @@
    "above50": true,
    "above200": true,
    "score": 30.67,
-   "rs": 63
+   "rs": 63,
+   "per": null,
+   "psr": 3.2
   },
   {
    "ticker": "TSCO",
@@ -3979,7 +4332,9 @@
    "above50": true,
    "above200": true,
    "score": 34.58,
-   "rs": 53
+   "rs": 53,
+   "per": 20.7,
+   "psr": 1.25
   },
   {
    "ticker": "CHKP",
@@ -4002,7 +4357,9 @@
    "above50": true,
    "above200": true,
    "score": 25.57,
-   "rs": 72
+   "rs": 72,
+   "per": 18.6,
+   "psr": 5.74
   },
   {
    "ticker": "OKTA",
@@ -4025,7 +4382,9 @@
    "above50": false,
    "above200": true,
    "score": 18.23,
-   "rs": 98
+   "rs": 98,
+   "per": 115.3,
+   "psr": 10.41
   },
   {
    "ticker": "VIK",
@@ -4048,7 +4407,9 @@
    "above50": true,
    "above200": true,
    "score": 33.67,
-   "rs": 84
+   "rs": 84,
+   "per": 31.2,
+   "psr": 4.3
   },
   {
    "ticker": "GIS",
@@ -4071,7 +4432,9 @@
    "above50": true,
    "above200": false,
    "score": 24.17,
-   "rs": 37
+   "rs": 37,
+   "per": null,
+   "psr": 1.04
   },
   {
    "ticker": "PCG",
@@ -4094,7 +4457,9 @@
    "above50": true,
    "above200": false,
    "score": 28.6,
-   "rs": 28
+   "rs": 28,
+   "per": 10.2,
+   "psr": 1.18
   },
   {
    "ticker": "TJX",
@@ -4117,7 +4482,9 @@
    "above50": true,
    "above200": false,
    "score": 17.08,
-   "rs": 49
+   "rs": 49,
+   "per": 25.9,
+   "psr": 2.47
   },
   {
    "ticker": "EIX",
@@ -4140,7 +4507,9 @@
    "above50": true,
    "above200": false,
    "score": 29.36,
-   "rs": 42
+   "rs": 42,
+   "per": 6.6,
+   "psr": 1.29
   },
   {
    "ticker": "GME",
@@ -4163,7 +4532,9 @@
    "above50": true,
    "above200": true,
    "score": 26.58,
-   "rs": 91
+   "rs": 91,
+   "per": 17.5,
+   "psr": 3.79
   },
   {
    "ticker": "IBN",
@@ -4186,7 +4557,9 @@
    "above50": true,
    "above200": true,
    "score": 39.66,
-   "rs": 86
+   "rs": 86,
+   "per": 20.2,
+   "psr": 0.06
   },
   {
    "ticker": "TGT",
@@ -4209,7 +4582,9 @@
    "above50": true,
    "above200": true,
    "score": 26.04,
-   "rs": 92
+   "rs": 92,
+   "per": 17.2,
+   "psr": 0.7
   },
   {
    "ticker": "SAIL",
@@ -4232,7 +4607,9 @@
    "above50": true,
    "above200": true,
    "score": 27.27,
-   "rs": 91
+   "rs": 91,
+   "per": null,
+   "psr": 10.44
   },
   {
    "ticker": "DPZ",
@@ -4255,7 +4632,9 @@
    "above50": true,
    "above200": true,
    "score": 30.19,
-   "rs": 54
+   "rs": 54,
+   "per": 19.2,
+   "psr": 2.26
   },
   {
    "ticker": "BCE",
@@ -4278,7 +4657,9 @@
    "above50": true,
    "above200": false,
    "score": 25.49,
-   "rs": 44
+   "rs": 44,
+   "per": 11.8,
+   "psr": 0.82
   },
   {
    "ticker": "EMA",
@@ -4301,7 +4682,9 @@
    "above50": true,
    "above200": true,
    "score": 25.53,
-   "rs": 65
+   "rs": 65,
+   "per": 24.2,
+   "psr": 1.82
   },
   {
    "ticker": "TAK",
@@ -4324,7 +4707,9 @@
    "above50": true,
    "above200": true,
    "score": 26.95,
-   "rs": 90
+   "rs": 90,
+   "per": 311.0,
+   "psr": 0.01
   },
   {
    "ticker": "BRO",
@@ -4347,7 +4732,9 @@
    "above50": true,
    "above200": true,
    "score": 18.12,
-   "rs": 67
+   "rs": 67,
+   "per": 23.1,
+   "psr": 3.56
   },
   {
    "ticker": "SYY",
@@ -4370,7 +4757,9 @@
    "above50": false,
    "above200": false,
    "score": 12.92,
-   "rs": 52
+   "rs": 52,
+   "per": 20.8,
+   "psr": 0.45
   },
   {
    "ticker": "HTHT",
@@ -4393,7 +4782,9 @@
    "above50": true,
    "above200": true,
    "score": 30.11,
-   "rs": 71
+   "rs": 71,
+   "per": 33.8,
+   "psr": 0.61
   },
   {
    "ticker": "WMG",
@@ -4416,7 +4807,9 @@
    "above50": true,
    "above200": true,
    "score": 22.99,
-   "rs": 76
+   "rs": 76,
+   "per": 26.2,
+   "psr": 0.65
   },
   {
    "ticker": "GNRC",
@@ -4439,7 +4832,9 @@
    "above50": false,
    "above200": false,
    "score": 22.49,
-   "rs": 52
+   "rs": 52,
+   "per": 38.1,
+   "psr": 2.47
   },
   {
    "ticker": "CRWD",
@@ -4462,7 +4857,9 @@
    "above50": false,
    "above200": true,
    "score": 16.11,
-   "rs": 97
+   "rs": 97,
+   "per": 4588.8,
+   "psr": 43.54
   },
   {
    "ticker": "ZS",
@@ -4484,7 +4881,9 @@
    "rel1m": -8.23,
    "above50": false,
    "above200": true,
-   "rs": 70
+   "rs": 70,
+   "per": null,
+   "psr": 9.48
   },
   {
    "ticker": "KHC",
@@ -4507,7 +4906,9 @@
    "above50": true,
    "above200": true,
    "score": 20.75,
-   "rs": 64
+   "rs": 64,
+   "per": null,
+   "psr": 1.21
   },
   {
    "ticker": "WRB",
@@ -4530,7 +4931,9 @@
    "above50": true,
    "above200": true,
    "score": 23.22,
-   "rs": 76
+   "rs": 76,
+   "per": 16.6,
+   "psr": 1.96
   },
   {
    "ticker": "BURL",
@@ -4553,7 +4956,9 @@
    "above50": false,
    "above200": false,
    "score": 16.57,
-   "rs": 26
+   "rs": 26,
+   "per": 22.0,
+   "psr": 1.26
   },
   {
    "ticker": "RDY",
@@ -4576,7 +4981,9 @@
    "above50": true,
    "above200": true,
    "score": 32.0,
-   "rs": 78
+   "rs": 78,
+   "per": 41.4,
+   "psr": 0.04
   },
   {
    "ticker": "MKC",
@@ -4599,7 +5006,9 @@
    "above50": true,
    "above200": false,
    "score": 16.69,
-   "rs": 29
+   "rs": 29,
+   "per": 8.6,
+   "psr": 1.57
   },
   {
    "ticker": "SONY",
@@ -4622,7 +5031,9 @@
    "above50": true,
    "above200": true,
    "score": 23.42,
-   "rs": 80
+   "rs": 80,
+   "per": 20.4,
+   "psr": 0.01
   },
   {
    "ticker": "CMG",
@@ -4645,7 +5056,9 @@
    "above50": true,
    "above200": true,
    "score": 45.54,
-   "rs": 63
+   "rs": 63,
+   "per": 33.2,
+   "psr": 3.54
   },
   {
    "ticker": "SJM",
@@ -4668,7 +5081,9 @@
    "above50": true,
    "above200": true,
    "score": 19.4,
-   "rs": 83
+   "rs": 83,
+   "per": 62.5,
+   "psr": 1.56
   },
   {
    "ticker": "AES",
@@ -4691,7 +5106,9 @@
    "above50": true,
    "above200": true,
    "score": 19.51,
-   "rs": 63
+   "rs": 63,
+   "per": 6.0,
+   "psr": 0.79
   },
   {
    "ticker": "HSY",
@@ -4714,7 +5131,9 @@
    "above50": true,
    "above200": false,
    "score": 19.05,
-   "rs": 42
+   "rs": 42,
+   "per": 19.9,
+   "psr": 2.1
   },
   {
    "ticker": "T",
@@ -4737,7 +5156,9 @@
    "above50": false,
    "above200": false,
    "score": 17.14,
-   "rs": 35
+   "rs": 35,
+   "per": 11.9,
+   "psr": 1.17
   },
   {
    "ticker": "XYL",
@@ -4759,7 +5180,9 @@
    "rel1m": -3.54,
    "above50": false,
    "above200": false,
-   "rs": 27
+   "rs": 27,
+   "per": 20.6,
+   "psr": 2.4
   },
   {
    "ticker": "ORLY",
@@ -4782,7 +5205,9 @@
    "above50": true,
    "above200": true,
    "score": 19.64,
-   "rs": 59
+   "rs": 59,
+   "per": 28.4,
+   "psr": 3.91
   },
   {
    "ticker": "DUK",
@@ -4805,7 +5230,9 @@
    "above50": true,
    "above200": true,
    "score": 22.41,
-   "rs": 68
+   "rs": 68,
+   "per": 19.0,
+   "psr": 3.03
   },
   {
    "ticker": "PNR",
@@ -4828,7 +5255,9 @@
    "above50": true,
    "above200": false,
    "score": 42.72,
-   "rs": 40
+   "rs": 40,
+   "per": 18.7,
+   "psr": 2.76
   },
   {
    "ticker": "MCD",
@@ -4851,7 +5280,9 @@
    "above50": true,
    "above200": false,
    "score": 27.06,
-   "rs": 49
+   "rs": 49,
+   "per": 21.6,
+   "psr": 6.94
   },
   {
    "ticker": "SLS",
@@ -4874,7 +5305,9 @@
    "above50": true,
    "above200": true,
    "score": 112.58,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "BRBR",
@@ -4897,7 +5330,9 @@
    "above50": true,
    "above200": true,
    "score": 106.16,
-   "rs": 79
+   "rs": 79,
+   "per": 10.3,
+   "psr": 0.72
   },
   {
    "ticker": "PLBL",
@@ -4920,7 +5355,9 @@
    "above50": true,
    "above200": true,
    "score": 135.02,
-   "rs": 94
+   "rs": 94,
+   "per": null,
+   "psr": 150.15
   },
   {
    "ticker": "DGICB",
@@ -4943,7 +5380,9 @@
    "above50": true,
    "above200": true,
    "score": 87.66,
-   "rs": 98
+   "rs": 98,
+   "per": 18.8,
+   "psr": 0.2
   },
   {
    "ticker": "KRSA",
@@ -4966,7 +5405,9 @@
    "above50": true,
    "above200": true,
    "score": 49.47,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "ENR",
@@ -4989,7 +5430,9 @@
    "above50": true,
    "above200": true,
    "score": 58.69,
-   "rs": 94
+   "rs": 94,
+   "per": 24.0,
+   "psr": 0.65
   },
   {
    "ticker": "MGRT",
@@ -5012,7 +5455,9 @@
    "above50": true,
    "above200": true,
    "score": 51.92,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": 294.42
   },
   {
    "ticker": "BILL",
@@ -5035,7 +5480,9 @@
    "above50": true,
    "above200": true,
    "score": 52.47,
-   "rs": 93
+   "rs": 93,
+   "per": 111.7,
+   "psr": 3.12
   },
   {
    "ticker": "SRRK",
@@ -5058,7 +5505,9 @@
    "above50": true,
    "above200": false,
    "score": 44.54,
-   "rs": 56
+   "rs": 56,
+   "per": null,
+   "psr": 10301.89
   },
   {
    "ticker": "OPEN",
@@ -5080,7 +5529,9 @@
    "rel1m": -25.57,
    "above50": false,
    "above200": false,
-   "rs": 2
+   "rs": 2,
+   "per": null,
+   "psr": 0.36
   },
   {
    "ticker": "CALM",
@@ -5103,7 +5554,9 @@
    "above50": true,
    "above200": false,
    "score": 40.6,
-   "rs": 37
+   "rs": 37,
+   "per": 58.8,
+   "psr": 1.34
   },
   {
    "ticker": "BIPC",
@@ -5126,7 +5579,9 @@
    "above50": true,
    "above200": true,
    "score": 40.47,
-   "rs": 62
+   "rs": 62,
+   "per": null,
+   "psr": 1.43
   },
   {
    "ticker": "CRAI",
@@ -5149,7 +5604,9 @@
    "above50": true,
    "above200": true,
    "score": 36.01,
-   "rs": 92
+   "rs": 92,
+   "per": 27.8,
+   "psr": 1.68
   },
   {
    "ticker": "QLYS",
@@ -5171,7 +5628,9 @@
    "rel1m": -0.87,
    "above50": false,
    "above200": true,
-   "rs": 95
+   "rs": 95,
+   "per": 31.0,
+   "psr": 9.0
   },
   {
    "ticker": "DMRA",
@@ -5194,7 +5653,9 @@
    "above50": true,
    "above200": false,
    "score": 32.89,
-   "rs": 38
+   "rs": 38,
+   "per": 13.6,
+   "psr": null
   },
   {
    "ticker": "PBH",
@@ -5217,7 +5678,9 @@
    "above50": true,
    "above200": false,
    "score": 26.23,
-   "rs": 43
+   "rs": 43,
+   "per": 15.3,
+   "psr": 2.02
   },
   {
    "ticker": "CGON",
@@ -5240,7 +5703,9 @@
    "above50": true,
    "above200": true,
    "score": 52.33,
-   "rs": 91
+   "rs": 91,
+   "per": null,
+   "psr": 1151.18
   },
   {
    "ticker": "JJSF",
@@ -5263,7 +5728,9 @@
    "above50": true,
    "above200": true,
    "score": 36.26,
-   "rs": 76
+   "rs": 76,
+   "per": 36.6,
+   "psr": 1.16
   },
   {
    "ticker": "VIA",
@@ -5286,7 +5753,9 @@
    "above50": true,
    "above200": true,
    "score": 53.13,
-   "rs": 98
+   "rs": 98,
+   "per": 58.0,
+   "psr": 6.84
   },
   {
    "ticker": "MSGR",
@@ -5309,7 +5778,9 @@
    "above50": null,
    "above200": null,
    "score": 49.63,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "LYCA",
@@ -5331,7 +5802,9 @@
    "rel1m": null,
    "above50": null,
    "above200": null,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 388.45
   },
   {
    "ticker": "ATEN",
@@ -5354,7 +5827,9 @@
    "above50": true,
    "above200": true,
    "score": 47.98,
-   "rs": 93
+   "rs": 93,
+   "per": 47.4,
+   "psr": 6.69
   },
   {
    "ticker": "CBRL",
@@ -5377,7 +5852,9 @@
    "above50": true,
    "above200": true,
    "score": 29.23,
-   "rs": 98
+   "rs": 98,
+   "per": 50.5,
+   "psr": 0.48
   },
   {
    "ticker": "URGN",
@@ -5399,7 +5876,9 @@
    "rel1m": -11.51,
    "above50": false,
    "above200": false,
-   "rs": 45
+   "rs": 45,
+   "per": null,
+   "psr": 5.42
   },
   {
    "ticker": "CBLL",
@@ -5422,7 +5901,9 @@
    "above50": true,
    "above200": true,
    "score": 23.18,
-   "rs": 94
+   "rs": 94,
+   "per": null,
+   "psr": 9.78
   },
   {
    "ticker": "VVV",
@@ -5445,7 +5926,9 @@
    "above50": true,
    "above200": true,
    "score": 34.89,
-   "rs": 72
+   "rs": 72,
+   "per": 44.8,
+   "psr": 2.36
   },
   {
    "ticker": "CPB",
@@ -5468,7 +5951,9 @@
    "above50": true,
    "above200": true,
    "score": 34.73,
-   "rs": 52
+   "rs": 52,
+   "per": 18.7,
+   "psr": 0.73
   },
   {
    "ticker": "EPC",
@@ -5491,7 +5976,9 @@
    "above50": true,
    "above200": true,
    "score": 21.35,
-   "rs": 91
+   "rs": 91,
+   "per": null,
+   "psr": 0.66
   },
   {
    "ticker": "TFX",
@@ -5514,7 +6001,9 @@
    "above50": true,
    "above200": true,
    "score": 40.92,
-   "rs": 91
+   "rs": 91,
+   "per": 79.6,
+   "psr": 2.84
   },
   {
    "ticker": "BRVE",
@@ -5537,7 +6026,9 @@
    "above50": false,
    "above200": null,
    "score": 17.29,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "STC",
@@ -5560,7 +6051,9 @@
    "above50": false,
    "above200": false,
    "score": 12.69,
-   "rs": 15
+   "rs": 15,
+   "per": 11.1,
+   "psr": 0.4
   },
   {
    "ticker": "MH",
@@ -5582,7 +6075,9 @@
    "rel1m": -8.75,
    "above50": false,
    "above200": false,
-   "rs": 38
+   "rs": 38,
+   "per": 33.5,
+   "psr": 1.11
   },
   {
    "ticker": "WEN",
@@ -5605,7 +6100,9 @@
    "above50": true,
    "above200": true,
    "score": 53.2,
-   "rs": 67
+   "rs": 67,
+   "per": 16.9,
+   "psr": 0.75
   },
   {
    "ticker": "POWL",
@@ -5628,7 +6125,9 @@
    "above50": false,
    "above200": false,
    "score": 20.59,
-   "rs": 42
+   "rs": 42,
+   "per": 28.4,
+   "psr": 4.66
   },
   {
    "ticker": "PRCT",
@@ -5651,7 +6150,9 @@
    "above50": true,
    "above200": true,
    "score": 45.53,
-   "rs": 59
+   "rs": 59,
+   "per": null,
+   "psr": 4.03
   },
   {
    "ticker": "UNFI",
@@ -5674,7 +6175,9 @@
    "above50": true,
    "above200": true,
    "score": 29.11,
-   "rs": 83
+   "rs": 83,
+   "per": 37.7,
+   "psr": 0.1
   },
   {
    "ticker": "CRI",
@@ -5697,7 +6200,9 @@
    "above50": true,
    "above200": false,
    "score": 26.77,
-   "rs": 64
+   "rs": 64,
+   "per": 5.9,
+   "psr": 0.44
   },
   {
    "ticker": "VCYT",
@@ -5719,7 +6224,9 @@
    "rel1m": -35.59,
    "above50": false,
    "above200": false,
-   "rs": 13
+   "rs": 13,
+   "per": 16.3,
+   "psr": 3.49
   },
   {
    "ticker": "WD",
@@ -5742,7 +6249,9 @@
    "above50": true,
    "above200": false,
    "score": 35.69,
-   "rs": 29
+   "rs": 29,
+   "per": null,
+   "psr": 1.17
   },
   {
    "ticker": "PSMT",
@@ -5765,7 +6274,9 @@
    "above50": true,
    "above200": true,
    "score": 20.77,
-   "rs": 77
+   "rs": 77,
+   "per": 31.5,
+   "psr": 0.9
   },
   {
    "ticker": "ASO",
@@ -5788,7 +6299,9 @@
    "above50": true,
    "above200": true,
    "score": 34.56,
-   "rs": 94
+   "rs": 94,
+   "per": 11.7,
+   "psr": 0.69
   },
   {
    "ticker": "S",
@@ -5811,7 +6324,9 @@
    "above50": false,
    "above200": true,
    "score": 23.46,
-   "rs": 92
+   "rs": 92,
+   "per": null,
+   "psr": 7.14
   },
   {
    "ticker": "PENN",
@@ -5834,7 +6349,9 @@
    "above50": true,
    "above200": true,
    "score": 38.34,
-   "rs": 82
+   "rs": 82,
+   "per": null,
+   "psr": 0.33
   },
   {
    "ticker": "TRUP",
@@ -5857,7 +6374,9 @@
    "above50": true,
    "above200": true,
    "score": 40.47,
-   "rs": 87
+   "rs": 87,
+   "per": 58.3,
+   "psr": 0.99
   },
   {
    "ticker": "BJRI",
@@ -5880,7 +6399,9 @@
    "above50": false,
    "above200": true,
    "score": 19.34,
-   "rs": 86
+   "rs": 86,
+   "per": 27.8,
+   "psr": 0.86
   },
   {
    "ticker": "NTLA",
@@ -5902,7 +6423,9 @@
    "rel1m": -0.57,
    "above50": false,
    "above200": false,
-   "rs": 37
+   "rs": 37,
+   "per": null,
+   "psr": 26.54
   },
   {
    "ticker": "IRTC",
@@ -5924,7 +6447,9 @@
    "rel1m": -11.0,
    "above50": false,
    "above200": false,
-   "rs": 20
+   "rs": 20,
+   "per": null,
+   "psr": 3.73
   },
   {
    "ticker": "IPAR",
@@ -5947,7 +6472,9 @@
    "above50": true,
    "above200": true,
    "score": 39.87,
-   "rs": 93
+   "rs": 93,
+   "per": 25.9,
+   "psr": 2.93
   },
   {
    "ticker": "CRVL",
@@ -5970,7 +6497,9 @@
    "above50": true,
    "above200": true,
    "score": 26.71,
-   "rs": 93
+   "rs": 93,
+   "per": 37.1,
+   "psr": 4.4
   },
   {
    "ticker": "TENB",
@@ -5993,7 +6522,9 @@
    "above50": true,
    "above200": true,
    "score": 21.43,
-   "rs": 97
+   "rs": 97,
+   "per": 323.0,
+   "psr": 4.11
   },
   {
    "ticker": "LVWR",
@@ -6015,7 +6546,9 @@
    "rel1m": -30.54,
    "above50": false,
    "above200": false,
-   "rs": 13
+   "rs": 13,
+   "per": null,
+   "psr": 6.08
   },
   {
    "ticker": "EGG",
@@ -6038,7 +6571,9 @@
    "above50": true,
    "above200": true,
    "score": 115.3,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 36.21
   },
   {
    "ticker": "FISN",
@@ -6061,7 +6596,9 @@
    "above50": false,
    "above200": null,
    "score": 79.55,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "GMM",
@@ -6084,7 +6621,9 @@
    "above50": false,
    "above200": false,
    "score": 99.51,
-   "rs": 1
+   "rs": 1,
+   "per": null,
+   "psr": 1.36
   },
   {
    "ticker": "GIBO",
@@ -6107,7 +6646,9 @@
    "above50": true,
    "above200": true,
    "score": 122.69,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "GLSI",
@@ -6130,7 +6671,9 @@
    "above50": true,
    "above200": false,
    "score": 71.64,
-   "rs": 87
+   "rs": 87,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "OFRM",
@@ -6152,7 +6695,9 @@
    "rel1m": -15.88,
    "above50": false,
    "above200": false,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 1.65
   },
   {
    "ticker": "BGIN",
@@ -6175,7 +6720,9 @@
    "above50": true,
    "above200": true,
    "score": 190.34,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 16.07
   },
   {
    "ticker": "INO",
@@ -6198,7 +6745,9 @@
    "above50": true,
    "above200": true,
    "score": 151.04,
-   "rs": 86
+   "rs": 86,
+   "per": null,
+   "psr": 1102.91
   },
   {
    "ticker": "GCL",
@@ -6221,7 +6770,9 @@
    "above50": true,
    "above200": true,
    "score": 108.5,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 0.79
   },
   {
    "ticker": "NPWR",
@@ -6244,7 +6795,9 @@
    "above50": false,
    "above200": false,
    "score": 34.57,
-   "rs": 5
+   "rs": 5,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "MNTK",
@@ -6266,7 +6819,9 @@
    "rel1m": -34.83,
    "above50": false,
    "above200": false,
-   "rs": 17
+   "rs": 17,
+   "per": 19.0,
+   "psr": 0.84
   },
   {
    "ticker": "FLNT",
@@ -6289,7 +6844,9 @@
    "above50": true,
    "above200": true,
    "score": 73.28,
-   "rs": 89
+   "rs": 89,
+   "per": null,
+   "psr": 0.57
   },
   {
    "ticker": "PMA",
@@ -6312,7 +6869,9 @@
    "above50": true,
    "above200": true,
    "score": 63.63,
-   "rs": 87
+   "rs": 87,
+   "per": null,
+   "psr": 17.38
   },
   {
    "ticker": "XTND",
@@ -6335,7 +6894,9 @@
    "above50": false,
    "above200": null,
    "score": 32.52,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 17.31
   },
   {
    "ticker": "ATER",
@@ -6358,7 +6919,9 @@
    "above50": true,
    "above200": true,
    "score": 102.89,
-   "rs": 97
+   "rs": 97,
+   "per": null,
+   "psr": 5.46
   },
   {
    "ticker": "NUAI",
@@ -6381,7 +6944,9 @@
    "above50": false,
    "above200": false,
    "score": 72.78,
-   "rs": 32
+   "rs": 32,
+   "per": null,
+   "psr": 597.58
   },
   {
    "ticker": "FIRY",
@@ -6404,7 +6969,9 @@
    "above50": true,
    "above200": true,
    "score": 46.39,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 1.44
   },
   {
    "ticker": "ELA",
@@ -6427,7 +6994,9 @@
    "above50": true,
    "above200": false,
    "score": 41.97,
-   "rs": 37
+   "rs": 37,
+   "per": 13.5,
+   "psr": 1.08
   },
   {
    "ticker": "GNLX",
@@ -6450,7 +7019,9 @@
    "above50": false,
    "above200": false,
    "score": 44.39,
-   "rs": 20
+   "rs": 20,
+   "per": null,
+   "psr": 13037.41
   },
   {
    "ticker": "JXG",
@@ -6473,7 +7044,9 @@
    "above50": true,
    "above200": true,
    "score": 134.29,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": 2.96
   },
   {
    "ticker": "OPTU",
@@ -6496,7 +7069,9 @@
    "above50": false,
    "above200": false,
    "score": 34.98,
-   "rs": 13
+   "rs": 13,
+   "per": null,
+   "psr": 0.02
   },
   {
    "ticker": "RMIX",
@@ -6518,7 +7093,9 @@
    "rel1m": -27.61,
    "above50": false,
    "above200": null,
-   "rs": null
+   "rs": null,
+   "per": 15.4,
+   "psr": 1.1
   },
   {
    "ticker": "MXCT",
@@ -6541,7 +7118,9 @@
    "above50": true,
    "above200": true,
    "score": 29.37,
-   "rs": 84
+   "rs": 84,
+   "per": null,
+   "psr": 4.12
   },
   {
    "ticker": "LUCK",
@@ -6563,7 +7142,9 @@
    "rel1m": -1.98,
    "above50": false,
    "above200": false,
-   "rs": 8
+   "rs": 8,
+   "per": null,
+   "psr": 0.25
   },
   {
    "ticker": "PYXS",
@@ -6586,7 +7167,9 @@
    "above50": false,
    "above200": false,
    "score": 38.84,
-   "rs": 24
+   "rs": 24,
+   "per": null,
+   "psr": 19.61
   },
   {
    "ticker": "QVCG",
@@ -6609,7 +7192,9 @@
    "above50": false,
    "above200": null,
    "score": 36.13,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 0.05
   },
   {
    "ticker": "CRMD",
@@ -6631,7 +7216,9 @@
    "rel1m": -25.11,
    "above50": false,
    "above200": false,
-   "rs": 15
+   "rs": 15,
+   "per": 8.2,
+   "psr": 1.02
   },
   {
    "ticker": "AUC",
@@ -6654,7 +7241,9 @@
    "above50": true,
    "above200": true,
    "score": 24.91,
-   "rs": 84
+   "rs": 84,
+   "per": null,
+   "psr": 68.0
   },
   {
    "ticker": "VANI",
@@ -6677,7 +7266,9 @@
    "above50": false,
    "above200": false,
    "score": 35.89,
-   "rs": 37
+   "rs": 37,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "POWW",
@@ -6700,7 +7291,9 @@
    "above50": true,
    "above200": true,
    "score": 39.51,
-   "rs": 89
+   "rs": 89,
+   "per": 258.0,
+   "psr": 5.24
   },
   {
    "ticker": "FENC",
@@ -6723,7 +7316,9 @@
    "above50": true,
    "above200": true,
    "score": 57.93,
-   "rs": 92
+   "rs": 92,
+   "per": null,
+   "psr": 6.96
   },
   {
    "ticker": "TISI",
@@ -6746,7 +7341,9 @@
    "above50": true,
    "above200": true,
    "score": 36.33,
-   "rs": 95
+   "rs": 95,
+   "per": null,
+   "psr": 0.13
   },
   {
    "ticker": "STXS",
@@ -6769,7 +7366,9 @@
    "above50": false,
    "above200": false,
    "score": 24.83,
-   "rs": 8
+   "rs": 8,
+   "per": null,
+   "psr": 3.01
   },
   {
    "ticker": "ANTX",
@@ -6792,7 +7391,9 @@
    "above50": true,
    "above200": true,
    "score": 69.65,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "ZYN",
@@ -6815,7 +7416,9 @@
    "above50": true,
    "above200": true,
    "score": 41.44,
-   "rs": 91
+   "rs": 91,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TCX",
@@ -6838,7 +7441,9 @@
    "above50": true,
    "above200": false,
    "score": 38.08,
-   "rs": 60
+   "rs": 60,
+   "per": null,
+   "psr": 0.37
   },
   {
    "ticker": "SJT",
@@ -6861,7 +7466,9 @@
    "above50": true,
    "above200": true,
    "score": 58.47,
-   "rs": 81
+   "rs": 81,
+   "per": null,
+   "psr": 194166.29
   },
   {
    "ticker": "PNRG",
@@ -6884,7 +7491,9 @@
    "above50": true,
    "above200": true,
    "score": 34.23,
-   "rs": 77
+   "rs": 77,
+   "per": 20.6,
+   "psr": 1.91
   },
   {
    "ticker": "MFI",
@@ -6907,7 +7516,9 @@
    "above50": false,
    "above200": false,
    "score": 26.79,
-   "rs": 24
+   "rs": 24,
+   "per": 4.0,
+   "psr": 13.24
   },
   {
    "ticker": "CLW",
@@ -6929,7 +7540,9 @@
    "rel1m": -7.14,
    "above50": false,
    "above200": false,
-   "rs": 47
+   "rs": 47,
+   "per": null,
+   "psr": 0.17
   },
   {
    "ticker": "ACOG",
@@ -6952,7 +7565,9 @@
    "above50": true,
    "above200": true,
    "score": 35.18,
-   "rs": 90
+   "rs": 90,
+   "per": null,
+   "psr": 9.82
   },
   {
    "ticker": "KROS",
@@ -6975,7 +7590,9 @@
    "above50": true,
    "above200": false,
    "score": 23.64,
-   "rs": 39
+   "rs": 39,
+   "per": null,
+   "psr": 5.33
   },
   {
    "ticker": "RZLT",
@@ -6998,7 +7615,9 @@
    "above50": false,
    "above200": false,
    "score": 27.24,
-   "rs": 38
+   "rs": 38,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "FUFU",
@@ -7020,7 +7639,9 @@
    "rel1m": -1.91,
    "above50": false,
    "above200": false,
-   "rs": 5
+   "rs": 5,
+   "per": null,
+   "psr": 0.07
   },
   {
    "ticker": "IVR",
@@ -7043,7 +7664,9 @@
    "above50": false,
    "above200": false,
    "score": 22.65,
-   "rs": 19
+   "rs": 19,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "CTY",
@@ -7066,7 +7689,9 @@
    "above50": null,
    "above200": null,
    "score": 18.2,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 71.92
   },
   {
    "ticker": "ENTX",
@@ -7089,7 +7714,9 @@
    "above50": true,
    "above200": true,
    "score": 34.14,
-   "rs": 96
+   "rs": 96,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TROO",
@@ -7111,7 +7738,9 @@
    "rel1m": -24.23,
    "above50": false,
    "above200": false,
-   "rs": 24
+   "rs": 24,
+   "per": null,
+   "psr": 16.48
   },
   {
    "ticker": "OPAL",
@@ -7133,7 +7762,9 @@
    "rel1m": -5.86,
    "above50": false,
    "above200": false,
-   "rs": 12
+   "rs": 12,
+   "per": null,
+   "psr": 0.12
   },
   {
    "ticker": "MOG-A",
@@ -7154,7 +7785,10 @@
    "above50": false,
    "above200": false,
    "score": 14.84,
-   "rs": 75
+   "rs": 75,
+   "mcap": 9513346264.560001,
+   "per": 28.2,
+   "psr": 2.2
   },
   {
    "ticker": "BF-B",
@@ -7175,7 +7809,10 @@
    "above50": true,
    "above200": true,
    "score": 15.19,
-   "rs": 70
+   "rs": 70,
+   "mcap": 8688271806.720001,
+   "per": 19.3,
+   "psr": 2.22
   },
   {
    "ticker": "PFBC",
@@ -7196,7 +7833,10 @@
    "above50": false,
    "above200": false,
    "score": 3.79,
-   "rs": 64
+   "rs": 64,
+   "mcap": 1166035779.27,
+   "per": 9.1,
+   "psr": 4.11
   },
   {
    "ticker": "IBOC",
@@ -7217,7 +7857,10 @@
    "above50": false,
    "above200": false,
    "score": 6.3,
-   "rs": 45
+   "rs": 45,
+   "mcap": 3941449244.88,
+   "per": 9.4,
+   "psr": 4.64
   },
   {
    "ticker": "CFR",
@@ -7237,7 +7880,10 @@
    "rel1m": 1.51,
    "above50": false,
    "above200": false,
-   "rs": 60
+   "rs": 60,
+   "mcap": 8988816694.0,
+   "per": 13.4,
+   "psr": 3.92
   }
  ],
  "w1_week": "2026-11-16~2026-11-20",
@@ -7263,7 +7909,9 @@
    "above50": true,
    "above200": true,
    "score": 83.76,
-   "rs": 67
+   "rs": 67,
+   "per": null,
+   "psr": 20.4
   },
   {
    "ticker": "TU",
@@ -7286,7 +7934,9 @@
    "above50": true,
    "above200": true,
    "score": 73.16,
-   "rs": 52
+   "rs": 52,
+   "per": null,
+   "psr": 0.87
   },
   {
    "ticker": "ACM",
@@ -7309,7 +7959,9 @@
    "above50": true,
    "above200": true,
    "score": 59.29,
-   "rs": 62
+   "rs": 62,
+   "per": 27.7,
+   "psr": 0.66
   },
   {
    "ticker": "GKOS",
@@ -7332,7 +7984,9 @@
    "above50": true,
    "above200": true,
    "score": 49.33,
-   "rs": 97
+   "rs": 97,
+   "per": null,
+   "psr": 20.35
   },
   {
    "ticker": "HDB",
@@ -7355,7 +8009,9 @@
    "above50": true,
    "above200": true,
    "score": 46.79,
-   "rs": 61
+   "rs": 61,
+   "per": 17.7,
+   "psr": 0.05
   },
   {
    "ticker": "CMG",
@@ -7378,7 +8034,9 @@
    "above50": true,
    "above200": true,
    "score": 45.54,
-   "rs": 63
+   "rs": 63,
+   "per": 33.2,
+   "psr": 3.54
   },
   {
    "ticker": "GMAB",
@@ -7401,7 +8059,9 @@
    "above50": true,
    "above200": true,
    "score": 43.44,
-   "rs": 97
+   "rs": 97,
+   "per": 43.2,
+   "psr": 7.26
   },
   {
    "ticker": "TSN",
@@ -7424,7 +8084,9 @@
    "above50": true,
    "above200": true,
    "score": 43.25,
-   "rs": 76
+   "rs": 76,
+   "per": 50.9,
+   "psr": 0.33
   },
   {
    "ticker": "PNR",
@@ -7447,7 +8109,9 @@
    "above50": true,
    "above200": false,
    "score": 42.72,
-   "rs": 40
+   "rs": 40,
+   "per": 18.7,
+   "psr": 2.76
   },
   {
    "ticker": "IBN",
@@ -7470,7 +8134,9 @@
    "above50": true,
    "above200": true,
    "score": 39.66,
-   "rs": 86
+   "rs": 86,
+   "per": 20.2,
+   "psr": 0.06
   },
   {
    "ticker": "NTSK",
@@ -7493,7 +8159,9 @@
    "above50": true,
    "above200": true,
    "score": 36.26,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 7.96
   },
   {
    "ticker": "RKT",
@@ -7516,7 +8184,9 @@
    "above50": true,
    "above200": false,
    "score": 35.85,
-   "rs": 45
+   "rs": 45,
+   "per": null,
+   "psr": 2.22
   },
   {
    "ticker": "HRL",
@@ -7539,7 +8209,9 @@
    "above50": true,
    "above200": true,
    "score": 35.21,
-   "rs": 62
+   "rs": 62,
+   "per": 38.0,
+   "psr": 1.07
   },
   {
    "ticker": "TSCO",
@@ -7562,7 +8234,9 @@
    "above50": true,
    "above200": true,
    "score": 34.58,
-   "rs": 53
+   "rs": 53,
+   "per": 20.7,
+   "psr": 1.25
   },
   {
    "ticker": "IDXX",
@@ -7585,7 +8259,9 @@
    "above50": true,
    "above200": true,
    "score": 33.77,
-   "rs": 80
+   "rs": 80,
+   "per": 45.6,
+   "psr": 11.43
   },
   {
    "ticker": "VIK",
@@ -7608,7 +8284,9 @@
    "above50": true,
    "above200": true,
    "score": 33.67,
-   "rs": 84
+   "rs": 84,
+   "per": 31.2,
+   "psr": 4.3
   },
   {
    "ticker": "FWONA",
@@ -7631,7 +8309,9 @@
    "above50": true,
    "above200": true,
    "score": 33.41,
-   "rs": 79
+   "rs": 79,
+   "per": 97.9,
+   "psr": 0.55
   },
   {
    "ticker": "CLX",
@@ -7654,7 +8334,9 @@
    "above50": true,
    "above200": true,
    "score": 32.24,
-   "rs": 58
+   "rs": 58,
+   "per": 18.8,
+   "psr": 1.76
   },
   {
    "ticker": "RDY",
@@ -7677,7 +8359,9 @@
    "above50": true,
    "above200": true,
    "score": 32.0,
-   "rs": 78
+   "rs": 78,
+   "per": 41.4,
+   "psr": 0.04
   },
   {
    "ticker": "RCI",
@@ -7700,7 +8384,9 @@
    "above50": true,
    "above200": false,
    "score": 31.86,
-   "rs": 51
+   "rs": 51,
+   "per": 30.6,
+   "psr": 0.67
   },
   {
    "ticker": "GEN",
@@ -7723,7 +8409,9 @@
    "above50": true,
    "above200": true,
    "score": 31.73,
-   "rs": 79
+   "rs": 79,
+   "per": 14.8,
+   "psr": 3.31
   },
   {
    "ticker": "BMRN",
@@ -7746,7 +8434,9 @@
    "above50": true,
    "above200": true,
    "score": 30.67,
-   "rs": 63
+   "rs": 63,
+   "per": null,
+   "psr": 3.2
   },
   {
    "ticker": "DPZ",
@@ -7769,7 +8459,9 @@
    "above50": true,
    "above200": true,
    "score": 30.19,
-   "rs": 54
+   "rs": 54,
+   "per": 19.2,
+   "psr": 2.26
   },
   {
    "ticker": "HTHT",
@@ -7792,7 +8484,9 @@
    "above50": true,
    "above200": true,
    "score": 30.11,
-   "rs": 71
+   "rs": 71,
+   "per": 33.8,
+   "psr": 0.61
   },
   {
    "ticker": "PDD",
@@ -7815,7 +8509,9 @@
    "above50": true,
    "above200": false,
    "score": 30.1,
-   "rs": 36
+   "rs": 36,
+   "per": 9.4,
+   "psr": 0.26
   },
   {
    "ticker": "EIX",
@@ -7838,7 +8534,9 @@
    "above50": true,
    "above200": false,
    "score": 29.36,
-   "rs": 42
+   "rs": 42,
+   "per": 6.6,
+   "psr": 1.29
   },
   {
    "ticker": "LH",
@@ -7861,7 +8559,9 @@
    "above50": true,
    "above200": true,
    "score": 28.81,
-   "rs": 88
+   "rs": 88,
+   "per": 30.1,
+   "psr": 2.04
   },
   {
    "ticker": "PCG",
@@ -7884,7 +8584,9 @@
    "above50": true,
    "above200": false,
    "score": 28.6,
-   "rs": 28
+   "rs": 28,
+   "per": 10.2,
+   "psr": 1.18
   },
   {
    "ticker": "GEHC",
@@ -7907,7 +8609,9 @@
    "above50": true,
    "above200": true,
    "score": 28.49,
-   "rs": 76
+   "rs": 76,
+   "per": 17.0,
+   "psr": 1.69
   },
   {
    "ticker": "JAN",
@@ -7930,7 +8634,9 @@
    "above50": true,
    "above200": null,
    "score": 28.42,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 9.96
   },
   {
    "ticker": "LTH",
@@ -7953,7 +8659,9 @@
    "above50": true,
    "above200": true,
    "score": 28.36,
-   "rs": 93
+   "rs": 93,
+   "per": 25.0,
+   "psr": 3.16
   },
   {
    "ticker": "SIRI",
@@ -7976,7 +8684,9 @@
    "above50": true,
    "above200": true,
    "score": 28.33,
-   "rs": 88
+   "rs": 88,
+   "per": 12.1,
+   "psr": 1.21
   },
   {
    "ticker": "VLTO",
@@ -7999,7 +8709,9 @@
    "above50": true,
    "above200": true,
    "score": 28.25,
-   "rs": 87
+   "rs": 87,
+   "per": 28.8,
+   "psr": 4.89
   },
   {
    "ticker": "ELAN",
@@ -8022,7 +8734,9 @@
    "above50": true,
    "above200": true,
    "score": 28.0,
-   "rs": 76
+   "rs": 76,
+   "per": null,
+   "psr": 2.5
   },
   {
    "ticker": "YUMC",
@@ -8045,7 +8759,9 @@
    "above50": true,
    "above200": true,
    "score": 27.66,
-   "rs": 64
+   "rs": 64,
+   "per": 17.3,
+   "psr": 1.32
   },
   {
    "ticker": "SAIL",
@@ -8068,7 +8784,9 @@
    "above50": true,
    "above200": true,
    "score": 27.27,
-   "rs": 91
+   "rs": 91,
+   "per": null,
+   "psr": 10.44
   },
   {
    "ticker": "REGN",
@@ -8091,7 +8809,9 @@
    "above50": true,
    "above200": true,
    "score": 27.2,
-   "rs": 87
+   "rs": 87,
+   "per": 20.4,
+   "psr": 5.54
   },
   {
    "ticker": "FWONK",
@@ -8114,7 +8834,9 @@
    "above50": true,
    "above200": true,
    "score": 27.19,
-   "rs": 72
+   "rs": 72,
+   "per": 101.6,
+   "psr": 5.3
   },
   {
    "ticker": "BBIO",
@@ -8137,7 +8859,9 @@
    "above50": true,
    "above200": true,
    "score": 27.15,
-   "rs": 69
+   "rs": 69,
+   "per": null,
+   "psr": 15.66
   },
   {
    "ticker": "MCD",
@@ -8160,7 +8884,9 @@
    "above50": true,
    "above200": false,
    "score": 27.06,
-   "rs": 49
+   "rs": 49,
+   "per": 21.6,
+   "psr": 6.94
   },
   {
    "ticker": "TAK",
@@ -8183,7 +8909,9 @@
    "above50": true,
    "above200": true,
    "score": 26.95,
-   "rs": 90
+   "rs": 90,
+   "per": 311.0,
+   "psr": 0.01
   },
   {
    "ticker": "FER",
@@ -8206,7 +8934,9 @@
    "above50": true,
    "above200": false,
    "score": 26.76,
-   "rs": 38
+   "rs": 38,
+   "per": 31.5,
+   "psr": 4.18
   },
   {
    "ticker": "CART",
@@ -8229,7 +8959,9 @@
    "above50": true,
    "above200": true,
    "score": 26.68,
-   "rs": 91
+   "rs": 91,
+   "per": 30.0,
+   "psr": 3.27
   },
   {
    "ticker": "CHTR",
@@ -8252,7 +8984,9 @@
    "above50": true,
    "above200": false,
    "score": 26.63,
-   "rs": 25
+   "rs": 25,
+   "per": 12.1,
+   "psr": 0.26
   },
   {
    "ticker": "GME",
@@ -8275,7 +9009,9 @@
    "above50": true,
    "above200": true,
    "score": 26.58,
-   "rs": 91
+   "rs": 91,
+   "per": 17.5,
+   "psr": 3.79
   },
   {
    "ticker": "EW",
@@ -8298,7 +9034,9 @@
    "above50": true,
    "above200": true,
    "score": 26.55,
-   "rs": 83
+   "rs": 83,
+   "per": 59.2,
+   "psr": 8.77
   },
   {
    "ticker": "PFGC",
@@ -8321,7 +9059,9 @@
    "above50": true,
    "above200": true,
    "score": 26.45,
-   "rs": 75
+   "rs": 75,
+   "per": 43.1,
+   "psr": 0.26
   },
   {
    "ticker": "CMCSA",
@@ -8344,7 +9084,9 @@
    "above50": true,
    "above200": false,
    "score": 26.43,
-   "rs": 46
+   "rs": 46,
+   "per": 7.9,
+   "psr": 0.72
   },
   {
    "ticker": "AIZ",
@@ -8367,7 +9109,9 @@
    "above50": true,
    "above200": true,
    "score": 26.37,
-   "rs": 89
+   "rs": 89,
+   "per": 14.9,
+   "psr": 1.13
   },
   {
    "ticker": "COST",
@@ -8390,7 +9134,9 @@
    "above50": true,
    "above200": true,
    "score": 26.32,
-   "rs": 80
+   "rs": 80,
+   "per": 53.1,
+   "psr": 1.61
   },
   {
    "ticker": "PLBL",
@@ -8413,7 +9159,9 @@
    "above50": true,
    "above200": true,
    "score": 135.02,
-   "rs": 94
+   "rs": 94,
+   "per": null,
+   "psr": 150.15
   },
   {
    "ticker": "SLS",
@@ -8436,7 +9184,9 @@
    "above50": true,
    "above200": true,
    "score": 112.58,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "BRBR",
@@ -8459,7 +9209,9 @@
    "above50": true,
    "above200": true,
    "score": 106.16,
-   "rs": 79
+   "rs": 79,
+   "per": 10.3,
+   "psr": 0.72
   },
   {
    "ticker": "DGICB",
@@ -8482,7 +9234,9 @@
    "above50": true,
    "above200": true,
    "score": 87.66,
-   "rs": 98
+   "rs": 98,
+   "per": 18.8,
+   "psr": 0.2
   },
   {
    "ticker": "SGRY",
@@ -8505,7 +9259,9 @@
    "above50": true,
    "above200": true,
    "score": 86.23,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 1.04
   },
   {
    "ticker": "XERS",
@@ -8528,7 +9284,9 @@
    "above50": true,
    "above200": true,
    "score": 76.56,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": 8.42
   },
   {
    "ticker": "AXGN",
@@ -8551,7 +9309,9 @@
    "above50": true,
    "above200": true,
    "score": 70.11,
-   "rs": 95
+   "rs": 95,
+   "per": null,
+   "psr": 12.48
   },
   {
    "ticker": "FUN",
@@ -8574,7 +9334,9 @@
    "above50": true,
    "above200": false,
    "score": 66.96,
-   "rs": 17
+   "rs": 17,
+   "per": null,
+   "psr": 0.39
   },
   {
    "ticker": "UPBD",
@@ -8597,7 +9359,9 @@
    "above50": true,
    "above200": true,
    "score": 66.3,
-   "rs": 93
+   "rs": 93,
+   "per": 13.4,
+   "psr": 0.31
   },
   {
    "ticker": "ULCC",
@@ -8620,7 +9384,9 @@
    "above50": true,
    "above200": true,
    "score": 64.21,
-   "rs": 96
+   "rs": 96,
+   "per": null,
+   "psr": 0.38
   },
   {
    "ticker": "GDYN",
@@ -8643,7 +9409,9 @@
    "above50": true,
    "above200": true,
    "score": 62.17,
-   "rs": 97
+   "rs": 97,
+   "per": 140.7,
+   "psr": 2.35
   },
   {
    "ticker": "ADT",
@@ -8666,7 +9434,9 @@
    "above50": true,
    "above200": true,
    "score": 59.34,
-   "rs": 91
+   "rs": 91,
+   "per": 13.0,
+   "psr": 1.28
   },
   {
    "ticker": "ENR",
@@ -8689,7 +9459,9 @@
    "above50": true,
    "above200": true,
    "score": 58.69,
-   "rs": 94
+   "rs": 94,
+   "per": 24.0,
+   "psr": 0.65
   },
   {
    "ticker": "VCEL",
@@ -8712,7 +9484,9 @@
    "above50": true,
    "above200": true,
    "score": 53.29,
-   "rs": 95
+   "rs": 95,
+   "per": 89.9,
+   "psr": 9.05
   },
   {
    "ticker": "WEN",
@@ -8735,7 +9509,9 @@
    "above50": true,
    "above200": true,
    "score": 53.2,
-   "rs": 67
+   "rs": 67,
+   "per": 16.9,
+   "psr": 0.75
   },
   {
    "ticker": "VIA",
@@ -8758,7 +9534,9 @@
    "above50": true,
    "above200": true,
    "score": 53.13,
-   "rs": 98
+   "rs": 98,
+   "per": 58.0,
+   "psr": 6.84
   },
   {
    "ticker": "BILL",
@@ -8781,7 +9559,9 @@
    "above50": true,
    "above200": true,
    "score": 52.47,
-   "rs": 93
+   "rs": 93,
+   "per": 111.7,
+   "psr": 3.12
   },
   {
    "ticker": "CGON",
@@ -8804,7 +9584,9 @@
    "above50": true,
    "above200": true,
    "score": 52.33,
-   "rs": 91
+   "rs": 91,
+   "per": null,
+   "psr": 1151.18
   },
   {
    "ticker": "LFTO",
@@ -8827,7 +9609,9 @@
    "above50": true,
    "above200": null,
    "score": 52.05,
-   "rs": null
+   "rs": null,
+   "per": 91.4,
+   "psr": 4.52
   },
   {
    "ticker": "MGRT",
@@ -8850,7 +9634,9 @@
    "above50": true,
    "above200": true,
    "score": 51.92,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": 294.42
   },
   {
    "ticker": "LQDA",
@@ -8873,7 +9659,9 @@
    "above50": true,
    "above200": false,
    "score": 50.38,
-   "rs": 84
+   "rs": 84,
+   "per": null,
+   "psr": 7.89
   },
   {
    "ticker": "FCN",
@@ -8896,7 +9684,9 @@
    "above50": true,
    "above200": true,
    "score": 50.33,
-   "rs": 91
+   "rs": 91,
+   "per": 25.6,
+   "psr": 1.41
   },
   {
    "ticker": "MSGR",
@@ -8919,7 +9709,9 @@
    "above50": null,
    "above200": null,
    "score": 49.63,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "KRSA",
@@ -8942,7 +9734,9 @@
    "above50": true,
    "above200": true,
    "score": 49.47,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "ATEN",
@@ -8965,7 +9759,9 @@
    "above50": true,
    "above200": true,
    "score": 47.98,
-   "rs": 93
+   "rs": 93,
+   "per": 47.4,
+   "psr": 6.69
   },
   {
    "ticker": "ALGT",
@@ -8988,7 +9784,9 @@
    "above50": true,
    "above200": true,
    "score": 47.05,
-   "rs": 81
+   "rs": 81,
+   "per": 33.2,
+   "psr": 0.76
   },
   {
    "ticker": "VRDN",
@@ -9011,7 +9809,9 @@
    "above50": true,
    "above200": true,
    "score": 46.78,
-   "rs": 89
+   "rs": 89,
+   "per": null,
+   "psr": 129.32
   },
   {
    "ticker": "LMRI",
@@ -9034,7 +9834,9 @@
    "above50": true,
    "above200": true,
    "score": 45.67,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 1.3
   },
   {
    "ticker": "PRCT",
@@ -9057,7 +9859,9 @@
    "above50": true,
    "above200": true,
    "score": 45.53,
-   "rs": 59
+   "rs": 59,
+   "per": null,
+   "psr": 4.03
   },
   {
    "ticker": "CRCT",
@@ -9080,7 +9884,9 @@
    "above50": true,
    "above200": true,
    "score": 45.23,
-   "rs": 97
+   "rs": 97,
+   "per": 19.0,
+   "psr": 0.65
   },
   {
    "ticker": "PRG",
@@ -9103,7 +9909,9 @@
    "above50": true,
    "above200": true,
    "score": 44.59,
-   "rs": 80
+   "rs": 80,
+   "per": 12.2,
+   "psr": 0.56
   },
   {
    "ticker": "SRRK",
@@ -9126,7 +9934,9 @@
    "above50": true,
    "above200": false,
    "score": 44.54,
-   "rs": 56
+   "rs": 56,
+   "per": null,
+   "psr": 10301.89
   },
   {
    "ticker": "TGLS",
@@ -9149,7 +9959,9 @@
    "above50": true,
    "above200": true,
    "score": 43.89,
-   "rs": 76
+   "rs": 76,
+   "per": 21.4,
+   "psr": 1.92
   },
   {
    "ticker": "EVER",
@@ -9172,7 +9984,9 @@
    "above50": true,
    "above200": true,
    "score": 43.85,
-   "rs": 93
+   "rs": 93,
+   "per": 9.5,
+   "psr": 1.16
   },
   {
    "ticker": "BHC",
@@ -9195,7 +10009,9 @@
    "above50": true,
    "above200": true,
    "score": 43.54,
-   "rs": 92
+   "rs": 92,
+   "per": null,
+   "psr": 0.28
   },
   {
    "ticker": "REF",
@@ -9218,7 +10034,9 @@
    "above50": true,
    "above200": null,
    "score": 43.24,
-   "rs": null
+   "rs": null,
+   "per": 205.7,
+   "psr": 1.85
   },
   {
    "ticker": "COLM",
@@ -9241,7 +10059,9 @@
    "above50": true,
    "above200": true,
    "score": 41.32,
-   "rs": 90
+   "rs": 90,
+   "per": 16.6,
+   "psr": 1.1
   },
   {
    "ticker": "AZTA",
@@ -9264,7 +10084,9 @@
    "above50": true,
    "above200": true,
    "score": 40.99,
-   "rs": 96
+   "rs": 96,
+   "per": null,
+   "psr": 3.01
   },
   {
    "ticker": "TFX",
@@ -9287,7 +10109,9 @@
    "above50": true,
    "above200": true,
    "score": 40.92,
-   "rs": 91
+   "rs": 91,
+   "per": 79.6,
+   "psr": 2.84
   },
   {
    "ticker": "CROX",
@@ -9310,7 +10134,9 @@
    "above50": true,
    "above200": true,
    "score": 40.75,
-   "rs": 95
+   "rs": 95,
+   "per": 11.7,
+   "psr": 1.72
   },
   {
    "ticker": "VNT",
@@ -9333,7 +10159,9 @@
    "above50": true,
    "above200": true,
    "score": 40.69,
-   "rs": 89
+   "rs": 89,
+   "per": 17.6,
+   "psr": 1.86
   },
   {
    "ticker": "CALM",
@@ -9356,7 +10184,9 @@
    "above50": true,
    "above200": false,
    "score": 40.6,
-   "rs": 37
+   "rs": 37,
+   "per": 58.8,
+   "psr": 1.34
   },
   {
    "ticker": "GLIBA",
@@ -9379,7 +10209,9 @@
    "above50": true,
    "above200": false,
    "score": 40.52,
-   "rs": 43
+   "rs": 43,
+   "per": 13.3,
+   "psr": 0.09
   },
   {
    "ticker": "BIPC",
@@ -9402,7 +10234,9 @@
    "above50": true,
    "above200": true,
    "score": 40.47,
-   "rs": 62
+   "rs": 62,
+   "per": null,
+   "psr": 1.43
   },
   {
    "ticker": "TRUP",
@@ -9425,7 +10259,9 @@
    "above50": true,
    "above200": true,
    "score": 40.47,
-   "rs": 87
+   "rs": 87,
+   "per": 58.3,
+   "psr": 0.99
   },
   {
    "ticker": "OSW",
@@ -9448,7 +10284,9 @@
    "above50": true,
    "above200": true,
    "score": 40.45,
-   "rs": 90
+   "rs": 90,
+   "per": 36.3,
+   "psr": 2.94
   },
   {
    "ticker": "CAR",
@@ -9471,7 +10309,9 @@
    "above50": true,
    "above200": false,
    "score": 40.09,
-   "rs": 53
+   "rs": 53,
+   "per": null,
+   "psr": 0.38
   },
   {
    "ticker": "IPAR",
@@ -9494,7 +10334,9 @@
    "above50": true,
    "above200": true,
    "score": 39.87,
-   "rs": 93
+   "rs": 93,
+   "per": 25.9,
+   "psr": 2.93
   },
   {
    "ticker": "PGNY",
@@ -9517,7 +10359,9 @@
    "above50": true,
    "above200": true,
    "score": 39.77,
-   "rs": 95
+   "rs": 95,
+   "per": 31.9,
+   "psr": 1.96
   },
   {
    "ticker": "RYTM",
@@ -9540,7 +10384,9 @@
    "above50": true,
    "above200": true,
    "score": 39.73,
-   "rs": 77
+   "rs": 77,
+   "per": null,
+   "psr": 27.75
   },
   {
    "ticker": "BGIN",
@@ -9563,7 +10409,9 @@
    "above50": true,
    "above200": true,
    "score": 190.34,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 16.07
   },
   {
    "ticker": "ULBI",
@@ -9586,7 +10434,9 @@
    "above50": true,
    "above200": true,
    "score": 169.59,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": 1.35
   },
   {
    "ticker": "INO",
@@ -9609,7 +10459,9 @@
    "above50": true,
    "above200": true,
    "score": 151.04,
-   "rs": 86
+   "rs": 86,
+   "per": null,
+   "psr": 1102.91
   },
   {
    "ticker": "JXG",
@@ -9632,7 +10484,9 @@
    "above50": true,
    "above200": true,
    "score": 134.29,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": 2.96
   },
   {
    "ticker": "GIBO",
@@ -9655,7 +10509,9 @@
    "above50": true,
    "above200": true,
    "score": 122.69,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "EGG",
@@ -9678,7 +10534,9 @@
    "above50": true,
    "above200": true,
    "score": 115.3,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 36.21
   },
   {
    "ticker": "GCL",
@@ -9701,7 +10559,9 @@
    "above50": true,
    "above200": true,
    "score": 108.5,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 0.79
   },
   {
    "ticker": "ATER",
@@ -9724,7 +10584,9 @@
    "above50": true,
    "above200": true,
    "score": 102.89,
-   "rs": 97
+   "rs": 97,
+   "per": null,
+   "psr": 5.46
   },
   {
    "ticker": "GMM",
@@ -9747,7 +10609,9 @@
    "above50": false,
    "above200": false,
    "score": 99.51,
-   "rs": 1
+   "rs": 1,
+   "per": null,
+   "psr": 1.36
   },
   {
    "ticker": "BGS",
@@ -9770,7 +10634,9 @@
    "above50": true,
    "above200": false,
    "score": 90.99,
-   "rs": 41
+   "rs": 41,
+   "per": null,
+   "psr": 0.16
   },
   {
    "ticker": "ZJYL",
@@ -9793,7 +10659,9 @@
    "above50": true,
    "above200": true,
    "score": 82.33,
-   "rs": 75
+   "rs": 75,
+   "per": 17.8,
+   "psr": 26.29
   },
   {
    "ticker": "RYDE",
@@ -9816,7 +10684,9 @@
    "above50": true,
    "above200": true,
    "score": 80.88,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 11.9
   },
   {
    "ticker": "FISN",
@@ -9839,7 +10709,9 @@
    "above50": false,
    "above200": null,
    "score": 79.55,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "TLS",
@@ -9862,7 +10734,9 @@
    "above50": true,
    "above200": true,
    "score": 76.08,
-   "rs": 96
+   "rs": 96,
+   "per": null,
+   "psr": 2.7
   },
   {
    "ticker": "SLSN",
@@ -9885,7 +10759,9 @@
    "above50": true,
    "above200": true,
    "score": 75.16,
-   "rs": 86
+   "rs": 86,
+   "per": 47.0,
+   "psr": 1.63
   },
   {
    "ticker": "ULH",
@@ -9908,7 +10784,9 @@
    "above50": true,
    "above200": true,
    "score": 74.76,
-   "rs": 97
+   "rs": 97,
+   "per": 465.0,
+   "psr": 0.48
   },
   {
    "ticker": "FLNT",
@@ -9931,7 +10809,9 @@
    "above50": true,
    "above200": true,
    "score": 73.28,
-   "rs": 89
+   "rs": 89,
+   "per": null,
+   "psr": 0.57
   },
   {
    "ticker": "NUAI",
@@ -9954,7 +10834,9 @@
    "above50": false,
    "above200": false,
    "score": 72.78,
-   "rs": 32
+   "rs": 32,
+   "per": null,
+   "psr": 597.58
   },
   {
    "ticker": "GLSI",
@@ -9977,7 +10859,9 @@
    "above50": true,
    "above200": false,
    "score": 71.64,
-   "rs": 87
+   "rs": 87,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "ANTX",
@@ -10000,7 +10884,9 @@
    "above50": true,
    "above200": true,
    "score": 69.65,
-   "rs": 99
+   "rs": 99,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "PMA",
@@ -10023,7 +10909,9 @@
    "above50": true,
    "above200": true,
    "score": 63.63,
-   "rs": 87
+   "rs": 87,
+   "per": null,
+   "psr": 17.38
   },
   {
    "ticker": "ASUR",
@@ -10046,7 +10934,9 @@
    "above50": true,
    "above200": true,
    "score": 62.13,
-   "rs": 90
+   "rs": 90,
+   "per": null,
+   "psr": 1.99
   },
   {
    "ticker": "LYEL",
@@ -10069,7 +10959,9 @@
    "above50": true,
    "above200": false,
    "score": 62.07,
-   "rs": 29
+   "rs": 29,
+   "per": null,
+   "psr": 29454.46
   },
   {
    "ticker": "LRMR",
@@ -10092,7 +10984,9 @@
    "above50": true,
    "above200": false,
    "score": 60.74,
-   "rs": 42
+   "rs": 42,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "ONT",
@@ -10115,7 +11009,9 @@
    "above50": true,
    "above200": true,
    "score": 59.96,
-   "rs": 85
+   "rs": 85,
+   "per": null,
+   "psr": 1.01
   },
   {
    "ticker": "SJT",
@@ -10138,7 +11034,9 @@
    "above50": true,
    "above200": true,
    "score": 58.47,
-   "rs": 81
+   "rs": 81,
+   "per": null,
+   "psr": 194166.29
   },
   {
    "ticker": "FENC",
@@ -10161,7 +11059,9 @@
    "above50": true,
    "above200": true,
    "score": 57.93,
-   "rs": 92
+   "rs": 92,
+   "per": null,
+   "psr": 6.96
   },
   {
    "ticker": "FINW",
@@ -10184,7 +11084,9 @@
    "above50": true,
    "above200": false,
    "score": 50.65,
-   "rs": 50
+   "rs": 50,
+   "per": 10.7,
+   "psr": 1.38
   },
   {
    "ticker": "FGBI",
@@ -10207,7 +11109,9 @@
    "above50": true,
    "above200": true,
    "score": 49.21,
-   "rs": 96
+   "rs": 96,
+   "per": 9.0,
+   "psr": 2.02
   },
   {
    "ticker": "IRWD",
@@ -10230,7 +11134,9 @@
    "above50": true,
    "above200": true,
    "score": 47.4,
-   "rs": 88
+   "rs": 88,
+   "per": 5.2,
+   "psr": 1.94
   },
   {
    "ticker": "NGEN",
@@ -10253,7 +11159,9 @@
    "above50": true,
    "above200": false,
    "score": 46.51,
-   "rs": 25
+   "rs": 25,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "FIRY",
@@ -10276,7 +11184,9 @@
    "above50": true,
    "above200": true,
    "score": 46.39,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 1.44
   },
   {
    "ticker": "GUER",
@@ -10299,7 +11209,9 @@
    "above50": true,
    "above200": true,
    "score": 46.22,
-   "rs": 98
+   "rs": 98,
+   "per": null,
+   "psr": 1.92
   },
   {
    "ticker": "EVMN",
@@ -10322,7 +11234,9 @@
    "above50": false,
    "above200": false,
    "score": 45.83,
-   "rs": 4
+   "rs": 4,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "ZIP",
@@ -10345,7 +11259,9 @@
    "above50": true,
    "above200": true,
    "score": 45.53,
-   "rs": 97
+   "rs": 97,
+   "per": 11.3,
+   "psr": 0.86
   },
   {
    "ticker": "KIDS",
@@ -10368,7 +11284,9 @@
    "above50": true,
    "above200": true,
    "score": 45.01,
-   "rs": 97
+   "rs": 97,
+   "per": null,
+   "psr": 3.14
   },
   {
    "ticker": "GNLX",
@@ -10391,7 +11309,9 @@
    "above50": false,
    "above200": false,
    "score": 44.39,
-   "rs": 20
+   "rs": 20,
+   "per": null,
+   "psr": 13037.41
   },
   {
    "ticker": "PERI",
@@ -10414,7 +11334,9 @@
    "above50": true,
    "above200": true,
    "score": 43.53,
-   "rs": 85
+   "rs": 85,
+   "per": null,
+   "psr": 0.87
   },
   {
    "ticker": "TREE",
@@ -10437,7 +11359,9 @@
    "above50": true,
    "above200": false,
    "score": 42.54,
-   "rs": 59
+   "rs": 59,
+   "per": 5.0,
+   "psr": 0.38
   },
   {
    "ticker": "ELA",
@@ -10460,7 +11384,9 @@
    "above50": true,
    "above200": false,
    "score": 41.97,
-   "rs": 37
+   "rs": 37,
+   "per": 13.5,
+   "psr": 1.08
   },
   {
    "ticker": "ZYN",
@@ -10483,7 +11409,9 @@
    "above50": true,
    "above200": true,
    "score": 41.44,
-   "rs": 91
+   "rs": 91,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "CLMB",
@@ -10506,7 +11434,9 @@
    "above50": true,
    "above200": true,
    "score": 40.4,
-   "rs": 96
+   "rs": 96,
+   "per": 31.4,
+   "psr": 0.97
   },
   {
    "ticker": "IRLA",
@@ -10529,7 +11459,9 @@
    "above50": true,
    "above200": true,
    "score": 40.11,
-   "rs": 81
+   "rs": 81,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "POWW",
@@ -10552,7 +11484,9 @@
    "above50": true,
    "above200": true,
    "score": 39.51,
-   "rs": 89
+   "rs": 89,
+   "per": 258.0,
+   "psr": 5.24
   },
   {
    "ticker": "CARL",
@@ -10575,7 +11509,9 @@
    "above50": true,
    "above200": true,
    "score": 39.43,
-   "rs": 90
+   "rs": 90,
+   "per": null,
+   "psr": 6.65
   },
   {
    "ticker": "PYXS",
@@ -10598,7 +11534,9 @@
    "above50": false,
    "above200": false,
    "score": 38.84,
-   "rs": 24
+   "rs": 24,
+   "per": null,
+   "psr": 19.61
   },
   {
    "ticker": "TCX",
@@ -10621,7 +11559,9 @@
    "above50": true,
    "above200": false,
    "score": 38.08,
-   "rs": 60
+   "rs": 60,
+   "per": null,
+   "psr": 0.37
   },
   {
    "ticker": "ALEC",
@@ -10644,7 +11584,9 @@
    "above50": true,
    "above200": true,
    "score": 37.96,
-   "rs": 87
+   "rs": 87,
+   "per": 6.3,
+   "psr": 2.01
   },
   {
    "ticker": "CODI",
@@ -10667,7 +11609,9 @@
    "above50": true,
    "above200": true,
    "score": 37.63,
-   "rs": 92
+   "rs": 92,
+   "per": null,
+   "psr": 0.52
   },
   {
    "ticker": "DIBS",
@@ -10690,7 +11634,9 @@
    "above50": true,
    "above200": true,
    "score": 37.51,
-   "rs": 77
+   "rs": 77,
+   "per": null,
+   "psr": 2.01
   },
   {
    "ticker": "BF-B",
@@ -10711,7 +11657,10 @@
    "above50": true,
    "above200": true,
    "score": 15.19,
-   "rs": 70
+   "rs": 70,
+   "mcap": 8688271806.720001,
+   "per": 19.3,
+   "psr": 2.22
   },
   {
    "ticker": "MOG-A",
@@ -10732,7 +11681,10 @@
    "above50": false,
    "above200": false,
    "score": 14.84,
-   "rs": 75
+   "rs": 75,
+   "mcap": 9513346264.560001,
+   "per": 28.2,
+   "psr": 2.2
   },
   {
    "ticker": "IBOC",
@@ -10753,7 +11705,10 @@
    "above50": false,
    "above200": false,
    "score": 6.3,
-   "rs": 45
+   "rs": 45,
+   "mcap": 3941449244.88,
+   "per": 9.4,
+   "psr": 4.64
   },
   {
    "ticker": "PFBC",
@@ -10774,7 +11729,10 @@
    "above50": false,
    "above200": false,
    "score": 3.79,
-   "rs": 64
+   "rs": 64,
+   "mcap": 1166035779.27,
+   "per": 9.1,
+   "psr": 4.11
   }
  ],
  "bench": "^GSPC"
