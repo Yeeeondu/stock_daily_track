@@ -1,28 +1,28 @@
 {
  "market": "etf",
  "date": "2026-11-18",
- "generated_at": "2026-11-19T13:33:59+00:00",
+ "generated_at": "2026-11-20T03:03:42+00:00",
  "universe": 5827,
- "priced": 676,
+ "priced": 352,
  "skipped": {
-  "lev": 856,
-  "young": 530,
-  "small": 3735
+  "lev": 670,
+  "young": 221,
+  "small": 2222
  },
  "w1_week": "2026-11-09~2026-11-13",
- "min_aum_usd": 753108455,
- "krw": 1327.83,
+ "min_aum_usd": 746870612,
+ "krw": 1338.92,
  "strength": [
   {
    "ticker": "JETS",
    "label": "항공",
-   "trend": "횡보",
-   "rs": 88,
-   "score": 13.46,
+   "trend": "강세",
+   "rs": null,
+   "score": 17.36,
    "r1w": -5.0,
    "r1m": 9.51,
-   "rel1w": -1.1,
-   "rel1m": 14.56,
+   "rel1w": 0.45,
+   "rel1m": 16.91,
    "above50": true,
    "above200": true
   },
@@ -31,37 +31,11 @@
    "label": "필수소비재",
    "trend": "강세",
    "rs": 95,
-   "score": 12.56,
-   "r1w": -0.3,
-   "r1m": 3.91,
-   "rel1w": 3.6,
-   "rel1m": 8.96,
-   "above50": true,
-   "above200": true
-  },
-  {
-   "ticker": "XLU",
-   "label": "유틸리티",
-   "trend": "강세",
-   "rs": 47,
-   "score": 12.32,
-   "r1w": -0.62,
-   "r1m": 3.99,
-   "rel1w": 3.28,
-   "rel1m": 9.04,
-   "above50": true,
-   "above200": false
-  },
-  {
-   "ticker": "XLY",
-   "label": "경기소비재",
-   "trend": "강세",
-   "rs": 79,
-   "score": 10.68,
-   "r1w": -1.48,
-   "r1m": 3.2,
-   "rel1w": 2.42,
-   "rel1m": 8.26,
+   "score": 14.69,
+   "r1w": -1.32,
+   "r1m": 3.16,
+   "rel1w": 4.13,
+   "rel1m": 10.56,
    "above50": true,
    "above200": true
   },
@@ -69,12 +43,12 @@
    "ticker": "XLRE",
    "label": "부동산",
    "trend": "강세",
-   "rs": 63,
-   "score": 9.7,
+   "rs": null,
+   "score": 13.6,
    "r1w": -2.18,
    "r1m": 2.93,
-   "rel1w": 1.72,
-   "rel1m": 7.98,
+   "rel1w": 3.27,
+   "rel1m": 10.33,
    "above50": true,
    "above200": true
   },
@@ -82,38 +56,90 @@
    "ticker": "WCBR",
    "label": "사이버보안 (순수)",
    "trend": "강세",
-   "rs": 98,
-   "score": 9.65,
+   "rs": null,
+   "score": 13.55,
    "r1w": 1.61,
    "r1m": -0.91,
-   "rel1w": 5.51,
-   "rel1m": 4.14,
+   "rel1w": 7.06,
+   "rel1m": 6.49,
    "above50": false,
    "above200": true
   },
   {
-   "ticker": "PPH",
-   "label": "빅파마",
+   "ticker": "XLU",
+   "label": "유틸리티",
    "trend": "강세",
-   "rs": 95,
-   "score": 7.11,
-   "r1w": -3.16,
-   "r1m": 1.32,
-   "rel1w": 0.74,
-   "rel1m": 6.37,
+   "rs": 40,
+   "score": 13.43,
+   "r1w": -1.83,
+   "r1m": 2.4,
+   "rel1w": 3.62,
+   "rel1m": 9.81,
    "above50": true,
+   "above200": false
+  },
+  {
+   "ticker": "XLY",
+   "label": "경기소비재",
+   "trend": "강세",
+   "rs": 58,
+   "score": 9.35,
+   "r1w": -3.8,
+   "r1m": 0.3,
+   "rel1w": 1.65,
+   "rel1m": 7.7,
+   "above50": true,
+   "above200": true
+  },
+  {
+   "ticker": "CIBR",
+   "label": "사이버보안 (대형)",
+   "trend": "강세",
+   "rs": null,
+   "score": 8.33,
+   "r1w": -0.2,
+   "r1m": -4.32,
+   "rel1w": 5.25,
+   "rel1m": 3.08,
+   "above50": false,
    "above200": true
   },
   {
    "ticker": "XLF",
    "label": "금융",
    "trend": "강세",
-   "rs": 89,
-   "score": 6.44,
-   "r1w": -3.77,
-   "r1m": 1.26,
-   "rel1w": 0.13,
-   "rel1m": 6.31,
+   "rs": 86,
+   "score": 7.51,
+   "r1w": -4.52,
+   "r1m": -0.82,
+   "rel1w": 0.93,
+   "rel1m": 6.58,
+   "above50": false,
+   "above200": true
+  },
+  {
+   "ticker": "ITA",
+   "label": "방산",
+   "trend": "강세",
+   "rs": 9,
+   "score": 7.35,
+   "r1w": -4.92,
+   "r1m": -0.58,
+   "rel1w": 0.53,
+   "rel1m": 6.82,
+   "above50": false,
+   "above200": false
+  },
+  {
+   "ticker": "PPH",
+   "label": "빅파마",
+   "trend": "강세",
+   "rs": 93,
+   "score": 7.07,
+   "r1w": -5.23,
+   "r1m": -0.55,
+   "rel1w": 0.21,
+   "rel1m": 6.86,
    "above50": true,
    "above200": true
   },
@@ -122,76 +148,24 @@
    "label": "헬스케어",
    "trend": "횡보",
    "rs": 97,
-   "score": 5.58,
-   "r1w": -4.12,
-   "r1m": 0.75,
-   "rel1w": -0.22,
-   "rel1m": 5.8,
+   "score": 6.5,
+   "r1w": -5.52,
+   "r1m": -0.83,
+   "rel1w": -0.07,
+   "rel1m": 6.57,
    "above50": true,
    "above200": true
   },
   {
-   "ticker": "ITA",
-   "label": "방산",
-   "trend": "횡보",
-   "rs": 18,
-   "score": 4.67,
-   "r1w": -5.26,
-   "r1m": 0.98,
-   "rel1w": -1.36,
-   "rel1m": 6.03,
-   "above50": false,
-   "above200": false
-  },
-  {
-   "ticker": "CIBR",
-   "label": "사이버보안 (대형)",
-   "trend": "강세",
-   "rs": 98,
-   "score": 4.43,
-   "r1w": -0.2,
-   "r1m": -4.32,
-   "rel1w": 3.7,
-   "rel1m": 0.73,
-   "above50": false,
-   "above200": true
-  },
-  {
-   "ticker": "XLI",
-   "label": "산업재",
-   "trend": "강세",
-   "rs": 39,
-   "score": 3.98,
-   "r1w": -3.69,
-   "r1m": -1.28,
-   "rel1w": 0.21,
-   "rel1m": 3.77,
-   "above50": false,
-   "above200": false
-  },
-  {
-   "ticker": "XLB",
-   "label": "소재",
-   "trend": "횡보",
-   "rs": 73,
-   "score": 2.62,
-   "r1w": -4.83,
-   "r1m": -1.5,
-   "rel1w": -0.93,
-   "rel1m": 3.55,
-   "above50": false,
-   "above200": false
-  },
-  {
    "ticker": "XLC",
    "label": "커뮤니케이션",
-   "trend": "횡보",
-   "rs": 23,
-   "score": 1.99,
+   "trend": "강세",
+   "rs": null,
+   "score": 5.89,
    "r1w": -2.78,
    "r1m": -4.18,
-   "rel1w": 1.12,
-   "rel1m": 0.87,
+   "rel1w": 2.67,
+   "rel1m": 3.22,
    "above50": false,
    "above200": false
   },
@@ -199,25 +173,51 @@
    "ticker": "UFO",
    "label": "우주",
    "trend": "횡보",
-   "rs": 15,
-   "score": 0.75,
+   "rs": null,
+   "score": 4.65,
    "r1w": -7.3,
    "r1m": -0.89,
-   "rel1w": -3.41,
-   "rel1m": 4.16,
+   "rel1w": -1.86,
+   "rel1m": 6.51,
+   "above50": false,
+   "above200": false
+  },
+  {
+   "ticker": "XLI",
+   "label": "산업재",
+   "trend": "강세",
+   "rs": 21,
+   "score": 3.95,
+   "r1w": -4.77,
+   "r1m": -4.13,
+   "rel1w": 0.68,
+   "rel1m": 3.27,
+   "above50": false,
+   "above200": false
+  },
+  {
+   "ticker": "XLB",
+   "label": "소재",
+   "trend": "횡보",
+   "rs": 50,
+   "score": 3.57,
+   "r1w": -5.58,
+   "r1m": -3.7,
+   "rel1w": -0.13,
+   "rel1m": 3.7,
    "above50": false,
    "above200": false
   },
   {
    "ticker": "LNGX",
    "label": "LNG·천연가스",
-   "trend": "횡보",
-   "rs": 61,
-   "score": -2.51,
+   "trend": "강세",
+   "rs": null,
+   "score": 1.39,
    "r1w": -3.42,
    "r1m": -8.04,
-   "rel1w": 0.48,
-   "rel1m": -2.99,
+   "rel1w": 2.03,
+   "rel1m": -0.64,
    "above50": false,
    "above200": false
   },
@@ -225,24 +225,24 @@
    "ticker": "XLE",
    "label": "에너지",
    "trend": "횡보",
-   "rs": 95,
-   "score": -4.17,
-   "r1w": -3.28,
-   "r1m": -9.83,
-   "rel1w": 0.61,
-   "rel1m": -4.78,
+   "rs": 96,
+   "score": -3.16,
+   "r1w": -5.35,
+   "r1m": -10.67,
+   "rel1w": 0.1,
+   "rel1m": -3.26,
    "above50": false,
    "above200": true
   },
   {
    "ticker": "IGV",
    "label": "소프트웨어",
-   "trend": "약세",
-   "rs": 69,
-   "score": -5.57,
-   "r1w": -5.17,
-   "r1m": -9.34,
-   "rel1w": -1.28,
+   "trend": "횡보",
+   "rs": 66,
+   "score": -4.12,
+   "r1w": -5.27,
+   "r1m": -11.69,
+   "rel1w": 0.17,
    "rel1m": -4.29,
    "above50": false,
    "above200": true
@@ -251,25 +251,12 @@
    "ticker": "XLK",
    "label": "IT",
    "trend": "약세",
-   "rs": 68,
-   "score": -8.76,
-   "r1w": -6.05,
-   "r1m": -11.66,
-   "rel1w": -2.15,
-   "rel1m": -6.61,
-   "above50": false,
-   "above200": false
-  },
-  {
-   "ticker": "SOXX",
-   "label": "반도체",
-   "trend": "약세",
-   "rs": 82,
-   "score": -14.66,
-   "r1w": -8.72,
-   "r1m": -14.89,
-   "rel1w": -4.82,
-   "rel1m": -9.84,
+   "rs": 55,
+   "score": -9.45,
+   "r1w": -7.53,
+   "r1m": -14.77,
+   "rel1w": -2.08,
+   "rel1m": -7.37,
    "above50": false,
    "above200": false
   },
@@ -277,14 +264,27 @@
    "ticker": "ARKG",
    "label": "AI 신약·유전체",
    "trend": "약세",
-   "rs": 98,
-   "score": -17.09,
+   "rs": null,
+   "score": -13.19,
    "r1w": -10.85,
    "r1m": -15.19,
-   "rel1w": -6.95,
-   "rel1m": -10.14,
+   "rel1w": -5.4,
+   "rel1m": -7.79,
    "above50": false,
    "above200": true
+  },
+  {
+   "ticker": "SOXX",
+   "label": "반도체",
+   "trend": "약세",
+   "rs": 69,
+   "score": -17.06,
+   "r1w": -10.99,
+   "r1m": -18.91,
+   "rel1w": -5.55,
+   "rel1m": -11.51,
+   "above50": false,
+   "above200": false
   }
  ],
  "w1_crit": "aum1조-6m-h10",
@@ -656,189 +656,6 @@
    ]
   },
   {
-   "ticker": "VCR",
-   "name": "Vanguard Consumer Discretion ETF",
-   "aum": 6494593500,
-   "close": 396.57,
-   "d1": 1.86,
-   "w1": -0.72,
-   "w1_prev": 2.08,
-   "holdings": [
-    {
-     "symbol": "AMZN",
-     "name": "Amazon.com Inc",
-     "pct": 21.01
-    },
-    {
-     "symbol": "TSLA",
-     "name": "Tesla Inc",
-     "pct": 16.99
-    },
-    {
-     "symbol": "HD",
-     "name": "The Home Depot Inc",
-     "pct": 4.96
-    },
-    {
-     "symbol": "MCD",
-     "name": "McDonald's Corp",
-     "pct": 2.8
-    },
-    {
-     "symbol": "TJX",
-     "name": "TJX Companies Inc",
-     "pct": 2.38
-    },
-    {
-     "symbol": "SBUX",
-     "name": "Starbucks Corp",
-     "pct": 1.82
-    },
-    {
-     "symbol": "LOW",
-     "name": "Lowe's Companies Inc",
-     "pct": 1.8
-    },
-    {
-     "symbol": "BKNG",
-     "name": "Booking Holdings Inc",
-     "pct": 1.78
-    },
-    {
-     "symbol": "MAR",
-     "name": "Marriott International Inc Class A",
-     "pct": 1.4
-    },
-    {
-     "symbol": "HLT",
-     "name": "Hilton Worldwide Holdings Inc",
-     "pct": 1.3
-    }
-   ]
-  },
-  {
-   "ticker": "XLY",
-   "name": "State Street Consumer Discretionary Select Sector SPDR ETF",
-   "aum": 22396549100,
-   "close": 119.2,
-   "d1": 1.79,
-   "w1": -0.65,
-   "w1_prev": 2.04,
-   "holdings": [
-    {
-     "symbol": "AMZN",
-     "name": "Amazon.com Inc",
-     "pct": 21.29
-    },
-    {
-     "symbol": "TSLA",
-     "name": "Tesla Inc",
-     "pct": 18.78
-    },
-    {
-     "symbol": "HD",
-     "name": "The Home Depot Inc",
-     "pct": 5.47
-    },
-    {
-     "symbol": "MCD",
-     "name": "McDonald's Corp",
-     "pct": 4.46
-    },
-    {
-     "symbol": "TJX",
-     "name": "TJX Companies Inc",
-     "pct": 4.07
-    },
-    {
-     "symbol": "SBUX",
-     "name": "Starbucks Corp",
-     "pct": 3.11
-    },
-    {
-     "symbol": "LOW",
-     "name": "Lowe's Companies Inc",
-     "pct": 3.08
-    },
-    {
-     "symbol": "BKNG",
-     "name": "Booking Holdings Inc",
-     "pct": 2.93
-    },
-    {
-     "symbol": "MAR",
-     "name": "Marriott International Inc Class A",
-     "pct": 2.24
-    },
-    {
-     "symbol": "HLT",
-     "name": "Hilton Worldwide Holdings Inc",
-     "pct": 2.11
-    }
-   ]
-  },
-  {
-   "ticker": "XHB",
-   "name": "State Street SPDR S&P Homebuilders ETF",
-   "aum": 1631168130,
-   "close": 100.75,
-   "d1": 1.68,
-   "w1": -1.29,
-   "w1_prev": -0.22,
-   "holdings": [
-    {
-     "symbol": "ALLE",
-     "name": "Allegion PLC",
-     "pct": 3.92
-    },
-    {
-     "symbol": "SN",
-     "name": "SharkNinja Inc",
-     "pct": 3.92
-    },
-    {
-     "symbol": "MAS",
-     "name": "Masco Corp",
-     "pct": 3.71
-    },
-    {
-     "symbol": "W",
-     "name": "Wayfair Inc Class A",
-     "pct": 3.69
-    },
-    {
-     "symbol": "CVCO",
-     "name": "Cavco Industries Inc",
-     "pct": 3.66
-    },
-    {
-     "symbol": "CSL",
-     "name": "Carlisle Companies Inc",
-     "pct": 3.56
-    },
-    {
-     "symbol": "WSM",
-     "name": "Williams-Sonoma Inc",
-     "pct": 3.54
-    },
-    {
-     "symbol": "SSD",
-     "name": "Simpson Manufacturing Co Inc",
-     "pct": 3.49
-    },
-    {
-     "symbol": "TOL",
-     "name": "Toll Brothers Inc",
-     "pct": 3.45
-    },
-    {
-     "symbol": "LEN",
-     "name": "Lennar Corp Class A",
-     "pct": 3.43
-    }
-   ]
-  },
-  {
    "ticker": "ATFV",
    "name": "Alger 35 ETF",
    "aum": 1059045060,
@@ -896,67 +713,6 @@
      "symbol": "TSM",
      "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
      "pct": 3.04
-    }
-   ]
-  },
-  {
-   "ticker": "IYC",
-   "name": "iShares U.S. Consumer Discretionary ETF",
-   "aum": 1227726340,
-   "close": 104.18,
-   "d1": 1.58,
-   "w1": -0.71,
-   "w1_prev": 1.56,
-   "holdings": [
-    {
-     "symbol": "AMZN",
-     "name": "Amazon.com Inc",
-     "pct": 13.15
-    },
-    {
-     "symbol": "TSLA",
-     "name": "Tesla Inc",
-     "pct": 8.15
-    },
-    {
-     "symbol": "WMT",
-     "name": "Walmart Inc",
-     "pct": 4.79
-    },
-    {
-     "symbol": "COST",
-     "name": "Costco Wholesale Corp",
-     "pct": 4.43
-    },
-    {
-     "symbol": "HD",
-     "name": "The Home Depot Inc",
-     "pct": 4.37
-    },
-    {
-     "symbol": "DIS",
-     "name": "The Walt Disney Co",
-     "pct": 3.42
-    },
-    {
-     "symbol": "NFLX",
-     "name": "Netflix Inc",
-     "pct": 3.4
-    },
-    {
-     "symbol": "MCD",
-     "name": "McDonald's Corp",
-     "pct": 3.25
-    },
-    {
-     "symbol": "TJX",
-     "name": "TJX Companies Inc",
-     "pct": 2.75
-    },
-    {
-     "symbol": "UBER",
-     "name": "Uber Technologies Inc",
-     "pct": 2.27
     }
    ]
   },
@@ -1144,189 +900,6 @@
    ]
   },
   {
-   "ticker": "IGV",
-   "name": "iShares Expanded Tech-Software Sector ETF",
-   "aum": 13456337900,
-   "close": 96.94,
-   "d1": 1.25,
-   "w1": -4.2,
-   "w1_prev": 2.34,
-   "holdings": [
-    {
-     "symbol": "PANW",
-     "name": "Palo Alto Networks Inc",
-     "pct": 9.07
-    },
-    {
-     "symbol": "PLTR",
-     "name": "Palantir Technologies Inc Ordinary Shares - Class A",
-     "pct": 9.02
-    },
-    {
-     "symbol": "MSFT",
-     "name": "Microsoft Corp",
-     "pct": 8.82
-    },
-    {
-     "symbol": "CRWD",
-     "name": "CrowdStrike Holdings Inc Class A",
-     "pct": 8.55
-    },
-    {
-     "symbol": "ORCL",
-     "name": "Oracle Corp",
-     "pct": 6.72
-    },
-    {
-     "symbol": "CRM",
-     "name": "Salesforce Inc",
-     "pct": 4.13
-    },
-    {
-     "symbol": "NOW",
-     "name": "ServiceNow Inc",
-     "pct": 3.53
-    },
-    {
-     "symbol": "ADBE",
-     "name": "Adobe Inc",
-     "pct": 3.51
-    },
-    {
-     "symbol": "INTU",
-     "name": "Intuit Inc",
-     "pct": 3.29
-    },
-    {
-     "symbol": "CDNS",
-     "name": "Cadence Design Systems Inc",
-     "pct": 3.19
-    }
-   ]
-  },
-  {
-   "ticker": "FDN",
-   "name": "First Trust DJ Internet Index Fund",
-   "aum": 4795585500,
-   "close": 259.96,
-   "d1": 1.22,
-   "w1": -3.5,
-   "w1_prev": 3.38,
-   "holdings": [
-    {
-     "symbol": "AMZN",
-     "name": "Amazon.com Inc",
-     "pct": 10.08
-    },
-    {
-     "symbol": "META",
-     "name": "Meta Platforms Inc Class A",
-     "pct": 9.97
-    },
-    {
-     "symbol": "CSCO",
-     "name": "Cisco Systems Inc",
-     "pct": 9.02
-    },
-    {
-     "symbol": "NFLX",
-     "name": "Netflix Inc",
-     "pct": 5.36
-    },
-    {
-     "symbol": "GOOGL",
-     "name": "Alphabet Inc Class A",
-     "pct": 4.97
-    },
-    {
-     "symbol": "ANET",
-     "name": "Arista Networks Inc",
-     "pct": 4.49
-    },
-    {
-     "symbol": "CRM",
-     "name": "Salesforce Inc",
-     "pct": 4.44
-    },
-    {
-     "symbol": "SNOW",
-     "name": "Snowflake Inc Ordinary Shares",
-     "pct": 4.08
-    },
-    {
-     "symbol": "ORCL",
-     "name": "Oracle Corp",
-     "pct": 4.06
-    },
-    {
-     "symbol": "BKNG",
-     "name": "Booking Holdings Inc",
-     "pct": 4.03
-    }
-   ]
-  },
-  {
-   "ticker": "PSC",
-   "name": "Principal U.S. Small-Cap ETF",
-   "aum": 2732550400,
-   "close": 66.72,
-   "d1": 1.21,
-   "w1": -1.72,
-   "w1_prev": 2.38,
-   "holdings": [
-    {
-     "symbol": "ZETA",
-     "name": "Zeta Global Holdings Corp Class A",
-     "pct": 1.07
-    },
-    {
-     "symbol": "TWST",
-     "name": "Twist Bioscience Corp",
-     "pct": 0.98
-    },
-    {
-     "symbol": "TXG",
-     "name": "10x Genomics Inc Ordinary Shares - Class A",
-     "pct": 0.98
-    },
-    {
-     "symbol": "FRSH",
-     "name": "Freshworks Inc Ordinary Shares Class A",
-     "pct": 0.96
-    },
-    {
-     "symbol": "EAT",
-     "name": "Brinker International Inc",
-     "pct": 0.84
-    },
-    {
-     "symbol": "WT",
-     "name": "WisdomTree Inc",
-     "pct": 0.81
-    },
-    {
-     "symbol": "BKH",
-     "name": "Black Hills Corp",
-     "pct": 0.79
-    },
-    {
-     "symbol": "MRX",
-     "name": "Marex Group Ltd",
-     "pct": 0.73
-    },
-    {
-     "symbol": "QLYS",
-     "name": "Qualys Inc",
-     "pct": 0.73
-    },
-    {
-     "symbol": "BFH",
-     "name": "Bread Financial Holdings Inc",
-     "pct": 0.72
-    }
-   ]
-  },
-  {
    "ticker": "IVES",
    "name": "Dan IVES Wedbush AI Revolution ETF",
    "aum": 854325820,
@@ -1388,67 +961,6 @@
    ]
   },
   {
-   "ticker": "SKYY",
-   "name": "First Trust Cloud Computing ETF",
-   "aum": 3310213890,
-   "close": 146.75,
-   "d1": 1.17,
-   "w1": -3.78,
-   "w1_prev": 4.14,
-   "holdings": [
-    {
-     "symbol": "P",
-     "name": "Everpure Inc Class A",
-     "pct": 5.01
-    },
-    {
-     "symbol": "IBM",
-     "name": "International Business Machines Corp",
-     "pct": 3.75
-    },
-    {
-     "symbol": "MSFT",
-     "name": "Microsoft Corp",
-     "pct": 3.55
-    },
-    {
-     "symbol": "NTNX",
-     "name": "Nutanix Inc Class A",
-     "pct": 3.5
-    },
-    {
-     "symbol": "ANET",
-     "name": "Arista Networks Inc",
-     "pct": 3.2
-    },
-    {
-     "symbol": "AMZN",
-     "name": "Amazon.com Inc",
-     "pct": 3.19
-    },
-    {
-     "symbol": "ORCL",
-     "name": "Oracle Corp",
-     "pct": 3.18
-    },
-    {
-     "symbol": "DOCN",
-     "name": "DigitalOcean Holdings Inc",
-     "pct": 3.07
-    },
-    {
-     "symbol": "NTSK",
-     "name": "Netskope Inc Ordinary Shares - Class A",
-     "pct": 2.91
-    },
-    {
-     "symbol": "GOOGL",
-     "name": "Alphabet Inc Class A",
-     "pct": 2.84
-    }
-   ]
-  },
-  {
    "ticker": "JETS",
    "name": "U.S. Global Jets ETF",
    "aum": 846677890,
@@ -1506,128 +1018,6 @@
      "symbol": "JBLU",
      "name": "JetBlue Airways Corp",
      "pct": 2.35
-    }
-   ]
-  },
-  {
-   "ticker": "EWY",
-   "name": "iShares MSCI South Korea ETF",
-   "aum": 22300024800,
-   "close": 136.73,
-   "d1": 1.04,
-   "w1": -4.24,
-   "w1_prev": 4.21,
-   "holdings": [
-    {
-     "symbol": "000660.KQ",
-     "name": "SK hynix Inc",
-     "pct": 23.76
-    },
-    {
-     "symbol": "005930.KQ",
-     "name": "Samsung Electronics Co Ltd",
-     "pct": 23.03
-    },
-    {
-     "symbol": "402340.KQ",
-     "name": "SK Square",
-     "pct": 2.96
-    },
-    {
-     "symbol": "009150.KQ",
-     "name": "Samsung Electro-Mechanics Co Ltd",
-     "pct": 2.61
-    },
-    {
-     "symbol": "105560.KQ",
-     "name": "KB Financial Group Inc",
-     "pct": 2.13
-    },
-    {
-     "symbol": "055550.KQ",
-     "name": "Shinhan Financial Group Co Ltd",
-     "pct": 1.57
-    },
-    {
-     "symbol": "006400.KQ",
-     "name": "Samsung SDI Co Ltd",
-     "pct": 1.45
-    },
-    {
-     "symbol": "086790.KQ",
-     "name": "Hana Financial Group Inc",
-     "pct": 1.45
-    },
-    {
-     "symbol": "005380.KQ",
-     "name": "Hyundai Motor Co",
-     "pct": 1.44
-    },
-    {
-     "symbol": "068270.KS",
-     "name": "Celltrion Inc",
-     "pct": 1.35
-    }
-   ]
-  },
-  {
-   "ticker": "ITB",
-   "name": "iShares U.S. Home Construction ETF",
-   "aum": 2373759230,
-   "close": 92.66,
-   "d1": 1.01,
-   "w1": -1.44,
-   "w1_prev": -2.61,
-   "holdings": [
-    {
-     "symbol": "DHI",
-     "name": "D.R. Horton Inc",
-     "pct": 17.94
-    },
-    {
-     "symbol": "PHM",
-     "name": "PulteGroup Inc",
-     "pct": 11.29
-    },
-    {
-     "symbol": "LEN",
-     "name": "Lennar Corp Class A",
-     "pct": 8.13
-    },
-    {
-     "symbol": "NVR",
-     "name": "NVR Inc",
-     "pct": 7.28
-    },
-    {
-     "symbol": "TOL",
-     "name": "Toll Brothers Inc",
-     "pct": 4.72
-    },
-    {
-     "symbol": "HD",
-     "name": "The Home Depot Inc",
-     "pct": 4.51
-    },
-    {
-     "symbol": "LOW",
-     "name": "Lowe's Companies Inc",
-     "pct": 4.47
-    },
-    {
-     "symbol": "SHW",
-     "name": "Sherwin-Williams Co",
-     "pct": 4.41
-    },
-    {
-     "symbol": "MAS",
-     "name": "Masco Corp",
-     "pct": 3.43
-    },
-    {
-     "symbol": "IBP",
-     "name": "Installed Building Products Inc",
-     "pct": 2.45
     }
    ]
   },
@@ -1754,128 +1144,6 @@
    ]
   },
   {
-   "ticker": "VIOG",
-   "name": "Vanguard S&P Small-Cap 600 Growth ETF",
-   "aum": 1046012480,
-   "close": 139.26,
-   "d1": 0.93,
-   "w1": -1.72,
-   "w1_prev": 2.19,
-   "holdings": [
-    {
-     "symbol": "VSAT",
-     "name": "Viasat Inc",
-     "pct": 1.28
-    },
-    {
-     "symbol": "GKOS",
-     "name": "Glaukos Corp",
-     "pct": 1.16
-    },
-    {
-     "symbol": "PTGX",
-     "name": "Protagonist Therapeutics Inc",
-     "pct": 1.13
-    },
-    {
-     "symbol": "RHP",
-     "name": "Ryman Hospitality Properties Inc",
-     "pct": 1.09
-    },
-    {
-     "symbol": "TGTX",
-     "name": "TG Therapeutics Inc",
-     "pct": 1.04
-    },
-    {
-     "symbol": "ALKS",
-     "name": "Alkermes PLC",
-     "pct": 0.92
-    },
-    {
-     "symbol": "ETSY",
-     "name": "Etsy Inc",
-     "pct": 0.91
-    },
-    {
-     "symbol": "AWI",
-     "name": "Armstrong World Industries Inc",
-     "pct": 0.85
-    },
-    {
-     "symbol": "FSS",
-     "name": "Federal Signal Corp",
-     "pct": 0.83
-    },
-    {
-     "symbol": "ZWS",
-     "name": "Zurn Elkay Water Solutions Corp",
-     "pct": 0.8
-    }
-   ]
-  },
-  {
-   "ticker": "PHO",
-   "name": "Invesco Water Resources ETF",
-   "aum": 2052175740,
-   "close": 76.24,
-   "d1": 0.91,
-   "w1": -0.46,
-   "w1_prev": 2.11,
-   "holdings": [
-    {
-     "symbol": "ECL",
-     "name": "Ecolab Inc",
-     "pct": 8.25
-    },
-    {
-     "symbol": "FERG",
-     "name": "Ferguson Enterprises Inc",
-     "pct": 8.2
-    },
-    {
-     "symbol": "ROP",
-     "name": "Roper Technologies Inc",
-     "pct": 7.45
-    },
-    {
-     "symbol": "WAT",
-     "name": "Waters Corp",
-     "pct": 7.28
-    },
-    {
-     "symbol": "IDXX",
-     "name": "IDEXX Laboratories Inc",
-     "pct": 6.67
-    },
-    {
-     "symbol": "A",
-     "name": "Agilent Technologies Inc",
-     "pct": 4.39
-    },
-    {
-     "symbol": "VLTO",
-     "name": "Veralto Corp",
-     "pct": 4.32
-    },
-    {
-     "symbol": "PNR",
-     "name": "Pentair PLC",
-     "pct": 4.23
-    },
-    {
-     "symbol": "TRMB",
-     "name": "Trimble Inc",
-     "pct": 4.17
-    },
-    {
-     "symbol": "AWK",
-     "name": "American Water Works Co Inc",
-     "pct": 4.03
-    }
-   ]
-  },
-  {
    "ticker": "NUGO",
    "name": "Nuveen Growth Opportunities ETF",
    "aum": 2341033470,
@@ -1937,67 +1205,6 @@
    ]
   },
   {
-   "ticker": "SLYG",
-   "name": "State Street SPDR S&P 600 Small Cap Growth ETF",
-   "aum": 4689575400,
-   "close": 108.1,
-   "d1": 0.86,
-   "w1": -1.89,
-   "w1_prev": 2.37,
-   "holdings": [
-    {
-     "symbol": "VSAT",
-     "name": "Viasat Inc",
-     "pct": 1.29
-    },
-    {
-     "symbol": "GKOS",
-     "name": "Glaukos Corp",
-     "pct": 1.18
-    },
-    {
-     "symbol": "PTGX",
-     "name": "Protagonist Therapeutics Inc",
-     "pct": 1.14
-    },
-    {
-     "symbol": "RHP",
-     "name": "Ryman Hospitality Properties Inc",
-     "pct": 1.1
-    },
-    {
-     "symbol": "TGTX",
-     "name": "TG Therapeutics Inc",
-     "pct": 1.05
-    },
-    {
-     "symbol": "ALKS",
-     "name": "Alkermes PLC",
-     "pct": 0.92
-    },
-    {
-     "symbol": "ETSY",
-     "name": "Etsy Inc",
-     "pct": 0.92
-    },
-    {
-     "symbol": "AWI",
-     "name": "Armstrong World Industries Inc",
-     "pct": 0.85
-    },
-    {
-     "symbol": "FSS",
-     "name": "Federal Signal Corp",
-     "pct": 0.84
-    },
-    {
-     "symbol": "ZWS",
-     "name": "Zurn Elkay Water Solutions Corp",
-     "pct": 0.8
-    }
-   ]
-  },
-  {
    "ticker": "COWG",
    "name": "Pacer US Large Cap Cash Cows Growth Leaders ETF",
    "aum": 2295235840,
@@ -2055,67 +1262,6 @@
      "symbol": "CRDO",
      "name": "Credo Technology Group Holding Ltd",
      "pct": 2.24
-    }
-   ]
-  },
-  {
-   "ticker": "IJT",
-   "name": "iShares S&P SmallCap 600 Growth ETF",
-   "aum": 7452905500,
-   "close": 161.97,
-   "d1": 0.84,
-   "w1": -1.78,
-   "w1_prev": 2.23,
-   "holdings": [
-    {
-     "symbol": "VSAT",
-     "name": "Viasat Inc",
-     "pct": 1.28
-    },
-    {
-     "symbol": "GKOS",
-     "name": "Glaukos Corp",
-     "pct": 1.17
-    },
-    {
-     "symbol": "PTGX",
-     "name": "Protagonist Therapeutics Inc",
-     "pct": 1.13
-    },
-    {
-     "symbol": "RHP",
-     "name": "Ryman Hospitality Properties Inc",
-     "pct": 1.1
-    },
-    {
-     "symbol": "TGTX",
-     "name": "TG Therapeutics Inc",
-     "pct": 1.05
-    },
-    {
-     "symbol": "ALKS",
-     "name": "Alkermes PLC",
-     "pct": 0.92
-    },
-    {
-     "symbol": "ETSY",
-     "name": "Etsy Inc",
-     "pct": 0.92
-    },
-    {
-     "symbol": "AWI",
-     "name": "Armstrong World Industries Inc",
-     "pct": 0.85
-    },
-    {
-     "symbol": "FSS",
-     "name": "Federal Signal Corp",
-     "pct": 0.83
-    },
-    {
-     "symbol": "ZWS",
-     "name": "Zurn Elkay Water Solutions Corp",
-     "pct": 0.8
     }
    ]
   },
@@ -2242,67 +1388,6 @@
    ]
   },
   {
-   "ticker": "ISCG",
-   "name": "iShares Morningstar Small-Cap Growth ETF",
-   "aum": 961316100,
-   "close": 59.53,
-   "d1": 0.78,
-   "w1": -2.41,
-   "w1_prev": 2.43,
-   "holdings": [
-    {
-     "symbol": "OKTA",
-     "name": "Okta Inc Class A",
-     "pct": 1.17
-    },
-    {
-     "symbol": "TEAM",
-     "name": "Atlassian Corp Class A",
-     "pct": 1.02
-    },
-    {
-     "symbol": "GH",
-     "name": "Guardant Health Inc",
-     "pct": 0.77
-    },
-    {
-     "symbol": "ROKU",
-     "name": "Roku Inc Class A",
-     "pct": 0.68
-    },
-    {
-     "symbol": "RBRK",
-     "name": "Rubrik Inc Class A Shares",
-     "pct": 0.63
-    },
-    {
-     "symbol": "NTNX",
-     "name": "Nutanix Inc Class A",
-     "pct": 0.6
-    },
-    {
-     "symbol": "DT",
-     "name": "Dynatrace Inc Ordinary Shares",
-     "pct": 0.56
-    },
-    {
-     "symbol": "NDSN",
-     "name": "Nordson Corp",
-     "pct": 0.54
-    },
-    {
-     "symbol": "LECO",
-     "name": "Lincoln Electric Holdings Inc",
-     "pct": 0.51
-    },
-    {
-     "symbol": "MEDP",
-     "name": "Medpace Holdings Inc",
-     "pct": 0.5
-    }
-   ]
-  },
-  {
    "ticker": "AIS",
    "name": "VistaShares Artificial Intelligence Supercycle ETF",
    "aum": 1072177860,
@@ -2425,189 +1510,6 @@
    ]
   },
   {
-   "ticker": "FIW",
-   "name": "First Trust Water ETF",
-   "aum": 1830018690,
-   "close": 116.69,
-   "d1": 0.74,
-   "w1": -0.43,
-   "w1_prev": 1.88,
-   "holdings": [
-    {
-     "symbol": "A",
-     "name": "Agilent Technologies Inc",
-     "pct": 4.62
-    },
-    {
-     "symbol": "WAT",
-     "name": "Waters Corp",
-     "pct": 4.53
-    },
-    {
-     "symbol": "FERG",
-     "name": "Ferguson Enterprises Inc",
-     "pct": 4.19
-    },
-    {
-     "symbol": "ECL",
-     "name": "Ecolab Inc",
-     "pct": 4.16
-    },
-    {
-     "symbol": "ROP",
-     "name": "Roper Technologies Inc",
-     "pct": 4.14
-    },
-    {
-     "symbol": "VLTO",
-     "name": "Veralto Corp",
-     "pct": 4.13
-    },
-    {
-     "symbol": "IDXX",
-     "name": "IDEXX Laboratories Inc",
-     "pct": 4.05
-    },
-    {
-     "symbol": "AWK",
-     "name": "American Water Works Co Inc",
-     "pct": 4.02
-    },
-    {
-     "symbol": "J",
-     "name": "Jacobs Solutions Inc",
-     "pct": 4.01
-    },
-    {
-     "symbol": "MAS",
-     "name": "Masco Corp",
-     "pct": 3.8
-    }
-   ]
-  },
-  {
-   "ticker": "NULG",
-   "name": "Nuveen ESG Large-Cap Growth ETF",
-   "aum": 2886638850,
-   "close": 101.51,
-   "d1": 0.72,
-   "w1": -2.8,
-   "w1_prev": 2.21,
-   "holdings": [
-    {
-     "symbol": "NVDA",
-     "name": "NVIDIA Corp",
-     "pct": 16.1
-    },
-    {
-     "symbol": "AVGO",
-     "name": "Broadcom Inc",
-     "pct": 5.6
-    },
-    {
-     "symbol": "LLY",
-     "name": "Eli Lilly and Co",
-     "pct": 5.16
-    },
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 3.9
-    },
-    {
-     "symbol": "V",
-     "name": "Visa Inc Class A",
-     "pct": 3.74
-    },
-    {
-     "symbol": "PANW",
-     "name": "Palo Alto Networks Inc",
-     "pct": 2.33
-    },
-    {
-     "symbol": "AMAT",
-     "name": "Applied Materials Inc",
-     "pct": 2.04
-    },
-    {
-     "symbol": "LRCX",
-     "name": "Lam Research Corp",
-     "pct": 2.01
-    },
-    {
-     "symbol": "NFLX",
-     "name": "Netflix Inc",
-     "pct": 1.87
-    },
-    {
-     "symbol": "WELL",
-     "name": "Welltower Inc",
-     "pct": 1.87
-    }
-   ]
-  },
-  {
-   "ticker": "IYZ",
-   "name": "iShares U.S. Telecommunications ETF",
-   "aum": 762024960,
-   "close": 38.55,
-   "d1": 0.68,
-   "w1": -1.15,
-   "w1_prev": 5.23,
-   "holdings": [
-    {
-     "symbol": "CSCO",
-     "name": "Cisco Systems Inc",
-     "pct": 23.7
-    },
-    {
-     "symbol": "VZ",
-     "name": "Verizon Communications Inc",
-     "pct": 11.33
-    },
-    {
-     "symbol": "ANET",
-     "name": "Arista Networks Inc",
-     "pct": 10.69
-    },
-    {
-     "symbol": "T",
-     "name": "AT&T Inc",
-     "pct": 4.22
-    },
-    {
-     "symbol": "MSI",
-     "name": "Motorola Solutions Inc",
-     "pct": 4.08
-    },
-    {
-     "symbol": "CMCSA",
-     "name": "Comcast Corp Class A",
-     "pct": 3.73
-    },
-    {
-     "symbol": "SPCX",
-     "name": "Space Exploration Technologies Corp Class A",
-     "pct": 3.64
-    },
-    {
-     "symbol": "TMUS",
-     "name": "T-Mobile US Inc",
-     "pct": 3.48
-    },
-    {
-     "symbol": "CIEN",
-     "name": "Ciena Corp",
-     "pct": 3.28
-    },
-    {
-     "symbol": "LITE",
-     "name": "Lumentum Holdings Inc",
-     "pct": 3.24
-    }
-   ]
-  },
-  {
    "ticker": "SPSM",
    "name": "State Street SPDR Portfolio S&P 600 Small Cap ETF",
    "aum": 16017534000,
@@ -2615,128 +1517,6 @@
    "d1": 0.68,
    "w1": -1.97,
    "w1_prev": 2.24,
-   "holdings": [
-    {
-     "symbol": "GKOS",
-     "name": "Glaukos Corp",
-     "pct": 0.8
-    },
-    {
-     "symbol": "VSAT",
-     "name": "Viasat Inc",
-     "pct": 0.6
-    },
-    {
-     "symbol": "PAYC",
-     "name": "Paycom Software Inc",
-     "pct": 0.58
-    },
-    {
-     "symbol": "SM",
-     "name": "SM Energy Co",
-     "pct": 0.55
-    },
-    {
-     "symbol": "MTCH",
-     "name": "Match Group Inc Ordinary Shares - New",
-     "pct": 0.54
-    },
-    {
-     "symbol": "PTGX",
-     "name": "Protagonist Therapeutics Inc",
-     "pct": 0.53
-    },
-    {
-     "symbol": "RHP",
-     "name": "Ryman Hospitality Properties Inc",
-     "pct": 0.52
-    },
-    {
-     "symbol": "TGTX",
-     "name": "TG Therapeutics Inc",
-     "pct": 0.49
-    },
-    {
-     "symbol": "LTH",
-     "name": "Life Time Group Holdings Inc",
-     "pct": 0.49
-    },
-    {
-     "symbol": "JXN",
-     "name": "Jackson Financial Inc",
-     "pct": 0.48
-    }
-   ]
-  },
-  {
-   "ticker": "IJR",
-   "name": "iShares Core S&P Small-Cap ETF",
-   "aum": 105578758000,
-   "close": 137.9,
-   "d1": 0.66,
-   "w1": -1.93,
-   "w1_prev": 2.17,
-   "holdings": [
-    {
-     "symbol": "XTSLA",
-     "name": "BlackRock Cash Funds Treasury SL Agency",
-     "pct": 1.19
-    },
-    {
-     "symbol": "GKOS",
-     "name": "Glaukos Corp",
-     "pct": 0.8
-    },
-    {
-     "symbol": "VSAT",
-     "name": "Viasat Inc",
-     "pct": 0.6
-    },
-    {
-     "symbol": "PAYC",
-     "name": "Paycom Software Inc",
-     "pct": 0.58
-    },
-    {
-     "symbol": "SM",
-     "name": "SM Energy Co",
-     "pct": 0.55
-    },
-    {
-     "symbol": "MTCH",
-     "name": "Match Group Inc Ordinary Shares - New",
-     "pct": 0.54
-    },
-    {
-     "symbol": "PTGX",
-     "name": "Protagonist Therapeutics Inc",
-     "pct": 0.53
-    },
-    {
-     "symbol": "RHP",
-     "name": "Ryman Hospitality Properties Inc",
-     "pct": 0.52
-    },
-    {
-     "symbol": "TGTX",
-     "name": "TG Therapeutics Inc",
-     "pct": 0.49
-    },
-    {
-     "symbol": "LTH",
-     "name": "Life Time Group Holdings Inc",
-     "pct": 0.49
-    }
-   ]
-  },
-  {
-   "ticker": "VIOO",
-   "name": "Vanguard S&P Small-Cap 600 ETF",
-   "aum": 6261280800,
-   "close": 128.33,
-   "d1": 0.65,
-   "w1": -1.95,
-   "w1_prev": 2.19,
    "holdings": [
     {
      "symbol": "GKOS",
@@ -2913,189 +1693,6 @@
    ]
   },
   {
-   "ticker": "IGM",
-   "name": "iShares Expanded Tech Sector ETF",
-   "aum": 10430594000,
-   "close": 142.86,
-   "d1": 0.64,
-   "w1": -3.69,
-   "w1_prev": 4.53,
-   "holdings": [
-    {
-     "symbol": "AAPL",
-     "name": "Apple Inc",
-     "pct": 9.87
-    },
-    {
-     "symbol": "MSFT",
-     "name": "Microsoft Corp",
-     "pct": 9.58
-    },
-    {
-     "symbol": "NVDA",
-     "name": "NVIDIA Corp",
-     "pct": 8.26
-    },
-    {
-     "symbol": "AVGO",
-     "name": "Broadcom Inc",
-     "pct": 7.15
-    },
-    {
-     "symbol": "META",
-     "name": "Meta Platforms Inc Class A",
-     "pct": 4.5
-    },
-    {
-     "symbol": "GOOGL",
-     "name": "Alphabet Inc Class A",
-     "pct": 4.23
-    },
-    {
-     "symbol": "MU",
-     "name": "Micron Technology Inc",
-     "pct": 4.11
-    },
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 3.98
-    },
-    {
-     "symbol": "GOOG",
-     "name": "Alphabet Inc Class C",
-     "pct": 3.41
-    },
-    {
-     "symbol": "PLTR",
-     "name": "Palantir Technologies Inc Ordinary Shares - Class A",
-     "pct": 2.05
-    }
-   ]
-  },
-  {
-   "ticker": "IYT",
-   "name": "iShares U.S. Transportation ETF",
-   "aum": 2004703100,
-   "close": 82.87,
-   "d1": 0.64,
-   "w1": -1.0,
-   "w1_prev": 3.4,
-   "holdings": [
-    {
-     "symbol": "UNP",
-     "name": "Union Pacific Corp",
-     "pct": 18.74
-    },
-    {
-     "symbol": "UBER",
-     "name": "Uber Technologies Inc",
-     "pct": 13.83
-    },
-    {
-     "symbol": "CSX",
-     "name": "CSX Corp",
-     "pct": 9.99
-    },
-    {
-     "symbol": "UPS",
-     "name": "United Parcel Service Inc Class B",
-     "pct": 4.9
-    },
-    {
-     "symbol": "NSC",
-     "name": "Norfolk Southern Corp",
-     "pct": 4.76
-    },
-    {
-     "symbol": "DAL",
-     "name": "Delta Air Lines Inc",
-     "pct": 4.57
-    },
-    {
-     "symbol": "FDX",
-     "name": "FedEx Corp",
-     "pct": 4.55
-    },
-    {
-     "symbol": "UAL",
-     "name": "United Airlines Holdings Inc",
-     "pct": 4.37
-    },
-    {
-     "symbol": "ODFL",
-     "name": "Old Dominion Freight Line Inc Ordinary Shares",
-     "pct": 4.26
-    },
-    {
-     "symbol": "EXPD",
-     "name": "Expeditors International of Washington Inc",
-     "pct": 3.52
-    }
-   ]
-  },
-  {
-   "ticker": "RWJ",
-   "name": "Invesco S&P SmallCap 600 Revenue ETF",
-   "aum": 2050507260,
-   "close": 57.85,
-   "d1": 0.64,
-   "w1": -1.68,
-   "w1_prev": 1.62,
-   "holdings": [
-    {
-     "symbol": "WKC",
-     "name": "World Kinect Corp",
-     "pct": 2.76
-    },
-    {
-     "symbol": "UNFI",
-     "name": "United Natural Foods Inc",
-     "pct": 2.02
-    },
-    {
-     "symbol": "KMX",
-     "name": "CarMax Inc",
-     "pct": 1.64
-    },
-    {
-     "symbol": "KSS",
-     "name": "Kohl's Corp",
-     "pct": 1.35
-    },
-    {
-     "symbol": "GPI",
-     "name": "Group 1 Automotive Inc",
-     "pct": 1.27
-    },
-    {
-     "symbol": "LNC",
-     "name": "Lincoln National Corp",
-     "pct": 1.23
-    },
-    {
-     "symbol": "DXC",
-     "name": "DXC Technology Co Registered Shs When Issued",
-     "pct": 1.08
-    },
-    {
-     "symbol": "ABG",
-     "name": "Asbury Automotive Group Inc",
-     "pct": 1.06
-    },
-    {
-     "symbol": "AMTM",
-     "name": "Amentum Holdings Inc",
-     "pct": 1.01
-    },
-    {
-     "symbol": "MAN",
-     "name": "ManpowerGroup Inc",
-     "pct": 0.96
-    }
-   ]
-  },
-  {
    "ticker": "FTQI",
    "name": "First Trust Nasdaq BuyWrite Income ETF",
    "aum": 1005702590,
@@ -3218,190 +1815,1532 @@
    ]
   },
   {
-   "ticker": "VOT",
-   "name": "Vanguard Morningstar Mid-Cap Growth ETF",
-   "aum": 32380575700,
-   "close": 279.69,
-   "d1": 0.63,
-   "w1": -3.02,
-   "w1_prev": 3.91,
+   "ticker": "SMLF",
+   "name": "iShares U.S. Small-Cap Equity Factor ETF",
+   "aum": 4211580670,
+   "close": 83.16,
+   "d1": 0.59,
+   "w1": -2.55,
+   "w1_prev": 2.26,
    "holdings": [
     {
-     "symbol": "PWR",
-     "name": "Quanta Services Inc",
-     "pct": 2.25
+     "symbol": "EME",
+     "name": "EMCOR Group Inc",
+     "pct": 0.82
     },
     {
-     "symbol": "NET",
-     "name": "Cloudflare Inc",
-     "pct": 2.18
+     "symbol": "WSM",
+     "name": "Williams-Sonoma Inc",
+     "pct": 0.68
     },
     {
-     "symbol": "VRT",
-     "name": "Vertiv Holdings Co Class A",
-     "pct": 2.15
+     "symbol": "NVT",
+     "name": "nVent Electric PLC",
+     "pct": 0.67
     },
     {
-     "symbol": "CEG",
-     "name": "Constellation Energy Corp",
-     "pct": 2.13
+     "symbol": "JBL",
+     "name": "Jabil Inc",
+     "pct": 0.66
     },
     {
-     "symbol": "MSI",
-     "name": "Motorola Solutions Inc",
-     "pct": 1.96
+     "symbol": "P",
+     "name": "Everpure Inc Class A",
+     "pct": 0.66
     },
     {
-     "symbol": "HLT",
-     "name": "Hilton Worldwide Holdings Inc",
-     "pct": 1.93
+     "symbol": "RS",
+     "name": "Reliance Inc",
+     "pct": 0.62
     },
     {
-     "symbol": "HWM",
-     "name": "Howmet Aerospace Inc",
-     "pct": 1.91
+     "symbol": "FLEX",
+     "name": "Flex Ltd",
+     "pct": 0.61
     },
     {
-     "symbol": "DDOG",
-     "name": "Datadog Inc Class A",
-     "pct": 1.9
+     "symbol": "XTSLA",
+     "name": "BlackRock Cash Funds Treasury SL Agency",
+     "pct": 0.58
     },
     {
-     "symbol": "RCL",
-     "name": "Royal Caribbean Group",
-     "pct": 1.88
+     "symbol": "GH",
+     "name": "Guardant Health Inc",
+     "pct": 0.55
     },
     {
-     "symbol": "LITE",
-     "name": "Lumentum Holdings Inc",
-     "pct": 1.81
+     "symbol": "THC",
+     "name": "Tenet Healthcare Corp",
+     "pct": 0.53
     }
    ]
   },
   {
-   "ticker": "WINN",
-   "name": "Harbor Long-Term Growers ETF",
-   "aum": 1187230590,
-   "close": 31.74,
-   "d1": 0.63,
-   "w1": -2.79,
-   "w1_prev": 3.06,
+   "ticker": "PTNQ",
+   "name": "Pacer Trendpilot 100 ETF",
+   "aum": 1173948030,
+   "close": 79.51,
+   "d1": 0.55,
+   "w1": -2.95,
+   "w1_prev": 3.49,
+   "holdings": [
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 8.18
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 8.02
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 6.3
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.48
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 4.22
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 3.7
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 3.41
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 2.97
+    },
+    {
+     "symbol": "WMT",
+     "name": "Walmart Inc",
+     "pct": 2.7
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 2.67
+    }
+   ]
+  },
+  {
+   "ticker": "AVSC",
+   "name": "Avantis U.S Small Cap Equity ETF",
+   "aum": 3195003390,
+   "close": 69.46,
+   "d1": 0.55,
+   "w1": -2.29,
+   "w1_prev": 1.38,
+   "holdings": [
+    {
+     "symbol": "TENB",
+     "name": "Tenable Holdings Inc",
+     "pct": 0.38
+    },
+    {
+     "symbol": "ANF",
+     "name": "Abercrombie & Fitch Co Class A",
+     "pct": 0.34
+    },
+    {
+     "symbol": "GRAL",
+     "name": "GRAIL Inc",
+     "pct": 0.34
+    },
+    {
+     "symbol": "HAE",
+     "name": "Haemonetics Corp",
+     "pct": 0.34
+    },
+    {
+     "symbol": "CON",
+     "name": "Concentra Group Holdings Parent Inc",
+     "pct": 0.34
+    },
+    {
+     "symbol": "SAIC",
+     "name": "Science Applications International Corp",
+     "pct": 0.33
+    },
+    {
+     "symbol": "INSW",
+     "name": "International Seaways Inc",
+     "pct": 0.33
+    },
+    {
+     "symbol": "DK",
+     "name": "Delek US Holdings Inc Registered Shs Stock Settlement",
+     "pct": 0.32
+    },
+    {
+     "symbol": "FTDR",
+     "name": "Frontdoor Inc",
+     "pct": 0.32
+    },
+    {
+     "symbol": "CAKE",
+     "name": "The Cheesecake Factory Inc",
+     "pct": 0.32
+    }
+   ]
+  },
+  {
+   "ticker": "QDVO",
+   "name": "Amplify CWP Growth & Income ETF",
+   "aum": 750988930,
+   "close": 27.56,
+   "d1": 0.55,
+   "w1": -2.51,
+   "w1_prev": 3.25,
    "holdings": [
     {
      "symbol": "NVDA",
      "name": "NVIDIA Corp",
-     "pct": 10.82
+     "pct": 10.05
     },
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 9.88
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 7.07
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 6.69
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 5.5
+    },
+    {
+     "symbol": "LLY",
+     "name": "Eli Lilly and Co",
+     "pct": 4.32
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 3.83
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 3.54
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 3.53
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 3.51
+    }
+   ]
+  },
+  {
+   "ticker": "QGRW",
+   "name": "WisdomTree U.S. Quality Growth Fund",
+   "aum": 3132249340,
+   "close": 62.02,
+   "d1": 0.53,
+   "w1": -3.12,
+   "w1_prev": 2.42,
+   "holdings": [
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 12.0
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 10.35
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 7.05
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 6.46
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 6.18
+    },
+    {
+     "symbol": "LLY",
+     "name": "Eli Lilly and Co",
+     "pct": 4.06
+    },
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 3.47
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 2.81
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 2.47
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 2.34
+    }
+   ]
+  },
+  {
+   "ticker": "ROCQ",
+   "name": "JPMorgan Nasdaq Equity Premium Yield ETF",
+   "aum": 772814850,
+   "close": 49.85,
+   "d1": 0.52,
+   "w1": -2.45,
+   "w1_prev": 3.19,
+   "holdings": [
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 8.74
+    },
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 8.48
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 7.17
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 5.24
+    },
+    {
+     "symbol": "GOOG",
+     "name": "Alphabet Inc Class C",
+     "pct": 5.05
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 4.69
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 4.22
+    },
+    {
+     "symbol": "WMT",
+     "name": "Walmart Inc",
+     "pct": 3.96
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 3.29
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 2.96
+    }
+   ]
+  },
+  {
+   "ticker": "FNDA",
+   "name": "Schwab Fundamental U.S. Small Company ETF",
+   "aum": 8912816100,
+   "close": 35.43,
+   "d1": 0.51,
+   "w1": -2.15,
+   "w1_prev": 2.06,
+   "holdings": [
+    {
+     "symbol": "ANF",
+     "name": "Abercrombie & Fitch Co Class A",
+     "pct": 0.48
+    },
+    {
+     "symbol": "VSXY",
+     "name": "Victoria's Secret & Co",
+     "pct": 0.42
+    },
+    {
+     "symbol": "FDS",
+     "name": "FactSet Research Systems Inc",
+     "pct": 0.39
+    },
+    {
+     "symbol": "RPRX",
+     "name": "Royalty Pharma PLC Class A",
+     "pct": 0.36
+    },
+    {
+     "symbol": "VEEV",
+     "name": "Veeva Systems Inc Class A",
+     "pct": 0.36
+    },
+    {
+     "symbol": "CRGY",
+     "name": "Crescent Energy Co Class A",
+     "pct": 0.36
+    },
+    {
+     "symbol": "EXEL",
+     "name": "Exelixis Inc",
+     "pct": 0.35
+    },
+    {
+     "symbol": "ETSY",
+     "name": "Etsy Inc",
+     "pct": 0.34
+    },
+    {
+     "symbol": "ENTG",
+     "name": "Entegris Inc",
+     "pct": 0.32
+    },
+    {
+     "symbol": "COMP",
+     "name": "Compass Inc Class A",
+     "pct": 0.32
+    }
+   ]
+  },
+  {
+   "ticker": "JMEE",
+   "name": "JPMorgan Small & Mid Cap Enhanced Equity ETF",
+   "aum": 2942530050,
+   "close": 73.0,
+   "d1": 0.48,
+   "w1": -2.24,
+   "w1_prev": 2.18,
+   "holdings": [
+    {
+     "symbol": "JIMXX",
+     "name": "JPMorgan Prime Money Market IM",
+     "pct": 4.47
+    },
+    {
+     "symbol": "OKTA",
+     "name": "Okta Inc Class A",
+     "pct": 0.86
+    },
+    {
+     "symbol": "UTHR",
+     "name": "United Therapeutics Corp",
+     "pct": 0.77
+    },
+    {
+     "symbol": "FTI",
+     "name": "TechnipFMC PLC",
+     "pct": 0.62
+    },
+    {
+     "symbol": "HALO",
+     "name": "Halozyme Therapeutics Inc",
+     "pct": 0.57
+    },
+    {
+     "symbol": "NVT",
+     "name": "nVent Electric PLC",
+     "pct": 0.55
+    },
+    {
+     "symbol": "RS",
+     "name": "Reliance Inc",
+     "pct": 0.53
+    },
+    {
+     "symbol": "CW",
+     "name": "Curtiss-Wright Corp",
+     "pct": 0.47
+    },
+    {
+     "symbol": "DINO",
+     "name": "HF Sinclair Corp",
+     "pct": 0.46
+    },
+    {
+     "symbol": "ATI",
+     "name": "ATI Inc",
+     "pct": 0.45
+    }
+   ]
+  },
+  {
+   "ticker": "PWRD",
+   "name": "TCW Transform Systems ETF",
+   "aum": 1417387140,
+   "close": 94.26,
+   "d1": 0.43,
+   "w1": -3.2,
+   "w1_prev": 6.48,
+   "holdings": [
+    {
+     "symbol": "GE",
+     "name": "GE Aerospace",
+     "pct": 8.42
+    },
+    {
+     "symbol": "UNP",
+     "name": "Union Pacific Corp",
+     "pct": 7.28
+    },
+    {
+     "symbol": "VG",
+     "name": "Venture Global Inc Ordinary Shares - Class A",
+     "pct": 6.41
+    },
+    {
+     "symbol": "XOM",
+     "name": "ExxonMobil Holdings Corp",
+     "pct": 5.74
+    },
+    {
+     "symbol": "ANET",
+     "name": "Arista Networks Inc",
+     "pct": 5.13
+    },
+    {
+     "symbol": "SAF.PA",
+     "name": "Safran SA",
+     "pct": 4.84
+    },
+    {
+     "symbol": "AIR.PA",
+     "name": "Airbus SE",
+     "pct": 4.19
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 3.9
+    },
+    {
+     "symbol": "TT",
+     "name": "Trane Technologies PLC Class A",
+     "pct": 3.47
+    },
+    {
+     "symbol": "ETN",
+     "name": "Eaton Corp PLC",
+     "pct": 3.45
+    }
+   ]
+  },
+  {
+   "ticker": "QQQM",
+   "name": "Invesco NASDAQ 100 ETF",
+   "aum": 106027844000,
+   "close": 271.58,
+   "d1": 0.43,
+   "w1": -3.0,
+   "w1_prev": 3.61,
+   "holdings": [
     {
      "symbol": "AAPL",
      "name": "Apple Inc",
      "pct": 8.16
     },
     {
-     "symbol": "GOOGL",
-     "name": "Alphabet Inc Class A",
-     "pct": 6.87
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 8.0
     },
     {
      "symbol": "MSFT",
      "name": "Microsoft Corp",
-     "pct": 6.59
+     "pct": 6.29
     },
     {
-     "symbol": "AVGO",
-     "name": "Broadcom Inc",
-     "pct": 5.22
-    },
-    {
-     "symbol": "LLY",
-     "name": "Eli Lilly and Co",
-     "pct": 4.71
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.48
     },
     {
      "symbol": "AMZN",
      "name": "Amazon.com Inc",
-     "pct": 4.4
-    },
-    {
-     "symbol": "META",
-     "name": "Meta Platforms Inc Class A",
-     "pct": 3.45
-    },
-    {
-     "symbol": "MA",
-     "name": "Mastercard Inc Class A",
-     "pct": 3.23
+     "pct": 4.21
     },
     {
      "symbol": "AMD",
      "name": "Advanced Micro Devices Inc",
+     "pct": 3.69
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 3.41
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 2.97
+    },
+    {
+     "symbol": "WMT",
+     "name": "Walmart Inc",
+     "pct": 2.69
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 2.66
+    }
+   ]
+  },
+  {
+   "ticker": "QTUM",
+   "name": "Defiance Quantum ETF",
+   "aum": 5055830500,
+   "close": 122.95,
+   "d1": 0.43,
+   "w1": -5.5,
+   "w1_prev": 5.46,
+   "holdings": [
+    {
+     "symbol": "3443.TW",
+     "name": "Global Unichip Corp",
+     "pct": 2.42
+    },
+    {
+     "symbol": "ESTC",
+     "name": "Elastic NV",
+     "pct": 2.09
+    },
+    {
+     "symbol": "PLTR",
+     "name": "Palantir Technologies Inc Ordinary Shares - Class A",
+     "pct": 1.85
+    },
+    {
+     "symbol": "HQ",
+     "name": "Horizon Quantum Holdings Ltd Class A",
+     "pct": 1.83
+    },
+    {
+     "symbol": "NTNX",
+     "name": "Nutanix Inc Class A",
+     "pct": 1.77
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 1.72
+    },
+    {
+     "symbol": "NET",
+     "name": "Cloudflare Inc",
+     "pct": 1.67
+    },
+    {
+     "symbol": "SNOW",
+     "name": "Snowflake Inc Ordinary Shares",
+     "pct": 1.67
+    },
+    {
+     "symbol": "REY.MI",
+     "name": "Reply SpA",
+     "pct": 1.67
+    },
+    {
+     "symbol": "RDNT",
+     "name": "RadNet Inc",
+     "pct": 1.65
+    }
+   ]
+  },
+  {
+   "ticker": "VOLT",
+   "name": "Tema Electrification ETF",
+   "aum": 995121220,
+   "close": 32.63,
+   "d1": 0.43,
+   "w1": -1.95,
+   "w1_prev": 4.33,
+   "holdings": [
+    {
+     "symbol": "BELFB",
+     "name": "Bel Fuse Inc Class B",
+     "pct": 6.92
+    },
+    {
+     "symbol": "APH",
+     "name": "Amphenol Corp Class A",
+     "pct": 6.7
+    },
+    {
+     "symbol": "ETN",
+     "name": "Eaton Corp PLC",
+     "pct": 5.82
+    },
+    {
+     "symbol": "ET",
+     "name": "Energy Transfer LP",
+     "pct": 5.81
+    },
+    {
+     "symbol": "NEE",
+     "name": "NextEra Energy Inc",
+     "pct": 5.8
+    },
+    {
+     "symbol": "PWR",
+     "name": "Quanta Services Inc",
+     "pct": 5.68
+    },
+    {
+     "symbol": "AEP",
+     "name": "American Electric Power Co Inc",
+     "pct": 5.67
+    },
+    {
+     "symbol": "OGE",
+     "name": "OGE Energy Corp",
+     "pct": 5.19
+    },
+    {
+     "symbol": "IDA",
+     "name": "Idacorp Inc",
+     "pct": 5.18
+    },
+    {
+     "symbol": "POWL",
+     "name": "Powell Industries Inc",
+     "pct": 4.93
+    }
+   ]
+  },
+  {
+   "ticker": "FBCG",
+   "name": "Fidelity Blue Chip Growth ETF",
+   "aum": 7309638100,
+   "close": 55.31,
+   "d1": 0.43,
+   "w1": -3.15,
+   "w1_prev": 2.0,
+   "holdings": [
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 15.48
+    },
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 9.48
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 8.59
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 5.51
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 4.0
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 3.73
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 3.6
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 2.61
+    },
+    {
+     "symbol": "LLY",
+     "name": "Eli Lilly and Co",
+     "pct": 2.58
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 2.04
+    }
+   ]
+  },
+  {
+   "ticker": "JEPQ",
+   "name": "JPMorgan Nasdaq Equity Premium Income ETF",
+   "aum": 42491859000,
+   "close": 54.68,
+   "d1": 0.42,
+   "w1": -2.69,
+   "w1_prev": 3.4,
+   "holdings": [
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 6.99
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 6.99
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 5.6
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.32
+    },
+    {
+     "symbol": "GOOG",
+     "name": "Alphabet Inc Class C",
+     "pct": 4.08
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 3.81
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 3.45
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 2.67
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 2.4
+    },
+    {
+     "symbol": "WMT",
+     "name": "Walmart Inc",
+     "pct": 2.0
+    }
+   ]
+  },
+  {
+   "ticker": "FCOM",
+   "name": "Fidelity MSCI Communication Services Index ETF",
+   "aum": 1506363260,
+   "close": 67.31,
+   "d1": 0.42,
+   "w1": -2.76,
+   "w1_prev": 3.61,
+   "holdings": [
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 24.52
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 13.12
+    },
+    {
+     "symbol": "GOOG",
+     "name": "Alphabet Inc Class C",
+     "pct": 7.27
+    },
+    {
+     "symbol": "DIS",
+     "name": "The Walt Disney Co",
+     "pct": 4.84
+    },
+    {
+     "symbol": "VZ",
+     "name": "Verizon Communications Inc",
+     "pct": 4.55
+    },
+    {
+     "symbol": "T",
+     "name": "AT&T Inc",
+     "pct": 4.18
+    },
+    {
+     "symbol": "NFLX",
+     "name": "Netflix Inc",
+     "pct": 3.88
+    },
+    {
+     "symbol": "CMCSA",
+     "name": "Comcast Corp Class A",
+     "pct": 3.06
+    },
+    {
+     "symbol": "SPCX",
+     "name": "Space Exploration Technologies Corp Class A",
      "pct": 3.05
+    },
+    {
+     "symbol": "TMUS",
+     "name": "T-Mobile US Inc",
+     "pct": 2.77
+    }
+   ]
+  },
+  {
+   "ticker": "RSSL",
+   "name": "Global X Russell 2000 ETF",
+   "aum": 1445971710,
+   "close": 105.62,
+   "d1": 0.42,
+   "w1": -2.84,
+   "w1_prev": 1.47,
+   "holdings": [
+    {
+     "symbol": "GKOS",
+     "name": "Glaukos Corp",
+     "pct": 0.46
+    },
+    {
+     "symbol": "BTSG",
+     "name": "BrightSpring Health Services Inc",
+     "pct": 0.38
+    },
+    {
+     "symbol": "FROG",
+     "name": "JFrog Ltd Ordinary Shares",
+     "pct": 0.34
+    },
+    {
+     "symbol": "TWST",
+     "name": "Twist Bioscience Corp",
+     "pct": 0.34
+    },
+    {
+     "symbol": "MOG-A",
+     "name": "Moog Inc Class A",
+     "pct": 0.34
+    },
+    {
+     "symbol": "UMBF",
+     "name": "UMB Financial Corp",
+     "pct": 0.33
+    },
+    {
+     "symbol": "VSAT",
+     "name": "Viasat Inc",
+     "pct": 0.33
+    },
+    {
+     "symbol": "SM",
+     "name": "SM Energy Co",
+     "pct": 0.33
+    },
+    {
+     "symbol": "EAT",
+     "name": "Brinker International Inc",
+     "pct": 0.31
+    },
+    {
+     "symbol": "RHP",
+     "name": "Ryman Hospitality Properties Inc",
+     "pct": 0.3
+    }
+   ]
+  },
+  {
+   "ticker": "QYLD",
+   "name": "Global X NASDAQ 100 Covered Call ETF",
+   "aum": 8199295500,
+   "close": 17.2,
+   "d1": 0.41,
+   "w1": -2.93,
+   "w1_prev": 3.57,
+   "holdings": [
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 8.24
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 8.08
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 6.35
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.52
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 4.25
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 3.73
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 3.44
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 3.0
+    },
+    {
+     "symbol": "WMT",
+     "name": "Walmart Inc",
+     "pct": 2.72
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 2.69
+    }
+   ]
+  },
+  {
+   "ticker": "BBRE",
+   "name": "JPMorgan BetaBuilders MSCI U.S. REIT ETF",
+   "aum": 1290798980,
+   "close": 105.01,
+   "d1": 0.39,
+   "w1": -0.73,
+   "w1_prev": 0.54,
+   "holdings": [
+    {
+     "symbol": "WELL",
+     "name": "Welltower Inc",
+     "pct": 12.29
+    },
+    {
+     "symbol": "PLD",
+     "name": "Prologis Inc",
+     "pct": 8.87
+    },
+    {
+     "symbol": "SPG",
+     "name": "Simon Property Group Inc",
+     "pct": 4.58
+    },
+    {
+     "symbol": "PSA",
+     "name": "Public Storage",
+     "pct": 4.42
+    },
+    {
+     "symbol": "DLR",
+     "name": "Digital Realty Trust Inc",
+     "pct": 4.23
+    },
+    {
+     "symbol": "EQIX",
+     "name": "Equinix Inc",
+     "pct": 4.18
+    },
+    {
+     "symbol": "O",
+     "name": "Realty Income Corp",
+     "pct": 3.8
+    },
+    {
+     "symbol": "VMRK",
+     "name": "Vivmark Residential",
+     "pct": 3.62
+    },
+    {
+     "symbol": "VTR",
+     "name": "Ventas Inc",
+     "pct": 3.0
+    },
+    {
+     "symbol": "IRM",
+     "name": "Iron Mountain Inc",
+     "pct": 2.83
+    }
+   ]
+  },
+  {
+   "ticker": "IFRA",
+   "name": "iShares U.S. Infrastructure ETF",
+   "aum": 4068390660,
+   "close": 57.0,
+   "d1": 0.37,
+   "w1": -1.52,
+   "w1_prev": 3.52,
+   "holdings": [
+    {
+     "symbol": "UNP",
+     "name": "Union Pacific Corp",
+     "pct": 4.25
+    },
+    {
+     "symbol": "NEE",
+     "name": "NextEra Energy Inc",
+     "pct": 4.06
+    },
+    {
+     "symbol": "CSX",
+     "name": "CSX Corp",
+     "pct": 3.75
+    },
+    {
+     "symbol": "PWR",
+     "name": "Quanta Services Inc",
+     "pct": 3.59
+    },
+    {
+     "symbol": "CAT",
+     "name": "Caterpillar Inc",
+     "pct": 3.1
+    },
+    {
+     "symbol": "SO",
+     "name": "Southern Co",
+     "pct": 3.09
+    },
+    {
+     "symbol": "NSC",
+     "name": "Norfolk Southern Corp",
+     "pct": 3.0
+    },
+    {
+     "symbol": "DUK",
+     "name": "Duke Energy Corp",
+     "pct": 2.85
+    },
+    {
+     "symbol": "URI",
+     "name": "United Rentals Inc",
+     "pct": 2.82
+    },
+    {
+     "symbol": "WMB",
+     "name": "Williams Companies Inc",
+     "pct": 2.6
+    }
+   ]
+  },
+  {
+   "ticker": "REGL",
+   "name": "ProShares S&P MidCap 400 Dividend Aristocrats ETF",
+   "aum": 1736870910,
+   "close": 92.28,
+   "d1": 0.36,
+   "w1": -1.56,
+   "w1_prev": 1.66,
+   "holdings": [
+    {
+     "symbol": "CHDN",
+     "name": "Churchill Downs Inc",
+     "pct": 1.8
+    },
+    {
+     "symbol": "CSL",
+     "name": "Carlisle Companies Inc",
+     "pct": 1.79
+    },
+    {
+     "symbol": "AVNT",
+     "name": "Avient Corp",
+     "pct": 1.79
+    },
+    {
+     "symbol": "TTC",
+     "name": "The Toro Co",
+     "pct": 1.77
+    },
+    {
+     "symbol": "THG",
+     "name": "The Hanover Insurance Group Inc",
+     "pct": 1.77
+    },
+    {
+     "symbol": "RGLD",
+     "name": "Royal Gold Inc",
+     "pct": 1.77
+    },
+    {
+     "symbol": "RS",
+     "name": "Reliance Inc",
+     "pct": 1.76
+    },
+    {
+     "symbol": "RGA",
+     "name": "Reinsurance Group of America Inc",
+     "pct": 1.75
+    },
+    {
+     "symbol": "LECO",
+     "name": "Lincoln Electric Holdings Inc",
+     "pct": 1.73
+    },
+    {
+     "symbol": "RLI",
+     "name": "RLI Corp",
+     "pct": 1.72
+    }
+   ]
+  },
+  {
+   "ticker": "DFAR",
+   "name": "DFA Real Estate Securities Portfolio ETF Class Shares",
+   "aum": 8442013200,
+   "close": 25.76,
+   "d1": 0.35,
+   "w1": -1.3,
+   "w1_prev": 0.85,
+   "holdings": [
+    {
+     "symbol": "WELL",
+     "name": "Welltower Inc",
+     "pct": 7.48
+    },
+    {
+     "symbol": "PLD",
+     "name": "Prologis Inc",
+     "pct": 6.76
+    },
+    {
+     "symbol": "EQIX",
+     "name": "Equinix Inc",
+     "pct": 5.44
+    },
+    {
+     "symbol": "AMT",
+     "name": "American Tower Corp",
+     "pct": 4.68
+    },
+    {
+     "symbol": "DLR",
+     "name": "Digital Realty Trust Inc",
+     "pct": 4.6
+    },
+    {
+     "symbol": "SPG",
+     "name": "Simon Property Group Inc",
+     "pct": 4.58
+    },
+    {
+     "symbol": "O",
+     "name": "Realty Income Corp",
+     "pct": 4.12
+    },
+    {
+     "symbol": "PSA",
+     "name": "Public Storage",
+     "pct": 3.9
+    },
+    {
+     "symbol": "VMRK",
+     "name": "Vivmark Residential",
+     "pct": 3.6
+    },
+    {
+     "symbol": "VTR",
+     "name": "Ventas Inc",
+     "pct": 3.53
+    }
+   ]
+  },
+  {
+   "ticker": "EQTY",
+   "name": "Kovitz Core Equity ETF",
+   "aum": 1388990590,
+   "close": 29.47,
+   "d1": 0.34,
+   "w1": -2.55,
+   "w1_prev": 2.89,
+   "holdings": [
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 5.07
+    },
+    {
+     "symbol": "V",
+     "name": "Visa Inc Class A",
+     "pct": 5.06
+    },
+    {
+     "symbol": "ICE",
+     "name": "Intercontinental Exchange Inc",
+     "pct": 4.58
+    },
+    {
+     "symbol": "WAT",
+     "name": "Waters Corp",
+     "pct": 4.48
+    },
+    {
+     "symbol": "AON",
+     "name": "Aon PLC Class A",
+     "pct": 4.48
+    },
+    {
+     "symbol": "PM",
+     "name": "Philip Morris International Inc",
+     "pct": 4.36
+    },
+    {
+     "symbol": "ADI",
+     "name": "Analog Devices Inc",
+     "pct": 4.1
+    },
+    {
+     "symbol": "SCHW",
+     "name": "Charles Schwab Corp",
+     "pct": 4.03
+    },
+    {
+     "symbol": "CARR",
+     "name": "Carrier Global Corp Ordinary Shares",
+     "pct": 3.84
+    },
+    {
+     "symbol": "ALC.SW",
+     "name": "Alcon Inc",
+     "pct": 3.82
+    }
+   ]
+  },
+  {
+   "ticker": "GPIQ",
+   "name": "Goldman Sachs Nasdaq-100 Premium Income ETF",
+   "aum": 6362253800,
+   "close": 51.61,
+   "d1": 0.33,
+   "w1": -2.66,
+   "w1_prev": 3.43,
+   "holdings": [
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 8.15
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 7.74
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 6.35
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.32
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 4.12
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 3.45
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 3.31
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 3.22
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 3.12
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 2.68
+    }
+   ]
+  },
+  {
+   "ticker": "NUSC",
+   "name": "Nuveen ESG Small-Cap ETF",
+   "aum": 1283702910,
+   "close": 49.39,
+   "d1": 0.33,
+   "w1": -2.41,
+   "w1_prev": 1.87,
+   "holdings": [
+    {
+     "symbol": "VTRS",
+     "name": "Viatris Inc",
+     "pct": 1.21
+    },
+    {
+     "symbol": "HST",
+     "name": "Host Hotels & Resorts Inc",
+     "pct": 1.14
+    },
+    {
+     "symbol": "EWBC",
+     "name": "East West Bancorp Inc",
+     "pct": 1.08
+    },
+    {
+     "symbol": "RNR",
+     "name": "RenaissanceRe Holdings Ltd",
+     "pct": 1.05
+    },
+    {
+     "symbol": "PFGC",
+     "name": "Performance Food Group Co",
+     "pct": 0.93
+    },
+    {
+     "symbol": "FDS",
+     "name": "FactSet Research Systems Inc",
+     "pct": 0.91
+    },
+    {
+     "symbol": "CSGP",
+     "name": "CoStar Group Inc",
+     "pct": 0.9
+    },
+    {
+     "symbol": "MEDP",
+     "name": "Medpace Holdings Inc",
+     "pct": 0.88
+    },
+    {
+     "symbol": "SNX",
+     "name": "TD Synnex Corp",
+     "pct": 0.88
+    },
+    {
+     "symbol": "NXT",
+     "name": "Nextpower Inc",
+     "pct": 0.87
+    }
+   ]
+  },
+  {
+   "ticker": "PABU",
+   "name": "iShares Paris-Aligned Climate Optimized MSCI USA ETF",
+   "aum": 2404979710,
+   "close": 73.93,
+   "d1": 0.32,
+   "w1": -3.19,
+   "w1_prev": 2.42,
+   "holdings": [
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 9.05
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 8.07
+    },
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 7.88
+    },
+    {
+     "symbol": "LLY",
+     "name": "Eli Lilly and Co",
+     "pct": 4.04
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 3.64
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 3.62
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 3.27
+    },
+    {
+     "symbol": "GOOG",
+     "name": "Alphabet Inc Class C",
+     "pct": 3.22
+    },
+    {
+     "symbol": "SNOW",
+     "name": "Snowflake Inc Ordinary Shares",
+     "pct": 3.09
+    },
+    {
+     "symbol": "IBM",
+     "name": "International Business Machines Corp",
+     "pct": 2.62
     }
    ]
   }
  ],
  "top_w1": [
-  {
-   "ticker": "PSI",
-   "name": "Invesco Semiconductors ETF",
-   "aum": 2268476930,
-   "close": 108.62,
-   "d1": 0.61,
-   "w1": 10.8,
-   "w1_prev": 10.8,
-   "holdings": [
-    {
-     "symbol": "TXN",
-     "name": "Texas Instruments Inc",
-     "pct": 6.62
-    },
-    {
-     "symbol": "ADI",
-     "name": "Analog Devices Inc",
-     "pct": 6.39
-    },
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 6.03
-    },
-    {
-     "symbol": "MU",
-     "name": "Micron Technology Inc",
-     "pct": 5.43
-    },
-    {
-     "symbol": "KLAC",
-     "name": "KLA Corp",
-     "pct": 4.93
-    },
-    {
-     "symbol": "AMAT",
-     "name": "Applied Materials Inc",
-     "pct": 4.65
-    },
-    {
-     "symbol": "LRCX",
-     "name": "Lam Research Corp",
-     "pct": 4.35
-    },
-    {
-     "symbol": "INTC",
-     "name": "Intel Corp",
-     "pct": 4.3
-    },
-    {
-     "symbol": "ENTG",
-     "name": "Entegris Inc",
-     "pct": 3.47
-    },
-    {
-     "symbol": "MCHP",
-     "name": "Microchip Technology Inc",
-     "pct": 3.28
-    }
-   ]
-  },
   {
    "ticker": "FLTW",
    "name": "Franklin FTSE Taiwan ETF",
@@ -3460,128 +3399,6 @@
      "symbol": "3037.TW",
      "name": "Unimicron Technology Corp",
      "pct": 1.9
-    }
-   ]
-  },
-  {
-   "ticker": "SOXX",
-   "name": "iShares PHLX SOX Semiconductor Sector Index Fund",
-   "aum": 43666825000,
-   "close": 141.85,
-   "d1": 0.28,
-   "w1": 9.35,
-   "w1_prev": 9.35,
-   "holdings": [
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 9.24
-    },
-    {
-     "symbol": "NVDA",
-     "name": "NVIDIA Corp",
-     "pct": 7.98
-    },
-    {
-     "symbol": "MU",
-     "name": "Micron Technology Inc",
-     "pct": 7.95
-    },
-    {
-     "symbol": "AVGO",
-     "name": "Broadcom Inc",
-     "pct": 7.58
-    },
-    {
-     "symbol": "INTC",
-     "name": "Intel Corp",
-     "pct": 6.33
-    },
-    {
-     "symbol": "TXN",
-     "name": "Texas Instruments Inc",
-     "pct": 4.96
-    },
-    {
-     "symbol": "ADI",
-     "name": "Analog Devices Inc",
-     "pct": 4.96
-    },
-    {
-     "symbol": "QCOM",
-     "name": "Qualcomm Inc",
-     "pct": 4.16
-    },
-    {
-     "symbol": "MRVL",
-     "name": "Marvell Technology Inc",
-     "pct": 4.0
-    },
-    {
-     "symbol": "KLAC",
-     "name": "KLA Corp",
-     "pct": 3.88
-    }
-   ]
-  },
-  {
-   "ticker": "EWT",
-   "name": "iShares MSCI Taiwan ETF",
-   "aum": 11052632100,
-   "close": 88.73,
-   "d1": 0.05,
-   "w1": 9.12,
-   "w1_prev": 9.12,
-   "holdings": [
-    {
-     "symbol": "2330.TW",
-     "name": "Taiwan Semiconductor Manufacturing Co Ltd",
-     "pct": 22.32
-    },
-    {
-     "symbol": "2454.TW",
-     "name": "MediaTek Inc",
-     "pct": 6.1
-    },
-    {
-     "symbol": "2317.TW",
-     "name": "Hon Hai Precision Industry Co Ltd",
-     "pct": 3.36
-    },
-    {
-     "symbol": "3711.TW",
-     "name": "ASE Technology Holding Co Ltd",
-     "pct": 3.0
-    },
-    {
-     "symbol": "2308.TW",
-     "name": "Delta Electronics Inc",
-     "pct": 2.95
-    },
-    {
-     "symbol": "1303.TW",
-     "name": "Nan Ya Plastics Corp",
-     "pct": 2.58
-    },
-    {
-     "symbol": "3037.TW",
-     "name": "Unimicron Technology Corp",
-     "pct": 1.95
-    },
-    {
-     "symbol": "2881.TW",
-     "name": "Fubon Financial Holdings Co Ltd",
-     "pct": 1.91
-    },
-    {
-     "symbol": "2383.TW",
-     "name": "Elite Material Co Ltd",
-     "pct": 1.89
-    },
-    {
-     "symbol": "2891.TW",
-     "name": "CTBC Financial Holding Co Ltd",
-     "pct": 1.75
     }
    ]
   },
@@ -3952,67 +3769,6 @@
    ]
   },
   {
-   "ticker": "IEO",
-   "name": "iShares U.S. Oil & Gas Exploration & Production ETF",
-   "aum": 936862340,
-   "close": 129.36,
-   "d1": -3.54,
-   "w1": 7.26,
-   "w1_prev": 7.26,
-   "holdings": [
-    {
-     "symbol": "COP",
-     "name": "ConocoPhillips",
-     "pct": 18.34
-    },
-    {
-     "symbol": "MPC",
-     "name": "Marathon Petroleum Corp",
-     "pct": 12.38
-    },
-    {
-     "symbol": "VLO",
-     "name": "Valero Energy Corp",
-     "pct": 11.4
-    },
-    {
-     "symbol": "EOG",
-     "name": "EOG Resources Inc",
-     "pct": 4.74
-    },
-    {
-     "symbol": "PSX",
-     "name": "Phillips 66",
-     "pct": 4.57
-    },
-    {
-     "symbol": "DVN",
-     "name": "Devon Energy Corp",
-     "pct": 4.48
-    },
-    {
-     "symbol": "FANG",
-     "name": "Diamondback Energy Inc",
-     "pct": 4.41
-    },
-    {
-     "symbol": "EQT",
-     "name": "EQT Corp",
-     "pct": 4.27
-    },
-    {
-     "symbol": "PR",
-     "name": "Permian Resources Corp Class A",
-     "pct": 3.03
-    },
-    {
-     "symbol": "EXE",
-     "name": "Expand Energy Corp Ordinary Shares - New",
-     "pct": 2.91
-    }
-   ]
-  },
-  {
    "ticker": "MTUM",
    "name": "iShares MSCI USA Momentum Factor ETF",
    "aum": 17750482900,
@@ -4257,189 +4013,6 @@
    ]
   },
   {
-   "ticker": "XOP",
-   "name": "State Street SPDR S&P Oil & Gas Exploration & Production ETF",
-   "aum": 4622861800,
-   "close": 171.57,
-   "d1": -3.4,
-   "w1": 6.35,
-   "w1_prev": 6.35,
-   "holdings": [
-    {
-     "symbol": "RRC",
-     "name": "Range Resources Corp",
-     "pct": 3.31
-    },
-    {
-     "symbol": "APA",
-     "name": "APA Corp",
-     "pct": 2.98
-    },
-    {
-     "symbol": "MUR",
-     "name": "Murphy Oil Corp",
-     "pct": 2.89
-    },
-    {
-     "symbol": "XOM",
-     "name": "ExxonMobil Holdings Corp",
-     "pct": 2.88
-    },
-    {
-     "symbol": "COP",
-     "name": "ConocoPhillips",
-     "pct": 2.85
-    },
-    {
-     "symbol": "OVV",
-     "name": "Ovintiv Inc",
-     "pct": 2.85
-    },
-    {
-     "symbol": "EOG",
-     "name": "EOG Resources Inc",
-     "pct": 2.85
-    },
-    {
-     "symbol": "MPC",
-     "name": "Marathon Petroleum Corp",
-     "pct": 2.82
-    },
-    {
-     "symbol": "CVX",
-     "name": "Chevron Corp",
-     "pct": 2.79
-    },
-    {
-     "symbol": "PR",
-     "name": "Permian Resources Corp Class A",
-     "pct": 2.79
-    }
-   ]
-  },
-  {
-   "ticker": "PWB",
-   "name": "Invesco Large Cap Growth ETF",
-   "aum": 2524826880,
-   "close": 140.59,
-   "d1": 0.56,
-   "w1": 6.31,
-   "w1_prev": 6.31,
-   "holdings": [
-    {
-     "symbol": "LLY",
-     "name": "Eli Lilly and Co",
-     "pct": 4.04
-    },
-    {
-     "symbol": "AAPL",
-     "name": "Apple Inc",
-     "pct": 3.91
-    },
-    {
-     "symbol": "META",
-     "name": "Meta Platforms Inc Class A",
-     "pct": 3.79
-    },
-    {
-     "symbol": "V",
-     "name": "Visa Inc Class A",
-     "pct": 3.78
-    },
-    {
-     "symbol": "MA",
-     "name": "Mastercard Inc Class A",
-     "pct": 3.74
-    },
-    {
-     "symbol": "COST",
-     "name": "Costco Wholesale Corp",
-     "pct": 3.71
-    },
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 3.7
-    },
-    {
-     "symbol": "NVDA",
-     "name": "NVIDIA Corp",
-     "pct": 3.38
-    },
-    {
-     "symbol": "MU",
-     "name": "Micron Technology Inc",
-     "pct": 3.33
-    },
-    {
-     "symbol": "AMZN",
-     "name": "Amazon.com Inc",
-     "pct": 3.24
-    }
-   ]
-  },
-  {
-   "ticker": "XSD",
-   "name": "State Street SPDR S&P Semiconductor ETF",
-   "aum": 2440908800,
-   "close": 414.56,
-   "d1": -0.64,
-   "w1": 6.13,
-   "w1_prev": 6.13,
-   "holdings": [
-    {
-     "symbol": "SYNA",
-     "name": "Synaptics Inc",
-     "pct": 3.48
-    },
-    {
-     "symbol": "NXPI",
-     "name": "NXP Semiconductors NV",
-     "pct": 3.22
-    },
-    {
-     "symbol": "TXN",
-     "name": "Texas Instruments Inc",
-     "pct": 3.19
-    },
-    {
-     "symbol": "SWKS",
-     "name": "Skyworks Solutions Inc",
-     "pct": 3.17
-    },
-    {
-     "symbol": "ADI",
-     "name": "Analog Devices Inc",
-     "pct": 3.17
-    },
-    {
-     "symbol": "PI",
-     "name": "Impinj Inc",
-     "pct": 3.03
-    },
-    {
-     "symbol": "MCHP",
-     "name": "Microchip Technology Inc",
-     "pct": 2.94
-    },
-    {
-     "symbol": "OLED",
-     "name": "Universal Display Corp",
-     "pct": 2.91
-    },
-    {
-     "symbol": "SLAB",
-     "name": "Silicon Laboratories Inc",
-     "pct": 2.81
-    },
-    {
-     "symbol": "ON",
-     "name": "ON Semiconductor Corp",
-     "pct": 2.8
-    }
-   ]
-  },
-  {
    "ticker": "MLPI",
    "name": "NEOS MLP & Energy Infrastructure High Income ETF",
    "aum": 962022660,
@@ -4497,128 +4070,6 @@
      "symbol": "DTM",
      "name": "DT Midstream Inc Ordinary Shares",
      "pct": 4.35
-    }
-   ]
-  },
-  {
-   "ticker": "XNTK",
-   "name": "State Street SPDR NYSE Technology ETF",
-   "aum": 1783147260,
-   "close": 309.63,
-   "d1": 0.54,
-   "w1": 5.89,
-   "w1_prev": 5.89,
-   "holdings": [
-    {
-     "symbol": "MU",
-     "name": "Micron Technology Inc",
-     "pct": 8.74
-    },
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 5.71
-    },
-    {
-     "symbol": "MRVL",
-     "name": "Marvell Technology Inc",
-     "pct": 5.54
-    },
-    {
-     "symbol": "CRWD",
-     "name": "CrowdStrike Holdings Inc Class A",
-     "pct": 4.73
-    },
-    {
-     "symbol": "INTC",
-     "name": "Intel Corp",
-     "pct": 4.14
-    },
-    {
-     "symbol": "TXN",
-     "name": "Texas Instruments Inc",
-     "pct": 4.0
-    },
-    {
-     "symbol": "AMAT",
-     "name": "Applied Materials Inc",
-     "pct": 3.59
-    },
-    {
-     "symbol": "LRCX",
-     "name": "Lam Research Corp",
-     "pct": 3.55
-    },
-    {
-     "symbol": "ASML",
-     "name": "ASML Holding NV ADR",
-     "pct": 3.45
-    },
-    {
-     "symbol": "TSM",
-     "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-     "pct": 3.31
-    }
-   ]
-  },
-  {
-   "ticker": "IGPT",
-   "name": "Invesco AI and Next Gen Software ETF",
-   "aum": 1244838400,
-   "close": 75.12,
-   "d1": 0.15,
-   "w1": 5.78,
-   "w1_prev": 5.78,
-   "holdings": [
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 9.03
-    },
-    {
-     "symbol": "META",
-     "name": "Meta Platforms Inc Class A",
-     "pct": 8.6
-    },
-    {
-     "symbol": "NVDA",
-     "name": "NVIDIA Corp",
-     "pct": 8.44
-    },
-    {
-     "symbol": "MU",
-     "name": "Micron Technology Inc",
-     "pct": 8.16
-    },
-    {
-     "symbol": "GOOGL",
-     "name": "Alphabet Inc Class A",
-     "pct": 7.58
-    },
-    {
-     "symbol": "000660.KQ",
-     "name": "SK hynix Inc",
-     "pct": 3.72
-    },
-    {
-     "symbol": "2454.TW",
-     "name": "MediaTek Inc",
-     "pct": 3.35
-    },
-    {
-     "symbol": "INTC",
-     "name": "Intel Corp",
-     "pct": 3.32
-    },
-    {
-     "symbol": "MRVL",
-     "name": "Marvell Technology Inc",
-     "pct": 3.06
-    },
-    {
-     "symbol": "SNDK",
-     "name": "SanDisk Corp Ordinary Shares",
-     "pct": 2.99
     }
    ]
   },
@@ -4806,128 +4257,6 @@
    ]
   },
   {
-   "ticker": "OIH",
-   "name": "VanEck Oil Services ETF",
-   "aum": 2018725630,
-   "close": 351.03,
-   "d1": -0.95,
-   "w1": 5.45,
-   "w1_prev": 5.45,
-   "holdings": [
-    {
-     "symbol": "SLB",
-     "name": "SLB Ltd",
-     "pct": 19.61
-    },
-    {
-     "symbol": "BKR",
-     "name": "Baker Hughes Co Class A",
-     "pct": 10.76
-    },
-    {
-     "symbol": "HAL",
-     "name": "Halliburton Co",
-     "pct": 6.55
-    },
-    {
-     "symbol": "FTI",
-     "name": "TechnipFMC PLC",
-     "pct": 6.13
-    },
-    {
-     "symbol": "RIG",
-     "name": "Transocean Ltd",
-     "pct": 5.71
-    },
-    {
-     "symbol": "TS",
-     "name": "Tenaris SA ADR",
-     "pct": 5.47
-    },
-    {
-     "symbol": "WFRD",
-     "name": "Weatherford International PLC Ordinary Shares - New",
-     "pct": 4.58
-    },
-    {
-     "symbol": "SEI",
-     "name": "Solaris Energy Infrastructure Inc Class A",
-     "pct": 4.52
-    },
-    {
-     "symbol": "VAL",
-     "name": "Valaris Ltd",
-     "pct": 4.43
-    },
-    {
-     "symbol": "NE",
-     "name": "Noble Corp PLC Class A",
-     "pct": 4.31
-    }
-   ]
-  },
-  {
-   "ticker": "VDE",
-   "name": "Vanguard Energy ETF",
-   "aum": 14455033900,
-   "close": 170.2,
-   "d1": -3.13,
-   "w1": 5.45,
-   "w1_prev": 5.45,
-   "holdings": [
-    {
-     "symbol": "XOM",
-     "name": "ExxonMobil Holdings Corp",
-     "pct": 23.22
-    },
-    {
-     "symbol": "CVX",
-     "name": "Chevron Corp",
-     "pct": 14.67
-    },
-    {
-     "symbol": "COP",
-     "name": "ConocoPhillips",
-     "pct": 6.37
-    },
-    {
-     "symbol": "MPC",
-     "name": "Marathon Petroleum Corp",
-     "pct": 4.43
-    },
-    {
-     "symbol": "VLO",
-     "name": "Valero Energy Corp",
-     "pct": 4.05
-    },
-    {
-     "symbol": "PSX",
-     "name": "Phillips 66",
-     "pct": 3.85
-    },
-    {
-     "symbol": "WMB",
-     "name": "Williams Companies Inc",
-     "pct": 3.05
-    },
-    {
-     "symbol": "EOG",
-     "name": "EOG Resources Inc",
-     "pct": 3.02
-    },
-    {
-     "symbol": "SLB",
-     "name": "SLB Ltd",
-     "pct": 2.75
-    },
-    {
-     "symbol": "LNG",
-     "name": "Cheniere Energy Inc",
-     "pct": 2.33
-    }
-   ]
-  },
-  {
    "ticker": "FENY",
    "name": "Fidelity MSCI Energy Index ETF",
    "aum": 2369634560,
@@ -4985,128 +4314,6 @@
      "symbol": "LNG",
      "name": "Cheniere Energy Inc",
      "pct": 2.34
-    }
-   ]
-  },
-  {
-   "ticker": "XLE",
-   "name": "State Street Energy Select Sector SPDR ETF",
-   "aum": 46373700000,
-   "close": 61.29,
-   "d1": -3.27,
-   "w1": 5.42,
-   "w1_prev": 5.42,
-   "holdings": [
-    {
-     "symbol": "XOM",
-     "name": "ExxonMobil Holdings Corp",
-     "pct": 24.29
-    },
-    {
-     "symbol": "CVX",
-     "name": "Chevron Corp",
-     "pct": 18.29
-    },
-    {
-     "symbol": "COP",
-     "name": "ConocoPhillips",
-     "pct": 7.27
-    },
-    {
-     "symbol": "MPC",
-     "name": "Marathon Petroleum Corp",
-     "pct": 4.64
-    },
-    {
-     "symbol": "PSX",
-     "name": "Phillips 66",
-     "pct": 4.52
-    },
-    {
-     "symbol": "VLO",
-     "name": "Valero Energy Corp",
-     "pct": 4.28
-    },
-    {
-     "symbol": "WMB",
-     "name": "Williams Companies Inc",
-     "pct": 4.12
-    },
-    {
-     "symbol": "EOG",
-     "name": "EOG Resources Inc",
-     "pct": 4.07
-    },
-    {
-     "symbol": "SLB",
-     "name": "SLB Ltd",
-     "pct": 3.74
-    },
-    {
-     "symbol": "TRGP",
-     "name": "Targa Resources Corp",
-     "pct": 3.16
-    }
-   ]
-  },
-  {
-   "ticker": "DXJ",
-   "name": "WisdomTree Japan Hedged Equity Fund",
-   "aum": 7047422000,
-   "close": 56.83,
-   "d1": -0.66,
-   "w1": 5.39,
-   "w1_prev": 5.39,
-   "holdings": [
-    {
-     "symbol": "7203.T",
-     "name": "Toyota Motor Corp",
-     "pct": 5.04
-    },
-    {
-     "symbol": "8306.T",
-     "name": "Mitsubishi UFJ Financial Group Inc",
-     "pct": 4.31
-    },
-    {
-     "symbol": "8316.T",
-     "name": "Sumitomo Mitsui Financial Group Inc",
-     "pct": 4.1
-    },
-    {
-     "symbol": "8035.T",
-     "name": "Tokyo Electron Ltd",
-     "pct": 3.02
-    },
-    {
-     "symbol": "6857.T",
-     "name": "Advantest Corp",
-     "pct": 2.59
-    },
-    {
-     "symbol": "8766.T",
-     "name": "Tokio Marine Holdings Inc",
-     "pct": 2.23
-    },
-    {
-     "symbol": "9432.T",
-     "name": "NTT Inc",
-     "pct": 2.17
-    },
-    {
-     "symbol": "2914.T",
-     "name": "Japan Tobacco Inc",
-     "pct": 2.15
-    },
-    {
-     "symbol": "9984.T",
-     "name": "SoftBank Group Corp",
-     "pct": 2.12
-    },
-    {
-     "symbol": "6501.T",
-     "name": "Hitachi Ltd",
-     "pct": 2.0
     }
    ]
   },
@@ -5172,189 +4379,6 @@
    ]
   },
   {
-   "ticker": "IYZ",
-   "name": "iShares U.S. Telecommunications ETF",
-   "aum": 762024960,
-   "close": 38.55,
-   "d1": 0.68,
-   "w1": 5.23,
-   "w1_prev": 5.23,
-   "holdings": [
-    {
-     "symbol": "CSCO",
-     "name": "Cisco Systems Inc",
-     "pct": 23.7
-    },
-    {
-     "symbol": "VZ",
-     "name": "Verizon Communications Inc",
-     "pct": 11.33
-    },
-    {
-     "symbol": "ANET",
-     "name": "Arista Networks Inc",
-     "pct": 10.69
-    },
-    {
-     "symbol": "T",
-     "name": "AT&T Inc",
-     "pct": 4.22
-    },
-    {
-     "symbol": "MSI",
-     "name": "Motorola Solutions Inc",
-     "pct": 4.08
-    },
-    {
-     "symbol": "CMCSA",
-     "name": "Comcast Corp Class A",
-     "pct": 3.73
-    },
-    {
-     "symbol": "SPCX",
-     "name": "Space Exploration Technologies Corp Class A",
-     "pct": 3.64
-    },
-    {
-     "symbol": "TMUS",
-     "name": "T-Mobile US Inc",
-     "pct": 3.48
-    },
-    {
-     "symbol": "CIEN",
-     "name": "Ciena Corp",
-     "pct": 3.28
-    },
-    {
-     "symbol": "LITE",
-     "name": "Lumentum Holdings Inc",
-     "pct": 3.24
-    }
-   ]
-  },
-  {
-   "ticker": "IYE",
-   "name": "iShares U.S. Energy ETF",
-   "aum": 1851673600,
-   "close": 64.61,
-   "d1": -3.15,
-   "w1": 5.2,
-   "w1_prev": 5.2,
-   "holdings": [
-    {
-     "symbol": "XOM",
-     "name": "ExxonMobil Holdings Corp",
-     "pct": 23.86
-    },
-    {
-     "symbol": "CVX",
-     "name": "Chevron Corp",
-     "pct": 16.36
-    },
-    {
-     "symbol": "COP",
-     "name": "ConocoPhillips",
-     "pct": 6.85
-    },
-    {
-     "symbol": "MPC",
-     "name": "Marathon Petroleum Corp",
-     "pct": 4.66
-    },
-    {
-     "symbol": "VLO",
-     "name": "Valero Energy Corp",
-     "pct": 4.1
-    },
-    {
-     "symbol": "PSX",
-     "name": "Phillips 66",
-     "pct": 4.08
-    },
-    {
-     "symbol": "WMB",
-     "name": "Williams Companies Inc",
-     "pct": 3.3
-    },
-    {
-     "symbol": "EOG",
-     "name": "EOG Resources Inc",
-     "pct": 3.29
-    },
-    {
-     "symbol": "SLB",
-     "name": "SLB Ltd",
-     "pct": 2.95
-    },
-    {
-     "symbol": "LNG",
-     "name": "Cheniere Energy Inc",
-     "pct": 2.68
-    }
-   ]
-  },
-  {
-   "ticker": "RPG",
-   "name": "Invesco S&P 500 Pure Growth ETF",
-   "aum": 1737787520,
-   "close": 50.26,
-   "d1": 0.44,
-   "w1": 5.16,
-   "w1_prev": 5.16,
-   "holdings": [
-    {
-     "symbol": "SNDK",
-     "name": "SanDisk Corp Ordinary Shares",
-     "pct": 6.06
-    },
-    {
-     "symbol": "MU",
-     "name": "Micron Technology Inc",
-     "pct": 3.71
-    },
-    {
-     "symbol": "CRWD",
-     "name": "CrowdStrike Holdings Inc Class A",
-     "pct": 3.32
-    },
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 2.66
-    },
-    {
-     "symbol": "FIX",
-     "name": "Comfort Systems USA Inc",
-     "pct": 2.4
-    },
-    {
-     "symbol": "BRK-B",
-     "name": "Berkshire Hathaway Inc Class B",
-     "pct": 2.4
-    },
-    {
-     "symbol": "LLY",
-     "name": "Eli Lilly and Co",
-     "pct": 2.23
-    },
-    {
-     "symbol": "APH",
-     "name": "Amphenol Corp Class A",
-     "pct": 2.11
-    },
-    {
-     "symbol": "MPWR",
-     "name": "Monolithic Power Systems Inc",
-     "pct": 2.08
-    },
-    {
-     "symbol": "PLTR",
-     "name": "Palantir Technologies Inc Ordinary Shares - Class A",
-     "pct": 1.94
-    }
-   ]
-  },
-  {
    "ticker": "TPYP",
    "name": "Tortoise North American Pipeline ETF",
    "aum": 928346180,
@@ -5412,128 +4436,6 @@
      "symbol": "ATO",
      "name": "Atmos Energy Corp",
      "pct": 4.0
-    }
-   ]
-  },
-  {
-   "ticker": "SMH",
-   "name": "VanEck Semiconductor ETF",
-   "aum": 66438197000,
-   "close": 459.54,
-   "d1": -0.12,
-   "w1": 4.91,
-   "w1_prev": 4.91,
-   "holdings": [
-    {
-     "symbol": "NVDA",
-     "name": "NVIDIA Corp",
-     "pct": 20.19
-    },
-    {
-     "symbol": "TSM",
-     "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
-     "pct": 9.58
-    },
-    {
-     "symbol": "TXN",
-     "name": "Texas Instruments Inc",
-     "pct": 5.7
-    },
-    {
-     "symbol": "AVGO",
-     "name": "Broadcom Inc",
-     "pct": 5.61
-    },
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 5.35
-    },
-    {
-     "symbol": "ADI",
-     "name": "Analog Devices Inc",
-     "pct": 4.96
-    },
-    {
-     "symbol": "MU",
-     "name": "Micron Technology Inc",
-     "pct": 4.75
-    },
-    {
-     "symbol": "ASML",
-     "name": "ASML Holding NV ADR",
-     "pct": 4.5
-    },
-    {
-     "symbol": "KLAC",
-     "name": "KLA Corp",
-     "pct": 4.28
-    },
-    {
-     "symbol": "SKHY",
-     "name": "SK hynix Inc ADR",
-     "pct": 4.14
-    }
-   ]
-  },
-  {
-   "ticker": "QTEC",
-   "name": "First Trust NASDAQ-100- Technology Index Fund",
-   "aum": 4332210200,
-   "close": 267.76,
-   "d1": 0.1,
-   "w1": 4.74,
-   "w1_prev": 4.74,
-   "holdings": [
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 2.65
-    },
-    {
-     "symbol": "TXN",
-     "name": "Texas Instruments Inc",
-     "pct": 2.64
-    },
-    {
-     "symbol": "ADI",
-     "name": "Analog Devices Inc",
-     "pct": 2.64
-    },
-    {
-     "symbol": "NXPI",
-     "name": "NXP Semiconductors NV",
-     "pct": 2.61
-    },
-    {
-     "symbol": "SHOP",
-     "name": "Shopify Inc Registered Shs -A- Subord Vtg",
-     "pct": 2.5
-    },
-    {
-     "symbol": "CRWD",
-     "name": "CrowdStrike Holdings Inc Class A",
-     "pct": 2.49
-    },
-    {
-     "symbol": "DDOG",
-     "name": "Datadog Inc Class A",
-     "pct": 2.47
-    },
-    {
-     "symbol": "SNPS",
-     "name": "Synopsys Inc",
-     "pct": 2.46
-    },
-    {
-     "symbol": "MCHP",
-     "name": "Microchip Technology Inc",
-     "pct": 2.43
-    },
-    {
-     "symbol": "AAPL",
-     "name": "Apple Inc",
-     "pct": 2.43
     }
    ]
   },
@@ -5721,67 +4623,6 @@
    ]
   },
   {
-   "ticker": "RSPT",
-   "name": "Invesco S&P 500 Equal Weight Technology ETF",
-   "aum": 5940315100,
-   "close": 57.64,
-   "d1": 0.37,
-   "w1": 4.65,
-   "w1_prev": 4.65,
-   "holdings": [
-    {
-     "symbol": "PTC",
-     "name": "PTC Inc",
-     "pct": 2.06
-    },
-    {
-     "symbol": "ACN",
-     "name": "Accenture PLC Class A",
-     "pct": 1.99
-    },
-    {
-     "symbol": "IT",
-     "name": "Gartner Inc",
-     "pct": 1.83
-    },
-    {
-     "symbol": "P",
-     "name": "Everpure Inc Class A",
-     "pct": 1.77
-    },
-    {
-     "symbol": "GDDY",
-     "name": "GoDaddy Inc Class A",
-     "pct": 1.7
-    },
-    {
-     "symbol": "ADSK",
-     "name": "Autodesk Inc",
-     "pct": 1.64
-    },
-    {
-     "symbol": "CRWD",
-     "name": "CrowdStrike Holdings Inc Class A",
-     "pct": 1.63
-    },
-    {
-     "symbol": "ROP",
-     "name": "Roper Technologies Inc",
-     "pct": 1.62
-    },
-    {
-     "symbol": "SNPS",
-     "name": "Synopsys Inc",
-     "pct": 1.61
-    },
-    {
-     "symbol": "NXPI",
-     "name": "NXP Semiconductors NV",
-     "pct": 1.58
-    }
-   ]
-  },
-  {
    "ticker": "AUSF",
    "name": "Global X Adaptive U.S. Factor ETF",
    "aum": 904850560,
@@ -5839,250 +4680,6 @@
      "symbol": "JNJ",
      "name": "Johnson & Johnson",
      "pct": 1.58
-    }
-   ]
-  },
-  {
-   "ticker": "XMMO",
-   "name": "Invesco S&P MidCap Momentum ETF",
-   "aum": 6535545900,
-   "close": 130.99,
-   "d1": 0.02,
-   "w1": 4.63,
-   "w1_prev": 4.63,
-   "holdings": [
-    {
-     "symbol": "FTI",
-     "name": "TechnipFMC PLC",
-     "pct": 4.39
-    },
-    {
-     "symbol": "ROIV",
-     "name": "Roivant Sciences Ltd Ordinary Shares",
-     "pct": 3.92
-    },
-    {
-     "symbol": "ATI",
-     "name": "ATI Inc",
-     "pct": 3.77
-    },
-    {
-     "symbol": "DINO",
-     "name": "HF Sinclair Corp",
-     "pct": 2.88
-    },
-    {
-     "symbol": "UTHR",
-     "name": "United Therapeutics Corp",
-     "pct": 2.68
-    },
-    {
-     "symbol": "SNX",
-     "name": "TD Synnex Corp",
-     "pct": 2.5
-    },
-    {
-     "symbol": "MKSI",
-     "name": "MKS Inc",
-     "pct": 2.44
-    },
-    {
-     "symbol": "NVT",
-     "name": "nVent Electric PLC",
-     "pct": 2.36
-    },
-    {
-     "symbol": "JAZZ",
-     "name": "Jazz Pharmaceuticals PLC",
-     "pct": 2.32
-    },
-    {
-     "symbol": "RS",
-     "name": "Reliance Inc",
-     "pct": 2.24
-    }
-   ]
-  },
-  {
-   "ticker": "QQEW",
-   "name": "First Trust Nasdaq-100 Select Equal Weight ETF",
-   "aum": 1778681470,
-   "close": 142.95,
-   "d1": -0.03,
-   "w1": 4.56,
-   "w1_prev": 4.56,
-   "holdings": [
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 2.49
-    },
-    {
-     "symbol": "TXN",
-     "name": "Texas Instruments Inc",
-     "pct": 2.48
-    },
-    {
-     "symbol": "ADI",
-     "name": "Analog Devices Inc",
-     "pct": 2.48
-    },
-    {
-     "symbol": "ISRG",
-     "name": "Intuitive Surgical Inc",
-     "pct": 2.46
-    },
-    {
-     "symbol": "SHOP",
-     "name": "Shopify Inc Registered Shs -A- Subord Vtg",
-     "pct": 2.34
-    },
-    {
-     "symbol": "DDOG",
-     "name": "Datadog Inc Class A",
-     "pct": 2.32
-    },
-    {
-     "symbol": "MCHP",
-     "name": "Microchip Technology Inc",
-     "pct": 2.29
-    },
-    {
-     "symbol": "AAPL",
-     "name": "Apple Inc",
-     "pct": 2.28
-    },
-    {
-     "symbol": "META",
-     "name": "Meta Platforms Inc Class A",
-     "pct": 2.26
-    },
-    {
-     "symbol": "QCOM",
-     "name": "Qualcomm Inc",
-     "pct": 2.25
-    }
-   ]
-  },
-  {
-   "ticker": "FXL",
-   "name": "First Trust Technology AlphaDEX",
-   "aum": 2680644100,
-   "close": 197.54,
-   "d1": 0.53,
-   "w1": 4.54,
-   "w1_prev": 4.54,
-   "holdings": [
-    {
-     "symbol": "EPAM",
-     "name": "EPAM Systems Inc",
-     "pct": 1.88
-    },
-    {
-     "symbol": "NIQ",
-     "name": "NIQ Global Intelligence PLC",
-     "pct": 1.81
-    },
-    {
-     "symbol": "RBRK",
-     "name": "Rubrik Inc Class A Shares",
-     "pct": 1.77
-    },
-    {
-     "symbol": "TEAM",
-     "name": "Atlassian Corp Class A",
-     "pct": 1.72
-    },
-    {
-     "symbol": "RNG",
-     "name": "RingCentral Inc Class A",
-     "pct": 1.7
-    },
-    {
-     "symbol": "PTC",
-     "name": "PTC Inc",
-     "pct": 1.68
-    },
-    {
-     "symbol": "MBGL",
-     "name": "Mobility Global Inc",
-     "pct": 1.67
-    },
-    {
-     "symbol": "CTSH",
-     "name": "Cognizant Technology Solutions Corp Class A",
-     "pct": 1.65
-    },
-    {
-     "symbol": "S",
-     "name": "SentinelOne Inc Class A",
-     "pct": 1.64
-    },
-    {
-     "symbol": "ZM",
-     "name": "Zoom Communications Inc",
-     "pct": 1.63
-    }
-   ]
-  },
-  {
-   "ticker": "IGM",
-   "name": "iShares Expanded Tech Sector ETF",
-   "aum": 10430594000,
-   "close": 142.86,
-   "d1": 0.64,
-   "w1": 4.53,
-   "w1_prev": 4.53,
-   "holdings": [
-    {
-     "symbol": "AAPL",
-     "name": "Apple Inc",
-     "pct": 9.87
-    },
-    {
-     "symbol": "MSFT",
-     "name": "Microsoft Corp",
-     "pct": 9.58
-    },
-    {
-     "symbol": "NVDA",
-     "name": "NVIDIA Corp",
-     "pct": 8.26
-    },
-    {
-     "symbol": "AVGO",
-     "name": "Broadcom Inc",
-     "pct": 7.15
-    },
-    {
-     "symbol": "META",
-     "name": "Meta Platforms Inc Class A",
-     "pct": 4.5
-    },
-    {
-     "symbol": "GOOGL",
-     "name": "Alphabet Inc Class A",
-     "pct": 4.23
-    },
-    {
-     "symbol": "MU",
-     "name": "Micron Technology Inc",
-     "pct": 4.11
-    },
-    {
-     "symbol": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "pct": 3.98
-    },
-    {
-     "symbol": "GOOG",
-     "name": "Alphabet Inc Class C",
-     "pct": 3.41
-    },
-    {
-     "symbol": "PLTR",
-     "name": "Palantir Technologies Inc Ordinary Shares - Class A",
-     "pct": 2.05
     }
    ]
   },
@@ -6390,6 +4987,1409 @@
      "pct": 2.89
     }
    ]
+  },
+  {
+   "ticker": "FWD",
+   "name": "AB Disruptors ETF",
+   "aum": 3137396740,
+   "close": 111.29,
+   "d1": 0.83,
+   "w1": 4.38,
+   "w1_prev": 4.38,
+   "holdings": [
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 3.42
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 3.24
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 2.49
+    },
+    {
+     "symbol": "LLY",
+     "name": "Eli Lilly and Co",
+     "pct": 2.31
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 2.11
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 2.02
+    },
+    {
+     "symbol": "2330.TW",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+     "pct": 1.78
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 1.72
+    },
+    {
+     "symbol": "MRK",
+     "name": "Merck & Co Inc",
+     "pct": 1.67
+    },
+    {
+     "symbol": "SPCX",
+     "name": "Space Exploration Technologies Corp Class A",
+     "pct": 1.64
+    }
+   ]
+  },
+  {
+   "ticker": "VOLT",
+   "name": "Tema Electrification ETF",
+   "aum": 995121220,
+   "close": 32.63,
+   "d1": 0.43,
+   "w1": 4.33,
+   "w1_prev": 4.33,
+   "holdings": [
+    {
+     "symbol": "BELFB",
+     "name": "Bel Fuse Inc Class B",
+     "pct": 6.92
+    },
+    {
+     "symbol": "APH",
+     "name": "Amphenol Corp Class A",
+     "pct": 6.7
+    },
+    {
+     "symbol": "ETN",
+     "name": "Eaton Corp PLC",
+     "pct": 5.82
+    },
+    {
+     "symbol": "ET",
+     "name": "Energy Transfer LP",
+     "pct": 5.81
+    },
+    {
+     "symbol": "NEE",
+     "name": "NextEra Energy Inc",
+     "pct": 5.8
+    },
+    {
+     "symbol": "PWR",
+     "name": "Quanta Services Inc",
+     "pct": 5.68
+    },
+    {
+     "symbol": "AEP",
+     "name": "American Electric Power Co Inc",
+     "pct": 5.67
+    },
+    {
+     "symbol": "OGE",
+     "name": "OGE Energy Corp",
+     "pct": 5.19
+    },
+    {
+     "symbol": "IDA",
+     "name": "Idacorp Inc",
+     "pct": 5.18
+    },
+    {
+     "symbol": "POWL",
+     "name": "Powell Industries Inc",
+     "pct": 4.93
+    }
+   ]
+  },
+  {
+   "ticker": "UTES",
+   "name": "Virtus Reaves Utilities ETF",
+   "aum": 1162022530,
+   "close": 76.2,
+   "d1": 0.3,
+   "w1": 4.23,
+   "w1_prev": 4.23,
+   "holdings": [
+    {
+     "symbol": "CEG",
+     "name": "Constellation Energy Corp",
+     "pct": 11.31
+    },
+    {
+     "symbol": "TLN",
+     "name": "Talen Energy Corp Ordinary Shares New",
+     "pct": 11.2
+    },
+    {
+     "symbol": "VST",
+     "name": "Vistra Corp",
+     "pct": 9.45
+    },
+    {
+     "symbol": "XEL",
+     "name": "Xcel Energy Inc",
+     "pct": 7.34
+    },
+    {
+     "symbol": "CNP",
+     "name": "CenterPoint Energy Inc",
+     "pct": 6.82
+    },
+    {
+     "symbol": "LNT",
+     "name": "Alliant Energy Corp",
+     "pct": 4.89
+    },
+    {
+     "symbol": "ETR",
+     "name": "Entergy Corp",
+     "pct": 4.86
+    },
+    {
+     "symbol": "NI",
+     "name": "NiSource Inc",
+     "pct": 4.85
+    },
+    {
+     "symbol": "AEP",
+     "name": "American Electric Power Co Inc",
+     "pct": 4.84
+    },
+    {
+     "symbol": "IDA",
+     "name": "Idacorp Inc",
+     "pct": 4.77
+    }
+   ]
+  },
+  {
+   "ticker": "FRDM",
+   "name": "Freedom 100 Emerging Markets ETF",
+   "aum": 3232855040,
+   "close": 57.93,
+   "d1": -0.74,
+   "w1": 4.09,
+   "w1_prev": 4.09,
+   "holdings": [
+    {
+     "symbol": "005930.KQ",
+     "name": "Samsung Electronics Co Ltd",
+     "pct": 11.72
+    },
+    {
+     "symbol": "000660.KQ",
+     "name": "SK hynix Inc",
+     "pct": 8.69
+    },
+    {
+     "symbol": "TSM",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+     "pct": 8.35
+    },
+    {
+     "symbol": "2454.TW",
+     "name": "MediaTek Inc",
+     "pct": 5.67
+    },
+    {
+     "symbol": "PEO.WA",
+     "name": "Bank Polska Kasa Opieki SA",
+     "pct": 3.59
+    },
+    {
+     "symbol": "LTM.SN",
+     "name": "LATAM Airlines Group SA",
+     "pct": 3.01
+    },
+    {
+     "symbol": "CHILE.SN",
+     "name": "Banco De Chile",
+     "pct": 2.81
+    },
+    {
+     "symbol": "2317.TW",
+     "name": "Hon Hai Precision Industry Co Ltd",
+     "pct": 2.75
+    },
+    {
+     "symbol": "FALABELLA.SN",
+     "name": "Falabella SA",
+     "pct": 2.46
+    },
+    {
+     "symbol": "2308.TW",
+     "name": "Delta Electronics Inc",
+     "pct": 2.38
+    }
+   ]
+  },
+  {
+   "ticker": "EWJV",
+   "name": "iShares MSCI Japan Value ETF",
+   "aum": 766420740,
+   "close": 45.33,
+   "d1": -1.26,
+   "w1": 4.07,
+   "w1_prev": 4.07,
+   "holdings": [
+    {
+     "symbol": "8306.T",
+     "name": "Mitsubishi UFJ Financial Group Inc",
+     "pct": 8.86
+    },
+    {
+     "symbol": "7203.T",
+     "name": "Toyota Motor Corp",
+     "pct": 6.98
+    },
+    {
+     "symbol": "8316.T",
+     "name": "Sumitomo Mitsui Financial Group Inc",
+     "pct": 5.64
+    },
+    {
+     "symbol": "8411.T",
+     "name": "Mizuho Financial Group Inc",
+     "pct": 4.28
+    },
+    {
+     "symbol": "8058.T",
+     "name": "Mitsubishi Corp",
+     "pct": 3.56
+    },
+    {
+     "symbol": "8031.T",
+     "name": "Mitsui & Co Ltd",
+     "pct": 2.81
+    },
+    {
+     "symbol": "9984.T",
+     "name": "SoftBank Group Corp",
+     "pct": 2.61
+    },
+    {
+     "symbol": "6752.T",
+     "name": "Panasonic Holdings Corp",
+     "pct": 2.01
+    },
+    {
+     "symbol": "9433.T",
+     "name": "KDDI Corp",
+     "pct": 1.99
+    },
+    {
+     "symbol": "2914.T",
+     "name": "Japan Tobacco Inc",
+     "pct": 1.91
+    }
+   ]
+  },
+  {
+   "ticker": "FLJP",
+   "name": "Franklin FTSE Japan ETF",
+   "aum": 4269586940,
+   "close": 37.68,
+   "d1": -0.76,
+   "w1": 4.03,
+   "w1_prev": 4.03,
+   "holdings": [
+    {
+     "symbol": "8306.T",
+     "name": "Mitsubishi UFJ Financial Group Inc",
+     "pct": 3.83
+    },
+    {
+     "symbol": "7203.T",
+     "name": "Toyota Motor Corp",
+     "pct": 3.29
+    },
+    {
+     "symbol": "6098.T",
+     "name": "Recruit Holdings Co Ltd",
+     "pct": 2.64
+    },
+    {
+     "symbol": "6857.T",
+     "name": "Advantest Corp",
+     "pct": 2.58
+    },
+    {
+     "symbol": "6758.T",
+     "name": "Sony Group Corp",
+     "pct": 2.39
+    },
+    {
+     "symbol": "8316.T",
+     "name": "Sumitomo Mitsui Financial Group Inc",
+     "pct": 2.39
+    },
+    {
+     "symbol": "6501.T",
+     "name": "Hitachi Ltd",
+     "pct": 2.29
+    },
+    {
+     "symbol": "8035.T",
+     "name": "Tokyo Electron Ltd",
+     "pct": 2.14
+    },
+    {
+     "symbol": "8411.T",
+     "name": "Mizuho Financial Group Inc",
+     "pct": 1.87
+    },
+    {
+     "symbol": "9984.T",
+     "name": "SoftBank Group Corp",
+     "pct": 1.72
+    }
+   ]
+  },
+  {
+   "ticker": "BBJP",
+   "name": "JPMorgan BetaBuilders Japan ETF",
+   "aum": 18722832400,
+   "close": 71.43,
+   "d1": -0.74,
+   "w1": 4.01,
+   "w1_prev": 4.01,
+   "holdings": [
+    {
+     "symbol": "8306.T",
+     "name": "Mitsubishi UFJ Financial Group Inc",
+     "pct": 4.52
+    },
+    {
+     "symbol": "7203.T",
+     "name": "Toyota Motor Corp",
+     "pct": 3.69
+    },
+    {
+     "symbol": "6098.T",
+     "name": "Recruit Holdings Co Ltd",
+     "pct": 3.14
+    },
+    {
+     "symbol": "6857.T",
+     "name": "Advantest Corp",
+     "pct": 2.9
+    },
+    {
+     "symbol": "8316.T",
+     "name": "Sumitomo Mitsui Financial Group Inc",
+     "pct": 2.84
+    },
+    {
+     "symbol": "6758.T",
+     "name": "Sony Group Corp",
+     "pct": 2.76
+    },
+    {
+     "symbol": "6501.T",
+     "name": "Hitachi Ltd",
+     "pct": 2.67
+    },
+    {
+     "symbol": "8035.T",
+     "name": "Tokyo Electron Ltd",
+     "pct": 2.49
+    },
+    {
+     "symbol": "8411.T",
+     "name": "Mizuho Financial Group Inc",
+     "pct": 2.18
+    },
+    {
+     "symbol": "8058.T",
+     "name": "Mitsubishi Corp",
+     "pct": 2.06
+    }
+   ]
+  },
+  {
+   "ticker": "IVES",
+   "name": "Dan IVES Wedbush AI Revolution ETF",
+   "aum": 854325820,
+   "close": 34.02,
+   "d1": 1.19,
+   "w1": 3.99,
+   "w1_prev": 3.99,
+   "holdings": [
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 5.31
+    },
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 5.28
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 5.17
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 4.83
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 4.65
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 4.57
+    },
+    {
+     "symbol": "TSM",
+     "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+     "pct": 4.52
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 4.3
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.27
+    },
+    {
+     "symbol": "SKHY",
+     "name": "SK hynix Inc ADR",
+     "pct": 4.12
+    }
+   ]
+  },
+  {
+   "ticker": "VFMO",
+   "name": "Vanguard U.S. Momentum Factor ETF",
+   "aum": 1868142720,
+   "close": 204.43,
+   "d1": -0.05,
+   "w1": 3.91,
+   "w1_prev": 3.91,
+   "holdings": [
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 1.07
+    },
+    {
+     "symbol": "MPC",
+     "name": "Marathon Petroleum Corp",
+     "pct": 0.99
+    },
+    {
+     "symbol": "INTC",
+     "name": "Intel Corp",
+     "pct": 0.95
+    },
+    {
+     "symbol": "VLO",
+     "name": "Valero Energy Corp",
+     "pct": 0.94
+    },
+    {
+     "symbol": "DELL",
+     "name": "Dell Technologies Inc Ordinary Shares - Class C",
+     "pct": 0.94
+    },
+    {
+     "symbol": "PSX",
+     "name": "Phillips 66",
+     "pct": 0.92
+    },
+    {
+     "symbol": "FTNT",
+     "name": "Fortinet Inc",
+     "pct": 0.91
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 0.88
+    },
+    {
+     "symbol": "AMAT",
+     "name": "Applied Materials Inc",
+     "pct": 0.88
+    },
+    {
+     "symbol": "MRVL",
+     "name": "Marvell Technology Inc",
+     "pct": 0.87
+    }
+   ]
+  },
+  {
+   "ticker": "PAVE",
+   "name": "Global X U.S. Infrastructure Development ETF",
+   "aum": 13868249100,
+   "close": 52.06,
+   "d1": 0.75,
+   "w1": 3.89,
+   "w1_prev": 3.89,
+   "holdings": [
+    {
+     "symbol": "EMR",
+     "name": "Emerson Electric Co",
+     "pct": 3.7
+    },
+    {
+     "symbol": "NUE",
+     "name": "Nucor Corp",
+     "pct": 3.69
+    },
+    {
+     "symbol": "FAST",
+     "name": "Fastenal Co",
+     "pct": 3.66
+    },
+    {
+     "symbol": "DE",
+     "name": "Deere & Co",
+     "pct": 3.6
+    },
+    {
+     "symbol": "URI",
+     "name": "United Rentals Inc",
+     "pct": 3.34
+    },
+    {
+     "symbol": "UNP",
+     "name": "Union Pacific Corp",
+     "pct": 3.25
+    },
+    {
+     "symbol": "CSX",
+     "name": "CSX Corp",
+     "pct": 3.2
+    },
+    {
+     "symbol": "NSC",
+     "name": "Norfolk Southern Corp",
+     "pct": 3.2
+    },
+    {
+     "symbol": "PWR",
+     "name": "Quanta Services Inc",
+     "pct": 3.09
+    },
+    {
+     "symbol": "ROK",
+     "name": "Rockwell Automation Inc",
+     "pct": 3.08
+    }
+   ]
+  },
+  {
+   "ticker": "QGRO",
+   "name": "American Century U.S. Quality Growth ETF",
+   "aum": 1859316220,
+   "close": 110.18,
+   "d1": 0.11,
+   "w1": 3.84,
+   "w1_prev": 3.84,
+   "holdings": [
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 3.98
+    },
+    {
+     "symbol": "MA",
+     "name": "Mastercard Inc Class A",
+     "pct": 3.71
+    },
+    {
+     "symbol": "LLY",
+     "name": "Eli Lilly and Co",
+     "pct": 3.49
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 3.29
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 2.81
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 2.77
+    },
+    {
+     "symbol": "LMT",
+     "name": "Lockheed Martin Corp",
+     "pct": 2.74
+    },
+    {
+     "symbol": "PLTR",
+     "name": "Palantir Technologies Inc Ordinary Shares - Class A",
+     "pct": 2.68
+    },
+    {
+     "symbol": "APH",
+     "name": "Amphenol Corp Class A",
+     "pct": 2.44
+    },
+    {
+     "symbol": "ANET",
+     "name": "Arista Networks Inc",
+     "pct": 2.3
+    }
+   ]
+  },
+  {
+   "ticker": "VLUE",
+   "name": "iShares MSCI USA Value Factor ETF",
+   "aum": 9430686700,
+   "close": 180.58,
+   "d1": -0.96,
+   "w1": 3.84,
+   "w1_prev": 3.84,
+   "holdings": [
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 20.21
+    },
+    {
+     "symbol": "CSCO",
+     "name": "Cisco Systems Inc",
+     "pct": 4.15
+    },
+    {
+     "symbol": "GM",
+     "name": "General Motors Co",
+     "pct": 3.89
+    },
+    {
+     "symbol": "VZ",
+     "name": "Verizon Communications Inc",
+     "pct": 2.81
+    },
+    {
+     "symbol": "T",
+     "name": "AT&T Inc",
+     "pct": 2.32
+    },
+    {
+     "symbol": "PFE",
+     "name": "Pfizer Inc",
+     "pct": 1.93
+    },
+    {
+     "symbol": "HPE",
+     "name": "Hewlett Packard Enterprise Co",
+     "pct": 1.79
+    },
+    {
+     "symbol": "BAC",
+     "name": "Bank of America Corp",
+     "pct": 1.77
+    },
+    {
+     "symbol": "F",
+     "name": "Ford Motor Co",
+     "pct": 1.77
+    },
+    {
+     "symbol": "DIS",
+     "name": "The Walt Disney Co",
+     "pct": 1.75
+    }
+   ]
+  },
+  {
+   "ticker": "XLC",
+   "name": "State Street Communication Services Select Sector SPDR ETF",
+   "aum": 21447602200,
+   "close": 105.58,
+   "d1": 0.3,
+   "w1": 3.72,
+   "w1_prev": 3.72,
+   "holdings": [
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 22.0
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 11.08
+    },
+    {
+     "symbol": "GOOG",
+     "name": "Alphabet Inc Class C",
+     "pct": 8.92
+    },
+    {
+     "symbol": "DIS",
+     "name": "The Walt Disney Co",
+     "pct": 5.55
+    },
+    {
+     "symbol": "CMCSA",
+     "name": "Comcast Corp Class A",
+     "pct": 4.92
+    },
+    {
+     "symbol": "TTWO",
+     "name": "Take-Two Interactive Software Inc",
+     "pct": 4.7
+    },
+    {
+     "symbol": "VZ",
+     "name": "Verizon Communications Inc",
+     "pct": 4.69
+    },
+    {
+     "symbol": "TMUS",
+     "name": "T-Mobile US Inc",
+     "pct": 4.6
+    },
+    {
+     "symbol": "T",
+     "name": "AT&T Inc",
+     "pct": 4.44
+    },
+    {
+     "symbol": "NFLX",
+     "name": "Netflix Inc",
+     "pct": 4.26
+    }
+   ]
+  },
+  {
+   "ticker": "USMC",
+   "name": "Principal U.S. Mega-Cap ETF",
+   "aum": 4995229200,
+   "close": 72.75,
+   "d1": -0.36,
+   "w1": 3.68,
+   "w1_prev": 3.68,
+   "holdings": [
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 7.67
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 7.51
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 5.88
+    },
+    {
+     "symbol": "MA",
+     "name": "Mastercard Inc Class A",
+     "pct": 5.26
+    },
+    {
+     "symbol": "COST",
+     "name": "Costco Wholesale Corp",
+     "pct": 5.12
+    },
+    {
+     "symbol": "V",
+     "name": "Visa Inc Class A",
+     "pct": 5.05
+    },
+    {
+     "symbol": "LLY",
+     "name": "Eli Lilly and Co",
+     "pct": 4.53
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 4.48
+    },
+    {
+     "symbol": "JPM",
+     "name": "JPMorgan Chase & Co",
+     "pct": 4.29
+    },
+    {
+     "symbol": "AVGO",
+     "name": "Broadcom Inc",
+     "pct": 3.98
+    }
+   ]
+  },
+  {
+   "ticker": "GRNY",
+   "name": "Fundstrat Granny Shots US Large Cap ETF",
+   "aum": 4224869380,
+   "close": 24.89,
+   "d1": -0.48,
+   "w1": 3.65,
+   "w1_prev": 3.65,
+   "holdings": [
+    {
+     "symbol": "MSTR",
+     "name": "Strategy Inc Class A",
+     "pct": 2.88
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 2.86
+    },
+    {
+     "symbol": "DE",
+     "name": "Deere & Co",
+     "pct": 2.76
+    },
+    {
+     "symbol": "LLY",
+     "name": "Eli Lilly and Co",
+     "pct": 2.75
+    },
+    {
+     "symbol": "PM",
+     "name": "Philip Morris International Inc",
+     "pct": 2.69
+    },
+    {
+     "symbol": "LMT",
+     "name": "Lockheed Martin Corp",
+     "pct": 2.69
+    },
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 2.67
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 2.67
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 2.66
+    },
+    {
+     "symbol": "COST",
+     "name": "Costco Wholesale Corp",
+     "pct": 2.65
+    }
+   ]
+  },
+  {
+   "ticker": "QQQM",
+   "name": "Invesco NASDAQ 100 ETF",
+   "aum": 106027844000,
+   "close": 271.58,
+   "d1": 0.43,
+   "w1": 3.61,
+   "w1_prev": 3.61,
+   "holdings": [
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 8.16
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 8.0
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 6.29
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.48
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 4.21
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 3.69
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 3.41
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 2.97
+    },
+    {
+     "symbol": "WMT",
+     "name": "Walmart Inc",
+     "pct": 2.69
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 2.66
+    }
+   ]
+  },
+  {
+   "ticker": "FCOM",
+   "name": "Fidelity MSCI Communication Services Index ETF",
+   "aum": 1506363260,
+   "close": 67.31,
+   "d1": 0.42,
+   "w1": 3.61,
+   "w1_prev": 3.61,
+   "holdings": [
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 24.52
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 13.12
+    },
+    {
+     "symbol": "GOOG",
+     "name": "Alphabet Inc Class C",
+     "pct": 7.27
+    },
+    {
+     "symbol": "DIS",
+     "name": "The Walt Disney Co",
+     "pct": 4.84
+    },
+    {
+     "symbol": "VZ",
+     "name": "Verizon Communications Inc",
+     "pct": 4.55
+    },
+    {
+     "symbol": "T",
+     "name": "AT&T Inc",
+     "pct": 4.18
+    },
+    {
+     "symbol": "NFLX",
+     "name": "Netflix Inc",
+     "pct": 3.88
+    },
+    {
+     "symbol": "CMCSA",
+     "name": "Comcast Corp Class A",
+     "pct": 3.06
+    },
+    {
+     "symbol": "SPCX",
+     "name": "Space Exploration Technologies Corp Class A",
+     "pct": 3.05
+    },
+    {
+     "symbol": "TMUS",
+     "name": "T-Mobile US Inc",
+     "pct": 2.77
+    }
+   ]
+  },
+  {
+   "ticker": "QYLD",
+   "name": "Global X NASDAQ 100 Covered Call ETF",
+   "aum": 8199295500,
+   "close": 17.2,
+   "d1": 0.41,
+   "w1": 3.57,
+   "w1_prev": 3.57,
+   "holdings": [
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 8.24
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 8.08
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 6.35
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.52
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 4.25
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 3.73
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 3.44
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 3.0
+    },
+    {
+     "symbol": "WMT",
+     "name": "Walmart Inc",
+     "pct": 2.72
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 2.69
+    }
+   ]
+  },
+  {
+   "ticker": "AIRR",
+   "name": "First Trust RBA American Industrial Renaissance ETF",
+   "aum": 8366612500,
+   "close": 93.5,
+   "d1": 0.11,
+   "w1": 3.54,
+   "w1_prev": 3.54,
+   "holdings": [
+    {
+     "symbol": "KRMN",
+     "name": "Karman Holdings Inc",
+     "pct": 3.77
+    },
+    {
+     "symbol": "HRI",
+     "name": "Herc Holdings Inc",
+     "pct": 3.57
+    },
+    {
+     "symbol": "KTOS",
+     "name": "Kratos Defense & Security Solutions Inc",
+     "pct": 3.56
+    },
+    {
+     "symbol": "HII",
+     "name": "Huntington Ingalls Industries Inc",
+     "pct": 3.43
+    },
+    {
+     "symbol": "BWXT",
+     "name": "BWX Technologies Inc",
+     "pct": 3.33
+    },
+    {
+     "symbol": "CHRW",
+     "name": "C.H. Robinson Worldwide Inc",
+     "pct": 3.3
+    },
+    {
+     "symbol": "OC",
+     "name": "Owens-Corning Inc",
+     "pct": 3.25
+    },
+    {
+     "symbol": "RBC",
+     "name": "RBC Bearings Inc",
+     "pct": 3.18
+    },
+    {
+     "symbol": "DY",
+     "name": "Dycom Industries Inc",
+     "pct": 3.17
+    },
+    {
+     "symbol": "NXT",
+     "name": "Nextpower Inc",
+     "pct": 3.05
+    }
+   ]
+  },
+  {
+   "ticker": "IFRA",
+   "name": "iShares U.S. Infrastructure ETF",
+   "aum": 4068390660,
+   "close": 57.0,
+   "d1": 0.37,
+   "w1": 3.52,
+   "w1_prev": 3.52,
+   "holdings": [
+    {
+     "symbol": "UNP",
+     "name": "Union Pacific Corp",
+     "pct": 4.25
+    },
+    {
+     "symbol": "NEE",
+     "name": "NextEra Energy Inc",
+     "pct": 4.06
+    },
+    {
+     "symbol": "CSX",
+     "name": "CSX Corp",
+     "pct": 3.75
+    },
+    {
+     "symbol": "PWR",
+     "name": "Quanta Services Inc",
+     "pct": 3.59
+    },
+    {
+     "symbol": "CAT",
+     "name": "Caterpillar Inc",
+     "pct": 3.1
+    },
+    {
+     "symbol": "SO",
+     "name": "Southern Co",
+     "pct": 3.09
+    },
+    {
+     "symbol": "NSC",
+     "name": "Norfolk Southern Corp",
+     "pct": 3.0
+    },
+    {
+     "symbol": "DUK",
+     "name": "Duke Energy Corp",
+     "pct": 2.85
+    },
+    {
+     "symbol": "URI",
+     "name": "United Rentals Inc",
+     "pct": 2.82
+    },
+    {
+     "symbol": "WMB",
+     "name": "Williams Companies Inc",
+     "pct": 2.6
+    }
+   ]
+  },
+  {
+   "ticker": "DBEU",
+   "name": "Xtrackers MSCI Europe Hedged Equity ETF",
+   "aum": 784707520,
+   "close": 54.15,
+   "d1": -0.64,
+   "w1": 3.5,
+   "w1_prev": 3.5,
+   "holdings": [
+    {
+     "symbol": "ASML.AS",
+     "name": "ASML Holding NV",
+     "pct": 4.53
+    },
+    {
+     "symbol": "ROP.SW",
+     "name": "Roche Holding AG Ordinary Shares new",
+     "pct": 2.37
+    },
+    {
+     "symbol": "SHEL.L",
+     "name": "Shell PLC",
+     "pct": 2.17
+    },
+    {
+     "symbol": "HSBA.L",
+     "name": "HSBC Holdings PLC",
+     "pct": 2.06
+    },
+    {
+     "symbol": "NOVN.SW",
+     "name": "Novartis AG Registered Shares",
+     "pct": 2.04
+    },
+    {
+     "symbol": "AZN.L",
+     "name": "AstraZeneca PLC",
+     "pct": 1.83
+    },
+    {
+     "symbol": "NESN.SW",
+     "name": "Nestle SA",
+     "pct": 1.79
+    },
+    {
+     "symbol": "SAP.DE",
+     "name": "SAP SE",
+     "pct": 1.64
+    },
+    {
+     "symbol": "SIE.DE",
+     "name": "Siemens AG",
+     "pct": 1.53
+    },
+    {
+     "symbol": "ALV.DE",
+     "name": "Allianz SE",
+     "pct": 1.29
+    }
+   ]
+  },
+  {
+   "ticker": "PTNQ",
+   "name": "Pacer Trendpilot 100 ETF",
+   "aum": 1173948030,
+   "close": 79.51,
+   "d1": 0.55,
+   "w1": 3.49,
+   "w1_prev": 3.49,
+   "holdings": [
+    {
+     "symbol": "AAPL",
+     "name": "Apple Inc",
+     "pct": 8.18
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 8.02
+    },
+    {
+     "symbol": "MSFT",
+     "name": "Microsoft Corp",
+     "pct": 6.3
+    },
+    {
+     "symbol": "MU",
+     "name": "Micron Technology Inc",
+     "pct": 4.48
+    },
+    {
+     "symbol": "AMZN",
+     "name": "Amazon.com Inc",
+     "pct": 4.22
+    },
+    {
+     "symbol": "AMD",
+     "name": "Advanced Micro Devices Inc",
+     "pct": 3.7
+    },
+    {
+     "symbol": "TSLA",
+     "name": "Tesla Inc",
+     "pct": 3.41
+    },
+    {
+     "symbol": "META",
+     "name": "Meta Platforms Inc Class A",
+     "pct": 2.97
+    },
+    {
+     "symbol": "WMT",
+     "name": "Walmart Inc",
+     "pct": 2.7
+    },
+    {
+     "symbol": "GOOGL",
+     "name": "Alphabet Inc Class A",
+     "pct": 2.67
+    }
+   ]
+  },
+  {
+   "ticker": "GFLW",
+   "name": "VictoryShares Free Cash Flow Growth ETF",
+   "aum": 1127563650,
+   "close": 29.59,
+   "d1": 0.1,
+   "w1": 3.48,
+   "w1_prev": 3.48,
+   "holdings": [
+    {
+     "symbol": "LLY",
+     "name": "Eli Lilly and Co",
+     "pct": 4.74
+    },
+    {
+     "symbol": "NVDA",
+     "name": "NVIDIA Corp",
+     "pct": 3.27
+    },
+    {
+     "symbol": "RPRX",
+     "name": "Royalty Pharma PLC Class A",
+     "pct": 2.95
+    },
+    {
+     "symbol": "CAH",
+     "name": "Cardinal Health Inc",
+     "pct": 2.92
+    },
+    {
+     "symbol": "CAT",
+     "name": "Caterpillar Inc",
+     "pct": 2.67
+    },
+    {
+     "symbol": "DELL",
+     "name": "Dell Technologies Inc Ordinary Shares - Class C",
+     "pct": 2.62
+    },
+    {
+     "symbol": "SNDK",
+     "name": "SanDisk Corp Ordinary Shares",
+     "pct": 2.41
+    },
+    {
+     "symbol": "NEM",
+     "name": "Newmont Corp",
+     "pct": 2.12
+    },
+    {
+     "symbol": "AMAT",
+     "name": "Applied Materials Inc",
+     "pct": 2.0
+    },
+    {
+     "symbol": "LRCX",
+     "name": "Lam Research Corp",
+     "pct": 1.89
+    }
+   ]
   }
  ],
  "groups": [
@@ -6400,9 +6400,9 @@
     {
      "ticker": "SPY",
      "label": "S&P 500",
-     "close": 730.2,
-     "d1": -0.31,
-     "w1": -3.2,
+     "close": 715.87,
+     "d1": -1.96,
+     "w1": -5.1,
      "w1_prev": 2.59,
      "name": "S&P 500",
      "holdings": [
@@ -6473,15 +6473,19 @@
       [
        "2026-11-18",
        917782016
+      ],
+      [
+       "2026-11-19",
+       917782016
       ]
      ]
     },
     {
      "ticker": "QQQ",
      "label": "나스닥 100",
-     "close": 659.51,
-     "d1": 0.39,
-     "w1": -3.0,
+     "close": 645.04,
+     "d1": -2.19,
+     "w1": -5.13,
      "w1_prev": 3.63,
      "name": "나스닥 100",
      "holdings": [
@@ -6552,15 +6556,19 @@
       [
        "2026-11-18",
        393100000
+      ],
+      [
+       "2026-11-19",
+       393100000
       ]
      ]
     },
     {
      "ticker": "DIA",
      "label": "다우",
-     "close": 501.73,
-     "d1": -1.1,
-     "w1": -4.09,
+     "close": 490.79,
+     "d1": -2.18,
+     "w1": -6.19,
      "w1_prev": 2.13,
      "name": "다우",
      "holdings": [
@@ -6630,16 +6638,20 @@
       ],
       [
        "2026-11-18",
-       81242896
+       89960000
+      ],
+      [
+       "2026-11-19",
+       89960000
       ]
      ]
     },
     {
      "ticker": "IWM",
      "label": "러셀 2000",
-     "close": 270.12,
-     "d1": 0.4,
-     "w1": -2.67,
+     "close": 264.22,
+     "d1": -2.18,
+     "w1": -4.8,
      "w1_prev": 1.41,
      "name": "러셀 2000",
      "holdings": [
@@ -6710,6 +6722,10 @@
       [
        "2026-11-18",
        281049984
+      ],
+      [
+       "2026-11-19",
+       281049984
       ]
      ]
     }
@@ -6722,9 +6738,9 @@
     {
      "ticker": "XLK",
      "label": "IT",
-     "close": 163.81,
-     "d1": 0.34,
-     "w1": -3.8,
+     "close": 160.69,
+     "d1": -1.9,
+     "w1": -5.63,
      "w1_prev": 3.36,
      "name": "IT",
      "holdings": [
@@ -6794,16 +6810,20 @@
       ],
       [
        "2026-11-18",
-       272056000
+       724514000
+      ],
+      [
+       "2026-11-19",
+       724514000
       ]
      ]
     },
     {
      "ticker": "XLY",
      "label": "경기소비재",
-     "close": 119.2,
-     "d1": 1.79,
-     "w1": -0.65,
+     "close": 115.88,
+     "d1": -2.79,
+     "w1": -3.42,
      "w1_prev": 2.04,
      "name": "경기소비재",
      "holdings": [
@@ -6873,16 +6893,20 @@
       ],
       [
        "2026-11-18",
-       120253000
+       187855000
+      ],
+      [
+       "2026-11-19",
+       187855000
       ]
      ]
     },
     {
      "ticker": "XLP",
      "label": "필수소비재",
-     "close": 91.18,
-     "d1": -0.31,
-     "w1": -1.27,
+     "close": 89.86,
+     "d1": -1.45,
+     "w1": -2.7,
      "w1_prev": 2.52,
      "name": "필수소비재",
      "holdings": [
@@ -6953,15 +6977,19 @@
       [
        "2026-11-18",
        210172000
+      ],
+      [
+       "2026-11-19",
+       210172000
       ]
      ]
     },
     {
      "ticker": "XLE",
      "label": "에너지",
-     "close": 61.29,
-     "d1": -3.27,
-     "w1": -5.65,
+     "close": 60.89,
+     "d1": -0.65,
+     "w1": -6.27,
      "w1_prev": 5.42,
      "name": "에너지",
      "holdings": [
@@ -7032,15 +7060,19 @@
       [
        "2026-11-18",
        186424000
+      ],
+      [
+       "2026-11-19",
+       186424000
       ]
      ]
     },
     {
      "ticker": "XLF",
      "label": "금융",
-     "close": 56.42,
-     "d1": -1.14,
-     "w1": -3.85,
+     "close": 55.58,
+     "d1": -1.49,
+     "w1": -5.28,
      "w1_prev": 2.66,
      "name": "금융",
      "holdings": [
@@ -7111,15 +7143,19 @@
       [
        "2026-11-18",
        883444992
+      ],
+      [
+       "2026-11-19",
+       883444992
       ]
      ]
     },
     {
      "ticker": "XLV",
      "label": "헬스케어",
-     "close": 181.17,
-     "d1": -2.2,
-     "w1": -4.07,
+     "close": 177.46,
+     "d1": -2.05,
+     "w1": -6.03,
      "w1_prev": 2.19,
      "name": "헬스케어",
      "holdings": [
@@ -7189,16 +7225,20 @@
       ],
       [
        "2026-11-18",
-       197415008
+       270992000
+      ],
+      [
+       "2026-11-19",
+       270992000
       ]
      ]
     },
     {
      "ticker": "XLI",
      "label": "산업재",
-     "close": 164.66,
-     "d1": -0.05,
-     "w1": -2.44,
+     "close": 161.36,
+     "d1": -2.0,
+     "w1": -4.4,
      "w1_prev": 3.76,
      "name": "산업재",
      "holdings": [
@@ -7269,15 +7309,19 @@
       [
        "2026-11-18",
        136626000
+      ],
+      [
+       "2026-11-19",
+       136626000
       ]
      ]
     },
     {
      "ticker": "XLB",
      "label": "소재",
-     "close": 50.46,
-     "d1": -0.75,
-     "w1": -3.39,
+     "close": 49.42,
+     "d1": -2.06,
+     "w1": -5.38,
      "w1_prev": 0.54,
      "name": "소재",
      "holdings": [
@@ -7348,15 +7392,19 @@
       [
        "2026-11-18",
        71923696
+      ],
+      [
+       "2026-11-19",
+       71923696
       ]
      ]
     },
     {
      "ticker": "XLU",
      "label": "유틸리티",
-     "close": 43.55,
-     "d1": 0.3,
-     "w1": -1.11,
+     "close": 43.01,
+     "d1": -1.24,
+     "w1": -2.34,
      "w1_prev": 2.11,
      "name": "유틸리티",
      "holdings": [
@@ -7426,6 +7474,10 @@
       ],
       [
        "2026-11-18",
+       163274000
+      ],
+      [
+       "2026-11-19",
        163274000
       ]
      ]
@@ -7506,6 +7558,10 @@
       [
        "2026-11-18",
        188062000
+      ],
+      [
+       "2026-11-19",
+       188062000
       ]
      ]
     },
@@ -7585,6 +7641,10 @@
       [
        "2026-11-18",
        203089000
+      ],
+      [
+       "2026-11-19",
+       203089000
       ]
      ]
     }
@@ -7597,9 +7657,9 @@
     {
      "ticker": "SOXX",
      "label": "반도체",
-     "close": 141.85,
-     "d1": 0.28,
-     "w1": -4.99,
+     "close": 137.95,
+     "d1": -2.75,
+     "w1": -7.6,
      "w1_prev": 9.35,
      "name": "반도체",
      "holdings": [
@@ -7670,15 +7730,19 @@
       [
        "2026-11-18",
        7650000
+      ],
+      [
+       "2026-11-19",
+       7650000
       ]
      ]
     },
     {
      "ticker": "IGV",
      "label": "소프트웨어",
-     "close": 96.94,
-     "d1": 1.25,
-     "w1": -4.2,
+     "close": 96.1,
+     "d1": -0.87,
+     "w1": -5.03,
      "w1_prev": 2.34,
      "name": "소프트웨어",
      "holdings": [
@@ -7748,6 +7812,10 @@
       ],
       [
        "2026-11-18",
+       12500000
+      ],
+      [
+       "2026-11-19",
        12500000
       ]
      ]
@@ -7828,6 +7896,10 @@
       [
        "2026-11-18",
        182646000
+      ],
+      [
+       "2026-11-19",
+       182646000
       ]
      ]
     },
@@ -7906,6 +7978,10 @@
       ],
       [
        "2026-11-18",
+       5115000
+      ],
+      [
+       "2026-11-19",
        5115000
       ]
      ]
@@ -7986,15 +8062,19 @@
       [
        "2026-11-18",
        53620000
+      ],
+      [
+       "2026-11-19",
+       53620000
       ]
      ]
     },
     {
      "ticker": "PPH",
      "label": "빅파마",
-     "close": 117.87,
-     "d1": -1.85,
-     "w1": -3.9,
+     "close": 114.95,
+     "d1": -2.48,
+     "w1": -6.28,
      "w1_prev": 3.21,
      "name": "빅파마",
      "holdings": [
@@ -8064,6 +8144,10 @@
       ],
       [
        "2026-11-18",
+       11547000
+      ],
+      [
+       "2026-11-19",
        11547000
       ]
      ]
@@ -8144,6 +8228,10 @@
       [
        "2026-11-18",
        1357000
+      ],
+      [
+       "2026-11-19",
+       1357000
       ]
      ]
     },
@@ -8223,15 +8311,19 @@
       [
        "2026-11-18",
        29533000
+      ],
+      [
+       "2026-11-19",
+       29533000
       ]
      ]
     },
     {
      "ticker": "ITA",
      "label": "방산",
-     "close": 69.39,
-     "d1": -0.3,
-     "w1": -2.96,
+     "close": 68.2,
+     "d1": -1.71,
+     "w1": -4.63,
      "w1_prev": 3.67,
      "name": "방산",
      "holdings": [
@@ -8301,6 +8393,10 @@
       ],
       [
        "2026-11-18",
+       176082000
+      ],
+      [
+       "2026-11-19",
        176082000
       ]
      ]
@@ -8381,6 +8477,10 @@
       [
        "2026-11-18",
        11606000
+      ],
+      [
+       "2026-11-19",
+       11606000
       ]
      ]
     }
@@ -8393,9 +8493,9 @@
     {
      "ticker": "1617.T",
      "label": "식품",
-     "close": 46920.0,
-     "d1": -1.32,
-     "w1": -0.74,
+     "close": 45340.0,
+     "d1": -3.37,
+     "w1": -4.08,
      "w1_prev": 1.98,
      "name": "식품",
      "holdings": [
@@ -8466,15 +8566,19 @@
       [
        "2026-11-18",
        148000
+      ],
+      [
+       "2026-11-19",
+       148000
       ]
      ]
     },
     {
      "ticker": "1618.T",
      "label": "에너지자원",
-     "close": 30920.0,
-     "d1": -2.15,
-     "w1": -5.88,
+     "close": 30170.0,
+     "d1": -2.43,
+     "w1": -8.16,
      "w1_prev": 5.66,
      "name": "에너지자원",
      "holdings": [
@@ -8545,15 +8649,19 @@
       [
        "2026-11-18",
        121000
+      ],
+      [
+       "2026-11-19",
+       121000
       ]
      ]
     },
     {
      "ticker": "1619.T",
      "label": "건설·자재",
-     "close": 41880.0,
-     "d1": -0.71,
-     "w1": -4.64,
+     "close": 40490.0,
+     "d1": -3.32,
+     "w1": -7.81,
      "w1_prev": 9.96,
      "name": "건설·자재",
      "holdings": [
@@ -8624,15 +8732,19 @@
       [
        "2026-11-18",
        241000
+      ],
+      [
+       "2026-11-19",
+       241000
       ]
      ]
     },
     {
      "ticker": "1620.T",
      "label": "소재·화학",
-     "close": 36400.0,
-     "d1": 0.61,
-     "w1": -2.44,
+     "close": 35270.0,
+     "d1": -3.1,
+     "w1": -5.47,
      "w1_prev": 8.11,
      "name": "소재·화학",
      "holdings": [
@@ -8703,15 +8815,19 @@
       [
        "2026-11-18",
        41000
+      ],
+      [
+       "2026-11-19",
+       41000
       ]
      ]
     },
     {
      "ticker": "1621.T",
      "label": "의약품",
-     "close": 33730.0,
-     "d1": 0.69,
-     "w1": 0.39,
+     "close": 33710.0,
+     "d1": -0.06,
+     "w1": 0.33,
      "w1_prev": 5.49,
      "name": "의약품",
      "holdings": [
@@ -8782,15 +8898,19 @@
       [
        "2026-11-18",
        167000
+      ],
+      [
+       "2026-11-19",
+       167000
       ]
      ]
     },
     {
      "ticker": "1622.T",
      "label": "자동차·수송기",
-     "close": 36900.0,
-     "d1": 0.24,
-     "w1": -1.49,
+     "close": 36250.0,
+     "d1": -1.76,
+     "w1": -3.23,
      "w1_prev": 2.13,
      "name": "자동차·수송기",
      "holdings": [
@@ -8861,15 +8981,19 @@
       [
        "2026-11-18",
        152000
+      ],
+      [
+       "2026-11-19",
+       152000
       ]
      ]
     },
     {
      "ticker": "1623.T",
      "label": "철강·비철",
-     "close": 43210.0,
-     "d1": -1.48,
-     "w1": -8.36,
+     "close": 39880.0,
+     "d1": -7.71,
+     "w1": -15.42,
      "w1_prev": 3.97,
      "name": "철강·비철",
      "holdings": [
@@ -8940,15 +9064,19 @@
       [
        "2026-11-18",
        137000
+      ],
+      [
+       "2026-11-19",
+       137000
       ]
      ]
     },
     {
      "ticker": "1624.T",
      "label": "기계",
-     "close": 70690.0,
-     "d1": 0.55,
-     "w1": -3.11,
+     "close": 67360.0,
+     "d1": -4.71,
+     "w1": -7.68,
      "w1_prev": 6.87,
      "name": "기계",
      "holdings": [
@@ -9019,15 +9147,19 @@
       [
        "2026-11-18",
        43000
+      ],
+      [
+       "2026-11-19",
+       43000
       ]
      ]
     },
     {
      "ticker": "1625.T",
      "label": "전기·정밀",
-     "close": 54900.0,
-     "d1": 1.05,
-     "w1": -3.04,
+     "close": 52040.0,
+     "d1": -5.21,
+     "w1": -8.09,
      "w1_prev": 7.05,
      "name": "전기·정밀",
      "holdings": [
@@ -9098,15 +9230,19 @@
       [
        "2026-11-18",
        243000
+      ],
+      [
+       "2026-11-19",
+       243000
       ]
      ]
     },
     {
      "ticker": "1626.T",
      "label": "정보통신·서비스",
-     "close": 48560.0,
-     "d1": 1.55,
-     "w1": 1.02,
+     "close": 46840.0,
+     "d1": -3.54,
+     "w1": -2.56,
      "w1_prev": 3.94,
      "name": "정보통신·서비스",
      "holdings": [
@@ -9177,15 +9313,19 @@
       [
        "2026-11-18",
        168000
+      ],
+      [
+       "2026-11-19",
+       168000
       ]
      ]
     },
     {
      "ticker": "1627.T",
      "label": "전력·가스",
-     "close": 11955.0,
-     "d1": -0.71,
-     "w1": -3.74,
+     "close": 11660.0,
+     "d1": -2.47,
+     "w1": -6.12,
      "w1_prev": 7.91,
      "name": "전력·가스",
      "holdings": [
@@ -9256,15 +9396,19 @@
       [
        "2026-11-18",
        236000
+      ],
+      [
+       "2026-11-19",
+       236000
       ]
      ]
     },
     {
      "ticker": "1628.T",
      "label": "운수·물류",
-     "close": 23130.0,
-     "d1": -0.73,
-     "w1": -1.87,
+     "close": 23000.0,
+     "d1": -0.56,
+     "w1": -2.42,
      "w1_prev": 5.04,
      "name": "운수·물류",
      "holdings": [
@@ -9335,15 +9479,19 @@
       [
        "2026-11-18",
        70000
+      ],
+      [
+       "2026-11-19",
+       70000
       ]
      ]
     },
     {
      "ticker": "1629.T",
      "label": "상사·도매",
-     "close": 267.3,
-     "d1": -1.98,
-     "w1": -7.19,
+     "close": 260.8,
+     "d1": -2.43,
+     "w1": -9.44,
      "w1_prev": 8.43,
      "name": "상사·도매",
      "holdings": [
@@ -9414,15 +9562,19 @@
       [
        "2026-11-18",
        108715000
+      ],
+      [
+       "2026-11-19",
+       108715000
       ]
      ]
     },
     {
      "ticker": "1630.T",
      "label": "소매",
-     "close": 41300.0,
-     "d1": 0.51,
-     "w1": 1.25,
+     "close": 40990.0,
+     "d1": -0.75,
+     "w1": 0.49,
      "w1_prev": 5.59,
      "name": "소매",
      "holdings": [
@@ -9493,15 +9645,19 @@
       [
        "2026-11-18",
        73000
+      ],
+      [
+       "2026-11-19",
+       73000
       ]
      ]
     },
     {
      "ticker": "1631.T",
      "label": "은행",
-     "close": 37020.0,
-     "d1": -0.83,
-     "w1": -6.3,
+     "close": 35680.0,
+     "d1": -3.62,
+     "w1": -9.69,
      "w1_prev": 9.51,
      "name": "은행",
      "holdings": [
@@ -9572,15 +9728,19 @@
       [
        "2026-11-18",
        654000
+      ],
+      [
+       "2026-11-19",
+       654000
       ]
      ]
     },
     {
      "ticker": "1632.T",
      "label": "금융(은행 제외)",
-     "close": 42670.0,
-     "d1": -1.48,
-     "w1": -4.05,
+     "close": 42600.0,
+     "d1": -0.16,
+     "w1": -4.21,
      "w1_prev": 5.08,
      "name": "금융(은행 제외)",
      "holdings": [
@@ -9651,15 +9811,19 @@
       [
        "2026-11-18",
        382000
+      ],
+      [
+       "2026-11-19",
+       382000
       ]
      ]
     },
     {
      "ticker": "1633.T",
      "label": "부동산",
-     "close": 51740.0,
-     "d1": 0.58,
-     "w1": -1.49,
+     "close": 50780.0,
+     "d1": -1.86,
+     "w1": -3.31,
      "w1_prev": 3.88,
      "name": "부동산",
      "holdings": [
@@ -9729,6 +9893,10 @@
       ],
       [
        "2026-11-18",
+       88000
+      ],
+      [
+       "2026-11-19",
        88000
       ]
      ]
