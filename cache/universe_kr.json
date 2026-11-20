@@ -1,4 +1,12 @@
 {
+"271160.KQ": {
+"name": "하나에어로",
+"name_local": "",
+"sector": "항공기,우주선 및 부품 제조업",
+"industry": "항공기,우주선 및 부품 제조업",
+"small": false,
+"market": "코스닥"
+},
 "471800.KQ": {
 "name": "에이엘로봇",
 "name_local": "",
@@ -3950,14 +3958,6 @@
 "industry": "플라스틱제품 제조업",
 "small": false,
 "market": "코스닥"
-},
-"417310.KS": {
-"name": "코람코더원리츠",
-"name_local": "",
-"sector": "부동산 임대 및 공급업",
-"industry": "부동산 임대 및 공급업",
-"small": false,
-"market": "코스피"
 },
 "396300.KQ": {
 "name": "HT로보틱스",
