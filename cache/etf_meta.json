@@ -8940,7 +8940,7 @@
   ],
   "at": "2026-11-19"
  },
- "_krw": 1338.92,
+ "_krw": 1346.13,
  "AAAU": {
   "holdings": [],
   "count": 0,
@@ -51115,5 +51115,173 @@
   ],
   "count": 10,
   "at": "2026-11-19"
+ },
+ "CDC": {
+  "holdings": [
+   {
+    "symbol": "WEC",
+    "name": "WEC Energy Group Inc",
+    "pct": 1.72
+   },
+   {
+    "symbol": "DUK",
+    "name": "Duke Energy Corp",
+    "pct": 1.64
+   },
+   {
+    "symbol": "EVRG",
+    "name": "Evergy Inc",
+    "pct": 1.62
+   },
+   {
+    "symbol": "ED",
+    "name": "Consolidated Edison Inc",
+    "pct": 1.61
+   },
+   {
+    "symbol": "LNT",
+    "name": "Alliant Energy Corp",
+    "pct": 1.58
+   },
+   {
+    "symbol": "FE",
+    "name": "FirstEnergy Corp",
+    "pct": 1.58
+   },
+   {
+    "symbol": "SO",
+    "name": "Southern Co",
+    "pct": 1.52
+   },
+   {
+    "symbol": "CMS",
+    "name": "CMS Energy Corp",
+    "pct": 1.49
+   },
+   {
+    "symbol": "PPL",
+    "name": "PPL Corp",
+    "pct": 1.45
+   },
+   {
+    "symbol": "DTE",
+    "name": "DTE Energy Co",
+    "pct": 1.44
+   }
+  ],
+  "count": 10,
+  "at": "2026-11-20"
+ },
+ "JUSA": {
+  "holdings": [
+   {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "pct": 7.87
+   },
+   {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "pct": 7.31
+   },
+   {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp",
+    "pct": 6.37
+   },
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "pct": 3.95
+   },
+   {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "pct": 2.54
+   },
+   {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc Class A",
+    "pct": 2.53
+   },
+   {
+    "symbol": "META",
+    "name": "Meta Platforms Inc Class A",
+    "pct": 2.16
+   },
+   {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc Class C",
+    "pct": 1.93
+   },
+   {
+    "symbol": "MU",
+    "name": "Micron Technology Inc",
+    "pct": 1.57
+   },
+   {
+    "symbol": "LLY",
+    "name": "Eli Lilly and Co",
+    "pct": 1.55
+   }
+  ],
+  "count": 10,
+  "at": "2026-11-20"
+ },
+ "PCEF": {
+  "holdings": [
+   {
+    "symbol": "EXG",
+    "name": "Eaton Vance Tax-Mgd Glbl Div Eq Inc",
+    "pct": 4.38
+   },
+   {
+    "symbol": "SPXX",
+    "name": "Nuveen S&P 500 Dynamic Overwrite Fund",
+    "pct": 3.91
+   },
+   {
+    "symbol": "ETY",
+    "name": "Eaton Vance Tax-mgd Dvsf Eq Inc Fd",
+    "pct": 3.39
+   },
+   {
+    "symbol": "JPC",
+    "name": "Nuveen Preferred & Income Opportunities Fund",
+    "pct": 2.88
+   },
+   {
+    "symbol": "BSTZ",
+    "name": "BlackRock Science and Technology Trust II",
+    "pct": 2.86
+   },
+   {
+    "symbol": "BDJ",
+    "name": "BlackRock Enhanced Equity Dividend Trust",
+    "pct": 2.58
+   },
+   {
+    "symbol": "HYT",
+    "name": "BlackRock Corporate High Yield Fund Inc",
+    "pct": 2.42
+   },
+   {
+    "symbol": "GOF",
+    "name": "Guggenheim Strategic Opportunities Fund",
+    "pct": 2.37
+   },
+   {
+    "symbol": "PTY",
+    "name": "PIMCO Corporate & Income Opportunity Fds",
+    "pct": 2.07
+   },
+   {
+    "symbol": "ETV",
+    "name": "Eaton Vance Tax-Managed Buy-Write Opp",
+    "pct": 2.04
+   }
+  ],
+  "count": 10,
+  "at": "2026-11-20"
  }
 }

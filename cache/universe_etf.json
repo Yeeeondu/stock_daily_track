@@ -63,6 +63,14 @@
 "small": false,
 "market": "ETF"
 },
+"AAUD": {
+"name": "Alpha Architect US Equity 5 ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "AAUS": {
 "name": "Alpha Architect US Equity ETF",
 "name_local": "",
@@ -4777,6 +4785,14 @@
 },
 "ISHP": {
 "name": "First Trust S-Network E-Commerce ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ISMH": {
+"name": "xETFs International Semiconductor ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -28024,7 +28040,7 @@
 "market": "ETF"
 },
 "JOET": {
-"name": "Virtus Terranova U.S. Quality Momentum ETF",
+"name": "Virtus NYSE Terranova U.S. Quality Momentum ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -46121,6 +46137,14 @@
 },
 "YLD": {
 "name": "Principal Active High Yield ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"YLDS": {
+"name": "Harbor Arena Structured Income ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
