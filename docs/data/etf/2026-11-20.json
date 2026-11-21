@@ -1,13 +1,13 @@
 {
  "market": "etf",
  "date": "2026-11-20",
- "generated_at": "2026-11-20T22:10:50+00:00",
+ "generated_at": "2026-11-21T03:10:15+00:00",
  "universe": 5830,
- "priced": 679,
+ "priced": 681,
  "skipped": {
-  "lev": 809,
-  "young": 433,
-  "small": 3538
+  "lev": 857,
+  "young": 539,
+  "small": 3746
  },
  "w1_week": "2026-11-16~2026-11-20",
  "min_aum_usd": 742870302,
@@ -147,7 +147,7 @@
    "ticker": "XLI",
    "label": "산업재",
    "trend": "강세",
-   "rs": 31,
+   "rs": 30,
    "score": 4.7,
    "r1w": -7.35,
    "r1m": -6.21,
@@ -212,7 +212,7 @@
    "ticker": "LNGX",
    "label": "LNG·천연가스",
    "trend": "횡보",
-   "rs": 68,
+   "rs": 69,
    "score": 0.52,
    "r1w": -7.77,
    "r1m": -9.98,
@@ -3218,6 +3218,67 @@
    ]
   },
   {
+   "ticker": "PID",
+   "name": "Invesco International Dividend Achievers ETF",
+   "aum": 881544770,
+   "close": 21.55,
+   "d1": -0.78,
+   "w1": -4.35,
+   "w1_prev": 0.76,
+   "holdings": [
+    {
+     "symbol": "ITUB",
+     "name": "Itau Unibanco Holding SA ADR",
+     "pct": 3.82
+    },
+    {
+     "symbol": "BTI",
+     "name": "British American Tobacco PLC ADR",
+     "pct": 3.75
+    },
+    {
+     "symbol": "T.TO",
+     "name": "TELUS Corp",
+     "pct": 3.73
+    },
+    {
+     "symbol": "FINV",
+     "name": "FinVolution Group ADR",
+     "pct": 3.14
+    },
+    {
+     "symbol": "SNY",
+     "name": "Sanofi SA ADR",
+     "pct": 3.13
+    },
+    {
+     "symbol": "TLK",
+     "name": "PT Telkom Indonesia (Persero) Tbk ADR",
+     "pct": 3.12
+    },
+    {
+     "symbol": "ENB.TO",
+     "name": "Enbridge Inc",
+     "pct": 3.1
+    },
+    {
+     "symbol": "E",
+     "name": "Eni SpA ADR",
+     "pct": 2.84
+    },
+    {
+     "symbol": "OTEX.TO",
+     "name": "Open Text Corp",
+     "pct": 2.71
+    },
+    {
+     "symbol": "BIP-UN.TO",
+     "name": "Brookfield Infrastructure Partners LP",
+     "pct": 2.7
+    }
+   ]
+  },
+  {
    "ticker": "IDU",
    "name": "iShares U.S. Utilities ETF",
    "aum": 1421091710,
@@ -3275,67 +3336,6 @@
      "symbol": "XEL",
      "name": "Xcel Energy Inc",
      "pct": 3.1
-    }
-   ]
-  },
-  {
-   "ticker": "VPU",
-   "name": "Vanguard Utilities ETF",
-   "aum": 10098985000,
-   "close": 184.2,
-   "d1": -0.78,
-   "w1": -3.23,
-   "w1_prev": 2.05,
-   "holdings": [
-    {
-     "symbol": "NEE",
-     "name": "NextEra Energy Inc",
-     "pct": 11.51
-    },
-    {
-     "symbol": "SO",
-     "name": "Southern Co",
-     "pct": 6.97
-    },
-    {
-     "symbol": "DUK",
-     "name": "Duke Energy Corp",
-     "pct": 6.55
-    },
-    {
-     "symbol": "CEG",
-     "name": "Constellation Energy Corp",
-     "pct": 5.41
-    },
-    {
-     "symbol": "AEP",
-     "name": "American Electric Power Co Inc",
-     "pct": 4.67
-    },
-    {
-     "symbol": "D",
-     "name": "Dominion Energy Inc",
-     "pct": 3.86
-    },
-    {
-     "symbol": "SRE",
-     "name": "Sempra",
-     "pct": 3.71
-    },
-    {
-     "symbol": "ETR",
-     "name": "Entergy Corp",
-     "pct": 3.39
-    },
-    {
-     "symbol": "XEL",
-     "name": "Xcel Energy Inc",
-     "pct": 3.29
-    },
-    {
-     "symbol": "EXC",
-     "name": "Exelon Corp",
-     "pct": 3.11
     }
    ]
   }
@@ -6654,7 +6654,7 @@
       ],
       [
        "2026-11-20",
-       81242896
+       91965000
       ]
      ]
     },
@@ -6834,7 +6834,7 @@
       ],
       [
        "2026-11-20",
-       272056000
+       738377000
       ]
      ]
     },
@@ -6921,7 +6921,7 @@
       ],
       [
        "2026-11-20",
-       120253000
+       193302000
       ]
      ]
     },
@@ -7269,7 +7269,7 @@
       ],
       [
        "2026-11-20",
-       197415008
+       276720000
       ]
      ]
     },
