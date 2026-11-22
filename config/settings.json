@@ -22,5 +22,8 @@
   ],
   "etf_min_aum_krw": 1000000000000.0,
   "etf_min_holdings": 10,
-  "etf_min_age_days": 183
+  "etf_min_age_days": 183,
+  "top_n_by_market": {
+    "kr": 100
+  }
 }

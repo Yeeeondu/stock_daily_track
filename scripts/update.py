@@ -224,6 +224,8 @@ def weekly_top(market, rows, trade_date, n):
         ok_caps = market not in ("us", "jp", "tw") or all("cap" in r for r in prev.get("top_w1", []))
         if market == "etf" and prev.get("w1_crit") != ETF_CRIT:  # 선정 기준이 바뀌면 새로 집계
             ok_caps = False
+        if prev.get("top_n", 50) != n:  # 목록 개수가 바뀌면 새로 집계
+            ok_caps = False
         if prev.get("w1_week") and prev.get("top_w1") and ok_caps:
             return prev["top_w1"], prev["w1_week"]
     # 직전 목록이 없으면 지난주(완료된 주) 수익률로 집계
@@ -441,7 +443,7 @@ def run_stocks(market):
         if ref is not None:
             highs.append({**row, "ref": num(ref)})
 
-    n = SETTINGS["top_n"]
+    n = SETTINGS.get("top_n_by_market", {}).get(market, SETTINGS["top_n"])
     top_d1 = top_by_cap(rows, "d1", n) if market in ("us", "jp", "tw") else top_n(rows, "d1", n)
     top_w1, w1_week = weekly_top(market, rows, trade_date, n)
     rising = []
@@ -478,7 +480,7 @@ def run_stocks(market):
     write_json(DATA / market / f"{ds}.json", {
         "market": market, "date": ds, "generated_at": now_iso(),
         "universe": len(uni), "priced": len(rows), "criteria": criteria_text(),
-        "newhigh": highs, "top_d1": top_d1, "top_w1": top_w1, "w1_week": w1_week, "rising": rising,
+        "newhigh": highs, "top_d1": top_d1, "top_w1": top_w1, "w1_week": w1_week, "rising": rising, "top_n": n,
         "bench": bench,
     })
     add_index(market, ds)
