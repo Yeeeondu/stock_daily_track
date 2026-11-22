@@ -138,7 +138,8 @@ function ohlcText(rows, i, { dec, unit = '', extra = '', bp = false } = {}) {
   const chg = p ? (b[4] / p[4] - 1) * 100 : null;
   const u = unit ? `<span class="muted">${unit}</span>` : '';
   return `<b>${fmtT(b[0])}</b> 시 ${nf(b[1], d)} · 고 ${nf(b[2], d)} · 저 ${nf(b[3], d)} · 종 <b>${nf(b[4], d)}</b>${u}`
-    + (chg != null ? (bp ? ` <span class="${cls(chg)}">${b[4] - p[4] > 0 ? '+' : ''}${((b[4] - p[4]) * 100).toFixed(0)}bp</span>` : ` <span class="${cls(chg)}">${chg > 0 ? '+' : ''}${chg.toFixed(2)}%</span>`) : '') + extra;
+    + (chg != null ? (bp ? ` · 전일비 <span class="${cls(chg)}">${b[4] - p[4] > 0 ? '+' : ''}${((b[4] - p[4]) * 100).toFixed(0)}bp</span>` : ` · 전일비 <span class="${cls(chg)}">${chg > 0 ? '+' : ''}${chg.toFixed(2)}%</span>`) : '')
+    + (b[1] ? (bp ? ` · 시가비 <span class="${cls(b[4] - b[1])}">${b[4] - b[1] > 0 ? '+' : ''}${((b[4] - b[1]) * 100).toFixed(0)}bp</span>` : ` · 시가비 <span class="${cls(b[4] - b[1])}">${b[4] > b[1] ? '+' : ''}${((b[4] / b[1] - 1) * 100).toFixed(2)}%</span>`) : '') + extra;
 }
 function lineText(rows, i, { dec = 2, unit = '', bp = false } = {}) {
   const v = rows[i][1], p = rows[i - 1]?.[1];
