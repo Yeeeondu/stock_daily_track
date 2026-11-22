@@ -236,6 +236,25 @@ function maRsiCard(id, s, MA = [[5, '#e5489b'], [20, '#f0a020'], [60, '#2fa84f']
   let busy = false;
   const link = (a, b) => a.timeScale().subscribeVisibleLogicalRangeChange((lr) => { if (busy || !lr) return; busy = true; b.timeScale().setVisibleLogicalRange(lr); busy = false; });
   link(main, rc); link(rc, main);
+  // 두 차트의 오른쪽 눈금 폭을 같게 맞춰 날짜 위치를 일치시킨다
+  const alignW = () => {
+    const w = Math.max(main.priceScale('right').width(), rc.priceScale('right').width(), 60);
+    main.applyOptions({ rightPriceScale: { minimumWidth: w } }); rc.applyOptions({ rightPriceScale: { minimumWidth: w } });
+  };
+  main.timeScale().subscribeVisibleLogicalRangeChange(() => requestAnimationFrame(alignW));
+  setTimeout(alignW, 0);
+  // 한쪽에 마우스를 대면 다른 차트에도 같은 날짜 세로선
+  const rmap = new Map(d.map((b, i) => [b[0], i]));
+  let cbusy = false;
+  const cross = (src, dst, dstSeries, val) => src.subscribeCrosshairMove((p) => {
+    if (cbusy || typeof dst.setCrosshairPosition !== 'function') return;
+    cbusy = true;
+    if (!p || p.time === undefined || !p.point) dst.clearCrosshairPosition();
+    else { const i = rmap.get(tkey(p.time)); const v = i == null ? null : val(i); if (v != null) dst.setCrosshairPosition(v, p.time, dstSeries); }
+    cbusy = false;
+  });
+  cross(main, rc, rs, (i) => r[i]);
+  cross(rc, main, cs, (i) => d[i][4]);
   bindRanges($('.ranges', card), main, d, ranges, def);
   const mas = MA.map(([n]) => [n, sma(closes, n)]);
   hoverLegend([main, rc], $('.cbox', card), () => d, (rows, i) => ohlcText(rows, i, {
