@@ -454,7 +454,8 @@ async function pageUS(day) {
   let html = `<h2 class="sec">지수</h2><div class="grid">${cardHTML('c-dji', '다우존스 (일봉 · 이동평균 · RSI)', true, RSI_BOX)}${cardHTML('c-ixic', '나스닥 종합 (일봉 · 이동평균 · RSI)', true, RSI_BOX)}${cardHTML('c-spx', 'S&P 500 (일봉 · 이동평균 · RSI)', true, RSI_BOX)}</div>
     <h2 class="sec">변동성 · 심리</h2><div class="grid">${cardHTML('c-vix', 'VIX (변동성지수) · 일봉', true)}</div>
     <div class="grid two" style="margin-top:12px">${cardHTML('c-fg', '공포탐욕지수 <span class="small muted">CNN</span>')}${cardHTML('c-pc', 'Put/Call 비율 <span class="small muted">5일 평균</span>')}</div>
-    <h2 class="sec">미국 국채 금리</h2><div class="grid">${cardHTML('c-u2', '2년물 <span class="small muted">(일봉 자료 없음 · 재무부 종가)</span>', true)}${cardHTML('c-u10', '10년물 · 일봉', true)}${cardHTML('c-u30', '30년물 · 일봉', true)}</div>`;
+    <h2 class="sec">미국 국채 금리</h2><div class="grid">${cardHTML('c-u2', '2년물 <span class="small muted">(일봉 자료 없음 · 재무부 종가)</span>', true)}${cardHTML('c-u10', '10년물 · 일봉', true)}${cardHTML('c-u30', '30년물 · 일봉', true)}</div>
+    <h2 class="sec">원자재 · 비트코인</h2><div class="grid">${cardHTML('c-gold', '금 <span class="small muted">(뉴욕 선물 · $/oz)</span> · 일봉 · 이동평균 · RSI', true, RSI_BOX)}${cardHTML('c-copper', '구리 <span class="small muted">(뉴욕 선물 · $/lb)</span> · 일봉 · 이동평균 · RSI', true, RSI_BOX)}${cardHTML('c-wti', 'WTI 원유 <span class="small muted">(뉴욕 선물 · $/배럴)</span> · 일봉 · 이동평균 · RSI', true, RSI_BOX)}${cardHTML('c-btc', '비트코인 <span class="small muted">($)</span> · 일봉 · 이동평균 · RSI', true, RSI_BOX)}</div>`;
   html += stockSections(day, 'us');
   $('#main').innerHTML = html;
   const th = theme();
@@ -464,6 +465,7 @@ async function pageUS(day) {
   anyCard('c-vix', S.vix, { color: th.up, def: '1Y', bands: [20, 30] });
   lineCard('c-fg', S.fg, { color: th.accent, dec: 1, def: '1Y', bands: [25, 50, 75], badge: fgNow });
   lineCard('c-pc', S.pc, { color: '#8a5cf6', dec: 3, def: '1Y', bands: [1] });
+  [['c-gold', 'gold'], ['c-copper', 'copper'], ['c-wti', 'wti'], ['c-btc', 'btc']].forEach(([id, k]) => { if (S[k]) maRsiCard(id, S[k], IMA, IR, '1Y'); else $(`#${id} .cbox`).innerHTML = '<p class="muted small">데이터 준비 중입니다.</p>'; });
   [['c-u2', 'ust2'], ['c-u10', 'ust10'], ['c-u30', 'ust30']].forEach(([id, k]) => anyCard(id, S[k], { color: '#2fa84f', unit: '%', bp: true, def: '1Y', dec: 3 }));
   bindStocks(day, 'us');
 }

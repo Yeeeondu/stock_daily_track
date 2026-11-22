@@ -682,6 +682,12 @@ def run_macro_us():
     for key, t, label in (("dji", "^DJI", "다우"), ("ixic", "^IXIC", "나스닥"), ("spx", "^GSPC", "S&P 500")):
         if t in idx:
             S[key] = {"label": label, "type": "ohlc", "data": bars_of(idx[t])}
+    # 원자재·비트코인 (금·구리·WTI는 뉴욕 선물 근월물)
+    cm = download(["GC=F", "HG=F", "CL=F", "BTC-USD"], "6y")
+    for key, t, label, unit in (("gold", "GC=F", "금", "$/oz"), ("copper", "HG=F", "구리", "$/lb"),
+                                ("wti", "CL=F", "WTI 원유", "$/배럴"), ("btc", "BTC-USD", "비트코인", "$")):
+        if cm.get(t) is not None:
+            S[key] = {"label": label, "type": "ohlc", "unit": unit, "data": bars_of(cm[t])}
     vix = download(["^VIX"], "10y").get("^VIX")
     if vix is not None:
         S["vix"] = {"label": "VIX (변동성지수)", "type": "ohlc", "data": bars_of(vix)}
