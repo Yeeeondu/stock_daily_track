@@ -110,6 +110,43 @@ function bindRanges(box, chart, data, list, def) {
   setRange(chart, data, RANGES[keys.includes(def) ? def : keys.at(-1)]);
 }
 
+
+// ------------------------------------------------------------ 마우스 오버 수치 표시
+const tkey = (t) => (typeof t === 'string' ? t : typeof t === 'number' ? new Date(t * 1000).toISOString().slice(0, 10)
+  : `${t.year}-${String(t.month).padStart(2, '0')}-${String(t.day).padStart(2, '0')}`);
+const idxCache = new WeakMap();
+function idxOf(rows, k) {
+  let m = idxCache.get(rows);
+  if (!m) { m = new Map(rows.map((r, i) => [r[0], i])); idxCache.set(rows, m); }
+  return m.has(k) ? m.get(k) : -1;
+}
+function hoverLegend(charts, box, getRows, render) {
+  const el = document.createElement('div'); el.className = 'hov';
+  box.style.position = 'relative'; box.appendChild(el);
+  const show = (i) => { const rows = getRows(); if (!rows?.length) { el.innerHTML = ''; return; } if (i == null || i < 0) i = rows.length - 1; el.innerHTML = render(rows, i); };
+  (Array.isArray(charts) ? charts : [charts]).forEach((c) => c.subscribeCrosshairMove((p) => {
+    if (!p || p.time === undefined) return show(null);
+    show(idxOf(getRows(), tkey(p.time)));
+  }));
+  show(null);
+  return show;
+}
+const nf = (v, d) => (v == null ? '–' : v.toLocaleString('ko-KR', { minimumFractionDigits: d, maximumFractionDigits: d }));
+const autoDec = (v) => (Math.abs(v) >= 1000 ? 0 : Math.abs(v) >= 100 ? 2 : Math.abs(v) >= 1 ? 2 : 4);
+function ohlcText(rows, i, { dec, unit = '', extra = '', bp = false } = {}) {
+  const b = rows[i], p = rows[i - 1]; const d = dec ?? autoDec(b[4]);
+  const chg = p ? (b[4] / p[4] - 1) * 100 : null;
+  const u = unit ? `<span class="muted">${unit}</span>` : '';
+  return `<b>${fmtT(b[0])}</b> 시 ${nf(b[1], d)} · 고 ${nf(b[2], d)} · 저 ${nf(b[3], d)} · 종 <b>${nf(b[4], d)}</b>${u}`
+    + (chg != null ? (bp ? ` <span class="${cls(chg)}">${b[4] - p[4] > 0 ? '+' : ''}${((b[4] - p[4]) * 100).toFixed(0)}bp</span>` : ` <span class="${cls(chg)}">${chg > 0 ? '+' : ''}${chg.toFixed(2)}%</span>`) : '') + extra;
+}
+function lineText(rows, i, { dec = 2, unit = '', bp = false } = {}) {
+  const v = rows[i][1], p = rows[i - 1]?.[1];
+  let chg = '';
+  if (p != null) { const df = v - p; chg = bp ? `${df > 0 ? '+' : ''}${(df * 100).toFixed(0)}bp` : `${df > 0 ? '+' : ''}${nf(df, dec)}`; chg = ` <span class="${cls(df)}">(${chg})</span>`; }
+  return `<b>${fmtT(rows[i][0])}</b> <b>${nf(v, dec)}</b>${unit ? `<span class="muted">${unit}</span>` : ''}${chg}`;
+}
+
 // ------------------------------------------------------------ 지표 카드
 const cardHTML = (id, title, wide = false, extra = '') => `<div class="card ${wide ? 'wide' : ''}" id="${id}">
   <div class="chead"><div><div class="ctitle">${title}</div><div class="cval"></div><div class="cchg"></div></div><div class="ranges"></div></div>
@@ -135,6 +172,7 @@ function ohlcCard(id, s, { def = '1Y', ranges = ['3M', '6M', '1Y', '3Y'], dec = 
   cs.setData(s.data.map((b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] })));
   bands.forEach((b) => cs.createPriceLine({ price: b, color: th.muted, lineWidth: 1, lineStyle: 2, axisLabelVisible: false }));
   bindRanges($('.ranges', card), ch, s.data, ranges, def);
+  hoverLegend(ch, $('.cbox', card), () => s.data, (r, i) => ohlcText(r, i, { dec, unit, bp }));
 }
 const ALL_R = ['3M', '6M', '1Y', '3Y', '5Y', '10Y'];
 function anyCard(id, s, o) { if (s?.type === 'ohlc') ohlcCard(id, s, { ranges: ALL_R, ...o }); else lineCard(id, s, o); }
@@ -148,6 +186,7 @@ function lineCard(id, s, { color, dec = 2, unit = '', bp = false, def = '3Y', ra
   const th = theme();
   bands.forEach((b) => ser.createPriceLine({ price: b, color: th.muted, lineWidth: 1, lineStyle: 2, axisLabelVisible: false }));
   bindRanges($('.ranges', card), ch, s.data, ranges, def);
+  hoverLegend(ch, $('.cbox', card), () => s.data, (r, i) => lineText(r, i, { dec, unit, bp }));
 }
 
 function sma(v, n) { const out = []; let s = 0; for (let i = 0; i < v.length; i++) { s += v[i]; if (i >= n) s -= v[i - n]; out.push(i >= n - 1 ? s / n : null); } return out; }
@@ -189,6 +228,9 @@ function maRsiCard(id, s, MA = [[5, '#e5489b'], [20, '#f0a020'], [60, '#2fa84f']
   const link = (a, b) => a.timeScale().subscribeVisibleLogicalRangeChange((lr) => { if (busy || !lr) return; busy = true; b.timeScale().setVisibleLogicalRange(lr); busy = false; });
   link(main, rc); link(rc, main);
   bindRanges($('.ranges', card), main, d, ranges, def);
+  const mas = MA.map(([n]) => [n, sma(closes, n)]);
+  hoverLegend([main, rc], $('.cbox', card), () => d, (rows, i) => ohlcText(rows, i, {
+    extra: `<br>${mas.map(([n, m]) => `${n}일 ${m[i] == null ? '–' : nf(m[i], autoDec(m[i]))}`).join(' · ')} · <b>RSI ${r[i] == null ? '–' : r[i].toFixed(1)}</b>` }));
   const lastR = r.at(-1);
   $('.legend', card).innerHTML = MA.map(([n, c]) => `<span><i style="background:${c}"></i>${n}일선</span>`).join('') +
     `<span><i style="background:#f07f20"></i>RSI(14) ${lastR != null ? lastR.toFixed(1) : '–'}</span>`;
@@ -206,6 +248,11 @@ function fundsCard(id, dep, cre) {
   });
   const ref = dep?.data?.length ? dep.data : cre?.data || [];
   bindRanges($('.ranges', card), ch, ref, ['3M', '6M', '1Y', '3Y'], '3Y');
+  const cmap = new Map((cre?.data || []).map((p) => [p[0], p[1]]));
+  hoverLegend(ch, $('.cbox', card), () => ref, (rows, i) => {
+    const day = rows[i][0], dv = dep?.data?.length ? rows[i][1] : null, cv = cmap.get(day);
+    return `<b>${fmtT(day)}</b> 예탁금 <b>${nf(dv, 1)}조</b> · 신용잔고 <b>${nf(cv, 2)}조</b>`;
+  });
   const tail = (s) => { if (!s?.data?.length) return '–'; const a = s.data.at(-1), b = s.data.at(-2); const df = b ? a[1] - b[1] : null; return `<b>${fnum(a[1], 1)}조</b> <span class="${cls(df)} small">${df == null ? '' : (df > 0 ? '+' : '') + fnum(df, 2)}</span>`; };
   $('.cval', card).innerHTML = `<span style="font-size:15px">예탁금 ${tail(dep)} · 신용 ${tail(cre)}</span>`;
   const ld = (dep?.data || cre?.data || []).at(-1);
@@ -309,6 +356,7 @@ async function selectItem(id, i) {
     const wk = data.weekly || [];
     const keys = ['1M', '3M', '6M', '1Y', ...(wk.length > 60 ? ['3Y'] : []), ...(wk.length > 160 ? ['5Y'] : [])];
     let mode = 'd';
+    hoverLegend(ch, box, () => (mode === 'w' ? wk : data.bars), (r, i) => ohlcText(r, i, { extra: mode === 'w' ? ' <span class="muted">(주봉)</span>' : '' }));
     const toC = (b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] });
     const toV = (b) => ({ time: b[0], value: b[5], color: rgba(b[4] >= b[1] ? th.up : th.down, 0.35) });
     const apply = (k) => {
