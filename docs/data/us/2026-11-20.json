@@ -58,7 +58,7 @@
    "since": "2013-03-07",
    "rs": 99,
    "per": null,
-   "psr": 2.96
+   "psr": 1.94
   },
   {
    "ticker": "PLMR",
@@ -2858,7 +2858,7 @@
    "score": 134.29,
    "rs": 99,
    "per": null,
-   "psr": 2.96
+   "psr": 1.94
   },
   {
    "ticker": "GOW",
@@ -6896,7 +6896,7 @@
    "score": 32.52,
    "rs": null,
    "per": null,
-   "psr": 17.31
+   "psr": 18.23
   },
   {
    "ticker": "ATER",
@@ -7046,7 +7046,7 @@
    "score": 134.29,
    "rs": 99,
    "per": null,
-   "psr": 2.96
+   "psr": 1.94
   },
   {
    "ticker": "OPTU",
@@ -9610,7 +9610,7 @@
    "above200": null,
    "score": 52.05,
    "rs": null,
-   "per": 91.4,
+   "per": 29.7,
    "psr": 4.52
   },
   {
@@ -10486,7 +10486,7 @@
    "score": 134.29,
    "rs": 99,
    "per": null,
-   "psr": 2.96
+   "psr": 1.94
   },
   {
    "ticker": "GIBO",
