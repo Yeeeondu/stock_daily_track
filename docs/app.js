@@ -121,31 +121,39 @@ function idxOf(rows, k) {
   return m.has(k) ? m.get(k) : -1;
 }
 function hoverLegend(charts, box, getRows, render) {
-  const el = document.createElement('div'); el.className = 'hov';
+  const el = document.createElement('div'); el.className = 'hov'; el.hidden = true;
   box.style.position = 'relative'; box.appendChild(el);
-  const show = (i) => { const rows = getRows(); if (!rows?.length) { el.innerHTML = ''; return; } if (i == null || i < 0) i = rows.length - 1; el.innerHTML = render(rows, i); };
-  (Array.isArray(charts) ? charts : [charts]).forEach((c) => c.subscribeCrosshairMove((p) => {
-    if (!p || p.time === undefined) return show(null);
-    show(idxOf(getRows(), tkey(p.time)));
+  const list = Array.isArray(charts) ? charts : [charts];
+  list.forEach((c, ci) => c.subscribeCrosshairMove((p) => {
+    const rows = getRows();
+    if (!p || p.time === undefined || !p.point || !rows?.length) { el.hidden = true; return; }
+    const i = idxOf(rows, tkey(p.time)); if (i < 0) { el.hidden = true; return; }
+    el.innerHTML = render(rows, i); el.hidden = false;
+    // 커서 옆에 표시, 가장자리에 닿으면 반대쪽으로
+    const W = box.clientWidth, H = box.clientHeight, w = el.offsetWidth, h = el.offsetHeight, gap = 14;
+    let x = p.point.x + gap, y = ci === 0 ? p.point.y + gap : H - h - 6;
+    if (x + w > W - 4) x = p.point.x - w - gap;
+    if (y + h > H - 4) y = p.point.y - h - gap;
+    el.style.left = `${Math.max(2, x)}px`; el.style.top = `${Math.max(2, y)}px`;
   }));
-  show(null);
-  return show;
+  box.addEventListener('mouseleave', () => { el.hidden = true; });
 }
 const nf = (v, d) => (v == null ? '–' : v.toLocaleString('ko-KR', { minimumFractionDigits: d, maximumFractionDigits: d }));
 const autoDec = (v) => (Math.abs(v) >= 1000 ? 0 : Math.abs(v) >= 100 ? 2 : Math.abs(v) >= 1 ? 2 : 4);
 function ohlcText(rows, i, { dec, unit = '', extra = '', bp = false } = {}) {
   const b = rows[i], p = rows[i - 1]; const d = dec ?? autoDec(b[4]);
-  const chg = p ? (b[4] / p[4] - 1) * 100 : null;
   const u = unit ? `<span class="muted">${unit}</span>` : '';
-  return `<b>${fmtT(b[0])}</b> 시 ${nf(b[1], d)} · 고 ${nf(b[2], d)} · 저 ${nf(b[3], d)} · 종 <b>${nf(b[4], d)}</b>${u}`
-    + (chg != null ? (bp ? ` · 전일비 <span class="${cls(chg)}">${b[4] - p[4] > 0 ? '+' : ''}${((b[4] - p[4]) * 100).toFixed(0)}bp</span>` : ` · 전일비 <span class="${cls(chg)}">${chg > 0 ? '+' : ''}${chg.toFixed(2)}%</span>`) : '')
-    + (b[1] ? (bp ? ` · 시가비 <span class="${cls(b[4] - b[1])}">${b[4] - b[1] > 0 ? '+' : ''}${((b[4] - b[1]) * 100).toFixed(0)}bp</span>` : ` · 시가비 <span class="${cls(b[4] - b[1])}">${b[4] > b[1] ? '+' : ''}${((b[4] / b[1] - 1) * 100).toFixed(2)}%</span>`) : '') + extra;
+  const pct = (x, y) => (bp ? `${x - y > 0 ? '+' : ''}${((x - y) * 100).toFixed(0)}bp` : `${x > y ? '+' : ''}${((x / y - 1) * 100).toFixed(2)}%`);
+  const chg = [p ? `전일비 <span class="${cls(b[4] - p[4])}">${pct(b[4], p[4])}</span>` : '', b[1] ? `시가비 <span class="${cls(b[4] - b[1])}">${pct(b[4], b[1])}</span>` : ''].filter(Boolean).join(' · ');
+  return `<div class="hd">${fmtT(b[0])}</div>`
+    + `<div>시 ${nf(b[1], d)} · 고 ${nf(b[2], d)} · 저 ${nf(b[3], d)} · 종 <b>${nf(b[4], d)}</b>${u}</div>`
+    + (chg ? `<div>${chg}</div>` : '') + extra;
 }
 function lineText(rows, i, { dec = 2, unit = '', bp = false } = {}) {
   const v = rows[i][1], p = rows[i - 1]?.[1];
   let chg = '';
   if (p != null) { const df = v - p; chg = bp ? `${df > 0 ? '+' : ''}${(df * 100).toFixed(0)}bp` : `${df > 0 ? '+' : ''}${nf(df, dec)}`; chg = ` <span class="${cls(df)}">(${chg})</span>`; }
-  return `<b>${fmtT(rows[i][0])}</b> <b>${nf(v, dec)}</b>${unit ? `<span class="muted">${unit}</span>` : ''}${chg}`;
+  return `<div class="hd">${fmtT(rows[i][0])}</div><div><b>${nf(v, dec)}</b>${unit ? `<span class="muted">${unit}</span>` : ''}${chg}</div>`;
 }
 
 // ------------------------------------------------------------ 지표 카드
@@ -231,7 +239,7 @@ function maRsiCard(id, s, MA = [[5, '#e5489b'], [20, '#f0a020'], [60, '#2fa84f']
   bindRanges($('.ranges', card), main, d, ranges, def);
   const mas = MA.map(([n]) => [n, sma(closes, n)]);
   hoverLegend([main, rc], $('.cbox', card), () => d, (rows, i) => ohlcText(rows, i, {
-    extra: `<br>${mas.map(([n, m]) => `${n}일 ${m[i] == null ? '–' : nf(m[i], autoDec(m[i]))}`).join(' · ')} · <b>RSI ${r[i] == null ? '–' : r[i].toFixed(1)}</b>` }));
+    extra: `<div class="muted">${mas.map(([n, m]) => `${n}일 ${m[i] == null ? '–' : nf(m[i], autoDec(m[i]))}`).join(' · ')}</div><div><b>RSI ${r[i] == null ? '–' : r[i].toFixed(1)}</b></div>` }));
   const lastR = r.at(-1);
   $('.legend', card).innerHTML = MA.map(([n, c]) => `<span><i style="background:${c}"></i>${n}일선</span>`).join('') +
     `<span><i style="background:#f07f20"></i>RSI(14) ${lastR != null ? lastR.toFixed(1) : '–'}</span>`;
@@ -252,7 +260,7 @@ function fundsCard(id, dep, cre) {
   const cmap = new Map((cre?.data || []).map((p) => [p[0], p[1]]));
   hoverLegend(ch, $('.cbox', card), () => ref, (rows, i) => {
     const day = rows[i][0], dv = dep?.data?.length ? rows[i][1] : null, cv = cmap.get(day);
-    return `<b>${fmtT(day)}</b> 예탁금 <b>${nf(dv, 1)}조</b> · 신용잔고 <b>${nf(cv, 2)}조</b>`;
+    return `<div class="hd">${fmtT(day)}</div><div>예탁금 <b>${nf(dv, 1)}조</b></div><div>신용잔고 <b>${nf(cv, 2)}조</b></div>`;
   });
   const tail = (s) => { if (!s?.data?.length) return '–'; const a = s.data.at(-1), b = s.data.at(-2); const df = b ? a[1] - b[1] : null; return `<b>${fnum(a[1], 1)}조</b> <span class="${cls(df)} small">${df == null ? '' : (df > 0 ? '+' : '') + fnum(df, 2)}</span>`; };
   $('.cval', card).innerHTML = `<span style="font-size:15px">예탁금 ${tail(dep)} · 신용 ${tail(cre)}</span>`;
@@ -357,7 +365,7 @@ async function selectItem(id, i) {
     const wk = data.weekly || [];
     const keys = ['1M', '3M', '6M', '1Y', ...(wk.length > 60 ? ['3Y'] : []), ...(wk.length > 160 ? ['5Y'] : [])];
     let mode = 'd';
-    hoverLegend(ch, box, () => (mode === 'w' ? wk : data.bars), (r, i) => ohlcText(r, i, { extra: mode === 'w' ? ' <span class="muted">(주봉)</span>' : '' }));
+    hoverLegend(ch, box, () => (mode === 'w' ? wk : data.bars), (r, i) => ohlcText(r, i, { extra: mode === 'w' ? '<div class="muted">주봉 (그 주 시가~종가)</div>' : '' }));
     const toC = (b) => ({ time: b[0], open: b[1], high: b[2], low: b[3], close: b[4] });
     const toV = (b) => ({ time: b[0], value: b[5], color: rgba(b[4] >= b[1] ? th.up : th.down, 0.35) });
     const apply = (k) => {
