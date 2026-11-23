@@ -30,7 +30,8 @@
    "ref": 513.0,
    "ath": false,
    "since": "2001-01-04",
-   "rs": 95
+   "rs": 95,
+   "psr": 0.28
   },
   {
    "ticker": "2212.T",
@@ -56,7 +57,8 @@
    "ref": 4309.0,
    "ath": true,
    "since": "2001-01-01",
-   "rs": 94
+   "rs": 94,
+   "psr": 0.63
   },
   {
    "ticker": "6238.T",
@@ -82,7 +84,8 @@
    "ref": 1701.0,
    "ath": false,
    "since": "2015-12-18",
-   "rs": 97
+   "rs": 97,
+   "psr": 0.94
   },
   {
    "ticker": "2810.T",
@@ -108,7 +111,8 @@
    "ref": 4847.0,
    "ath": true,
    "since": "2001-01-01",
-   "rs": 97
+   "rs": 97,
+   "psr": 1.32
   },
   {
    "ticker": "7747.T",
@@ -134,7 +138,8 @@
    "ref": 4327.0,
    "ath": true,
    "since": "2005-06-17",
-   "rs": 96
+   "rs": 96,
+   "psr": 7.54
   },
   {
    "ticker": "8244.T",
@@ -160,7 +165,8 @@
    "ref": 2040.0,
    "ath": false,
    "since": "2000-04-04",
-   "rs": 86
+   "rs": 86,
+   "psr": 0.69
   },
   {
    "ticker": "9831.T",
@@ -186,7 +192,8 @@
    "ref": 812.2,
    "ath": false,
    "since": "2001-01-04",
-   "rs": 96
+   "rs": 96,
+   "psr": 0.3
   },
   {
    "ticker": "8200.T",
@@ -212,7 +219,8 @@
    "ref": 2578.0,
    "ath": false,
    "since": "2001-01-04",
-   "rs": 89
+   "rs": 89,
+   "psr": 1.45
   }
  ],
  "top_d1": [
@@ -238,7 +246,8 @@
    "above50": true,
    "above200": true,
    "score": 20.46,
-   "rs": 94
+   "rs": 94,
+   "psr": 1.94
   },
   {
    "ticker": "8630.T",
@@ -254,7 +263,7 @@
    "cap": "L",
    "mcap": 6156453412864,
    "mcap_usd": 38726652573,
-   "per": 68.8,
+   "per": 21.4,
    "r1w": -4.06,
    "r1m": 0.94,
    "rel1w": 3.64,
@@ -262,7 +271,8 @@
    "above50": true,
    "above200": true,
    "score": 17.24,
-   "rs": 91
+   "rs": 91,
+   "psr": 1.0
   },
   {
    "ticker": "4578.T",
@@ -286,7 +296,8 @@
    "above50": true,
    "above200": true,
    "score": 20.22,
-   "rs": 91
+   "rs": 91,
+   "psr": 2.41
   },
   {
    "ticker": "4307.T",
@@ -310,7 +321,8 @@
    "above50": true,
    "above200": true,
    "score": 22.98,
-   "rs": 94
+   "rs": 94,
+   "psr": 3.98
   },
   {
    "ticker": "8725.T",
@@ -326,7 +338,7 @@
    "cap": "L",
    "mcap": 7220044496896,
    "mcap_usd": 45417082863,
-   "per": 11.2,
+   "per": 8.4,
    "r1w": -4.42,
    "r1m": -1.24,
    "rel1w": 3.28,
@@ -334,7 +346,8 @@
    "above50": false,
    "above200": true,
    "score": 14.7,
-   "rs": 92
+   "rs": 92,
+   "psr": 0.96
   },
   {
    "ticker": "4502.T",
@@ -358,7 +371,8 @@
    "above50": true,
    "above200": true,
    "score": 31.46,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.37
   },
   {
    "ticker": "9101.T",
@@ -382,7 +396,8 @@
    "above50": false,
    "above200": true,
    "score": 5.63,
-   "rs": 89
+   "rs": 89,
+   "psr": 0.97
   },
   {
    "ticker": "7269.T",
@@ -406,7 +421,8 @@
    "above50": true,
    "above200": true,
    "score": 29.61,
-   "rs": 81
+   "rs": 81,
+   "psr": 0.62
   },
   {
    "ticker": "7751.T",
@@ -422,7 +438,7 @@
    "cap": "L",
    "mcap": 3996619374592,
    "mcap_usd": 25140398149,
-   "per": 12.2,
+   "per": 12.1,
    "r1w": -0.75,
    "r1m": -0.42,
    "rel1w": 6.95,
@@ -430,7 +446,8 @@
    "above50": true,
    "above200": true,
    "score": 19.2,
-   "rs": 82
+   "rs": 82,
+   "psr": 0.84
   },
   {
    "ticker": "9735.T",
@@ -454,7 +471,8 @@
    "above50": true,
    "above200": true,
    "score": 29.58,
-   "rs": 91
+   "rs": 91,
+   "psr": 2.2
   },
   {
    "ticker": "4901.T",
@@ -478,7 +496,8 @@
    "above50": true,
    "above200": true,
    "score": 31.77,
-   "rs": 90
+   "rs": 90,
+   "psr": 1.27
   },
   {
    "ticker": "7532.T",
@@ -502,7 +521,8 @@
    "above50": true,
    "above200": false,
    "score": 34.64,
-   "rs": 37
+   "rs": 37,
+   "psr": 0.99
   },
   {
    "ticker": "9107.T",
@@ -526,7 +546,8 @@
    "above50": false,
    "above200": true,
    "score": 3.73,
-   "rs": 90
+   "rs": 90,
+   "psr": 1.46
   },
   {
    "ticker": "4503.T",
@@ -550,7 +571,8 @@
    "above50": true,
    "above200": true,
    "score": 32.79,
-   "rs": 94
+   "rs": 94,
+   "psr": 2.07
   },
   {
    "ticker": "9432.T",
@@ -574,7 +596,8 @@
    "above50": false,
    "above200": true,
    "score": 15.12,
-   "rs": 83
+   "rs": 83,
+   "psr": 0.9
   },
   {
    "ticker": "6367.T",
@@ -598,7 +621,8 @@
    "above50": true,
    "above200": true,
    "score": 32.91,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.21
   },
   {
    "ticker": "4684.T",
@@ -622,7 +646,8 @@
    "above50": true,
    "above200": true,
    "score": 26.32,
-   "rs": 96
+   "rs": 96,
+   "psr": 18.23
   },
   {
    "ticker": "7733.T",
@@ -646,7 +671,8 @@
    "above50": false,
    "above200": true,
    "score": 31.49,
-   "rs": 46
+   "rs": 46,
+   "psr": 1.83
   },
   {
    "ticker": "4452.T",
@@ -670,7 +696,8 @@
    "above50": true,
    "above200": true,
    "score": 25.32,
-   "rs": 92
+   "rs": 92,
+   "psr": 2.02
   },
   {
    "ticker": "9532.T",
@@ -694,7 +721,8 @@
    "above50": false,
    "above200": false,
    "score": 17.59,
-   "rs": 77
+   "rs": 77,
+   "psr": 1.03
   },
   {
    "ticker": "9104.T",
@@ -717,7 +745,8 @@
    "rel1m": -1.06,
    "above50": false,
    "above200": true,
-   "rs": 89
+   "rs": 89,
+   "psr": 0.99
   },
   {
    "ticker": "6758.T",
@@ -741,7 +770,8 @@
    "above50": true,
    "above200": true,
    "score": 26.89,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.93
   },
   {
    "ticker": "9434.T",
@@ -765,7 +795,8 @@
    "above50": true,
    "above200": true,
    "score": 21.01,
-   "rs": 84
+   "rs": 84,
+   "psr": 1.57
   },
   {
    "ticker": "7550.T",
@@ -789,7 +820,8 @@
    "above50": true,
    "above200": true,
    "score": 35.47,
-   "rs": 96
+   "rs": 96,
+   "psr": 1.58
   },
   {
    "ticker": "6701.T",
@@ -812,7 +844,8 @@
    "rel1m": -8.86,
    "above50": false,
    "above200": false,
-   "rs": 35
+   "rs": 35,
+   "psr": 1.49
   },
   {
    "ticker": "9983.T",
@@ -836,7 +869,8 @@
    "above50": true,
    "above200": true,
    "score": 29.81,
-   "rs": 91
+   "rs": 91,
+   "psr": 6.37
   },
   {
    "ticker": "9843.T",
@@ -860,7 +894,8 @@
    "above50": true,
    "above200": true,
    "score": 40.1,
-   "rs": 96
+   "rs": 96,
+   "psr": 2.25
   },
   {
    "ticker": "1605.T",
@@ -882,7 +917,9 @@
    "rel1m": -0.18,
    "above50": false,
    "above200": false,
-   "rs": 41
+   "rs": 41,
+   "per": 7.6,
+   "psr": 1.97
   },
   {
    "ticker": "9022.T",
@@ -906,7 +943,8 @@
    "above50": true,
    "above200": true,
    "score": 32.22,
-   "rs": 86
+   "rs": 86,
+   "psr": 2.05
   },
   {
    "ticker": "2801.T",
@@ -930,7 +968,8 @@
    "above50": true,
    "above200": true,
    "score": 20.62,
-   "rs": 91
+   "rs": 91,
+   "psr": 2.09
   },
   {
    "ticker": "3382.T",
@@ -954,7 +993,8 @@
    "above50": true,
    "above200": true,
    "score": 21.08,
-   "rs": 80
+   "rs": 80,
+   "psr": 0.48
   },
   {
    "ticker": "3659.T",
@@ -978,7 +1018,8 @@
    "above50": true,
    "above200": true,
    "score": 31.49,
-   "rs": 78
+   "rs": 78,
+   "psr": 4.51
   },
   {
    "ticker": "4507.T",
@@ -1002,7 +1043,8 @@
    "above50": true,
    "above200": true,
    "score": 22.07,
-   "rs": 81
+   "rs": 81,
+   "psr": 4.17
   },
   {
    "ticker": "8795.T",
@@ -1026,7 +1068,8 @@
    "above50": false,
    "above200": true,
    "score": 14.28,
-   "rs": 87
+   "rs": 87,
+   "psr": 0.79
   },
   {
    "ticker": "6532.T",
@@ -1050,7 +1093,8 @@
    "above50": true,
    "above200": true,
    "score": 39.97,
-   "rs": 99
+   "rs": 99,
+   "psr": 10.87
   },
   {
    "ticker": "8001.T",
@@ -1074,7 +1118,8 @@
    "above50": false,
    "above200": true,
    "score": 11.13,
-   "rs": 87
+   "rs": 87,
+   "psr": 1.0
   },
   {
    "ticker": "7453.T",
@@ -1098,7 +1143,8 @@
    "above50": true,
    "above200": true,
    "score": 21.64,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.77
   },
   {
    "ticker": "4661.T",
@@ -1122,7 +1168,8 @@
    "above50": true,
    "above200": true,
    "score": 40.38,
-   "rs": 97
+   "rs": 97,
+   "psr": 8.57
   },
   {
    "ticker": "7203.T",
@@ -1146,7 +1193,8 @@
    "above50": true,
    "above200": true,
    "score": 24.31,
-   "rs": 80
+   "rs": 80,
+   "psr": 0.73
   },
   {
    "ticker": "9435.T",
@@ -1170,7 +1218,8 @@
    "above50": true,
    "above200": true,
    "score": 24.28,
-   "rs": 70
+   "rs": 70,
+   "psr": 2.2
   },
   {
    "ticker": "4568.T",
@@ -1194,7 +1243,8 @@
    "above50": false,
    "above200": false,
    "score": 10.55,
-   "rs": 52
+   "rs": 52,
+   "psr": 2.13
   },
   {
    "ticker": "9020.T",
@@ -1218,7 +1268,8 @@
    "above50": true,
    "above200": true,
    "score": 31.13,
-   "rs": 85
+   "rs": 85,
+   "psr": 1.42
   },
   {
    "ticker": "9502.T",
@@ -1241,7 +1292,9 @@
    "above50": false,
    "above200": false,
    "score": 6.28,
-   "rs": 44
+   "rs": 44,
+   "per": null,
+   "psr": 0.49
   },
   {
    "ticker": "7309.T",
@@ -1265,7 +1318,8 @@
    "above50": true,
    "above200": true,
    "score": 29.23,
-   "rs": 89
+   "rs": 89,
+   "psr": 3.53
   },
   {
    "ticker": "9531.T",
@@ -1289,7 +1343,8 @@
    "above50": true,
    "above200": false,
    "score": 23.56,
-   "rs": 75
+   "rs": 75,
+   "psr": 0.75
   },
   {
    "ticker": "6902.T",
@@ -1313,7 +1368,8 @@
    "above50": true,
    "above200": false,
    "score": 20.54,
-   "rs": 55
+   "rs": 55,
+   "psr": 0.61
   },
   {
    "ticker": "4519.T",
@@ -1337,7 +1393,8 @@
    "above50": true,
    "above200": false,
    "score": 28.54,
-   "rs": 55
+   "rs": 55,
+   "psr": 8.27
   },
   {
    "ticker": "2502.T",
@@ -1361,7 +1418,8 @@
    "above50": true,
    "above200": true,
    "score": 25.99,
-   "rs": 84
+   "rs": 84,
+   "psr": 0.86
   },
   {
    "ticker": "8058.T",
@@ -1384,7 +1442,8 @@
    "rel1m": 14.65,
    "above50": false,
    "above200": false,
-   "rs": 77
+   "rs": 77,
+   "psr": 0.86
   },
   {
    "ticker": "8593.T",
@@ -1408,7 +1467,8 @@
    "above50": false,
    "above200": false,
    "score": 15.34,
-   "rs": 51
+   "rs": 51,
+   "psr": 0.84
   },
   {
    "ticker": "446A.T",
@@ -1431,7 +1491,8 @@
    "rel1m": -4.38,
    "above50": false,
    "above200": true,
-   "rs": null
+   "rs": null,
+   "psr": 17.94
   },
   {
    "ticker": "2492.T",
@@ -1455,7 +1516,8 @@
    "above50": false,
    "above200": true,
    "score": 5.09,
-   "rs": 98
+   "rs": 98,
+   "psr": 9.14
   },
   {
    "ticker": "2212.T",
@@ -1479,7 +1541,8 @@
    "above50": true,
    "above200": true,
    "score": 35.64,
-   "rs": 94
+   "rs": 94,
+   "psr": 0.63
   },
   {
    "ticker": "8056.T",
@@ -1503,7 +1566,8 @@
    "above50": true,
    "above200": true,
    "score": 15.8,
-   "rs": 71
+   "rs": 71,
+   "psr": 1.09
   },
   {
    "ticker": "7201.T",
@@ -1526,7 +1590,9 @@
    "above50": false,
    "above200": false,
    "score": 16.72,
-   "rs": 14
+   "rs": 14,
+   "per": null,
+   "psr": 0.07
   },
   {
    "ticker": "4704.T",
@@ -1550,7 +1616,8 @@
    "above50": true,
    "above200": true,
    "score": 38.17,
-   "rs": 94
+   "rs": 94,
+   "psr": 3.31
   },
   {
    "ticker": "2175.T",
@@ -1573,7 +1640,9 @@
    "above50": false,
    "above200": true,
    "score": 7.81,
-   "rs": 94
+   "rs": 94,
+   "per": null,
+   "psr": 2.88
   },
   {
    "ticker": "2805.T",
@@ -1589,7 +1658,7 @@
    "cap": "M",
    "mcap": 170483007488,
    "mcap_usd": 1072409025,
-   "per": 17.5,
+   "per": 17.3,
    "r1w": -5.24,
    "r1m": 15.38,
    "rel1w": 2.45,
@@ -1597,7 +1666,8 @@
    "above50": true,
    "above200": true,
    "score": 30.5,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.27
   },
   {
    "ticker": "8194.T",
@@ -1621,7 +1691,8 @@
    "above50": true,
    "above200": true,
    "score": 35.95,
-   "rs": 82
+   "rs": 82,
+   "psr": 0.27
   },
   {
    "ticker": "9202.T",
@@ -1645,7 +1716,8 @@
    "above50": true,
    "above200": true,
    "score": 35.5,
-   "rs": 86
+   "rs": 86,
+   "psr": 0.51
   },
   {
    "ticker": "2331.T",
@@ -1669,7 +1741,8 @@
    "above50": true,
    "above200": true,
    "score": 35.77,
-   "rs": 92
+   "rs": 92,
+   "psr": 1.06
   },
   {
    "ticker": "2810.T",
@@ -1693,7 +1766,8 @@
    "above50": true,
    "above200": true,
    "score": 39.38,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.32
   },
   {
    "ticker": "8179.T",
@@ -1717,7 +1791,8 @@
    "above50": true,
    "above200": true,
    "score": 46.19,
-   "rs": 93
+   "rs": 93,
+   "psr": 0.95
   },
   {
    "ticker": "7747.T",
@@ -1741,7 +1816,8 @@
    "above50": true,
    "above200": true,
    "score": 52.58,
-   "rs": 96
+   "rs": 96,
+   "psr": 7.54
   },
   {
    "ticker": "2001.T",
@@ -1764,7 +1840,9 @@
    "above50": true,
    "above200": true,
    "score": 26.28,
-   "rs": 87
+   "rs": 87,
+   "per": 10.9,
+   "psr": 0.58
   },
   {
    "ticker": "5451.T",
@@ -1788,7 +1866,8 @@
    "above50": true,
    "above200": true,
    "score": 19.94,
-   "rs": 77
+   "rs": 77,
+   "psr": 0.99
   },
   {
    "ticker": "9869.T",
@@ -1812,7 +1891,8 @@
    "above50": false,
    "above200": true,
    "score": 19.77,
-   "rs": 81
+   "rs": 81,
+   "psr": 0.16
   },
   {
    "ticker": "9831.T",
@@ -1836,7 +1916,8 @@
    "above50": true,
    "above200": true,
    "score": 36.81,
-   "rs": 96
+   "rs": 96,
+   "psr": 0.3
   },
   {
    "ticker": "9009.T",
@@ -1860,7 +1941,8 @@
    "above50": true,
    "above200": true,
    "score": 30.71,
-   "rs": 93
+   "rs": 93,
+   "psr": 2.15
   },
   {
    "ticker": "9746.T",
@@ -1884,7 +1966,8 @@
    "above50": true,
    "above200": true,
    "score": 20.13,
-   "rs": 85
+   "rs": 85,
+   "psr": 2.43
   },
   {
    "ticker": "3076.T",
@@ -1908,7 +1991,8 @@
    "above50": true,
    "above200": true,
    "score": 27.56,
-   "rs": 88
+   "rs": 88,
+   "psr": 1.99
   },
   {
    "ticker": "9605.T",
@@ -1932,7 +2016,8 @@
    "above50": true,
    "above200": true,
    "score": 23.38,
-   "rs": 81
+   "rs": 81,
+   "psr": 2.09
   },
   {
    "ticker": "8278.T",
@@ -1948,7 +2033,7 @@
    "cap": "M",
    "mcap": 182725197824,
    "mcap_usd": 1149417494,
-   "per": 21.1,
+   "per": 21.0,
    "r1w": 1.98,
    "r1m": 7.94,
    "rel1w": 9.68,
@@ -1956,7 +2041,8 @@
    "above50": true,
    "above200": true,
    "score": 30.28,
-   "rs": 75
+   "rs": 75,
+   "psr": 0.23
   },
   {
    "ticker": "9007.T",
@@ -1980,7 +2066,8 @@
    "above50": true,
    "above200": true,
    "score": 21.14,
-   "rs": 81
+   "rs": 81,
+   "psr": 1.42
   },
   {
    "ticker": "3038.T",
@@ -2004,7 +2091,8 @@
    "above50": true,
    "above200": true,
    "score": 27.22,
-   "rs": 75
+   "rs": 75,
+   "psr": 1.18
   },
   {
    "ticker": "7976.T",
@@ -2028,7 +2116,8 @@
    "above50": false,
    "above200": true,
    "score": 9.65,
-   "rs": 96
+   "rs": 96,
+   "psr": 1.8
   },
   {
    "ticker": "8848.T",
@@ -2052,7 +2141,8 @@
    "above50": true,
    "above200": true,
    "score": 19.26,
-   "rs": 98
+   "rs": 98,
+   "psr": 0.69
   },
   {
    "ticker": "9110.T",
@@ -2076,7 +2166,8 @@
    "above50": true,
    "above200": true,
    "score": 20.56,
-   "rs": 95
+   "rs": 95,
+   "psr": 0.97
   },
   {
    "ticker": "9201.T",
@@ -2100,7 +2191,8 @@
    "above50": true,
    "above200": true,
    "score": 39.71,
-   "rs": 92
+   "rs": 92,
+   "psr": 0.71
   },
   {
    "ticker": "4722.T",
@@ -2124,7 +2216,8 @@
    "above50": true,
    "above200": true,
    "score": 20.57,
-   "rs": 91
+   "rs": 91,
+   "psr": 2.73
   },
   {
    "ticker": "4768.T",
@@ -2148,7 +2241,8 @@
    "above50": true,
    "above200": true,
    "score": 15.45,
-   "rs": 92
+   "rs": 92,
+   "psr": 1.04
   },
   {
    "ticker": "4665.T",
@@ -2172,7 +2266,8 @@
    "above50": true,
    "above200": true,
    "score": 22.57,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.16
   },
   {
    "ticker": "4812.T",
@@ -2196,7 +2291,8 @@
    "above50": true,
    "above200": true,
    "score": 20.54,
-   "rs": 91
+   "rs": 91,
+   "psr": 3.16
   },
   {
    "ticker": "7630.T",
@@ -2212,7 +2308,7 @@
    "cap": "M",
    "mcap": 193631191040,
    "mcap_usd": 1218020727,
-   "per": 85.2,
+   "per": 85.8,
    "r1w": 13.36,
    "r1m": 14.22,
    "rel1w": 21.06,
@@ -2220,7 +2316,8 @@
    "above50": true,
    "above200": true,
    "score": 47.94,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.82
   },
   {
    "ticker": "2811.T",
@@ -2244,7 +2341,8 @@
    "above50": true,
    "above200": true,
    "score": 22.67,
-   "rs": 81
+   "rs": 81,
+   "psr": 0.84
   },
   {
    "ticker": "8410.T",
@@ -2268,7 +2366,8 @@
    "above50": true,
    "above200": true,
    "score": 23.39,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.86
   },
   {
    "ticker": "3050.T",
@@ -2292,7 +2391,8 @@
    "above50": true,
    "above200": true,
    "score": 26.38,
-   "rs": 83
+   "rs": 83,
+   "psr": 0.41
   },
   {
    "ticker": "2371.T",
@@ -2316,7 +2416,8 @@
    "above50": false,
    "above200": true,
    "score": 19.78,
-   "rs": 95
+   "rs": 95,
+   "psr": 7.26
   },
   {
    "ticker": "4544.T",
@@ -2340,7 +2441,8 @@
    "above50": true,
    "above200": true,
    "score": 28.92,
-   "rs": 90
+   "rs": 90,
+   "psr": 0.88
   },
   {
    "ticker": "3626.T",
@@ -2364,7 +2466,8 @@
    "above50": true,
    "above200": true,
    "score": 16.45,
-   "rs": 85
+   "rs": 85,
+   "psr": 1.45
   },
   {
    "ticker": "3222.T",
@@ -2387,7 +2490,9 @@
    "above50": true,
    "above200": false,
    "score": 27.59,
-   "rs": 50
+   "rs": 50,
+   "per": null,
+   "psr": 0.16
   },
   {
    "ticker": "25935.T",
@@ -2411,7 +2516,8 @@
    "above50": true,
    "above200": true,
    "score": 18.34,
-   "rs": 75
+   "rs": 75,
+   "psr": 0.11
   },
   {
    "ticker": "7951.T",
@@ -2435,7 +2541,8 @@
    "above50": true,
    "above200": true,
    "score": 37.63,
-   "rs": 90
+   "rs": 90,
+   "psr": 1.25
   },
   {
    "ticker": "9759.T",
@@ -2459,7 +2566,8 @@
    "above50": true,
    "above200": true,
    "score": 19.83,
-   "rs": 81
+   "rs": 81,
+   "psr": 1.92
   },
   {
    "ticker": "2670.T",
@@ -2483,7 +2591,8 @@
    "above50": true,
    "above200": true,
    "score": 33.02,
-   "rs": 92
+   "rs": 92,
+   "psr": 2.08
   },
   {
    "ticker": "4626.T",
@@ -2507,7 +2616,8 @@
    "above50": false,
    "above200": false,
    "score": 14.38,
-   "rs": 56
+   "rs": 56,
+   "psr": 3.42
   },
   {
    "ticker": "8218.T",
@@ -2531,7 +2641,8 @@
    "above50": true,
    "above200": true,
    "score": 24.81,
-   "rs": 89
+   "rs": 89,
+   "psr": 0.48
   },
   {
    "ticker": "2815.T",
@@ -2555,7 +2666,8 @@
    "above50": true,
    "above200": false,
    "score": 21.13,
-   "rs": 57
+   "rs": 57,
+   "psr": 2.41
   },
   {
    "ticker": "3048.T",
@@ -2579,7 +2691,8 @@
    "above50": true,
    "above200": true,
    "score": 30.6,
-   "rs": 85
+   "rs": 85,
+   "psr": 0.31
   },
   {
    "ticker": "4912.T",
@@ -2603,7 +2716,8 @@
    "above50": true,
    "above200": true,
    "score": 47.31,
-   "rs": 95
+   "rs": 95,
+   "psr": 1.41
   },
   {
    "ticker": "6058.T",
@@ -2627,7 +2741,8 @@
    "above50": true,
    "above200": true,
    "score": 20.21,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.49
   },
   {
    "ticker": "6706.T",
@@ -2651,7 +2766,8 @@
    "above50": false,
    "above200": false,
    "score": 14.88,
-   "rs": 83
+   "rs": 83,
+   "psr": 0.73
   },
   {
    "ticker": "6630.T",
@@ -2673,7 +2789,9 @@
    "rel1m": -23.28,
    "above50": false,
    "above200": false,
-   "rs": 7
+   "rs": 7,
+   "per": null,
+   "psr": 1.06
   },
   {
    "ticker": "652A.T",
@@ -2695,7 +2813,9 @@
    "rel1m": null,
    "above50": null,
    "above200": null,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": 2.17
   },
   {
    "ticker": "6740.T",
@@ -2717,7 +2837,9 @@
    "rel1m": -5.52,
    "above50": false,
    "above200": false,
-   "rs": 18
+   "rs": 18,
+   "per": null,
+   "psr": 1.15
   },
   {
    "ticker": "6440.T",
@@ -2733,7 +2855,7 @@
    "cap": "S",
    "mcap": 18533560320,
    "mcap_usd": 116583803,
-   "per": 12.5,
+   "per": 12.7,
    "r1w": 2.79,
    "r1m": -9.26,
    "rel1w": 10.48,
@@ -2741,7 +2863,8 @@
    "above50": false,
    "above200": false,
    "score": 13.88,
-   "rs": 86
+   "rs": 86,
+   "psr": 0.21
   },
   {
    "ticker": "6099.T",
@@ -2765,7 +2888,8 @@
    "above50": true,
    "above200": true,
    "score": 28.57,
-   "rs": 80
+   "rs": 80,
+   "psr": 0.79
   },
   {
    "ticker": "9204.T",
@@ -2789,7 +2913,8 @@
    "above50": true,
    "above200": true,
    "score": 50.89,
-   "rs": 95
+   "rs": 95,
+   "psr": 0.28
   },
   {
    "ticker": "5337.T",
@@ -2811,7 +2936,9 @@
    "rel1m": -0.42,
    "above50": false,
    "above200": false,
-   "rs": 41
+   "rs": 41,
+   "per": null,
+   "psr": 4.49
   },
   {
    "ticker": "9887.T",
@@ -2835,7 +2962,8 @@
    "above50": true,
    "above200": true,
    "score": 18.55,
-   "rs": 80
+   "rs": 80,
+   "psr": 0.59
   },
   {
    "ticker": "6238.T",
@@ -2859,7 +2987,8 @@
    "above50": true,
    "above200": true,
    "score": 49.44,
-   "rs": 97
+   "rs": 97,
+   "psr": 0.94
   },
   {
    "ticker": "2349.T",
@@ -2883,7 +3012,8 @@
    "above50": true,
    "above200": true,
    "score": 23.12,
-   "rs": 79
+   "rs": 79,
+   "psr": 1.01
   },
   {
    "ticker": "4579.T",
@@ -2907,7 +3037,8 @@
    "above50": true,
    "above200": true,
    "score": 50.9,
-   "rs": 92
+   "rs": 92,
+   "psr": 4.79
   },
   {
    "ticker": "7931.T",
@@ -2931,7 +3062,8 @@
    "above50": false,
    "above200": false,
    "score": 6.59,
-   "rs": 55
+   "rs": 55,
+   "psr": 1.1
   },
   {
    "ticker": "2597.T",
@@ -2955,7 +3087,8 @@
    "above50": true,
    "above200": true,
    "score": 42.94,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.11
   },
   {
    "ticker": "3154.T",
@@ -2979,7 +3112,8 @@
    "above50": false,
    "above200": false,
    "score": 15.6,
-   "rs": 34
+   "rs": 34,
+   "psr": 0.05
   },
   {
    "ticker": "7839.T",
@@ -3003,7 +3137,8 @@
    "above50": true,
    "above200": true,
    "score": 27.84,
-   "rs": 94
+   "rs": 94,
+   "psr": 3.51
   },
   {
    "ticker": "8051.T",
@@ -3027,7 +3162,8 @@
    "above50": false,
    "above200": true,
    "score": 14.68,
-   "rs": 84
+   "rs": 84,
+   "psr": 0.26
   },
   {
    "ticker": "9347.T",
@@ -3051,7 +3187,8 @@
    "above50": true,
    "above200": true,
    "score": 28.99,
-   "rs": 88
+   "rs": 88,
+   "psr": 0.73
   },
   {
    "ticker": "1780.T",
@@ -3074,7 +3211,9 @@
    "above50": true,
    "above200": true,
    "score": 24.52,
-   "rs": 74
+   "rs": 74,
+   "per": 9.4,
+   "psr": 0.69
   },
   {
    "ticker": "9629.T",
@@ -3098,7 +3237,8 @@
    "above50": true,
    "above200": true,
    "score": 24.38,
-   "rs": 74
+   "rs": 74,
+   "psr": 1.78
   },
   {
    "ticker": "8153.T",
@@ -3122,7 +3262,8 @@
    "above50": true,
    "above200": true,
    "score": 43.99,
-   "rs": 93
+   "rs": 93,
+   "psr": 1.33
   },
   {
    "ticker": "2908.T",
@@ -3146,7 +3287,8 @@
    "above50": true,
    "above200": true,
    "score": 23.25,
-   "rs": 76
+   "rs": 76,
+   "psr": 0.83
   },
   {
    "ticker": "3950.T",
@@ -3170,7 +3312,8 @@
    "above50": true,
    "above200": true,
    "score": 26.19,
-   "rs": 88
+   "rs": 88,
+   "psr": 0.77
   },
   {
    "ticker": "1375.T",
@@ -3193,7 +3336,9 @@
    "above50": false,
    "above200": true,
    "score": 20.37,
-   "rs": 79
+   "rs": 79,
+   "per": 11.7,
+   "psr": 0.8
   },
   {
    "ticker": "9936.T",
@@ -3217,7 +3362,8 @@
    "above50": true,
    "above200": true,
    "score": 23.27,
-   "rs": 73
+   "rs": 73,
+   "psr": 1.37
   },
   {
    "ticker": "4801.T",
@@ -3241,7 +3387,8 @@
    "above50": true,
    "above200": false,
    "score": 22.66,
-   "rs": 59
+   "rs": 59,
+   "psr": 0.54
   },
   {
    "ticker": "9029.T",
@@ -3264,7 +3411,8 @@
    "rel1m": -6.12,
    "above50": false,
    "above200": false,
-   "rs": 18
+   "rs": 18,
+   "psr": 0.33
   },
   {
    "ticker": "2594.T",
@@ -3288,7 +3436,8 @@
    "above50": true,
    "above200": true,
    "score": 26.22,
-   "rs": 81
+   "rs": 81,
+   "psr": 0.46
   },
   {
    "ticker": "2804.T",
@@ -3312,7 +3461,8 @@
    "above50": true,
    "above200": true,
    "score": 24.06,
-   "rs": 75
+   "rs": 75,
+   "psr": 1.57
   },
   {
    "ticker": "4972.T",
@@ -3336,7 +3486,8 @@
    "above50": true,
    "above200": true,
    "score": 49.5,
-   "rs": 98
+   "rs": 98,
+   "psr": 1.66
   },
   {
    "ticker": "5982.T",
@@ -3360,7 +3511,8 @@
    "above50": false,
    "above200": false,
    "score": 16.87,
-   "rs": 64
+   "rs": 64,
+   "psr": 0.87
   },
   {
    "ticker": "7678.T",
@@ -3383,7 +3535,8 @@
    "rel1m": 21.3,
    "above50": true,
    "above200": true,
-   "rs": 97
+   "rs": 97,
+   "psr": 2.98
   },
   {
    "ticker": "4218.T",
@@ -3407,7 +3560,8 @@
    "above50": true,
    "above200": true,
    "score": 26.64,
-   "rs": 75
+   "rs": 75,
+   "psr": 0.78
   },
   {
    "ticker": "9686.T",
@@ -3431,7 +3585,8 @@
    "above50": true,
    "above200": true,
    "score": 24.07,
-   "rs": 71
+   "rs": 71,
+   "psr": 0.48
   },
   {
    "ticker": "9081.T",
@@ -3455,7 +3610,8 @@
    "above50": false,
    "above200": true,
    "score": 19.92,
-   "rs": 81
+   "rs": 81,
+   "psr": 0.37
   },
   {
    "ticker": "9795.T",
@@ -3479,7 +3635,8 @@
    "above50": true,
    "above200": false,
    "score": 20.12,
-   "rs": 59
+   "rs": 59,
+   "psr": 2.14
   },
   {
    "ticker": "3708.T",
@@ -3503,7 +3660,8 @@
    "above50": true,
    "above200": true,
    "score": 23.75,
-   "rs": 93
+   "rs": 93,
+   "psr": 0.76
   },
   {
    "ticker": "4951.T",
@@ -3527,7 +3685,8 @@
    "above50": true,
    "above200": true,
    "score": 21.16,
-   "rs": 67
+   "rs": 67,
+   "psr": 0.6
   },
   {
    "ticker": "2109.T",
@@ -3550,7 +3709,9 @@
    "above50": false,
    "above200": true,
    "score": 15.11,
-   "rs": 79
+   "rs": 79,
+   "per": 32.1,
+   "psr": 0.63
   },
   {
    "ticker": "7421.T",
@@ -3573,7 +3734,9 @@
    "above50": true,
    "above200": true,
    "score": 21.05,
-   "rs": 80
+   "rs": 80,
+   "per": null,
+   "psr": 1.1
   },
   {
    "ticker": "3196.T",
@@ -3597,7 +3760,8 @@
    "above50": false,
    "above200": false,
    "score": 13.19,
-   "rs": 41
+   "rs": 41,
+   "psr": 0.76
   },
   {
    "ticker": "6199.T",
@@ -3621,7 +3785,8 @@
    "above50": false,
    "above200": true,
    "score": 10.73,
-   "rs": 68
+   "rs": 68,
+   "psr": 0.71
   },
   {
    "ticker": "8244.T",
@@ -3645,7 +3810,8 @@
    "above50": true,
    "above200": true,
    "score": 32.91,
-   "rs": 86
+   "rs": 86,
+   "psr": 0.69
   },
   {
    "ticker": "3068.T",
@@ -3661,7 +3827,7 @@
    "cap": "S",
    "mcap": 19548327936,
    "mcap_usd": 122967113,
-   "per": 31.8,
+   "per": 48.4,
    "r1w": -0.48,
    "r1m": 0.0,
    "rel1w": 7.22,
@@ -3669,7 +3835,8 @@
    "above50": true,
    "above200": true,
    "score": 19.89,
-   "rs": 75
+   "rs": 75,
+   "psr": 0.53
   },
   {
    "ticker": "7512.T",
@@ -3693,7 +3860,8 @@
    "above50": false,
    "above200": false,
    "score": 23.04,
-   "rs": 54
+   "rs": 54,
+   "psr": 0.7
   },
   {
    "ticker": "8163.T",
@@ -3717,7 +3885,8 @@
    "above50": true,
    "above200": true,
    "score": 42.69,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.01
   },
   {
    "ticker": "9367.T",
@@ -3741,7 +3910,8 @@
    "above50": false,
    "above200": false,
    "score": 20.77,
-   "rs": 70
+   "rs": 70,
+   "psr": 0.92
   },
   {
    "ticker": "8255.T",
@@ -3765,7 +3935,8 @@
    "above50": true,
    "above200": true,
    "score": 39.05,
-   "rs": 95
+   "rs": 95,
+   "psr": 0.45
   },
   {
    "ticker": "2664.T",
@@ -3789,7 +3960,8 @@
    "above50": true,
    "above200": true,
    "score": 19.13,
-   "rs": 92
+   "rs": 92,
+   "psr": 0.31
   },
   {
    "ticker": "75505.T",
@@ -3810,7 +3982,9 @@
    "above50": false,
    "above200": false,
    "score": 20.01,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "94345.T",
@@ -3831,7 +4005,9 @@
    "above50": false,
    "above200": false,
    "score": 20.05,
-   "rs": 67
+   "rs": 67,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "94346.T",
@@ -3852,7 +4028,9 @@
    "above50": false,
    "above200": false,
    "score": 20.02,
-   "rs": 64
+   "rs": 64,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "50765.T",
@@ -3873,7 +4051,9 @@
    "above50": false,
    "above200": false,
    "score": 19.97,
-   "rs": 67
+   "rs": 67,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "92025.T",
@@ -3894,7 +4074,9 @@
    "above50": false,
    "above200": false,
    "score": 19.67,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "92015.T",
@@ -3915,7 +4097,9 @@
    "above50": false,
    "above200": null,
    "score": 18.58,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "1435.T",
@@ -3936,7 +4120,9 @@
    "above50": false,
    "above200": false,
    "score": 11.83,
-   "rs": 33
+   "rs": 33,
+   "per": 6.9,
+   "psr": null
   },
   {
    "ticker": "3498.T",
@@ -3957,7 +4143,8 @@
    "rel1m": 2.38,
    "above50": false,
    "above200": false,
-   "rs": 30
+   "rs": 30,
+   "psr": null
   }
  ],
  "top_w1": [
@@ -3983,7 +4170,8 @@
    "above50": true,
    "above200": true,
    "score": 40.1,
-   "rs": 96
+   "rs": 96,
+   "psr": 2.25
   },
   {
    "ticker": "4543.T",
@@ -4007,7 +4195,8 @@
    "above50": true,
    "above200": true,
    "score": 32.39,
-   "rs": 81
+   "rs": 81,
+   "psr": 3.08
   },
   {
    "ticker": "6532.T",
@@ -4031,7 +4220,8 @@
    "above50": true,
    "above200": true,
    "score": 39.97,
-   "rs": 99
+   "rs": 99,
+   "psr": 10.87
   },
   {
    "ticker": "7733.T",
@@ -4055,7 +4245,8 @@
    "above50": false,
    "above200": true,
    "score": 31.49,
-   "rs": 46
+   "rs": 46,
+   "psr": 1.83
   },
   {
    "ticker": "7832.T",
@@ -4079,7 +4270,8 @@
    "above50": true,
    "above200": true,
    "score": 32.77,
-   "rs": 98
+   "rs": 98,
+   "psr": 3.16
   },
   {
    "ticker": "4901.T",
@@ -4103,7 +4295,8 @@
    "above50": true,
    "above200": true,
    "score": 31.77,
-   "rs": 90
+   "rs": 90,
+   "psr": 1.27
   },
   {
    "ticker": "7532.T",
@@ -4127,7 +4320,8 @@
    "above50": true,
    "above200": false,
    "score": 34.64,
-   "rs": 37
+   "rs": 37,
+   "psr": 0.99
   },
   {
    "ticker": "2801.T",
@@ -4151,7 +4345,8 @@
    "above50": true,
    "above200": true,
    "score": 20.62,
-   "rs": 91
+   "rs": 91,
+   "psr": 2.09
   },
   {
    "ticker": "4503.T",
@@ -4175,7 +4370,8 @@
    "above50": true,
    "above200": true,
    "score": 32.79,
-   "rs": 94
+   "rs": 94,
+   "psr": 2.07
   },
   {
    "ticker": "7550.T",
@@ -4199,7 +4395,8 @@
    "above50": true,
    "above200": true,
    "score": 35.47,
-   "rs": 96
+   "rs": 96,
+   "psr": 1.58
   },
   {
    "ticker": "9766.T",
@@ -4223,7 +4420,8 @@
    "above50": true,
    "above200": true,
    "score": 39.63,
-   "rs": 96
+   "rs": 96,
+   "psr": 6.99
   },
   {
    "ticker": "9434.T",
@@ -4247,7 +4445,8 @@
    "above50": true,
    "above200": true,
    "score": 21.01,
-   "rs": 84
+   "rs": 84,
+   "psr": 1.57
   },
   {
    "ticker": "7269.T",
@@ -4271,7 +4470,8 @@
    "above50": true,
    "above200": true,
    "score": 29.61,
-   "rs": 81
+   "rs": 81,
+   "psr": 0.62
   },
   {
    "ticker": "9735.T",
@@ -4295,7 +4495,8 @@
    "above50": true,
    "above200": true,
    "score": 29.58,
-   "rs": 91
+   "rs": 91,
+   "psr": 2.2
   },
   {
    "ticker": "6367.T",
@@ -4319,7 +4520,8 @@
    "above50": true,
    "above200": true,
    "score": 32.91,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.21
   },
   {
    "ticker": "4307.T",
@@ -4343,7 +4545,8 @@
    "above50": true,
    "above200": true,
    "score": 22.98,
-   "rs": 94
+   "rs": 94,
+   "psr": 3.98
   },
   {
    "ticker": "4661.T",
@@ -4367,7 +4570,8 @@
    "above50": true,
    "above200": true,
    "score": 40.38,
-   "rs": 97
+   "rs": 97,
+   "psr": 8.57
   },
   {
    "ticker": "4578.T",
@@ -4391,7 +4595,8 @@
    "above50": true,
    "above200": true,
    "score": 20.22,
-   "rs": 91
+   "rs": 91,
+   "psr": 2.41
   },
   {
    "ticker": "4502.T",
@@ -4415,7 +4620,8 @@
    "above50": true,
    "above200": true,
    "score": 31.46,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.37
   },
   {
    "ticker": "7974.T",
@@ -4439,7 +4645,8 @@
    "above50": true,
    "above200": true,
    "score": 22.38,
-   "rs": 56
+   "rs": 56,
+   "psr": 4.67
   },
   {
    "ticker": "3659.T",
@@ -4463,7 +4670,8 @@
    "above50": true,
    "above200": true,
    "score": 31.49,
-   "rs": 78
+   "rs": 78,
+   "psr": 4.51
   },
   {
    "ticker": "9983.T",
@@ -4487,7 +4695,8 @@
    "above50": true,
    "above200": true,
    "score": 29.81,
-   "rs": 91
+   "rs": 91,
+   "psr": 6.37
   },
   {
    "ticker": "9433.T",
@@ -4503,7 +4712,7 @@
    "cap": "L",
    "mcap": 10515194576896,
    "mcap_usd": 66144947393,
-   "per": 15.2,
+   "per": 15.1,
    "r1w": 0.11,
    "r1m": -1.96,
    "rel1w": 7.8,
@@ -4511,7 +4720,8 @@
    "above50": false,
    "above200": true,
    "score": 18.51,
-   "rs": 81
+   "rs": 81,
+   "psr": 1.69
   },
   {
    "ticker": "9432.T",
@@ -4535,7 +4745,8 @@
    "above50": false,
    "above200": true,
    "score": 15.12,
-   "rs": 83
+   "rs": 83,
+   "psr": 0.9
   },
   {
    "ticker": "7453.T",
@@ -4559,7 +4770,8 @@
    "above50": true,
    "above200": true,
    "score": 21.64,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.77
   },
   {
    "ticker": "4684.T",
@@ -4583,7 +4795,8 @@
    "above50": true,
    "above200": true,
    "score": 26.32,
-   "rs": 96
+   "rs": 96,
+   "psr": 18.23
   },
   {
    "ticker": "7751.T",
@@ -4599,7 +4812,7 @@
    "cap": "L",
    "mcap": 3996619374592,
    "mcap_usd": 25140398149,
-   "per": 12.2,
+   "per": 12.1,
    "r1w": -0.75,
    "r1m": -0.42,
    "rel1w": 6.95,
@@ -4607,7 +4820,8 @@
    "above50": true,
    "above200": true,
    "score": 19.2,
-   "rs": 82
+   "rs": 82,
+   "psr": 0.84
   },
   {
    "ticker": "6758.T",
@@ -4631,7 +4845,8 @@
    "above50": true,
    "above200": true,
    "score": 26.89,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.93
   },
   {
    "ticker": "4519.T",
@@ -4655,7 +4870,8 @@
    "above50": true,
    "above200": false,
    "score": 28.54,
-   "rs": 55
+   "rs": 55,
+   "psr": 8.27
   },
   {
    "ticker": "2587.T",
@@ -4679,7 +4895,8 @@
    "above50": true,
    "above200": true,
    "score": 27.69,
-   "rs": 88
+   "rs": 88,
+   "psr": 0.88
   },
   {
    "ticker": "2502.T",
@@ -4703,7 +4920,8 @@
    "above50": true,
    "above200": true,
    "score": 25.99,
-   "rs": 84
+   "rs": 84,
+   "psr": 0.86
   },
   {
    "ticker": "4452.T",
@@ -4727,7 +4945,8 @@
    "above50": true,
    "above200": true,
    "score": 25.32,
-   "rs": 92
+   "rs": 92,
+   "psr": 2.02
   },
   {
    "ticker": "4911.T",
@@ -4751,7 +4970,8 @@
    "above50": true,
    "above200": true,
    "score": 36.92,
-   "rs": 96
+   "rs": 96,
+   "psr": 1.63
   },
   {
    "ticker": "4507.T",
@@ -4775,7 +4995,8 @@
    "above50": true,
    "above200": true,
    "score": 22.07,
-   "rs": 81
+   "rs": 81,
+   "psr": 4.17
   },
   {
    "ticker": "9022.T",
@@ -4799,7 +5020,8 @@
    "above50": true,
    "above200": true,
    "score": 32.22,
-   "rs": 86
+   "rs": 86,
+   "psr": 2.05
   },
   {
    "ticker": "9020.T",
@@ -4823,7 +5045,8 @@
    "above50": true,
    "above200": true,
    "score": 31.13,
-   "rs": 85
+   "rs": 85,
+   "psr": 1.42
   },
   {
    "ticker": "7936.T",
@@ -4846,7 +5069,8 @@
    "rel1m": -1.46,
    "above50": false,
    "above200": false,
-   "rs": 52
+   "rs": 52,
+   "psr": 2.92
   },
   {
    "ticker": "6902.T",
@@ -4870,7 +5094,8 @@
    "above50": true,
    "above200": false,
    "score": 20.54,
-   "rs": 55
+   "rs": 55,
+   "psr": 0.61
   },
   {
    "ticker": "9697.T",
@@ -4894,7 +5119,8 @@
    "above50": true,
    "above200": true,
    "score": 16.49,
-   "rs": 92
+   "rs": 92,
+   "psr": 7.87
   },
   {
    "ticker": "3382.T",
@@ -4918,7 +5144,8 @@
    "above50": true,
    "above200": true,
    "score": 21.08,
-   "rs": 80
+   "rs": 80,
+   "psr": 0.48
   },
   {
    "ticker": "6701.T",
@@ -4941,7 +5168,8 @@
    "rel1m": -8.86,
    "above50": false,
    "above200": false,
-   "rs": 35
+   "rs": 35,
+   "psr": 1.49
   },
   {
    "ticker": "9435.T",
@@ -4965,7 +5193,8 @@
    "above50": true,
    "above200": true,
    "score": 24.28,
-   "rs": 70
+   "rs": 70,
+   "psr": 2.2
   },
   {
    "ticker": "8593.T",
@@ -4989,7 +5218,8 @@
    "above50": false,
    "above200": false,
    "score": 15.34,
-   "rs": 51
+   "rs": 51,
+   "psr": 0.84
   },
   {
    "ticker": "1925.T",
@@ -5012,7 +5242,9 @@
    "above50": true,
    "above200": false,
    "score": 19.49,
-   "rs": 52
+   "rs": 52,
+   "per": 9.9,
+   "psr": 0.49
   },
   {
    "ticker": "2503.T",
@@ -5036,7 +5268,8 @@
    "above50": true,
    "above200": true,
    "score": 21.12,
-   "rs": 89
+   "rs": 89,
+   "psr": 0.94
   },
   {
    "ticker": "7272.T",
@@ -5060,7 +5293,8 @@
    "above50": false,
    "above200": true,
    "score": 13.56,
-   "rs": 94
+   "rs": 94,
+   "psr": 0.59
   },
   {
    "ticker": "7309.T",
@@ -5084,7 +5318,8 @@
    "above50": true,
    "above200": true,
    "score": 29.23,
-   "rs": 89
+   "rs": 89,
+   "psr": 3.53
   },
   {
    "ticker": "8113.T",
@@ -5108,7 +5343,8 @@
    "above50": true,
    "above200": true,
    "score": 26.23,
-   "rs": 87
+   "rs": 87,
+   "psr": 1.91
   },
   {
    "ticker": "7203.T",
@@ -5132,7 +5368,8 @@
    "above50": true,
    "above200": true,
    "score": 24.31,
-   "rs": 80
+   "rs": 80,
+   "psr": 0.73
   },
   {
    "ticker": "9532.T",
@@ -5156,7 +5393,8 @@
    "above50": false,
    "above200": false,
    "score": 17.59,
-   "rs": 77
+   "rs": 77,
+   "psr": 1.03
   },
   {
    "ticker": "7747.T",
@@ -5180,7 +5418,8 @@
    "above50": true,
    "above200": true,
    "score": 52.58,
-   "rs": 96
+   "rs": 96,
+   "psr": 7.54
   },
   {
    "ticker": "7630.T",
@@ -5196,7 +5435,7 @@
    "cap": "M",
    "mcap": 193631191040,
    "mcap_usd": 1218020727,
-   "per": 85.2,
+   "per": 85.8,
    "r1w": 13.36,
    "r1m": 14.22,
    "rel1w": 21.06,
@@ -5204,7 +5443,8 @@
    "above50": true,
    "above200": true,
    "score": 47.94,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.82
   },
   {
    "ticker": "4547.T",
@@ -5228,7 +5468,8 @@
    "above50": true,
    "above200": true,
    "score": 47.39,
-   "rs": 81
+   "rs": 81,
+   "psr": 1.88
   },
   {
    "ticker": "7716.T",
@@ -5251,7 +5492,9 @@
    "above50": true,
    "above200": true,
    "score": 44.68,
-   "rs": 92
+   "rs": 92,
+   "per": null,
+   "psr": 2.78
   },
   {
    "ticker": "8253.T",
@@ -5275,7 +5518,8 @@
    "above50": true,
    "above200": true,
    "score": 41.07,
-   "rs": 80
+   "rs": 80,
+   "psr": 1.22
   },
   {
    "ticker": "2810.T",
@@ -5299,7 +5543,8 @@
    "above50": true,
    "above200": true,
    "score": 39.38,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.32
   },
   {
    "ticker": "4527.T",
@@ -5323,7 +5568,8 @@
    "above50": false,
    "above200": true,
    "score": 18.91,
-   "rs": 71
+   "rs": 71,
+   "psr": 1.65
   },
   {
    "ticker": "8179.T",
@@ -5347,7 +5593,8 @@
    "above50": true,
    "above200": true,
    "score": 46.19,
-   "rs": 93
+   "rs": 93,
+   "psr": 0.95
   },
   {
    "ticker": "9831.T",
@@ -5371,7 +5618,8 @@
    "above50": true,
    "above200": true,
    "score": 36.81,
-   "rs": 96
+   "rs": 96,
+   "psr": 0.3
   },
   {
    "ticker": "6315.T",
@@ -5395,7 +5643,8 @@
    "above50": true,
    "above200": false,
    "score": 38.25,
-   "rs": 52
+   "rs": 52,
+   "psr": 2.73
   },
   {
    "ticker": "8086.T",
@@ -5411,7 +5660,7 @@
    "cap": "M",
    "mcap": 268034965504,
    "mcap_usd": 1686051415,
-   "per": 25.0,
+   "per": 24.8,
    "r1w": 5.97,
    "r1m": 8.17,
    "rel1w": 13.66,
@@ -5419,7 +5668,8 @@
    "above50": true,
    "above200": false,
    "score": 34.49,
-   "rs": 48
+   "rs": 48,
+   "psr": 0.35
   },
   {
    "ticker": "9989.T",
@@ -5443,7 +5693,8 @@
    "above50": true,
    "above200": true,
    "score": 40.63,
-   "rs": 82
+   "rs": 82,
+   "psr": 0.57
   },
   {
    "ticker": "7951.T",
@@ -5467,7 +5718,8 @@
    "above50": true,
    "above200": true,
    "score": 37.63,
-   "rs": 90
+   "rs": 90,
+   "psr": 1.25
   },
   {
    "ticker": "4704.T",
@@ -5491,7 +5743,8 @@
    "above50": true,
    "above200": true,
    "score": 38.17,
-   "rs": 94
+   "rs": 94,
+   "psr": 3.31
   },
   {
    "ticker": "8022.T",
@@ -5515,7 +5768,8 @@
    "above50": false,
    "above200": true,
    "score": 19.32,
-   "rs": 91
+   "rs": 91,
+   "psr": 1.17
   },
   {
    "ticker": "3635.T",
@@ -5539,7 +5793,8 @@
    "above50": true,
    "above200": true,
    "score": 39.61,
-   "rs": 90
+   "rs": 90,
+   "psr": 6.98
   },
   {
    "ticker": "3088.T",
@@ -5555,7 +5810,7 @@
    "cap": "M",
    "mcap": 1150137532416,
    "mcap_usd": 7234843447,
-   "per": 19.9,
+   "per": 20.0,
    "r1w": 4.47,
    "r1m": 13.51,
    "rel1w": 12.16,
@@ -5563,7 +5818,8 @@
    "above50": true,
    "above200": true,
    "score": 38.33,
-   "rs": 90
+   "rs": 90,
+   "psr": 1.0
   },
   {
    "ticker": "4088.T",
@@ -5579,7 +5835,7 @@
    "cap": "M",
    "mcap": 689867849728,
    "mcap_usd": 4339555706,
-   "per": 10.3,
+   "per": 17.2,
    "r1w": 4.3,
    "r1m": 12.23,
    "rel1w": 11.99,
@@ -5587,7 +5843,8 @@
    "above50": true,
    "above200": true,
    "score": 36.89,
-   "rs": 93
+   "rs": 93,
+   "psr": 0.65
   },
   {
    "ticker": "2269.T",
@@ -5611,7 +5868,8 @@
    "above50": true,
    "above200": true,
    "score": 30.31,
-   "rs": 93
+   "rs": 93,
+   "psr": 1.05
   },
   {
    "ticker": "2212.T",
@@ -5635,7 +5893,8 @@
    "above50": true,
    "above200": true,
    "score": 35.64,
-   "rs": 94
+   "rs": 94,
+   "psr": 0.63
   },
   {
    "ticker": "9706.T",
@@ -5659,7 +5918,8 @@
    "above50": true,
    "above200": true,
    "score": 41.99,
-   "rs": 94
+   "rs": 94,
+   "psr": 2.08
   },
   {
    "ticker": "4912.T",
@@ -5683,7 +5943,8 @@
    "above50": true,
    "above200": true,
    "score": 47.31,
-   "rs": 95
+   "rs": 95,
+   "psr": 1.41
   },
   {
    "ticker": "4768.T",
@@ -5707,7 +5968,8 @@
    "above50": true,
    "above200": true,
    "score": 15.45,
-   "rs": 92
+   "rs": 92,
+   "psr": 1.04
   },
   {
    "ticker": "2229.T",
@@ -5731,7 +5993,8 @@
    "above50": true,
    "above200": true,
    "score": 29.82,
-   "rs": 86
+   "rs": 86,
+   "psr": 1.15
   },
   {
    "ticker": "4816.T",
@@ -5755,7 +6018,8 @@
    "above50": true,
    "above200": true,
    "score": 38.04,
-   "rs": 94
+   "rs": 94,
+   "psr": 7.35
   },
   {
    "ticker": "2702.T",
@@ -5779,7 +6043,8 @@
    "above50": true,
    "above200": true,
    "score": 43.01,
-   "rs": 96
+   "rs": 96,
+   "psr": 3.16
   },
   {
    "ticker": "8227.T",
@@ -5803,7 +6068,8 @@
    "above50": true,
    "above200": false,
    "score": 31.61,
-   "rs": 17
+   "rs": 17,
+   "psr": 1.05
   },
   {
    "ticker": "8282.T",
@@ -5819,7 +6085,7 @@
    "cap": "M",
    "mcap": 273766531072,
    "mcap_usd": 1722105346,
-   "per": 12.3,
+   "per": 12.2,
    "r1w": 2.34,
    "r1m": 3.84,
    "rel1w": 10.04,
@@ -5827,7 +6093,8 @@
    "above50": true,
    "above200": false,
    "score": 26.55,
-   "rs": 68
+   "rs": 68,
+   "psr": 0.34
   },
   {
    "ticker": "6869.T",
@@ -5851,7 +6118,8 @@
    "above50": true,
    "above200": true,
    "score": 31.16,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.37
   },
   {
    "ticker": "9861.T",
@@ -5875,7 +6143,8 @@
    "above50": true,
    "above200": true,
    "score": 37.35,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.35
   },
   {
    "ticker": "2782.T",
@@ -5899,7 +6168,8 @@
    "above50": true,
    "above200": true,
    "score": 26.91,
-   "rs": 91
+   "rs": 91,
+   "psr": 1.02
   },
   {
    "ticker": "8278.T",
@@ -5915,7 +6185,7 @@
    "cap": "M",
    "mcap": 182725197824,
    "mcap_usd": 1149417494,
-   "per": 21.1,
+   "per": 21.0,
    "r1w": 1.98,
    "r1m": 7.94,
    "rel1w": 9.68,
@@ -5923,7 +6193,8 @@
    "above50": true,
    "above200": true,
    "score": 30.28,
-   "rs": 75
+   "rs": 75,
+   "psr": 0.23
   },
   {
    "ticker": "3092.T",
@@ -5947,7 +6218,8 @@
    "above50": true,
    "above200": true,
    "score": 20.92,
-   "rs": 81
+   "rs": 81,
+   "psr": 4.44
   },
   {
    "ticker": "2331.T",
@@ -5971,7 +6243,8 @@
    "above50": true,
    "above200": true,
    "score": 35.77,
-   "rs": 92
+   "rs": 92,
+   "psr": 1.06
   },
   {
    "ticker": "4523.T",
@@ -5995,7 +6268,8 @@
    "above50": true,
    "above200": true,
    "score": 26.79,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.66
   },
   {
    "ticker": "6412.T",
@@ -6019,7 +6293,8 @@
    "above50": true,
    "above200": true,
    "score": 26.76,
-   "rs": 77
+   "rs": 77,
+   "psr": 0.79
   },
   {
    "ticker": "3076.T",
@@ -6043,7 +6318,8 @@
    "above50": true,
    "above200": true,
    "score": 27.56,
-   "rs": 88
+   "rs": 88,
+   "psr": 1.99
   },
   {
    "ticker": "9601.T",
@@ -6067,7 +6343,8 @@
    "above50": true,
    "above200": true,
    "score": 28.76,
-   "rs": 85
+   "rs": 85,
+   "psr": 1.74
   },
   {
    "ticker": "3197.T",
@@ -6091,7 +6368,8 @@
    "above50": true,
    "above200": true,
    "score": 26.22,
-   "rs": 92
+   "rs": 92,
+   "psr": 1.72
   },
   {
    "ticker": "3048.T",
@@ -6115,7 +6393,8 @@
    "above50": true,
    "above200": true,
    "score": 30.6,
-   "rs": 85
+   "rs": 85,
+   "psr": 0.31
   },
   {
    "ticker": "417A.T",
@@ -6139,7 +6418,8 @@
    "above50": true,
    "above200": true,
    "score": 27.95,
-   "rs": 87
+   "rs": 87,
+   "psr": 0.46
   },
   {
    "ticker": "6465.T",
@@ -6163,7 +6443,8 @@
    "above50": false,
    "above200": false,
    "score": 17.32,
-   "rs": 52
+   "rs": 52,
+   "psr": 1.34
   },
   {
    "ticker": "3222.T",
@@ -6186,7 +6467,9 @@
    "above50": true,
    "above200": false,
    "score": 27.59,
-   "rs": 50
+   "rs": 50,
+   "per": null,
+   "psr": 0.16
   },
   {
    "ticker": "2784.T",
@@ -6210,7 +6493,8 @@
    "above50": false,
    "above200": false,
    "score": 20.43,
-   "rs": 68
+   "rs": 68,
+   "psr": 0.13
   },
   {
    "ticker": "9684.T",
@@ -6234,7 +6518,8 @@
    "above50": true,
    "above200": true,
    "score": 40.87,
-   "rs": 94
+   "rs": 94,
+   "psr": 3.96
   },
   {
    "ticker": "2201.T",
@@ -6258,7 +6543,8 @@
    "above50": true,
    "above200": false,
    "score": 24.46,
-   "rs": 54
+   "rs": 54,
+   "psr": 0.86
   },
   {
    "ticker": "3397.T",
@@ -6282,7 +6568,8 @@
    "above50": true,
    "above200": true,
    "score": 40.88,
-   "rs": 95
+   "rs": 95,
+   "psr": 1.69
   },
   {
    "ticker": "3087.T",
@@ -6306,7 +6593,8 @@
    "above50": true,
    "above200": true,
    "score": 35.94,
-   "rs": 96
+   "rs": 96,
+   "psr": 1.0
   },
   {
    "ticker": "3038.T",
@@ -6330,7 +6618,8 @@
    "above50": true,
    "above200": true,
    "score": 27.22,
-   "rs": 75
+   "rs": 75,
+   "psr": 1.18
   },
   {
    "ticker": "7867.T",
@@ -6354,7 +6643,8 @@
    "above50": true,
    "above200": true,
    "score": 37.77,
-   "rs": 98
+   "rs": 98,
+   "psr": 1.58
   },
   {
    "ticker": "7030.T",
@@ -6378,7 +6668,8 @@
    "above50": true,
    "above200": true,
    "score": 85.69,
-   "rs": 86
+   "rs": 86,
+   "psr": 0.6
   },
   {
    "ticker": "4418.T",
@@ -6402,7 +6693,8 @@
    "above50": true,
    "above200": true,
    "score": 57.07,
-   "rs": 91
+   "rs": 91,
+   "psr": 0.79
   },
   {
    "ticker": "7522.T",
@@ -6426,7 +6718,8 @@
    "above50": true,
    "above200": true,
    "score": 94.81,
-   "rs": 96
+   "rs": 96,
+   "psr": 0.52
   },
   {
    "ticker": "1853.T",
@@ -6449,7 +6742,9 @@
    "above50": true,
    "above200": true,
    "score": 119.29,
-   "rs": 98
+   "rs": 98,
+   "per": 18.7,
+   "psr": 0.57
   },
   {
    "ticker": "6238.T",
@@ -6473,7 +6768,8 @@
    "above50": true,
    "above200": true,
    "score": 49.44,
-   "rs": 97
+   "rs": 97,
+   "psr": 0.94
   },
   {
    "ticker": "4579.T",
@@ -6497,7 +6793,8 @@
    "above50": true,
    "above200": true,
    "score": 50.9,
-   "rs": 92
+   "rs": 92,
+   "psr": 4.79
   },
   {
    "ticker": "4972.T",
@@ -6521,7 +6818,8 @@
    "above50": true,
    "above200": true,
    "score": 49.5,
-   "rs": 98
+   "rs": 98,
+   "psr": 1.66
   },
   {
    "ticker": "6167.T",
@@ -6545,7 +6843,8 @@
    "above50": true,
    "above200": true,
    "score": 37.1,
-   "rs": 80
+   "rs": 80,
+   "psr": 1.05
   },
   {
    "ticker": "4919.T",
@@ -6569,7 +6868,8 @@
    "above50": true,
    "above200": true,
    "score": 40.17,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.07
   },
   {
    "ticker": "3962.T",
@@ -6593,7 +6893,8 @@
    "above50": false,
    "above200": false,
    "score": 21.44,
-   "rs": 24
+   "rs": 24,
+   "psr": 1.04
   },
   {
    "ticker": "6317.T",
@@ -6617,7 +6918,8 @@
    "above50": true,
    "above200": true,
    "score": 33.77,
-   "rs": 97
+   "rs": 97,
+   "psr": 0.38
   },
   {
    "ticker": "2334.T",
@@ -6640,7 +6942,9 @@
    "above50": false,
    "above200": false,
    "score": 18.92,
-   "rs": 67
+   "rs": 67,
+   "per": null,
+   "psr": 1.09
   },
   {
    "ticker": "436A.T",
@@ -6664,7 +6968,8 @@
    "above50": true,
    "above200": true,
    "score": 29.38,
-   "rs": 97
+   "rs": 97,
+   "psr": 9.7
   },
   {
    "ticker": "6877.T",
@@ -6688,7 +6993,8 @@
    "above50": true,
    "above200": true,
    "score": 29.68,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.35
   },
   {
    "ticker": "9204.T",
@@ -6712,7 +7018,8 @@
    "above50": true,
    "above200": true,
    "score": 50.89,
-   "rs": 95
+   "rs": 95,
+   "psr": 0.28
   },
   {
    "ticker": "6837.T",
@@ -6736,7 +7043,8 @@
    "above50": true,
    "above200": true,
    "score": 29.54,
-   "rs": 95
+   "rs": 95,
+   "psr": 1.0
   },
   {
    "ticker": "5992.T",
@@ -6759,7 +7067,8 @@
    "rel1m": -14.15,
    "above50": false,
    "above200": false,
-   "rs": 14
+   "rs": 14,
+   "psr": 0.61
   },
   {
    "ticker": "3765.T",
@@ -6783,7 +7092,8 @@
    "above50": true,
    "above200": true,
    "score": 34.46,
-   "rs": 79
+   "rs": 79,
+   "psr": 1.33
   },
   {
    "ticker": "2597.T",
@@ -6807,7 +7117,8 @@
    "above50": true,
    "above200": true,
    "score": 42.94,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.11
   },
   {
    "ticker": "8281.T",
@@ -6831,7 +7142,8 @@
    "above50": true,
    "above200": true,
    "score": 33.28,
-   "rs": 75
+   "rs": 75,
+   "psr": 0.18
   },
   {
    "ticker": "9823.T",
@@ -6855,7 +7167,8 @@
    "above50": true,
    "above200": false,
    "score": 32.99,
-   "rs": 28
+   "rs": 28,
+   "psr": 0.22
   },
   {
    "ticker": "3865.T",
@@ -6879,7 +7192,8 @@
    "above50": false,
    "above200": false,
    "score": 27.16,
-   "rs": 58
+   "rs": 58,
+   "psr": 0.47
   },
   {
    "ticker": "4343.T",
@@ -6903,7 +7217,8 @@
    "above50": true,
    "above200": true,
    "score": 38.16,
-   "rs": 85
+   "rs": 85,
+   "psr": 0.61
   },
   {
    "ticker": "8153.T",
@@ -6927,7 +7242,8 @@
    "above50": true,
    "above200": true,
    "score": 43.99,
-   "rs": 93
+   "rs": 93,
+   "psr": 1.33
   },
   {
    "ticker": "367A.T",
@@ -6951,7 +7267,8 @@
    "above50": true,
    "above200": true,
    "score": 21.99,
-   "rs": 95
+   "rs": 95,
+   "psr": 0.88
   },
   {
    "ticker": "7860.T",
@@ -6975,7 +7292,8 @@
    "above50": true,
    "above200": true,
    "score": 35.61,
-   "rs": 89
+   "rs": 89,
+   "psr": 0.38
   },
   {
    "ticker": "9470.T",
@@ -6999,7 +7317,8 @@
    "above50": true,
    "above200": true,
    "score": 30.1,
-   "rs": 79
+   "rs": 79,
+   "psr": 0.22
   },
   {
    "ticker": "4481.T",
@@ -7023,7 +7342,8 @@
    "above50": true,
    "above200": true,
    "score": 27.67,
-   "rs": 74
+   "rs": 74,
+   "psr": 2.66
   },
   {
    "ticker": "3542.T",
@@ -7047,7 +7367,8 @@
    "above50": true,
    "above200": true,
    "score": 28.26,
-   "rs": 87
+   "rs": 87,
+   "psr": 1.97
   },
   {
    "ticker": "2326.T",
@@ -7071,7 +7392,8 @@
    "above50": true,
    "above200": true,
    "score": 14.41,
-   "rs": 89
+   "rs": 89,
+   "psr": 6.43
   },
   {
    "ticker": "2874.T",
@@ -7094,7 +7416,9 @@
    "above50": false,
    "above200": false,
    "score": 27.17,
-   "rs": 74
+   "rs": 74,
+   "per": null,
+   "psr": 0.81
   },
   {
    "ticker": "3191.T",
@@ -7118,7 +7442,8 @@
    "above50": true,
    "above200": true,
    "score": 25.9,
-   "rs": 83
+   "rs": 83,
+   "psr": 0.99
   },
   {
    "ticker": "3028.T",
@@ -7142,7 +7467,8 @@
    "above50": true,
    "above200": true,
    "score": 33.74,
-   "rs": 92
+   "rs": 92,
+   "psr": 0.35
   },
   {
    "ticker": "7844.T",
@@ -7166,7 +7492,8 @@
    "above50": true,
    "above200": true,
    "score": 31.06,
-   "rs": 90
+   "rs": 90,
+   "psr": 1.03
   },
   {
    "ticker": "7839.T",
@@ -7190,7 +7517,8 @@
    "above50": true,
    "above200": true,
    "score": 27.84,
-   "rs": 94
+   "rs": 94,
+   "psr": 3.51
   },
   {
    "ticker": "4526.T",
@@ -7214,7 +7542,8 @@
    "above50": true,
    "above200": true,
    "score": 41.98,
-   "rs": 93
+   "rs": 93,
+   "psr": 1.09
   },
   {
    "ticker": "8275.T",
@@ -7230,7 +7559,7 @@
    "cap": "S",
    "mcap": 27105699840,
    "mcap_usd": 170506126,
-   "per": 18.2,
+   "per": 17.7,
    "r1w": 3.49,
    "r1m": -5.55,
    "rel1w": 11.19,
@@ -7238,7 +7567,8 @@
    "above50": false,
    "above200": false,
    "score": 18.3,
-   "rs": 58
+   "rs": 58,
+   "psr": 0.37
   },
   {
    "ticker": "7730.T",
@@ -7262,7 +7592,8 @@
    "above50": true,
    "above200": false,
    "score": 24.76,
-   "rs": 59
+   "rs": 59,
+   "psr": 4.61
   },
   {
    "ticker": "8200.T",
@@ -7286,7 +7617,8 @@
    "above50": true,
    "above200": true,
    "score": 32.94,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.45
   },
   {
    "ticker": "3916.T",
@@ -7310,7 +7642,8 @@
    "above50": true,
    "above200": true,
    "score": 27.01,
-   "rs": 73
+   "rs": 73,
+   "psr": 1.22
   },
   {
    "ticker": "8163.T",
@@ -7334,7 +7667,8 @@
    "above50": true,
    "above200": true,
    "score": 42.69,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.01
   },
   {
    "ticker": "3825.T",
@@ -7356,7 +7690,9 @@
    "rel1m": -12.54,
    "above50": false,
    "above200": false,
-   "rs": 18
+   "rs": 18,
+   "per": null,
+   "psr": 1.01
   },
   {
    "ticker": "6440.T",
@@ -7372,7 +7708,7 @@
    "cap": "S",
    "mcap": 18533560320,
    "mcap_usd": 116583803,
-   "per": 12.5,
+   "per": 12.7,
    "r1w": 2.79,
    "r1m": -9.26,
    "rel1w": 10.48,
@@ -7380,7 +7716,8 @@
    "above50": false,
    "above200": false,
    "score": 13.88,
-   "rs": 86
+   "rs": 86,
+   "psr": 0.21
   },
   {
    "ticker": "4933.T",
@@ -7404,7 +7741,8 @@
    "above50": true,
    "above200": true,
    "score": 29.19,
-   "rs": 99
+   "rs": 99,
+   "psr": 0.76
   },
   {
    "ticker": "9413.T",
@@ -7428,7 +7766,8 @@
    "above50": true,
    "above200": false,
    "score": 28.47,
-   "rs": 42
+   "rs": 42,
+   "psr": 0.6
   },
   {
    "ticker": "6420.T",
@@ -7452,7 +7791,8 @@
    "above50": true,
    "above200": true,
    "score": 23.72,
-   "rs": 65
+   "rs": 65,
+   "psr": 0.98
   },
   {
    "ticker": "8244.T",
@@ -7476,7 +7816,8 @@
    "above50": true,
    "above200": true,
    "score": 32.91,
-   "rs": 86
+   "rs": 86,
+   "psr": 0.69
   },
   {
    "ticker": "2429.T",
@@ -7500,7 +7841,8 @@
    "above50": true,
    "above200": true,
    "score": 23.58,
-   "rs": 85
+   "rs": 85,
+   "psr": 0.16
   },
   {
    "ticker": "9347.T",
@@ -7524,7 +7866,8 @@
    "above50": true,
    "above200": true,
    "score": 28.99,
-   "rs": 88
+   "rs": 88,
+   "psr": 0.73
   },
   {
    "ticker": "2148.T",
@@ -7548,7 +7891,8 @@
    "above50": true,
    "above200": false,
    "score": 28.4,
-   "rs": 32
+   "rs": 32,
+   "psr": 2.65
   },
   {
    "ticker": "94345.T",
@@ -7569,7 +7913,9 @@
    "above50": false,
    "above200": false,
    "score": 20.05,
-   "rs": 67
+   "rs": 67,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "94346.T",
@@ -7590,7 +7936,9 @@
    "above50": false,
    "above200": false,
    "score": 20.02,
-   "rs": 64
+   "rs": 64,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "75505.T",
@@ -7611,7 +7959,9 @@
    "above50": false,
    "above200": false,
    "score": 20.01,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "92025.T",
@@ -7632,7 +7982,9 @@
    "above50": false,
    "above200": false,
    "score": 19.67,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "50765.T",
@@ -7653,7 +8005,9 @@
    "above50": false,
    "above200": false,
    "score": 19.97,
-   "rs": 67
+   "rs": 67,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "92015.T",
@@ -7674,7 +8028,9 @@
    "above50": false,
    "above200": null,
    "score": 18.58,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "1435.T",
@@ -7695,7 +8051,9 @@
    "above50": false,
    "above200": false,
    "score": 11.83,
-   "rs": 33
+   "rs": 33,
+   "per": 6.9,
+   "psr": null
   },
   {
    "ticker": "3498.T",
@@ -7716,7 +8074,8 @@
    "rel1m": 2.38,
    "above50": false,
    "above200": false,
-   "rs": 30
+   "rs": 30,
+   "psr": null
   }
  ],
  "w1_week": "2026-11-16~2026-11-20",
@@ -7743,7 +8102,8 @@
    "above50": true,
    "above200": true,
    "score": 40.38,
-   "rs": 97
+   "rs": 97,
+   "psr": 8.57
   },
   {
    "ticker": "9843.T",
@@ -7767,7 +8127,8 @@
    "above50": true,
    "above200": true,
    "score": 40.1,
-   "rs": 96
+   "rs": 96,
+   "psr": 2.25
   },
   {
    "ticker": "6532.T",
@@ -7791,7 +8152,8 @@
    "above50": true,
    "above200": true,
    "score": 39.97,
-   "rs": 99
+   "rs": 99,
+   "psr": 10.87
   },
   {
    "ticker": "9766.T",
@@ -7815,7 +8177,8 @@
    "above50": true,
    "above200": true,
    "score": 39.63,
-   "rs": 96
+   "rs": 96,
+   "psr": 6.99
   },
   {
    "ticker": "4911.T",
@@ -7839,7 +8202,8 @@
    "above50": true,
    "above200": true,
    "score": 36.92,
-   "rs": 96
+   "rs": 96,
+   "psr": 1.63
   },
   {
    "ticker": "7550.T",
@@ -7863,7 +8227,8 @@
    "above50": true,
    "above200": true,
    "score": 35.47,
-   "rs": 96
+   "rs": 96,
+   "psr": 1.58
   },
   {
    "ticker": "7532.T",
@@ -7887,7 +8252,8 @@
    "above50": true,
    "above200": false,
    "score": 34.64,
-   "rs": 37
+   "rs": 37,
+   "psr": 0.99
   },
   {
    "ticker": "6367.T",
@@ -7911,7 +8277,8 @@
    "above50": true,
    "above200": true,
    "score": 32.91,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.21
   },
   {
    "ticker": "4503.T",
@@ -7935,7 +8302,8 @@
    "above50": true,
    "above200": true,
    "score": 32.79,
-   "rs": 94
+   "rs": 94,
+   "psr": 2.07
   },
   {
    "ticker": "7832.T",
@@ -7959,7 +8327,8 @@
    "above50": true,
    "above200": true,
    "score": 32.77,
-   "rs": 98
+   "rs": 98,
+   "psr": 3.16
   },
   {
    "ticker": "4543.T",
@@ -7983,7 +8352,8 @@
    "above50": true,
    "above200": true,
    "score": 32.39,
-   "rs": 81
+   "rs": 81,
+   "psr": 3.08
   },
   {
    "ticker": "9022.T",
@@ -8007,7 +8377,8 @@
    "above50": true,
    "above200": true,
    "score": 32.22,
-   "rs": 86
+   "rs": 86,
+   "psr": 2.05
   },
   {
    "ticker": "4901.T",
@@ -8031,7 +8402,8 @@
    "above50": true,
    "above200": true,
    "score": 31.77,
-   "rs": 90
+   "rs": 90,
+   "psr": 1.27
   },
   {
    "ticker": "3659.T",
@@ -8055,7 +8427,8 @@
    "above50": true,
    "above200": true,
    "score": 31.49,
-   "rs": 78
+   "rs": 78,
+   "psr": 4.51
   },
   {
    "ticker": "7733.T",
@@ -8079,7 +8452,8 @@
    "above50": false,
    "above200": true,
    "score": 31.49,
-   "rs": 46
+   "rs": 46,
+   "psr": 1.83
   },
   {
    "ticker": "4502.T",
@@ -8103,7 +8477,8 @@
    "above50": true,
    "above200": true,
    "score": 31.46,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.37
   },
   {
    "ticker": "9020.T",
@@ -8127,7 +8502,8 @@
    "above50": true,
    "above200": true,
    "score": 31.13,
-   "rs": 85
+   "rs": 85,
+   "psr": 1.42
   },
   {
    "ticker": "9983.T",
@@ -8151,7 +8527,8 @@
    "above50": true,
    "above200": true,
    "score": 29.81,
-   "rs": 91
+   "rs": 91,
+   "psr": 6.37
   },
   {
    "ticker": "7269.T",
@@ -8175,7 +8552,8 @@
    "above50": true,
    "above200": true,
    "score": 29.61,
-   "rs": 81
+   "rs": 81,
+   "psr": 0.62
   },
   {
    "ticker": "9735.T",
@@ -8199,7 +8577,8 @@
    "above50": true,
    "above200": true,
    "score": 29.58,
-   "rs": 91
+   "rs": 91,
+   "psr": 2.2
   },
   {
    "ticker": "7309.T",
@@ -8223,7 +8602,8 @@
    "above50": true,
    "above200": true,
    "score": 29.23,
-   "rs": 89
+   "rs": 89,
+   "psr": 3.53
   },
   {
    "ticker": "4519.T",
@@ -8247,7 +8627,8 @@
    "above50": true,
    "above200": false,
    "score": 28.54,
-   "rs": 55
+   "rs": 55,
+   "psr": 8.27
   },
   {
    "ticker": "2587.T",
@@ -8271,7 +8652,8 @@
    "above50": true,
    "above200": true,
    "score": 27.69,
-   "rs": 88
+   "rs": 88,
+   "psr": 0.88
   },
   {
    "ticker": "6758.T",
@@ -8295,7 +8677,8 @@
    "above50": true,
    "above200": true,
    "score": 26.89,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.93
   },
   {
    "ticker": "4684.T",
@@ -8319,7 +8702,8 @@
    "above50": true,
    "above200": true,
    "score": 26.32,
-   "rs": 96
+   "rs": 96,
+   "psr": 18.23
   },
   {
    "ticker": "8113.T",
@@ -8343,7 +8727,8 @@
    "above50": true,
    "above200": true,
    "score": 26.23,
-   "rs": 87
+   "rs": 87,
+   "psr": 1.91
   },
   {
    "ticker": "2502.T",
@@ -8367,7 +8752,8 @@
    "above50": true,
    "above200": true,
    "score": 25.99,
-   "rs": 84
+   "rs": 84,
+   "psr": 0.86
   },
   {
    "ticker": "4452.T",
@@ -8391,7 +8777,8 @@
    "above50": true,
    "above200": true,
    "score": 25.32,
-   "rs": 92
+   "rs": 92,
+   "psr": 2.02
   },
   {
    "ticker": "1802.T",
@@ -8414,7 +8801,9 @@
    "above50": true,
    "above200": false,
    "score": 24.92,
-   "rs": 64
+   "rs": 64,
+   "per": 11.8,
+   "psr": 0.79
   },
   {
    "ticker": "7203.T",
@@ -8438,7 +8827,8 @@
    "above50": true,
    "above200": true,
    "score": 24.31,
-   "rs": 80
+   "rs": 80,
+   "psr": 0.73
   },
   {
    "ticker": "9435.T",
@@ -8462,7 +8852,8 @@
    "above50": true,
    "above200": true,
    "score": 24.28,
-   "rs": 70
+   "rs": 70,
+   "psr": 2.2
   },
   {
    "ticker": "9531.T",
@@ -8486,7 +8877,8 @@
    "above50": true,
    "above200": false,
    "score": 23.56,
-   "rs": 75
+   "rs": 75,
+   "psr": 0.75
   },
   {
    "ticker": "4612.T",
@@ -8510,7 +8902,8 @@
    "above50": true,
    "above200": true,
    "score": 23.14,
-   "rs": 93
+   "rs": 93,
+   "psr": 1.57
   },
   {
    "ticker": "4307.T",
@@ -8534,7 +8927,8 @@
    "above50": true,
    "above200": true,
    "score": 22.98,
-   "rs": 94
+   "rs": 94,
+   "psr": 3.98
   },
   {
    "ticker": "5108.T",
@@ -8558,7 +8952,8 @@
    "above50": true,
    "above200": true,
    "score": 22.45,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.1
   },
   {
    "ticker": "7974.T",
@@ -8582,7 +8977,8 @@
    "above50": true,
    "above200": true,
    "score": 22.38,
-   "rs": 56
+   "rs": 56,
+   "psr": 4.67
   },
   {
    "ticker": "8267.T",
@@ -8606,7 +9002,8 @@
    "above50": false,
    "above200": false,
    "score": 22.29,
-   "rs": 12
+   "rs": 12,
+   "psr": 0.29
   },
   {
    "ticker": "4507.T",
@@ -8630,7 +9027,8 @@
    "above50": true,
    "above200": true,
    "score": 22.07,
-   "rs": 81
+   "rs": 81,
+   "psr": 4.17
   },
   {
    "ticker": "7453.T",
@@ -8654,7 +9052,8 @@
    "above50": true,
    "above200": true,
    "score": 21.64,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.77
   },
   {
    "ticker": "2503.T",
@@ -8678,7 +9077,8 @@
    "above50": true,
    "above200": true,
    "score": 21.12,
-   "rs": 89
+   "rs": 89,
+   "psr": 0.94
   },
   {
    "ticker": "3382.T",
@@ -8702,7 +9102,8 @@
    "above50": true,
    "above200": true,
    "score": 21.08,
-   "rs": 80
+   "rs": 80,
+   "psr": 0.48
   },
   {
    "ticker": "9434.T",
@@ -8726,7 +9127,8 @@
    "above50": true,
    "above200": true,
    "score": 21.01,
-   "rs": 84
+   "rs": 84,
+   "psr": 1.57
   },
   {
    "ticker": "2801.T",
@@ -8750,7 +9152,8 @@
    "above50": true,
    "above200": true,
    "score": 20.62,
-   "rs": 91
+   "rs": 91,
+   "psr": 2.09
   },
   {
    "ticker": "6902.T",
@@ -8774,7 +9177,8 @@
    "above50": true,
    "above200": false,
    "score": 20.54,
-   "rs": 55
+   "rs": 55,
+   "psr": 0.61
   },
   {
    "ticker": "8766.T",
@@ -8798,7 +9202,8 @@
    "above50": true,
    "above200": true,
    "score": 20.46,
-   "rs": 94
+   "rs": 94,
+   "psr": 1.94
   },
   {
    "ticker": "4578.T",
@@ -8822,7 +9227,8 @@
    "above50": true,
    "above200": true,
    "score": 20.22,
-   "rs": 91
+   "rs": 91,
+   "psr": 2.41
   },
   {
    "ticker": "3402.T",
@@ -8846,7 +9252,8 @@
    "above50": true,
    "above200": true,
    "score": 20.05,
-   "rs": 86
+   "rs": 86,
+   "psr": 0.68
   },
   {
    "ticker": "1925.T",
@@ -8869,7 +9276,9 @@
    "above50": true,
    "above200": false,
    "score": 19.49,
-   "rs": 52
+   "rs": 52,
+   "per": 9.9,
+   "psr": 0.49
   },
   {
    "ticker": "7270.T",
@@ -8893,7 +9302,8 @@
    "above50": true,
    "above200": true,
    "score": 19.33,
-   "rs": 60
+   "rs": 60,
+   "psr": 0.38
   },
   {
    "ticker": "7751.T",
@@ -8909,7 +9319,7 @@
    "cap": "L",
    "mcap": 3996619374592,
    "mcap_usd": 25140398149,
-   "per": 12.2,
+   "per": 12.1,
    "r1w": -0.75,
    "r1m": -0.42,
    "rel1w": 6.95,
@@ -8917,7 +9327,8 @@
    "above50": true,
    "above200": true,
    "score": 19.2,
-   "rs": 82
+   "rs": 82,
+   "psr": 0.84
   },
   {
    "ticker": "7747.T",
@@ -8941,7 +9352,8 @@
    "above50": true,
    "above200": true,
    "score": 52.58,
-   "rs": 96
+   "rs": 96,
+   "psr": 7.54
   },
   {
    "ticker": "7630.T",
@@ -8957,7 +9369,7 @@
    "cap": "M",
    "mcap": 193631191040,
    "mcap_usd": 1218020727,
-   "per": 85.2,
+   "per": 85.8,
    "r1w": 13.36,
    "r1m": 14.22,
    "rel1w": 21.06,
@@ -8965,7 +9377,8 @@
    "above50": true,
    "above200": true,
    "score": 47.94,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.82
   },
   {
    "ticker": "4547.T",
@@ -8989,7 +9402,8 @@
    "above50": true,
    "above200": true,
    "score": 47.39,
-   "rs": 81
+   "rs": 81,
+   "psr": 1.88
   },
   {
    "ticker": "4912.T",
@@ -9013,7 +9427,8 @@
    "above50": true,
    "above200": true,
    "score": 47.31,
-   "rs": 95
+   "rs": 95,
+   "psr": 1.41
   },
   {
    "ticker": "8179.T",
@@ -9037,7 +9452,8 @@
    "above50": true,
    "above200": true,
    "score": 46.19,
-   "rs": 93
+   "rs": 93,
+   "psr": 0.95
   },
   {
    "ticker": "7716.T",
@@ -9060,7 +9476,9 @@
    "above50": true,
    "above200": true,
    "score": 44.68,
-   "rs": 92
+   "rs": 92,
+   "per": null,
+   "psr": 2.78
   },
   {
    "ticker": "2702.T",
@@ -9084,7 +9502,8 @@
    "above50": true,
    "above200": true,
    "score": 43.01,
-   "rs": 96
+   "rs": 96,
+   "psr": 3.16
   },
   {
    "ticker": "9706.T",
@@ -9108,7 +9527,8 @@
    "above50": true,
    "above200": true,
    "score": 41.99,
-   "rs": 94
+   "rs": 94,
+   "psr": 2.08
   },
   {
    "ticker": "8253.T",
@@ -9132,7 +9552,8 @@
    "above50": true,
    "above200": true,
    "score": 41.07,
-   "rs": 80
+   "rs": 80,
+   "psr": 1.22
   },
   {
    "ticker": "3397.T",
@@ -9156,7 +9577,8 @@
    "above50": true,
    "above200": true,
    "score": 40.88,
-   "rs": 95
+   "rs": 95,
+   "psr": 1.69
   },
   {
    "ticker": "9684.T",
@@ -9180,7 +9602,8 @@
    "above50": true,
    "above200": true,
    "score": 40.87,
-   "rs": 94
+   "rs": 94,
+   "psr": 3.96
   },
   {
    "ticker": "9989.T",
@@ -9204,7 +9627,8 @@
    "above50": true,
    "above200": true,
    "score": 40.63,
-   "rs": 82
+   "rs": 82,
+   "psr": 0.57
   },
   {
    "ticker": "9201.T",
@@ -9228,7 +9652,8 @@
    "above50": true,
    "above200": true,
    "score": 39.71,
-   "rs": 92
+   "rs": 92,
+   "psr": 0.71
   },
   {
    "ticker": "3635.T",
@@ -9252,7 +9677,8 @@
    "above50": true,
    "above200": true,
    "score": 39.61,
-   "rs": 90
+   "rs": 90,
+   "psr": 6.98
   },
   {
    "ticker": "2810.T",
@@ -9276,7 +9702,8 @@
    "above50": true,
    "above200": true,
    "score": 39.38,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.32
   },
   {
    "ticker": "3088.T",
@@ -9292,7 +9719,7 @@
    "cap": "M",
    "mcap": 1150137532416,
    "mcap_usd": 7234843447,
-   "per": 19.9,
+   "per": 20.0,
    "r1w": 4.47,
    "r1m": 13.51,
    "rel1w": 12.16,
@@ -9300,7 +9727,8 @@
    "above50": true,
    "above200": true,
    "score": 38.33,
-   "rs": 90
+   "rs": 90,
+   "psr": 1.0
   },
   {
    "ticker": "6315.T",
@@ -9324,7 +9752,8 @@
    "above50": true,
    "above200": false,
    "score": 38.25,
-   "rs": 52
+   "rs": 52,
+   "psr": 2.73
   },
   {
    "ticker": "4704.T",
@@ -9348,7 +9777,8 @@
    "above50": true,
    "above200": true,
    "score": 38.17,
-   "rs": 94
+   "rs": 94,
+   "psr": 3.31
   },
   {
    "ticker": "4816.T",
@@ -9372,7 +9802,8 @@
    "above50": true,
    "above200": true,
    "score": 38.04,
-   "rs": 94
+   "rs": 94,
+   "psr": 7.35
   },
   {
    "ticker": "7867.T",
@@ -9396,7 +9827,8 @@
    "above50": true,
    "above200": true,
    "score": 37.77,
-   "rs": 98
+   "rs": 98,
+   "psr": 1.58
   },
   {
    "ticker": "7951.T",
@@ -9420,7 +9852,8 @@
    "above50": true,
    "above200": true,
    "score": 37.63,
-   "rs": 90
+   "rs": 90,
+   "psr": 1.25
   },
   {
    "ticker": "9861.T",
@@ -9444,7 +9877,8 @@
    "above50": true,
    "above200": true,
    "score": 37.35,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.35
   },
   {
    "ticker": "4088.T",
@@ -9460,7 +9894,7 @@
    "cap": "M",
    "mcap": 689867849728,
    "mcap_usd": 4339555706,
-   "per": 10.3,
+   "per": 17.2,
    "r1w": 4.3,
    "r1m": 12.23,
    "rel1w": 11.99,
@@ -9468,7 +9902,8 @@
    "above50": true,
    "above200": true,
    "score": 36.89,
-   "rs": 93
+   "rs": 93,
+   "psr": 0.65
   },
   {
    "ticker": "9831.T",
@@ -9492,7 +9927,8 @@
    "above50": true,
    "above200": true,
    "score": 36.81,
-   "rs": 96
+   "rs": 96,
+   "psr": 0.3
   },
   {
    "ticker": "7552.T",
@@ -9516,7 +9952,8 @@
    "above50": true,
    "above200": true,
    "score": 36.45,
-   "rs": 99
+   "rs": 99,
+   "psr": 0.63
   },
   {
    "ticker": "8194.T",
@@ -9540,7 +9977,8 @@
    "above50": true,
    "above200": true,
    "score": 35.95,
-   "rs": 82
+   "rs": 82,
+   "psr": 0.27
   },
   {
    "ticker": "3087.T",
@@ -9564,7 +10002,8 @@
    "above50": true,
    "above200": true,
    "score": 35.94,
-   "rs": 96
+   "rs": 96,
+   "psr": 1.0
   },
   {
    "ticker": "2331.T",
@@ -9588,7 +10027,8 @@
    "above50": true,
    "above200": true,
    "score": 35.77,
-   "rs": 92
+   "rs": 92,
+   "psr": 1.06
   },
   {
    "ticker": "2212.T",
@@ -9612,7 +10052,8 @@
    "above50": true,
    "above200": true,
    "score": 35.64,
-   "rs": 94
+   "rs": 94,
+   "psr": 0.63
   },
   {
    "ticker": "9202.T",
@@ -9636,7 +10077,8 @@
    "above50": true,
    "above200": true,
    "score": 35.5,
-   "rs": 86
+   "rs": 86,
+   "psr": 0.51
   },
   {
    "ticker": "4536.T",
@@ -9660,7 +10102,8 @@
    "above50": true,
    "above200": true,
    "score": 34.73,
-   "rs": 88
+   "rs": 88,
+   "psr": 2.17
   },
   {
    "ticker": "8086.T",
@@ -9676,7 +10119,7 @@
    "cap": "M",
    "mcap": 268034965504,
    "mcap_usd": 1686051415,
-   "per": 25.0,
+   "per": 24.8,
    "r1w": 5.97,
    "r1m": 8.17,
    "rel1w": 13.66,
@@ -9684,7 +10127,8 @@
    "above50": true,
    "above200": false,
    "score": 34.49,
-   "rs": 48
+   "rs": 48,
+   "psr": 0.35
   },
   {
    "ticker": "2002.T",
@@ -9707,7 +10151,9 @@
    "above50": true,
    "above200": true,
    "score": 34.45,
-   "rs": 92
+   "rs": 92,
+   "per": 16.8,
+   "psr": 0.76
   },
   {
    "ticker": "2670.T",
@@ -9731,7 +10177,8 @@
    "above50": true,
    "above200": true,
    "score": 33.02,
-   "rs": 92
+   "rs": 92,
+   "psr": 2.08
   },
   {
    "ticker": "3391.T",
@@ -9755,7 +10202,8 @@
    "above50": true,
    "above200": true,
    "score": 32.91,
-   "rs": 77
+   "rs": 77,
+   "psr": 0.52
   },
   {
    "ticker": "9064.T",
@@ -9779,7 +10227,8 @@
    "above50": true,
    "above200": true,
    "score": 32.83,
-   "rs": 91
+   "rs": 91,
+   "psr": 0.39
   },
   {
    "ticker": "7581.T",
@@ -9803,7 +10252,8 @@
    "above50": true,
    "above200": true,
    "score": 32.73,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.43
   },
   {
    "ticker": "3549.T",
@@ -9827,7 +10277,8 @@
    "above50": true,
    "above200": true,
    "score": 32.63,
-   "rs": 93
+   "rs": 93,
+   "psr": 0.8
   },
   {
    "ticker": "3086.T",
@@ -9851,7 +10302,8 @@
    "above50": true,
    "above200": true,
    "score": 32.42,
-   "rs": 92
+   "rs": 92,
+   "psr": 1.71
   },
   {
    "ticker": "7649.T",
@@ -9875,7 +10327,8 @@
    "above50": true,
    "above200": false,
    "score": 32.12,
-   "rs": 46
+   "rs": 46,
+   "psr": 0.5
   },
   {
    "ticker": "8227.T",
@@ -9899,7 +10352,8 @@
    "above50": true,
    "above200": false,
    "score": 31.61,
-   "rs": 17
+   "rs": 17,
+   "psr": 1.05
   },
   {
    "ticker": "8303.T",
@@ -9923,7 +10377,8 @@
    "above50": true,
    "above200": true,
    "score": 31.36,
-   "rs": null
+   "rs": null,
+   "psr": 2.64
   },
   {
    "ticker": "6869.T",
@@ -9947,7 +10402,8 @@
    "above50": true,
    "above200": true,
    "score": 31.16,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.37
   },
   {
    "ticker": "9009.T",
@@ -9971,7 +10427,8 @@
    "above50": true,
    "above200": true,
    "score": 30.71,
-   "rs": 93
+   "rs": 93,
+   "psr": 2.15
   },
   {
    "ticker": "3048.T",
@@ -9995,7 +10452,8 @@
    "above50": true,
    "above200": true,
    "score": 30.6,
-   "rs": 85
+   "rs": 85,
+   "psr": 0.31
   },
   {
    "ticker": "2805.T",
@@ -10011,7 +10469,7 @@
    "cap": "M",
    "mcap": 170483007488,
    "mcap_usd": 1072409025,
-   "per": 17.5,
+   "per": 17.3,
    "r1w": -5.24,
    "r1m": 15.38,
    "rel1w": 2.45,
@@ -10019,7 +10477,8 @@
    "above50": true,
    "above200": true,
    "score": 30.5,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.27
   },
   {
    "ticker": "2730.T",
@@ -10043,7 +10502,8 @@
    "above50": true,
    "above200": true,
    "score": 30.48,
-   "rs": 89
+   "rs": 89,
+   "psr": 0.34
   },
   {
    "ticker": "2269.T",
@@ -10067,7 +10527,8 @@
    "above50": true,
    "above200": true,
    "score": 30.31,
-   "rs": 93
+   "rs": 93,
+   "psr": 1.05
   },
   {
    "ticker": "8278.T",
@@ -10083,7 +10544,7 @@
    "cap": "M",
    "mcap": 182725197824,
    "mcap_usd": 1149417494,
-   "per": 21.1,
+   "per": 21.0,
    "r1w": 1.98,
    "r1m": 7.94,
    "rel1w": 9.68,
@@ -10091,7 +10552,8 @@
    "above50": true,
    "above200": true,
    "score": 30.28,
-   "rs": 75
+   "rs": 75,
+   "psr": 0.23
   },
   {
    "ticker": "3387.T",
@@ -10115,7 +10577,8 @@
    "above50": true,
    "above200": true,
    "score": 30.01,
-   "rs": 90
+   "rs": 90,
+   "psr": 2.32
   },
   {
    "ticker": "1853.T",
@@ -10138,7 +10601,9 @@
    "above50": true,
    "above200": true,
    "score": 119.29,
-   "rs": 98
+   "rs": 98,
+   "per": 18.7,
+   "psr": 0.57
   },
   {
    "ticker": "6989.T",
@@ -10162,7 +10627,8 @@
    "above50": true,
    "above200": true,
    "score": 108.83,
-   "rs": 98
+   "rs": 98,
+   "psr": 0.69
   },
   {
    "ticker": "7522.T",
@@ -10186,7 +10652,8 @@
    "above50": true,
    "above200": true,
    "score": 94.81,
-   "rs": 96
+   "rs": 96,
+   "psr": 0.52
   },
   {
    "ticker": "7030.T",
@@ -10210,7 +10677,8 @@
    "above50": true,
    "above200": true,
    "score": 85.69,
-   "rs": 86
+   "rs": 86,
+   "psr": 0.6
   },
   {
    "ticker": "6262.T",
@@ -10233,7 +10701,9 @@
    "above50": true,
    "above200": true,
    "score": 75.91,
-   "rs": 94
+   "rs": 94,
+   "per": null,
+   "psr": 1.01
   },
   {
    "ticker": "6062.T",
@@ -10257,7 +10727,8 @@
    "above50": true,
    "above200": true,
    "score": 62.53,
-   "rs": 98
+   "rs": 98,
+   "psr": 1.27
   },
   {
    "ticker": "4418.T",
@@ -10281,7 +10752,8 @@
    "above50": true,
    "above200": true,
    "score": 57.07,
-   "rs": 91
+   "rs": 91,
+   "psr": 0.79
   },
   {
    "ticker": "4347.T",
@@ -10305,7 +10777,8 @@
    "above50": true,
    "above200": true,
    "score": 53.18,
-   "rs": 96
+   "rs": 96,
+   "psr": 1.17
   },
   {
    "ticker": "4579.T",
@@ -10329,7 +10802,8 @@
    "above50": true,
    "above200": true,
    "score": 50.9,
-   "rs": 92
+   "rs": 92,
+   "psr": 4.79
   },
   {
    "ticker": "9204.T",
@@ -10353,7 +10827,8 @@
    "above50": true,
    "above200": true,
    "score": 50.89,
-   "rs": 95
+   "rs": 95,
+   "psr": 0.28
   },
   {
    "ticker": "4972.T",
@@ -10377,7 +10852,8 @@
    "above50": true,
    "above200": true,
    "score": 49.5,
-   "rs": 98
+   "rs": 98,
+   "psr": 1.66
   },
   {
    "ticker": "6238.T",
@@ -10401,7 +10877,8 @@
    "above50": true,
    "above200": true,
    "score": 49.44,
-   "rs": 97
+   "rs": 97,
+   "psr": 0.94
   },
   {
    "ticker": "6145.T",
@@ -10425,7 +10902,8 @@
    "above50": true,
    "above200": true,
    "score": 45.07,
-   "rs": 96
+   "rs": 96,
+   "psr": 1.4
   },
   {
    "ticker": "2820.T",
@@ -10449,7 +10927,8 @@
    "above50": true,
    "above200": true,
    "score": 44.16,
-   "rs": 98
+   "rs": 98,
+   "psr": 2.36
   },
   {
    "ticker": "8153.T",
@@ -10473,7 +10952,8 @@
    "above50": true,
    "above200": true,
    "score": 43.99,
-   "rs": 93
+   "rs": 93,
+   "psr": 1.33
   },
   {
    "ticker": "2597.T",
@@ -10497,7 +10977,8 @@
    "above50": true,
    "above200": true,
    "score": 42.94,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.11
   },
   {
    "ticker": "8163.T",
@@ -10521,7 +11002,8 @@
    "above50": true,
    "above200": true,
    "score": 42.69,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.01
   },
   {
    "ticker": "4526.T",
@@ -10545,7 +11027,8 @@
    "above50": true,
    "above200": true,
    "score": 41.98,
-   "rs": 93
+   "rs": 93,
+   "psr": 1.09
   },
   {
    "ticker": "9658.T",
@@ -10569,7 +11052,8 @@
    "above50": true,
    "above200": true,
    "score": 40.78,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.17
   },
   {
    "ticker": "4919.T",
@@ -10593,7 +11077,8 @@
    "above50": true,
    "above200": true,
    "score": 40.17,
-   "rs": 95
+   "rs": 95,
+   "psr": 2.07
   },
   {
    "ticker": "9900.T",
@@ -10617,7 +11102,8 @@
    "above50": true,
    "above200": true,
    "score": 40.05,
-   "rs": 96
+   "rs": 96,
+   "psr": 2.03
   },
   {
    "ticker": "6196.T",
@@ -10641,7 +11127,8 @@
    "above50": true,
    "above200": true,
    "score": 39.96,
-   "rs": 95
+   "rs": 95,
+   "psr": 3.64
   },
   {
    "ticker": "4475.T",
@@ -10665,7 +11152,8 @@
    "above50": true,
    "above200": true,
    "score": 39.87,
-   "rs": 99
+   "rs": 99,
+   "psr": 5.99
   },
   {
    "ticker": "8255.T",
@@ -10689,7 +11177,8 @@
    "above50": true,
    "above200": true,
    "score": 39.05,
-   "rs": 95
+   "rs": 95,
+   "psr": 0.45
   },
   {
    "ticker": "4994.T",
@@ -10713,7 +11202,8 @@
    "above50": true,
    "above200": true,
    "score": 38.43,
-   "rs": 92
+   "rs": 92,
+   "psr": 0.54
   },
   {
    "ticker": "4343.T",
@@ -10737,7 +11227,8 @@
    "above50": true,
    "above200": true,
    "score": 38.16,
-   "rs": 85
+   "rs": 85,
+   "psr": 0.61
   },
   {
    "ticker": "6167.T",
@@ -10761,7 +11252,8 @@
    "above50": true,
    "above200": true,
    "score": 37.1,
-   "rs": 80
+   "rs": 80,
+   "psr": 1.05
   },
   {
    "ticker": "4712.T",
@@ -10785,7 +11277,8 @@
    "above50": true,
    "above200": true,
    "score": 37.05,
-   "rs": 97
+   "rs": 97,
+   "psr": 0.57
   },
   {
    "ticker": "7860.T",
@@ -10809,7 +11302,8 @@
    "above50": true,
    "above200": true,
    "score": 35.61,
-   "rs": 89
+   "rs": 89,
+   "psr": 0.38
   },
   {
    "ticker": "3765.T",
@@ -10833,7 +11327,8 @@
    "above50": true,
    "above200": true,
    "score": 34.46,
-   "rs": 79
+   "rs": 79,
+   "psr": 1.33
   },
   {
    "ticker": "4439.T",
@@ -10857,7 +11352,8 @@
    "above50": true,
    "above200": true,
    "score": 34.42,
-   "rs": 95
+   "rs": 95,
+   "psr": 1.04
   },
   {
    "ticker": "6317.T",
@@ -10881,7 +11377,8 @@
    "above50": true,
    "above200": true,
    "score": 33.77,
-   "rs": 97
+   "rs": 97,
+   "psr": 0.38
   },
   {
    "ticker": "3028.T",
@@ -10905,7 +11402,8 @@
    "above50": true,
    "above200": true,
    "score": 33.74,
-   "rs": 92
+   "rs": 92,
+   "psr": 0.35
   },
   {
    "ticker": "2705.T",
@@ -10929,7 +11427,8 @@
    "above50": true,
    "above200": true,
    "score": 33.55,
-   "rs": 97
+   "rs": 97,
+   "psr": 1.98
   },
   {
    "ticker": "8281.T",
@@ -10953,7 +11452,8 @@
    "above50": true,
    "above200": true,
    "score": 33.28,
-   "rs": 75
+   "rs": 75,
+   "psr": 0.18
   },
   {
    "ticker": "3843.T",
@@ -10977,7 +11477,8 @@
    "above50": true,
    "above200": true,
    "score": 33.14,
-   "rs": 93
+   "rs": 93,
+   "psr": 0.68
   },
   {
    "ticker": "9823.T",
@@ -11001,7 +11502,8 @@
    "above50": true,
    "above200": false,
    "score": 32.99,
-   "rs": 28
+   "rs": 28,
+   "psr": 0.22
   },
   {
    "ticker": "8200.T",
@@ -11025,7 +11527,8 @@
    "above50": true,
    "above200": true,
    "score": 32.94,
-   "rs": 89
+   "rs": 89,
+   "psr": 1.45
   },
   {
    "ticker": "8244.T",
@@ -11049,7 +11552,8 @@
    "above50": true,
    "above200": true,
    "score": 32.91,
-   "rs": 86
+   "rs": 86,
+   "psr": 0.69
   },
   {
    "ticker": "9536.T",
@@ -11073,7 +11577,8 @@
    "above50": true,
    "above200": true,
    "score": 32.85,
-   "rs": 94
+   "rs": 94,
+   "psr": 0.4
   },
   {
    "ticker": "4635.T",
@@ -11097,7 +11602,8 @@
    "above50": true,
    "above200": true,
    "score": 32.66,
-   "rs": 97
+   "rs": 97,
+   "psr": 0.55
   },
   {
    "ticker": "4771.T",
@@ -11121,7 +11627,8 @@
    "above50": true,
    "above200": true,
    "score": 32.22,
-   "rs": 91
+   "rs": 91,
+   "psr": 1.86
   },
   {
    "ticker": "4417.T",
@@ -11145,7 +11652,8 @@
    "above50": true,
    "above200": true,
    "score": 31.62,
-   "rs": 99
+   "rs": 99,
+   "psr": 10.41
   },
   {
    "ticker": "7611.T",
@@ -11169,7 +11677,8 @@
    "above50": true,
    "above200": true,
    "score": 31.58,
-   "rs": 88
+   "rs": 88,
+   "psr": 1.87
   },
   {
    "ticker": "7844.T",
@@ -11193,7 +11702,8 @@
    "above50": true,
    "above200": true,
    "score": 31.06,
-   "rs": 90
+   "rs": 90,
+   "psr": 1.03
   },
   {
    "ticker": "3539.T",
@@ -11209,7 +11719,7 @@
    "cap": "S",
    "mcap": 82447237120,
    "mcap_usd": 518627413,
-   "per": 16.7,
+   "per": 16.8,
    "r1w": 0.43,
    "r1m": 9.41,
    "rel1w": 8.13,
@@ -11217,7 +11727,8 @@
    "above50": true,
    "above200": true,
    "score": 30.21,
-   "rs": 85
+   "rs": 85,
+   "psr": 0.42
   },
   {
    "ticker": "1810.T",
@@ -11240,7 +11751,9 @@
    "above50": true,
    "above200": true,
    "score": 30.1,
-   "rs": 86
+   "rs": 86,
+   "per": 9.3,
+   "psr": 0.49
   },
   {
    "ticker": "9470.T",
@@ -11264,7 +11777,8 @@
    "above50": true,
    "above200": true,
    "score": 30.1,
-   "rs": 79
+   "rs": 79,
+   "psr": 0.22
   },
   {
    "ticker": "9974.T",
@@ -11288,7 +11802,8 @@
    "above50": true,
    "above200": false,
    "score": 30.1,
-   "rs": 63
+   "rs": 63,
+   "psr": 0.33
   },
   {
    "ticker": "7085.T",
@@ -11312,7 +11827,8 @@
    "above50": true,
    "above200": true,
    "score": 29.92,
-   "rs": 94
+   "rs": 94,
+   "psr": 2.22
   },
   {
    "ticker": "94345.T",
@@ -11333,7 +11849,9 @@
    "above50": false,
    "above200": false,
    "score": 20.05,
-   "rs": 67
+   "rs": 67,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "94346.T",
@@ -11354,7 +11872,9 @@
    "above50": false,
    "above200": false,
    "score": 20.02,
-   "rs": 64
+   "rs": 64,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "75505.T",
@@ -11375,7 +11895,9 @@
    "above50": false,
    "above200": false,
    "score": 20.01,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "50765.T",
@@ -11396,7 +11918,9 @@
    "above50": false,
    "above200": false,
    "score": 19.97,
-   "rs": 67
+   "rs": 67,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "92025.T",
@@ -11417,7 +11941,9 @@
    "above50": false,
    "above200": false,
    "score": 19.67,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "92015.T",
@@ -11438,7 +11964,9 @@
    "above50": false,
    "above200": null,
    "score": 18.58,
-   "rs": null
+   "rs": null,
+   "per": null,
+   "psr": null
   },
   {
    "ticker": "1435.T",
@@ -11459,7 +11987,9 @@
    "above50": false,
    "above200": false,
    "score": 11.83,
-   "rs": 33
+   "rs": 33,
+   "per": 6.9,
+   "psr": null
   }
  ],
  "top_n": 50,
