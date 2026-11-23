@@ -343,6 +343,14 @@
 "small": false,
 "market": "ETF"
 },
+"AIL": {
+"name": "GraniteShares 2x Long Anthropic Daily ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "AIMG": {
 "name": "Defiance AI Magnificent 10 ETF",
 "name_local": "",
@@ -561,6 +569,62 @@
 },
 "ANGU": {
 "name": "SEI Ang Research Enhanced U.S. Large Cap ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ANS": {
+"name": "GraniteShares 2x Short Anthropic Daily ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ANTC": {
+"name": "Defiance 2X ANT Long Daily ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ANTD": {
+"name": "Direxion Daily Anthropic Bear 2X ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ANTO": {
+"name": "Direxion Daily Anthropic Bull 2X ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ANTQ": {
+"name": "Defiance 2X ANT Short Daily ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ANTU": {
+"name": "ProShares Ultra Anthropic",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ANTY": {
+"name": "ProShares UltraShort Anthropic",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -2713,6 +2777,14 @@
 },
 "ENHU": {
 "name": "iShares Enhanced Large Cap Core Active ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ENHV": {
+"name": "iShares Enhanced Large Cap Value Active ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -7623,14 +7695,6 @@
 "small": false,
 "market": "ETF"
 },
-"RKNG": {
-"name": "Defiance Retail Kings ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
 "RNEM": {
 "name": "Emerging Markets Equity Select ETF",
 "name_local": "",
@@ -11271,6 +11335,14 @@
 "small": false,
 "market": "ETF"
 },
+"ALLZ": {
+"name": "Zacks All-Cap Core ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "ALRG": {
 "name": "Allspring LT Large Core ETF",
 "name_local": "",
@@ -11439,6 +11511,14 @@
 "small": false,
 "market": "ETF"
 },
+"ANDD": {
+"name": "Leverage Shares 2X Short Anthropic Daily ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "ANG": {
 "name": "Corgi FTSE Fallen Angels Bond ETF",
 "name_local": "",
@@ -11447,8 +11527,40 @@
 "small": false,
 "market": "ETF"
 },
+"ANSS": {
+"name": "Leverage Shares 1X Short Anthropic Daily ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ANTT": {
+"name": "Tradr 2X Long Anthropic Daily ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "ANTW": {
 "name": "Anthropic AI Lab Ecosystem ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ANTZ": {
+"name": "Tradr 2X Short Anthropic Daily ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ANUU": {
+"name": "Leverage Shares 2X Long Anthropic Daily ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -12057,6 +12169,14 @@
 },
 "ATFV": {
 "name": "Alger 35 ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ATHX": {
+"name": "2x Anthropic ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -15487,6 +15607,14 @@
 "small": false,
 "market": "ETF"
 },
+"CLAU": {
+"name": "T-REX 2X Long Anthropic Daily Target ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "CLCG": {
 "name": "Crossmark Large Cap Growth ETF",
 "name_local": "",
@@ -17801,6 +17929,14 @@
 },
 "DIV": {
 "name": "Global X Super Dividend ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"DIVA": {
+"name": "AB Equity Income ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -39919,14 +40055,6 @@
 "small": false,
 "market": "ETF"
 },
-"SROI": {
-"name": "Calamos Antetokounmpo Global Sustainable Equities ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
 "SRS": {
 "name": "ProShares UltraShort Real Estate",
 "name_local": "",
@@ -46279,6 +46407,14 @@
 "small": false,
 "market": "ETF"
 },
+"ZCAP": {
+"name": "Zacks Small-Cap Core ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "ZCBA": {
 "name": "Global X Zero Coupon Bond 2030 ETF",
 "name_local": "",
@@ -46361,6 +46497,14 @@
 },
 "ZECP": {
 "name": "Zacks Earnings Consistent Portfolio ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"ZECX": {
+"name": "2x ZCSH ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
