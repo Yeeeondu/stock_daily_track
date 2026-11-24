@@ -2079,14 +2079,6 @@
 "small": false,
 "market": "ETF"
 },
-"CPHY": {
-"name": "F/m Compoundr High Yield Bond ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
 "CPLS": {
 "name": "AB Core Plus Bond ETF",
 "name_local": "",
@@ -7561,14 +7553,6 @@
 },
 "RBIL": {
 "name": "F/m Ultrashort Treasury Inflation-Protected Security (TIPS) ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
-"RCAX": {
-"name": "Defiance Daily Target 2x Long RCAT ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -15953,14 +15937,6 @@
 },
 "COPY": {
 "name": "Tweedy, Browne Insider + Value ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
-"COPZ": {
-"name": "Defiance Daily Target 2X Long Copper Miners ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -27135,6 +27111,14 @@
 "small": false,
 "market": "ETF"
 },
+"IVEA": {
+"name": "Dan IVES Wedbush AI Autocallable Income ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "IVEP": {
 "name": "Dan IVES Wedbush AI Power & Infrastructure ETF",
 "name_local": "",
@@ -28761,14 +28745,6 @@
 },
 "KDVD": {
 "name": "Keeley Dividend ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
-"KEEX": {
-"name": "Defiance Daily Target 2x Long KEEL ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
@@ -46145,6 +46121,14 @@
 },
 "YANG": {
 "name": "Direxion Daily FTSE China Bear 3X ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
+"YANT": {
+"name": "YieldMax ANT Option Income Strategy ETF",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
