@@ -2079,6 +2079,14 @@
 "small": false,
 "market": "ETF"
 },
+"CPHY": {
+"name": "F/m Compoundr High Yield Bond ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "CPLS": {
 "name": "AB Core Plus Bond ETF",
 "name_local": "",
