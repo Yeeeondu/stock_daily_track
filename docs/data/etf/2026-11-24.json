@@ -1,17 +1,17 @@
 {
  "market": "etf",
  "date": "2026-11-24",
- "generated_at": "2026-11-24T22:12:22+00:00",
+ "generated_at": "2026-11-25T04:56:37+00:00",
  "universe": 5846,
- "priced": 677,
+ "priced": 679,
  "skipped": {
-  "lev": 807,
-  "young": 420,
-  "small": 3517
+  "lev": 869,
+  "young": 537,
+  "small": 3732
  },
  "w1_week": "2026-11-16~2026-11-20",
- "min_aum_usd": 746057088,
- "krw": 1340.38,
+ "min_aum_usd": 744612727,
+ "krw": 1342.98,
  "strength": [
   {
    "ticker": "JETS",
@@ -147,7 +147,7 @@
    "ticker": "ITA",
    "label": "방산",
    "trend": "횡보",
-   "rs": 21,
+   "rs": 20,
    "score": 4.48,
    "r1w": -2.13,
    "r1m": -1.35,
@@ -173,7 +173,7 @@
    "ticker": "XLI",
    "label": "산업재",
    "trend": "횡보",
-   "rs": 33,
+   "rs": 32,
    "score": 2.84,
    "r1w": -1.91,
    "r1m": -3.2,
@@ -239,11 +239,11 @@
    "label": "LNG·천연가스",
    "trend": "약세",
    "rs": 74,
-   "score": -8.13,
+   "score": -8.14,
    "r1w": -3.93,
    "r1m": -12.15,
    "rel1w": -2.07,
-   "rel1m": -6.06,
+   "rel1m": -6.07,
    "above50": false,
    "above200": false
   },
@@ -251,7 +251,7 @@
    "ticker": "XLE",
    "label": "에너지",
    "trend": "약세",
-   "rs": 95,
+   "rs": 96,
    "score": -9.84,
    "r1w": -4.59,
    "r1m": -13.2,
@@ -264,7 +264,7 @@
    "ticker": "XLK",
    "label": "IT",
    "trend": "약세",
-   "rs": 45,
+   "rs": 44,
    "score": -11.51,
    "r1w": -3.78,
    "r1m": -15.69,
@@ -3218,67 +3218,6 @@
    ]
   },
   {
-   "ticker": "FTA",
-   "name": "First Trust Large Cap Value AlphaDEX Fund",
-   "aum": 1455581180,
-   "close": 101.71,
-   "d1": 1.19,
-   "w1": 2.54,
-   "w1_prev": -5.19,
-   "holdings": [
-    {
-     "symbol": "OVV",
-     "name": "Ovintiv Inc",
-     "pct": 1.02
-    },
-    {
-     "symbol": "PR",
-     "name": "Permian Resources Corp Class A",
-     "pct": 1.0
-    },
-    {
-     "symbol": "COP",
-     "name": "ConocoPhillips",
-     "pct": 0.99
-    },
-    {
-     "symbol": "EOG",
-     "name": "EOG Resources Inc",
-     "pct": 0.97
-    },
-    {
-     "symbol": "CCL",
-     "name": "Carnival Corporation Ltd",
-     "pct": 0.97
-    },
-    {
-     "symbol": "ALL",
-     "name": "Allstate Corp",
-     "pct": 0.95
-    },
-    {
-     "symbol": "STZ",
-     "name": "Constellation Brands Inc Class A",
-     "pct": 0.95
-    },
-    {
-     "symbol": "CINF",
-     "name": "Cincinnati Financial Corp",
-     "pct": 0.94
-    },
-    {
-     "symbol": "OXY",
-     "name": "Occidental Petroleum Corp",
-     "pct": 0.94
-    },
-    {
-     "symbol": "FIS",
-     "name": "Fidelity National Information Services Inc",
-     "pct": 0.94
-    }
-   ]
-  },
-  {
    "ticker": "COWZ",
    "name": "Pacer US Cash Cows 100 ETF",
    "aum": 19783196700,
@@ -3336,6 +3275,67 @@
      "symbol": "PFE",
      "name": "Pfizer Inc",
      "pct": 2.14
+    }
+   ]
+  },
+  {
+   "ticker": "VNQ",
+   "name": "Vanguard Real Estate ETF",
+   "aum": 69458698000,
+   "close": 94.78,
+   "d1": 1.19,
+   "w1": 2.4,
+   "w1_prev": -4.05,
+   "holdings": [
+    {
+     "symbol": "VRTPX",
+     "name": "Vanguard Real Estate II Index",
+     "pct": 14.56
+    },
+    {
+     "symbol": "WELL",
+     "name": "Welltower Inc",
+     "pct": 8.92
+    },
+    {
+     "symbol": "PLD",
+     "name": "Prologis Inc",
+     "pct": 6.49
+    },
+    {
+     "symbol": "EQIX",
+     "name": "Equinix Inc",
+     "pct": 5.44
+    },
+    {
+     "symbol": "AMT",
+     "name": "American Tower Corp",
+     "pct": 4.76
+    },
+    {
+     "symbol": "SPG",
+     "name": "Simon Property Group Inc",
+     "pct": 3.84
+    },
+    {
+     "symbol": "DLR",
+     "name": "Digital Realty Trust Inc",
+     "pct": 3.63
+    },
+    {
+     "symbol": "PSA",
+     "name": "Public Storage",
+     "pct": 2.96
+    },
+    {
+     "symbol": "O",
+     "name": "Realty Income Corp",
+     "pct": 2.86
+    },
+    {
+     "symbol": "VMRK",
+     "name": "Vivmark Residential",
+     "pct": 2.41
     }
    ]
   }
@@ -6678,7 +6678,7 @@
       ],
       [
        "2026-11-24",
-       91116000
+       81242896
       ]
      ]
     },
@@ -6874,7 +6874,7 @@
       ],
       [
        "2026-11-24",
-       730936000
+       272056000
       ]
      ]
     },
@@ -6969,7 +6969,7 @@
       ],
       [
        "2026-11-24",
-       191540000
+       120253000
       ]
      ]
     },
@@ -7349,7 +7349,7 @@
       ],
       [
        "2026-11-24",
-       273743000
+       197415008
       ]
      ]
     },
@@ -8793,9 +8793,9 @@
     {
      "ticker": "1617.T",
      "label": "식품",
-     "close": 45200.0,
-     "d1": 0.53,
-     "w1": 0.53,
+     "close": 46930.0,
+     "d1": 3.83,
+     "w1": 4.38,
      "w1_prev": -4.89,
      "name": "식품",
      "holdings": [
@@ -8888,9 +8888,9 @@
     {
      "ticker": "1618.T",
      "label": "에너지자원",
-     "close": 29725.0,
-     "d1": -0.78,
-     "w1": -0.78,
+     "close": 29865.0,
+     "d1": 0.47,
+     "w1": -0.32,
      "w1_prev": -8.8,
      "name": "에너지자원",
      "holdings": [
@@ -8983,9 +8983,9 @@
     {
      "ticker": "1619.T",
      "label": "건설·자재",
-     "close": 41250.0,
-     "d1": 2.82,
-     "w1": 2.82,
+     "close": 41000.0,
+     "d1": -0.61,
+     "w1": 2.19,
      "w1_prev": -8.65,
      "name": "건설·자재",
      "holdings": [
@@ -9078,9 +9078,9 @@
     {
      "ticker": "1620.T",
      "label": "소재·화학",
-     "close": 35790.0,
-     "d1": 1.97,
-     "w1": 1.97,
+     "close": 35800.0,
+     "d1": 0.03,
+     "w1": 1.99,
      "w1_prev": -5.92,
      "name": "소재·화학",
      "holdings": [
@@ -9173,9 +9173,9 @@
     {
      "ticker": "1621.T",
      "label": "의약품",
-     "close": 33570.0,
-     "d1": -1.06,
-     "w1": -1.06,
+     "close": 35500.0,
+     "d1": 5.75,
+     "w1": 4.63,
      "w1_prev": 0.98,
      "name": "의약품",
      "holdings": [
@@ -9268,9 +9268,9 @@
     {
      "ticker": "1622.T",
      "label": "자동차·수송기",
-     "close": 36340.0,
-     "d1": 0.61,
-     "w1": 0.61,
+     "close": 36830.0,
+     "d1": 1.35,
+     "w1": 1.97,
      "w1_prev": -3.58,
      "name": "자동차·수송기",
      "holdings": [
@@ -9363,9 +9363,9 @@
     {
      "ticker": "1623.T",
      "label": "철강·비철",
-     "close": 41470.0,
-     "d1": 4.62,
-     "w1": 4.62,
+     "close": 39270.0,
+     "d1": -5.31,
+     "w1": -0.93,
      "w1_prev": -15.93,
      "name": "철강·비철",
      "holdings": [
@@ -9458,9 +9458,9 @@
     {
      "ticker": "1624.T",
      "label": "기계",
-     "close": 69460.0,
-     "d1": 3.67,
-     "w1": 3.67,
+     "close": 67310.0,
+     "d1": -3.1,
+     "w1": 0.46,
      "w1_prev": -8.17,
      "name": "기계",
      "holdings": [
@@ -9553,9 +9553,9 @@
     {
      "ticker": "1625.T",
      "label": "전기·정밀",
-     "close": 54730.0,
-     "d1": 5.13,
-     "w1": 5.13,
+     "close": 52410.0,
+     "d1": -4.24,
+     "w1": 0.67,
      "w1_prev": -8.05,
      "name": "전기·정밀",
      "holdings": [
@@ -9648,9 +9648,9 @@
     {
      "ticker": "1626.T",
      "label": "정보통신·서비스",
-     "close": 46640.0,
-     "d1": -0.13,
-     "w1": -0.13,
+     "close": 47050.0,
+     "d1": 0.88,
+     "w1": 0.75,
      "w1_prev": -2.85,
      "name": "정보통신·서비스",
      "holdings": [
@@ -9743,9 +9743,9 @@
     {
      "ticker": "1627.T",
      "label": "전력·가스",
-     "close": 11665.0,
-     "d1": 0.56,
-     "w1": 0.56,
+     "close": 11830.0,
+     "d1": 1.41,
+     "w1": 1.98,
      "w1_prev": -6.6,
      "name": "전력·가스",
      "holdings": [
@@ -9838,9 +9838,9 @@
     {
      "ticker": "1628.T",
      "label": "운수·물류",
-     "close": 22810.0,
-     "d1": -1.49,
-     "w1": -1.49,
+     "close": 23210.0,
+     "d1": 1.75,
+     "w1": 0.24,
      "w1_prev": -1.76,
      "name": "운수·물류",
      "holdings": [
@@ -9933,9 +9933,9 @@
     {
      "ticker": "1629.T",
      "label": "상사·도매",
-     "close": 261.5,
-     "d1": 0.97,
-     "w1": 0.97,
+     "close": 263.4,
+     "d1": 0.73,
+     "w1": 1.7,
      "w1_prev": -10.07,
      "name": "상사·도매",
      "holdings": [
@@ -10028,9 +10028,9 @@
     {
      "ticker": "1630.T",
      "label": "소매",
-     "close": 40540.0,
-     "d1": -0.42,
-     "w1": -0.42,
+     "close": 41850.0,
+     "d1": 3.23,
+     "w1": 2.8,
      "w1_prev": -0.2,
      "name": "소매",
      "holdings": [
@@ -10123,9 +10123,9 @@
     {
      "ticker": "1631.T",
      "label": "은행",
-     "close": 36660.0,
-     "d1": 4.18,
-     "w1": 4.18,
+     "close": 35750.0,
+     "d1": -2.48,
+     "w1": 1.59,
      "w1_prev": -10.93,
      "name": "은행",
      "holdings": [
@@ -10218,9 +10218,9 @@
     {
      "ticker": "1632.T",
      "label": "금융(은행 제외)",
-     "close": 43030.0,
-     "d1": 1.37,
-     "w1": 1.37,
+     "close": 43490.0,
+     "d1": 1.07,
+     "w1": 2.45,
      "w1_prev": -4.54,
      "name": "금융(은행 제외)",
      "holdings": [
@@ -10313,9 +10313,9 @@
     {
      "ticker": "1633.T",
      "label": "부동산",
-     "close": 49850.0,
-     "d1": -0.44,
-     "w1": -0.44,
+     "close": 51750.0,
+     "d1": 3.81,
+     "w1": 3.36,
      "w1_prev": -4.66,
      "name": "부동산",
      "holdings": [
