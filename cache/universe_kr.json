@@ -8447,14 +8447,6 @@
 "small": false,
 "market": "코스피"
 },
-"223310.KQ": {
-"name": "사토시홀딩스",
-"name_local": "",
-"sector": "상품 종합 도매업",
-"industry": "상품 종합 도매업",
-"small": false,
-"market": "코스닥"
-},
 "232140.KQ": {
 "name": "와이씨",
 "name_local": "",
@@ -8468,6 +8460,14 @@
 "name_local": "",
 "sector": "전자부품 제조업",
 "industry": "전자부품 제조업",
+"small": false,
+"market": "코스닥"
+},
+"223310.KQ": {
+"name": "한국첨단솔루션",
+"name_local": "",
+"sector": "상품 종합 도매업",
+"industry": "상품 종합 도매업",
 "small": false,
 "market": "코스닥"
 },

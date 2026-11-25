@@ -1,26 +1,11 @@
 {
  "market": "kr",
  "date": "2026-11-24",
- "generated_at": "2026-11-24T07:18:19+00:00",
+ "generated_at": "2026-11-25T17:59:49+00:00",
  "universe": 2663,
- "priced": 2545,
+ "priced": 2537,
  "criteria": "상승·양봉 마감 · 장중 52주(252거래일) 고가 돌파",
  "newhigh": [
-  {
-   "ticker": "489460.KQ",
-   "name": "바이오비쥬",
-   "name_local": "",
-   "sector": "기타 화학제품 제조업",
-   "industry": "기타 화학제품 제조업",
-   "small": false,
-   "close": 17050.0,
-   "d1": 29.46,
-   "w1": 29.46,
-   "w1_prev": 0.0,
-   "ref": 15440.0,
-   "ath": false,
-   "since": "2025-05-20"
-  },
   {
    "ticker": "029460.KS",
    "name": "케이씨",
@@ -231,18 +216,6 @@
    "w1_prev": -6.99
   },
   {
-   "ticker": "489460.KQ",
-   "name": "바이오비쥬",
-   "name_local": "",
-   "sector": "기타 화학제품 제조업",
-   "industry": "기타 화학제품 제조업",
-   "small": false,
-   "close": 17050.0,
-   "d1": 29.46,
-   "w1": 29.46,
-   "w1_prev": 0.0
-  },
-  {
    "ticker": "195990.KQ",
    "name": "루트K",
    "name_local": "",
@@ -361,18 +334,6 @@
    "d1": 19.51,
    "w1": 25.91,
    "w1_prev": -3.91
-  },
-  {
-   "ticker": "435570.KQ",
-   "name": "에르코스",
-   "name_local": "",
-   "sector": "도시락 및 식사용 조리식품 제조업",
-   "industry": "도시락 및 식사용 조리식품 제조업",
-   "small": false,
-   "close": 8020.0,
-   "d1": 18.64,
-   "w1": 18.64,
-   "w1_prev": 0.0
   },
   {
    "ticker": "304840.KQ",
@@ -1297,6 +1258,30 @@
    "d1": 10.92,
    "w1": 6.36,
    "w1_prev": -6.79
+  },
+  {
+   "ticker": "011790.KS",
+   "name": "SKC",
+   "name_local": "",
+   "sector": "기타 화학제품 제조업",
+   "industry": "기타 화학제품 제조업",
+   "small": false,
+   "close": 69400.0,
+   "d1": 10.86,
+   "w1": 5.15,
+   "w1_prev": -10.45
+  },
+  {
+   "ticker": "051910.KS",
+   "name": "LG화학",
+   "name_local": "",
+   "sector": "기초 화학물질 제조업",
+   "industry": "기초 화학물질 제조업",
+   "small": false,
+   "close": 213500.0,
+   "d1": 10.85,
+   "w1": 5.17,
+   "w1_prev": -12.5
   }
  ],
  "top_w1": [
@@ -2213,18 +2198,6 @@
    "w1_prev": 1.21
   },
   {
-   "ticker": "094800.KS",
-   "name": "맵스리얼티",
-   "name_local": "",
-   "sector": "신탁업 및 집합투자업",
-   "industry": "신탁업 및 집합투자업",
-   "small": false,
-   "close": 6880.0,
-   "d1": -0.86,
-   "w1": 10.61,
-   "w1_prev": 0.32
-  },
-  {
    "ticker": "051900.KS",
    "name": "LG생활건강",
    "name_local": "",
@@ -2499,6 +2472,18 @@
    "d1": -7.44,
    "w1": 8.44,
    "w1_prev": -3.73
+  },
+  {
+   "ticker": "273060.KQ",
+   "name": "와이즈버즈",
+   "name_local": "",
+   "sector": "광고업",
+   "industry": "광고업",
+   "small": false,
+   "close": 3640.0,
+   "d1": 2.97,
+   "w1": 8.17,
+   "w1_prev": 6.83
   }
  ],
  "w1_week": "2026-11-16~2026-11-20",
