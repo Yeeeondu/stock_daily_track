@@ -2375,14 +2375,6 @@
 "small": false,
 "market": "코스닥"
 },
-"474930.KQ": {
-"name": "신한제13호스팩",
-"name_local": "",
-"sector": "금융 지원 서비스업",
-"industry": "금융 지원 서비스업",
-"small": false,
-"market": "코스닥"
-},
 "461030.KQ": {
 "name": "아이엠비디엑스",
 "name_local": "",
@@ -6496,7 +6488,7 @@
 "market": "코스닥"
 },
 "309930.KQ": {
-"name": "조이웍스앤코",
+"name": "온길 넥스트",
 "name_local": "",
 "sector": "기타 생활용품 소매업",
 "industry": "기타 생활용품 소매업",
