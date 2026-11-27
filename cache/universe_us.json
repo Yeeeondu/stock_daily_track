@@ -573,7 +573,7 @@
 "industry": "반도체",
 "small": false,
 "market": "S&P500",
-"mcap": 161411179219.0
+"mcap": 160781926552.0
 },
 "ADIG": {
 "name": "ADI Global Distribution",
@@ -654,7 +654,7 @@
 "industry": "응용 소프트웨어",
 "small": false,
 "market": "S&P500",
-"mcap": 51578065000.0
+"mcap": 51331280000.0
 },
 "ADT": {
 "name": "ADT Inc.",
@@ -1104,7 +1104,7 @@
 "industry": "Services-Misc. Amusement & Recreation",
 "small": true,
 "market": "US",
-"mcap": 127219434.0
+"mcap": 125649827.0
 },
 "AIFU": {
 "name": "AIFU Inc. Class A Ordinary Share",
@@ -1905,7 +1905,7 @@
 "industry": "지원 서비스",
 "small": false,
 "market": "S&P600",
-"mcap": 6083319555.0
+"mcap": 6091263366.0
 },
 "AMWL": {
 "name": "American Well Corporation Class A",
@@ -2067,7 +2067,7 @@
 "industry": "Computer Software: Prepackaged Software",
 "small": false,
 "market": "US",
-"mcap": 1083445623974.0
+"mcap": 1094454184030.0
 },
 "ANTX": {
 "name": "AN2 Therapeutics Inc.",
@@ -2490,7 +2490,7 @@
 "industry": "유통",
 "small": false,
 "market": "S&P400",
-"mcap": 15229618792.0
+"mcap": 15218118691.0
 },
 "ARMP": {
 "name": "Armata Pharmaceuticals Inc.",
@@ -4344,7 +4344,7 @@
 "industry": "필수품 소매",
 "small": false,
 "market": "S&P400",
-"mcap": 12846204176.0
+"mcap": 12843392883.0
 },
 "BJRI": {
 "name": "BJ's Restaurants, Inc.",
@@ -5307,7 +5307,7 @@
 "industry": "의류 소매",
 "small": false,
 "market": "S&P400",
-"mcap": 15708195814.0
+"mcap": 15637071905.0
 },
 "BUSE": {
 "name": "First Busey Corporation Class A",
@@ -6333,7 +6333,7 @@
 "industry": "생활용품",
 "small": false,
 "market": "S&P600",
-"mcap": 2386029836.0
+"mcap": 2390830135.0
 },
 "CENTA": {
 "name": "Central Garden & Pet Company (Class A)",
@@ -6432,7 +6432,7 @@
 "industry": "지역 은행",
 "small": true,
 "market": "S&P600",
-"mcap": 1013128161.0
+"mcap": 988692498.0
 },
 "CFG": {
 "name": "Citizens Financial Group",
@@ -7035,7 +7035,7 @@
 "industry": "철강",
 "small": false,
 "market": "S&P400",
-"mcap": 6289085811.0
+"mcap": 6285221649.0
 },
 "CMCL": {
 "name": "Caledonia Mining Corporation Plc Common Shares",
@@ -7107,7 +7107,7 @@
 "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
 "small": true,
 "market": "US",
-"mcap": 927777315.0
+"mcap": 931701215.0
 },
 "CMPR": {
 "name": "Cimpress plc",
@@ -9276,7 +9276,7 @@
 "industry": "Biotechnology: Pharmaceutical Preparations",
 "small": true,
 "market": "US",
-"mcap": 494790037.0
+"mcap": 593340027.0
 },
 "DMC": {
 "name": "Del Monte Corporation",
@@ -9735,7 +9735,7 @@
 "industry": "건설·엔지니어링",
 "small": false,
 "market": "S&P400",
-"mcap": 5355228720.0
+"mcap": 5294924473.0
 },
 "DYN": {
 "name": "Dyne Therapeutics Inc.",
@@ -11094,7 +11094,7 @@
 "industry": "Other Consumer Services",
 "small": true,
 "market": "US",
-"mcap": 247425278.0
+"mcap": 280029584.0
 },
 "EVLV": {
 "name": "Evolv Technologies Holdings Inc. Class A",
@@ -11634,7 +11634,7 @@
 "industry": "전력",
 "small": false,
 "market": "S&P500",
-"mcap": 27587161641.0
+"mcap": 27592723599.0
 },
 "FEIM": {
 "name": "Frequency Electronics Inc.",
@@ -12229,15 +12229,6 @@
 "small": true,
 "market": "US",
 "mcap": 278710043.0
-},
-"FNUC": {
-"name": "Frontier Nuclear and Minerals Inc. Common Shares",
-"name_local": "",
-"sector": "소재",
-"industry": "Other Metals and Minerals",
-"small": true,
-"market": "US",
-"mcap": 190775260.0
 },
 "FNV": {
 "name": "Franco-Nevada Corporation",
@@ -12876,7 +12867,7 @@
 "industry": "Real Estate Investment Trusts",
 "small": true,
 "market": "US",
-"mcap": 486642856.0
+"mcap": 492557683.0
 },
 "FVRR": {
 "name": "Fiverr International Ltd.",
@@ -13191,7 +13182,7 @@
 "industry": "Finance: Consumer Services",
 "small": true,
 "market": "US",
-"mcap": 617692201.0
+"mcap": 617753419.0
 },
 "GDRX": {
 "name": "GoodRx Holdings Inc. Class A",
@@ -13479,7 +13470,7 @@
 "industry": "Professional Services",
 "small": false,
 "market": "US",
-"mcap": 17272159698.0
+"mcap": 17243113333.0
 },
 "GIBO": {
 "name": "GIBO Holdings Limited Class A",
@@ -13759,15 +13750,6 @@
 "small": false,
 "market": "S&P400",
 "mcap": 9561806801.0
-},
-"GMEX": {
-"name": "GMEX ROBOTICS CORPORATION Class A",
-"name_local": "",
-"sector": "경기소비재",
-"industry": "Recreational Games/Products/Toys",
-"small": true,
-"market": "US",
-"mcap": 196623898.0
 },
 "GMRS": {
 "name": "GMR Solutions Inc. Class A",
@@ -17124,7 +17106,7 @@
 "industry": "가공식품",
 "small": true,
 "market": "S&P600",
-"mcap": 1776060473.0
+"mcap": 1773145436.0
 },
 "JKHY": {
 "name": "Jack Henry & Associates",
@@ -18888,7 +18870,7 @@
 "industry": "주택개량 소매",
 "small": false,
 "market": "S&P500",
-"mcap": 132195547957.0
+"mcap": 132194109968.0
 },
 "LPG": {
 "name": "Dorian LPG Ltd.",
@@ -19365,7 +19347,7 @@
 "industry": "Paper",
 "small": true,
 "market": "US",
-"mcap": 491534000.0
+"mcap": 492907000.0
 },
 "MAIN": {
 "name": "Main Street Capital Corporation",
@@ -22931,6 +22913,15 @@
 "market": "US",
 "mcap": 530471410.0
 },
+"OBMT": {
+"name": "Opportunity Bancorp Inc.",
+"name_local": "",
+"sector": "금융",
+"industry": "Major Banks",
+"small": true,
+"market": "US",
+"mcap": 156680028.0
+},
 "OBT": {
 "name": "Orange County Bancorp Inc.",
 "name_local": "",
@@ -24972,7 +24963,7 @@
 "industry": "Precious Metals",
 "small": true,
 "market": "US",
-"mcap": 105888873.0
+"mcap": 106008786.0
 },
 "PLGO": {
 "name": "Pelagos Insurance Capital Limited Common Shares",
@@ -25566,7 +25557,7 @@
 "industry": "Biotechnology: Pharmaceutical Preparations",
 "small": true,
 "market": "US",
-"mcap": 174285023.0
+"mcap": 174542065.0
 },
 "PRSU": {
 "name": "Pursuit Attractions & Hospitality, Inc.",
@@ -29400,7 +29391,7 @@
 "industry": "Other Specialty Stores",
 "small": true,
 "market": "US",
-"mcap": 1105424253.0
+"mcap": 1123555130.0
 },
 "SPHR": {
 "name": "Sphere Entertainment",
@@ -30795,7 +30786,7 @@
 "industry": "필수품 소매",
 "small": false,
 "market": "S&P500",
-"mcap": 78216269037.0
+"mcap": 77948614072.0
 },
 "TGTX": {
 "name": "TG Therapeutics, Inc.",
@@ -31047,7 +31038,7 @@
 "industry": "Biotechnology: Pharmaceutical Preparations",
 "small": false,
 "market": "US",
-"mcap": 3018503507.0
+"mcap": 3023865384.0
 },
 "TLYS": {
 "name": "Tilly's Inc.",
