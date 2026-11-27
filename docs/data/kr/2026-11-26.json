@@ -1,9 +1,9 @@
 {
  "market": "kr",
  "date": "2026-11-26",
- "generated_at": "2026-11-26T07:17:29+00:00",
- "universe": 2663,
- "priced": 2544,
+ "generated_at": "2026-11-27T17:29:52+00:00",
+ "universe": 2662,
+ "priced": 2534,
  "criteria": "상승·양봉 마감 · 장중 52주(252거래일) 고가 돌파",
  "newhigh": [
   {
@@ -216,18 +216,6 @@
    "w1_prev": -23.79
   },
   {
-   "ticker": "489460.KQ",
-   "name": "바이오비쥬",
-   "name_local": "",
-   "sector": "기타 화학제품 제조업",
-   "industry": "기타 화학제품 제조업",
-   "small": false,
-   "close": 16550.0,
-   "d1": 25.66,
-   "w1": 25.66,
-   "w1_prev": 0.0
-  },
-  {
    "ticker": "0099X0.KQ",
    "name": "IBKS제25호스팩",
    "name_local": "",
@@ -286,18 +274,6 @@
    "d1": 18.41,
    "w1": 33.69,
    "w1_prev": 6.13
-  },
-  {
-   "ticker": "435570.KQ",
-   "name": "에르코스",
-   "name_local": "",
-   "sector": "도시락 및 식사용 조리식품 제조업",
-   "industry": "도시락 및 식사용 조리식품 제조업",
-   "small": false,
-   "close": 8000.0,
-   "d1": 18.34,
-   "w1": 18.34,
-   "w1_prev": 0.0
   },
   {
    "ticker": "331920.KQ",
@@ -1282,6 +1258,30 @@
    "d1": 6.49,
    "w1": 1.1,
    "w1_prev": -8.64
+  },
+  {
+   "ticker": "070300.KQ",
+   "name": "퀀텀레일",
+   "name_local": "",
+   "sector": "소프트웨어 개발 및 공급업",
+   "industry": "소프트웨어 개발 및 공급업",
+   "small": false,
+   "close": 181.0,
+   "d1": 6.47,
+   "w1": -10.4,
+   "w1_prev": -22.9
+  },
+  {
+   "ticker": "051630.KS",
+   "name": "진양화학",
+   "name_local": "",
+   "sector": "플라스틱제품 제조업",
+   "industry": "플라스틱제품 제조업",
+   "small": false,
+   "close": 5270.0,
+   "d1": 6.46,
+   "w1": 13.82,
+   "w1_prev": -6.46
   }
  ],
  "top_w1": [
@@ -2198,18 +2198,6 @@
    "w1_prev": 1.21
   },
   {
-   "ticker": "094800.KS",
-   "name": "맵스리얼티",
-   "name_local": "",
-   "sector": "신탁업 및 집합투자업",
-   "industry": "신탁업 및 집합투자업",
-   "small": false,
-   "close": 6880.0,
-   "d1": -0.86,
-   "w1": 10.61,
-   "w1_prev": 0.32
-  },
-  {
    "ticker": "051900.KS",
    "name": "LG생활건강",
    "name_local": "",
@@ -2484,6 +2472,18 @@
    "d1": -7.44,
    "w1": 8.44,
    "w1_prev": -3.73
+  },
+  {
+   "ticker": "273060.KQ",
+   "name": "와이즈버즈",
+   "name_local": "",
+   "sector": "광고업",
+   "industry": "광고업",
+   "small": false,
+   "close": 3640.0,
+   "d1": 2.97,
+   "w1": 8.17,
+   "w1_prev": 6.83
   }
  ],
  "w1_week": "2026-11-16~2026-11-20",
