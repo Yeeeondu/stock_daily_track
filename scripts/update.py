@@ -92,19 +92,19 @@ def _pick(raw, t):
     return _clean(sub)
 
 
-def download(tickers, period, interval="1d"):
+def download(tickers, period, interval="1d", threads=True, size=None):
     """yfinance 일괄 다운로드 (묶음 단위, 빠진 종목 최대 2회 재시도). {ticker: DataFrame}"""
     import yfinance as yf
 
     out, todo = {}, list(dict.fromkeys(tickers))
-    size = SETTINGS["chunk_size"]
+    size = size or SETTINGS["chunk_size"]
     for rnd in range(3):
         missing = []
         for i in range(0, len(todo), size):
             part = todo[i:i + size]
             try:
                 raw = yf.download(part, period=period, interval=interval, group_by="ticker",
-                                  auto_adjust=False, actions=False, threads=True, progress=False)
+                                  auto_adjust=False, actions=False, threads=threads, progress=False)
             except Exception as e:  # noqa: BLE001
                 log("  다운로드 오류:", e)
                 missing += part
@@ -459,6 +459,12 @@ def run_stocks(market):
     if b0 is not None and len(b0) and b0.index[-1] > trade_date:
         cov = sum(1 for d in hist.values() if d.index[-1] == b0.index[-1]) / len(hist)
         log(f"  지수 기준일 {b0.index[-1]:%Y-%m-%d} (해당일 시세 있는 종목 {cov:.0%})")
+        if cov < 0.9:  # 최신 날짜가 빠진 종목은 병렬 없이 다시 받는다
+            stale = [t for t, d in hist.items() if d.index[-1] < b0.index[-1]]
+            log(f"  최신 날짜 없는 {len(stale)}종목 다시 받기")
+            hist.update(download(stale, "18mo", threads=False, size=100))
+            cov = sum(1 for d in hist.values() if d.index[-1] == b0.index[-1]) / len(hist)
+            log(f"  재수신 후 해당일 시세 있는 종목 {cov:.0%}")
         if cov >= 0.3:
             trade_date = b0.index[-1]
     ds = trade_date.strftime("%Y-%m-%d")
