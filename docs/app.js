@@ -373,10 +373,9 @@ async function selectItem(id, i) {
   $('.dlinks', det).innerHTML = links(it.ticker, mk);
   dropChart(p.chart); p.chart = null;
   box.innerHTML = '<p class="muted small">차트 불러오는 중…</p>';
-  if (it.chart === false) { box.innerHTML = '<p class="muted small">이평선 신호 목록은 신호별 앞쪽 종목만 차트를 제공합니다. 아래 링크에서 확인해 주세요.</p>'; return; }
   let data;
   try { data = await getJSON(`data/charts/${mk}/${safe(it.ticker)}.json`); }
-  catch { if (seq === p.seq) box.innerHTML = '<p class="muted small">차트 데이터가 없습니다.</p>'; return; }
+  catch { if (seq === p.seq) box.innerHTML = '<p class="muted small">이 종목은 차트 데이터가 없습니다. 아래 링크에서 확인해 주세요.</p>'; return; }
   if (seq !== p.seq) return;
   if (!(await loadLWC())) { box.innerHTML = '<p class="muted small">차트 라이브러리를 불러오지 못했습니다.</p>'; return; }
   box.innerHTML = '';
