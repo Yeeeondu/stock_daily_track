@@ -261,7 +261,9 @@ def ma_signals(df, cfg):
     up=일봉 상향돌파, touch=일봉 근접(고가가 이평선 근처까지, 종가는 아래), gc/dc=골든·데드크로스, conv=이평선 수렴."""
     d = df.dropna(subset=["Open", "High", "Low", "Close"])
     c, h, o = d["Close"], d["High"], d["Open"]
-    periods = sorted(set(cfg["price"]) | {x for p in cfg["pairs"] for x in p})
+    want = set(cfg.get("signals", ["up", "touch", "gc", "dc", "conv"]))
+    pairs = cfg["pairs"] if want & {"gc", "dc", "conv"} else []
+    periods = sorted(set(cfg["price"]) | {x for p in pairs for x in p})
     ma = {n: c.rolling(n).mean() for n in periods}
     out = []
     tp = cfg["touch_pct"] / 100
@@ -269,24 +271,24 @@ def ma_signals(df, cfg):
         m = ma[n]
         if len(m) < 2 or pd.isna(m.iloc[-1]) or pd.isna(m.iloc[-2]):
             continue
-        if c.iloc[-1] > m.iloc[-1] and c.iloc[-2] <= m.iloc[-2]:
+        if "up" in want and c.iloc[-1] > m.iloc[-1] and c.iloc[-2] <= m.iloc[-2]:
             out.append(("up", f"{n}일선↑", f"종가가 {n}일선 상향돌파"))
-        elif c.iloc[-1] < m.iloc[-1] and h.iloc[-1] >= m.iloc[-1] * (1 - tp):
+        elif "touch" in want and c.iloc[-1] < m.iloc[-1] and h.iloc[-1] >= m.iloc[-1] * (1 - tp):
             tail = "음봉으로 이평선 아래 마감" if c.iloc[-1] < o.iloc[-1] else "이평선 아래에서 마감"
             out.append(("touch", f"{n}일선 근접", f"고가가 {n}일선 {cfg['touch_pct']}% 이내까지 올라온 뒤 {tail}"))
     near = cfg["near_pct"] / 100
-    for a, b in cfg["pairs"]:
+    for a, b in pairs:
         sa, lb = ma[a], ma[b]
         if len(lb) < 7 or pd.isna(lb.iloc[-6]) or pd.isna(sa.iloc[-6]):
             continue
-        if sa.iloc[-1] > lb.iloc[-1] and sa.iloc[-2] <= lb.iloc[-2]:
+        if "gc" in want and sa.iloc[-1] > lb.iloc[-1] and sa.iloc[-2] <= lb.iloc[-2]:
             out.append(("gc", f"{a}/{b} GC", f"{a}일선이 {b}일선 상향돌파 (골든크로스)"))
-        elif sa.iloc[-1] < lb.iloc[-1] and sa.iloc[-2] >= lb.iloc[-2]:
+        elif "dc" in want and sa.iloc[-1] < lb.iloc[-1] and sa.iloc[-2] >= lb.iloc[-2]:
             out.append(("dc", f"{a}/{b} DC", f"{a}일선이 {b}일선 하향돌파 (데드크로스)"))
         else:
             gap = abs(sa.iloc[-1] - lb.iloc[-1]) / lb.iloc[-1]
             gap5 = abs(sa.iloc[-6] - lb.iloc[-6]) / lb.iloc[-6]
-            if gap <= near and gap < gap5:
+            if "conv" in want and gap <= near and gap < gap5:
                 side = "골든크로스 접근" if sa.iloc[-1] < lb.iloc[-1] else "데드크로스 접근"
                 out.append(("conv", f"{a}/{b} {gap * 100:.1f}%", f"{a}일선과 {b}일선 차이 {gap * 100:.1f}% (5일 전 {gap5 * 100:.1f}%) · {side}"))
     return out
@@ -521,8 +523,10 @@ def run_stocks(market):
 
     # 이평선 신호 종목은 신호 종류별로 앞쪽(시총·거래대금 큰 순) 일부만 차트 파일을 만든다 (저장소 용량)
     sig_chart = set()
-    for typ in ("up", "touch", "gc", "dc", "conv"):
-        sig_chart |= {r["ticker"] for r in [x for x in masig if any(g["t"] == typ for g in x["sigs"])][:SETTINGS.get("ma_signal_charts", 300) // 3]}
+    types = (SETTINGS.get("ma_signals", {}).get(market) or {}).get("signals", ["up", "touch", "gc", "dc", "conv"])
+    per = SETTINGS.get("ma_signal_charts", 300) // max(1, min(3, len(types)))
+    for typ in types:
+        sig_chart |= {r["ticker"] for r in [x for x in masig if any(g["t"] == typ for g in x["sigs"])][:per]}
     for r in masig:
         r["chart"] = r["ticker"] in sig_chart
     shown = {r["ticker"] for r in highs + top_d1 + top_w1 + rising + vsurge if r["ticker"] in hist} | sig_chart
@@ -542,7 +546,8 @@ def run_stocks(market):
             r["rs"] = rs.get(r["ticker"])
     wk = weekly(shown)
     mcfg = SETTINGS.get("ma_signals", {}).get(market)
-    mas = sorted(set(mcfg["price"]) | {x for p in mcfg["pairs"] for x in p}) if mcfg else None
+    mas = (sorted(set(mcfg["price"]) | ({x for p in mcfg["pairs"] for x in p} if set(mcfg.get("signals", ["gc"])) & {"gc", "dc", "conv"} else set()))
+           if mcfg else None)
     for t in shown:
         write_chart(market, t, uni[t]["name"], hist[t], wk.get(t), mas if t in sig_chart else None)
 

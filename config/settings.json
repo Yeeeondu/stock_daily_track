@@ -44,7 +44,10 @@
         ]
       ],
       "near_pct": 3,
-      "touch_pct": 1
+      "touch_pct": 1,
+      "signals": [
+        "up"
+      ]
     },
     "us": {
       "price": [
@@ -67,7 +70,10 @@
         ]
       ],
       "near_pct": 1,
-      "touch_pct": 1
+      "touch_pct": 1,
+      "signals": [
+        "up"
+      ]
     },
     "jp": {
       "price": [
@@ -90,7 +96,10 @@
         ]
       ],
       "near_pct": 1,
-      "touch_pct": 1
+      "touch_pct": 1,
+      "signals": [
+        "up"
+      ]
     }
   },
   "ma_signal_charts": 300

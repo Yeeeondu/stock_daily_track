@@ -305,6 +305,7 @@ const CAPS = [['L', '대형 · $10B 이상'], ['M', '중형 · $1B~10B'], ['S', 
 const hasCaps = (items) => items.some((x) => x.cap);
 function grpDefs(items, opts) {
   if (opts.groups) return opts.groups;
+  if (opts.metric === 'sig') return null;
   if (hasCaps(items)) return CAPS.map(([k, l]) => [k, l, (x) => (x.cap || 'U') === k]);
   return null;
 }
@@ -438,7 +439,7 @@ function stockSections(day, mk) {
   return `<p class="muted small" style="margin:18px 0 -14px">${fmtDate(day.date)} 기준 · 집계 ${day.priced?.toLocaleString()}종목 · 신고가: ${esc(day.criteria)} · 오른쪽 차트는 왼쪽에서 종목을 누르면 바뀝니다</p>`
     + panelHTML(`${mk}-high`, '신고가', day.newhigh, { metric: 'd1', copy: true, fx: mk !== 'us' })
     + (day.rising ? panelHTML(`${mk}-rise`, `최근 시장 대비 강세 <span class="small muted">(1주·1달 모두 ${BENCH[mk] || '지수'}보다 강한 종목 · 숫자는 1주+1달 초과수익 합계)</span>`, day.rising, { metric: 'score', fx: mk !== 'us' }) : '')
-    + (day.masig ? panelHTML(`${mk}-ma`, `이평선 신호 <span class="small muted">(${maNote(day)})</span>`, day.masig, { metric: 'sig', groups: SIG_G }) : '')
+    + (day.masig ? panelHTML(`${mk}-ma`, `${upOnly(day) ? '이평선 상향돌파' : '이평선 신호'} <span class="small muted">(${maNote(day)})</span>`, day.masig, { metric: 'sig', groups: upOnly(day) ? null : SIG_G }) : '')
     + (day.vsurge ? panelHTML(`${mk}-vol`, '거래량 급증 <span class="small muted">(당일 거래량이 직전 5거래일 평균보다 30% 이상 많은 종목 · 숫자는 거래량 증가율)</span>', day.vsurge, { metric: 'vsurge' }) : '')
     + panelHTML(`${mk}-d1`, '일간 상승률 상위', day.top_d1, { metric: 'd1', fx: mk !== 'us' })
     + panelHTML(`${mk}-w1`, wkTitle(day), day.top_w1, { metric: 'w1', fx: mk !== 'us' });
@@ -448,7 +449,7 @@ function bindStocks(day, mk) {
   const showMeta = mk !== 'kr';
   bindPanel(`${mk}-high`, day.newhigh, { metric: 'd1', chartMarket: mk, defRange: '1Y', showMeta });
   if (day.rising) bindPanel(`${mk}-rise`, day.rising, { metric: 'score', chartMarket: mk, defRange: '6M', showMeta });
-  if (day.masig) bindPanel(`${mk}-ma`, day.masig, { metric: 'sig', groups: SIG_G, chartMarket: mk, defRange: '6M', showMeta });
+  if (day.masig) bindPanel(`${mk}-ma`, day.masig, { metric: 'sig', groups: upOnly(day) ? null : SIG_G, chartMarket: mk, defRange: '6M', showMeta });
   if (day.vsurge) bindPanel(`${mk}-vol`, day.vsurge, { metric: 'vsurge', chartMarket: mk, defRange: '3M', showMeta });
   bindPanel(`${mk}-d1`, day.top_d1, { metric: 'd1', chartMarket: mk, defRange: '6M', showMeta });
   bindPanel(`${mk}-w1`, day.top_w1, { metric: 'w1', chartMarket: mk, defRange: '6M', showMeta });
@@ -458,8 +459,10 @@ function bindStocks(day, mk) {
 
 const SIG_G = [['up', '상향돌파', (x) => x.sigs.some((g) => g.t === 'up')], ['touch', '근접', (x) => x.sigs.some((g) => g.t === 'touch')],
   ['gc', '골든크로스', (x) => x.sigs.some((g) => g.t === 'gc')], ['dc', '데드크로스', (x) => x.sigs.some((g) => g.t === 'dc')], ['conv', '이평선 수렴', (x) => x.sigs.some((g) => g.t === 'conv')]];
+const upOnly = (day) => { const t = day.masig_cfg?.signals; return t && t.length === 1 && t[0] === 'up'; };
 function maNote(day) {
   const c = day.masig_cfg; if (!c) return '';
+  if (upOnly(day)) return `어제 종가는 아래, 오늘 종가는 위 · ${c.price.join('·')}일선 · ${day.market === 'kr' ? '거래대금' : '시총'} 큰 순`;
   return `일봉 돌파·근접: ${c.price.join('·')}일선 · 크로스·수렴: ${c.pairs.map((p) => p.join('/')).join(', ')} · 수렴 기준 ${c.near_pct}% 이내 · ${day.market === 'kr' ? '거래대금' : '시총'} 큰 순`;
 }
 const BENCH = { us: 'S&P500', jp: '니케이225', tw: '가권지수' };
