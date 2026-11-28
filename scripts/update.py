@@ -256,6 +256,42 @@ def is_rising(m):
     return a is not None and b is not None and a > 0 and b > 0 and (a >= 2 or b >= 2)
 
 
+def ma_signals(df, cfg):
+    """이평선 신호. 반환: [(type, 짧은표시, 설명)]
+    up=일봉 상향돌파, touch=일봉 근접(고가가 이평선 근처까지, 종가는 아래), gc/dc=골든·데드크로스, conv=이평선 수렴."""
+    d = df.dropna(subset=["Open", "High", "Low", "Close"])
+    c, h, o = d["Close"], d["High"], d["Open"]
+    periods = sorted(set(cfg["price"]) | {x for p in cfg["pairs"] for x in p})
+    ma = {n: c.rolling(n).mean() for n in periods}
+    out = []
+    tp = cfg["touch_pct"] / 100
+    for n in cfg["price"]:
+        m = ma[n]
+        if len(m) < 2 or pd.isna(m.iloc[-1]) or pd.isna(m.iloc[-2]):
+            continue
+        if c.iloc[-1] > m.iloc[-1] and c.iloc[-2] <= m.iloc[-2]:
+            out.append(("up", f"{n}일선↑", f"종가가 {n}일선 상향돌파"))
+        elif c.iloc[-1] < m.iloc[-1] and h.iloc[-1] >= m.iloc[-1] * (1 - tp):
+            tail = "음봉으로 이평선 아래 마감" if c.iloc[-1] < o.iloc[-1] else "이평선 아래에서 마감"
+            out.append(("touch", f"{n}일선 근접", f"고가가 {n}일선 {cfg['touch_pct']}% 이내까지 올라온 뒤 {tail}"))
+    near = cfg["near_pct"] / 100
+    for a, b in cfg["pairs"]:
+        sa, lb = ma[a], ma[b]
+        if len(lb) < 7 or pd.isna(lb.iloc[-6]) or pd.isna(sa.iloc[-6]):
+            continue
+        if sa.iloc[-1] > lb.iloc[-1] and sa.iloc[-2] <= lb.iloc[-2]:
+            out.append(("gc", f"{a}/{b} GC", f"{a}일선이 {b}일선 상향돌파 (골든크로스)"))
+        elif sa.iloc[-1] < lb.iloc[-1] and sa.iloc[-2] >= lb.iloc[-2]:
+            out.append(("dc", f"{a}/{b} DC", f"{a}일선이 {b}일선 하향돌파 (데드크로스)"))
+        else:
+            gap = abs(sa.iloc[-1] - lb.iloc[-1]) / lb.iloc[-1]
+            gap5 = abs(sa.iloc[-6] - lb.iloc[-6]) / lb.iloc[-6]
+            if gap <= near and gap < gap5:
+                side = "골든크로스 접근" if sa.iloc[-1] < lb.iloc[-1] else "데드크로스 접근"
+                out.append(("conv", f"{a}/{b} {gap * 100:.1f}%", f"{a}일선과 {b}일선 차이 {gap * 100:.1f}% (5일 전 {gap5 * 100:.1f}%) · {side}"))
+    return out
+
+
 def is_new_high(df):
     """당일 52주 신고가 여부. 반환: 직전 52주 고가 또는 None"""
     df = df.dropna(subset=["Open", "High", "Low", "Close"])
@@ -311,9 +347,13 @@ def bars_of(df, since=None):
             if not any(pd.isna(v) for v in (r.Open, r.High, r.Low, r.Close))]
 
 
-def write_chart(market, t, name, df, wk=None):
+def write_chart(market, t, name, df, wk=None, mas=None):
     cut = df.index[-1] - pd.DateOffset(days=SETTINGS["chart_days"])
     obj = {"ticker": t, "name": name, "updated": df.index[-1].strftime("%Y-%m-%d"), "bars": bars_of(df, cut)}
+    if mas:  # 이평선(전체 기간으로 계산 후 차트 구간만)
+        d = df.dropna(subset=["Open", "High", "Low", "Close"])
+        keep = d.index >= cut
+        obj["ma"] = {str(n): [None if pd.isna(v) else num(v) for v in d["Close"].rolling(n).mean()[keep]] for n in mas}
     if wk is not None and len(wk):
         obj["weekly"] = bars_of(wk)
     write_json(DATA / "charts" / market / f"{safe(t)}.json", obj, compact=True)
@@ -405,7 +445,7 @@ def run_stocks(market):
         caps, pes = market_caps(market, list(uni))
     elif market == "us":
         caps = {t: [m["mcap"], m["mcap"]] for t, m in uni.items() if m.get("mcap")}
-    hist = download(list(uni), "13mo")
+    hist = download(list(uni), "18mo")
     if not hist:
         raise RuntimeError("시세를 하나도 받지 못했습니다")
     bench = {"us": "^GSPC", "jp": "^N225", "tw": "^TWII", "kr": "^KS11"}[market]
@@ -438,6 +478,12 @@ def run_stocks(market):
                 row["per"] = round(pes[t], 1)
         if market in ("us", "jp", "tw"):
             row.update(momentum(df["Close"].dropna(), bclose))
+        mcfg = SETTINGS.get("ma_signals", {}).get(market)
+        if mcfg:
+            sg = ma_signals(df, mcfg)
+            if sg:
+                row["sigs"] = [{"t": t, "s": a, "d": b} for t, a, b in sg]
+                row["turnover"] = round(float(df["Close"].iloc[-1] * df["Volume"].iloc[-1]))
         if market == "kr":  # 거래량: 당일 vs 직전 5거래일 평균
             v = df["Volume"]
             avg5 = v.iloc[-6:-1].mean() if len(v) >= 6 else None
@@ -452,6 +498,10 @@ def run_stocks(market):
     n = SETTINGS.get("top_n_by_market", {}).get(market, SETTINGS["top_n"])
     top_d1 = top_by_cap(rows, "d1", n) if market in ("us", "jp", "tw") else top_n(rows, "d1", n)
     top_w1, w1_week = weekly_top(market, rows, trade_date, n)
+    masig = [r for r in rows if r.get("sigs")]
+    masig.sort(key=lambda r: -(r.get("mcap_usd") or r.get("turnover") or 0))
+    if masig:
+        log(f"이평선 신호 {len(masig)}종목")
     vsurge = []
     if market == "kr":
         vsurge = sorted([r for r in rows if r.get("vsurge") is not None and r["vsurge"] >= SETTINGS.get("vsurge_min_pct", 30)],
@@ -469,8 +519,14 @@ def run_stocks(market):
     highs.sort(key=lambda r: -(r["d1"] or 0))
     log(f"신고가 {len(highs)} (역대 {sum(h['ath'] for h in highs)})")
 
-    shown = {r["ticker"] for r in highs + top_d1 + top_w1 + rising + vsurge if r["ticker"] in hist}
-    every = highs + top_d1 + top_w1 + rising + vsurge
+    # 이평선 신호 종목은 신호 종류별로 앞쪽(시총·거래대금 큰 순) 일부만 차트 파일을 만든다 (저장소 용량)
+    sig_chart = set()
+    for typ in ("up", "touch", "gc", "dc", "conv"):
+        sig_chart |= {r["ticker"] for r in [x for x in masig if any(g["t"] == typ for g in x["sigs"])][:SETTINGS.get("ma_signal_charts", 300) // 3]}
+    for r in masig:
+        r["chart"] = r["ticker"] in sig_chart
+    shown = {r["ticker"] for r in highs + top_d1 + top_w1 + rising + vsurge if r["ticker"] in hist} | sig_chart
+    every = highs + top_d1 + top_w1 + rising + vsurge + [r for r in masig if r["chart"]]
     if market in ("jp", "tw"):  # 영문명은 캐시에 있는 것만 (새로 받는 건 meta 단계)
         names = read_json(CACHE / "names.json", {})
         for r in every:
@@ -485,13 +541,16 @@ def run_stocks(market):
         for r in every:
             r["rs"] = rs.get(r["ticker"])
     wk = weekly(shown)
+    mcfg = SETTINGS.get("ma_signals", {}).get(market)
+    mas = sorted(set(mcfg["price"]) | {x for p in mcfg["pairs"] for x in p}) if mcfg else None
     for t in shown:
-        write_chart(market, t, uni[t]["name"], hist[t], wk.get(t))
+        write_chart(market, t, uni[t]["name"], hist[t], wk.get(t), mas if t in sig_chart else None)
 
     write_json(DATA / market / f"{ds}.json", {
         "market": market, "date": ds, "generated_at": now_iso(),
         "universe": len(uni), "priced": len(rows), "criteria": criteria_text(),
-        "newhigh": highs, "top_d1": top_d1, "top_w1": top_w1, "w1_week": w1_week, "rising": rising, "top_n": n, "vsurge": vsurge,
+        "newhigh": highs, "top_d1": top_d1, "top_w1": top_w1, "w1_week": w1_week, "rising": rising, "top_n": n, "vsurge": vsurge, "masig": masig,
+        "masig_cfg": SETTINGS.get("ma_signals", {}).get(market),
         "bench": bench,
     })
     add_index(market, ds)

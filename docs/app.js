@@ -26,7 +26,7 @@ async function getJSON(path) {
 const fmtDate = (d) => { const [y, m, dd] = d.split('-'); return `${y}.${m}.${dd}(${WD[new Date(d + 'T00:00:00').getDay()]})`; };
 const fp = (v, d = 2) => (v == null ? '–' : `${v > 0 ? '+' : ''}${v.toFixed(d)}%`);
 const fpp = (v, d = 1) => (v == null ? '–' : `${v > 0 ? '+' : ''}${v.toFixed(d)}%p`);
-const fmetric = (it, m) => (m === 'score' ? fpp(it.score) : m === 'vsurge' ? `<span class="small muted" style="font-weight:500">거래량</span> ${fp(it.vsurge, 0)}` : fp(it[m]));
+const fmetric = (it, m) => (m === 'sig' ? `<span class="sigs">${(it.sigs || []).map((g) => esc(g.s)).join('<br>')}</span>` : m === 'score' ? fpp(it.score) : m === 'vsurge' ? `<span class="small muted" style="font-weight:500">거래량</span> ${fp(it.vsurge, 0)}` : fp(it[m]));
 const cls = (v) => (v == null ? '' : v > 0 ? 'up' : v < 0 ? 'down' : '');
 const fnum = (v, d) => (v == null ? '–' : v.toLocaleString('ko-KR', { minimumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2), maximumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2) }));
 function fcap(v, mk = 'us') {
@@ -303,17 +303,22 @@ const detailHTML = () => `<div class="detail"><div class="dhead"><div><div class
 
 const CAPS = [['L', '대형 · $10B 이상'], ['M', '중형 · $1B~10B'], ['S', '소형 · $0.1B~1B'], ['U', '시총 미확인']];
 const hasCaps = (items) => items.some((x) => x.cap);
-const defCap = (items) => (CAPS.find(([k]) => items.some((x) => (x.cap || 'U') === k)) || ['L'])[0];
-function capbarHTML(id, items, cur) {
-  return `<div class="capbar" data-p="${id}">${CAPS.map(([k, label]) => { const n = items.filter((x) => (x.cap || 'U') === k).length;
+function grpDefs(items, opts) {
+  if (opts.groups) return opts.groups;
+  if (hasCaps(items)) return CAPS.map(([k, l]) => [k, l, (x) => (x.cap || 'U') === k]);
+  return null;
+}
+const defGrp = (items, G) => (G.find(([, , f]) => items.some(f)) || G[0])[0];
+function capbarHTML(id, items, cur, G) {
+  return `<div class="capbar" data-p="${id}">${G.map(([k, label, f]) => { const n = items.filter(f).length;
     return k === 'U' && !n ? '' : `<button data-c="${k}" class="${k === cur ? 'on' : ''}">${label} <span class="n">${n}</span></button>`; }).join('')}</div>`;
 }
 function panelHTML(id, title, items, opts) {
-  const caps = hasCaps(items);
-  const cur = caps ? defCap(items) : null;
-  const shown = caps ? items.filter((x) => (x.cap || 'U') === cur) : items;
+  const G = grpDefs(items, opts); const caps = !!G;
+  const cur = caps ? defGrp(items, G) : null;
+  const shown = caps ? items.filter(G.find(([k]) => k === cur)[2]) : items;
   const note = caps && opts.fx ? '<span class="small muted" style="font-weight:400">(시총은 달러 환산)</span>' : '';
-  const head = `<h2 class="sec">${title} <span class="n">${items.length}</span>${note}${opts.copy ? '<button class="copy" data-copy="' + id + '">텍스트 복사</button>' : ''}</h2>${opts.tools || ''}${caps ? capbarHTML(id, items, cur) : ''}`;
+  const head = `<h2 class="sec">${title} <span class="n">${items.length}</span>${note}${opts.copy ? '<button class="copy" data-copy="' + id + '">텍스트 복사</button>' : ''}</h2>${opts.tools || ''}${caps ? capbarHTML(id, items, cur, G) : ''}`;
   if (!items.length) return head + '<div class="empty">해당 종목 없음</div>';
   const rows = shown.map((it, i) => rowHTML(it, i, opts.metric)).join('');
   return `${head}<div class="panel" id="${id}"><div class="list">${rows}</div>${detailHTML()}</div>`;
@@ -325,15 +330,16 @@ function toggleHold(el, r, i) {
 }
 function bindPanel(id, all, opts) {
   const el = document.getElementById(id); if (!el) return;
-  const caps = hasCaps(all);
-  const items = caps ? all.filter((x) => (x.cap || 'U') === defCap(all)) : all;
+  const G = grpDefs(all, opts);
+  const gf = (k) => G.find(([kk]) => kk === k)[2];
+  const items = G ? all.filter(gf(defGrp(all, G))) : all;
   const p = { items, opts, chart: null, seq: 0 };
   panels.set(id, p);
   const bar = document.querySelector(`.capbar[data-p="${id}"]`);
   if (bar) bar.onclick = (e) => {
     const b = e.target.closest('button'); if (!b) return;
     bar.querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b));
-    p.items = all.filter((x) => (x.cap || 'U') === b.dataset.c);
+    p.items = all.filter(gf(b.dataset.c));
     $('.list', el).innerHTML = p.items.map((it, i) => rowHTML(it, i, opts.metric)).join('') || '<p class="muted small" style="padding:10px 14px">해당 종목 없음</p>';
     $('.list', el).scrollTop = 0;
     if (p.items.length) selectItem(id, 0);
@@ -361,11 +367,12 @@ async function selectItem(id, i) {
   $('.dsub', det).innerHTML = [esc(sub), mom, ma ? `<span class="matag">${ma}</span>` : ''].filter(Boolean).join(' · ');
   const m = p.opts.metric;
   $('.v', det).textContent = fnum(it.close);
-  $('.c', det).innerHTML = m === 'vsurge' ? `<span class="${cls(it.d1)}">일간 ${fp(it.d1)}</span> · <span class="muted">거래량 ${fnum(it.vol, 0)}주 (5일 평균 ${fnum(it.vol5, 0)}주)</span>` : m === 'score' ? `<span class="${cls(it.d1)}">일간 ${fp(it.d1)}</span>` : `<span class="${cls(it[m])}">${m === 'w1' ? '주간 ' : '일간 '}${fp(it[m])}</span>`;
+  $('.dextra', det).innerHTML = it.sigs ? `<div class="sigdesc">${it.sigs.map((g) => `<div><b>${esc({ up: '상향돌파', touch: '근접', gc: '골든크로스', dc: '데드크로스', conv: '수렴' }[g.t])}</b> ${esc(g.d)}</div>`).join('')}</div>` : (p.opts.extra ? p.opts.extra(it) : '');
+  $('.c', det).innerHTML = m === 'sig' ? `<span class="${cls(it.d1)}">일간 ${fp(it.d1)}</span>` : m === 'vsurge' ? `<span class="${cls(it.d1)}">일간 ${fp(it.d1)}</span> · <span class="muted">거래량 ${fnum(it.vol, 0)}주 (5일 평균 ${fnum(it.vol5, 0)}주)</span>` : m === 'score' ? `<span class="${cls(it.d1)}">일간 ${fp(it.d1)}</span>` : `<span class="${cls(it[m])}">${m === 'w1' ? '주간 ' : '일간 '}${fp(it[m])}</span>`;
   $('.dlinks', det).innerHTML = links(it.ticker, mk);
-  $('.dextra', det).innerHTML = p.opts.extra ? p.opts.extra(it) : '';
   dropChart(p.chart); p.chart = null;
   box.innerHTML = '<p class="muted small">차트 불러오는 중…</p>';
+  if (it.chart === false) { box.innerHTML = '<p class="muted small">이평선 신호 목록은 신호별 앞쪽 종목만 차트를 제공합니다. 아래 링크에서 확인해 주세요.</p>'; return; }
   let data;
   try { data = await getJSON(`data/charts/${mk}/${safe(it.ticker)}.json`); }
   catch { if (seq === p.seq) box.innerHTML = '<p class="muted small">차트 데이터가 없습니다.</p>'; return; }
@@ -380,6 +387,11 @@ async function selectItem(id, i) {
     const vs = ch.addHistogramSeries({ priceScaleId: 'vol', priceFormat: { type: 'volume' }, lastValueVisible: false, priceLineVisible: false });
     ch.priceScale('vol').applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
     vs.setData(data.bars.map((b) => ({ time: b[0], value: b[5], color: rgba(b[4] >= b[1] ? th.up : th.down, 0.35) })));
+    if (data.ma) {
+      const MC = { 20: '#f0a020', 50: '#2fa84f', 60: '#2fa84f', 100: '#8a5cf6', 120: '#8a5cf6', 200: '#8a8a95' };
+      Object.entries(data.ma).forEach(([n, arr]) => ch.addLineSeries({ color: MC[n] || '#e5489b', lineWidth: 1, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false, title: `${n}` })
+        .setData(data.bars.map((b, i) => (arr[i] == null ? { time: b[0] } : { time: b[0], value: arr[i] }))));
+    }
     if (it.ref != null) cs.createPriceLine({ price: it.ref, color: th.muted, lineWidth: 1, lineStyle: 2, axisLabelVisible: true, title: '직전 52주 고가' });
     const wk = data.weekly || [];
     const keys = ['1M', '3M', '6M', '1Y', ...(wk.length > 60 ? ['3Y'] : []), ...(wk.length > 160 ? ['5Y'] : [])];
@@ -426,6 +438,7 @@ function stockSections(day, mk) {
   return `<p class="muted small" style="margin:18px 0 -14px">${fmtDate(day.date)} 기준 · 집계 ${day.priced?.toLocaleString()}종목 · 신고가: ${esc(day.criteria)} · 오른쪽 차트는 왼쪽에서 종목을 누르면 바뀝니다</p>`
     + panelHTML(`${mk}-high`, '신고가', day.newhigh, { metric: 'd1', copy: true, fx: mk !== 'us' })
     + (day.rising ? panelHTML(`${mk}-rise`, `최근 시장 대비 강세 <span class="small muted">(1주·1달 모두 ${BENCH[mk] || '지수'}보다 강한 종목 · 숫자는 1주+1달 초과수익 합계)</span>`, day.rising, { metric: 'score', fx: mk !== 'us' }) : '')
+    + (day.masig ? panelHTML(`${mk}-ma`, `이평선 신호 <span class="small muted">(${maNote(day)})</span>`, day.masig, { metric: 'sig', groups: SIG_G, fx: mk !== 'us' }) : '')
     + (day.vsurge ? panelHTML(`${mk}-vol`, '거래량 급증 <span class="small muted">(당일 거래량이 직전 5거래일 평균보다 30% 이상 많은 종목 · 숫자는 거래량 증가율)</span>', day.vsurge, { metric: 'vsurge' }) : '')
     + panelHTML(`${mk}-d1`, '일간 상승률 상위', day.top_d1, { metric: 'd1', fx: mk !== 'us' })
     + panelHTML(`${mk}-w1`, wkTitle(day), day.top_w1, { metric: 'w1', fx: mk !== 'us' });
@@ -435,6 +448,7 @@ function bindStocks(day, mk) {
   const showMeta = mk !== 'kr';
   bindPanel(`${mk}-high`, day.newhigh, { metric: 'd1', chartMarket: mk, defRange: '1Y', showMeta });
   if (day.rising) bindPanel(`${mk}-rise`, day.rising, { metric: 'score', chartMarket: mk, defRange: '6M', showMeta });
+  if (day.masig) bindPanel(`${mk}-ma`, day.masig, { metric: 'sig', groups: SIG_G, chartMarket: mk, defRange: '6M', showMeta });
   if (day.vsurge) bindPanel(`${mk}-vol`, day.vsurge, { metric: 'vsurge', chartMarket: mk, defRange: '3M', showMeta });
   bindPanel(`${mk}-d1`, day.top_d1, { metric: 'd1', chartMarket: mk, defRange: '6M', showMeta });
   bindPanel(`${mk}-w1`, day.top_w1, { metric: 'w1', chartMarket: mk, defRange: '6M', showMeta });
@@ -442,6 +456,12 @@ function bindStocks(day, mk) {
   if (btn) btn.onclick = async () => { try { await navigator.clipboard.writeText(highsText(day)); btn.textContent = '복사됨 ✓'; } catch { btn.textContent = '복사 실패'; } setTimeout(() => (btn.textContent = '텍스트 복사'), 1500); };
 }
 
+const SIG_G = [['up', '상향돌파', (x) => x.sigs.some((g) => g.t === 'up')], ['touch', '근접', (x) => x.sigs.some((g) => g.t === 'touch')],
+  ['gc', '골든크로스', (x) => x.sigs.some((g) => g.t === 'gc')], ['dc', '데드크로스', (x) => x.sigs.some((g) => g.t === 'dc')], ['conv', '이평선 수렴', (x) => x.sigs.some((g) => g.t === 'conv')]];
+function maNote(day) {
+  const c = day.masig_cfg; if (!c) return '';
+  return `일봉 돌파·근접: ${c.price.join('·')}일선 · 크로스·수렴: ${c.pairs.map((p) => p.join('/')).join(', ')} · 수렴 기준 ${c.near_pct}% 이내 · ${day.market === 'kr' ? '거래대금' : '시총'} 큰 순`;
+}
 const BENCH = { us: 'S&P500', jp: '니케이225', tw: '가권지수' };
 function wkTitle(day) {
   const w = day?.w1_week; if (!w) return '주간 상승률 상위';
