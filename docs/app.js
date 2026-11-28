@@ -26,7 +26,7 @@ async function getJSON(path) {
 const fmtDate = (d) => { const [y, m, dd] = d.split('-'); return `${y}.${m}.${dd}(${WD[new Date(d + 'T00:00:00').getDay()]})`; };
 const fp = (v, d = 2) => (v == null ? '–' : `${v > 0 ? '+' : ''}${v.toFixed(d)}%`);
 const fpp = (v, d = 1) => (v == null ? '–' : `${v > 0 ? '+' : ''}${v.toFixed(d)}%p`);
-const fmetric = (it, m) => (m === 'score' ? fpp(it.score) : fp(it[m]));
+const fmetric = (it, m) => (m === 'score' ? fpp(it.score) : m === 'vsurge' ? `<span class="small muted" style="font-weight:500">거래량</span> ${fp(it.vsurge, 0)}` : fp(it[m]));
 const cls = (v) => (v == null ? '' : v > 0 ? 'up' : v < 0 ? 'down' : '');
 const fnum = (v, d) => (v == null ? '–' : v.toLocaleString('ko-KR', { minimumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2), maximumFractionDigits: d ?? (Math.abs(v) >= 1000 ? 0 : 2) }));
 function fcap(v, mk = 'us') {
@@ -361,7 +361,7 @@ async function selectItem(id, i) {
   $('.dsub', det).innerHTML = [esc(sub), mom, ma ? `<span class="matag">${ma}</span>` : ''].filter(Boolean).join(' · ');
   const m = p.opts.metric;
   $('.v', det).textContent = fnum(it.close);
-  $('.c', det).innerHTML = m === 'score' ? `<span class="${cls(it.d1)}">일간 ${fp(it.d1)}</span>` : `<span class="${cls(it[m])}">${m === 'w1' ? '주간 ' : '일간 '}${fp(it[m])}</span>`;
+  $('.c', det).innerHTML = m === 'vsurge' ? `<span class="${cls(it.d1)}">일간 ${fp(it.d1)}</span> · <span class="muted">거래량 ${fnum(it.vol, 0)}주 (5일 평균 ${fnum(it.vol5, 0)}주)</span>` : m === 'score' ? `<span class="${cls(it.d1)}">일간 ${fp(it.d1)}</span>` : `<span class="${cls(it[m])}">${m === 'w1' ? '주간 ' : '일간 '}${fp(it[m])}</span>`;
   $('.dlinks', det).innerHTML = links(it.ticker, mk);
   $('.dextra', det).innerHTML = p.opts.extra ? p.opts.extra(it) : '';
   dropChart(p.chart); p.chart = null;
@@ -426,6 +426,7 @@ function stockSections(day, mk) {
   return `<p class="muted small" style="margin:18px 0 -14px">${fmtDate(day.date)} 기준 · 집계 ${day.priced?.toLocaleString()}종목 · 신고가: ${esc(day.criteria)} · 오른쪽 차트는 왼쪽에서 종목을 누르면 바뀝니다</p>`
     + panelHTML(`${mk}-high`, '신고가', day.newhigh, { metric: 'd1', copy: true, fx: mk !== 'us' })
     + (day.rising ? panelHTML(`${mk}-rise`, `최근 시장 대비 강세 <span class="small muted">(1주·1달 모두 ${BENCH[mk] || '지수'}보다 강한 종목 · 숫자는 1주+1달 초과수익 합계)</span>`, day.rising, { metric: 'score', fx: mk !== 'us' }) : '')
+    + (day.vsurge ? panelHTML(`${mk}-vol`, '거래량 급증 <span class="small muted">(당일 거래량이 직전 5거래일 평균보다 30% 이상 많은 종목 · 숫자는 거래량 증가율)</span>', day.vsurge, { metric: 'vsurge' }) : '')
     + panelHTML(`${mk}-d1`, '일간 상승률 상위', day.top_d1, { metric: 'd1', fx: mk !== 'us' })
     + panelHTML(`${mk}-w1`, wkTitle(day), day.top_w1, { metric: 'w1', fx: mk !== 'us' });
 }
@@ -434,6 +435,7 @@ function bindStocks(day, mk) {
   const showMeta = mk !== 'kr';
   bindPanel(`${mk}-high`, day.newhigh, { metric: 'd1', chartMarket: mk, defRange: '1Y', showMeta });
   if (day.rising) bindPanel(`${mk}-rise`, day.rising, { metric: 'score', chartMarket: mk, defRange: '6M', showMeta });
+  if (day.vsurge) bindPanel(`${mk}-vol`, day.vsurge, { metric: 'vsurge', chartMarket: mk, defRange: '3M', showMeta });
   bindPanel(`${mk}-d1`, day.top_d1, { metric: 'd1', chartMarket: mk, defRange: '6M', showMeta });
   bindPanel(`${mk}-w1`, day.top_w1, { metric: 'w1', chartMarket: mk, defRange: '6M', showMeta });
   const btn = document.querySelector(`[data-copy="${mk}-high"]`);

@@ -438,6 +438,12 @@ def run_stocks(market):
                 row["per"] = round(pes[t], 1)
         if market in ("us", "jp", "tw"):
             row.update(momentum(df["Close"].dropna(), bclose))
+        if market == "kr":  # 거래량: 당일 vs 직전 5거래일 평균
+            v = df["Volume"]
+            avg5 = v.iloc[-6:-1].mean() if len(v) >= 6 else None
+            if avg5 and avg5 > 0:
+                row["vol"], row["vol5"] = int(v.iloc[-1]), int(avg5)
+                row["vsurge"] = round((v.iloc[-1] / avg5 - 1) * 100, 1)
         rows.append(row)
         ref = is_new_high(df)
         if ref is not None:
@@ -446,6 +452,11 @@ def run_stocks(market):
     n = SETTINGS.get("top_n_by_market", {}).get(market, SETTINGS["top_n"])
     top_d1 = top_by_cap(rows, "d1", n) if market in ("us", "jp", "tw") else top_n(rows, "d1", n)
     top_w1, w1_week = weekly_top(market, rows, trade_date, n)
+    vsurge = []
+    if market == "kr":
+        vsurge = sorted([r for r in rows if r.get("vsurge") is not None and r["vsurge"] >= SETTINGS.get("vsurge_min_pct", 30)],
+                        key=lambda r: -r["vsurge"])
+        log(f"거래량 급증 {len(vsurge)}종목")
     rising = []
     if market in ("us", "jp", "tw"):
         for r in rows:
@@ -458,8 +469,8 @@ def run_stocks(market):
     highs.sort(key=lambda r: -(r["d1"] or 0))
     log(f"신고가 {len(highs)} (역대 {sum(h['ath'] for h in highs)})")
 
-    shown = {r["ticker"] for r in highs + top_d1 + top_w1 + rising if r["ticker"] in hist}
-    every = highs + top_d1 + top_w1 + rising
+    shown = {r["ticker"] for r in highs + top_d1 + top_w1 + rising + vsurge if r["ticker"] in hist}
+    every = highs + top_d1 + top_w1 + rising + vsurge
     if market in ("jp", "tw"):  # 영문명은 캐시에 있는 것만 (새로 받는 건 meta 단계)
         names = read_json(CACHE / "names.json", {})
         for r in every:
@@ -480,7 +491,7 @@ def run_stocks(market):
     write_json(DATA / market / f"{ds}.json", {
         "market": market, "date": ds, "generated_at": now_iso(),
         "universe": len(uni), "priced": len(rows), "criteria": criteria_text(),
-        "newhigh": highs, "top_d1": top_d1, "top_w1": top_w1, "w1_week": w1_week, "rising": rising, "top_n": n,
+        "newhigh": highs, "top_d1": top_d1, "top_w1": top_w1, "w1_week": w1_week, "rising": rising, "top_n": n, "vsurge": vsurge,
         "bench": bench,
     })
     add_index(market, ds)
