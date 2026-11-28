@@ -10975,6 +10975,14 @@
 "small": false,
 "market": "ETF"
 },
+"AFLR": {
+"name": "Aligned Pathway Flourishing ETF",
+"name_local": "",
+"sector": "ETF",
+"industry": "ETF",
+"small": false,
+"market": "ETF"
+},
 "AFMC": {
 "name": "First Trust Active Factor Mid Cap ETF",
 "name_local": "",
@@ -39321,14 +39329,6 @@
 },
 "SOLM": {
 "name": "Amplify Solana 3% Monthly Option Income ETF",
-"name_local": "",
-"sector": "ETF",
-"industry": "ETF",
-"small": false,
-"market": "ETF"
-},
-"SOVF": {
-"name": "Sovereign's Capital Flourish Fund",
 "name_local": "",
 "sector": "ETF",
 "industry": "ETF",
