@@ -454,8 +454,19 @@ def run_stocks(market):
     bdf = download([bench], "13mo").get(bench)
     bclose = bdf["Close"].dropna() if bdf is not None else None
     trade_date = trade_date_of(hist)
+    bench0 = {"us": "^GSPC", "jp": "^N225", "tw": "^TWII", "kr": "^KS11"}[market]
+    b0 = download([bench0], "1mo").get(bench0)
+    if b0 is not None and len(b0) and b0.index[-1] > trade_date:
+        cov = sum(1 for d in hist.values() if d.index[-1] == b0.index[-1]) / len(hist)
+        log(f"  지수 기준일 {b0.index[-1]:%Y-%m-%d} (해당일 시세 있는 종목 {cov:.0%})")
+        if cov >= 0.3:
+            trade_date = b0.index[-1]
     ds = trade_date.strftime("%Y-%m-%d")
     log(f"기준일 {ds} / 시세 {len(hist)}종목")
+    latest = (read_json(DATA / "index.json", {}).get(market) or [None])[0]
+    if latest and ds < latest:  # 이미 더 최신 데이터가 있으면 덮어쓰지 않음
+        log(f"  기준일 {ds} 이 기존 최신 {latest} 보다 이전 — 이번 실행은 저장하지 않습니다")
+        return
 
     rows, highs = [], []
     for t, df in hist.items():
