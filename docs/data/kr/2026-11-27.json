@@ -1,9 +1,9 @@
 {
  "market": "kr",
  "date": "2026-11-27",
- "generated_at": "2026-11-28T01:35:23+00:00",
+ "generated_at": "2026-11-28T13:44:18+00:00",
  "universe": 2662,
- "priced": 2538,
+ "priced": 2539,
  "criteria": "상승·양봉 마감 · 장중 52주(252거래일) 고가 돌파",
  "newhigh": [
   {
@@ -2006,7 +2006,7 @@
    "vol": 110017,
    "vol5": 72192,
    "vsurge": 52.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "456070.KQ",
@@ -2030,7 +2030,7 @@
    "vol": 102392,
    "vol5": 32013,
    "vsurge": 219.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0120G0.KS",
@@ -2146,7 +2146,7 @@
    "vol": 8939,
    "vol5": 1720,
    "vsurge": 419.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "099320.KQ",
@@ -2272,7 +2272,7 @@
    "vol": 77770,
    "vol5": 44558,
    "vsurge": 74.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "052020.KQ",
@@ -2427,7 +2427,7 @@
    "vol": 69016,
    "vol5": 246328,
    "vsurge": -72.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "295310.KQ",
@@ -4172,7 +4172,7 @@
    "vol": 120825,
    "vol5": 40274,
    "vsurge": 200.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "417010.KQ",
@@ -4580,7 +4580,7 @@
    "vol": 16449,
    "vol5": 1762,
    "vsurge": 833.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "010240.KQ",
@@ -4955,7 +4955,7 @@
    "vol": 45113,
    "vol5": 7828,
    "vsurge": 476.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "000490.KS",
@@ -5018,7 +5018,7 @@
    "vol": 8939,
    "vol5": 1720,
    "vsurge": 419.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "001420.KS",
@@ -5186,7 +5186,7 @@
    "vol": 100046,
    "vol5": 21847,
    "vsurge": 357.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "065370.KQ",
@@ -5210,7 +5210,7 @@
    "vol": 59891,
    "vol5": 13136,
    "vsurge": 355.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "201490.KQ",
@@ -5361,7 +5361,7 @@
    "vol": 39188,
    "vol5": 9416,
    "vsurge": 316.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "051980.KQ",
@@ -5415,7 +5415,7 @@
    "vol": 278983,
    "vol5": 68218,
    "vsurge": 309.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "307180.KQ",
@@ -5576,7 +5576,7 @@
    "vol": 16594,
    "vol5": 4185,
    "vsurge": 296.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "027830.KQ",
@@ -5895,7 +5895,7 @@
    "vol": 13705,
    "vol5": 3755,
    "vsurge": 264.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "050960.KQ",
@@ -5919,7 +5919,7 @@
    "vol": 7372,
    "vol5": 2040,
    "vsurge": 261.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "339770.KS",
@@ -6087,7 +6087,7 @@
    "vol": 67875,
    "vol5": 19934,
    "vsurge": 240.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0105P0.KQ",
@@ -6219,7 +6219,7 @@
    "vol": 12352,
    "vol5": 3797,
    "vsurge": 225.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "027710.KQ",
@@ -6301,7 +6301,7 @@
    "vol": 43033,
    "vol5": 13411,
    "vsurge": 220.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "140070.KQ",
@@ -6340,7 +6340,7 @@
    "vol": 102392,
    "vol5": 32013,
    "vsurge": 219.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "083790.KQ",
@@ -6463,7 +6463,7 @@
    "vol": 21204,
    "vol5": 6893,
    "vsurge": 207.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "032790.KQ",
@@ -6517,7 +6517,7 @@
    "vol": 56236,
    "vol5": 18357,
    "vsurge": 206.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "079000.KQ",
@@ -6541,7 +6541,7 @@
    "vol": 14483,
    "vol5": 4737,
    "vsurge": 205.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0068Y0.KQ",
@@ -6610,7 +6610,7 @@
    "vol": 120825,
    "vol5": 40274,
    "vsurge": 200.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "246710.KQ",
@@ -6658,7 +6658,7 @@
    "vol": 112800,
    "vol5": 37872,
    "vsurge": 197.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "032850.KQ",
@@ -6687,7 +6687,7 @@
    "vol": 88953,
    "vol5": 29882,
    "vsurge": 197.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "189300.KQ",
@@ -6818,7 +6818,7 @@
    "vol": 10839,
    "vol5": 3704,
    "vsurge": 192.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "373160.KQ",
@@ -6980,7 +6980,7 @@
    "vol": 21197,
    "vol5": 7527,
    "vsurge": 181.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "079650.KQ",
@@ -7019,7 +7019,7 @@
    "vol": 39971,
    "vol5": 14199,
    "vsurge": 181.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "071950.KS",
@@ -7097,7 +7097,7 @@
    "vol": 36440,
    "vol5": 13103,
    "vsurge": 178.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "061970.KQ",
@@ -7436,7 +7436,7 @@
    "vol": 55255,
    "vol5": 20871,
    "vsurge": 164.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "048770.KQ",
@@ -7583,7 +7583,7 @@
    "vol": 51226,
    "vol5": 19628,
    "vsurge": 161.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "487400.KQ",
@@ -7710,7 +7710,7 @@
    "vol": 69108,
    "vol5": 26936,
    "vsurge": 156.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "066360.KQ",
@@ -7803,7 +7803,7 @@
    "vol": 3081,
    "vol5": 1219,
    "vsurge": 152.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "389650.KQ",
@@ -7866,7 +7866,7 @@
    "vol": 62388,
    "vol5": 24938,
    "vsurge": 150.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "067000.KQ",
@@ -7890,7 +7890,7 @@
    "vol": 239333,
    "vol5": 95893,
    "vsurge": 149.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "123570.KQ",
@@ -8101,7 +8101,7 @@
    "vol": 9850,
    "vol5": 4084,
    "vsurge": 141.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "238200.KQ",
@@ -8443,7 +8443,7 @@
    "vol": 83916,
    "vol5": 35829,
    "vsurge": 134.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "391710.KQ",
@@ -8841,7 +8841,7 @@
    "vol": 47802,
    "vol5": 21284,
    "vsurge": 124.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "377220.KQ",
@@ -8880,7 +8880,7 @@
    "vol": 42815,
    "vol5": 19074,
    "vsurge": 124.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "128820.KS",
@@ -8928,7 +8928,7 @@
    "vol": 60618,
    "vol5": 27129,
    "vsurge": 123.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "001720.KS",
@@ -9520,7 +9520,7 @@
    "vol": 57529,
    "vol5": 27180,
    "vsurge": 111.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "065660.KQ",
@@ -9544,7 +9544,7 @@
    "vol": 35614,
    "vol5": 16836,
    "vsurge": 111.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "044960.KQ",
@@ -9607,7 +9607,7 @@
    "vol": 66338,
    "vol5": 31795,
    "vsurge": 108.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "365550.KS",
@@ -9691,7 +9691,7 @@
    "vol": 1397,
    "vol5": 673,
    "vsurge": 107.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "076610.KQ",
@@ -9769,7 +9769,7 @@
    "vol": 41490,
    "vol5": 20072,
    "vsurge": 106.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0007C0.KQ",
@@ -9877,7 +9877,7 @@
    "vol": 1238,
    "vol5": 603,
    "vsurge": 105.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "263700.KQ",
@@ -10015,7 +10015,7 @@
    "vol": 39278,
    "vol5": 19395,
    "vsurge": 102.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "049950.KQ",
@@ -10144,7 +10144,7 @@
    "vol": 53379,
    "vol5": 26526,
    "vsurge": 101.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "016590.KS",
@@ -10168,7 +10168,7 @@
    "vol": 16534,
    "vol5": 8220,
    "vsurge": 101.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "192250.KQ",
@@ -10192,7 +10192,7 @@
    "vol": 63747,
    "vol5": 31769,
    "vsurge": 100.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "079980.KS",
@@ -10384,7 +10384,7 @@
    "vol": 32430,
    "vol5": 16484,
    "vsurge": 96.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "000230.KS",
@@ -10423,7 +10423,7 @@
    "vol": 384562,
    "vol5": 195685,
    "vsurge": 96.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "065350.KQ",
@@ -10540,7 +10540,7 @@
    "vol": 61277,
    "vol5": 31352,
    "vsurge": 95.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "018470.KS",
@@ -10780,7 +10780,7 @@
    "vol": 50254,
    "vol5": 25991,
    "vsurge": 93.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "291230.KQ",
@@ -10804,7 +10804,7 @@
    "vol": 21822,
    "vol5": 11306,
    "vsurge": 93.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "006660.KS",
@@ -10881,7 +10881,7 @@
    "vol": 123715,
    "vol5": 64219,
    "vsurge": 92.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "215380.KQ",
@@ -10959,7 +10959,7 @@
    "vol": 22663,
    "vol5": 11837,
    "vsurge": 91.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "054920.KQ",
@@ -11022,7 +11022,7 @@
    "vol": 11660,
    "vol5": 6108,
    "vsurge": 90.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "065130.KQ",
@@ -11061,7 +11061,7 @@
    "vol": 82080,
    "vol5": 43154,
    "vsurge": 90.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "256840.KQ",
@@ -11193,7 +11193,7 @@
    "vol": 97007,
    "vol5": 51450,
    "vsurge": 88.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0015G0.KQ",
@@ -11217,7 +11217,7 @@
    "vol": 58912,
    "vol5": 31293,
    "vsurge": 88.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "322180.KQ",
@@ -11241,7 +11241,7 @@
    "vol": 88263,
    "vol5": 46956,
    "vsurge": 88.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "483350.KQ",
@@ -11382,7 +11382,7 @@
    "vol": 48562,
    "vol5": 25957,
    "vsurge": 87.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "047080.KQ",
@@ -11525,7 +11525,7 @@
    "vol": 75587,
    "vol5": 40612,
    "vsurge": 86.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "097230.KS",
@@ -11686,7 +11686,7 @@
    "vol": 87256,
    "vol5": 47254,
    "vsurge": 84.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "028300.KQ",
@@ -11995,7 +11995,7 @@
    "vol": 9255,
    "vol5": 5111,
    "vsurge": 81.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "085620.KS",
@@ -12058,7 +12058,7 @@
    "vol": 113491,
    "vol5": 62832,
    "vsurge": 80.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "290670.KQ",
@@ -12097,7 +12097,7 @@
    "vol": 14095,
    "vol5": 7823,
    "vsurge": 80.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "100790.KQ",
@@ -12245,7 +12245,7 @@
    "vol": 24376,
    "vol5": 13616,
    "vsurge": 79.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "099220.KQ",
@@ -12323,7 +12323,7 @@
    "vol": 396927,
    "vol5": 222063,
    "vsurge": 78.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "419540.KQ",
@@ -12455,7 +12455,7 @@
    "vol": 39072,
    "vol5": 21952,
    "vsurge": 78.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "300720.KS",
@@ -12509,7 +12509,7 @@
    "vol": 91029,
    "vol5": 51341,
    "vsurge": 77.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "064260.KQ",
@@ -12557,7 +12557,7 @@
    "vol": 118937,
    "vol5": 67138,
    "vsurge": 77.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "295310.KQ",
@@ -12620,7 +12620,7 @@
    "vol": 3558,
    "vol5": 2017,
    "vsurge": 76.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "161000.KS",
@@ -12727,7 +12727,7 @@
    "vol": 178043,
    "vol5": 101976,
    "vsurge": 74.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "474610.KQ",
@@ -12751,7 +12751,7 @@
    "vol": 77770,
    "vol5": 44558,
    "vsurge": 74.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "417030.KQ",
@@ -12790,7 +12790,7 @@
    "vol": 85947,
    "vol5": 49334,
    "vsurge": 74.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "033560.KQ",
@@ -12829,7 +12829,7 @@
    "vol": 23554,
    "vol5": 13579,
    "vsurge": 73.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "064800.KQ",
@@ -12943,7 +12943,7 @@
    "vol": 46250,
    "vol5": 26994,
    "vsurge": 71.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "189860.KQ",
@@ -13121,7 +13121,7 @@
    "vol": 53955,
    "vol5": 31826,
    "vsurge": 69.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "002630.KS",
@@ -13335,7 +13335,7 @@
    "vol": 38703,
    "vol5": 23057,
    "vsurge": 67.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "148780.KQ",
@@ -13521,7 +13521,7 @@
    "vol": 25216,
    "vol5": 15179,
    "vsurge": 66.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "119500.KQ",
@@ -13658,7 +13658,7 @@
    "vol": 5371,
    "vol5": 3260,
    "vsurge": 64.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "239890.KQ",
@@ -13682,7 +13682,7 @@
    "vol": 14428,
    "vol5": 8770,
    "vsurge": 64.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "241710.KQ",
@@ -13796,7 +13796,7 @@
    "vol": 98505,
    "vol5": 60126,
    "vsurge": 63.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "194700.KQ",
@@ -13820,7 +13820,7 @@
    "vol": 51702,
    "vol5": 31611,
    "vsurge": 63.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "475150.KS",
@@ -13859,7 +13859,7 @@
    "vol": 227523,
    "vol5": 139513,
    "vsurge": 63.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "082270.KQ",
@@ -13922,7 +13922,7 @@
    "vol": 11557,
    "vol5": 7095,
    "vsurge": 62.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "014620.KQ",
@@ -14063,7 +14063,7 @@
    "vol": 43748,
    "vol5": 27025,
    "vsurge": 61.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "065650.KQ",
@@ -14132,7 +14132,7 @@
    "vol": 58360,
    "vol5": 36142,
    "vsurge": 61.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "223310.KQ",
@@ -14225,7 +14225,7 @@
    "vol": 96945,
    "vol5": 60133,
    "vsurge": 61.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "475580.KQ",
@@ -14348,7 +14348,7 @@
    "vol": 60024,
    "vol5": 37486,
    "vsurge": 60.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "320000.KQ",
@@ -14417,7 +14417,7 @@
    "vol": 26313,
    "vol5": 16455,
    "vsurge": 59.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "450080.KS",
@@ -14525,7 +14525,7 @@
    "vol": 13058,
    "vol5": 8227,
    "vsurge": 58.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "024800.KQ",
@@ -14584,7 +14584,7 @@
    "vol": 36606,
    "vol5": 23103,
    "vsurge": 58.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "004380.KS",
@@ -14608,7 +14608,7 @@
    "vol": 51076,
    "vol5": 32236,
    "vsurge": 58.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "215100.KQ",
@@ -14761,7 +14761,7 @@
    "vol": 53817,
    "vol5": 34144,
    "vsurge": 57.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "215790.KQ",
@@ -15012,7 +15012,7 @@
    "vol": 21304,
    "vol5": 13628,
    "vsurge": 56.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "003620.KS",
@@ -15129,7 +15129,7 @@
    "vol": 102587,
    "vol5": 65827,
    "vsurge": 55.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "066620.KQ",
@@ -15300,7 +15300,7 @@
    "vol": 47792,
    "vol5": 30876,
    "vsurge": 54.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "012280.KS",
@@ -15443,7 +15443,7 @@
    "vol": 49825,
    "vol5": 32481,
    "vsurge": 53.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "110990.KQ",
@@ -15541,7 +15541,7 @@
    "vol": 110017,
    "vol5": 72192,
    "vsurge": 52.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "431190.KQ",
@@ -15692,7 +15692,7 @@
    "vol": 99787,
    "vol5": 65719,
    "vsurge": 51.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "468530.KQ",
@@ -15809,7 +15809,7 @@
    "vol": 20741,
    "vol5": 13751,
    "vsurge": 50.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "053290.KQ",
@@ -16016,7 +16016,7 @@
    "vol": 37098,
    "vol5": 24779,
    "vsurge": 49.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0001A0.KQ",
@@ -16178,7 +16178,7 @@
    "vol": 12476,
    "vol5": 8385,
    "vsurge": 48.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "187870.KQ",
@@ -16360,7 +16360,7 @@
    "vol": 35477,
    "vol5": 24018,
    "vsurge": 47.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "227950.KQ",
@@ -16414,7 +16414,7 @@
    "vol": 99172,
    "vol5": 67219,
    "vsurge": 47.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "333620.KQ",
@@ -16528,7 +16528,7 @@
    "vol": 20496,
    "vol5": 13965,
    "vsurge": 46.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "004000.KS",
@@ -16645,7 +16645,7 @@
    "vol": 34187,
    "vol5": 23396,
    "vsurge": 46.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "067390.KQ",
@@ -16728,7 +16728,7 @@
    "vol": 26464,
    "vol5": 18177,
    "vsurge": 45.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "101680.KQ",
@@ -16989,7 +16989,7 @@
    "vol": 13883,
    "vol5": 9663,
    "vsurge": 43.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "006140.KQ",
@@ -17018,7 +17018,7 @@
    "vol": 46077,
    "vol5": 32079,
    "vsurge": 43.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "445090.KQ",
@@ -17057,7 +17057,7 @@
    "vol": 50050,
    "vol5": 34978,
    "vsurge": 43.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "171090.KQ",
@@ -17111,7 +17111,7 @@
    "vol": 19085,
    "vol5": 13374,
    "vsurge": 42.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "089600.KQ",
@@ -17180,7 +17180,7 @@
    "vol": 64348,
    "vol5": 45202,
    "vsurge": 42.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "475400.KQ",
@@ -17258,7 +17258,7 @@
    "vol": 63748,
    "vol5": 44849,
    "vsurge": 42.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "042500.KQ",
@@ -17292,7 +17292,7 @@
    "vol": 117499,
    "vol5": 82687,
    "vsurge": 42.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "006910.KQ",
@@ -17415,7 +17415,7 @@
    "vol": 254495,
    "vol5": 180479,
    "vsurge": 41.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "288180.KQ",
@@ -17544,7 +17544,7 @@
    "vol": 264049,
    "vol5": 188093,
    "vsurge": 40.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "102940.KQ",
@@ -17637,7 +17637,7 @@
    "vol": 60274,
    "vol5": 43040,
    "vsurge": 40.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "052400.KQ",
@@ -18279,7 +18279,7 @@
    "vol": 143564,
    "vol5": 105232,
    "vsurge": 36.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "340440.KQ",
@@ -18372,7 +18372,7 @@
    "vol": 4403,
    "vol5": 3234,
    "vsurge": 36.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "290660.KQ",
@@ -18426,7 +18426,7 @@
    "vol": 116442,
    "vol5": 85729,
    "vsurge": 35.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "078600.KQ",
@@ -18647,7 +18647,7 @@
    "vol": 92942,
    "vol5": 69161,
    "vsurge": 34.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "005740.KS",
@@ -18844,7 +18844,7 @@
    "vol": 7836,
    "vol5": 5859,
    "vsurge": 33.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "044490.KQ",
@@ -19042,7 +19042,7 @@
    "vol": 50440,
    "vol5": 37962,
    "vsurge": 32.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "494120.KQ",
@@ -19171,7 +19171,7 @@
    "vol": 149812,
    "vol5": 113392,
    "vsurge": 32.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "215200.KQ",
@@ -19210,7 +19210,7 @@
    "vol": 22026,
    "vol5": 16719,
    "vsurge": 31.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "038110.KQ",
@@ -19377,7 +19377,7 @@
    "vol": 72560,
    "vol5": 55419,
    "vsurge": 30.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "180400.KQ",
@@ -19593,7 +19593,7 @@
    "vol": 10642,
    "vol5": 8188,
    "vsurge": 30.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "122990.KQ",
@@ -19627,7 +19627,7 @@
    "vol": 83196,
    "vol5": 63983,
    "vsurge": 30.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "067080.KQ",
@@ -19651,7 +19651,7 @@
    "vol": 39245,
    "vol5": 30186,
    "vsurge": 30.0,
-   "chart": false
+   "chart": true
   }
  ],
  "masig": [
@@ -27207,7 +27207,7 @@
    "vol": 112800,
    "vol5": 37872,
    "vsurge": 197.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "115500.KQ",
@@ -27231,7 +27231,7 @@
    "vol": 70389,
    "vol5": 68435,
    "vsurge": 2.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "140430.KQ",
@@ -27255,7 +27255,7 @@
    "vol": 246029,
    "vol5": 987696,
    "vsurge": -75.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "434480.KQ",
@@ -27284,7 +27284,7 @@
    "vol": 206891,
    "vol5": 243720,
    "vsurge": -15.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "228760.KQ",
@@ -27308,7 +27308,7 @@
    "vol": 64908,
    "vol5": 60734,
    "vsurge": 6.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "010780.KS",
@@ -27332,7 +27332,7 @@
    "vol": 41065,
    "vol5": 61308,
    "vsurge": -33.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "298830.KQ",
@@ -27356,7 +27356,7 @@
    "vol": 154160,
    "vol5": 144886,
    "vsurge": 6.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0015G0.KQ",
@@ -27380,7 +27380,7 @@
    "vol": 58912,
    "vol5": 31293,
    "vsurge": 88.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "474610.KQ",
@@ -27404,7 +27404,7 @@
    "vol": 77770,
    "vol5": 44558,
    "vsurge": 74.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "003090.KS",
@@ -27428,7 +27428,7 @@
    "vol": 31828,
    "vol5": 64671,
    "vsurge": -50.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "474650.KQ",
@@ -27452,7 +27452,7 @@
    "vol": 35477,
    "vol5": 24018,
    "vsurge": 47.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "237880.KQ",
@@ -27476,7 +27476,7 @@
    "vol": 48728,
    "vol5": 100978,
    "vsurge": -51.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "122990.KQ",
@@ -27510,7 +27510,7 @@
    "vol": 83196,
    "vol5": 63983,
    "vsurge": 30.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "192250.KQ",
@@ -27534,7 +27534,7 @@
    "vol": 63747,
    "vol5": 31769,
    "vsurge": 100.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "153890.KQ",
@@ -27558,7 +27558,7 @@
    "vol": 85947,
    "vol5": 49334,
    "vsurge": 74.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "377480.KQ",
@@ -27582,7 +27582,7 @@
    "vol": 62388,
    "vol5": 24938,
    "vsurge": 150.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "065660.KQ",
@@ -27606,7 +27606,7 @@
    "vol": 35614,
    "vol5": 16836,
    "vsurge": 111.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "037030.KQ",
@@ -27630,7 +27630,7 @@
    "vol": 188097,
    "vol5": 159606,
    "vsurge": 17.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "000070.KS",
@@ -27654,7 +27654,7 @@
    "vol": 9943,
    "vol5": 9073,
    "vsurge": 9.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "439580.KQ",
@@ -27678,7 +27678,7 @@
    "vol": 278983,
    "vol5": 68218,
    "vsurge": 309.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "086960.KQ",
@@ -27702,7 +27702,7 @@
    "vol": 254495,
    "vol5": 180479,
    "vsurge": 41.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "042500.KQ",
@@ -27736,7 +27736,7 @@
    "vol": 117499,
    "vol5": 82687,
    "vsurge": 42.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "059270.KQ",
@@ -27760,7 +27760,7 @@
    "vol": 120825,
    "vol5": 40274,
    "vsurge": 200.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "484870.KS",
@@ -27784,7 +27784,7 @@
    "vol": 40663,
    "vol5": 92290,
    "vsurge": -55.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "353810.KQ",
@@ -27808,7 +27808,7 @@
    "vol": 102587,
    "vol5": 65827,
    "vsurge": 55.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "001360.KS",
@@ -27832,7 +27832,7 @@
    "vol": 396927,
    "vol5": 222063,
    "vsurge": 78.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "484590.KQ",
@@ -27856,7 +27856,7 @@
    "vol": 96945,
    "vol5": 60133,
    "vsurge": 61.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "001500.KS",
@@ -27880,7 +27880,7 @@
    "vol": 69894,
    "vol5": 64183,
    "vsurge": 8.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "352480.KQ",
@@ -27909,7 +27909,7 @@
    "vol": 24376,
    "vol5": 13616,
    "vsurge": 79.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "005160.KQ",
@@ -27933,7 +27933,7 @@
    "vol": 163840,
    "vol5": 154038,
    "vsurge": 6.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "078520.KS",
@@ -27957,7 +27957,7 @@
    "vol": 53872,
    "vol5": 81569,
    "vsurge": -34.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "017890.KQ",
@@ -27981,7 +27981,7 @@
    "vol": 34003,
    "vol5": 82286,
    "vsurge": -58.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "078160.KQ",
@@ -28005,7 +28005,7 @@
    "vol": 54591,
    "vol5": 45070,
    "vsurge": 21.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "307930.KQ",
@@ -28029,7 +28029,7 @@
    "vol": 98505,
    "vol5": 60126,
    "vsurge": 63.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "299030.KQ",
@@ -28053,7 +28053,7 @@
    "vol": 46250,
    "vol5": 26994,
    "vsurge": 71.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "122350.KQ",
@@ -28077,7 +28077,7 @@
    "vol": 328030,
    "vol5": 356566,
    "vsurge": -8.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "039980.KQ",
@@ -28101,7 +28101,7 @@
    "vol": 109955,
    "vol5": 96457,
    "vsurge": 14.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "041020.KQ",
@@ -28125,7 +28125,7 @@
    "vol": 178043,
    "vol5": 101976,
    "vsurge": 74.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "020000.KS",
@@ -28149,7 +28149,7 @@
    "vol": 25796,
    "vol5": 32553,
    "vsurge": -20.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "282880.KQ",
@@ -28173,7 +28173,7 @@
    "vol": 50440,
    "vol5": 37962,
    "vsurge": 32.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "043150.KQ",
@@ -28197,7 +28197,7 @@
    "vol": 26464,
    "vol5": 18177,
    "vsurge": 45.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "094850.KQ",
@@ -28221,7 +28221,7 @@
    "vol": 116820,
    "vol5": 941823,
    "vsurge": -87.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "194700.KQ",
@@ -28245,7 +28245,7 @@
    "vol": 51702,
    "vol5": 31611,
    "vsurge": 63.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "456070.KQ",
@@ -28269,7 +28269,7 @@
    "vol": 102392,
    "vol5": 32013,
    "vsurge": 219.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "304360.KQ",
@@ -28293,7 +28293,7 @@
    "vol": 22026,
    "vol5": 16719,
    "vsurge": 31.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "405100.KQ",
@@ -28317,7 +28317,7 @@
    "vol": 32435,
    "vol5": 53795,
    "vsurge": -39.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "094940.KQ",
@@ -28341,7 +28341,7 @@
    "vol": 83916,
    "vol5": 35829,
    "vsurge": 134.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "014830.KS",
@@ -28365,7 +28365,7 @@
    "vol": 7836,
    "vol5": 5859,
    "vsurge": 33.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "049070.KQ",
@@ -28389,7 +28389,7 @@
    "vol": 28190,
    "vol5": 28731,
    "vsurge": -1.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "028100.KS",
@@ -28413,7 +28413,7 @@
    "vol": 21304,
    "vol5": 13628,
    "vsurge": 56.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "004380.KS",
@@ -28437,7 +28437,7 @@
    "vol": 51076,
    "vol5": 32236,
    "vsurge": 58.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "058970.KQ",
@@ -28461,7 +28461,7 @@
    "vol": 32430,
    "vol5": 16484,
    "vsurge": 96.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "125210.KQ",
@@ -28485,7 +28485,7 @@
    "vol": 72560,
    "vol5": 55419,
    "vsurge": 30.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "071200.KQ",
@@ -28514,7 +28514,7 @@
    "vol": 35290,
    "vol5": 59655,
    "vsurge": -40.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "253840.KQ",
@@ -28538,7 +28538,7 @@
    "vol": 99787,
    "vol5": 65719,
    "vsurge": 51.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "001520.KS",
@@ -28562,7 +28562,7 @@
    "vol": 384562,
    "vol5": 195685,
    "vsurge": 96.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "131030.KQ",
@@ -28586,7 +28586,7 @@
    "vol": 66338,
    "vol5": 31795,
    "vsurge": 108.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "005720.KS",
@@ -28610,7 +28610,7 @@
    "vol": 60811,
    "vol5": 62820,
    "vsurge": -3.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "317450.KS",
@@ -28634,7 +28634,7 @@
    "vol": 8833,
    "vol5": 12532,
    "vsurge": -29.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "417970.KQ",
@@ -28658,7 +28658,7 @@
    "vol": 42815,
    "vol5": 19074,
    "vsurge": 124.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "452450.KQ",
@@ -28687,7 +28687,7 @@
    "vol": 87256,
    "vol5": 47254,
    "vsurge": 84.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "200670.KQ",
@@ -28711,7 +28711,7 @@
    "vol": 16210,
    "vol5": 19042,
    "vsurge": -14.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "138610.KQ",
@@ -28735,7 +28735,7 @@
    "vol": 25216,
    "vol5": 15179,
    "vsurge": 66.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "033530.KS",
@@ -28764,7 +28764,7 @@
    "vol": 55821,
    "vol5": 44979,
    "vsurge": 24.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "067080.KQ",
@@ -28788,7 +28788,7 @@
    "vol": 39245,
    "vol5": 30186,
    "vsurge": 30.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "322180.KQ",
@@ -28812,7 +28812,7 @@
    "vol": 88263,
    "vol5": 46956,
    "vsurge": 88.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "475230.KQ",
@@ -28836,7 +28836,7 @@
    "vol": 46420,
    "vol5": 42269,
    "vsurge": 9.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "032850.KQ",
@@ -28865,7 +28865,7 @@
    "vol": 88953,
    "vol5": 29882,
    "vsurge": 197.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "006620.KQ",
@@ -28889,7 +28889,7 @@
    "vol": 99172,
    "vol5": 67219,
    "vsurge": 47.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "255440.KQ",
@@ -28913,7 +28913,7 @@
    "vol": 44165,
    "vol5": 46004,
    "vsurge": -4.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "041520.KQ",
@@ -28937,7 +28937,7 @@
    "vol": 31759,
    "vol5": 30326,
    "vsurge": 4.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "037440.KQ",
@@ -28961,7 +28961,7 @@
    "vol": 92942,
    "vol5": 69161,
    "vsurge": 34.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "099430.KQ",
@@ -28985,7 +28985,7 @@
    "vol": 100404,
    "vol5": 104303,
    "vsurge": -3.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "092220.KS",
@@ -29009,7 +29009,7 @@
    "vol": 147433,
    "vol5": 151779,
    "vsurge": -2.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "285490.KQ",
@@ -29033,7 +29033,7 @@
    "vol": 31409,
    "vol5": 29572,
    "vsurge": 6.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "241840.KQ",
@@ -29057,7 +29057,7 @@
    "vol": 157639,
    "vol5": 641068,
    "vsurge": -75.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "034830.KS",
@@ -29081,7 +29081,7 @@
    "vol": 331982,
    "vol5": 359855,
    "vsurge": -7.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "241770.KQ",
@@ -29105,7 +29105,7 @@
    "vol": 10620,
    "vol5": 12884,
    "vsurge": -17.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "023410.KQ",
@@ -29134,7 +29134,7 @@
    "vol": 97806,
    "vol5": 125620,
    "vsurge": -22.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "027050.KQ",
@@ -29158,7 +29158,7 @@
    "vol": 254092,
    "vol5": 1012493,
    "vsurge": -74.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "039560.KQ",
@@ -29182,7 +29182,7 @@
    "vol": 143564,
    "vol5": 105232,
    "vsurge": 36.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "104480.KQ",
@@ -29206,7 +29206,7 @@
    "vol": 177093,
    "vol5": 259561,
    "vsurge": -31.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "170900.KS",
@@ -29230,7 +29230,7 @@
    "vol": 9179,
    "vol5": 10422,
    "vsurge": -11.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "031430.KS",
@@ -29254,7 +29254,7 @@
    "vol": 31505,
    "vol5": 31169,
    "vsurge": 1.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0015S0.KQ",
@@ -29278,7 +29278,7 @@
    "vol": 51226,
    "vol5": 19628,
    "vsurge": 161.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "005680.KS",
@@ -29302,7 +29302,7 @@
    "vol": 27599,
    "vol5": 28623,
    "vsurge": -3.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "299170.KQ",
@@ -29326,7 +29326,7 @@
    "vol": 264049,
    "vol5": 188093,
    "vsurge": 40.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "198440.KQ",
@@ -29350,7 +29350,7 @@
    "vol": 252710,
    "vol5": 195475,
    "vsurge": 29.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "001340.KS",
@@ -29374,7 +29374,7 @@
    "vol": 71508,
    "vol5": 74665,
    "vsurge": -4.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "086820.KQ",
@@ -29398,7 +29398,7 @@
    "vol": 60024,
    "vol5": 37486,
    "vsurge": 60.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "474170.KQ",
@@ -29422,7 +29422,7 @@
    "vol": 60620,
    "vol5": 49773,
    "vsurge": 21.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "030610.KS",
@@ -29446,7 +29446,7 @@
    "vol": 37349,
    "vol5": 46835,
    "vsurge": -20.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "102260.KS",
@@ -29470,7 +29470,7 @@
    "vol": 86482,
    "vol5": 151859,
    "vsurge": -43.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "043370.KQ",
@@ -29494,7 +29494,7 @@
    "vol": 25348,
    "vol5": 32726,
    "vsurge": -22.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "095700.KQ",
@@ -29518,7 +29518,7 @@
    "vol": 143401,
    "vol5": 165089,
    "vsurge": -13.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "128540.KQ",
@@ -29542,7 +29542,7 @@
    "vol": 284556,
    "vol5": 854814,
    "vsurge": -66.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "950250.KQ",
@@ -29566,7 +29566,7 @@
    "vol": 132602,
    "vol5": 121373,
    "vsurge": 9.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "058630.KQ",
@@ -29590,7 +29590,7 @@
    "vol": 64348,
    "vol5": 45202,
    "vsurge": 42.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "228340.KQ",
@@ -29614,7 +29614,7 @@
    "vol": 102757,
    "vol5": 103943,
    "vsurge": -1.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "475040.KQ",
@@ -29638,7 +29638,7 @@
    "vol": 122595,
    "vol5": 131244,
    "vsurge": -6.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "002450.KS",
@@ -29662,7 +29662,7 @@
    "vol": 260151,
    "vol5": 907820,
    "vsurge": -71.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "118990.KQ",
@@ -29686,7 +29686,7 @@
    "vol": 47792,
    "vol5": 30876,
    "vsurge": 54.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "000220.KS",
@@ -29715,7 +29715,7 @@
    "vol": 67821,
    "vol5": 52745,
    "vsurge": 28.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "001290.KS",
@@ -29744,7 +29744,7 @@
    "vol": 61277,
    "vol5": 31352,
    "vsurge": 95.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "297890.KQ",
@@ -29768,7 +29768,7 @@
    "vol": 182600,
    "vol5": 220628,
    "vsurge": -17.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "206640.KQ",
@@ -29792,7 +29792,7 @@
    "vol": 25040,
    "vol5": 30751,
    "vsurge": -18.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "418550.KQ",
@@ -29816,7 +29816,7 @@
    "vol": 65339,
    "vol5": 55680,
    "vsurge": 17.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "035080.KQ",
@@ -29840,7 +29840,7 @@
    "vol": 20963,
    "vol5": 22953,
    "vsurge": -8.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "232830.KQ",
@@ -29864,7 +29864,7 @@
    "vol": 116442,
    "vol5": 85729,
    "vsurge": 35.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "378340.KQ",
@@ -29888,7 +29888,7 @@
    "vol": 26313,
    "vol5": 16455,
    "vsurge": 59.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "001260.KS",
@@ -29912,7 +29912,7 @@
    "vol": 32507,
    "vol5": 26859,
    "vsurge": 21.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "216080.KQ",
@@ -29936,7 +29936,7 @@
    "vol": 42793,
    "vol5": 55404,
    "vsurge": -22.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "289220.KQ",
@@ -29960,7 +29960,7 @@
    "vol": 203425,
    "vol5": 703548,
    "vsurge": -71.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "067000.KQ",
@@ -29984,7 +29984,7 @@
    "vol": 239333,
    "vol5": 95893,
    "vsurge": 149.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "045970.KQ",
@@ -30008,7 +30008,7 @@
    "vol": 68206,
    "vol5": 53085,
    "vsurge": 28.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "463020.KQ",
@@ -30032,7 +30032,7 @@
    "vol": 48562,
    "vol5": 25957,
    "vsurge": 87.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "480370.KS",
@@ -30056,7 +30056,7 @@
    "vol": 143531,
    "vol5": 136954,
    "vsurge": 4.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "060150.KQ",
@@ -30080,7 +30080,7 @@
    "vol": 82080,
    "vol5": 43154,
    "vsurge": 90.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "101930.KQ",
@@ -30109,7 +30109,7 @@
    "vol": 36606,
    "vol5": 23103,
    "vsurge": 58.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "149950.KQ",
@@ -30133,7 +30133,7 @@
    "vol": 25781,
    "vol5": 57584,
    "vsurge": -55.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0156T0.KQ",
@@ -30157,7 +30157,7 @@
    "vol": 37098,
    "vol5": 24779,
    "vsurge": 49.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "217330.KQ",
@@ -30181,7 +30181,7 @@
    "vol": 85753,
    "vol5": 309266,
    "vsurge": -72.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "056360.KQ",
@@ -30205,7 +30205,7 @@
    "vol": 47055,
    "vol5": 43059,
    "vsurge": 9.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "289930.KQ",
@@ -30229,7 +30229,7 @@
    "vol": 35650,
    "vol5": 38512,
    "vsurge": -7.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "273060.KQ",
@@ -30253,7 +30253,7 @@
    "vol": 53817,
    "vol5": 34144,
    "vsurge": 57.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "006140.KQ",
@@ -30282,7 +30282,7 @@
    "vol": 46077,
    "vol5": 32079,
    "vsurge": 43.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "222420.KQ",
@@ -30306,7 +30306,7 @@
    "vol": 227523,
    "vol5": 139513,
    "vsurge": 63.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "078000.KS",
@@ -30330,7 +30330,7 @@
    "vol": 16449,
    "vol5": 1762,
    "vsurge": 833.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "053080.KQ",
@@ -30354,7 +30354,7 @@
    "vol": 29900,
    "vol5": 30784,
    "vsurge": -2.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "310200.KQ",
@@ -30378,7 +30378,7 @@
    "vol": 104861,
    "vol5": 288597,
    "vsurge": -63.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "334890.KS",
@@ -30402,7 +30402,7 @@
    "vol": 73855,
    "vol5": 89197,
    "vsurge": -17.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "286940.KS",
@@ -30426,7 +30426,7 @@
    "vol": 13058,
    "vol5": 8227,
    "vsurge": 58.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "263800.KQ",
@@ -30450,7 +30450,7 @@
    "vol": 60274,
    "vol5": 43040,
    "vsurge": 40.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "371950.KQ",
@@ -30474,7 +30474,7 @@
    "vol": 69016,
    "vol5": 246328,
    "vsurge": -72.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "330350.KQ",
@@ -30498,7 +30498,7 @@
    "vol": 32270,
    "vol5": 26008,
    "vsurge": 24.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "489500.KQ",
@@ -30522,7 +30522,7 @@
    "vol": 10642,
    "vol5": 8188,
    "vsurge": 30.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "093240.KS",
@@ -30546,7 +30546,7 @@
    "vol": 149812,
    "vol5": 113392,
    "vsurge": 32.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "035000.KS",
@@ -30570,7 +30570,7 @@
    "vol": 32752,
    "vol5": 79299,
    "vsurge": -58.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "096760.KS",
@@ -30594,7 +30594,7 @@
    "vol": 54272,
    "vol5": 65961,
    "vsurge": -17.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "039020.KQ",
@@ -30628,7 +30628,7 @@
    "vol": 75587,
    "vol5": 40612,
    "vsurge": 86.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "003100.KQ",
@@ -30652,7 +30652,7 @@
    "vol": 10435,
    "vol5": 17428,
    "vsurge": -40.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "013570.KS",
@@ -30681,7 +30681,7 @@
    "vol": 48594,
    "vol5": 67161,
    "vsurge": -27.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "225530.KQ",
@@ -30705,7 +30705,7 @@
    "vol": 91029,
    "vol5": 51341,
    "vsurge": 77.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "404990.KS",
@@ -30729,7 +30729,7 @@
    "vol": 54517,
    "vol5": 68559,
    "vsurge": -20.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "018310.KQ",
@@ -30753,7 +30753,7 @@
    "vol": 13142,
    "vol5": 10961,
    "vsurge": 19.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "256940.KQ",
@@ -30777,7 +30777,7 @@
    "vol": 40405,
    "vol5": 40776,
    "vsurge": -0.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "005810.KS",
@@ -30801,7 +30801,7 @@
    "vol": 5687,
    "vol5": 11336,
    "vsurge": -49.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "010100.KS",
@@ -30825,7 +30825,7 @@
    "vol": 58496,
    "vol5": 66166,
    "vsurge": -11.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "307750.KQ",
@@ -30849,7 +30849,7 @@
    "vol": 96247,
    "vol5": 84248,
    "vsurge": 14.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "389680.KQ",
@@ -30873,7 +30873,7 @@
    "vol": 60618,
    "vol5": 27129,
    "vsurge": 123.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "092300.KQ",
@@ -30902,7 +30902,7 @@
    "vol": 68184,
    "vol5": 108502,
    "vsurge": -37.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "365900.KQ",
@@ -30926,7 +30926,7 @@
    "vol": 67875,
    "vol5": 19934,
    "vsurge": 240.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "001270.KS",
@@ -30950,7 +30950,7 @@
    "vol": 4403,
    "vol5": 3234,
    "vsurge": 36.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "293480.KS",
@@ -30974,7 +30974,7 @@
    "vol": 22200,
    "vol5": 38537,
    "vsurge": -42.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "025770.KQ",
@@ -30998,7 +30998,7 @@
    "vol": 23554,
    "vol5": 13579,
    "vsurge": 73.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "246690.KQ",
@@ -31022,7 +31022,7 @@
    "vol": 113491,
    "vol5": 62832,
    "vsurge": 80.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "107600.KQ",
@@ -31046,7 +31046,7 @@
    "vol": 19085,
    "vol5": 13374,
    "vsurge": 42.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "004980.KS",
@@ -31070,7 +31070,7 @@
    "vol": 25453,
    "vol5": 27025,
    "vsurge": -5.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "096350.KQ",
@@ -31094,7 +31094,7 @@
    "vol": 118937,
    "vol5": 67138,
    "vsurge": 77.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "315640.KQ",
@@ -31118,7 +31118,7 @@
    "vol": 112400,
    "vol5": 164106,
    "vsurge": -31.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "271940.KS",
@@ -31142,7 +31142,7 @@
    "vol": 17887,
    "vol5": 28735,
    "vsurge": -37.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "052860.KQ",
@@ -31166,7 +31166,7 @@
    "vol": 30022,
    "vol5": 36417,
    "vsurge": -17.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "058650.KS",
@@ -31190,7 +31190,7 @@
    "vol": 1397,
    "vol5": 673,
    "vsurge": 107.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "357550.KQ",
@@ -31214,7 +31214,7 @@
    "vol": 5950,
    "vol5": 8301,
    "vsurge": -28.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "065370.KQ",
@@ -31238,7 +31238,7 @@
    "vol": 59891,
    "vol5": 13136,
    "vsurge": 355.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "036090.KQ",
@@ -31262,7 +31262,7 @@
    "vol": 153992,
    "vol5": 123618,
    "vsurge": 24.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "302550.KQ",
@@ -31286,7 +31286,7 @@
    "vol": 64450,
    "vol5": 83755,
    "vsurge": -23.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "038290.KQ",
@@ -31310,7 +31310,7 @@
    "vol": 13883,
    "vol5": 9663,
    "vsurge": 43.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "000430.KS",
@@ -31334,7 +31334,7 @@
    "vol": 41060,
    "vol5": 51690,
    "vsurge": -20.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "199550.KQ",
@@ -31363,7 +31363,7 @@
    "vol": 50254,
    "vol5": 25991,
    "vsurge": 93.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "282620.KQ",
@@ -31387,7 +31387,7 @@
    "vol": 14109,
    "vol5": 27542,
    "vsurge": -48.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "054050.KQ",
@@ -31411,7 +31411,7 @@
    "vol": 25186,
    "vol5": 22681,
    "vsurge": 11.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "419080.KQ",
@@ -31435,7 +31435,7 @@
    "vol": 39278,
    "vol5": 19395,
    "vsurge": 102.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "054620.KQ",
@@ -31464,7 +31464,7 @@
    "vol": 43161,
    "vol5": 42222,
    "vsurge": 2.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "061090.KQ",
@@ -31488,7 +31488,7 @@
    "vol": 6202,
    "vol5": 7936,
    "vsurge": -21.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "004840.KS",
@@ -31512,7 +31512,7 @@
    "vol": 39971,
    "vol5": 14199,
    "vsurge": 181.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "365590.KQ",
@@ -31536,7 +31536,7 @@
    "vol": 110017,
    "vol5": 72192,
    "vsurge": 52.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "016590.KS",
@@ -31560,7 +31560,7 @@
    "vol": 16534,
    "vol5": 8220,
    "vsurge": 101.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "003920.KS",
@@ -31584,7 +31584,7 @@
    "vol": 3558,
    "vol5": 2017,
    "vsurge": 76.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "001750.KS",
@@ -31608,7 +31608,7 @@
    "vol": 8053,
    "vol5": 16155,
    "vsurge": -50.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "464490.KQ",
@@ -31632,7 +31632,7 @@
    "vol": 36440,
    "vol5": 13103,
    "vsurge": 178.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "382150.KQ",
@@ -31656,7 +31656,7 @@
    "vol": 47802,
    "vol5": 21284,
    "vsurge": 124.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "123410.KQ",
@@ -31680,7 +31680,7 @@
    "vol": 29662,
    "vol5": 34911,
    "vsurge": -15.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "356890.KQ",
@@ -31704,7 +31704,7 @@
    "vol": 59999,
    "vol5": 69077,
    "vsurge": -13.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "011700.KS",
@@ -31728,7 +31728,7 @@
    "vol": 73956,
    "vol5": 83473,
    "vsurge": -11.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "248170.KS",
@@ -31752,7 +31752,7 @@
    "vol": 6099,
    "vol5": 7699,
    "vsurge": -20.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "234080.KS",
@@ -31776,7 +31776,7 @@
    "vol": 13087,
    "vol5": 21490,
    "vsurge": -39.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "090470.KQ",
@@ -31800,7 +31800,7 @@
    "vol": 36251,
    "vol5": 31357,
    "vsurge": 15.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "290270.KQ",
@@ -31824,7 +31824,7 @@
    "vol": 58360,
    "vol5": 36142,
    "vsurge": 61.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "131400.KQ",
@@ -31848,7 +31848,7 @@
    "vol": 21459,
    "vol5": 29815,
    "vsurge": -28.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "108230.KQ",
@@ -31872,7 +31872,7 @@
    "vol": 55178,
    "vol5": 45632,
    "vsurge": 20.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "352700.KQ",
@@ -31896,7 +31896,7 @@
    "vol": 100046,
    "vol5": 21847,
    "vsurge": 357.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "084690.KS",
@@ -31920,7 +31920,7 @@
    "vol": 17388,
    "vol5": 21578,
    "vsurge": -19.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "032560.KS",
@@ -31949,7 +31949,7 @@
    "vol": 23225,
    "vol5": 122500,
    "vsurge": -81.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "237750.KQ",
@@ -31973,7 +31973,7 @@
    "vol": 39188,
    "vol5": 9416,
    "vsurge": 316.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "065440.KQ",
@@ -31997,7 +31997,7 @@
    "vol": 107986,
    "vol5": 85236,
    "vsurge": 26.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "019540.KQ",
@@ -32021,7 +32021,7 @@
    "vol": 28577,
    "vol5": 30872,
    "vsurge": -7.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "217270.KQ",
@@ -32045,7 +32045,7 @@
    "vol": 57529,
    "vol5": 27180,
    "vsurge": 111.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0218L0.KQ",
@@ -32069,7 +32069,7 @@
    "vol": 12431,
    "vol5": 11134,
    "vsurge": 11.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "037560.KS",
@@ -32093,7 +32093,7 @@
    "vol": 90053,
    "vol5": 77238,
    "vsurge": 16.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "004140.KS",
@@ -32117,7 +32117,7 @@
    "vol": 82880,
    "vol5": 109511,
    "vsurge": -24.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "007160.KS",
@@ -32141,7 +32141,7 @@
    "vol": 3081,
    "vol5": 1219,
    "vsurge": 152.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "009180.KS",
@@ -32165,7 +32165,7 @@
    "vol": 42513,
    "vol5": 37267,
    "vsurge": 14.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "014710.KS",
@@ -32189,7 +32189,7 @@
    "vol": 12352,
    "vol5": 3797,
    "vsurge": 225.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "048530.KQ",
@@ -32213,7 +32213,7 @@
    "vol": 45602,
    "vol5": 75174,
    "vsurge": -39.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "065530.KQ",
@@ -32237,7 +32237,7 @@
    "vol": 97007,
    "vol5": 51450,
    "vsurge": 88.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "007700.KS",
@@ -32261,7 +32261,7 @@
    "vol": 8735,
    "vol5": 10069,
    "vsurge": -13.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "003460.KS",
@@ -32285,7 +32285,7 @@
    "vol": 39139,
    "vol5": 46924,
    "vsurge": -16.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "271830.KQ",
@@ -32309,7 +32309,7 @@
    "vol": 123715,
    "vol5": 64219,
    "vsurge": 92.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "175250.KQ",
@@ -32333,7 +32333,7 @@
    "vol": 78880,
    "vol5": 76871,
    "vsurge": 2.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "251630.KQ",
@@ -32357,7 +32357,7 @@
    "vol": 34187,
    "vol5": 23396,
    "vsurge": 46.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "383930.KQ",
@@ -32391,7 +32391,7 @@
    "vol": 53955,
    "vol5": 31826,
    "vsurge": 69.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "177900.KQ",
@@ -32415,7 +32415,7 @@
    "vol": 38703,
    "vol5": 23057,
    "vsurge": 67.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "040420.KQ",
@@ -32444,7 +32444,7 @@
    "vol": 18008,
    "vol5": 30775,
    "vsurge": -41.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "049520.KQ",
@@ -32468,7 +32468,7 @@
    "vol": 29052,
    "vol5": 52043,
    "vsurge": -44.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "058400.KQ",
@@ -32492,7 +32492,7 @@
    "vol": 18488,
    "vol5": 29481,
    "vsurge": -37.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "469480.KQ",
@@ -32516,7 +32516,7 @@
    "vol": 38615,
    "vol5": 115922,
    "vsurge": -66.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "214390.KS",
@@ -32540,7 +32540,7 @@
    "vol": 20865,
    "vol5": 16848,
    "vsurge": 23.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "378800.KQ",
@@ -32564,7 +32564,7 @@
    "vol": 44525,
    "vol5": 42346,
    "vsurge": 5.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "051360.KQ",
@@ -32588,7 +32588,7 @@
    "vol": 9572,
    "vol5": 7650,
    "vsurge": 25.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "228850.KQ",
@@ -32612,7 +32612,7 @@
    "vol": 14145,
    "vol5": 23386,
    "vsurge": -39.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "034810.KQ",
@@ -32636,7 +32636,7 @@
    "vol": 18375,
    "vol5": 28174,
    "vsurge": -34.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "214680.KQ",
@@ -32660,7 +32660,7 @@
    "vol": 25450,
    "vol5": 41320,
    "vsurge": -38.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "004150.KS",
@@ -32684,7 +32684,7 @@
    "vol": 33529,
    "vol5": 90894,
    "vsurge": -63.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "043590.KQ",
@@ -32708,7 +32708,7 @@
    "vol": 56236,
    "vol5": 18357,
    "vsurge": 206.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "263720.KQ",
@@ -32732,7 +32732,7 @@
    "vol": 16974,
    "vol5": 14695,
    "vsurge": 15.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "023790.KQ",
@@ -32756,7 +32756,7 @@
    "vol": 76875,
    "vol5": 434644,
    "vsurge": -82.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "088790.KS",
@@ -32785,7 +32785,7 @@
    "vol": 41490,
    "vol5": 20072,
    "vsurge": 106.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "100220.KS",
@@ -32809,7 +32809,7 @@
    "vol": 19544,
    "vol5": 21507,
    "vsurge": -9.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "037070.KQ",
@@ -32833,7 +32833,7 @@
    "vol": 14403,
    "vol5": 58909,
    "vsurge": -75.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "096630.KQ",
@@ -32857,7 +32857,7 @@
    "vol": 63748,
    "vol5": 44849,
    "vsurge": 42.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "309960.KQ",
@@ -32881,7 +32881,7 @@
    "vol": 25572,
    "vol5": 34380,
    "vsurge": -25.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "064480.KQ",
@@ -32905,7 +32905,7 @@
    "vol": 43748,
    "vol5": 27025,
    "vsurge": 61.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "185490.KQ",
@@ -32929,7 +32929,7 @@
    "vol": 53379,
    "vol5": 26526,
    "vsurge": 101.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "064240.KQ",
@@ -32953,7 +32953,7 @@
    "vol": 50050,
    "vol5": 34978,
    "vsurge": 43.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "072020.KQ",
@@ -32977,7 +32977,7 @@
    "vol": 10082,
    "vol5": 11786,
    "vsurge": -14.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "023150.KS",
@@ -33001,7 +33001,7 @@
    "vol": 43823,
    "vol5": 45678,
    "vsurge": -4.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "000890.KS",
@@ -33025,7 +33025,7 @@
    "vol": 67820,
    "vol5": 206529,
    "vsurge": -67.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "006890.KS",
@@ -33049,7 +33049,7 @@
    "vol": 19986,
    "vol5": 23163,
    "vsurge": -13.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "095270.KQ",
@@ -33073,7 +33073,7 @@
    "vol": 23034,
    "vol5": 33049,
    "vsurge": -30.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "002800.KQ",
@@ -33097,7 +33097,7 @@
    "vol": 22695,
    "vol5": 23088,
    "vsurge": -1.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "004650.KQ",
@@ -33126,7 +33126,7 @@
    "vol": 9133,
    "vol5": 10223,
    "vsurge": -10.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "100700.KQ",
@@ -33150,7 +33150,7 @@
    "vol": 38229,
    "vol5": 38726,
    "vsurge": -1.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "131220.KQ",
@@ -33174,7 +33174,7 @@
    "vol": 22663,
    "vol5": 11837,
    "vsurge": 91.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "009460.KS",
@@ -33198,7 +33198,7 @@
    "vol": 33551,
    "vol5": 30163,
    "vsurge": 11.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "079810.KQ",
@@ -33222,7 +33222,7 @@
    "vol": 25635,
    "vol5": 33884,
    "vsurge": -24.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "063760.KQ",
@@ -33246,7 +33246,7 @@
    "vol": 33299,
    "vol5": 32520,
    "vsurge": 2.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "191420.KQ",
@@ -33270,7 +33270,7 @@
    "vol": 11660,
    "vol5": 6108,
    "vsurge": 90.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "336060.KQ",
@@ -33299,7 +33299,7 @@
    "vol": 25674,
    "vol5": 30428,
    "vsurge": -15.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "016710.KS",
@@ -33323,7 +33323,7 @@
    "vol": 11557,
    "vol5": 7095,
    "vsurge": 62.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "100030.KQ",
@@ -33347,7 +33347,7 @@
    "vol": 4195,
    "vol5": 5172,
    "vsurge": -18.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "053270.KQ",
@@ -33371,7 +33371,7 @@
    "vol": 42838,
    "vol5": 35375,
    "vsurge": 21.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "036030.KQ",
@@ -33395,7 +33395,7 @@
    "vol": 15832,
    "vol5": 37708,
    "vsurge": -58.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "049470.KQ",
@@ -33419,7 +33419,7 @@
    "vol": 39072,
    "vol5": 21952,
    "vsurge": 78.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "093190.KQ",
@@ -33443,7 +33443,7 @@
    "vol": 9741,
    "vol5": 10124,
    "vsurge": -3.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "014790.KS",
@@ -33467,7 +33467,7 @@
    "vol": 30576,
    "vol5": 55806,
    "vsurge": -45.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "478560.KQ",
@@ -33491,7 +33491,7 @@
    "vol": 24130,
    "vol5": 35760,
    "vsurge": -32.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "143160.KQ",
@@ -33515,7 +33515,7 @@
    "vol": 5371,
    "vol5": 3260,
    "vsurge": 64.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "008260.KS",
@@ -33539,7 +33539,7 @@
    "vol": 23084,
    "vol5": 35252,
    "vsurge": -34.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "032750.KQ",
@@ -33563,7 +33563,7 @@
    "vol": 26536,
    "vol5": 22021,
    "vsurge": 20.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "052330.KQ",
@@ -33587,7 +33587,7 @@
    "vol": 8040,
    "vol5": 7238,
    "vsurge": 11.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "146060.KQ",
@@ -33616,7 +33616,7 @@
    "vol": 69108,
    "vol5": 26936,
    "vsurge": 156.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "403490.KQ",
@@ -33640,7 +33640,7 @@
    "vol": 32093,
    "vol5": 30672,
    "vsurge": 4.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "046210.KQ",
@@ -33664,7 +33664,7 @@
    "vol": 64741,
    "vol5": 106230,
    "vsurge": -39.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "005710.KQ",
@@ -33688,7 +33688,7 @@
    "vol": 6058,
    "vol5": 5624,
    "vsurge": 7.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "458350.KQ",
@@ -33712,7 +33712,7 @@
    "vol": 27410,
    "vol5": 33370,
    "vsurge": -17.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "177350.KQ",
@@ -33736,7 +33736,7 @@
    "vol": 87345,
    "vol5": 324438,
    "vsurge": -73.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "460870.KQ",
@@ -33760,7 +33760,7 @@
    "vol": 27845,
    "vol5": 60496,
    "vsurge": -54.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "038010.KQ",
@@ -33794,7 +33794,7 @@
    "vol": 11910,
    "vol5": 22991,
    "vsurge": -48.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "011150.KS",
@@ -33818,7 +33818,7 @@
    "vol": 38982,
    "vol5": 31543,
    "vsurge": 23.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "352090.KQ",
@@ -33842,7 +33842,7 @@
    "vol": 17586,
    "vol5": 19803,
    "vsurge": -11.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "126880.KQ",
@@ -33866,7 +33866,7 @@
    "vol": 22293,
    "vol5": 41379,
    "vsurge": -46.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "155650.KQ",
@@ -33890,7 +33890,7 @@
    "vol": 18481,
    "vol5": 21253,
    "vsurge": -13.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "050960.KQ",
@@ -33914,7 +33914,7 @@
    "vol": 7372,
    "vol5": 2040,
    "vsurge": 261.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0013V0.KQ",
@@ -33938,7 +33938,7 @@
    "vol": 13407,
    "vol5": 10878,
    "vsurge": 23.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "031310.KQ",
@@ -33967,7 +33967,7 @@
    "vol": 61720,
    "vol5": 50126,
    "vsurge": 23.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "453860.KQ",
@@ -33991,7 +33991,7 @@
    "vol": 9239,
    "vol5": 10560,
    "vsurge": -12.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "000970.KS",
@@ -34015,7 +34015,7 @@
    "vol": 9089,
    "vol5": 12825,
    "vsurge": -29.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "013700.KS",
@@ -34039,7 +34039,7 @@
    "vol": 40554,
    "vol5": 116982,
    "vsurge": -65.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "023600.KQ",
@@ -34063,7 +34063,7 @@
    "vol": 6399,
    "vol5": 13626,
    "vsurge": -53.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "076080.KQ",
@@ -34092,7 +34092,7 @@
    "vol": 55255,
    "vol5": 20871,
    "vsurge": 164.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "037950.KQ",
@@ -34116,7 +34116,7 @@
    "vol": 18920,
    "vol5": 18420,
    "vsurge": 2.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "000140.KS",
@@ -34140,7 +34140,7 @@
    "vol": 7254,
    "vol5": 13213,
    "vsurge": -45.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "082210.KQ",
@@ -34164,7 +34164,7 @@
    "vol": 32010,
    "vol5": 26547,
    "vsurge": 20.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "348150.KQ",
@@ -34188,7 +34188,7 @@
    "vol": 20496,
    "vol5": 13965,
    "vsurge": 46.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "025620.KS",
@@ -34222,7 +34222,7 @@
    "vol": 9850,
    "vol5": 4084,
    "vsurge": 141.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "014130.KS",
@@ -34246,7 +34246,7 @@
    "vol": 22397,
    "vol5": 35371,
    "vsurge": -36.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "063080.KQ",
@@ -34270,7 +34270,7 @@
    "vol": 4866,
    "vol5": 8841,
    "vsurge": -45.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "014470.KQ",
@@ -34299,7 +34299,7 @@
    "vol": 49825,
    "vol5": 32481,
    "vsurge": 53.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "145170.KQ",
@@ -34323,7 +34323,7 @@
    "vol": 21028,
    "vol5": 22974,
    "vsurge": -8.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "038540.KQ",
@@ -34347,7 +34347,7 @@
    "vol": 26549,
    "vol5": 24480,
    "vsurge": 8.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "388610.KQ",
@@ -34371,7 +34371,7 @@
    "vol": 12476,
    "vol5": 8385,
    "vsurge": 48.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "342870.KQ",
@@ -34400,7 +34400,7 @@
    "vol": 13705,
    "vol5": 3755,
    "vsurge": 264.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "105550.KQ",
@@ -34424,7 +34424,7 @@
    "vol": 40763,
    "vol5": 38574,
    "vsurge": 5.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "472850.KQ",
@@ -34448,7 +34448,7 @@
    "vol": 13083,
    "vol5": 48460,
    "vsurge": -73.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "040300.KQ",
@@ -34472,7 +34472,7 @@
    "vol": 24531,
    "vol5": 34685,
    "vsurge": -29.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "122450.KQ",
@@ -34496,7 +34496,7 @@
    "vol": 22921,
    "vol5": 30675,
    "vsurge": -25.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "039570.KS",
@@ -34520,7 +34520,7 @@
    "vol": 7011,
    "vol5": 6194,
    "vsurge": 13.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "296640.KQ",
@@ -34544,7 +34544,7 @@
    "vol": 7427,
    "vol5": 11074,
    "vsurge": -32.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "002680.KQ",
@@ -34568,7 +34568,7 @@
    "vol": 16594,
    "vol5": 4185,
    "vsurge": 296.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "175140.KQ",
@@ -34592,7 +34592,7 @@
    "vol": 20741,
    "vol5": 13751,
    "vsurge": 50.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "009320.KS",
@@ -34626,7 +34626,7 @@
    "vol": 49875,
    "vol5": 43827,
    "vsurge": 13.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "079000.KQ",
@@ -34650,7 +34650,7 @@
    "vol": 14483,
    "vol5": 4737,
    "vsurge": 205.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "068290.KS",
@@ -34674,7 +34674,7 @@
    "vol": 7664,
    "vol5": 11900,
    "vsurge": -35.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "215480.KQ",
@@ -34698,7 +34698,7 @@
    "vol": 24174,
    "vol5": 28076,
    "vsurge": -13.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "072130.KS",
@@ -34722,7 +34722,7 @@
    "vol": 11166,
    "vol5": 22774,
    "vsurge": -51.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "007720.KQ",
@@ -34746,7 +34746,7 @@
    "vol": 45113,
    "vol5": 7828,
    "vsurge": 476.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "035610.KQ",
@@ -34770,7 +34770,7 @@
    "vol": 9150,
    "vol5": 21327,
    "vsurge": -57.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "291230.KQ",
@@ -34794,7 +34794,7 @@
    "vol": 21822,
    "vol5": 11306,
    "vsurge": 93.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "413640.KQ",
@@ -34818,7 +34818,7 @@
    "vol": 8313,
    "vol5": 9288,
    "vsurge": -10.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "017180.KS",
@@ -34842,7 +34842,7 @@
    "vol": 40788,
    "vol5": 49245,
    "vsurge": -17.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "239890.KQ",
@@ -34866,7 +34866,7 @@
    "vol": 14428,
    "vol5": 8770,
    "vsurge": 64.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "153460.KQ",
@@ -34890,7 +34890,7 @@
    "vol": 8939,
    "vol5": 1720,
    "vsurge": 419.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "006920.KQ",
@@ -34914,7 +34914,7 @@
    "vol": 16543,
    "vol5": 38678,
    "vsurge": -57.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "111110.KS",
@@ -34938,7 +34938,7 @@
    "vol": 6615,
    "vol5": 9902,
    "vsurge": -33.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "002870.KS",
@@ -34962,7 +34962,7 @@
    "vol": 42006,
    "vol5": 145292,
    "vsurge": -71.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "032080.KQ",
@@ -34986,7 +34986,7 @@
    "vol": 21197,
    "vol5": 7527,
    "vsurge": 181.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "306040.KQ",
@@ -35020,7 +35020,7 @@
    "vol": 20197,
    "vol5": 19531,
    "vsurge": 3.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "291650.KQ",
@@ -35044,7 +35044,7 @@
    "vol": 19114,
    "vol5": 27073,
    "vsurge": -29.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "036670.KQ",
@@ -35068,7 +35068,7 @@
    "vol": 7479,
    "vol5": 17833,
    "vsurge": -58.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "240600.KQ",
@@ -35092,7 +35092,7 @@
    "vol": 43033,
    "vol5": 13411,
    "vsurge": 220.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "252500.KQ",
@@ -35121,7 +35121,7 @@
    "vol": 15556,
    "vol5": 16236,
    "vsurge": -4.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "089140.KQ",
@@ -35145,7 +35145,7 @@
    "vol": 18517,
    "vol5": 22933,
    "vsurge": -19.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "043650.KQ",
@@ -35169,7 +35169,7 @@
    "vol": 10246,
    "vol5": 9304,
    "vsurge": 10.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "061250.KQ",
@@ -35193,7 +35193,7 @@
    "vol": 6347,
    "vol5": 6462,
    "vsurge": -1.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "002460.KS",
@@ -35222,7 +35222,7 @@
    "vol": 3133,
    "vol5": 5155,
    "vsurge": -39.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "000950.KS",
@@ -35246,7 +35246,7 @@
    "vol": 1100,
    "vol5": 1186,
    "vsurge": -7.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "160550.KQ",
@@ -35270,7 +35270,7 @@
    "vol": 29698,
    "vol5": 66796,
    "vsurge": -55.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "067730.KQ",
@@ -35299,7 +35299,7 @@
    "vol": 14861,
    "vol5": 12009,
    "vsurge": 23.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "196300.KQ",
@@ -35323,7 +35323,7 @@
    "vol": 9255,
    "vol5": 5111,
    "vsurge": 81.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "353590.KQ",
@@ -35347,7 +35347,7 @@
    "vol": 21172,
    "vol5": 16623,
    "vsurge": 27.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "369370.KQ",
@@ -35371,7 +35371,7 @@
    "vol": 10707,
    "vol5": 9919,
    "vsurge": 7.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "159580.KQ",
@@ -35395,7 +35395,7 @@
    "vol": 17092,
    "vol5": 23508,
    "vsurge": -27.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "069410.KQ",
@@ -35419,7 +35419,7 @@
    "vol": 15425,
    "vol5": 15476,
    "vsurge": -0.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "052600.KQ",
@@ -35443,7 +35443,7 @@
    "vol": 11892,
    "vol5": 10814,
    "vsurge": 10.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "173940.KQ",
@@ -35467,7 +35467,7 @@
    "vol": 13036,
    "vol5": 19814,
    "vsurge": -34.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "347890.KQ",
@@ -35491,7 +35491,7 @@
    "vol": 8375,
    "vol5": 10401,
    "vsurge": -19.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "064520.KQ",
@@ -35515,7 +35515,7 @@
    "vol": 21204,
    "vol5": 6893,
    "vsurge": 207.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "051380.KQ",
@@ -35539,7 +35539,7 @@
    "vol": 19642,
    "vol5": 24864,
    "vsurge": -21.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0131D0.KQ",
@@ -35563,7 +35563,7 @@
    "vol": 14383,
    "vol5": 21242,
    "vsurge": -32.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "079190.KQ",
@@ -35592,7 +35592,7 @@
    "vol": 21553,
    "vol5": 29659,
    "vsurge": -27.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "045300.KQ",
@@ -35616,7 +35616,7 @@
    "vol": 9839,
    "vol5": 25293,
    "vsurge": -61.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "196450.KQ",
@@ -35640,7 +35640,7 @@
    "vol": 7666,
    "vol5": 6449,
    "vsurge": 18.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "072990.KQ",
@@ -35664,7 +35664,7 @@
    "vol": 8205,
    "vol5": 17167,
    "vsurge": -52.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "007330.KQ",
@@ -35688,7 +35688,7 @@
    "vol": 2228,
    "vol5": 110509,
    "vsurge": -98.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "0101C0.KQ",
@@ -35712,7 +35712,7 @@
    "vol": 10839,
    "vol5": 3704,
    "vsurge": 192.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "134790.KS",
@@ -35736,7 +35736,7 @@
    "vol": 1238,
    "vol5": 603,
    "vsurge": 105.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "214270.KQ",
@@ -35760,7 +35760,7 @@
    "vol": 17076,
    "vol5": 37340,
    "vsurge": -54.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "083550.KQ",
@@ -35784,7 +35784,7 @@
    "vol": 6711,
    "vol5": 7020,
    "vsurge": -4.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "373170.KQ",
@@ -35808,7 +35808,7 @@
    "vol": 14095,
    "vol5": 7823,
    "vsurge": 80.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "417180.KQ",
@@ -35832,7 +35832,7 @@
    "vol": 6018,
    "vol5": 24405,
    "vsurge": -75.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "087600.KQ",
@@ -35856,7 +35856,7 @@
    "vol": 5782,
    "vol5": 21048,
    "vsurge": -72.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "332370.KQ",
@@ -35880,7 +35880,7 @@
    "vol": 4000,
    "vol5": 3371,
    "vsurge": 18.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "446070.KS",
@@ -35904,7 +35904,7 @@
    "vol": 4888,
    "vol5": 23230,
    "vsurge": -79.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "080470.KQ",
@@ -35928,7 +35928,7 @@
    "vol": 7474,
    "vol5": 9141,
    "vsurge": -18.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "067830.KS",
@@ -35952,7 +35952,7 @@
    "vol": 8046,
    "vol5": 24980,
    "vsurge": -67.8,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "465480.KQ",
@@ -35976,7 +35976,7 @@
    "vol": 5244,
    "vol5": 17224,
    "vsurge": -69.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "489210.KQ",
@@ -36000,7 +36000,7 @@
    "vol": 7231,
    "vol5": 8245,
    "vsurge": -12.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "153490.KQ",
@@ -36029,7 +36029,7 @@
    "vol": 4399,
    "vol5": 4887,
    "vsurge": -10.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "224110.KQ",
@@ -36053,7 +36053,7 @@
    "vol": 1920,
    "vol5": 3911,
    "vsurge": -50.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "035200.KQ",
@@ -36077,7 +36077,7 @@
    "vol": 4741,
    "vol5": 17723,
    "vsurge": -73.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "133820.KS",
@@ -36101,7 +36101,7 @@
    "vol": 12825,
    "vol5": 69085,
    "vsurge": -81.4,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "095720.KS",
@@ -36125,7 +36125,7 @@
    "vol": 10007,
    "vol5": 25443,
    "vsurge": -60.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "038950.KQ",
@@ -36149,7 +36149,7 @@
    "vol": 3961,
    "vol5": 4041,
    "vsurge": -2.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "188260.KQ",
@@ -36178,7 +36178,7 @@
    "vol": 5306,
    "vol5": 13920,
    "vsurge": -61.9,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "034590.KS",
@@ -36202,7 +36202,7 @@
    "vol": 398,
    "vol5": 3404,
    "vsurge": -88.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "084440.KQ",
@@ -36226,7 +36226,7 @@
    "vol": 2121,
    "vol5": 6181,
    "vsurge": -65.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "084870.KS",
@@ -36255,7 +36255,7 @@
    "vol": 4333,
    "vol5": 16489,
    "vsurge": -73.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "080010.KQ",
@@ -36279,7 +36279,7 @@
    "vol": 1335,
    "vol5": 2126,
    "vsurge": -37.2,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "051390.KQ",
@@ -36308,7 +36308,7 @@
    "vol": 2218,
    "vol5": 3932,
    "vsurge": -43.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "050120.KQ",
@@ -36332,7 +36332,7 @@
    "vol": 2551,
    "vol5": 6089,
    "vsurge": -58.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "016800.KS",
@@ -36356,7 +36356,7 @@
    "vol": 341,
    "vol5": 855,
    "vsurge": -60.1,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "039290.KQ",
@@ -36380,7 +36380,7 @@
    "vol": 2752,
    "vol5": 5500,
    "vsurge": -50.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "106240.KQ",
@@ -36404,7 +36404,7 @@
    "vol": 5640,
    "vol5": 18189,
    "vsurge": -69.0,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "006090.KS",
@@ -36428,7 +36428,7 @@
    "vol": 698,
    "vol5": 2642,
    "vsurge": -73.6,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "032800.KQ",
@@ -36452,7 +36452,7 @@
    "vol": 3702,
    "vol5": 7991,
    "vsurge": -53.7,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "014570.KQ",
@@ -36476,7 +36476,7 @@
    "vol": 1543,
    "vol5": 8267,
    "vsurge": -81.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "489730.KQ",
@@ -36500,7 +36500,7 @@
    "vol": 1081,
    "vol5": 16143,
    "vsurge": -93.3,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "002600.KS",
@@ -36524,7 +36524,7 @@
    "vol": 4,
    "vol5": 10,
    "vsurge": -61.5,
-   "chart": false
+   "chart": true
   },
   {
    "ticker": "017250.KQ",
@@ -36553,7 +36553,7 @@
    "vol": 292,
    "vol5": 13240,
    "vsurge": -97.8,
-   "chart": false
+   "chart": true
   }
  ],
  "masig_cfg": {
