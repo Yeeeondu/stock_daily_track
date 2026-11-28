@@ -438,7 +438,7 @@ function stockSections(day, mk) {
   return `<p class="muted small" style="margin:18px 0 -14px">${fmtDate(day.date)} 기준 · 집계 ${day.priced?.toLocaleString()}종목 · 신고가: ${esc(day.criteria)} · 오른쪽 차트는 왼쪽에서 종목을 누르면 바뀝니다</p>`
     + panelHTML(`${mk}-high`, '신고가', day.newhigh, { metric: 'd1', copy: true, fx: mk !== 'us' })
     + (day.rising ? panelHTML(`${mk}-rise`, `최근 시장 대비 강세 <span class="small muted">(1주·1달 모두 ${BENCH[mk] || '지수'}보다 강한 종목 · 숫자는 1주+1달 초과수익 합계)</span>`, day.rising, { metric: 'score', fx: mk !== 'us' }) : '')
-    + (day.masig ? panelHTML(`${mk}-ma`, `이평선 신호 <span class="small muted">(${maNote(day)})</span>`, day.masig, { metric: 'sig', groups: SIG_G, fx: mk !== 'us' }) : '')
+    + (day.masig ? panelHTML(`${mk}-ma`, `이평선 신호 <span class="small muted">(${maNote(day)})</span>`, day.masig, { metric: 'sig', groups: SIG_G }) : '')
     + (day.vsurge ? panelHTML(`${mk}-vol`, '거래량 급증 <span class="small muted">(당일 거래량이 직전 5거래일 평균보다 30% 이상 많은 종목 · 숫자는 거래량 증가율)</span>', day.vsurge, { metric: 'vsurge' }) : '')
     + panelHTML(`${mk}-d1`, '일간 상승률 상위', day.top_d1, { metric: 'd1', fx: mk !== 'us' })
     + panelHTML(`${mk}-w1`, wkTitle(day), day.top_w1, { metric: 'w1', fx: mk !== 'us' });

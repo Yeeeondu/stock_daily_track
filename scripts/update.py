@@ -555,6 +555,25 @@ def run_stocks(market):
     })
     add_index(market, ds)
     log(f"저장 완료: docs/data/{market}/{ds}.json")
+    prune_charts(market, trade_date)
+
+
+def prune_charts(market, trade_date, days=30):
+    """30일 넘게 갱신되지 않은 차트 파일 삭제 (저장소·사이트 용량 관리)."""
+    cut = (trade_date - pd.Timedelta(days=days)).strftime("%Y-%m-%d")
+    n = 0
+    for f in (DATA / "charts" / market).glob("*.json"):
+        try:
+            with open(f, encoding="utf-8") as fh:
+                head = fh.read(300)
+            m = re.search(r'"updated":"(\d{4}-\d{2}-\d{2})"', head)
+            if m and m.group(1) < cut:
+                f.unlink()
+                n += 1
+        except Exception:  # noqa: BLE001
+            pass
+    if n:
+        log(f"오래된 차트 파일 {n}개 정리")
 
 
 def criteria_text():
